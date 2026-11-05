@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>BT-INVEST cover</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700;800&family=Literata:opsz,wght@7..72,600;7..72,700&family=JetBrains+Mono:wght@600;700&display=swap">
+<style>
+/* Ảnh bìa Facebook 1640×624 (gấp đôi khung 820×312 trên máy tính).
+   Nội dung chính nằm trong vùng giữa ~1100px để điện thoại (cắt hai bên) vẫn thấy đủ; góc dưới trái để trống cho ảnh đại diện. */
+:root { --navy: #0C2A63; --navy2: #17408F; --gold: #E0B04A; --up: #19B47A; --down: #E0505A; }
+body { margin: 0; background: #ccc; }
+.cover { width: 1640px; height: 624px; position: relative; overflow: hidden; color: #fff; font-family: "Be Vietnam Pro", Arial, sans-serif;
+  background: radial-gradient(circle at 78% 30%, var(--navy2), var(--navy) 55%, #071A40); }
+.grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 52px 52px; }
+.tape { position: absolute; left: 0; right: 0; top: 0; height: 46px; display: flex; align-items: center; gap: 44px; padding: 0 40px; white-space: nowrap;
+  background: rgba(4, 14, 36, .55); border-bottom: 1px solid rgba(255,255,255,.08); font: 600 17px/1 "JetBrains Mono", monospace; color: #C9D6F0; letter-spacing: .02em; }
+.tape b { color: var(--up); font-weight: 700; margin-left: 8px; } .tape i { font-style: normal; color: var(--gold); margin-left: 8px; }
+/* biểu đồ nến chạy ngang nền, tăng dần về phải */
+.chart { position: absolute; left: 0; right: 0; bottom: 0; height: 420px; display: flex; align-items: flex-end; gap: 22px; padding: 0 40px 70px; opacity: .2; }
+.c { flex: none; width: 26px; border-radius: 4px; position: relative; }
+.c::before { content: ""; position: absolute; left: 12px; width: 3px; top: -22px; bottom: -16px; background: inherit; border-radius: 2px; }
+.c.u { background: var(--up); } .c.d { background: var(--down); } .c.g { background: var(--gold); }
+.trend { position: absolute; inset: 0; }
+.main { position: absolute; left: 50%; top: 92px; transform: translateX(-50%); width: 1080px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.brand { display: flex; align-items: center; gap: 22px; }
+.mark { width: 92px; height: 92px; border-radius: 22px; background: radial-gradient(circle at 30% 20%, #1D4FA8, #0A2357 70%); border: 2px solid rgba(255,255,255,.18);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.mark span { font: 800 40px/1 "Be Vietnam Pro"; letter-spacing: -2px; } .mark span i { font-style: normal; color: var(--gold); }
+.mark em { display: flex; align-items: flex-end; gap: 4px; height: 16px; } .mark em b { width: 6px; border-radius: 2px; display: block; }
+.word { font: 800 92px/1 "Be Vietnam Pro"; letter-spacing: 2px; } .word i { font-style: normal; color: var(--gold); }
+h1 { margin: 6px 0 0; font: 700 41px/1.15 "Literata", Georgia, serif; letter-spacing: -.3px; white-space: nowrap; }
+.pills { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+.pills span { padding: 9px 18px; border-radius: 999px; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.16); font: 600 21px/1.2 "Be Vietnam Pro"; color: #E3EAF8; }
+.pills span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--up); margin-right: 10px; vertical-align: 2px; }
+.contact { margin-top: 8px; display: flex; gap: 26px; align-items: center; font: 700 30px/1 "Be Vietnam Pro"; }
+.contact .hot { color: #0A1B3F; background: var(--gold); padding: 12px 24px; border-radius: 12px; }
+.contact .web { font: 600 24px/1 "Be Vietnam Pro"; color: #C9D6F0; }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <div class="grid"></div>
+  <div class="chart" id="chart"></div>
+  <svg class="trend" viewBox="0 0 1640 624" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 560 C 220 540, 300 500, 420 510 S 640 430, 760 450 S 980 360, 1100 330 S 1380 230, 1640 150" fill="none" stroke="#E0B04A" stroke-width="3" opacity=".35"/>
+  </svg>
+  <div class="tape">
+    <span>LUẬT CK HỢP NHẤT<b>▲ 2025</b></span><span>NĐ 245/2025<b>▲ CẬP NHẬT</b></span><span>TT 135/2025<b>▲ MỚI</b></span>
+    <span>NGÂN HÀNG CÂU HỎI<i>452</i></span><span>MỐC ĐẠT<i>60% MỖI PHẦN</i></span><span>MÔI GIỚI<b>▲</b></span><span>PHÂN TÍCH TÀI CHÍNH<b>▲</b></span><span>QUẢN LÝ QUỸ<b>▲</b></span>
+  </div>
+  <div class="main">
+    <div class="brand">
+      <div class="mark"><span>B<i>T</i></span><em><b style="height:7px;background:var(--down)"></b><b style="height:11px;background:var(--up)"></b><b style="height:16px;background:var(--gold)"></b></em></div>
+      <div class="word">BT-<i>INVEST</i></div>
+    </div>
+    <h1>Luyện thi chứng chỉ hành nghề chứng khoán 2026</h1>
+    <div class="pills"><span>Bám sát luật hiện hành</span><span>Thi thử đúng cấu trúc</span><span>Ôn lặp lại thông minh</span></div>
+    <div class="contact"><span class="hot">Hotline / Zalo: 0942 037 820</span><span class="web">luyenthicchn-dist.vercel.app</span></div>
+  </div>
+</div>
+<script>
+  // nến nền: đi lên dần, xen kẽ vài nến giảm cho giống biểu đồ thật
+  const h = [70, 95, 80, 120, 105, 140, 125, 160, 150, 185, 170, 205, 190, 230, 215, 250, 240, 270, 255, 290, 280, 305, 295, 320, 310, 335, 325, 345, 338, 352, 345, 360, 355, 370, 362, 378, 372, 385];
+  document.getElementById('chart').innerHTML = h.map((v, i) => `<div class="c ${i === h.length - 1 ? 'g' : (i % 4 === 3 ? 'd' : 'u')}" style="height:${v - 40}px"></div>`).join('');
+</script>
+</body>
+</html>
