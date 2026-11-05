@@ -1,0 +1,9 @@
+# Bản PDF gốc rất nặng: tải lại từ nguồn chính thức (danh mục trong BAO_CAO.md); bản chữ ở tai_lieu_phap_ly/van_ban_txt/ vẫn được giữ để kiểm tra trích dẫn
+tai_lieu_phap_ly/*.pdf
+# Bản lưu trang của bên thứ ba chỉ để nghiên cứu, không đưa lên kho mã
+phan_tich_web/
+__pycache__/
+*.pyc
+.DS_Store
+# Bản soát ngân hàng câu hỏi của trang bên thứ ba (chứa nội dung của họ), chỉ giữ trên máy
+soat_xet/

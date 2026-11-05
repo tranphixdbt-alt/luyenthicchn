@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "C3-001",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "level": 1,
+  "q": "Theo quan điểm tài chính doanh nghiệp hiện đại, mục tiêu cơ bản mà nhà tư vấn tài chính hướng tới khi tư vấn cho một công ty cổ phần là gì?",
+  "o": [
+   "Tối đa hóa lợi nhuận kế toán sau thuế của năm tài chính hiện hành",
+   "Tối đa hóa giá trị tài sản của cổ đông, thể hiện qua giá cổ phiếu",
+   "Tối đa hóa doanh thu và thị phần của doanh nghiệp trong ngành",
+   "Tối thiểu hóa số thuế thu nhập doanh nghiệp phải nộp hằng năm"
+  ],
+  "a": 1,
+  "e": "Mục tiêu của tài chính doanh nghiệp là tối đa hóa giá trị cho chủ sở hữu (giá cổ phiếu), có tính đến quy mô, thời điểm và rủi ro của dòng tiền. Lợi nhuận kế toán, doanh thu hay tiết kiệm thuế chỉ là mục tiêu trung gian và có thể mâu thuẫn với giá trị dài hạn.",
+  "basis": "Mục tiêu tối đa hóa giá trị doanh nghiệp/giá trị tài sản của cổ đông",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-002",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "level": 2,
+  "q": "Khoản chi nào sau đây là ví dụ điển hình của chi phí đại diện (agency cost) phát sinh từ mâu thuẫn lợi ích giữa cổ đông và ban điều hành?",
+  "o": [
+   "Chi phí lãi vay doanh nghiệp trả cho ngân hàng theo hợp đồng tín dụng",
+   "Chi phí kiểm toán độc lập và thưởng cổ phiếu để giám sát, ràng buộc ban điều hành",
+   "Chi phí khấu hao máy móc, thiết bị phục vụ hoạt động sản xuất kinh doanh",
+   "Thuế thu nhập doanh nghiệp nộp ngân sách nhà nước theo quy định"
+  ],
+  "a": 1,
+  "e": "Chi phí đại diện gồm chi phí giám sát, chi phí ràng buộc và tổn thất còn lại khi người quản lý (người đại diện) không hành động hoàn toàn vì lợi ích cổ đông (người chủ). Lãi vay, khấu hao, thuế là các chi phí hoạt động/tài chính thông thường.",
+  "basis": "Lý thuyết đại diện (agency theory) – quan hệ giữa cổ đông và người quản lý",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-003",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "level": 2,
+  "q": "Dịch vụ nào sau đây KHÔNG thuộc phạm vi tư vấn tài chính doanh nghiệp mà công ty chứng khoán cung cấp cho khách hàng?",
+  "o": [
+   "Tư vấn tái cấu trúc tài chính, cơ cấu vốn và phương án huy động vốn",
+   "Tư vấn lập hồ sơ chào bán, niêm yết chứng khoán của doanh nghiệp",
+   "Tư vấn định giá doanh nghiệp trong giao dịch mua bán, sáp nhập",
+   "Kiểm toán và phát hành ý kiến kiểm toán về báo cáo tài chính năm của khách hàng"
+  ],
+  "a": 3,
+  "e": "Tư vấn tài chính doanh nghiệp gồm tư vấn cơ cấu vốn, huy động vốn, chào bán/niêm yết, M&A, định giá, cổ phần hóa… Kiểm toán báo cáo tài chính là dịch vụ đảm bảo do doanh nghiệp kiểm toán độc lập thực hiện, không phải nghiệp vụ của CTCK; việc kiểm toán chính khách hàng mình tư vấn còn vi phạm tính độc lập.",
+  "basis": "Phạm vi nghiệp vụ tư vấn tài chính doanh nghiệp của công ty chứng khoán",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-004",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 3,
+  "q": "Dự án cần vốn đầu tư ban đầu 10 tỷ đồng (năm 0), tạo dòng tiền ròng cuối các năm 1, 2, 3, 4 lần lượt là 3; 4; 5 và 3 tỷ đồng. Chi phí vốn của dự án là 12%/năm. NPV của dự án xấp xỉ bằng bao nhiêu?",
+  "o": [
+   "1,33 tỷ đồng",
+   "1,84 tỷ đồng",
+   "2,69 tỷ đồng",
+   "5,00 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "NPV = 3/1,12 + 4/1,12² + 5/1,12³ + 3/1,12⁴ − 10 = 2,6786 + 3,1888 + 3,5589 + 1,9066 − 10 ≈ 1,33 tỷ đồng. Không chiết khấu cho 5,00; chiết khấu 10% cho 1,84; chiết khấu lệch một kỳ cho 2,69.",
+  "basis": "NPV = Σ CFt/(1+r)^t − I0",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-005",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 3,
+  "q": "Dự án đầu tư 1.000 triệu đồng tại năm 0, dòng tiền ròng cuối năm 1, 2, 3 lần lượt là 400; 500; 300 triệu đồng. Tỷ suất hoàn vốn nội bộ (IRR) của dự án gần nhất với giá trị nào?",
+  "o": [
+   "6,7%",
+   "9,3%",
+   "10,1%",
+   "20,0%"
+  ],
+  "a": 2,
+  "e": "IRR là r thỏa 400/(1+r) + 500/(1+r)² + 300/(1+r)³ = 1.000. Tại r = 10%: PV = 1.002,25 > 1.000 (NPV = 2,25); nội suy/giải lặp được IRR ≈ 10,13%. Đảo thứ tự dòng tiền (300; 500; 400) cho 9,3%; lợi nhuận bình quân/vốn đầu tư cho 6,7%; tổng lợi suất không chiết khấu là 20,0%.",
+  "basis": "IRR: tỷ suất chiết khấu làm NPV = 0",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-006",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 3,
+  "q": "Dự án cần vốn đầu tư ban đầu 800 triệu đồng, tạo dòng tiền ròng 300 triệu đồng cuối mỗi năm trong 4 năm. Chi phí vốn 14%/năm. Chỉ số sinh lời (PI) của dự án là bao nhiêu?",
+  "o": [
+   "0,09",
+   "0,92",
+   "1,09",
+   "1,50"
+  ],
+  "a": 2,
+  "e": "PV dòng tiền = 300 × [1 − 1,14⁻⁴]/0,14 = 300 × 2,9137 = 874,11 triệu đồng; PI = PV/I0 = 874,11/800 ≈ 1,09 > 1 nên dự án đáng giá. NPV/I0 = 0,09; I0/PV = 0,92; không chiết khấu cho 1.200/800 = 1,50.",
+  "basis": "PI = PV dòng tiền vào / Vốn đầu tư ban đầu",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-007",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 3,
+  "q": "Dự án đầu tư 1.000 triệu đồng, dòng tiền ròng đều 350 triệu đồng cuối mỗi năm trong 4 năm, chi phí vốn 10%/năm. Thời gian hoàn vốn có chiết khấu của dự án xấp xỉ bao nhiêu năm?",
+  "o": [
+   "2,86 năm",
+   "3,37 năm",
+   "3,54 năm",
+   "4,00 năm"
+  ],
+  "a": 2,
+  "e": "PV các năm: 318,18; 289,26; 262,96; 239,05. Lũy kế sau năm 3 = 870,40, còn thiếu 129,60. DPP = 3 + 129,60/239,05 ≈ 3,54 năm. Hoàn vốn giản đơn = 1.000/350 = 2,86 năm; chia phần thiếu cho dòng tiền chưa chiết khấu cho 3,37 năm.",
+  "basis": "Thời gian hoàn vốn có chiết khấu (discounted payback)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-008",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 1,
+  "q": "Khi thẩm định dòng tiền tăng thêm của một dự án mới, khoản mục nào sau đây KHÔNG được đưa vào dòng tiền của dự án?",
+  "o": [
+   "Chi phí cơ hội của mặt bằng doanh nghiệp đang sở hữu sẽ dùng cho dự án",
+   "Nhu cầu vốn lưu động ròng tăng thêm khi dự án đi vào hoạt động",
+   "Khoản tiết kiệm thuế nhờ chi phí khấu hao tài sản của dự án",
+   "Chi phí khảo sát thị trường đã chi trước khi ra quyết định đầu tư"
+  ],
+  "a": 3,
+  "e": "Chi phí khảo sát đã chi là chi phí chìm: đã phát sinh và không thay đổi dù chấp nhận hay bác bỏ dự án, nên không đưa vào dòng tiền tăng thêm. Chi phí cơ hội, vốn lưu động tăng thêm và lá chắn thuế khấu hao đều là dòng tiền phù hợp.",
+  "basis": "Nguyên tắc xác định dòng tiền tăng thêm: loại chi phí chìm, tính chi phí cơ hội",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-009",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "level": 2,
+  "q": "Khi xếp hạng hai dự án loại trừ lẫn nhau mà tiêu chuẩn NPV và IRR cho kết quả mâu thuẫn, doanh nghiệp nên lựa chọn như thế nào?",
+  "o": [
+   "Chọn theo IRR, vì tỷ lệ phần trăm dễ so sánh hơn giữa các dự án có quy mô khác nhau",
+   "Chọn dự án có thời gian hoàn vốn ngắn hơn, vì rủi ro thấp hơn",
+   "Chọn theo NPV, vì NPV đo trực tiếp giá trị tăng thêm cho cổ đông",
+   "Chọn dự án có tổng dòng tiền chưa chiết khấu lớn hơn, vì tạo nhiều tiền hơn"
+  ],
+  "a": 2,
+  "e": "Mâu thuẫn NPV–IRR thường do khác biệt quy mô hoặc thời điểm dòng tiền. NPV giả định tái đầu tư ở chi phí vốn và phản ánh trực tiếp mức tăng giá trị cổ đông; IRR giả định tái đầu tư ở chính IRR và bỏ qua quy mô, nên ưu tiên NPV.",
+  "basis": "So sánh tiêu chuẩn NPV và IRR với dự án loại trừ nhau",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-010",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 3,
+  "q": "Doanh nghiệp có vốn chủ sở hữu giá trị sổ sách 250 tỷ đồng, giá trị thị trường 700 tỷ đồng; nợ vay có giá trị sổ sách và giá trị thị trường đều là 300 tỷ đồng. Chi phí vốn chủ sở hữu 14%, lãi suất vay trước thuế 9%, thuế suất thuế TNDN 20%. WACC tính theo trọng số giá trị thị trường là bao nhiêu?",
+  "o": [
+   "10,29%",
+   "10,60%",
+   "11,96%",
+   "12,50%"
+  ],
+  "a": 2,
+  "e": "Trọng số thị trường: E = 700/1.000 = 70%, D = 300/1.000 = 30%. Chi phí nợ sau thuế = 9% × (1 − 20%) = 7,2%. WACC = 70% × 14% + 30% × 7,2% = 9,80% + 2,16% = 11,96%. Dùng trọng số sổ sách (250/550 và 300/550) cho 10,29%; bình quân giản đơn (14% + 7,2%)/2 cho 10,60%; bỏ qua lá chắn thuế lãi vay cho 12,50%.",
+  "basis": "WACC = wE·rE + wD·rD·(1 − t), trọng số theo giá trị thị trường",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-011",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 2,
+  "q": "Nhận định nào sau đây đúng về chi phí sử dụng vốn của lợi nhuận giữ lại?",
+  "o": [
+   "Bằng 0 vì doanh nghiệp không phải chi trả cho bất kỳ ai khi sử dụng nguồn vốn này",
+   "Là chi phí cơ hội, bằng tỷ suất sinh lời mà cổ đông đòi hỏi trên vốn cổ phần",
+   "Bằng lãi suất tiền gửi ngân hàng mà doanh nghiệp đang được hưởng",
+   "Cao hơn chi phí sử dụng vốn cổ phiếu mới vì đã chịu thuế TNDN"
+  ],
+  "a": 1,
+  "e": "Lợi nhuận giữ lại thuộc về cổ đông; nếu giữ lại thì cổ đông mất cơ hội tự đầu tư, nên chi phí của nó bằng tỷ suất sinh lời đòi hỏi trên vốn cổ phần (rE). Cổ phiếu mới có thêm chi phí phát hành nên chi phí cao hơn.",
+  "basis": "Chi phí sử dụng vốn lợi nhuận giữ lại (chi phí cơ hội)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-012",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 3,
+  "q": "Cổ phiếu của doanh nghiệp vừa trả cổ tức 2.000 đ/cp, cổ tức tăng trưởng đều 6%/năm, giá thị trường 40.000 đ/cp. Nếu phát hành cổ phiếu phổ thông mới theo giá thị trường, chi phí phát hành bằng 5% giá phát hành. Chi phí sử dụng vốn cổ phiếu phổ thông mới là bao nhiêu?",
+  "o": [
+   "11,00%",
+   "11,26%",
+   "11,30%",
+   "11,58%"
+  ],
+  "a": 3,
+  "e": "D1 = 2.000 × 1,06 = 2.120 đ; giá thuần = 40.000 × (1 − 5%) = 38.000 đ. rE mới = 2.120/38.000 + 6% = 11,58%. Bỏ chi phí phát hành cho 11,30%; dùng D0 thay D1 cho 11,26% hoặc 11,00%.",
+  "basis": "Mô hình Gordon có chi phí phát hành: rE = D1/[P0(1 − f)] + g",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-013",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 2,
+  "q": "Theo lý thuyết M&M trong điều kiện không có thuế, khi doanh nghiệp tăng tỷ lệ nợ trong cơ cấu vốn thì:",
+  "o": [
+   "Chi phí vốn chủ sở hữu tăng, WACC và giá trị doanh nghiệp không đổi",
+   "Chi phí vốn chủ sở hữu không đổi, WACC giảm và giá trị doanh nghiệp tăng",
+   "Chi phí vốn chủ sở hữu tăng, WACC giảm và giá trị doanh nghiệp tăng",
+   "Chi phí nợ và WACC cùng tăng, giá trị doanh nghiệp giảm"
+  ],
+  "a": 0,
+  "e": "M&M không thuế: mệnh đề I – giá trị DN không phụ thuộc cơ cấu vốn; mệnh đề II – rE tăng tuyến tính theo D/E, bù đúng phần lợi ích của nợ rẻ hơn nên WACC không đổi. WACC giảm và giá trị tăng là kết luận của M&M có thuế.",
+  "basis": "Mệnh đề I và II của Modigliani – Miller (không thuế)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-014",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 3,
+  "q": "Theo lý thuyết M&M có thuế thu nhập doanh nghiệp, một doanh nghiệp không vay nợ có giá trị 500 tỷ đồng. Doanh nghiệp vay nợ vĩnh viễn 200 tỷ đồng để mua lại cổ phiếu; thuế suất thuế TNDN 20%. Giá trị doanh nghiệp sau khi vay nợ là bao nhiêu?",
+  "o": [
+   "500 tỷ đồng",
+   "540 tỷ đồng",
+   "660 tỷ đồng",
+   "700 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "VL = VU + t × D = 500 + 20% × 200 = 540 tỷ đồng (giá trị hiện tại của lá chắn thuế lãi vay = 40 tỷ). 500 là kết luận M&M không thuế; 660 và 700 là cộng nhầm số nợ vào giá trị.",
+  "basis": "M&M có thuế: VL = VU + t·D",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-015",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 1,
+  "q": "Theo lý thuyết trật tự phân hạng (pecking order), khi cần vốn cho dự án mới, doanh nghiệp sẽ ưu tiên sử dụng nguồn tài trợ nào trước tiên?",
+  "o": [
+   "Lợi nhuận giữ lại (nguồn vốn nội bộ)",
+   "Phát hành cổ phiếu phổ thông mới ra công chúng",
+   "Phát hành trái phiếu chuyển đổi",
+   "Vay nợ ngân hàng dài hạn"
+  ],
+  "a": 0,
+  "e": "Do bất cân xứng thông tin, DN ưu tiên nguồn nội bộ (lợi nhuận giữ lại), tiếp đến là nợ, chứng khoán lai và cuối cùng mới phát hành cổ phiếu mới (dễ phát tín hiệu cổ phiếu đang bị định giá cao).",
+  "basis": "Lý thuyết trật tự phân hạng (pecking order theory)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-016",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 3,
+  "q": "Công ty phát hành quyền mua cổ phần cho cổ đông hiện hữu với tỷ lệ thực hiện quyền 4:1 (sở hữu 4 cổ phiếu được mua 1 cổ phiếu mới), giá phát hành 20.000 đ/cp. Giá thị trường trước ngày giao dịch không hưởng quyền là 30.000 đ/cp. Giá lý thuyết của cổ phiếu sau khi pha loãng (giá điều chỉnh không hưởng quyền) là bao nhiêu?",
+  "o": [
+   "22.000 đ",
+   "25.000 đ",
+   "27.500 đ",
+   "28.000 đ"
+  ],
+  "a": 3,
+  "e": "Giá lý thuyết = (4 × 30.000 + 1 × 20.000)/(4 + 1) = 140.000/5 = 28.000 đ. Đảo tỷ lệ (1:4) cho 22.000 đ; lấy 30.000 − 10.000/4 cho 27.500 đ; bình quân giản đơn cho 25.000 đ.",
+  "basis": "Giá lý thuyết sau phát hành quyền (TERP) = (N·P + S)/(N + 1)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-017",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "level": 3,
+  "q": "Công ty chào bán thêm cổ phiếu cho cổ đông hiện hữu theo tỷ lệ thực hiện quyền 5:2 (mỗi cổ phiếu được 1 quyền; 5 quyền được mua 2 cổ phiếu mới) với giá 18.000 đ/cp. Giá thị trường trước ngày giao dịch không hưởng quyền là 25.000 đ/cp. Giá trị lý thuyết của một quyền mua là bao nhiêu?",
+  "o": [
+   "1.000 đ",
+   "2.000 đ",
+   "2.800 đ",
+   "7.000 đ"
+  ],
+  "a": 1,
+  "e": "Giá lý thuyết sau pha loãng = (5 × 25.000 + 2 × 18.000)/7 = 161.000/7 = 23.000 đ. Giá trị một quyền = 25.000 − 23.000 = 2.000 đ (tương đương (25.000 − 18.000)/(2,5 + 1)). 7.000 đ là chênh lệch giá chưa chia; 2.800 đ và 1.000 đ là chia sai số quyền.",
+  "basis": "Giá trị quyền mua = P cum − TERP = (P − S)/(N + 1), N = số quyền cần cho 1 cổ phiếu mới",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-018",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "level": 1,
+  "q": "Nhà đầu tư mua cổ phiếu vào đúng ngày giao dịch không hưởng quyền của đợt trả cổ tức bằng tiền thì:",
+  "o": [
+   "Được nhận cổ tức của đợt đó vì đã mua trước ngày đăng ký cuối cùng",
+   "Được nhận một nửa số cổ tức của đợt đó, nửa còn lại thuộc về người bán",
+   "Được nhận cổ tức nếu thanh toán đủ tiền mua ngay trong ngày giao dịch",
+   "Không được nhận cổ tức của đợt đó; quyền nhận cổ tức thuộc về người bán"
+  ],
+  "a": 3,
+  "e": "Do chu kỳ thanh toán, người mua từ ngày giao dịch không hưởng quyền không có tên trong danh sách người sở hữu tại ngày đăng ký cuối cùng nên không được nhận cổ tức đợt đó; giá tham chiếu được điều chỉnh giảm tương ứng.",
+  "basis": "Ngày giao dịch không hưởng quyền và ngày đăng ký cuối cùng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-019",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "level": 2,
+  "q": "Lý thuyết \"con chim trong tay\" (bird-in-the-hand) về chính sách cổ tức cho rằng:",
+  "o": [
+   "Trong thị trường vốn hoàn hảo, chính sách cổ tức không ảnh hưởng đến giá trị doanh nghiệp",
+   "Vì cổ tức chịu thuế cao hơn lãi vốn, doanh nghiệp nên duy trì tỷ lệ chi trả cổ tức thấp",
+   "Doanh nghiệp chỉ trả cổ tức từ phần lợi nhuận còn lại sau khi tài trợ đủ các dự án có NPV dương",
+   "Cổ tức hiện tại ít rủi ro hơn lãi vốn kỳ vọng nên tỷ lệ chi trả cao có thể làm tăng giá trị doanh nghiệp"
+  ],
+  "a": 3,
+  "e": "Gordon và Lintner: cổ tức hiện tại chắc chắn hơn lãi vốn tương lai nên nhà đầu tư đòi hỏi tỷ suất sinh lời thấp hơn với cổ phiếu trả cổ tức cao. Cổ tức không ảnh hưởng giá trị là quan điểm M&M; ưu tiên chi trả thấp do thuế là lý thuyết hiệu ứng thuế; trả từ phần còn lại là chính sách cổ tức thặng dư.",
+  "basis": "Các lý thuyết về chính sách cổ tức",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-020",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "level": 2,
+  "q": "Lý do nào sau đây thường được đưa ra khi doanh nghiệp chọn mua lại cổ phiếu thay vì tăng cổ tức tiền mặt?",
+  "o": [
+   "Làm tăng số lượng cổ phiếu đang lưu hành và tăng tính thanh khoản của cổ phiếu",
+   "Làm giảm hệ số nợ trên vốn chủ sở hữu của doanh nghiệp sau khi mua lại",
+   "Làm tăng tổng vốn chủ sở hữu và giá trị sổ sách của doanh nghiệp",
+   "Phát tín hiệu cổ phiếu bị định giá thấp, không tạo kỳ vọng phải duy trì mức chi trả hằng năm"
+  ],
+  "a": 3,
+  "e": "Mua lại cổ phiếu làm giảm số cổ phiếu lưu hành và giảm vốn chủ sở hữu (cổ phiếu quỹ ghi giảm VCSH) nên hệ số nợ/VCSH tăng. Ưu điểm: linh hoạt (cổ tức tiền mặt có tính \"dính\"), phát tín hiệu định giá thấp, có thể có lợi thế thuế cho cổ đông.",
+  "basis": "Mua lại cổ phiếu (cổ phiếu quỹ) so với trả cổ tức tiền mặt",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-021",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "level": 3,
+  "q": "Công ty P có lợi nhuận sau thuế năm nay 200 tỷ đồng, ngân sách vốn đầu tư năm tới 250 tỷ đồng và duy trì cơ cấu vốn mục tiêu 60% vốn chủ sở hữu, 40% nợ vay. Nếu P áp dụng chính sách cổ tức thặng dư (residual dividend policy), tổng cổ tức chi trả năm nay là bao nhiêu?",
+  "o": [
+   "0 tỷ đồng",
+   "50 tỷ đồng",
+   "100 tỷ đồng",
+   "150 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Phần vốn chủ sở hữu cần cho ngân sách đầu tư = 60% × 250 = 150 tỷ đồng, được tài trợ trước bằng lợi nhuận giữ lại. Cổ tức thặng dư = 200 − 150 = 50 tỷ đồng (tỷ lệ chi trả 25%). Dùng nhầm tỷ trọng nợ 40% cho 100 tỷ; coi toàn bộ vốn đầu tư phải lấy từ lợi nhuận (200 < 250) cho 0; nhầm phần vốn chủ sở hữu cần giữ lại là cổ tức cho 150 tỷ.",
+  "basis": "Chính sách cổ tức thặng dư: Cổ tức = LNST − Tỷ trọng VCSH mục tiêu × Ngân sách vốn đầu tư",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-022",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "level": 3,
+  "q": "Công ty Z có lợi nhuận sau thuế 120 tỷ đồng, 100 triệu cổ phiếu lưu hành, giá thị trường 24.000 đ/cp. Z dùng 240 tỷ đồng tiền nhàn rỗi (đang mang lại lợi suất sau thuế 4%/năm) để mua lại cổ phiếu quỹ theo giá thị trường. Các yếu tố khác không đổi, EPS sau khi mua lại xấp xỉ bao nhiêu?",
+  "o": [
+   "1.104 đ",
+   "1.200 đ",
+   "1.227 đ",
+   "1.333 đ"
+  ],
+  "a": 2,
+  "e": "Số cổ phiếu mua lại = 240 tỷ/24.000 = 10 triệu → còn 90 triệu cp. Lợi nhuận mất đi = 240 × 4% = 9,6 tỷ → LNST = 110,4 tỷ. EPS = 110,4 tỷ/90 triệu ≈ 1.227 đ (trước đó 1.200 đ). Bỏ qua thu nhập tiền mất đi cho 1.333 đ; quên giảm số cổ phiếu cho 1.104 đ.",
+  "basis": "Ảnh hưởng của mua lại cổ phiếu tới EPS",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-023",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "level": 1,
+  "q": "Một nhà sản xuất thép mua lại doanh nghiệp khai thác quặng sắt đang cung cấp nguyên liệu cho mình. Đây là hình thức mua lại, sáp nhập nào?",
+  "o": [
+   "Sáp nhập theo chiều dọc",
+   "Sáp nhập theo chiều ngang",
+   "Sáp nhập tập đoàn (hỗn hợp)",
+   "Sáp nhập mở rộng thị trường"
+  ],
+  "a": 0,
+  "e": "Sáp nhập theo chiều dọc là kết hợp các doanh nghiệp ở các công đoạn khác nhau trong cùng chuỗi giá trị (nhà cung cấp – nhà sản xuất – nhà phân phối). Chiều ngang là cùng ngành, cùng công đoạn; tập đoàn là các ngành không liên quan.",
+  "basis": "Phân loại M&A: chiều ngang, chiều dọc, tập đoàn",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-024",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "level": 2,
+  "q": "Công ty mục tiêu quy định: khi một bên thâu tóm vượt ngưỡng sở hữu 20% mà không được HĐQT chấp thuận, tất cả cổ đông còn lại được quyền mua thêm cổ phiếu mới với giá chiết khấu sâu. Biện pháp chống thâu tóm này là:",
+  "o": [
+   "Viên thuốc độc (poison pill)",
+   "Hiệp sĩ trắng (white knight)",
+   "Chiếc dù vàng (golden parachute)",
+   "Mua lại cổ phiếu xanh (greenmail)"
+  ],
+  "a": 0,
+  "e": "Viên thuốc độc pha loãng mạnh tỷ lệ sở hữu và làm tăng chi phí của bên thâu tóm. Hiệp sĩ trắng là tìm bên mua thân thiện; dù vàng là khoản bồi thường lớn cho ban điều hành khi mất chức; greenmail là mua lại cổ phần của bên thâu tóm với giá cao.",
+  "basis": "Các biện pháp phòng thủ chống thâu tóm thù địch",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-025",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "level": 2,
+  "q": "Công ty A tách mảng kinh doanh X thành công ty B độc lập; cổ đông của A được nhận cổ phần của B theo tỷ lệ sở hữu tại A và A không thu tiền từ giao dịch này. Đây là hình thức tái cấu trúc nào?",
+  "o": [
+   "Bán bộ phận kinh doanh cho bên thứ ba (divestiture)",
+   "Tách doanh nghiệp độc lập (spin-off)",
+   "Bán một phần cổ phần công ty con ra công chúng (carve-out)",
+   "Thâu tóm doanh nghiệp bằng vốn vay (leveraged buyout)"
+  ],
+  "a": 1,
+  "e": "Spin-off phân phối cổ phần công ty mới cho cổ đông hiện hữu, công ty mẹ không thu tiền. Divestiture là bán cho bên ngoài lấy tiền; equity carve-out là bán một phần cổ phần công ty con ra công chúng (thu tiền); LBO là thâu tóm chủ yếu bằng nợ vay.",
+  "basis": "Các hình thức tái cấu trúc doanh nghiệp (thu hẹp)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-026",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "level": 3,
+  "q": "Công ty A (giá trị 800 tỷ đồng) mua lại toàn bộ công ty B (giá trị độc lập 200 tỷ đồng) bằng tiền mặt với giá 260 tỷ đồng. Giá trị công ty hợp nhất dự kiến là 1.100 tỷ đồng. NPV của thương vụ đối với cổ đông công ty A là bao nhiêu?",
+  "o": [
+   "−60 tỷ đồng",
+   "40 tỷ đồng",
+   "60 tỷ đồng",
+   "100 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Giá trị cộng hưởng = 1.100 − (800 + 200) = 100 tỷ; phần bù trả cho B = 260 − 200 = 60 tỷ. NPV của A = cộng hưởng − phần bù = 100 − 60 = 40 tỷ đồng (= 1.100 − 260 − 800).",
+  "basis": "NPV thương vụ M&A = Giá trị cộng hưởng − Phần bù thâu tóm",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-027",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, cam kết nào sau đây của tổ chức bảo lãnh với tổ chức phát hành thuộc khái niệm bảo lãnh phát hành chứng khoán?",
+  "o": [
+   "Mua lại toàn bộ chứng khoán từ nhà đầu tư sau khi chứng khoán được niêm yết",
+   "Bảo đảm giá giao dịch của chứng khoán không giảm dưới giá chào bán trong 1 năm",
+   "Cố gắng tối đa để phân phối số chứng khoán cần phát hành của tổ chức phát hành",
+   "Cho tổ chức phát hành vay số tiền tương ứng với giá trị của đợt phát hành"
+  ],
+  "a": 2,
+  "e": "Luật định nghĩa bảo lãnh phát hành gồm: nhận mua một phần/toàn bộ chứng khoán để bán lại, mua số chứng khoán còn lại chưa phân phối hết, hoặc cố gắng tối đa để phân phối. Không bao gồm bảo đảm giá, mua lại từ nhà đầu tư hay cho vay.",
+  "basis": "Khoản 31 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025, hợp nhất Luật 56/2024/QH15)",
+  "quote": "Bảo lãnh phát hành chứng khoán là việc cam kết với tổ chức phát hành nhận mua một phần hoặc toàn bộ chứng khoán của tổ chức phát hành để bán lại hoặc mua số chứng khoán còn lại chưa được phân phối hết hoặc cố gắng tối đa để phân phối số chứng khoán cần phát hành của tổ chức phát hành.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-028",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 1,
+  "q": "Trong phương thức bảo lãnh phát hành với cam kết chắc chắn (firm commitment), rủi ro không phân phối hết chứng khoán thuộc về:",
+  "o": [
+   "Tổ chức phát hành chứng khoán",
+   "Nhà đầu tư đã đăng ký mua",
+   "Tổ chức bảo lãnh phát hành",
+   "Đại lý phân phối chứng khoán"
+  ],
+  "a": 2,
+  "e": "Với cam kết chắc chắn, tổ chức bảo lãnh mua toàn bộ chứng khoán của tổ chức phát hành (hoặc cam kết mua phần còn lại) theo giá thỏa thuận rồi bán lại, nên tự chịu rủi ro không bán hết và rủi ro giá; tổ chức phát hành chắc chắn nhận đủ tiền.",
+  "basis": "Các phương thức bảo lãnh phát hành: cam kết chắc chắn",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-029",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 2,
+  "q": "Theo phương thức bảo lãnh \"tất cả hoặc không\" (all-or-none), nếu không phân phối hết số chứng khoán dự kiến thì:",
+  "o": [
+   "Đợt phát hành bị hủy bỏ và tiền đặt mua được hoàn trả cho nhà đầu tư",
+   "Tổ chức bảo lãnh phải mua toàn bộ số chứng khoán còn lại theo giá bảo lãnh",
+   "Tổ chức phát hành giữ số tiền đã thu và chào bán phần còn lại ở đợt sau",
+   "Tổ chức bảo lãnh chỉ hưởng phí tương ứng với số chứng khoán đã phân phối"
+  ],
+  "a": 0,
+  "e": "All-or-none là một dạng của bảo lãnh cố gắng tối đa: tổ chức phát hành cần huy động đủ toàn bộ số vốn; nếu không bán hết thì hủy đợt phát hành, hoàn tiền. Việc phải mua phần còn lại là đặc trưng của cam kết chắc chắn.",
+  "basis": "Các phương thức bảo lãnh: cố gắng tối đa, tất cả hoặc không, tối thiểu – tối đa",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-030",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 2,
+  "q": "Mục đích chính của phương pháp dựng sổ lệnh (book building) trong đợt IPO là gì?",
+  "o": [
+   "Bảo đảm tổ chức bảo lãnh không phải mua số chứng khoán chưa phân phối hết",
+   "Thay thế thủ tục đăng ký chào bán chứng khoán ra công chúng với cơ quan quản lý",
+   "Xác định giá trị sổ sách của doanh nghiệp trước khi phát hành",
+   "Xác định giá chào bán và phân bổ cổ phiếu dựa trên nhu cầu đặt mua của nhà đầu tư"
+  ],
+  "a": 3,
+  "e": "Dựng sổ: tổ chức bảo lãnh đưa ra khoảng giá dự kiến, thu thập lượng đặt mua ở từng mức giá để xác định giá cuối cùng và phân bổ. Phương pháp này không loại bỏ rủi ro bảo lãnh hay thủ tục đăng ký chào bán.",
+  "basis": "Phương pháp xác định giá phát hành: dựng sổ lệnh",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-031",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 2,
+  "q": "Trong quy trình bảo lãnh phát hành chứng khoán ra công chúng, công việc nào được thực hiện SAU khi Giấy chứng nhận đăng ký chào bán có hiệu lực?",
+  "o": [
+   "Công bố bản thông báo phát hành và tổ chức phân phối chứng khoán cho nhà đầu tư",
+   "Thẩm định tình hình tài chính của tổ chức phát hành và lựa chọn phương thức bảo lãnh",
+   "Lập và nộp hồ sơ đăng ký chào bán chứng khoán lên Ủy ban Chứng khoán Nhà nước",
+   "Ký thư dự định (thỏa thuận sơ bộ) giữa tổ chức bảo lãnh và tổ chức phát hành"
+  ],
+  "a": 0,
+  "e": "Trình tự: tiếp xúc, thẩm định, ký thỏa thuận sơ bộ → thành lập tổ hợp, chuẩn bị và nộp hồ sơ đăng ký → được cấp Giấy chứng nhận đăng ký chào bán → công bố thông báo phát hành, phân phối, thu tiền, báo cáo kết quả. Việc phân phối chỉ được thực hiện sau khi giấy chứng nhận có hiệu lực.",
+  "basis": "Quy trình bảo lãnh phát hành chứng khoán",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-032",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "level": 3,
+  "q": "CTCK X bảo lãnh phát hành theo phương thức cam kết chắc chắn 10 triệu cổ phiếu, mua của tổ chức phát hành với giá 19.000 đ/cp, giá chào bán ra công chúng 20.000 đ/cp. X bán được 8 triệu cổ phiếu theo giá chào bán; 2 triệu cổ phiếu còn lại X phải giữ và sau đó bán ra với giá 17.500 đ/cp. Chi phí phân phối của X là 1,2 tỷ đồng. Lãi (lỗ) của X từ đợt bảo lãnh là bao nhiêu?",
+  "o": [
+   "3,8 tỷ đồng",
+   "5,0 tỷ đồng",
+   "6,8 tỷ đồng",
+   "10,0 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Lãi trên 8 triệu cp đã bán = 8 triệu × 1.000 = 8,0 tỷ; lỗ trên 2 triệu cp còn lại = 2 triệu × (17.500 − 19.000) = −3,0 tỷ; trừ chi phí 1,2 tỷ → lãi = 3,8 tỷ đồng. Bỏ chi phí cho 5,0 tỷ; bỏ khoản lỗ cho 6,8 tỷ; giả định bán hết cho 10,0 tỷ.",
+  "basis": "Kết quả bảo lãnh cam kết chắc chắn: chênh lệch giá bảo lãnh và giá bán, trừ chi phí",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-033",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "level": 1,
+  "q": "Khi xác định giá trị doanh nghiệp để cổ phần hóa theo phương pháp tài sản, giá trị doanh nghiệp được xác định dựa trên:",
+  "o": [
+   "Giá trị hiện tại của dòng tiền tự do dự kiến trong tương lai chiết khấu theo chi phí vốn",
+   "Tích số giữa lợi nhuận sau thuế và hệ số P/E bình quân của các doanh nghiệp cùng ngành",
+   "Giá trị sổ sách của vốn chủ sở hữu trên báo cáo tài chính đã kiểm toán năm gần nhất",
+   "Giá trị thực tế toàn bộ tài sản hiện có của doanh nghiệp tại thời điểm xác định giá trị, theo giá thị trường"
+  ],
+  "a": 3,
+  "e": "Phương pháp tài sản đánh giá lại tài sản theo giá thị trường tại thời điểm xác định giá trị; giá trị thực tế phần vốn chủ sở hữu = giá trị thực tế doanh nghiệp − nợ thực tế phải trả. Chiết khấu dòng tiền và P/E là các phương pháp khác; giá trị sổ sách chưa phản ánh giá thị trường.",
+  "basis": "Phương pháp tài sản trong xác định giá trị doanh nghiệp cổ phần hóa",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-034",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "level": 3,
+  "q": "Khi tư vấn định giá cổ phần lần đầu, chuyên viên ước tính dòng tiền tự do vốn chủ sở hữu (FCFE) năm vừa qua của doanh nghiệp là 50 tỷ đồng, tăng trưởng đều 4%/năm vĩnh viễn; chi phí vốn chủ sở hữu 12%/năm. Doanh nghiệp có 25 triệu cổ phần. Giá trị một cổ phần theo mô hình FCFE tăng trưởng đều là bao nhiêu?",
+  "o": [
+   "16.667 đ",
+   "17.333 đ",
+   "25.000 đ",
+   "26.000 đ"
+  ],
+  "a": 3,
+  "e": "FCFE1 = 50 × 1,04 = 52 tỷ; giá trị VCSH = 52/(12% − 4%) = 650 tỷ; mỗi cổ phần = 650 tỷ/25 triệu = 26.000 đ. Dùng FCFE0 cho 25.000 đ; chia cho rE thay vì (rE − g) cho 17.333 đ hoặc 16.667 đ.",
+  "basis": "Mô hình FCFE tăng trưởng đều: V0 = FCFE1/(rE − g)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-035",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "level": 3,
+  "q": "Doanh nghiệp X cổ phần hóa có tổng tài sản theo sổ sách 900 tỷ đồng, nợ phải trả thực tế 580 tỷ đồng. Khi xác định giá trị theo phương pháp tài sản: quyền sử dụng đất được đánh giá tăng thêm 150 tỷ đồng; các khoản phải thu không có khả năng thu hồi bị loại trừ 30 tỷ đồng. Vốn điều lệ dự kiến là 300 tỷ đồng, mệnh giá 10.000 đ/cp. Giá trị thực tế vốn chủ sở hữu tính bình quân cho một cổ phần là bao nhiêu?",
+  "o": [
+   "9.667 đ",
+   "10.667 đ",
+   "14.667 đ",
+   "15.667 đ"
+  ],
+  "a": 2,
+  "e": "Giá trị thực tế VCSH = 900 + 150 − 30 − 580 = 440 tỷ đồng; số cổ phần = 300 tỷ/10.000 = 30 triệu; bình quân = 440 tỷ/30 triệu ≈ 14.667 đ. Bỏ phần đánh giá tăng cho 9.667 đ; dùng số sổ sách cho 10.667 đ; không loại nợ khó đòi cho 15.667 đ.",
+  "basis": "Phương pháp tài sản: VCSH thực tế = Tài sản đánh giá lại − Nợ thực tế phải trả",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-036",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán, chứng chỉ quỹ đóng đã chào bán ra công chúng không được mua lại theo yêu cầu của nhà đầu tư. Hệ quả nào sau đây đúng?",
+  "o": [
+   "Nhà đầu tư muốn thoái vốn phải bán chứng chỉ quỹ trên thị trường, giá có thể lệch khỏi NAV",
+   "Công ty quản lý quỹ phải mua lại chứng chỉ quỹ theo NAV vào các ngày giao dịch định kỳ",
+   "Quỹ được tự do phát hành thêm chứng chỉ quỹ cho nhà đầu tư mới theo NAV hằng ngày",
+   "Giá giao dịch chứng chỉ quỹ trên thị trường luôn bằng NAV/chứng chỉ quỹ"
+  ],
+  "a": 0,
+  "e": "Quỹ đóng không mua lại chứng chỉ quỹ nên thanh khoản cho nhà đầu tư đến từ giao dịch trên thị trường, giá do cung cầu quyết định nên thường có chiết khấu/thặng dư so với NAV. Quỹ đóng tăng vốn phải được UBCKNN chấp thuận và phát hành cho nhà đầu tư hiện hữu qua quyền mua (Điều 112).",
+  "basis": "Khoản 40 Điều 4; Điều 112 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025, hợp nhất Luật 56/2024/QH15)",
+  "quote": "Quỹ đóng là quỹ đại chúng mà chứng chỉ quỹ đã chào bán ra công chúng không được mua lại theo yêu cầu của nhà đầu tư.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-037",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, quỹ thành viên là quỹ đầu tư chứng khoán có:",
+  "o": [
+   "Từ 02 đến 99 thành viên góp vốn và chỉ bao gồm nhà đầu tư chứng khoán chuyên nghiệp",
+   "Từ 02 đến 100 thành viên góp vốn, gồm cả nhà đầu tư cá nhân không chuyên nghiệp",
+   "Tối thiểu 100 nhà đầu tư, không kể nhà đầu tư chứng khoán chuyên nghiệp",
+   "Từ 02 đến 50 thành viên góp vốn và chỉ bao gồm nhà đầu tư tổ chức trong nước"
+  ],
+  "a": 0,
+  "e": "Quỹ thành viên: 02–99 thành viên, chỉ gồm nhà đầu tư chứng khoán chuyên nghiệp (vốn góp tối thiểu 50 tỷ đồng theo Điều 113). Ngưỡng ít nhất 100 nhà đầu tư là điều kiện thành lập quỹ đại chúng.",
+  "basis": "Khoản 41 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025, hợp nhất Luật 56/2024/QH15)",
+  "quote": "Quỹ thành viên là quỹ đầu tư chứng khoán có số thành viên tham gia góp vốn từ 02 đến 99 thành viên và chỉ bao gồm thành viên là nhà đầu tư chứng khoán chuyên nghiệp.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-038",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "level": 2,
+  "q": "Trong bản chính sách đầu tư (IPS) của khách hàng, yếu tố nào sau đây thuộc nhóm ràng buộc đầu tư chứ không phải mục tiêu đầu tư?",
+  "o": [
+   "Mức lợi suất mục tiêu 10%/năm của danh mục",
+   "Nhu cầu thanh khoản và thời hạn đầu tư của khách hàng",
+   "Mức độ sẵn lòng chấp nhận rủi ro của khách hàng",
+   "Khả năng chịu đựng tổn thất của khách hàng"
+  ],
+  "a": 1,
+  "e": "IPS gồm mục tiêu (lợi suất; rủi ro – sẵn lòng và khả năng chấp nhận rủi ro) và các ràng buộc: thanh khoản, thời hạn đầu tư, thuế, pháp lý – quy định, yêu cầu đặc thù.",
+  "basis": "Bản chính sách đầu tư (IPS): mục tiêu và ràng buộc",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-039",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "level": 3,
+  "q": "Cổ phiếu A có độ lệch chuẩn 20%, cổ phiếu B có độ lệch chuẩn 10%, hệ số tương quan giữa A và B là 0,3. Tỷ trọng cổ phiếu A trong danh mục có phương sai nhỏ nhất (chỉ gồm A và B, không bán khống) xấp xỉ bao nhiêu?",
+  "o": [
+   "10,5%",
+   "20,0%",
+   "33,3%",
+   "89,5%"
+  ],
+  "a": 0,
+  "e": "wA = (σB² − ρσAσB)/(σA² + σB² − 2ρσAσB) = (0,01 − 0,3 × 0,2 × 0,1)/(0,04 + 0,01 − 2 × 0,3 × 0,2 × 0,1) = 0,004/0,038 ≈ 10,5% (wB ≈ 89,5%; σp nhỏ nhất ≈ 9,79% < σB). Bỏ qua tương quan (ρ = 0) cho σB²/(σA² + σB²) = 20,0%; tỷ trọng theo nghịch đảo độ lệch chuẩn σB/(σA + σB) cho 33,3%; 89,5% là tỷ trọng của B.",
+  "basis": "Danh mục phương sai nhỏ nhất hai tài sản: wA = (σB² − ρσAσB)/(σA² + σB² − 2ρσAσB)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-040",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "level": 3,
+  "q": "Cổ phiếu K đang có giá 50.000 đ; chuyên viên phân tích dự báo sau 1 năm giá K đạt 54.000 đ và K trả cổ tức 1.500 đ/cp. Lãi suất phi rủi ro 5%/năm, lợi suất kỳ vọng của danh mục thị trường 12%/năm, beta của K là 1,1. Theo CAPM, tỷ suất sinh lời yêu cầu của K và khuyến nghị phù hợp là:",
+  "o": [
+   "12,7%; K bị định giá cao (nằm dưới SML), nên bán",
+   "12,7%; K bị định giá thấp (nằm trên SML), nên mua",
+   "13,2%; K bị định giá cao (nằm dưới SML), nên bán",
+   "7,7%; K bị định giá thấp (nằm trên SML), nên mua"
+  ],
+  "a": 0,
+  "e": "Lợi suất kỳ vọng dự báo = (54.000 − 50.000 + 1.500)/50.000 = 11,0%. Lợi suất yêu cầu = 5% + 1,1 × (12% − 5%) = 12,7%. 11,0% < 12,7% → K nằm dưới SML (alpha âm), bị định giá cao → nên bán. 13,2% là lỗi nhân beta với cả lợi suất thị trường; 7,7% là quên cộng lãi suất phi rủi ro.",
+  "basis": "CAPM: E(Ri) = rf + βi[E(Rm) − rf]; so sánh lợi suất dự báo với SML",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-041",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "level": 3,
+  "q": "Theo mô hình APT hai nhân tố, lãi suất phi rủi ro 5%; phần bù rủi ro của nhân tố 1 (tăng trưởng GDP) là 4% và nhân tố 2 (lạm phát) là 2%. Cổ phiếu M có độ nhạy với nhân tố 1 là 1,2 và với nhân tố 2 là 0,5. Lợi suất kỳ vọng của M là bao nhiêu?",
+  "o": [
+   "5,8%",
+   "10,8%",
+   "11,0%",
+   "12,2%"
+  ],
+  "a": 1,
+  "e": "E(R) = 5% + 1,2 × 4% + 0,5 × 2% = 5% + 4,8% + 1,0% = 10,8%. Quên cộng lãi suất phi rủi ro cho 5,8%; bỏ qua độ nhạy cho 11,0%; áp một hệ số 1,2 cho cả hai nhân tố cho 12,2%.",
+  "basis": "APT: E(Ri) = rf + Σ bik·λk",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-042",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "level": 1,
+  "q": "Theo lý thuyết danh mục của Markowitz, đường biên hiệu quả (efficient frontier) là tập hợp các danh mục:",
+  "o": [
+   "Có độ lệch chuẩn cao nhất ứng với mỗi mức lợi suất kỳ vọng cho trước",
+   "Gồm các cổ phiếu riêng lẻ có hệ số beta đúng bằng 1",
+   "Có lợi suất kỳ vọng cao nhất ứng với mỗi mức rủi ro (độ lệch chuẩn) cho trước",
+   "Có lợi suất kỳ vọng bằng lãi suất phi rủi ro ở mọi mức rủi ro"
+  ],
+  "a": 2,
+  "e": "Danh mục hiệu quả là danh mục không bị \"trội hơn\": cùng rủi ro không có danh mục nào lợi suất cao hơn, cùng lợi suất không có danh mục nào rủi ro thấp hơn. Đường biên hiệu quả là phần phía trên của đường biên phương sai tối thiểu.",
+  "basis": "Lý thuyết danh mục hiện đại (Markowitz) – đường biên hiệu quả",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-043",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "level": 2,
+  "q": "Phát biểu nào sau đây đúng về đường thị trường vốn (CML) và đường thị trường chứng khoán (SML)?",
+  "o": [
+   "CML áp dụng cho danh mục hiệu quả và đo rủi ro bằng độ lệch chuẩn; SML áp dụng cho mọi tài sản và đo rủi ro bằng beta",
+   "CML áp dụng cho mọi tài sản và đo rủi ro bằng beta; SML chỉ áp dụng cho danh mục hiệu quả và đo rủi ro bằng độ lệch chuẩn",
+   "CML và SML đều đo rủi ro bằng beta, chỉ khác nhau ở lãi suất phi rủi ro sử dụng",
+   "SML chỉ áp dụng cho danh mục thị trường, còn CML áp dụng cho từng cổ phiếu riêng lẻ"
+  ],
+  "a": 0,
+  "e": "CML: E(Rp) = rf + [(E(Rm) − rf)/σm]·σp, chỉ cho danh mục kết hợp tài sản phi rủi ro với danh mục thị trường (danh mục hiệu quả). SML: E(Ri) = rf + βi[E(Rm) − rf], cho mọi chứng khoán/danh mục vì chỉ rủi ro hệ thống được bù đắp.",
+  "basis": "CML và SML trong mô hình CAPM",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-044",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "level": 2,
+  "q": "Khi giá cổ phiếu tăng mạnh, nhà quản lý áp dụng chiến lược tỷ trọng cố định (constant-mix) sẽ:",
+  "o": [
+   "Bán bớt cổ phiếu, mua thêm trái phiếu để đưa danh mục về tỷ trọng mục tiêu",
+   "Mua thêm cổ phiếu vì tỷ lệ tài sản rủi ro được phép tăng theo giá trị danh mục",
+   "Giữ nguyên danh mục, không giao dịch cho tới khi hết thời hạn đầu tư",
+   "Chuyển toàn bộ danh mục sang tiền mặt để khóa lợi nhuận"
+  ],
+  "a": 0,
+  "e": "Constant-mix tái cân bằng ngược chiều thị trường (bán tài sản tăng giá, mua tài sản giảm giá), hiệu quả khi thị trường đi ngang dao động. Mua thêm khi giá tăng là đặc trưng của CPPI; giữ nguyên là chiến lược mua và nắm giữ.",
+  "basis": "Chiến lược tái cân bằng: mua và nắm giữ, constant-mix, CPPI",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-045",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "level": 3,
+  "q": "Danh mục 1.000 tỷ đồng có tỷ trọng mục tiêu (phân bổ tài sản chiến lược) 60% cổ phiếu, 40% trái phiếu. Sau một năm, phần cổ phiếu tăng 20%, phần trái phiếu tăng 2%. Để đưa danh mục về tỷ trọng mục tiêu, nhà quản lý cần bán bao nhiêu tỷ đồng cổ phiếu?",
+  "o": [
+   "43,2 tỷ đồng",
+   "48,0 tỷ đồng",
+   "72,0 tỷ đồng",
+   "120,0 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Cổ phiếu = 600 × 1,2 = 720 tỷ; trái phiếu = 400 × 1,02 = 408 tỷ; tổng = 1.128 tỷ. Cổ phiếu mục tiêu = 60% × 1.128 = 676,8 tỷ → bán 43,2 tỷ đồng. Lấy mục tiêu theo quy mô cũ (600) cho 120 tỷ.",
+  "basis": "Tái cân bằng danh mục về tỷ trọng phân bổ tài sản chiến lược",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-046",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "level": 1,
+  "q": "Nhà quản lý danh mục theo phong cách đầu tư giá trị (value investing) thường ưu tiên những cổ phiếu có đặc điểm:",
+  "o": [
+   "Tốc độ tăng trưởng EPS cao và P/E cao hơn bình quân thị trường",
+   "Vốn hóa nhỏ, bất kể mức định giá hiện tại",
+   "Đà tăng giá mạnh trong 3–6 tháng gần nhất",
+   "P/E, P/B thấp và tỷ suất cổ tức tương đối cao"
+  ],
+  "a": 3,
+  "e": "Phong cách giá trị tìm cổ phiếu bị định giá thấp so với giá trị nội tại (P/E, P/B thấp, cổ tức cao). Tăng trưởng cao kèm P/E cao là phong cách tăng trưởng; đà tăng giá là chiến lược động lượng.",
+  "basis": "Phong cách đầu tư cổ phiếu: giá trị, tăng trưởng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-047",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "level": 2,
+  "q": "Một quỹ chỉ số không mua toàn bộ cổ phiếu trong chỉ số mà chia chỉ số thành các nhóm theo ngành và quy mô vốn hóa, rồi chọn một số cổ phiếu đại diện sao cho tỷ trọng từng nhóm khớp với chỉ số. Đây là phương pháp:",
+  "o": [
+   "Mô phỏng toàn bộ (full replication)",
+   "Quản lý chủ động dựa trên lựa chọn cổ phiếu",
+   "Đầu tư theo phương pháp bình quân giá (DCA)",
+   "Lấy mẫu phân tầng (stratified sampling)"
+  ],
+  "a": 3,
+  "e": "Lấy mẫu phân tầng giảm chi phí giao dịch so với mô phỏng toàn bộ nhưng chấp nhận sai lệch theo dõi lớn hơn. Quản lý chủ động nhằm vượt chỉ số; DCA là cách giải ngân định kỳ, không phải kỹ thuật mô phỏng chỉ số.",
+  "basis": "Quản lý thụ động: các phương pháp mô phỏng chỉ số",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-048",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "level": 2,
+  "q": "Danh mục cổ phiếu gồm: 40% cổ phiếu có beta 1,4; 35% cổ phiếu có beta 0,9 và 25% cổ phiếu có beta 0,6. Beta của danh mục là bao nhiêu?",
+  "o": [
+   "0,905",
+   "0,967",
+   "1,025",
+   "2,900"
+  ],
+  "a": 2,
+  "e": "βp = 0,40 × 1,4 + 0,35 × 0,9 + 0,25 × 0,6 = 0,560 + 0,315 + 0,150 = 1,025. Bình quân giản đơn cho 0,967; ghép nhầm tỷ trọng cho 0,905; cộng các beta cho 2,900.",
+  "basis": "Beta danh mục = Σ wi·βi",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-049",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "level": 3,
+  "q": "Lợi suất theo quý của danh mục trong 5 quý lần lượt là 3,2%; 1,5%; −0,7%; 2,0%; 4,1%; của chỉ số tham chiếu lần lượt là 2,0%; 2,0%; −1,5%; 3,0%; 3,6%. Sai lệch theo dõi (tracking error) theo quý, tính bằng độ lệch chuẩn mẫu (chia n − 1) của lợi suất chênh lệch, là bao nhiêu?",
+  "o": [
+   "0,20%",
+   "0,80%",
+   "0,82%",
+   "0,92%"
+  ],
+  "a": 3,
+  "e": "Chênh lệch: 1,2; −0,5; 0,8; −1,0; 0,5 (%), bình quân 0,2%. Tổng bình phương độ lệch = 1,00 + 0,49 + 0,36 + 1,44 + 0,09 = 3,38; phương sai mẫu = 3,38/4 = 0,845; TE = 0,92%. Chia n cho 0,82%; bình quân trị tuyệt đối cho 0,80%; bình quân chênh lệch (lợi suất chủ động) là 0,20%.",
+  "basis": "Tracking error = độ lệch chuẩn của (Rp − Rb)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-050",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "level": 3,
+  "q": "Quỹ mua trái phiếu kỳ hạn 3 năm, mệnh giá 100, lãi suất coupon 8%/năm trả cuối mỗi năm, với lợi suất đáo hạn 10%/năm. Sau 1 năm, ngay sau khi nhận coupon, lợi suất đáo hạn của trái phiếu giảm xuống 9%/năm và quỹ bán trái phiếu. Tỷ suất sinh lời trong thời gian nắm giữ 1 năm của quỹ xấp xỉ bao nhiêu?",
+  "o": [
+   "3,38%",
+   "8,42%",
+   "10,00%",
+   "11,80%"
+  ],
+  "a": 3,
+  "e": "Giá mua P0 = 8/1,1 + 8/1,1² + 108/1,1³ = 95,03. Giá bán (còn 2 năm, YTM 9%) P1 = 8/1,09 + 108/1,09² = 98,24. HPR = (98,24 − 95,03 + 8)/95,03 ≈ 11,80%. Bỏ qua coupon cho 3,38%; chỉ tính lợi suất hiện hành 8/95,03 cho 8,42%; giả định lợi suất không đổi (bằng YTM ban đầu) cho 10,00%.",
+  "basis": "Tỷ suất sinh lời nắm giữ trái phiếu: HPR = (P1 − P0 + Coupon)/P0; định giá trái phiếu theo YTM",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-051",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "level": 3,
+  "q": "Danh mục trái phiếu gồm: 40 tỷ đồng trái phiếu X (duration điều chỉnh 2,0), 60 tỷ đồng trái phiếu Y (duration điều chỉnh 5,0) và 100 tỷ đồng trái phiếu Z (duration điều chỉnh 8,0), tính theo giá thị trường. Nếu lợi suất của tất cả trái phiếu cùng tăng 50 điểm cơ bản, bỏ qua độ lồi, giá trị danh mục thay đổi xấp xỉ bao nhiêu?",
+  "o": [
+   "−0,59 tỷ đồng",
+   "−5,00 tỷ đồng",
+   "−5,90 tỷ đồng",
+   "−11,80 tỷ đồng"
+  ],
+  "a": 2,
+  "e": "Duration điều chỉnh danh mục = (40 × 2 + 60 × 5 + 100 × 8)/200 = 5,9. ΔV ≈ −Dmod × Δy × V = −5,9 × 0,005 × 200 = −5,90 tỷ đồng. Bình quân giản đơn duration (5,0) cho −5,00 tỷ; coi 50 điểm cơ bản là 1% cho −11,80 tỷ; coi 50 điểm cơ bản là 0,05% cho −0,59 tỷ.",
+  "basis": "Duration danh mục = bình quân gia quyền theo giá trị thị trường; ΔV ≈ −Dmod·Δy·V",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-052",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "level": 3,
+  "q": "Quỹ cần phòng vệ (immunization) một khoản nợ phải trả có giá trị hiện tại 100 tỷ đồng và duration 5 năm, bằng cách kết hợp trái phiếu zero-coupon kỳ hạn 2 năm và trái phiếu zero-coupon kỳ hạn 10 năm. Số tiền cần đầu tư vào trái phiếu kỳ hạn 10 năm là bao nhiêu?",
+  "o": [
+   "30,0 tỷ đồng",
+   "37,5 tỷ đồng",
+   "50,0 tỷ đồng",
+   "62,5 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Duration zero-coupon bằng kỳ hạn. Cần w × 10 + (1 − w) × 2 = 5 → w = 3/8 = 37,5% → đầu tư 37,5 tỷ vào trái phiếu 10 năm và 62,5 tỷ vào trái phiếu 2 năm (PV tài sản = PV nợ = 100 tỷ).",
+  "basis": "Phòng vệ danh mục: duration tài sản = duration nợ, PV tài sản ≥ PV nợ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-053",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "level": 2,
+  "q": "Nguyên lý cơ bản của chiến lược phòng vệ (immunization) đối với danh mục trái phiếu là gì?",
+  "o": [
+   "Đặt kỳ hạn bình quân của danh mục bằng kỳ hạn nghĩa vụ để loại bỏ rủi ro tín dụng",
+   "Chỉ nắm giữ trái phiếu lãi suất thả nổi để loại bỏ hoàn toàn rủi ro lãi suất",
+   "Tối đa hóa duration danh mục để hưởng lợi khi lãi suất thị trường giảm",
+   "Đặt duration danh mục bằng thời hạn đầu tư (nghĩa vụ) để rủi ro giá và rủi ro tái đầu tư bù trừ nhau"
+  ],
+  "a": 3,
+  "e": "Khi lãi suất tăng, giá trái phiếu giảm nhưng thu nhập tái đầu tư coupon tăng (và ngược lại). Khi duration bằng thời hạn đầu tư, hai tác động xấp xỉ triệt tiêu, khóa được lợi suất mục tiêu; cần tái cân bằng định kỳ vì duration thay đổi theo thời gian và lãi suất.",
+  "basis": "Chiến lược phòng vệ (immunization)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-054",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "level": 1,
+  "q": "Danh mục trái phiếu theo cấu trúc \"quả tạ\" (barbell) là danh mục:",
+  "o": [
+   "Tập trung vào trái phiếu kỳ hạn ngắn và kỳ hạn dài, rất ít trái phiếu trung hạn",
+   "Tập trung gần như toàn bộ vào trái phiếu có kỳ hạn quanh một mốc thời gian mục tiêu",
+   "Phân bổ đều giá trị cho các kỳ hạn liên tiếp nhau như các bậc thang",
+   "Chỉ gồm trái phiếu chính phủ kỳ hạn dài để tối đa hóa duration"
+  ],
+  "a": 0,
+  "e": "Barbell: hai đầu ngắn – dài. Bullet: tập trung quanh một kỳ hạn mục tiêu. Ladder (bậc thang): phân bổ đều các kỳ hạn.",
+  "basis": "Cấu trúc danh mục trái phiếu: bullet, barbell, ladder",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-055",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "level": 1,
+  "q": "Cơ cấu phí \"2 và 20\" phổ biến của các quỹ phòng hộ (hedge fund) bao gồm:",
+  "o": [
+   "Phí phát hành 2% trên số tiền góp vốn và phí mua lại 20% trên giá trị mua lại",
+   "Phí quản lý 20%/năm trên tài sản và phí thưởng 2% trên lợi nhuận vượt ngưỡng",
+   "Phí lưu ký 2%/năm và phí giao dịch 20% trên giá trị mỗi giao dịch",
+   "Phí quản lý 2%/năm trên giá trị tài sản quản lý và phí thưởng hiệu quả 20% trên lợi nhuận"
+  ],
+  "a": 3,
+  "e": "Quỹ phòng hộ thường thu phí quản lý khoảng 2% tài sản quản lý và phí thưởng hiệu quả khoảng 20% lợi nhuận (có thể kèm ngưỡng lợi suất tối thiểu và mức đỉnh – high-water mark).",
+  "basis": "Quỹ phòng hộ – cơ cấu phí",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-056",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "level": 1,
+  "q": "Đặc điểm chung nào sau đây thường gắn với các tài sản đầu tư thay thế (quỹ phòng hộ, quỹ đầu tư tư nhân, bất động sản, hàng hóa)?",
+  "o": [
+   "Thanh khoản thấp, khó định giá, tương quan thấp với cổ phiếu và trái phiếu truyền thống",
+   "Thanh khoản cao, được định giá liên tục theo giá khớp lệnh trên sở giao dịch",
+   "Lợi suất được bảo đảm cố định và không chịu rủi ro thị trường",
+   "Chi phí quản lý thấp hơn quỹ chỉ số và công bố thông tin danh mục hằng ngày"
+  ],
+  "a": 0,
+  "e": "Tài sản thay thế bổ sung lợi ích đa dạng hóa nhờ tương quan thấp, nhưng thường kém thanh khoản, khó định giá (dựa vào thẩm định), phí cao và ít minh bạch hơn tài sản truyền thống.",
+  "basis": "Đặc điểm của tài sản đầu tư thay thế",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-057",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "level": 2,
+  "q": "Theo định nghĩa quỹ đầu tư bất động sản tại Luật Chứng khoán, quỹ đầu tư chủ yếu vào bất động sản và chứng khoán của tổ chức kinh doanh bất động sản đáp ứng ngưỡng doanh thu nhất định. Công ty X có doanh thu từ việc sở hữu và kinh doanh bất động sản chiếm 60% tổng doanh thu trên báo cáo tài chính năm gần nhất. Nhận định nào sau đây đúng?",
+  "o": [
+   "Chứng khoán của X đạt tiêu chí vì ngưỡng tối thiểu là 50% tổng doanh thu",
+   "Chứng khoán của X đạt tiêu chí vì ngưỡng tối thiểu là 51% tổng doanh thu",
+   "Chứng khoán của X chưa đạt tiêu chí vì ngưỡng tối thiểu là 65% tổng doanh thu",
+   "Luật không đặt ngưỡng doanh thu, chỉ xét ngành nghề đăng ký kinh doanh của X"
+  ],
+  "a": 2,
+  "e": "Khoản 43 Điều 4: quỹ đầu tư bất động sản đầu tư chủ yếu vào bất động sản và chứng khoán của tổ chức kinh doanh bất động sản có doanh thu từ sở hữu, kinh doanh bất động sản tối thiểu 65% tổng doanh thu tính trên báo cáo tài chính năm gần nhất; X mới đạt 60% nên chứng khoán của X chưa thuộc nhóm tài sản này.",
+  "basis": "Khoản 43 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025, hợp nhất Luật 56/2024/QH15)",
+  "quote": "Quỹ đầu tư bất động sản là quỹ đầu tư chứng khoán được đầu tư chủ yếu vào bất động sản và chứng khoán của tổ chức phát hành là tổ chức kinh doanh bất động sản có doanh thu từ việc sở hữu và kinh doanh bất động sản tối thiểu là 65% tổng doanh thu tính trên báo cáo tài chính năm gần nhất.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-058",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "level": 3,
+  "q": "Quỹ phòng hộ có tài sản đầu kỳ 100 tỷ đồng, lợi suất gộp trong năm 18%. Phí quản lý 2% tính trên tài sản đầu kỳ; phí thưởng hiệu quả 20% tính trên lợi nhuận sau khi trừ phí quản lý (không có ngưỡng lợi suất tối thiểu). Lợi suất ròng của nhà đầu tư là bao nhiêu?",
+  "o": [
+   "12,4%",
+   "12,8%",
+   "14,4%",
+   "16,0%"
+  ],
+  "a": 1,
+  "e": "Lợi nhuận gộp 18 tỷ; phí quản lý 2 tỷ → còn 16 tỷ; phí thưởng = 20% × 16 = 3,2 tỷ; lợi nhuận ròng = 12,8 tỷ → 12,8%. Tính phí thưởng trên lợi nhuận gộp cho 12,4%; bỏ phí quản lý cho 14,4%; bỏ phí thưởng cho 16,0%.",
+  "basis": "Tính phí quản lý và phí thưởng hiệu quả của quỹ phòng hộ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-059",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 3,
+  "q": "Danh mục trị giá 200 tỷ đồng có độ lệch chuẩn lợi suất ngày 1,5%, giả định lợi suất phân phối chuẩn với kỳ vọng bằng 0 và các ngày độc lập. Với z = 1,65 (độ tin cậy 95%, một phía), VaR 10 ngày của danh mục xấp xỉ bao nhiêu?",
+  "o": [
+   "4,95 tỷ đồng",
+   "9,49 tỷ đồng",
+   "15,65 tỷ đồng",
+   "49,50 tỷ đồng"
+  ],
+  "a": 2,
+  "e": "VaR 1 ngày = 200 × 1,5% × 1,65 = 4,95 tỷ; VaR 10 ngày = 4,95 × √10 ≈ 15,65 tỷ đồng. Nhân 10 thay vì √10 cho 49,50; quên z cho 9,49.",
+  "basis": "VaR tham số: VaR = z·σ·V; VaR(T ngày) = VaR(1 ngày)·√T",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-060",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 2,
+  "q": "Một danh mục có VaR 1 ngày ở độ tin cậy 95% là 5 tỷ đồng. Cách hiểu nào sau đây đúng?",
+  "o": [
+   "Trong điều kiện thị trường bình thường, có 5% khả năng tổn thất trong 1 ngày vượt quá 5 tỷ đồng",
+   "Tổn thất tối đa có thể xảy ra trong 1 ngày là 5 tỷ đồng trong mọi trường hợp",
+   "Có 95% khả năng danh mục bị lỗ đúng 5 tỷ đồng trong 1 ngày",
+   "Tổn thất bình quân trong 5% số ngày xấu nhất là 5 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "VaR là ngưỡng tổn thất mà xác suất bị vượt qua bằng (1 − độ tin cậy); VaR không phải tổn thất tối đa tuyệt đối. Tổn thất bình quân trong vùng đuôi là CVaR (expected shortfall).",
+  "basis": "Khái niệm giá trị chịu rủi ro (VaR)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-061",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 3,
+  "q": "Cổ phiếu Q có độ lệch chuẩn lợi suất 30%, danh mục thị trường có độ lệch chuẩn 20%, hệ số tương quan giữa Q và thị trường là 0,8. Hệ số beta của Q là bao nhiêu?",
+  "o": [
+   "0,53",
+   "0,96",
+   "1,20",
+   "1,50"
+  ],
+  "a": 2,
+  "e": "β = Cov(Q, M)/σM² = ρ × σQ/σM = 0,8 × 30%/20% = 1,20. Bỏ qua tương quan cho 1,50; đảo tỷ số độ lệch chuẩn cho 0,53; dùng ρ² cho 0,96.",
+  "basis": "β = ρiM·σi/σM",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-062",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 1,
+  "q": "Loại rủi ro nào có thể giảm đáng kể (tiến dần về 0) khi tăng số lượng chứng khoán ít tương quan với nhau trong danh mục?",
+  "o": [
+   "Rủi ro phi hệ thống (rủi ro đặc thù doanh nghiệp)",
+   "Rủi ro hệ thống (rủi ro chung của thị trường)",
+   "Rủi ro lãi suất chung của toàn nền kinh tế",
+   "Rủi ro lạm phát và tỷ giá ở cấp độ vĩ mô"
+  ],
+  "a": 0,
+  "e": "Đa dạng hóa loại bỏ được rủi ro phi hệ thống; rủi ro hệ thống (lãi suất, lạm phát, tỷ giá, chu kỳ kinh tế) tác động tới mọi chứng khoán nên không thể loại bỏ bằng đa dạng hóa.",
+  "basis": "Rủi ro hệ thống và rủi ro phi hệ thống",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-063",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 3,
+  "q": "Lợi suất một năm của cổ phiếu T theo các kịch bản: tăng trưởng (xác suất 25%) +30%; bình thường (xác suất 50%) +12%; suy thoái (xác suất 25%) −10%. Hệ số biến thiên (CV = độ lệch chuẩn/lợi suất kỳ vọng) của T xấp xỉ bao nhiêu?",
+  "o": [
+   "0,78",
+   "1,29",
+   "1,49",
+   "1,63"
+  ],
+  "a": 1,
+  "e": "E(R) = 0,25 × 30 + 0,5 × 12 + 0,25 × (−10) = 11%. σ² = 0,25 × 19² + 0,5 × 1² + 0,25 × (−21)² = 90,25 + 0,5 + 110,25 = 201 → σ ≈ 14,18%. CV = 14,18/11 ≈ 1,29 (mỗi đơn vị lợi suất kỳ vọng gánh 1,29 đơn vị rủi ro). Đảo tỷ số cho 0,78; bỏ qua xác suất (bình quân giản đơn, σ ≈ 16,36%) cho 1,49; không trừ lợi suất kỳ vọng khi tính σ (17,94%) cho 1,63.",
+  "basis": "Lợi suất kỳ vọng, độ lệch chuẩn theo kịch bản và hệ số biến thiên CV = σ/E(R)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-064",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "level": 2,
+  "q": "Hạn chế quan trọng nhất của chỉ tiêu VaR khi dùng để quản lý rủi ro danh mục là gì?",
+  "o": [
+   "VaR không cho biết mức độ tổn thất khi tổn thất vượt quá ngưỡng VaR (rủi ro đuôi)",
+   "VaR chỉ tính được cho danh mục trái phiếu, không áp dụng cho cổ phiếu",
+   "VaR không thể quy đổi giữa các khoảng thời gian nắm giữ khác nhau",
+   "VaR luôn đánh giá quá cao rủi ro nên không dùng để đặt hạn mức"
+  ],
+  "a": 0,
+  "e": "VaR chỉ là một ngưỡng phân vị; hai danh mục cùng VaR có thể có tổn thất đuôi rất khác nhau, nên cần bổ sung CVaR và kiểm định sức chịu đựng (stress test). VaR áp dụng cho mọi loại tài sản và có thể quy đổi kỳ hạn (quy tắc căn bậc hai thời gian).",
+  "basis": "Ưu, nhược điểm của VaR; CVaR và stress test",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-065",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "level": 3,
+  "q": "Lãi suất phi rủi ro 4%. Quỹ X: lợi suất 15%, độ lệch chuẩn 20%, beta 1,2. Quỹ Y: lợi suất 12%, độ lệch chuẩn 12%, beta 0,8. Kết luận nào sau đây đúng theo chỉ số Sharpe?",
+  "o": [
+   "Sharpe X = 0,75; Sharpe Y = 1,00; Y hiệu quả hơn",
+   "Sharpe X = 9,17; Sharpe Y = 10,00; Y hiệu quả hơn",
+   "Sharpe X = 0,55; Sharpe Y = 0,67; Y hiệu quả hơn",
+   "Sharpe X = 0,55; Sharpe Y = 0,67; X hiệu quả hơn vì lợi suất cao hơn"
+  ],
+  "a": 2,
+  "e": "Sharpe = (Rp − rf)/σp. X: (15 − 4)/20 = 0,55; Y: (12 − 4)/12 = 0,67 → Y có phần bù trên mỗi đơn vị tổng rủi ro cao hơn. Không trừ rf cho 0,75 và 1,00; 9,17 và 10,00 là chỉ số Treynor (tính theo điểm %).",
+  "basis": "Chỉ số Sharpe = (Rp − rf)/σp",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-066",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "level": 3,
+  "q": "Quỹ Z đạt lợi suất 15%/năm, beta 1,2. Trong cùng kỳ, lãi suất phi rủi ro 4% và lợi suất danh mục thị trường 11%. Alpha Jensen của quỹ Z là bao nhiêu?",
+  "o": [
+   "1,8%",
+   "2,6%",
+   "4,0%",
+   "11,0%"
+  ],
+  "a": 1,
+  "e": "Lợi suất yêu cầu theo CAPM = 4% + 1,2 × (11% − 4%) = 12,4%; α = 15% − 12,4% = 2,6%. Lấy Rp − Rm cho 4,0%; quên rf cho 1,8%; Rp − rf cho 11,0%.",
+  "basis": "Alpha Jensen: α = Rp − [rf + βp(Rm − rf)]",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-067",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "level": 2,
+  "q": "Danh mục quản lý chủ động có lợi suất 13,5%/năm, độ lệch chuẩn 16%; chỉ số tham chiếu có lợi suất 11,1%/năm; sai lệch theo dõi (tracking error) 4%; lãi suất phi rủi ro 4%. Tỷ số thông tin (information ratio) của danh mục là bao nhiêu?",
+  "o": [
+   "0,15",
+   "0,60",
+   "2,38",
+   "3,38"
+  ],
+  "a": 1,
+  "e": "IR = (Rp − Rb)/TE = (13,5% − 11,1%)/4% = 0,60. Chia cho độ lệch chuẩn danh mục cho 0,15; dùng rf thay chỉ số tham chiếu cho 2,38; không trừ lợi suất tham chiếu cho 3,38.",
+  "basis": "Tỷ số thông tin IR = (Rp − Rb)/Tracking error",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-068",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "level": 2,
+  "q": "Khi đánh giá một quỹ chỉ chiếm phần nhỏ trong danh mục tổng thể đã được đa dạng hóa tốt của nhà đầu tư, chỉ số nào phù hợp hơn để so sánh hiệu quả giữa các quỹ?",
+  "o": [
+   "Chỉ số Sharpe, vì đo phần bù trên tổng rủi ro (độ lệch chuẩn)",
+   "Lợi suất tuyệt đối, vì rủi ro đã được đa dạng hóa hết",
+   "Độ lệch chuẩn của quỹ, vì phản ánh toàn bộ biến động",
+   "Chỉ số Treynor, vì khi đó chỉ rủi ro hệ thống (beta) là rủi ro liên quan"
+  ],
+  "a": 3,
+  "e": "Với danh mục tổng thể đã đa dạng hóa, rủi ro phi hệ thống của từng quỹ bị triệt tiêu, nên đo phần bù trên beta (Treynor) phù hợp hơn. Sharpe phù hợp khi quỹ là toàn bộ (hoặc phần lớn) tài sản của nhà đầu tư.",
+  "basis": "Lựa chọn thước đo hiệu quả: Sharpe và Treynor",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-069",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "level": 3,
+  "q": "Tại ngày định giá, quỹ mở có tổng giá trị tài sản 520 tỷ đồng, tổng nợ phải trả 20 tỷ đồng và 40 triệu chứng chỉ quỹ đang lưu hành. Nhà đầu tư bán lại (yêu cầu quỹ mua lại) 10.000 chứng chỉ quỹ, phí mua lại 0,5% giá trị giao dịch tính theo NAV. Số tiền nhà đầu tư nhận được (chưa tính thuế) là bao nhiêu?",
+  "o": [
+   "124.375.000 đ",
+   "125.000.000 đ",
+   "129.350.000 đ",
+   "130.000.000 đ"
+  ],
+  "a": 0,
+  "e": "NAV = 520 − 20 = 500 tỷ; NAV/chứng chỉ quỹ = 500 tỷ/40 triệu = 12.500 đ. Tiền nhận = 10.000 × 12.500 × (1 − 0,5%) = 124.375.000 đ. Dùng tổng tài sản (13.000 đ/ccq) là sai vì NAV phải trừ nợ phải trả.",
+  "basis": "NAV = Tổng tài sản − Tổng nợ phải trả; giá mua lại = NAV/ccq × (1 − phí mua lại)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-070",
+  "part": "CM",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "level": 1,
+  "q": "Theo Thông tư 98/2020/TT-BTC (hợp nhất với Thông tư 136/2025/TT-BTC), công ty quản lý quỹ phải xác định giá trị tài sản ròng của quỹ ETF với tần suất nào?",
+  "o": [
+   "Định kỳ tối thiểu một lần trong một tuần",
+   "Theo ngày giao dịch, tối thiểu hai lần trong một tháng",
+   "Định kỳ tối thiểu một lần trong một tháng",
+   "Hàng ngày"
+  ],
+  "a": 3,
+  "e": "Điều 20 khoản 4: quỹ đóng xác định NAV định kỳ tối thiểu 1 lần/tuần; quỹ mở theo ngày giao dịch, tối thiểu 1 lần/tuần; quỹ ETF hàng ngày (kèm NAV trên một lô chứng chỉ quỹ).",
+  "basis": "Điểm c khoản 4 Điều 20 Thông tư 98/2020/TT-BTC (VBHN 04/VBHN-BTC năm 2026, hợp nhất Thông tư 136/2025/TT-BTC)",
+  "quote": "Xác định giá trị tài sản ròng, giá trị tài sản ròng trên một lô chứng chỉ quỹ, giá trị tài sản ròng trên một chứng chỉ quỹ của quỹ ETF hàng ngày.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-071",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, đặc điểm nào sau đây phân biệt hợp đồng kỳ hạn với hợp đồng tương lai?",
+  "o": [
+   "Hợp đồng kỳ hạn xác nhận quyền của người mua, còn hợp đồng tương lai xác nhận nghĩa vụ của người bán",
+   "Hợp đồng kỳ hạn không có tài sản cơ sở, còn hợp đồng tương lai có tài sản cơ sở",
+   "Hợp đồng kỳ hạn là chứng khoán phái sinh giao dịch thỏa thuận, còn hợp đồng tương lai là chứng khoán phái sinh niêm yết",
+   "Hợp đồng kỳ hạn chỉ thanh toán bằng tiền, còn hợp đồng tương lai luôn chuyển giao tài sản"
+  ],
+  "a": 2,
+  "e": "Luật định nghĩa hợp đồng tương lai là chứng khoán phái sinh niêm yết, còn hợp đồng kỳ hạn là chứng khoán phái sinh giao dịch thỏa thuận; cả hai đều xác nhận cam kết (nghĩa vụ) của các bên đối với tài sản cơ sở. Quyền của người mua – nghĩa vụ của người bán là đặc trưng của hợp đồng quyền chọn.",
+  "basis": "Khoản 12, khoản 13 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025, hợp nhất Luật 56/2024/QH15)",
+  "quote": "Hợp đồng kỳ hạn là loại chứng khoán phái sinh giao dịch thỏa thuận, xác nhận cam kết giữa các bên về việc mua hoặc bán số lượng tài sản cơ sở nhất định theo mức giá đã được xác định vào ngày đã xác định trong tương lai.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-072",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "level": 2,
+  "q": "Chức năng nào sau đây KHÔNG phải là chức năng kinh tế chủ yếu của thị trường chứng khoán phái sinh?",
+  "o": [
+   "Phòng ngừa rủi ro biến động giá của tài sản cơ sở",
+   "Huy động vốn trực tiếp cho tổ chức phát hành tài sản cơ sở",
+   "Phát hiện giá, phản ánh kỳ vọng về giá tài sản cơ sở trong tương lai",
+   "Tăng thanh khoản và hiệu quả cho thị trường tài sản cơ sở"
+  ],
+  "a": 1,
+  "e": "Chứng khoán phái sinh là hợp đồng giữa các nhà đầu tư; giao dịch phái sinh không đem lại vốn cho doanh nghiệp phát hành tài sản cơ sở. Các chức năng chính là phòng ngừa rủi ro, phát hiện giá, tăng thanh khoản – hiệu quả thị trường và tạo thêm công cụ đầu tư.",
+  "basis": "Chức năng của thị trường chứng khoán phái sinh",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-073",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "level": 2,
+  "q": "Theo Nghị định 158/2020/NĐ-CP, công ty quản lý quỹ được đầu tư chứng khoán phái sinh từ nguồn vốn của quỹ đầu tư chứng khoán với mục đích nào?",
+  "o": [
+   "Đầu tư kiếm lời không hạn chế nếu Điều lệ quỹ cho phép",
+   "Thực hiện hoạt động tạo lập thị trường cho hợp đồng tương lai chỉ số",
+   "Đầu tư kiếm lời trong hạn mức 20% giá trị tài sản ròng của quỹ",
+   "Chỉ nhằm mục đích phòng ngừa rủi ro cho danh mục của quỹ"
+  ],
+  "a": 3,
+  "e": "Công ty quản lý quỹ chỉ được đầu tư chứng khoán phái sinh nhằm phòng ngừa rủi ro cho danh mục ủy thác và cho quỹ/công ty đầu tư chứng khoán; không được đầu tư phái sinh từ vốn của chính mình, vốn vay và vốn huy động khác. Nghị định 306/2025/NĐ-CP không sửa đổi điểm này.",
+  "basis": "Điểm b khoản 1 Điều 16 Nghị định 158/2020/NĐ-CP (không bị sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "công ty quản lý quỹ chỉ được đầu tư chứng khoán phái sinh nhằm mục đích phòng ngừa rủi ro theo quy định của pháp luật về quỹ đầu tư chứng khoán đối với nguồn vốn của quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán.",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-074",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "level": 1,
+  "q": "Theo Nghị định 158/2020/NĐ-CP, \"giới hạn vị thế\" được hiểu là:",
+  "o": [
+   "Số lượng chứng khoán phái sinh tối đa có thể đặt trên một lệnh giao dịch",
+   "Vị thế tối đa của chứng khoán phái sinh mà nhà đầu tư được quyền nắm giữ tại một thời điểm",
+   "Chênh lệch giữa vị thế mua và vị thế bán đã mở của một chứng khoán phái sinh tại cùng một thời điểm",
+   "Mức lỗ tối đa trên vị thế mà nhà đầu tư được chịu trước khi bị đóng vị thế bắt buộc"
+  ],
+  "a": 1,
+  "e": "Khoản 5 Điều 3 định nghĩa giới hạn vị thế. Số lượng tối đa trên một lệnh là \"giới hạn lệnh giao dịch\" (khoản 6); chênh lệch vị thế mua – bán là \"vị thế ròng\" (khoản 4).",
+  "basis": "Khoản 5 Điều 3 Nghị định 158/2020/NĐ-CP (không bị sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Giới hạn vị thế là vị thế tối đa của một chứng khoán phái sinh, hoặc của chứng khoán phái sinh đó và các chứng khoán phái sinh khác dựa trên cùng một tài sản cơ sở mà nhà đầu tư được quyền nắm giữ tại một thời điểm.",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-075",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "level": 1,
+  "q": "Đặc điểm nào sau đây có ở hợp đồng tương lai nhưng KHÔNG có ở hợp đồng kỳ hạn thông thường?",
+  "o": [
+   "Xác định trước giá và khối lượng tài sản cơ sở giao dịch trong tương lai",
+   "Lãi/lỗ vị thế được xác định và thanh toán hằng ngày qua cơ chế ký quỹ, bù trừ tập trung",
+   "Có ngày đáo hạn xác định trong tương lai",
+   "Có thể được sử dụng để phòng ngừa rủi ro biến động giá"
+  ],
+  "a": 1,
+  "e": "Hợp đồng tương lai được chuẩn hóa, niêm yết, ký quỹ và thanh toán lãi lỗ hằng ngày (mark-to-market) qua đối tác bù trừ trung tâm. Xác định trước giá, có ngày đáo hạn và dùng để phòng ngừa rủi ro là đặc điểm chung của cả hai loại hợp đồng.",
+  "basis": "So sánh hợp đồng tương lai và hợp đồng kỳ hạn",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-076",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "level": 3,
+  "q": "Nhà đầu tư mở 3 vị thế mua HĐTL chỉ số VN30 ở mức 1.300,0 điểm (hệ số nhân 100.000 đ/điểm). Giá thanh toán cuối ngày thứ nhất là 1.312,5 điểm, ngày thứ hai là 1.295,0 điểm. Lãi/lỗ vị thế được thanh toán vào cuối ngày thứ hai là bao nhiêu?",
+  "o": [
+   "−5.250.000 đ",
+   "−1.750.000 đ",
+   "−1.500.000 đ",
+   "3.750.000 đ"
+  ],
+  "a": 0,
+  "e": "Lãi/lỗ ngày 2 = (1.295,0 − 1.312,5) × 100.000 × 3 = −5.250.000 đ (ngày 1 đã thanh toán lãi +3.750.000 đ). Lãi/lỗ lũy kế so với giá mở là −1.500.000 đ; −1.750.000 đ là tính cho 1 hợp đồng.",
+  "basis": "Thanh toán lãi lỗ hằng ngày (mark-to-market) theo giá thanh toán cuối ngày",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-077",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "level": 3,
+  "q": "Giả định (phục vụ bài tập): ký quỹ ban đầu 20 triệu đồng/hợp đồng, ký quỹ duy trì 15 triệu đồng/hợp đồng. Nhà đầu tư mở 2 vị thế bán HĐTL chỉ số VN30 ở mức 1.250,0 điểm (hệ số nhân 100.000 đ/điểm), nộp đúng mức ký quỹ ban đầu và không rút tiền. Giá thanh toán cuối ngày vượt quá mức nào thì nhà đầu tư bắt đầu nhận yêu cầu bổ sung ký quỹ?",
+  "o": [
+   "1.200,0 điểm",
+   "1.275,0 điểm",
+   "1.300,0 điểm",
+   "1.450,0 điểm"
+  ],
+  "a": 2,
+  "e": "Mức lỗ chịu được trên mỗi hợp đồng = 20 − 15 = 5 triệu đồng, tương đương 5.000.000/100.000 = 50 điểm. Vị thế bán lỗ khi giá tăng → giá ngưỡng = 1.250,0 + 50 = 1.300,0 điểm. 1.200,0 là nhầm chiều; 1.275,0 là chia nhầm cho 2 hợp đồng; 1.450,0 là dùng toàn bộ ký quỹ ban đầu.",
+  "basis": "Ký quỹ ban đầu, ký quỹ duy trì và yêu cầu bổ sung ký quỹ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-078",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "level": 3,
+  "q": "Chỉ số VN30 đang ở mức 1.250,0 điểm. HĐTL chỉ số VN30 còn 73 ngày đến đáo hạn; lãi suất phi rủi ro 6%/năm (lãi đơn, cơ sở 365 ngày); cổ tức của các cổ phiếu trong rổ dự kiến nhận trước đáo hạn quy đổi tương đương 3,2 điểm chỉ số (bỏ qua lãi trên cổ tức). Giá lý thuyết của HĐTL theo mô hình chi phí lưu giữ là bao nhiêu?",
+  "o": [
+   "1.246,8 điểm",
+   "1.261,8 điểm",
+   "1.265,0 điểm",
+   "1.321,8 điểm"
+  ],
+  "a": 1,
+  "e": "F = S × (1 + r × t/365) − D = 1.250 × (1 + 6% × 73/365) − 3,2 = 1.250 × 1,012 − 3,2 = 1.261,8 điểm. Bỏ cổ tức cho 1.265,0; bỏ chi phí vốn cho 1.246,8; không quy đổi lãi suất theo thời gian cho 1.321,8.",
+  "basis": "Mô hình chi phí lưu giữ (cost of carry): F = S(1 + rt) − D",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-079",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "level": 3,
+  "q": "Chỉ số VN30 ở mức 1.200,0 điểm; HĐTL chỉ số VN30 còn 90 ngày đến đáo hạn đang giao dịch ở 1.230,0 điểm. Lãi suất phi rủi ro 6%/năm (lãi đơn, cơ sở 365 ngày), bỏ qua cổ tức và chi phí giao dịch, giả định có thể giao dịch rổ cổ phiếu mô phỏng chính xác chỉ số (hệ số nhân 100.000 đ/điểm). Chiến lược kinh doanh chênh lệch giá và lợi nhuận tại đáo hạn cho mỗi hợp đồng là:",
+  "o": [
+   "Mua rổ VN30 bằng vốn vay, bán HĐTL; lợi nhuận ≈ 1,22 triệu đồng/hợp đồng",
+   "Bán khống rổ VN30, mua HĐTL; lợi nhuận ≈ 1,22 triệu đồng/hợp đồng",
+   "Mua rổ VN30 bằng vốn vay, bán HĐTL; lợi nhuận ≈ 3,00 triệu đồng/hợp đồng",
+   "Không có cơ hội chênh lệch giá vì giá HĐTL cao hơn giá giao ngay là bình thường"
+  ],
+  "a": 0,
+  "e": "Giá lý thuyết = 1.200 × (1 + 6% × 90/365) = 1.217,75 điểm < 1.230,0 → HĐTL bị định giá cao. Kinh doanh chênh lệch thuận (cash and carry): vay tiền mua rổ, bán HĐTL; lợi nhuận = (1.230,0 − 1.217,75) × 100.000 ≈ 1.224.658 đ/hợp đồng. 3,00 triệu là quên chi phí vốn.",
+  "basis": "Kinh doanh chênh lệch giá (cash and carry) khi F thị trường > F lý thuyết",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-080",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "level": 3,
+  "q": "Quỹ nắm giữ danh mục cổ phiếu trị giá 15 tỷ đồng, beta 1,2 so với chỉ số VN30, muốn giảm beta danh mục xuống 0,5. HĐTL chỉ số VN30 đang ở mức 1.250,0 điểm, hệ số nhân 100.000 đ/điểm. Quỹ cần thực hiện giao dịch nào?",
+  "o": [
+   "Bán 144 hợp đồng",
+   "Bán 60 hợp đồng",
+   "Mua 84 hợp đồng",
+   "Bán 84 hợp đồng"
+  ],
+  "a": 3,
+  "e": "Giá trị 1 hợp đồng = 1.250 × 100.000 = 125 triệu đồng. N = (β mục tiêu − β hiện tại) × V/(F × hệ số nhân) = (0,5 − 1,2) × 15 tỷ/125 triệu = −84 → bán 84 hợp đồng. Bán 144 hợp đồng là phòng vệ toàn bộ (β về 0); 60 hợp đồng là dùng nhầm β mục tiêu.",
+  "basis": "Điều chỉnh beta danh mục bằng HĐTL chỉ số: N = (β* − β)·V/(F·hệ số nhân)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-081",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "level": 2,
+  "q": "Nhà đầu tư phòng vệ danh mục cổ phiếu bằng HĐTL chỉ số VN30 và dự kiến đóng vị thế trước ngày đáo hạn. Rủi ro cơ sở (basis risk) của chiến lược này phát sinh chủ yếu do:",
+  "o": [
+   "Chỉ số VN30 có thể giảm mạnh trong suốt thời gian thực hiện phòng vệ",
+   "Lãi lỗ vị thế HĐTL phải thanh toán hằng ngày qua tài khoản ký quỹ",
+   "Chênh lệch giữa giá giao ngay và giá HĐTL khi đóng vị thế biến động khó dự đoán",
+   "Bên đối ứng của HĐTL có thể mất khả năng thanh toán khi đáo hạn"
+  ],
+  "a": 2,
+  "e": "Cơ sở = giá giao ngay − giá tương lai, hội tụ về 0 khi đáo hạn; nếu đóng vị thế trước đáo hạn (hoặc danh mục không trùng rổ VN30) thì cơ sở tại thời điểm đóng là bất định nên phòng vệ không hoàn hảo. Rủi ro đối tác được hạn chế nhờ cơ chế đối tác bù trừ trung tâm.",
+  "basis": "Cơ sở (basis) và rủi ro cơ sở khi phòng vệ bằng HĐTL",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-082",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "level": 1,
+  "q": "Một quyền chọn bán (put) ở trạng thái cao giá (in-the-money) khi:",
+  "o": [
+   "Giá tài sản cơ sở cao hơn giá thực hiện",
+   "Giá tài sản cơ sở bằng giá thực hiện",
+   "Giá tài sản cơ sở thấp hơn giá thực hiện",
+   "Phí quyền chọn cao hơn giá trị nội tại"
+  ],
+  "a": 2,
+  "e": "Giá trị nội tại của quyền chọn bán = max(K − S, 0) > 0 khi S < K (cao giá). S > K là kiệt giá với quyền chọn bán; S = K là ngang giá.",
+  "basis": "Trạng thái quyền chọn: cao giá, ngang giá, kiệt giá",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-083",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "level": 1,
+  "q": "Nhà đầu tư mua chứng quyền có bảo đảm loại mua với giá P (đồng/chứng quyền), giá thực hiện K, tỷ lệ chuyển đổi n:1 (n chứng quyền tương ứng 1 chứng khoán cơ sở). Bỏ qua thuế, phí, nếu nắm giữ đến đáo hạn thì giá hòa vốn của chứng khoán cơ sở được xác định bằng:",
+  "o": [
+   "K + P/n",
+   "K + P × n",
+   "K − P × n",
+   "K + P"
+  ],
+  "a": 1,
+  "e": "Khi đáo hạn mỗi chứng quyền mua nhận (S − K)/n; hòa vốn khi (S − K)/n = P ⇒ S = K + P × n. Ví dụ K = 25.000 đ, P = 1.000 đ, n = 2 thì giá hòa vốn là 27.000 đ. K + P/n là chia nhầm cho tỷ lệ chuyển đổi; K − P × n là giá hòa vốn của chứng quyền bán; K + P bỏ qua tỷ lệ chuyển đổi.",
+  "basis": "Giá hòa vốn chứng quyền mua = Giá thực hiện + Giá chứng quyền × Tỷ lệ chuyển đổi",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-084",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "level": 3,
+  "q": "Nhà đầu tư mua 20.000 chứng quyền mua (kiểu châu Âu, thanh toán bằng tiền) với giá 1.200 đ/chứng quyền; tỷ lệ chuyển đổi 2:1 (2 chứng quyền tương ứng 1 cổ phiếu cơ sở), giá thực hiện 45.000 đ. Giá thanh toán tại ngày đáo hạn là 49.800 đ. Lợi nhuận của nhà đầu tư (bỏ qua thuế, phí) là bao nhiêu?",
+  "o": [
+   "24.000.000 đ",
+   "36.000.000 đ",
+   "48.000.000 đ",
+   "72.000.000 đ"
+  ],
+  "a": 0,
+  "e": "Khoản thanh toán mỗi chứng quyền = (49.800 − 45.000)/2 = 2.400 đ; lợi nhuận = (2.400 − 1.200) × 20.000 = 24.000.000 đ. Quên tỷ lệ chuyển đổi cho 72.000.000 đ; chưa trừ giá mua cho 48.000.000 đ; chia cả giá mua cho tỷ lệ chuyển đổi cho 36.000.000 đ.",
+  "basis": "Khoản thanh toán chứng quyền mua = (Giá thanh toán − Giá thực hiện)/Tỷ lệ chuyển đổi",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-085",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "level": 3,
+  "q": "Cổ phiếu XYZ giá 48.000 đ. Quyền chọn mua kiểu châu Âu trên XYZ, giá thực hiện 50.000 đ, kỳ hạn 6 tháng, có giá 3.000 đ. Lãi suất phi rủi ro 8%/năm (chiết khấu theo lãi kép năm), cổ phiếu không trả cổ tức. Theo ngang giá quyền chọn mua – bán, giá quyền chọn bán kiểu châu Âu cùng giá thực hiện và kỳ hạn xấp xỉ:",
+  "o": [
+   "1.000 đ",
+   "2.887 đ",
+   "3.113 đ",
+   "5.000 đ"
+  ],
+  "a": 2,
+  "e": "P = C + K/(1 + r)^T − S = 3.000 + 50.000/1,08^0,5 − 48.000 = 3.000 + 48.112,52 − 48.000 ≈ 3.113 đ. Không chiết khấu K cho 5.000 đ; đảo dấu cho 2.887 đ; lấy C − (K − S) cho 1.000 đ.",
+  "basis": "Ngang giá quyền chọn mua – bán: C + K/(1+r)^T = P + S",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-086",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "level": 3,
+  "q": "Nhà đầu tư mua quyền chọn mua giá thực hiện 40.000 đ (phí 2.500 đ) và bán quyền chọn mua giá thực hiện 45.000 đ (phí 1.000 đ), cùng tài sản cơ sở và cùng ngày đáo hạn. Khi đáo hạn, giá tài sản cơ sở là 43.000 đ. Lợi nhuận của chiến lược tính trên một đơn vị tài sản cơ sở là bao nhiêu?",
+  "o": [
+   "−500 đ",
+   "1.500 đ",
+   "3.000 đ",
+   "4.500 đ"
+  ],
+  "a": 1,
+  "e": "Chênh lệch giá mua (bull call spread): thu từ quyền mua 40.000 = 3.000 đ; quyền mua 45.000 không được thực hiện. Chi phí ròng = 2.500 − 1.000 = 1.500 đ. Lợi nhuận = 3.000 − 1.500 = 1.500 đ. Cộng cả hai phí như chi phí cho −500 đ; quên phí cho 3.000 đ; đảo dấu phí ròng cho 4.500 đ.",
+  "basis": "Chiến lược chênh lệch giá tăng (bull call spread)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-087",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "level": 2,
+  "q": "Khi các yếu tố khác không đổi, nếu độ biến động (volatility) kỳ vọng của tài sản cơ sở tăng lên thì giá quyền chọn mua và quyền chọn bán kiểu châu Âu thay đổi như thế nào?",
+  "o": [
+   "Quyền chọn mua tăng giá, quyền chọn bán giảm giá",
+   "Quyền chọn mua giảm giá, quyền chọn bán tăng giá",
+   "Hai loại quyền chọn đều giảm giá do rủi ro cao hơn",
+   "Quyền chọn mua và quyền chọn bán đều tăng giá"
+  ],
+  "a": 3,
+  "e": "Vega của vị thế mua quyền chọn (mua hoặc bán) đều dương: biến động cao làm tăng khả năng quyền chọn kết thúc ở trạng thái cao giá, trong khi khoản lỗ của người nắm giữ bị giới hạn ở phí quyền chọn.",
+  "basis": "Các hệ số nhạy (Greeks): vega",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-088",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "level": 3,
+  "q": "CTCK phát hành 2.000.000 chứng quyền mua, tỷ lệ chuyển đổi 4:1 (4 chứng quyền tương ứng 1 cổ phiếu cơ sở). Delta của chứng quyền tính theo 1 cổ phiếu cơ sở là 0,55. Để phòng ngừa rủi ro delta cho vị thế phát hành, CTCK cần nắm giữ bao nhiêu cổ phiếu cơ sở?",
+  "o": [
+   "68.750 cổ phiếu",
+   "275.000 cổ phiếu",
+   "500.000 cổ phiếu",
+   "1.100.000 cổ phiếu"
+  ],
+  "a": 1,
+  "e": "Số cổ phiếu cơ sở tương ứng = 2.000.000/4 = 500.000; số cổ phiếu phòng ngừa = 500.000 × 0,55 = 275.000 cổ phiếu (mua vào vì CTCK đang ở vị thế bán quyền chọn mua). Quên tỷ lệ chuyển đổi cho 1.100.000; bỏ qua delta cho 500.000.",
+  "basis": "Phòng ngừa delta (delta hedging)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-089",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "level": 2,
+  "q": "HĐTL chỉ số VN30 đang giao dịch ở mức 1.280,5 điểm, hệ số nhân 100.000 đ/điểm. Giả định tỷ lệ ký quỹ ban đầu là 17% giá trị hợp đồng. Giá trị ký quỹ ban đầu cho 1 hợp đồng là bao nhiêu?",
+  "o": [
+   "2.176.850 đ",
+   "21.768.500 đ",
+   "128.050.000 đ",
+   "217.685.000 đ"
+  ],
+  "a": 1,
+  "e": "Giá trị hợp đồng = 1.280,5 × 100.000 = 128.050.000 đ; ký quỹ ban đầu = 17% × 128.050.000 = 21.768.500 đ. Dùng nhầm hệ số nhân 10.000 cho 2.176.850 đ.",
+  "basis": "Giá trị hợp đồng = Giá × Hệ số nhân; Ký quỹ = Giá trị hợp đồng × Tỷ lệ ký quỹ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-090",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "level": 1,
+  "q": "HĐTL chỉ số VN30 giao dịch trên thị trường chứng khoán phái sinh Việt Nam được thanh toán khi đáo hạn theo phương thức nào?",
+  "o": [
+   "Chuyển giao vật chất toàn bộ rổ 30 cổ phiếu thành phần của chỉ số VN30",
+   "Chuyển giao chứng chỉ quỹ ETF mô phỏng chỉ số VN30",
+   "Người mua được lựa chọn giữa nhận tiền hoặc nhận rổ cổ phiếu",
+   "Thanh toán bằng tiền, dựa trên chênh lệch giữa giá hợp đồng và giá thanh toán cuối cùng"
+  ],
+  "a": 3,
+  "e": "Tài sản cơ sở là chỉ số nên không thể chuyển giao vật chất; HĐTL chỉ số VN30 thanh toán bằng tiền theo giá thanh toán cuối cùng (giá đóng cửa của chỉ số cơ sở tại ngày giao dịch cuối cùng).",
+  "basis": "Đặc tả HĐTL chỉ số VN30 – phương thức thanh toán",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-091",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "level": 3,
+  "q": "Nhà đầu tư mở 5 vị thế mua HĐTL chỉ số VN30 ở mức 1.305,2 điểm và đóng toàn bộ vị thế ở 1.318,7 điểm (hệ số nhân 100.000 đ/điểm). Giả định tổng phí là 20.000 đ/hợp đồng cho mỗi lượt mở hoặc đóng vị thế; bỏ qua thuế. Lợi nhuận ròng của nhà đầu tư là bao nhiêu?",
+  "o": [
+   "1.310.000 đ",
+   "6.550.000 đ",
+   "6.650.000 đ",
+   "6.750.000 đ"
+  ],
+  "a": 1,
+  "e": "Lãi gộp = (1.318,7 − 1.305,2) × 100.000 × 5 = 6.750.000 đ; phí = 20.000 × 5 × 2 lượt = 200.000 đ; lãi ròng = 6.550.000 đ. Chỉ tính phí một chiều cho 6.650.000 đ; 1.310.000 đ là lãi ròng của 1 hợp đồng.",
+  "basis": "Lãi lỗ khi đóng vị thế HĐTL = (Giá đóng − Giá mở) × Hệ số nhân × Số hợp đồng − Phí",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-092",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Một số công cụ phái sinh giao dịch trên thị trường OTC",
+  "level": 2,
+  "q": "Hợp đồng hoán đổi lãi suất danh nghĩa 100 tỷ đồng, kỳ hạn 1 năm, thanh toán 6 tháng/lần: bên A trả lãi cố định 6,0%/năm, bên B trả lãi thả nổi theo lãi suất tham chiếu xác định vào đầu mỗi kỳ, các khoản lãi được bù trừ ròng. Lãi suất tham chiếu đầu kỳ 1 là 5,4%/năm, đầu kỳ 2 là 6,8%/năm. Khoản thanh toán ròng vào cuối kỳ 2 là:",
+  "o": [
+   "Bên A nhận ròng 0,4 tỷ đồng từ bên B",
+   "Bên A trả ròng 0,4 tỷ đồng cho bên B",
+   "Bên A nhận ròng 0,8 tỷ đồng từ bên B",
+   "Bên A trả ròng 0,3 tỷ đồng cho bên B"
+  ],
+  "a": 0,
+  "e": "Lãi thả nổi kỳ 2 xác định đầu kỳ = 6,8%. Bên B trả 100 × 6,8% × 0,5 = 3,4 tỷ; bên A trả 100 × 6,0% × 0,5 = 3,0 tỷ → bên A nhận ròng 0,4 tỷ đồng. Quên nhân 0,5 năm cho 0,8 tỷ; dùng lãi suất đầu kỳ 1 cho bên A trả ròng 0,3 tỷ.",
+  "basis": "Hoán đổi lãi suất (cố định – thả nổi), thanh toán ròng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-093",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Một số công cụ phái sinh giao dịch trên thị trường OTC",
+  "level": 2,
+  "q": "So với hợp đồng hoán đổi lãi suất thông thường (plain vanilla), điểm khác biệt cơ bản của hợp đồng hoán đổi tiền tệ là:",
+  "o": [
+   "Chỉ trao đổi phần chênh lệch lãi tính trên cùng một số tiền gốc danh nghĩa",
+   "Bắt buộc niêm yết và giao dịch tập trung trên Sở giao dịch chứng khoán",
+   "Thường có trao đổi số tiền gốc bằng hai đồng tiền khác nhau vào đầu và cuối kỳ hạn",
+   "Không phát sinh rủi ro tỷ giá cho các bên tham gia"
+  ],
+  "a": 2,
+  "e": "Hoán đổi tiền tệ trao đổi gốc và lãi bằng hai đồng tiền (thường trao đổi gốc đầu và cuối kỳ), nên các bên chịu rủi ro tỷ giá. Hoán đổi lãi suất thông thường cùng một đồng tiền, không trao đổi gốc, chỉ thanh toán ròng chênh lệch lãi. Cả hai chủ yếu giao dịch OTC.",
+  "basis": "Hoán đổi tiền tệ và hoán đổi lãi suất",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-094",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "level": 1,
+  "q": "Theo Nghị định 158/2020/NĐ-CP, trong cơ chế đối tác bù trừ trung tâm, tổ chức nào thông qua hoạt động thế vị trở thành một đối tác của giao dịch chứng khoán phái sinh?",
+  "o": [
+   "Sở giao dịch chứng khoán tổ chức thị trường phái sinh",
+   "Ngân hàng thanh toán do các thành viên bù trừ lựa chọn",
+   "Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam",
+   "Ủy ban Chứng khoán Nhà nước"
+  ],
+  "a": 2,
+  "e": "Trong cơ chế đối tác bù trừ trung tâm, VSDC thông qua thế vị trở thành một đối tác của giao dịch, thành viên bù trừ là đối tác còn lại; nhờ đó rủi ro đối tác giữa các nhà đầu tư được loại bỏ.",
+  "basis": "Khoản 19 Điều 3 Nghị định 158/2020/NĐ-CP (không bị sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam thông qua hoạt động thế vị trở thành một đối tác của giao dịch chứng khoán phái sinh, thành viên bù trừ là đối tác còn lại của giao dịch.",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C3-095",
+  "part": "CM",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "level": 2,
+  "q": "Theo Nghị định 158/2020/NĐ-CP, biện pháp nào sau đây thuộc cơ chế phòng ngừa rủi ro mà Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam được áp dụng?",
+  "o": [
+   "Bảo đảm mức lợi nhuận tối thiểu cho nhà đầu tư có vị thế mở",
+   "Cho thành viên bù trừ vay vốn để thanh toán lỗ vị thế",
+   "Quyết định hủy niêm yết hợp đồng tương lai khi đáo hạn",
+   "Yêu cầu thành viên bù trừ đóng góp vào quỹ bù trừ"
+  ],
+  "a": 3,
+  "e": "Điều 35: VSDC được xác định, điều chỉnh mức ký quỹ; yêu cầu thành viên bù trừ đóng góp quỹ bù trừ; xác định giới hạn vị thế; đóng vị thế của bên mất khả năng thanh toán; sử dụng quỹ bù trừ. Hủy niêm yết chứng khoán phái sinh thuộc thẩm quyền Sở giao dịch chứng khoán (Điều 15).",
+  "basis": "Điểm b khoản 1 Điều 35 Nghị định 158/2020/NĐ-CP (không bị sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "b) Yêu cầu thành viên bù trừ đóng góp vào quỹ bù trừ;",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ }
+]

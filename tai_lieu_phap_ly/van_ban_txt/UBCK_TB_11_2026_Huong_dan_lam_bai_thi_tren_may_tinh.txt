@@ -1,0 +1,104 @@
+ĐĂNG NHẬP PHẦN MỀM
+GIAO DIỆN LÀM BÀI CỦA THÍ SINH
+
+                         Ảnh thí sinh
+
+
+
+
+                         Thông tin của
+                           Thí sinh
+
+                           Đồng hồ
+                          đếm ngược
+GIAO DIỆN LÀM BÀI CỦA THÍ SINH
+
+
+                          Câu hỏi thi và
+                         các phương án
+                             trả lời
+
+
+
+                             Nút nộp
+                              bài thi
+
+
+                         Danh sách các
+                          câu hỏi thi
+     CÁCH LÀM BÀI TRÊN MÁY
+ Thí sinh làm
+bài bấm chọn
+trực tiếp vào
+   đáp án
+
+
+   Chọn nút
+  chuyển câu
+ hỏi khác hoặc
+chọn tại nút có
+   số câu tại
+  bảng danh
+      sách
+       ĐỔI MÀU CÂU HỎI
+
+
+
+
+Câu
+ đã
+làm       Câu đang
+            làm
+                     Câu đang
+ Câu                   làm
+chưa
+ làm
+NỘP BÀI THI
+
+
+               Sau khi
+               làm bài
+              xong, thí
+              sinh chọn
+               vào nút
+              NỘP BÀI
+                 THI.
+HIỆN CẢNH BÁO CHO THÍ SINH
+
+
+
+                      Hiện cảnh
+                       báo khi
+                       thí sinh
+                      bấm nút
+                      NỘP BÀI
+                         THI
+GIAO DIỆN SAU KHI NỘP BÀI THI
+
+
+
+                                         Báo
+                                        điểm
+                                        ngay
+                                       sau khi
+                                       thí sinh
+                                       nộp bài
+                                          thi
+
+
+Cho phép thí sinh xem lại các câu đã
+      trả lời là đúng hay sai
+      CÁC NỘI DUNG THÍ SINH
+     CẦN NHỚ KHI LÀM BÀI THI
+• Đăng nhập bằng mã cá nhân cả chữ và số.
+• Lựa chọn câu hỏi, lựa chọn phương án trả lời.
+• Có thể chọn câu hỏi dễ làm trước, khó làm sau.
+• Có thể chọn lại các đáp án trước khi hết giờ thi.
+• Lưu ý thời gian trên đồng hồ đếm ngược để
+  hoàn thành bài thi.
+• Xem kết quả thi hiển thị trên màn hình và xem
+  lại các đáp án là đúng/sai sau khi nộp bài thi.
+    XIN CẢM ƠN
+ CHÚC CÁC ANH/CHỊ
+THI ĐẠT KẾT QUẢ CAO!
+

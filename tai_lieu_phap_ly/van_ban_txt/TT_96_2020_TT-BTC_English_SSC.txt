@@ -1,0 +1,1763 @@
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+     THE MINISTRY OF                   THE SOCIALIST REPUBLIC OF VIET NAM
+         FINANCE                            Independence-Freedom-Happiness
+           -------                                   -----------------
+     No.: 96/2020/TT-BTC                                      Hanoi, November 16, 2020
+
+
+                                            CIRCULAR
+
+               PROVIDING GUIDELINES ON INFORMATION DISCLOSURE
+
+                                  ON THE SECURITIES MARKET
+
+Pursuant to the Securities Law dated November 26, 2019;
+
+Pursuant to the Enterprises Law dated June 17, 2020;
+
+Pursuant to the Government’s Decree No. 87/2017/ND-CP dated July 26, 2017 defining
+functions, tasks, powers and organizational structure of the Ministry of Finance;
+
+At the request of the Chairman of the State Securities Commission of Vietnam;
+
+The Minister of Finance promulgates a Circular providing guidelines on information disclosure
+on the securities market;
+
+Chapter I
+
+                                    GENERAL PROVISIONS
+
+Article 1. Scope
+
+This Circular provides regulations on information disclosure on Vietnam's securities market.
+
+Article 2. Disclosing entities
+
+1. Disclosing entities include:
+
+a) Public companies;
+
+b) Issuers that make public offering of corporate bonds;
+
+c) Issuers that make initial public offering of shares;
+
+d) Issuers that have corporate bonds listed;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+dd) Securities companies, securities investment fund management companies; branches of
+foreign securities companies in Vietnam and branches of foreign fund management companies in
+Vietnam (hereinafter referred to as “branches of foreign securities companies and foreign fund
+management companies in Vietnam”); representative offices of foreign securities companies and
+foreign fund management companies in Vietnam; public funds and public securities investment
+companies;
+
+e) Vietnam Stock Exchange and its subsidiaries (hereinafter referred to as “SE”), Vietnam
+Securities Depository and Clearing Corporation (VSDCC);
+
+g) Investors that are obliged to disclose information as prescribed by law.
+
+2. Other authorities, organizations and individuals involved in information disclosure on the
+securities market.
+
+Article 3. Definitions
+
+For the purposes of this Circular, the terms below are construed as below:
+
+1. “large-scale public company” is a public company which has equity of VND 120 billion or
+more as shown in the latest audited annual financial statements.
+
+2. “public funds” are close-end funds, open-end funds, exchange-traded funds, real estate
+investment funds and public securities investment companies.
+
+3. “investors that are obliged to disclose information” include:
+
+a) Internal actors of public companies, public funds, public securities investment companies as
+prescribed in Clause 45 Article 4 of the Law on securities, and their affiliated persons;
+
+b) Majority shareholders, groups of affiliated persons holding at least 5% of voting shares of a
+public company; investors and groups of affiliated persons holding at least 5% of fund
+certificates of a closed-end fund;
+
+c) Founding shareholders during transfer restriction of a public company or public securities
+investment company;
+
+d) Groups of related foreign investors holding at least 5% of voting shares of an issuer or at least
+5% of fund certificates of a closed-end fund;
+
+dd) Shareholders, groups of affiliated persons purchasing shares to own at least 5% of voting
+shares of a public company; investors or groups of affiliated persons purchasing fund certificates
+to own at least 5% of fund certificates of a closed-end fund;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+e) Entities making tender offers of shares of public companies, closed-end fund certificates of
+target investment funds; target companies, target investment fund management companies.
+
+4. “affiliated persons” are entities defined in Clause 46 Article 4 of the Securities Law.
+
+5. “disclosure date” means the date on which the information appears on one of the information
+disclosure media specified in Clause 1 Article 7 of this Circular.
+
+6. “reporting date” means the date on which information is sent by fax or email, or the date on
+which information is received on the media of the State Securities Commission of Vietnam
+(“SSC”) and SE, or the date on which SSC and SE receive written report, whichever comes first.
+
+7. “listed organization” means an organization that has shares listed on the securities trading
+system.
+
+8. “organization that has corporate bonds listed” means an organization that has corporate
+bonds listed on the securities trading system.
+
+9. “registered organization” means an organization that has shares registered for trading on the
+securities trading system.
+
+10. “accredited audit organization” means an independent audit organization on the list of audit
+organizations accredited by SSC in accordance with the Law on Securities and independent audit
+laws.
+
+11. “securities transaction date” means:
+
+a) the date on which a transaction order is placed in case a transaction is conducted through SE;
+
+b) the date on which execution of right to purchase or convert bonds into shares in case of
+execution of purchase or conversion rights is registered;
+
+c) the date on which the parties make a request for transfer of securities ownership in case a
+transaction is conducted through VSDCC;
+
+d) the date on which the auction participation slip in case transaction is made through auction is
+submitted; or
+
+dd) the date on which the parties submit a transfer request to the issuer in case a transaction is
+conducted neither through VSDCC nor SE.
+
+12. “transaction completion date” means:
+
+a) the date on which payment is completed in case a transaction is conducted through SE;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+b) the date on which payment is completed in case of exercise of purchase rights;
+
+c) the date on which the conversion from bonds into shares as notified by the issuer is completed;
+
+d) the effective date on which securities ownership at VSDCC is transferred in case a transaction
+is conducted through VSDCC;
+
+dd) the date on which payment for purchased shares as notified by the organization selling shares
+by auction in case transaction is made through auction is completed; or
+
+e) the date on which the issuer certifies the validity of securities transfer in case a transaction is
+conducted through neither VSDCC nor SE.
+
+Article 4. Information disclosure rules
+
+1. Information disclosed must be adequate, accurate and timely. An individual’s personal
+information, including citizen identity card, ID card, military ID card, unexpired passport,
+contact address, permanent address, telephone number, fax number, email, number of securities
+trading account, number of securities depository account, number of bank account, and trading
+code of foreign investor or business entity of which over 50% of charter capital is held by
+foreign entities, shall be disclosed if agreed by that individual.
+
+2. The disclosing entities are legally responsible for the information they disclose. In case of
+changes to the disclosed information, disclosing entity must promptly and adequately disclose
+these changes and reasons for changes.
+
+3. When disclosing information, the disclosing entities mentioned in Article 2 of this Circular
+must simultaneously send reports on information disclosure, including adequate information as
+prescribed, to SSC and SE at which the securities are listed or registered. In case the information
+disclosed includes personal information mentioned in Clause 1 of this Article and the disclosing
+entity refuses to disclose these personal information, 02 documents, including a document
+containing adequate personal information and the other does not contain such personal
+information, shall be sent to the SSC and SE for disclosure.
+
+4. An organization’s information shall be disclosed by its legal representative or attorney-in-
+fact. An individual’s personal information shall be disclosed by himself/herself or his/her
+attorney-in-fact. Information shall be disclosed by persons in charge as prescribed in Article 6 of
+this Circular.
+
+5. Disclosing entities shall retain the information disclosed or reported as prescribed in this
+Circular as follows:
+
+a) Information periodically disclosed and information about registration of public companies
+must be retained in the form of hard copy (if any) and soft copy for at least 10 years. These
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+information must be retained and accessible on the website of the disclosing entity for at least 05
+years;
+
+b) Information disclosed on ad hoc basis, upon request or other activities must be retained and
+accessible on the website of the disclosing entity for at least 05 years.
+
+Article 5. Language of disclosed information
+
+1. Language of disclosed information is Vietnamese, except the case prescribed in Clause 2 of
+this Article.
+
+2. SE and VSDCC shall disclose information in both Vietnamese and English.
+
+Article 6. Persons in charge of information disclosure
+
+1. A disclosing entity that is an organization shall disclose information through its legal
+representative or attorney-in-fact.
+
+a) The legal representative shall assume responsibility for the adequacy, accuracy and timeliness
+of information disclosed by the attorney-in-fact. In case information needs to be disclosed but
+both the legal representative and attorney-in-fact are absent, the member holding the highest
+position of the Board of Directors shall take charge of information disclosure. If two or more
+members holding the same highest position, other members of the Board of Directors shall elect
+or appoint a member to take charge of information disclosure;
+
+b) The disclosing organization shall report or re-report information about the person in charge of
+information disclosure to the SSC and SE within 24 hours from the effective time of
+appointment, authorization or replacement of the person in charge of information disclosure.
+Report on the person in charge of information disclosure includes: The power of attorney to
+disclose information made according to the form prescribed in Appendix I enclosed herewith and
+the curriculum vitae made according to the form prescribed in Appendix III enclosed herewith.
+
+2. A disclosing entity that is an individual investor may disclose information by himself or
+herself or authorize an organization (that is a securities company, securities investment fund
+management company, public company, depository member, VSDCC or another organization)
+or an individual to disclose information as follows:
+
+a) If the individual investor directly discloses information, in the first disclosure, he/she must
+submit the curriculum vitae made according to the form prescribed in Appendix III enclosed
+herewith to SSC and SE, and shall provide accurate, timely and adequate information from the
+occurrence of any changes in the submitted curriculum vitae;
+
+b) In case of authorization for information disclosure, the individual investor shall assume
+responsibility for the adequacy, timeliness and accuracy of information disclosed by his/her
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+attorney-in-fact. The investor shall provide accurate, timely and adequate information about
+his/her ownership of securities and relationship with affiliated persons (if any) to his/her
+attorney-in-fact that shall fulfill the obligations of ownership reporting and information
+disclosure as prescribed by law;
+
+c) The individual investor shall report or re-report information about his/her attorney-in-fact to
+the SSC and SE within 24 hours from the time when the authorization comes into force. Report
+on the investor’s attorney-in-fact includes: The power of attorney to disclose information made
+according to the form prescribed in Appendix II enclosed herewith and the curriculum vitae
+made according to the form prescribed in Appendix III enclosed herewith (except the case where
+an individual is authorized).
+
+3. Foreign investors and groups of foreign investors shall fulfill the obligations to report and
+disclose information in accordance with regulations of this Circular and the Law on foreign
+investments in Vietnam's securities market.
+
+4. Information of public funds and public securities investment funds shall be disclosed by
+securities investment fund management companies.
+
+Article 7. Media of information disclosure and reporting
+
+1. The media of information disclosure and reporting includes:
+
+a) Website of the disclosing entity;
+
+b) SSC’s information disclosure system;
+
+c) The website and other SE’s information disclosure system according to its procedures;
+
+d) Website of VSDCC;
+
+dd) Other means of mass media as prescribed by law (printed newspapers, online newspapers,
+etc.).
+
+2. The disclosing organization is required to establish a website as follows:
+
+a) A pubic company must establish a website when registering to become a public company with
+the SSC. An issuer that makes initial public offering of shares or an organization that makes
+public offering of bonds must establish a website before the offering. A securities company,
+securities investment fund management company or branch of foreign securities company or
+foreign fund management company in Vietnam must establish a website before its official
+operation. An organization that has corporate bonds listed, organization that has shares listed, or
+registered organization must establish a website when following procedures for registration of
+listing or trading on SE;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+b) The organization that establishes a website must report the website establishment to the SSC
+and the SE, and publish address of the established website and any changes thereof within 03
+working days from the completion of the website establishment or occurrence of such changes;
+
+c) The website must contain business lines and information to be published on the National
+Business Registration Portal in accordance with the Enterprises Law and any changes thereof;
+have a separate page for relationship with shareholders (investors), on which the company’s
+charter, information disclosure regulations, company administration regulations (if any),
+operation regulations of the Board of Directors, Board of Controllers (if any), prospectus (if
+any), information disclosed on periodic or ad hoc basis and on request, and other activities must
+be published in accordance with this Circular;
+
+d) The website must display the information publishing time and ensure that investors can search
+and access data on the website.
+
+3. Public companies, organizations that make public offering of corporate bonds, issuers that
+make initial public offering of shares, securities companies, securities investment fund
+management companies, and branches of foreign securities companies and foreign fund
+management companies in Vietnam shall disclose information and make reports on the media
+prescribed in Point a and Point b Clause 1 of this Article.
+
+4. Organizations that have shares listed, organizations that have corporate bonds listed, registered
+organizations, affiliated securities companies, listed public funds and public securities
+investment companies shall disclose information and make reports on the media prescribed in
+Point a, b and c Clause 1 of this Article.
+
+5. SE shall disclose information on the media prescribed in Point c Clause 1 of this Article.
+
+6. VSDCC shall disclose information on the media prescribed in Point d Clause 1 of this Article.
+
+7. If the obligation to disclose information falls on days off or public holidays as prescribed by
+law, the entities mentioned in Clause 3 and Clause 4 of this Article shall disclose information on
+the media prescribed in Point a Clause 1 of this Article and fulfill the obligation to disclose
+information as prescribed by law on the day following the day off or public holiday.
+
+8. If the obligation to disclose information falls on days off or public holidays as prescribed by
+law, the entities other than those mentioned in Clause 7 of this Article shall fulfill the obligation
+to disclose information as prescribed by law on the day following the day off or public holiday.
+
+9. Methods of reporting and information disclosure on the information disclosure system of SSC
+and the media of SE shall comply with guidelines given by SSC and SE.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+10. Disclosing entities are not required to send hard copies of information disclosure to the SSC
+and SE in case documents have been disclosed on all of the media prescribed in Clause 3 and
+Clause 4 of this Article and comply with regulations of the Law on electronic documents.
+
+Article 8. Suspension of information disclosure
+
+1. Disclosing entities may suspend their information disclosure in case of force majeure such as
+disasters, conflagration, war, epidemics and other force majeure events. The disclosing entity
+must submit a report to SSC and SE on suspension of information disclosure immediately when
+the event occurs (in which reasons for suspension of information disclosure must be specified)
+and publish the suspension of information disclosure.
+
+2. Immediately after the end of such force majeure event, the disclosing entity shall disclose
+adequate information that has been not yet disclosed due to such force majeure event.
+
+Chapter II
+
+                INFORMATION DISCLOSURE BY PUBLIC COMPANIES
+
+Article 9. Information disclosure on public company registration
+
+Within 07 days from the day on which SSC confirms the completion of public company
+registration as prescribed in Clause 3 Article 32 of the Law on Securities, public company shall
+disclose its public company status and the information disclosure about the public company on
+its website, and on SSC’s information disclosure system.
+
+Article 10. Periodic information disclosure
+
+1. A public company must disclose its annual financial statements audited by an accredited audit
+organization according to the following rules:
+
+a) The financial statements must include adequate reports, appendixes and notes as prescribed in
+corporate accounting laws;
+
+If the pubic company is a parent company, it shall disclose 02 types of financial statements,
+including annual financial statements of its own and consolidated annual financial statements in
+accordance with corporate accounting laws;
+
+If the public company is a superior accounting unit that has affiliated units with separate
+accounting apparatus, it must disclose the general annual financial statements in accordance with
+corporate accounting laws;
+
+If the pubic company is a parent company and also a superior accounting unit that has affiliated
+units with separate accounting apparatus, it shall disclose 02 types of financial statements,
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+including general annual financial statements and consolidated annual financial statements in
+accordance with corporate accounting laws;
+
+b) The public company must disclose information about its audited annual financial statements,
+including the auditor’s report on the audit of such financial statements and its explanation about
+any qualified opinions on financial statements;
+
+c) Annual financial statements disclosure deadlines
+
+The public company must disclose its audited annual financial statements within 10 days from
+the day on which the auditor’s report is signed by the audit organization and within 90 days from
+the end of the fiscal year.
+
+2. The public company must prepare its annual report according to the form prescribed in
+Appendix IV enclosed herewith and disclose it within 20 days from the date of disclosure of its
+audited annual financial statements and within 110 days from the end of the fiscal year.
+
+Financial information included in the annual report must correspond to those in its audited
+annual financial statements.
+
+3. Information disclosure about annual General Meeting of Shareholders (GMS)
+
+a) At least 21 days before the opening date of the GMS, unless a longer period is specified in the
+company’s charter, the public company shall make disclosure on its website and the websites of
+SSC and SE (if it is a listed or registered organization) of information about the meeting of the
+GMS, including invitation to the GSM, meeting agenda, votes, meeting documents and draft
+resolution on each issue in the agenda. Documents of the GMS must be updated with
+amendments (if any);
+
+b) Minutes and resolution of the annual GMS and enclosed documents must be disclosed within
+the time limit prescribed in Point c Clause 1 Article 11 of this Circular.
+
+4. The public company must disclose information about the corporate governance report made
+according to the form in Appendix V enclosed herewith within 30 days from the end of 06 first
+months of the year and the end of the calendar year.
+
+Article 11. Ad hoc information disclosure
+
+1. The public company shall disclose information on an ad hoc basis within 24 hours from the
+occurrence of one of the following events:
+
+a) The company’s account at a bank or foreign branch bank (FBB) is frozen at the request of a
+competent authority or when the payment service provider suspects a fraud or illegal activities
+relevant to the account; the account is unfrozen;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+b) The company receives a decision from a competent authority or issues a decision on
+suspension of part or all of its business operation; changes to the enterprise registration
+information; revocation of the enterprise registration certificate; revision, suspension or
+revocation of the license for establishment and operation or operating license;
+
+c) Decisions of an extraordinary GMS are ratified. Documents to be disclosed include: The
+resolution of the GMS, the minutes of the GMS and enclosed documents, resolution or vote
+counting records (if shareholders’ opinions are collected by questionnaire survey). If the GMS
+approves the delisting, the public company shall disclose information about such delisting and
+ratio of yes votes of non-majority shareholders;
+
+d) The company’s decision to repurchase its shares or sell treasury stocks; the date of exercising
+the right to purchase shares of bondholders, or the date of conversion of convertible bonds into
+shares; decisions on overseas offering of securities and decisions relevant to the offering and
+issuance of securities;
+
+dd) Decisions on dividends, method and time of dividend payment; decisions on stock split and
+reverse stock split;
+
+e) Decisions on the enterprise’s reorganization (full or partial division, consolidation, merger or
+conversion of enterprise), dissolution or bankruptcy; changes in TIN, company’s name or seal;
+relocation; establishment or closure of head office, branches, factories or representative offices;
+promulgation or revisions to the company’s charter; strategies, medium-term development plans
+and annual business plans of the company;
+
+g) Decisions on change of accounting period, accounting policies (except change of accounting
+policies due to changes in laws); notification that the audit enterprise has signed the contract for
+audit of annual financial statements or change of audit enterprise (after having signed the
+contract); cancellation of the signed audit contract;
+
+h) Decisions on capital contribution, purchase of stakes in a company that turns that company
+into a subsidiary or associate company or sale of stakes in a company that makes it is not
+considered as a subsidiary or associate company or dissolution of that subsidiary or associate
+company;
+
+j) Decisions of the GMS or the Board of Directors on ratification of contracts/transactions
+between the public company and its internal actors or their affiliated persons or affiliated persons
+of the public company;
+
+k) Changes in voting shares. Deadlines for information disclosure are as follows:
+
+If the company issues additional shares or converts bonds or preference shares into shares, the
+time limit for information disclosure shall be counted from the date on which the company
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+submits the report to SSC on issuance or conversion results in accordance with regulations of the
+law on issuance of securities;
+
+If the company repurchases its shares or sells treasury stocks, the time limit for information
+disclosure shall be counted from the date on which the company submits a report on transaction
+results in accordance with regulations.
+
+If the company repurchases shares from its employees in accordance with the regulations on
+employee share ownership or repurchases odd-lot shares at request of shareholders or the
+securities company purchases its shares for fixing transaction errors or repurchases odd-lot
+shares, it shall disclose information within 10 first days of the month based on completed
+transactions and update information up to the disclosure date;
+
+l) The company changes, appoints, re-appoints or dismiss its internal actors; receives resignation
+letters from its internal actors (effective dates must be disclosed in accordance with the Law on
+enterprises and the company’s charter). The company shall also send the curriculum vitaes of its
+internal actors, made according to the form in Appendix III enclosed herewith, to the SSC and
+SE;
+
+m) Decisions to buy or sell assets or conduct any transaction whose value exceeds 15% of total
+asset of the company according to the latest audited annual financial statements or latest
+reviewed bi-annual financial statements. If the public company is a parent company, the
+consolidated financial statements shall be used;
+
+n) Any charge against the company or its internal actor; decision on detention or criminal
+prosecution against the company’s internal actor;
+
+o) Effective court judgments or decisions on the company’s operation; decisions on imposition
+of penalties for tax offences;
+
+p) The court’s notice of receipt of the company’s bankruptcy petition;
+
+q) Upon receipt of any event or information that may affect the company’s securities prices, the
+company is required to confirm or correct such event or information;
+
+r) Occurrence of any event that considerably affects the company’s business or corporate
+governance;
+
+s) Approval or cancellation of listing at a foreign stock exchange.
+
+2. When disclosing information prescribed in Clause 1 of this Article, the public company must
+specify the event, reasons and remedial solutions (if any).
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+3. Disclosure of information about the extraordinary GMS or ratification of resolution of the
+GMS by questionnaire survey:
+
+a) Information about the extraordinary GMS is disclosed in accordance with Clause 3 Article 10
+of this Circular;
+
+b) In case of collection of the GMS by questionnaire survey, at least 10 days before the deadline
+for submission of the questionnaires, unless a longer period is specified in the company’s charter,
+the public company must disclose questionnaires, the draft resolution of the GMS and
+explanations thereof on its website and also send them to all shareholders.
+
+4. Information disclosure on exercise rights of existing shareholders record date:
+
+a) The public company shall disclose information about the expected exercise of rights of
+existing shareholders record date at least 10 days before the expected record date, except the case
+prescribed in Point b of this Clause;
+
+b) The public company shall disclose information about the expected record date for exercise of
+rights for existing shareholders for attending the GMS at least 20 days before the expected record
+date.
+
+5. If the audit organization gives qualified opinions or review conclusions on financial statements
+or the financial statements are given retroactive adjustments, the public company must disclose
+information about such audit opinions, review conclusions or retroactive adjustments to the
+financial statements within the deadlines prescribed in Clause 1 Article 10, Clause 2 and Clause
+3 Article 14 of this Circular.
+
+6. Information disclosure in other special cases:
+
+After change of the accounting period, the public company shall disclose its financial statements
+for the period between 02 accounting periods, i.e. between the old and new fiscal years, in
+accordance with corporate accounting laws within 10 days from the day on which the auditor’s
+report is signed by the audit organization and within 90 days from the beginning of the new
+fiscal year.
+
+Article 12. Information disclosure upon request
+
+1. The public company shall disclose information within 24 hours from the receipt of the request
+of SSC or SE where it is listed or registered from the occurrence of any of the following events:
+
+a) Any event that seriously affects lawful interests of investors;
+
+b) There is information about the company that significantly affects the securities prices and has
+to be verified.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+2. Information to be disclosed on request must be disclosed together with the event requested by
+SSC and SE, reasons and the company’s assessment of authentication of that event, and remedial
+solutions (if any).
+
+Article 13. Information disclosure about other activities of a public company
+
+1. Information disclosure about offering, issuance, listing, registration and reporting on fund use
+
+The public company that has carried out a private placement, public offering, issuance, listing or
+registration of securities must disclose information about its offering, issuance, listing,
+registration and reporting on use of funds in accordance with regulations on offering, issuance,
+listing and registration of securities.
+
+2. Information disclosure about foreign holdings
+
+The public company must disclose the maximum rate of its foreign holdings and any changes
+therein on its website, the websites of SE and VSDCC, and the information disclosure of the SSC
+in accordance with regulations of Securities Law regarding foreign investment activities on
+Vietnam’s securities market.
+
+3. Information disclosure about share repurchase and sale of treasury stocks
+
+If a public company repurchases its shares or sells treasury stocks, it shall disclose information in
+accordance with regulations on share repurchase and sale of treasury stocks.
+
+In case of a share repurchase, after all of repurchased shares are fully paid for, if the total assets
+in the company’s accounting books is reduced by more than 10%, the company shall send a
+notification to all of its creditors and disclose information within 15 days from the payment date.
+
+Chapter III
+
+   INFORMATION DISCLOSURE BY LISTED ORGANIZATIONS, LARGE-SCALE
+                       PUBLIC COMPANIES
+
+Article 14. Periodic information disclosure
+
+1. Listed organizations and large-scale public companies shall periodically disclose information
+according to Article 10 of this Circular.
+
+2. Listed organizations and large-scale public companies shall disclose their bi-annual financial
+statements which have been reviewed by accredited audit organizations.
+
+a) Bi-annual financial statements must be complete interim financial statements which are
+prescribed in the Accounting Standard “Interim financial statements”, contain financial figures in
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+06 first months of the fiscal year of the company, and are prepared according to Point a Clause 1
+Article 10 of this Circular;
+
+b) Bi-annual financial statements must be reviewed according to Standard on review of financial
+statements. The full text of the bi-annual financial statements shall be disclosed together with the
+review conclusions and the company's explanation about any qualified review conclusion;
+
+c) Bi-annual financial statements disclosure deadlines
+
+Listed organizations or large-scale public company must disclose its reviewed bi-annual
+financial statements within 05 days from the day on which the audit organization signs the
+review report and within 45 days from the end of 06 first months of the fiscal year.
+
+If listed organizations or large-scale public company is a parent company or superior accounting
+unit that has affiliated units with separate accounting apparatus, it must disclose its reviewed bi-
+annual financial statements within 05 days from the day on which the audit organization signs
+the review report and within 60 days from the end of 06 first months of the fiscal year.
+
+3. Listed organization sand large-scale public companies shall disclose their quarterly financial
+statements or reviewed quarterly financial statements (if any).
+
+a) Quarterly financial statements must be complete interim financial statements which are
+prescribed in the Accounting Standard “Interim financial statements” and prepared according to
+Point a Clause 1 Article 10 of this Circular;
+
+b) The full text of the quarterly financial statements or reviewed quarterly financial statements (if
+any) shall be disclosed together with the review conclusions and the company's explanation in
+case qualified review conclusions are given to the reviewed quarterly financial statements;
+
+c) Quarterly financial statements disclosure deadlines
+
+Listed organizations or large-scale public company must disclose its quarterly financial
+statements within 20 days from the end of the quarter. The organization that has shares listed or
+large-scale public company must disclose its reviewed quarterly financial statements (if any)
+within 05 days from the day on which the audit organization signs the review report and within
+45 days from the end of the quarter.
+
+If listed organizations or large-scale public company is a parent company or superior accounting
+unit that has affiliated units with separate accounting apparatus, it must disclose its quarterly
+financial statements within 30 days from the end of the quarter.
+
+Listed organizations or large-scale public company has disclosed its reviewed quarterly financial
+statements within the prescribed time limit for disclosure of quarterly financial statements, it
+shall not be required to disclose its quarterly financial statements.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+4. When disclosing information about financial statements specified in Clauses 1, 2 and 3 of this
+Article, listed organization or large-scale public company shall be required to provide
+explanation from the occurrence of any of the following events:
+
+a) After-tax profit shown in the income statement of the reporting period increases/decreases by
+at least 10 compared to that of the same reporting period in the previous year;
+
+b) After-tax profit of the reporting period is negative; YOY profit is changed from a positive
+number to a negative number or vice versa;
+
+c) After audit or review, after-tax profit of the reporting period varies by at least 5% and is
+changed from a positive number to a negative number or vice versa.
+
+5. If listed organization or large-scale public company is a parent company or superior
+accounting unit that has affiliated units with separate accounting apparatus, it must provide
+explanation about the events in Clause 4 of this Article based on the financial statements of the
+parent company or general and consolidated financial statements.
+
+Article 15. Ad hoc information disclosure
+
+1. Listed organizations and large-scale public companies must disclose information on ad hoc
+basis in cases prescribed in Article 11 of this Circular.
+
+2. Listed organizations or large-scale public company shall disclose information on an ad hoc
+basis within 24 hours from the occurrence of one of the following events:
+
+a) Decision on increasing or decreasing of charter capital;
+
+b) Decision on investment in an organization, project, borrowing, lending or another transaction
+whose value is at least 10% of total assets of the company according to the latest audited annual
+financial statements or latest reviewed bi-annual financial statements (or the consolidated
+financial statements if the public company is a parent company);
+
+c) Decision on capital contribution worth at least 50% of charter capital of an organization
+(determined according to the charter capital of that organization before receipt of contributed
+capital).
+
+Article 16. Information disclosure upon request
+
+Listed organizations and large-scale public companies shall disclose information on request as
+prescribed in Article 12 of this Circular.
+
+Article 17. Information disclosure about other activities of listed organizations large-scale
+public companies
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+Listed organizations and large-scale public companies must disclose information about other
+activities according to Article 13 of this Circular.
+
+Article 18. Time of beginning and ending of information disclosure by large-scale public
+companies
+
+1. A public company shall disclose information of a large-scale public company according to
+regulations of this Circular from the time its equity is VND 120 billion or more as shown in the
+latest audited annual financial statements.
+
+2. Within 01 year from the date on which it is no longer a large-scale public company as
+prescribed in Clause 1 Article 3 of this Circular, the company shall continue disclosing
+information as a large-scale public company as prescribed in this Circular.
+
+                                          Chapter IV
+
+INFORMATION DISCLOSURE BY ORGANIZATIONS MAKING PUBLIC OFFERING
+ OF CORPORATE BONDS, ORGANIZATIONS THAT HAVE CORPORATE BONDS
+   LISTED AND ISSUERS MAKING INITIAL PUBLIC OFFERING OF SHARES
+
+Article 19. Information disclosure by organizations making public offering of corporate
+bonds
+
+1. The organization making public offering of corporate bonds shall disclose information about
+its public offering of corporate bonds in accordance with regulations on public offering of
+corporate bonds.
+
+2. The organization making public offering of corporate bonds shall disclose the following
+information:
+
+a) It shall periodically disclose information about its annual financial statements audited by an
+accredited audit organization, annual report and resolution of the annual GMS (if the issuer is a
+joint-stock company) from the end of the public offering of bonds until the completion of
+payment for bonds as prescribed in Clauses 1, 2 and 3 Article 10 of this Circular;
+
+b) In case funds are raised for executing investment projects, the issuer shall periodically
+disclose information about the audited report on use of funds raised from the offering/report on
+fund use progress from the end of the public offering of bonds until the completion of payment
+for bonds or disbursement of raised funds in full, whichever comes first. To be specific:
+
+The organization making public offering of bonds shall provide detailed notes on the use of
+funds raised from the offering in its annual financial statements accredited by auditors or
+concurrently disclose the report on use of funds raised from the offering accredited by auditors
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+and its annual financial statements audited and reported at the annual GMS or the annual meeting
+of the Board of Members;
+
+Every 06 months, the issuer must disclose information about the progress of use of funds raised
+from the offering within 05 working days from the end of the reporting period;
+
+c) The organization making public offering of corporate bonds shall disclose information about
+the payment of bond principal and interest according to the form prescribed in Appendix VI
+enclosed herewith within 30 days from the end of 06 first months of the year and the end of the
+calendar year;
+
+d) It shall disclose information on ad hoc basis upon the occurrence of any of the events
+prescribed in Clause 1 Article 11 of this Circular and must specify the event, reasons and
+remedial solutions (if any);
+
+dd) In case of issuance of non-mandatory convertible bonds, the issuer must send notification to
+each bondholder and disclose information about time, ratio, prices, and location of conversion
+registration within 01 month before the date of bond conversion;
+
+e) Disclosure of information on request shall be made according to Article 12 of this Circular.
+
+Article 20. Information disclosure by organizations that have corporate bonds listed
+
+1. If the organization that has corporate bonds listed is a public company, it shall disclose
+information according to Articles 10, 11, 12 and 13 of this Circular.
+
+2. If the organization that has corporate bonds listed is an organization that has shares listed or a
+large-scale public company, it shall disclose information according to Articles 14, 15, 16 and 17
+of this Circular.
+
+3. If an organization that has corporate bonds listed is not an entity prescribed in Clause 1 and
+Clause 2 of this Article, it shall disclose information from the time corporate bonds are listed
+until bonds are fully paid for or corporate bonds are delisted, whichever comes first. To be
+specific:
+
+a) Information about annual financial statements which have been audited by an accredited audit
+organization and annual report shall be periodically disclosed in accordance with Clause 1 and
+Clause 2 Article 10 of this Circular;
+
+b) Ad hoc information disclosure shall be made upon occurrence of any of the events mentioned
+in Article 15 of this Circular (Board of Directors shall be replaced with the Board of Members if
+it is a limited liability company);
+
+c) Information disclosure upon request shall be made according to Article 12 of this Circular.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+Article 21. Information disclosure by issuers that make initial public offering of shares
+
+1. An issuer that makes initial public offering (IPO) of shares shall disclose information about its
+IPO of shares in accordance with regulations on IPO of shares.
+
+2. After completing the IPO, the issuer whose equity is VND 120 billion or more shall disclose
+information according to Articles 14, 15, 16 and 17 of this Circular.
+
+                                            Chapter V
+
+   INFORMATION DISCLOSURE BY SECURITIES COMPANIES, SECURITIES
+INVESTMENT FUND MANAGEMENT COMPANIES AND BRANCHES OF FOREIGN
+SECURITIES COMPANIES AND FOREIGN FUND MANAGEMENT COMPANIES IN
+                           VIETNAM
+
+Article 22. Periodic information disclosure
+
+1. Securities companies, securities investment fund management companies and branches of
+foreign securities companies and foreign fund management companies in Vietnam shall make
+periodic information disclosure according to Article 14 of this Circular (if a securities company
+or a securities investment fund management company is a limited liability company, the GMS
+shall be replaced with meeting of the Board of Members and the Board of Directors shall be
+replaced with the Board of Members).
+
+2. Securities companies, securities investment fund management companies and branches of
+foreign securities companies and foreign fund management companies in Vietnam shall disclose
+prudential ratio reports reviewed on June 30 and audited on December 31 by accredited audit
+organizations, and reviewed bi-annual financial statements and audited annual financial
+statements at the same time.
+
+Article 23. Ad hoc information disclosure
+
+1. Securities companies, securities investment fund management companies and branches of
+foreign securities companies and foreign fund management companies in Vietnam shall disclose
+information on an ad hoc basis as prescribed in Article 15 of this Circular and within 24 hours
+from the occurrence of any of the following events:
+
+a) SSC issues a decision to impose penalties for administrative violations against regulations on
+securities and securities market upon the company, branch or its certified securities professional;
+General Director (Director), Deputy General Director (Deputy Director) has his/her securities
+professional certification suspended or revoked;
+
+b) There is a charge or decision on detention or criminal prosecution against a certified securities
+professional of the company or branch;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+c) SSC issues a decision to put the company under alert, control or special control, revokes such
+decision; SSC issues a decision to suspend or terminate the company's operation or cancels such
+decision;
+
+d) SSC issues a decision to approve the establishment, closure, change of name or relocation of a
+branch, transaction office or representative office in Vietnam or a foreign country; changes in
+business lines of a branch; establishment of an overseas subsidiary; indirect outward investment;
+
+dd) SSC issues a decision to approve the provision of online securities trading services; provision
+or cooperation with credit institutions granting loans for purchase of securities or securities
+lending; provision or cooperation with credit institutions in advancing payment for securities;
+securities depository; clearing and payment for securities; provision of other derivative-related
+services;
+
+e) SSC issues a decision on offering or listing of securities in a foreign country;
+
+g) Completion of the transfer of shares or stakes to become a shareholder or contributing
+member holding at least 10% of contributed charter capital of a securities company that is not a
+public company; transactions that alter the ownership of shares or stakes making up at least 10%
+of the charter capital, or transactions that fluctuate the ownership ratio of shareholders or
+contributing members above or below 10%, 25%, 50%, 75% of the charter capital of a fund
+management company that is not a public company;
+
+h) The securities company voluntarily terminates or suspends provision of one of securities
+trading operations, products and services;
+
+i) The securities company faces an information technology incident that affects the conduct of
+securities transactions for clients.
+
+2. Securities companies and securities investment fund management companies that are limited
+liability companies must disclose information on an ad hoc basis within 24 hours from the
+occurrence of any of the events mentioned in Points a, b, c, e, g, h, l, n, o, p, r and s Clause 1
+Article 11, Clause 2 Article 15 and Clause 1 of this Article (The GMS is replaced with the
+meeting of the Board of Members, the Board of Directors is replaced with the Board of
+Members).
+
+3. When disclosing information as prescribed in Clause 1 and Clause 2 of this Article, securities
+companies, securities investment fund management companies and branches of foreign securities
+companies and foreign fund management companies in Vietnam must disclose the events,
+reasons thereof and remedial solutions (if any).
+
+Article 24. Information disclosure upon request
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+1. Securities companies, securities investment fund management companies and branches of
+foreign securities companies and foreign fund management companies in Vietnam shall disclose
+information that seriously affects the lawful rights and interests of investors within 24 hours from
+receipt of the request of SSC or SE.
+
+2. Information to be disclosed as prescribed in Clause 1 of this Article must be disclosed together
+with the event requested by SSC and SE, reasons thereof and the degree of authentication of that
+event, and remedial solutions (if any).
+
+Article 25. Disclosure of other information of securities companies, securities investment
+fund management companies and branches of foreign securities companies and foreign
+fund management companies in Vietnam
+
+1. Securities companies, securities investment fund management companies, branches and
+representative offices of foreign securities companies and foreign fund management companies
+in Vietnam must disclose information on their operation on the media of SSC and 01 online
+newspaper or 03 continuous issues of a printed newspapers at least 30 days before its expected
+inauguration date.
+
+2. A securities company shall disclose at its headquarters, branches and transaction offices
+information about transaction methods, order placement, depositing, payment time, transaction
+fees, services provided and list of the company’s certified securities professionals. In case of
+provision of margin trading services, it shall notify conditions for provision of margin trading
+services, including margin ratio, loan interest, loan term, method for making margin calls, and
+list of securities available for margin trading.
+
+3. When carrying out forced selling or selling pledged securities of clients that are its internal
+actors and their affiliated persons, the securities company shall disclose information on its
+website. The securities company shall notify transaction results to the client by the end of the
+transaction date so that the client can disclose information as prescribed in Article 33 of this
+Circular.
+
+4. The securities company that issues covered warrants shall disclose information in accordance
+with regulations on offering and trading of covered warrants.
+
+5. Unless the ownership is in the name of the trustor, the securities investment fund management
+company or branch of foreign fund management company in Vietnam and the trustor must
+disclose information as follows:
+
+a) Disclose information as a majority shareholder prescribed in Article 31 of this Circular when
+total shares owned by the fund management company and its trustors, or total shares owned by
+the branch of a foreign fund management company in Vietnam, its parent company and trustors,
+are accounted for at least 5% of total voting shares of a public company or at least 5% of fund
+certificates of a closed-end fund, except trustors that are ETFs;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+b) Disclose information as internal actors and their affiliated persons as prescribed in Article 33
+of this Circular when the fund management company is a affiliated person of an internal actor as
+prescribed by law, except exchange transactions and periodic portfolio restructuring according to
+ETF benchmarks.
+
+6. Securities investment fund management companies and branches of foreign fund management
+companies in Vietnam shall report and disclose information concerning securities transactions on
+behalf of their clients when holding trust assets in their names in case a client has to disclose
+information as prescribed by law. In case trust assets are held in their names, the clients shall
+fulfill the obligation to report ownership and disclose information as prescribed by law.
+
+7. Notwithstanding Clauses 1, 2, 3, 4, 5 and 6 of this Article, securities companies and securities
+investment fund management companies shall disclose information according to Article 13 of
+this Circular and regulations on establishment and operation of securities companies and
+securities investment fund management companies.
+
+Chapter VI
+
+   INFORMATION DISCLOSURE BY PUBLIC FUNDS AND PUBLIC SECURITIES
+                     INVESTMENT COMPANIES
+
+Article 26. Periodic information disclosure about public funds
+
+1. Periodic information disclosure about a public fund
+
+a) Financial statements
+
+The securities investment fund management company must disclose annual financial statements
+audited by accredited audit organizations, reviewed bi-annual financial statements and quarterly
+financial statements of the fund. Contents of financial statements shall comply with accounting
+regulations applicable to relevant funds. The time limit for disclosure of financial statements
+shall comply with Clauses 1, 2 and 3 Article 14 of this Circular.
+
+b) Investment reports
+
+The securities investment fund management company shall monthly, quarterly and annually
+report and disclose reports on investments made by the fund in accordance with regulations on
+operation and management of securities investment funds.
+
+c) Reports on net asset value
+
+The securities investment fund management company shall disclose reports on changes to the net
+asset value of the public fund every week and disclose the fund's net asset value on the day
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+following the valuation date in accordance with regulations on operation and management of
+securities investment funds.
+
+d) Summary report on fund management
+
+The securities investment fund management company shall disclose summary reports on fund
+management of a public fund on biannual and annual basis in accordance with regulations on
+operation and management of securities investment funds.
+
+2. The securities investment fund management company shall disclose information about the
+General Meetings of Investors of the public fund according to regulations applicable to the GMS
+of public companies prescribed in Clause 3 Article 10 of this Circular.
+
+3. Notwithstanding Clauses 1 and 2 of this Article, the securities investment fund management
+company shall fulfill other obligations to disclose information of a securities investment fund in
+accordance with regulations on operation and management of securities investment funds.
+
+4. Except the financial statements prescribed in Clause 1 of this Article, the time limit for
+disclosing other periodic information of the public fund is determined as follows:
+
+a) Information to be disclosed weekly shall be disclosed on the first day of the following week or
+on the day following the valuation date (regarding an open-end fund);
+
+b) Information to be disclosed monthly shall be disclosed within 05 working days from the end
+of the latest month;
+
+c) Information to be disclosed quarterly shall be disclosed within 20 working days from the end
+of the latest quarter;
+
+d) Information to be disclosed biannually shall be disclosed within 45 days from the end of the
+latest 06 months (half of year);
+
+dd) Information to be disclosed annually shall be disclosed within 90 working days from the end
+of the latest year.
+
+Article 27. Ad hoc information disclosure about public funds
+
+1. The securities investment fund management company shall disclose information about a
+public fund on an ad hoc basis within 24 hours from the occurrence of any of the following
+events:
+
+a) Ratification of decisions of the General Meetings of Investors;
+
+b) Decisions on change to the charter capital of the closed-end fund;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+c) Issuance or revocation of the certificate of public offering of public fund certificates;
+
+d) Suspension or cancellation of the offering of public fund certificates; unsuccessful offering of
+public fund certificates;
+
+dd) Revision to the charter or prospectus;
+
+e) Decision on consolidation, merger, partial or full division, dissolution, change of operating
+period, or liquidation of assets of the public fund;
+
+g) Issuance of certificate of fund establishment; decision on revision of the certificate of fund
+establishment;
+
+h) Disclosure of record date, date of exercise of rights of investors or the fund;
+
+i) Incorrect determination of the net asset value of the public fund;
+
+k) Change of the fund's name, supervisory bank, securities investment fund management
+company; changes in authorized participants, market makers (regarding ETFs);
+
+l) Excess of investment limits and adjustment of deviation of investment portfolio of the public
+fund;
+
+m) Suspension of exchange transactions or tracking error exceeding the permissible limit
+(regarding ETFs);
+
+n) The cases prescribed in Points a, dd, g, l, n and o Clause 1 Article 11 of this Circular.
+
+2. The securities investment fund management company must disclose information about the
+extraordinary General Meeting of Investors or collection of opinions of the General Meeting of
+Investors by questionnaire survey according to Clause 3 Article 11 of this Circular.
+
+3. The securities investment fund management company must disclose other ad hoc information
+about the public fund in accordance with regulations on operation and management of securities
+investment funds.
+
+4. When disclosing information about the events prescribed in Clauses 1, 2 and 3 of this Article,
+the securities investment fund management company must disclose the event, reasons, plans and
+remedial solutions (if any).
+
+Article 28. Periodic information disclosure about public securities investment companies
+
+1. Financial statements
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+The securities investment fund management company must disclose annual financial statements
+audited by accredited audit organizations, reviewed bi-annual financial statements and quarterly
+financial statements of the public securities investment company according to Article 14 of this
+Circular.
+
+2. Investment reports
+
+The securities investment fund management company shall monthly, quarterly and annually
+disclose reports on investments made by the public securities investment company in accordance
+with regulations on operation and management of public securities investment companies.
+
+3. Reports on changes in the net asset value
+
+The securities investment fund management company shall weekly disclose reports on changes
+in the net asset value of the public securities investment company in accordance with regulations
+on operation and management of public securities investment companies.
+
+4. Summary reports on management of public securities investment company
+
+The securities investment fund management company shall biannually and annually disclose
+summary reports on management of the public securities investment company in accordance
+with regulations on operation and management of public securities investment companies.
+
+5. The securities investment fund management company shall disclose information about the
+GMS of the public securities investment company according to Clause 3 Article 10 of this
+Circular.
+
+6. Except the financial statements specified in Clause 1 of this Article, the time limit for
+disclosing other periodic information of the public securities investment company shall comply
+with Clause 4 Article 26 of this Circular.
+
+Article 29. Ad hoc information disclosure about public securities investment companies
+
+1. The securities investment fund management company shall disclose information about the
+public securities investment company on an ad hoc basis within 24 hours from the occurrence of
+any of the following events:
+
+a) Suspension or cancellation of the offering of shares of the public securities investment
+company;
+
+b) Suspension of trading in shares of the public securities investment company;
+
+c) Revision to the charter or prospectus;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+d) Decisions on consolidation, merger, partial or full division, dissolution, change of operating
+period, or liquidation of assets of the public securities investment company; revocation of
+certificate of establishment and operation of the public securities investment company;
+
+dd) Decisions on offering and issuance of shares of the public securities investment company;
+issuance of certificate of public offering of shares or certificate of registration of offering of
+additional shares; license for establishment and operation, or license for modification of the
+license for establishment and operation;
+
+e) Decision on increasing or decreasing of charter capital;
+
+g) Incorrect determination of the net asset value of the public securities investment company;
+
+h) Change of the company’s name, the securities investment fund management company or
+supervisory bank;
+
+i) Excess of investment limits and adjustment of deviation of the company’s investment
+portfolio;
+
+k) Other events that may seriously affect the company’s financial capacity and operation;
+
+l) The cases prescribed in Points a, c, dd, g, i, l, n and o Clause 1 Article 11 of this Circular.
+
+2. The securities investment fund management company shall disclose information about the
+extraordinary GMS or ratification of resolution of the GMS by questionnaire survey of the public
+securities investment company according to Clause 3 Article 11 of this Circular.
+
+3. The securities investment fund management company must disclose other ad hoc information
+about the public securities investment company in accordance with regulations on operation and
+management of securities investment funds.
+
+Article 30. Information disclosure upon request about public funds and public securities
+investment companies
+
+1. The securities investment fund management company shall disclose information about the
+public fund or the public securities investment company within 24 hours from the receipt of the
+request of SSC or SE upon the occurrence of any of the events specified in Clause 1 Article 12 of
+this Circular and the following cases:
+
+a) There is information that affects the offering and/or price of public fund certificates or shares
+of the public securities investment company;
+
+b) There are unusual changes in the price or volume of traded public fund certificates or shares
+of the public securities investment company;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+c) Other events as requested by SSC or SE.
+
+2. The securities investment fund management company shall disclose information at the request
+of SSC or SE where securities investment fund certificates are listed, including information
+about the event to be disclosed as requested by SSC or SE, reasons and degree of authentication
+of that event.
+
+Chapter VII
+
+                  INFORMATION DISCLOSURE BY OTHER ENTITIES
+
+Article 31. Information disclosure by majority shareholders, groups of affiliated persons
+holding at least 5% of voting shares of a public company or public securities investment
+company; investors and groups of affiliated persons holding at least 5% of fund certificates
+of a closed-end fund; groups of related foreign investors holding at least 5% of voting
+shares of an issuer or at least 5% of fund certificates of a closed-end fund
+
+1. Within 05 working days from the day on which an organization or individual becomes or is no
+longer a majority shareholder of a public company or public securities investment company,
+it/he/she shall disclose information and submit transaction reports to the public company or
+securities investment fund management company, SSC and SE (if shares are listed or registered)
+according to the form in Appendix VII enclosed herewith.
+
+2. Within 05 working days from the day on which holdings by majority shareholders of a public
+company or public securities investment company vary by more than 1% of its voting shares,
+such majority shareholders shall disclose information and submit reports to the public company
+or securities investment fund management company, SSC and SE (if shares are listed or
+registered) according to the form in Appendix VIII enclosed herewith.
+
+E.g.: The investor A owns 5,2% of voting shares of a listed organization X. On the T day, Mr. A
+placed a buy order that causes an increase in his holding of X shares to 5,7%. Then, on the T’
+day, Mr. A placed another buy order which continues to cause an increase in his holding of X
+shares to 6,1%. Because Mr. A’s holding of X shares exceeds 6% after his transaction conducted
+on the T’ day, within 05 working days from the completion of his securities transaction, Mr. A
+shall disclose information and report on changes in his holding of shares to company X, SSC and
+SE.
+
+3. Time of becoming or ending a majority shareholder status or change in holding of shares by
+more than 1% as prescribed in Clause 1 and Clause 2 of this Article shall be determined from the
+transaction completion date prescribed in Clause 12 Article 3 of this Circular.
+
+4. Clauses 1, 2 and 3 of this Article shall also apply to groups of affiliated persons holding at
+least 5% of voting shares of a public company or public securities investment company;
+investors and groups of affiliated persons holding at least 5% of fund certificates of a closed-end
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+fund; groups of related foreign investors holding at least 5% of voting shares of an issuer or at
+least 5% of fund certificates of a closed-end fund. Groups of related foreign investors holding at
+least 5% of voting shares of an issuer or at least 5% of fund certificates of a closed-end fund
+shall disclose information according to the form in Appendix IX and Appendix X enclosed
+herewith based on total shares or closed-end fund certificates they own.
+
+5. Clauses 1, 2, 3 and 4 of this Article shall not apply to entities that do not actively conduct
+transactions resulting in change in their holdings of voting shares because public companies
+repurchase their shares or offer additional shares.
+
+6. Public companies and securities investment fund management companies shall disclose on
+their websites within 03 working days from the receipt of reports on changes in holdings of
+shares or fund certificates by the entities prescribed in this Article.
+
+Article 32. Information disclosure about transactions conducted by founding shareholders
+during transfer restriction of a public company or public securities investment company
+
+1. At least 03 working days before the transaction date, founding shareholders that hold shares
+restricted from transfer as prescribed by the Law on enterprises shall submit reports on their
+transactions, made according to the form in Appendix XI enclosed herewith, to SSC, SE (if
+shares are listed/registered), VSDCC, public companies and securities investment fund
+management companies. If shares are transferred to persons other than founding shareholders,
+the transferor must submit the resolution of the GMS on ratification of such transfer.
+
+2. Within 05 working days from the transaction completion date (if the transaction is completed
+before the registered deadline) or from the end of the estimated transaction time limit, founding
+shareholders shall submit reports on trading results, made according to the form in Appendix XII
+enclosed herewith, and explanations about failure to conduct transaction or to trade in entire
+trading volume as registered (if any) to SSC, SE (if shares are listed/registered), VSDCC, public
+companies and securities investment fund management companies.
+
+3. Public companies and securities investment fund management companies shall disclose on
+their websites within 03 working days from the receipt of reports on changes in holdings of
+shares by founding shareholders as prescribed in this Article.
+
+Article 33. Information disclosure by internal actors and their affiliated persons
+
+1. Internal actors of public companies, public securities investment companies, public funds
+(hereinafter referred to as “internal actors”) and affiliated persons of these internal actors
+(hereinafter referred to as “affiliated persons”) shall disclose information and submit reports to
+SSC and SE (regarding listed/registered shares, listed public fund certificates), public companies
+and securities investment fund management companies before and after their transactions in case
+the estimated value of transactions conducted during a day is at least VND 50 million or the
+estimated value of transactions conducted during a month determined according to the face value
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+(of shares, convertible bonds or fund certificates) or the latest offering prices (of covered
+warrants) or the transfer price (of rights to buy shares or convertible bonds or fund certificates),
+including the case where a transfer is made not through the trading system of the SE (such as
+donation, inheritance or transfer of securities and other cases) is at least VND 200 million. To be
+specific:
+
+a) At least 03 working days before the estimated transaction date, internal actors and their
+affiliated persons shall disclose information about their expected transactions according to the
+form in Appendix XIII or Appendix XIV enclosed herewith;
+
+b) A transaction must be conducted within 30 days from the registration date. Internal actors and
+affiliated persons shall conduct transactions according to the time limit, volume and value
+disclosed by SE and conduct the first transaction on the transaction date following the date of
+information disclosed by SE;
+
+c) In case of purchase in offerings of shares or fund certificates or tender offer, the disclosing
+entities prescribed in this Article shall be exempt from the obligation in Point b of this Clause
+and comply with regulations on offering, issuance and tender offer;
+
+d) Internal actors and affiliated persons are not allowed to register or perform the purchase and
+sale of shares, rights to buy shares, convertible bonds, rights to buy convertible bonds, fund
+certificates, rights to buy fund certificates or covered warrants within the same
+registration/trading period, and shall only register or perform the next transaction after
+submitting reports on the previous transaction. Except fund management companies, branches of
+foreign fund management companies in Vietnam that are affiliated persons of internal actors
+shall register or perform the purchase and sale of securities for ETFs or making investment as
+designated by trustors provided that each trustor shall not register or perform the purchase and
+sale transactions within the same registration period;
+
+dd) Within 05 working days from the transaction completion date (if the transaction is completed
+before the registered deadline) or from the end of the estimated transaction time limit, internal
+actors and their affiliated persons shall disclose information about trading results, made
+according to the form in Appendix XV or Appendix XVI enclosed herewith, and provide
+explanation about failure to conduct transaction or to trade in the entire trading volume as
+registered;
+
+e) Internal actors and affiliated persons that are the disclosing entities prescribed in this Clause
+and also the disclosing entities prescribed in Article 31 of this Circular shall only disclose
+information as internal actors and affiliated persons.
+
+2. Internal actors and affiliated persons that are neither the disclosing entities prescribed in
+Clause 1 of this Article nor the disclosing entities prescribed in Article 31 of this Circular shall
+only disclose information according to Article 31 of this Circular.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+3. The regulations in Points a, b and d Clause 1 of this Article shall not apply to securities
+companies that make forced selling of shares of their clients that are internal actors of public
+companies, public securities investment companies, public funds or their affiliated persons.
+
+4. After registration of transaction, if registered entities are no longer internal actors of public
+companies, public securities investment companies, public funds or their affiliated persons, they
+shall still report and disclose information as prescribed in Clause 1 of this Article.
+
+5. If securities companies are affiliated persons of internal actors of listed organizations,
+registered organizations or listed public funds, when fixing transaction errors in listed or
+registered shares or listed fund certificates, they must submit reports to SSC, SE, listed
+organizations, registered organizations or securities investment fund management companies
+within 24 hours from the completion of the fixing of transaction error.
+
+6. When parent companies, political organizations, socio-political organizations (trade unions,
+youth unions, etc.), holders of other managerial positions as prescribed in Charters of public
+companies or public securities investment companies conduct transactions in securities of public
+companies or public securities investment companies, they shall disclose information as internal
+actors and their affiliated persons.
+
+7. Within 03 working days from the receipt of reports on securities transactions from internal
+actors and their affiliated persons as prescribed in this Article, public companies and securities
+investment fund management companies shall disclose information on their websites.
+
+Article 34. Information disclosure about exchange-traded funds (ETFs)
+
+1. In case of exchange transactions and portfolio restructuring according to benchmarks, ETFs
+shall be exempt from information disclosure by majority shareholders, internal actors and
+affiliated persons as prescribed in Article 31 and Article 33 of this Circular.
+
+2. Authorized participants and market makers of ETFs shall be exempt from information
+disclosure by majority shareholders, internal actors and affiliated persons as prescribed in Article
+31 and Article 33 of this Circular when conducting transactions in component securities of the
+ETF in the following cases:
+
+a) Purchase component securities which shall be exchanged for fund certificates in order to meet
+buy orders of investors when making market making obligations;
+
+b) Sell component securities which are obtained from the exchange of fund certificates in order
+to meet sell orders of investors when making market making obligations.
+
+3. Market makers of ETFs shall be exempt from information disclosure before conducting
+transactions of their internal actors and affiliated persons as prescribed in Point a Clause 1
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+Article 33 of this Circular when conducting market-making transactions for ETFs according to
+trader IDs issued by SE.
+
+4. Within 05 working days from the completion of exchange transaction, investors or authorized
+participants that are internal actors of listed organizations and their affiliated persons shall
+disclose information according to Point dd Clause 1 Article 33 of this Circular.
+
+5. Within 05 working days from the completion of exchange transaction, investors or authorized
+participants that are majority shareholders of listed organizations shall disclose information
+according to Article 31 of this Circular.
+
+6. Within 03 working days from the receipt of reports on exchange transactions of internal
+actors, their affiliated persons, and majority shareholders of listed organizations as prescribed in
+Clause 4 and Clause 5 of this Article, listed organizations shall disclose information on their
+websites.
+
+Article 35. Disclosure of information about tender offers
+
+Organizations and individuals making tender offers, target companies and target investment fund
+management companies shall disclose information in accordance with regulations on tender
+offers.
+
+Chapter VIII
+
+   INFORMATION DISCLOSURE BY VIETNAM SECURITIES DEPOSITORY AND
+                  CLEARING CORPORATION (VSDCC)
+
+Article 36. Information disclosure by VSDCC
+
+1. VSDCC shall disclose information within 24 hours from the occurrence of any of the
+following events:
+
+a) Issuance, revocation or modification of certificate of depository member, branch of depository
+member or clearing member;
+
+b) Issuance of certificate of initial securities registration and modification of certificate of
+securities registration, issuance of certificate of additional securities registration; information
+about cancellation of securities registration;
+
+c) Preservation of domestic securities symbols;
+
+d) Exercise of rights over securities registered at VSDCC;
+
+dd) Cases of transfer outside the trading system of SE with the approval of SSC;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+e) Actions against violations committed by depository members and clearing members in the
+form of reprimand or more severe;
+
+g) Insolvency of clearing members, suspension or cancellation of membership of depository
+members or clearing members;
+
+h) Actions against insolvency cases applying payment security measures;
+
+i) Occurrence of force majeure events in clearing house;
+
+k) Information about maximum holdings of foreign investors at public companies, listed
+organizations, registered organizations; information about the quantity of shares that foreign
+investors may continue to purchase at public companies, listed organizations, registered
+organizations;
+
+l) Information about the final settlement prices of derivatives;
+
+m) Disclosure of information at request of SSC.
+
+2. VSDCC shall disclose information at least 02 working days before application of margin
+ratios to clearing members.
+
+3. VSDCC shall disclose information at least 02 working days before application or change of
+position limits.
+
+4. Monthly, quarterly and annually, within 07 working days from the end of the reporting period,
+VSDCC shall disclose the following information:
+
+a) The number of trading accounts of domestic and foreign investors;
+
+b) Issuance and cancellation of trading codes to foreign investors and business entities of which
+over 50% of charter capital is held by foreign entities;
+
+c) Management and use of the clearing fund;
+
+d) Management and use of the payment support fund.
+
+5. Within 07 working days from the closing date of lists of shareholders of public companies,
+VSDCC shall submit reports to SSC and provide SE with information about the company that no
+longer meets public company requirements prescribed in Point a Clause 1 Article 32 of the Law
+on securities.
+
+6. Within 03 working days from the day on which it becomes or no longer is a member of an
+international organization on securities market, enters in to an action program or international
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+commitment on securities market development, VSDCC shall disclose information about these
+activities.
+
+7. VSDCC shall disclose other information according to the Law on enterprises and the Law on
+management and use of state funds invested in enterprises.
+
+Chapter IX
+
+                 INFORMATION DISCLOSURE BY STOCK EXCHANGE
+
+Article 37. Information disclosure about securities transactions by SE
+
+1. Information during trading hours
+
+a) Types of securities to be traded;
+
+b) Preference price, ceiling price, floor price, opening price and closing price of each trading
+day, exercise price and volume of latest trading, estimated price (in case of periodic trading-order
+matching), highest trading price and lowest trading price of trading session, rates and signs of
+price fluctuation of each type of securities, average price of securities (regarding Upcom
+market);
+
+c) Three best bid prices and selling prices of each type of securities, and corresponding volume
+of securities to be purchased or sold;
+
+d) Information about trading in bonds sorted by term to maturity, including: Transaction terms,
+yield, volume and value of the latest transaction, yield fluctuation of the latest transaction
+compared to the previous transaction;
+
+dd) Securities transactions of foreign investors.
+
+2. Information at the end of trading day
+
+a) Status of types of securities; open interests of each type of derivatives;
+
+b) Types of securities to be traded during the day;
+
+c) Securities price indexes developed by SE and approved by SSC; rates and index fluctuation
+compared to the previous trading day;
+
+d) Fluctuation in prices of shares in the trading day;
+
+dd) The number of buy/sell orders and corresponding quantity and value of each type of
+securities;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+e) Total trading volume of the entire market (according to order matching round and trading
+day);
+
+g) Prices, volume and transaction value of each type of securities:
+
+- Order matching (according to each order matching round and trading day of periodic order
+matching, and trading day of continuous order matching);
+
+- Agreement (if any): time and type of information about transactions disclosed according to
+regulations of SE;
+
+- Share repurchase and sale of treasury stocks by listed organizations/registered organizations (if
+any).
+
+h) Holdings of shares by foreign investors and purchase limits of each type of securities;
+
+i) Trading information (price, volume, trading density, rates of fluctuation in prices and trading
+volume) about 10 shares with highest trading volume and 10 shares with highest price fluctuation
+compared to the latest trading day;
+
+k) Trading information (price, volume, trading density, rates of fluctuation in prices and trading
+volume) about 10 shares with highest listing value and 10 shares with highest market values;
+
+l) Trading information (price, volume, trading density, rates of fluctuation in prices and trading
+volume) about bonds, including type of bonds, interest rates, maturity date, exercise price,
+current yield and yield to maturity;
+
+m) Number of voting shares of listed/registered shares;
+
+n) Information disclosure at the request of SSC.
+
+3. Disclosure of information when making listing, changing securities contract form, delisting of
+derivatives:
+
+a) Information about the form-based contract must be disclosed at least 30 days before the date
+of initial listing of derivatives;
+
+b) Information must be disclosed at least 07 working days before application of changes in terms
+and conditions of the form-based contract for listed derivatives;
+
+c) Information must be disclosed within 24 hours from the delisting of derivatives due to
+delisting of underlying assets.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+Article 38. Information disclosure about organizations listed/registered at SE; trading
+members, special trading members, market makers; securities investment fund
+management companies that manage listed public funds and public securities investment
+companies
+
+1. Information about listed/registered organizations
+
+a) General information about listing/registration:
+
+- Information about approval for listing/registration, first trading day;
+
+- Information about delisting/registration cancellation;
+
+- Information about changes to listing/registration, additional trading day;
+
+- Information about re-listing/re-registration;
+
+- Information about actions against violations committed by listed/registered organizations
+according to SE’s regulations;
+
+- Information about securities prohibited from margin trading/day trading;
+
+- Information about restricted securities;
+
+- Information about foreign holdings in listed/registered organizations.
+
+b) Information disclosed by listed/registered organizations through the media of SE.
+
+2. Information about trading members, special trading members, market makers at SE:
+
+a) General information:
+
+- Information about approval of trading members, special trading members, and selection of
+market makers;
+
+- Information about actions against violations committed by trading members, special trading
+members, market makers, and trading representatives according to SE’s regulations;
+
+- Information about cancellation of membership of trading members/special trading members
+and termination of market making contracts signed with market makers;
+
+- Quarterly, biannual and annual information about brokerage values of 10 members with the
+largest market shares;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+- Other information.
+
+b) Information disclosed by trading members, special trading members and market makers
+through the media of SE.
+
+3. Information about securities investment fund management companies that manage listed
+public funds and public securities investment companies
+
+a) General information about securities investment fund management companies that manage
+listed public funds and public securities investment companies:
+
+- Information about the number of securities investment fund management companies that
+manage listed public funds and public securities investment companies;
+
+- Information about the number of listed public funds and public securities investment companies
+that are managed by securities investment fund management companies;
+
+- Information about actions against violations committed by listed public funds and public
+securities investment companies according to SE’s regulations;
+
+- Other information.
+
+b) Information concerning listed funds and public securities investment companies disclosed by
+securities investment fund management companies through the media of SE.
+
+4. SE must disclose information according to Clauses 1, 2 Article 37 and Clauses 1, 2, 3 of this
+Article within 24 hours from the occurrence of the event or from the receipt of reports,
+notifications, adequate and valid information disclosure dossiers from listed organizations,
+registered organizations, member securities companies, securities investment fund management
+companies, public securities investment companies and relevant organizations and individuals.
+
+Article 39. Information about supervision of securities market and derivatives market, and
+information about SE’s operation
+
+1. Information about supervision of securities market and derivatives market:
+
+a) Information about suspension of trading in listed, registered securities and listed derivatives
+and termination of such suspension;
+
+b) Information about securities put under alert, control or special control or released from such
+alert, control or special control;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+c) Information about transactions conducted by majority shareholders, founding shareholders
+during transfer restriction period, internal actors and their affiliated persons, tender offers, share
+repurchase and sale of treasury stocks of listed/registered organizations;
+
+d) Information about violations against information disclosure regulations committed by listed
+organizations, registered organizations, trading members, special trading members and market
+makers;
+
+dd) Information about actions against violations against regulations on operations on securities
+market according to SE’s regulations;
+
+e) Information about changes in price fluctuation, application and changes in order limits;
+
+g) Guidelines and notifications of SSC, SE on management and supervision of securities market
+according to regulations of SSC and SE.
+
+2. SE must disclose information according to Clause 1 of this Article within 24 hours from the
+occurrence of the event or from the receipt of reports, notifications, adequate and valid
+information disclosure dossiers from listed organizations, registered organizations, member
+securities companies and relevant organizations and individuals.
+
+3. Information about SE’s operation
+
+Within 03 working days from the day on which it becomes or no longer is a member of an
+international organization on securities market, enters in to an action program or international
+commitment on securities market development, SE shall disclose information about these
+activities.
+
+4. SE shall disclose other information according to Enterprises Law and the Law on management
+and use of state funds invested in enterprises.
+
+Chapter X
+
+                                      IMPLEMENTATION
+
+Article 40. Implementation
+
+1. This Circular comes into force from January 01, 2021 and supersedes the Circular No.
+155/2015/TT-BTC dated October 06, 2015 of the Minister of Finance providing guidelines on
+information disclosure on securities market.
+
+2. Disclosure of financial statements and annual reports of the fiscal year 2020 shall be carried
+out in accordance with the Circular No. 155/2015/TT-BTC dated October 06, 2015 of the
+Minister of Finance.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is not
+official and is intended for reference only. Neither the SSC nor the MOF is responsible for
+the correctness of the English translation, and the reader is advised to refer to the most
+up‐to‐date regulations in Vietnam.
+
+Article 41. Implementation organization
+
+SSC, SE, VSDCC and disclosing entities shall be responsible for the implementation of this
+Circular./.
+
+
+
+
+                                                     PP. THE MINISTER
+                                                     DEPUTY MINISTER
+
+
+
+
+                                                      Huynh Quang Hai
+

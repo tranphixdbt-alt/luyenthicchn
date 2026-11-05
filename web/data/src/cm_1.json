@@ -1,0 +1,1562 @@
+[
+ {
+  "id": "C1-001",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Tổng quan về thị trường chứng khoán",
+  "level": 1,
+  "q": "Căn cứ vào quá trình luân chuyển vốn, thị trường chứng khoán được chia thành:",
+  "o": [
+   "Thị trường sơ cấp và thị trường thứ cấp",
+   "Thị trường cổ phiếu và thị trường trái phiếu",
+   "Thị trường tập trung và thị trường phi tập trung",
+   "Thị trường giao ngay và thị trường phái sinh"
+  ],
+  "a": 0,
+  "e": "Theo luân chuyển vốn: thị trường sơ cấp là nơi phát hành, vốn chảy về tổ chức phát hành; thị trường thứ cấp là nơi mua bán lại chứng khoán đã phát hành, vốn chuyển giữa các nhà đầu tư. Các cách chia khác dựa vào loại hàng hóa, hình thức tổ chức hoặc thời điểm chuyển giao.",
+  "basis": "Phân loại thị trường chứng khoán theo quá trình luân chuyển vốn",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-002",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Tổng quan về thị trường chứng khoán",
+  "level": 2,
+  "q": "Chức năng nào sau đây KHÔNG phải là chức năng của thị trường chứng khoán?",
+  "o": [
+   "Huy động vốn đầu tư cho nền kinh tế",
+   "Tạo tính thanh khoản cho các chứng khoán đã phát hành",
+   "Ấn định lãi suất điều hành cho hệ thống ngân hàng",
+   "Cung cấp môi trường đầu tư và đánh giá giá trị doanh nghiệp"
+  ],
+  "a": 2,
+  "e": "TTCK có các chức năng huy động vốn, cung cấp môi trường đầu tư cho công chúng, tạo tính thanh khoản, đánh giá giá trị doanh nghiệp và hỗ trợ thực thi chính sách kinh tế vĩ mô. Ấn định lãi suất điều hành là chức năng của Ngân hàng Nhà nước.",
+  "basis": "Chức năng của thị trường chứng khoán",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-003",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Tổng quan về thị trường chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, nội dung nào sau đây là một nguyên tắc hoạt động về chứng khoán và thị trường chứng khoán?",
+  "o": [
+   "Bảo đảm mức sinh lời tối thiểu cho nhà đầu tư",
+   "Ưu tiên lệnh của tổ chức kinh doanh chứng khoán",
+   "Nhà nước bảo lãnh giá chứng khoán niêm yết",
+   "Công bằng, công khai, minh bạch"
+  ],
+  "a": 3,
+  "e": "Điều 5 Luật Chứng khoán quy định 4 nguyên tắc: tôn trọng quyền sở hữu và quyền tự do giao dịch, đầu tư, kinh doanh; công bằng, công khai, minh bạch; bảo vệ quyền và lợi ích hợp pháp của nhà đầu tư; tự chịu trách nhiệm về rủi ro.",
+  "basis": "Điều 5 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-004",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Tổng quan về thị trường chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán (đã sửa đổi, bổ sung), cá nhân nào sau đây được xác định là nhà đầu tư chứng khoán chuyên nghiệp?",
+  "o": [
+   "Cá nhân nắm giữ danh mục chứng khoán niêm yết trị giá 1,5 tỷ đồng",
+   "Cá nhân có chứng chỉ hành nghề chứng khoán",
+   "Cá nhân có thu nhập chịu thuế năm gần nhất là 800 triệu đồng",
+   "Cá nhân có bằng thạc sĩ chuyên ngành tài chính – ngân hàng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 11: cá nhân là NĐT chứng khoán chuyên nghiệp gồm người có chứng chỉ hành nghề chứng khoán; người nắm giữ danh mục chứng khoán niêm yết, đăng ký giao dịch tối thiểu 02 tỷ đồng; người có thu nhập chịu thuế năm gần nhất tối thiểu 01 tỷ đồng; cá nhân nước ngoài theo điểm e (bổ sung bởi Luật 56/2024). Bằng cấp chuyên ngành không phải là tiêu chí.",
+  "basis": "Khoản 1 Điều 11 Luật Chứng khoán 2019 (sửa đổi, bổ sung bởi Luật 56/2024/QH15)",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-005",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Các công cụ tài chính trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, chứng quyền có bảo đảm là loại chứng khoán có tài sản bảo đảm do tổ chức nào phát hành?",
+  "o": [
+   "Công ty chứng khoán",
+   "Tổ chức phát hành chứng khoán cơ sở",
+   "Ngân hàng thương mại",
+   "Công ty quản lý quỹ đầu tư chứng khoán"
+  ],
+  "a": 0,
+  "e": "Khoản 6 Điều 4: chứng quyền có bảo đảm do công ty chứng khoán phát hành, cho phép người sở hữu được quyền mua (hoặc bán) chứng khoán cơ sở với tổ chức phát hành chứng quyền theo giá xác định trước, hoặc nhận khoản tiền chênh lệch.",
+  "basis": "Khoản 6 Điều 4 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-006",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Các công cụ tài chính trên thị trường chứng khoán",
+  "level": 2,
+  "q": "So với cổ phiếu phổ thông của cùng một công ty cổ phần, trái phiếu do công ty đó phát hành có đặc điểm nào sau đây?",
+  "o": [
+   "Người sở hữu có quyền biểu quyết tại Đại hội đồng cổ đông",
+   "Tiền lãi phụ thuộc kết quả kinh doanh và do Đại hội đồng cổ đông quyết định",
+   "Không có thời hạn đáo hạn, chỉ thu hồi vốn bằng cách bán lại",
+   "Người sở hữu được thanh toán trước cổ đông khi công ty giải thể, phá sản"
+  ],
+  "a": 3,
+  "e": "Trái phiếu xác nhận quyền chủ nợ đối với một phần nợ của tổ chức phát hành: có thời hạn, lãi theo cam kết, không có quyền biểu quyết và được thanh toán trước cổ đông khi thanh lý tài sản. Quyền biểu quyết, cổ tức phụ thuộc kết quả kinh doanh và không có thời hạn là đặc điểm của cổ phiếu phổ thông.",
+  "basis": "Khoản 2, 3 Điều 4 Luật Chứng khoán 2019; đặc điểm cổ phiếu và trái phiếu",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-007",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Các công cụ tài chính trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Trái phiếu chuyển đổi có mệnh giá 100.000 đồng, giá chuyển đổi 25.000 đồng/cổ phiếu. Giá thị trường hiện tại của cổ phiếu cơ sở là 28.500 đồng. Giá trị chuyển đổi của một trái phiếu là:",
+  "o": [
+   "100.000 đồng",
+   "87.719 đồng",
+   "114.000 đồng",
+   "128.500 đồng"
+  ],
+  "a": 2,
+  "e": "Tỷ lệ chuyển đổi = 100.000 / 25.000 = 4 cổ phiếu. Giá trị chuyển đổi = 4 × 28.500 = 114.000 đồng.",
+  "basis": "Giá trị chuyển đổi = (Mệnh giá / Giá chuyển đổi) × Giá thị trường của cổ phiếu",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-008",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Các công cụ tài chính trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Nhà đầu tư nắm giữ 10.000 chứng quyền có bảo đảm loại mua (kiểu châu Âu, thanh toán bằng tiền), giá thực hiện 30.000 đồng, tỷ lệ chuyển đổi 5:1 (5 chứng quyền tương ứng 1 cổ phiếu cơ sở). Tại ngày đáo hạn, giá thanh toán của cổ phiếu cơ sở là 36.500 đồng. Bỏ qua thuế, phí, số tiền nhà đầu tư nhận được là:",
+  "o": [
+   "65.000.000 đồng",
+   "2.600.000 đồng",
+   "13.000.000 đồng",
+   "73.000.000 đồng"
+  ],
+  "a": 2,
+  "e": "Khoản thanh toán = (36.500 − 30.000) × 10.000 / 5 = 13.000.000 đồng. Nếu quên chia cho tỷ lệ chuyển đổi sẽ ra 65.000.000 đồng.",
+  "basis": "Khoản 6 Điều 4 Luật Chứng khoán 2019; tiền thanh toán chứng quyền mua = (Giá thanh toán − Giá thực hiện) × Số chứng quyền / Tỷ lệ chuyển đổi",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-009",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán sơ cấp",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, khi phân phối chứng khoán chào bán ra công chúng (trừ chứng quyền có bảo đảm), thời hạn đăng ký mua dành cho nhà đầu tư tối thiểu là:",
+  "o": [
+   "10 ngày",
+   "15 ngày",
+   "30 ngày",
+   "20 ngày"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 26: tổ chức phát hành, tổ chức bảo lãnh hoặc đại lý phải bảo đảm thời hạn đăng ký mua cho nhà đầu tư tối thiểu là 20 ngày (trừ chứng quyền có bảo đảm).",
+  "basis": "Khoản 2 Điều 26 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-010",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán sơ cấp",
+  "level": 2,
+  "q": "Tổ chức bảo lãnh phát hành chỉ cam kết nỗ lực tối đa để phân phối chứng khoán; số chứng khoán không phân phối hết được trả lại cho tổ chức phát hành. Đây là phương thức bảo lãnh:",
+  "o": [
+   "Cam kết chắc chắn",
+   "Cố gắng tối đa",
+   "Bảo lãnh dự phòng",
+   "Tối thiểu – tối đa"
+  ],
+  "a": 1,
+  "e": "Bảo lãnh cố gắng tối đa: tổ chức bảo lãnh đóng vai trò đại lý phân phối, không cam kết mua số còn lại. Cam kết chắc chắn: nhận mua toàn bộ hoặc số còn lại để bán lại. Bảo lãnh dự phòng: cam kết mua phần cổ phiếu mà cổ đông hiện hữu không thực hiện quyền mua.",
+  "basis": "Khoản 31 Điều 4 Luật Chứng khoán 2019; các phương thức bảo lãnh phát hành",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-011",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán sơ cấp",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán, trường hợp nào sau đây là chào bán chứng khoán ra công chúng?",
+  "o": [
+   "Chào bán cổ phiếu cho 98 nhà đầu tư không chuyên nghiệp và 30 nhà đầu tư chuyên nghiệp",
+   "Chào bán cổ phiếu cho 120 nhà đầu tư, trong đó có 10 nhà đầu tư chứng khoán chuyên nghiệp",
+   "Chào bán trái phiếu chỉ cho 150 nhà đầu tư chứng khoán chuyên nghiệp",
+   "Chào bán cổ phiếu cho 60 nhà đầu tư không chuyên nghiệp, không qua thông tin đại chúng"
+  ],
+  "a": 1,
+  "e": "Chào bán ra công chúng gồm: qua phương tiện thông tin đại chúng; cho từ 100 nhà đầu tư trở lên, không kể NĐT chứng khoán chuyên nghiệp; hoặc cho nhà đầu tư không xác định. 120 − 10 = 110 NĐT không chuyên nghiệp (≥ 100) nên là chào bán ra công chúng; các trường hợp còn lại là chào bán riêng lẻ.",
+  "basis": "Khoản 19, 20 Điều 4 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-012",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán sơ cấp",
+  "level": 3,
+  "q": "Công ty X chào bán ra công chúng 5.000.000 cổ phiếu, giá 18.000 đồng/cổ phiếu. Công ty chứng khoán Y bảo lãnh theo phương thức cam kết chắc chắn cho toàn bộ đợt chào bán, phí bảo lãnh 1,5% tổng giá trị chào bán. Kết thúc đợt chào bán, nhà đầu tư đăng ký và thanh toán 4.200.000 cổ phiếu. Số tiền Y phải bỏ ra để mua số cổ phiếu còn lại là:",
+  "o": [
+   "75.600.000.000 đồng",
+   "13.050.000.000 đồng",
+   "90.000.000.000 đồng",
+   "14.400.000.000 đồng"
+  ],
+  "a": 3,
+  "e": "Số cổ phiếu còn lại = 5.000.000 − 4.200.000 = 800.000; số tiền Y phải mua = 800.000 × 18.000 = 14,4 tỷ đồng. Phí bảo lãnh (1,5% × 90 tỷ = 1,35 tỷ đồng) là khoản Y được nhận, không làm thay đổi số tiền phải mua.",
+  "basis": "Khoản 31 Điều 4 Luật Chứng khoán 2019; bảo lãnh cam kết chắc chắn",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-013",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán thứ cấp",
+  "level": 1,
+  "q": "Thị trường trong đó giá chứng khoán được xác định trên cơ sở so khớp lệnh mua, bán của nhà đầu tư, không có nhà tạo lập thị trường đưa ra giá chào mua, chào bán, được gọi là:",
+  "o": [
+   "Thị trường định giá theo giá yết của nhà tạo lập",
+   "Thị trường khớp lệnh (định giá theo lệnh)",
+   "Thị trường sơ cấp do tổ chức phát hành định giá",
+   "Thị trường giao dịch thỏa thuận song phương"
+  ],
+  "a": 1,
+  "e": "Thị trường khớp lệnh (order-driven) hình thành giá từ việc so khớp lệnh của nhà đầu tư; thị trường định giá theo giá yết (quote-driven) dựa vào giá chào mua, chào bán của nhà tạo lập thị trường.",
+  "basis": "Các phương thức giao dịch trên thị trường thứ cấp",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-014",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán thứ cấp",
+  "level": 3,
+  "q": "Trong phiên khớp lệnh liên tục, sổ lệnh mua cổ phiếu Z đang có các lệnh LO: A mua 2.000 cổ phiếu giá 25.000 đồng (nhập lúc 10:01); B mua 5.000 cổ phiếu giá 25.000 đồng (nhập lúc 10:03); C mua 1.000 cổ phiếu giá 25.050 đồng (nhập lúc 10:05). Lúc 10:06, một lệnh LO bán 2.500 cổ phiếu giá 25.000 đồng được nhập vào. Kết quả khớp lệnh là:",
+  "o": [
+   "C khớp 1.000 cổ phiếu và A khớp 1.500 cổ phiếu, cùng giá 25.000 đồng",
+   "A khớp 2.000 cổ phiếu và C khớp 500 cổ phiếu, cùng giá 25.000 đồng",
+   "C khớp 1.000 cổ phiếu giá 25.050 đồng; A khớp 1.500 cổ phiếu giá 25.000 đồng",
+   "B khớp 2.500 cổ phiếu giá 25.000 đồng vì có khối lượng lớn nhất"
+  ],
+  "a": 2,
+  "e": "Ưu tiên giá: lệnh mua giá cao hơn (C, 25.050) khớp trước; cùng giá thì ưu tiên thời gian (A nhập trước B). Trong khớp lệnh liên tục, giá thực hiện là giá của lệnh đối ứng đang chờ trên sổ lệnh: C khớp 1.000 cổ phiếu tại 25.050 đồng, A khớp 1.500 cổ phiếu còn lại tại 25.000 đồng.",
+  "basis": "Nguyên tắc khớp lệnh liên tục: ưu tiên giá, ưu tiên thời gian; giá khớp là giá của lệnh đối ứng đang chờ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-015",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán thứ cấp",
+  "level": 3,
+  "q": "Cổ phiếu Q có giá tham chiếu 25.000 đồng. Sổ lệnh phiên khớp lệnh định kỳ mở cửa (đơn vị: cổ phiếu) – Mua: ATO 2.000; giá 25.200: 3.000; 25.100: 3.000; 25.000: 3.000; 24.900: 3.000; 24.800: 1.000. Bán: ATO 1.000; giá 24.800: 1.000; 24.900: 1.000; 25.000: 1.000; 25.100: 1.000; 25.200: 2.000. Nguyên tắc xác định giá: (i) mức giá có khối lượng khớp lớn nhất; (ii) nếu nhiều mức giá thỏa mãn (i), chọn mức giá trùng hoặc gần giá tham chiếu nhất; (iii) nếu vẫn còn nhiều mức giá, chọn mức giá cao hơn. Lệnh ATO được ưu tiên trước lệnh LO. Giá và khối lượng khớp lệnh mở cửa là:",
+  "o": [
+   "25.100 đồng; 5.000 cổ phiếu",
+   "25.200 đồng; 5.000 cổ phiếu",
+   "25.000 đồng; 4.000 cổ phiếu",
+   "25.100 đồng; 8.000 cổ phiếu"
+  ],
+  "a": 0,
+  "e": "Cộng dồn mua (ATO + lệnh giá ≥ P) và bán (ATO + lệnh giá ≤ P): 25.200: 5.000/7.000 → khớp 5.000; 25.100: 8.000/5.000 → 5.000; 25.000: 11.000/4.000 → 4.000; 24.900: 14.000/3.000 → 3.000; 24.800: 15.000/2.000 → 2.000. Hai mức 25.100 và 25.200 cùng đạt 5.000; theo nguyên tắc (ii), 25.100 gần giá tham chiếu hơn nên được chọn.",
+  "basis": "Nguyên tắc xác định giá khớp lệnh định kỳ (dữ kiện nêu trong đề)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-016",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán thứ cấp",
+  "level": 2,
+  "q": "Cổ phiếu niêm yết trên HOSE có giá tham chiếu 25.350 đồng, biên độ dao động giá ±7%, bước giá 50 đồng; giá trần được làm tròn xuống, giá sàn được làm tròn lên theo bước giá. Giá trần và giá sàn lần lượt là:",
+  "o": [
+   "27.150 đồng và 23.550 đồng",
+   "27.124 đồng và 23.576 đồng",
+   "27.100 đồng và 23.600 đồng",
+   "27.100 đồng và 23.550 đồng"
+  ],
+  "a": 2,
+  "e": "25.350 × 1,07 = 27.124,5 → làm tròn xuống theo bước 50 đồng được 27.100 đồng; 25.350 × 0,93 = 23.575,5 → làm tròn lên được 23.600 đồng.",
+  "basis": "Giá trần/giá sàn = Giá tham chiếu × (1 ± biên độ), làm tròn theo bước giá (biên độ, bước giá và quy tắc làm tròn là dữ kiện nêu trong đề)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-017",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, công ty chứng khoán chỉ được cấp phép thực hiện nghiệp vụ bảo lãnh phát hành chứng khoán khi đã được cấp phép thực hiện nghiệp vụ:",
+  "o": [
+   "Môi giới chứng khoán",
+   "Tư vấn đầu tư chứng khoán",
+   "Tự doanh chứng khoán",
+   "Lưu ký chứng khoán"
+  ],
+  "a": 2,
+  "e": "Khoản 2, 3 Điều 72: nghiệp vụ tự doanh chỉ được cấp khi có nghiệp vụ môi giới; nghiệp vụ bảo lãnh phát hành chỉ được cấp khi có nghiệp vụ tự doanh.",
+  "basis": "Khoản 3 Điều 72 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-018",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
+  "level": 2,
+  "q": "Nội dung nào sau đây phù hợp với quy định về dịch vụ nhận ủy thác quản lý tài khoản giao dịch chứng khoán của nhà đầu tư cá nhân tại công ty chứng khoán?",
+  "o": [
+   "Khách hàng được ủy thác cho công ty quyết định toàn bộ giao dịch trên tài khoản",
+   "Chứng khoán được ủy thác mua, bán gồm cả cổ phiếu đăng ký giao dịch trên UPCoM",
+   "Thời hạn hợp đồng ủy thác không quá 01 năm kể từ thời điểm ký kết",
+   "Người quản lý tài khoản ủy thác chỉ cần có chứng chỉ hành nghề môi giới"
+  ],
+  "a": 2,
+  "e": "Điều 19 TT 121/2020: không nhận ủy thác quyết định toàn bộ giao dịch; chỉ ủy thác cổ phiếu, chứng chỉ quỹ niêm yết (không gồm UPCoM); người quản lý phải có CCHN phân tích tài chính hoặc quản lý quỹ; thời hạn hợp đồng không quá 01 năm.",
+  "basis": "Điểm c, d, đ khoản 1 và điểm a khoản 4 Điều 19 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-019",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
+  "level": 3,
+  "q": "Theo báo cáo tài chính quý gần nhất, công ty chứng khoán K có vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 1.250 tỷ đồng, nợ ngắn hạn 1.200 tỷ đồng. Khi bảo lãnh phát hành chứng khoán ra công chúng theo phương thức nhận mua một phần hoặc toàn bộ, tổng giá trị chứng khoán K được bảo lãnh tối đa là:",
+  "o": [
+   "800 tỷ đồng",
+   "12.000 tỷ đồng",
+   "18.750 tỷ đồng",
+   "750 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Giới hạn: không lớn hơn vốn chủ sở hữu (800 tỷ) và không quá 15 lần hiệu số tài sản ngắn hạn − nợ ngắn hạn: 15 × (1.250 − 1.200) = 750 tỷ. Lấy mức nhỏ hơn: 750 tỷ đồng.",
+  "basis": "Khoản 2 Điều 17 Luật Chứng khoán 2019; khoản 1 Điều 23 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-020",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
+  "level": 2,
+  "q": "Khi công ty chứng khoán bị phá sản, tiền gửi giao dịch chứng khoán và chứng khoán lưu ký của khách hàng tại công ty được xử lý như thế nào?",
+  "o": [
+   "Được đưa vào tài sản phá sản để phân chia cho các chủ nợ của công ty",
+   "Được hoàn trả cho khách hàng sau khi trừ nghĩa vụ nợ của khách hàng với công ty",
+   "Được ưu tiên dùng để thanh toán các khoản vay ngân hàng của công ty",
+   "Chỉ được hoàn trả trong hạn mức do Quỹ hỗ trợ thanh toán chi trả"
+  ],
+  "a": 1,
+  "e": "Điều 88: tài sản của khách hàng do công ty chứng khoán tiếp nhận, quản lý thuộc sở hữu của khách hàng, không phải tài sản của công ty; khi công ty giải thể, phá sản, tài sản này được hoàn trả cho khách hàng sau khi trừ nghĩa vụ nợ phải trả của khách hàng đối với công ty.",
+  "basis": "Khoản 1, 3 Điều 88 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-021",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, quỹ đại chúng mà chứng chỉ quỹ đã chào bán ra công chúng phải được mua lại theo yêu cầu của nhà đầu tư là:",
+  "o": [
+   "Quỹ đóng",
+   "Quỹ thành viên",
+   "Công ty đầu tư chứng khoán",
+   "Quỹ mở"
+  ],
+  "a": 3,
+  "e": "Khoản 39 Điều 4: quỹ mở là quỹ đại chúng mà chứng chỉ quỹ đã chào bán ra công chúng phải được mua lại theo yêu cầu của nhà đầu tư; quỹ đóng thì không được mua lại theo yêu cầu.",
+  "basis": "Khoản 39, 40 Điều 4 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-022",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, giá trị tài sản ròng trên một đơn vị quỹ đại chúng do chủ thể nào xác định và chủ thể nào xác nhận?",
+  "o": [
+   "Ngân hàng giám sát xác định, công ty quản lý quỹ xác nhận",
+   "Ban đại diện quỹ xác định, Ủy ban Chứng khoán Nhà nước xác nhận",
+   "Công ty kiểm toán xác định, Đại hội nhà đầu tư xác nhận",
+   "Công ty quản lý quỹ xác định, ngân hàng giám sát xác nhận"
+  ],
+  "a": 3,
+  "e": "Khoản 1 Điều 106: việc xác định giá trị tài sản ròng trên một đơn vị quỹ do công ty quản lý quỹ thực hiện và được ngân hàng giám sát xác nhận.",
+  "basis": "Khoản 1 Điều 106 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-023",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
+  "level": 3,
+  "q": "Tại ngày định giá, quỹ mở F có: tiền gửi ngân hàng 8,6 tỷ đồng; cổ phiếu niêm yết theo giá đóng cửa 120 tỷ đồng; trái phiếu 25 tỷ đồng; cổ tức phải thu 0,4 tỷ đồng; phải trả tiền mua chứng khoán 3 tỷ đồng; phí quản lý và phí giám sát phải trả 1 tỷ đồng. Số đơn vị quỹ đang lưu hành là 10.000.000. Giá trị tài sản ròng trên một đơn vị quỹ là:",
+  "o": [
+   "15.400 đồng",
+   "14.960 đồng",
+   "14.600 đồng",
+   "15.000 đồng"
+  ],
+  "a": 3,
+  "e": "Tổng tài sản = 8,6 + 120 + 25 + 0,4 = 154 tỷ; nợ phải trả = 3 + 1 = 4 tỷ; NAV = 150 tỷ đồng; NAV/đơn vị = 150 tỷ / 10.000.000 = 15.000 đồng.",
+  "basis": "NAV/đơn vị quỹ = (Tổng giá trị tài sản − Tổng nợ phải trả) / Số đơn vị quỹ đang lưu hành; Điều 106 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-024",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
+  "level": 3,
+  "q": "Quỹ đóng G có tổng giá trị tài sản 650 tỷ đồng, đang nắm giữ 2.000.000 cổ phiếu công ty X (thị giá 30.000 đồng/cổ phiếu). Công ty X có 50.000.000 cổ phiếu đang lưu hành. Theo các hạn chế đầu tư của quỹ đại chúng trong Luật Chứng khoán, giá trị cổ phiếu X mà G có thể mua thêm tối đa (theo thị giá hiện tại, thanh toán bằng tiền của quỹ) là:",
+  "o": [
+   "130 tỷ đồng",
+   "70 tỷ đồng",
+   "90 tỷ đồng",
+   "5 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Hạn mức 20% tổng tài sản: 20% × 650 = 130 tỷ; đã nắm 2.000.000 × 30.000 = 60 tỷ → còn 70 tỷ. Hạn mức 10% chứng khoán đang lưu hành: tối đa 5.000.000 cổ phiếu, còn mua được 3.000.000 cổ phiếu (90 tỷ) nên không ràng buộc. Mua bằng tiền không làm đổi tổng tài sản, vậy tối đa 70 tỷ đồng.",
+  "basis": "Điểm b, c khoản 1 Điều 110 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-026",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
+  "level": 2,
+  "q": "Hoạt động nào sau đây KHÔNG thuộc quyền và nghĩa vụ của Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam?",
+  "o": [
+   "Cấp mã chứng khoán trong nước và mã số định danh chứng khoán quốc tế",
+   "Chấp thuận niêm yết và giám sát việc duy trì điều kiện niêm yết chứng khoán",
+   "Giám sát tỷ lệ sở hữu của nhà đầu tư nước ngoài theo quy định",
+   "Lập danh sách, tính toán và phân bổ quyền cho người sở hữu chứng khoán"
+  ],
+  "a": 1,
+  "e": "Theo Điều 55 và khoản 5 Điều 61, VSDC cấp mã chứng khoán và mã ISIN, giám sát tỷ lệ sở hữu nước ngoài, lập danh sách và phân bổ quyền. Chấp thuận niêm yết, giám sát duy trì điều kiện niêm yết là quyền của Sở giao dịch chứng khoán Việt Nam (điểm đ khoản 1 Điều 46).",
+  "basis": "Điều 55, khoản 5 Điều 61, điểm đ khoản 1 Điều 46 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-027",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
+  "level": 2,
+  "q": "Cổ phiếu niêm yết có chu kỳ thanh toán T+2. Tổ chức phát hành thông báo ngày đăng ký cuối cùng để chi trả cổ tức là thứ Năm, ngày 12/11/2026 (giả định không có ngày nghỉ lễ). Ngày giao dịch không hưởng quyền là:",
+  "o": [
+   "Thứ Ba, ngày 10/11/2026",
+   "Thứ Năm, ngày 12/11/2026",
+   "Thứ Tư, ngày 11/11/2026",
+   "Thứ Sáu, ngày 13/11/2026"
+  ],
+  "a": 2,
+  "e": "Với T+2, người mua ngày T chỉ có tên trên sổ đăng ký vào T+2. Mua ngày 10/11 thì thanh toán ngày 12/11, vẫn được hưởng quyền; mua từ ngày 11/11 thì thanh toán sau ngày đăng ký cuối cùng nên không được hưởng. Vì vậy ngày giao dịch không hưởng quyền là ngày làm việc liền trước ngày đăng ký cuối cùng: 11/11/2026.",
+  "basis": "Khoản 5 Điều 61 Luật Chứng khoán 2019; chu kỳ thanh toán T+2 đối với cổ phiếu",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-028",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
+  "level": 2,
+  "q": "Trong ngày giao dịch T, khách hàng của thành viên lưu ký A mua cổ phiếu với tổng giá trị 12 tỷ đồng và bán cổ phiếu với tổng giá trị 9,5 tỷ đồng (cùng kỳ thanh toán, bỏ qua phí và thuế). Theo phương thức bù trừ đa phương, nghĩa vụ thanh toán tiền ròng của A là:",
+  "o": [
+   "Phải trả 2,5 tỷ đồng",
+   "Được nhận 2,5 tỷ đồng",
+   "Trả 12 tỷ đồng, nhận 9,5 tỷ đồng riêng rẽ",
+   "Phải trả 21,5 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Bù trừ đa phương xác định nghĩa vụ ròng của từng thành viên với hệ thống: 12 − 9,5 = 2,5 tỷ đồng phải trả. Thanh toán riêng rẽ từng giao dịch là thanh toán theo giá trị tổng, không phải bù trừ đa phương.",
+  "basis": "Khoản 1 Điều 63 Luật Chứng khoán 2019 (sửa đổi bởi Luật 56/2024/QH15); nguyên tắc bù trừ đa phương",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-030",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công bố thông tin trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Công ty đại chúng M có năm tài chính kết thúc ngày 31/12/2025; tổ chức kiểm toán ký báo cáo kiểm toán báo cáo tài chính năm vào ngày 25/3/2026. Theo Thông tư 96/2020/TT-BTC, hạn chót M phải công bố báo cáo tài chính năm đã kiểm toán là ngày:",
+  "o": [
+   "31/3/2026",
+   "04/4/2026",
+   "20/4/2026",
+   "25/4/2026"
+  ],
+  "a": 0,
+  "e": "Thời hạn là 10 ngày kể từ ngày ký báo cáo kiểm toán (đến 04/4/2026) nhưng không vượt quá 90 ngày kể từ ngày kết thúc năm tài chính (31/3/2026). Áp dụng mốc sớm hơn: 31/3/2026.",
+  "basis": "Điểm c khoản 1 Điều 10 Thông tư 96/2020/TT-BTC",
+  "quote": "",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-031",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công bố thông tin trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Nhà đầu tư A (không phải người nội bộ) sở hữu 2.300.000 cổ phiếu có quyền biểu quyết của công ty đại chúng X; X có 50.000.000 cổ phiếu có quyền biểu quyết đang lưu hành. Ngày T, A mua thêm 300.000 cổ phiếu X và giao dịch hoàn tất theo quy định. Nghĩa vụ công bố thông tin của A là:",
+  "o": [
+   "Chưa phải công bố vì tỷ lệ sở hữu chỉ thay đổi 0,6%, chưa vượt qua ngưỡng thay đổi 1%",
+   "Công bố thông tin tối thiểu 03 ngày làm việc trước ngày dự kiến thực hiện giao dịch mua",
+   "Công bố việc trở thành cổ đông lớn trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch",
+   "Công bố thông tin trong thời hạn 24 giờ kể từ thời điểm lệnh mua cổ phiếu X được khớp"
+  ],
+  "a": 2,
+  "e": "Tỷ lệ sở hữu tăng từ 2.300.000/50.000.000 = 4,6% lên 2.600.000/50.000.000 = 5,2%: A trở thành cổ đông lớn (từ 5% trở lên). Theo khoản 1 Điều 31 TT 96/2020, A phải công bố thông tin và báo cáo trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch. Nghĩa vụ công bố trước giao dịch áp dụng cho người nội bộ và người có liên quan.",
+  "basis": "Khoản 18 Điều 4, khoản 1 Điều 127 Luật Chứng khoán 2019; khoản 1, 3 Điều 31 Thông tư 96/2020/TT-BTC",
+  "quote": "",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-032",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công bố thông tin trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Thành viên Hội đồng quản trị của công ty niêm yết Y dự kiến bán 30.000 cổ phiếu Y (mệnh giá 10.000 đồng, thị giá 45.000 đồng) qua hệ thống giao dịch. Theo Thông tư 96/2020/TT-BTC, nhận định nào sau đây đúng?",
+  "o": [
+   "Phải công bố thông tin tối thiểu 03 ngày làm việc trước ngày dự kiến giao dịch; thời hạn giao dịch không quá 30 ngày",
+   "Không phải công bố trước vì giá trị giao dịch tính theo mệnh giá dưới 500 triệu đồng",
+   "Chỉ phải báo cáo kết quả trong 05 ngày làm việc sau giao dịch, không phải công bố trước",
+   "Phải công bố thông tin tối thiểu 01 ngày làm việc trước giao dịch; thời hạn giao dịch không quá 60 ngày"
+  ],
+  "a": 0,
+  "e": "Giá trị dự kiến theo mệnh giá = 30.000 × 10.000 = 300 triệu đồng, vượt ngưỡng 50 triệu đồng/ngày hoặc 200 triệu đồng/tháng. Người nội bộ phải công bố tối thiểu 03 ngày làm việc trước ngày dự kiến giao dịch, thời hạn giao dịch không quá 30 ngày và báo cáo kết quả trong 05 ngày làm việc sau khi hoàn tất.",
+  "basis": "Phần mở đầu, điểm a (sửa đổi, bổ sung bởi khoản 1 Điều 2 Thông tư 08/2026/TT-BTC), điểm b, điểm đ khoản 1 Điều 33 Thông tư 96/2020/TT-BTC",
+  "quote": "",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-033",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Quản lý, giám sát thị trường chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, Ủy ban Chứng khoán Nhà nước là:",
+  "o": [
+   "Cơ quan thuộc Bộ Tài chính, tham mưu, giúp Bộ trưởng quản lý nhà nước về chứng khoán",
+   "Cơ quan ngang bộ trực thuộc Chính phủ, quản lý thị trường tài chính",
+   "Đơn vị trực thuộc Ngân hàng Nhà nước Việt Nam, quản lý thị trường vốn",
+   "Tổ chức xã hội – nghề nghiệp do các thành viên thị trường thành lập"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 9: UBCKNN là cơ quan thuộc Bộ Tài chính, thực hiện chức năng tham mưu, giúp Bộ trưởng Bộ Tài chính quản lý nhà nước về chứng khoán và TTCK, tổ chức thực thi pháp luật theo phân cấp, ủy quyền.",
+  "basis": "Khoản 1 Điều 9 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-034",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Quản lý, giám sát thị trường chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), hành vi nào sau đây là thao túng thị trường chứng khoán?",
+  "o": [
+   "Đặt lệnh mua và bán cùng loại chứng khoán trong ngày, không chuyển quyền sở hữu thực sự, để tạo cung cầu giả tạo",
+   "Mua cổ phiếu sau khi tham khảo báo cáo phân tích đã được công ty chứng khoán công bố công khai",
+   "Bán bớt cổ phiếu đang nắm giữ để cơ cấu lại danh mục đầu tư khi thị trường giảm điểm mạnh",
+   "Đặt lệnh ATC mua cổ phiếu theo danh mục chỉ số tham chiếu để cơ cấu danh mục quỹ ETF theo kỳ"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 49 Điều 4: đặt lệnh mua và bán cùng loại chứng khoán trong cùng ngày giao dịch mà không dẫn đến chuyển nhượng thực sự quyền sở hữu nhằm tạo giá, cung cầu giả tạo là thao túng; hành vi này bị nghiêm cấm theo khoản 3 Điều 12.",
+  "basis": "Khoản 49 Điều 4, khoản 3 Điều 12 Luật Chứng khoán 2019 (bổ sung, sửa đổi bởi Luật 56/2024/QH15)",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-035",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Quản lý, giám sát thị trường chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán, chủ thể nào có nghĩa vụ giám sát hoạt động giao dịch chứng khoán, việc tuân thủ nghĩa vụ của thành viên và hoạt động công bố thông tin của tổ chức niêm yết, tổ chức đăng ký giao dịch?",
+  "o": [
+   "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+   "Hiệp hội Kinh doanh chứng khoán Việt Nam",
+   "Sở giao dịch chứng khoán Việt Nam",
+   "Ngân hàng giám sát của các quỹ đại chúng"
+  ],
+  "a": 2,
+  "e": "Điểm c khoản 2 Điều 46: Sở giao dịch chứng khoán Việt Nam giám sát hoạt động giao dịch, việc tuân thủ nghĩa vụ của thành viên, hoạt động công bố thông tin của tổ chức niêm yết, tổ chức đăng ký giao dịch và nhà đầu tư thuộc đối tượng công bố thông tin.",
+  "basis": "Điểm c khoản 2 Điều 46 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-036",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Quản lý, giám sát thị trường chứng khoán",
+  "level": 2,
+  "q": "Ông B là kế toán trưởng của công ty niêm yết X. Biết trước kết quả kinh doanh quý của X lỗ lớn (chưa công bố), ông B khuyên em trai bán hết cổ phiếu X trước ngày công bố. Hành vi của ông B là:",
+  "o": [
+   "Thao túng thị trường chứng khoán do tạo ra nguồn cung giả tạo đối với cổ phiếu X",
+   "Tư vấn cho người khác giao dịch trên cơ sở thông tin nội bộ, thuộc hành vi bị nghiêm cấm",
+   "Không vi phạm vì ông B không trực tiếp giao dịch cổ phiếu X trên tài khoản của mình",
+   "Chỉ vi phạm nghĩa vụ công bố thông tin giao dịch của người có liên quan của người nội bộ"
+  ],
+  "a": 1,
+  "e": "Kế toán trưởng là người nội bộ (khoản 45 Điều 4); kết quả lỗ chưa công bố là thông tin nội bộ (khoản 44 Điều 4). Khoản 2 Điều 12 nghiêm cấm sử dụng thông tin nội bộ để mua, bán cho mình hoặc người khác, tiết lộ, cung cấp hoặc tư vấn cho người khác mua, bán trên cơ sở thông tin nội bộ.",
+  "basis": "Khoản 44, 45 Điều 4; khoản 2 Điều 12 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-037",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
+  "level": 1,
+  "q": "Nguyên tắc nào sau đây thuộc chuẩn mực đạo đức nghề nghiệp của người hành nghề chứng khoán?",
+  "o": [
+   "Giao dịch cho tài khoản cá nhân trước lệnh của khách hàng để kiểm tra cung cầu",
+   "Cam kết mức lợi nhuận tối thiểu để tạo niềm tin cho khách hàng mới",
+   "Chia sẻ thông tin đặt lệnh của khách hàng lớn để đồng nghiệp tham khảo",
+   "Trung thực, công bằng, đặt lợi ích hợp pháp của khách hàng lên trên lợi ích bản thân"
+  ],
+  "a": 3,
+  "e": "Chuẩn mực đạo đức đòi hỏi trung thực, công bằng, cẩn trọng, bảo mật và ưu tiên lợi ích khách hàng. Giao dịch trước lệnh khách hàng, cam kết lợi nhuận (khoản 1 Điều 91 Luật CK) và tiết lộ lệnh của khách hàng đều bị cấm.",
+  "basis": "Chuẩn mực đạo đức nghề nghiệp; khoản 1, 2 Điều 91 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-038",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
+  "level": 2,
+  "q": "Nhân viên môi giới biết một khách hàng tổ chức sắp đặt lệnh mua khối lượng lớn cổ phiếu Y, có thể làm giá Y tăng mạnh, nên đã mua trước Y cho tài khoản của mình. Hành vi này là:",
+  "o": [
+   "Giao dịch quá mức (churning) nhằm tăng phí môi giới",
+   "Giao dịch hợp lệ vì nhân viên sử dụng tiền của chính mình",
+   "Hoạt động tạo lập thị trường được pháp luật cho phép",
+   "Giao dịch đón đầu (front running), vi phạm đạo đức nghề nghiệp"
+  ],
+  "a": 3,
+  "e": "Lợi dụng thông tin về lệnh của khách hàng để giao dịch trước cho mình là front running, xâm phạm lợi ích khách hàng. TT 121/2020 cấm CTCK mua, bán trước cùng loại chứng khoán khi lệnh của khách hàng có thể ảnh hưởng lớn tới giá và cấm tiết lộ nội dung đặt lệnh của khách hàng.",
+  "basis": "Khoản 6 Điều 22, điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC; chuẩn mực đạo đức nghề nghiệp",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-039",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
+  "level": 3,
+  "q": "Một nhà đầu tư lớn tặng nhân viên môi giới chuyến du lịch có giá trị cao, kèm đề nghị được ưu tiên phân bổ nhiều cổ phiếu trong đợt chào bán ra công chúng mà công ty chứng khoán làm đại lý phân phối và đang có lượng đăng ký mua vượt số lượng chào bán. Cách xử lý phù hợp là:",
+  "o": [
+   "Từ chối quà, báo cáo bộ phận kiểm soát tuân thủ và phân phối theo tỷ lệ đăng ký mua",
+   "Nhận quà nhưng không hứa trước, sau đó ưu tiên khách hàng này vì là khách hàng lớn",
+   "Nhận quà và chia sẻ cho đồng nghiệp để cùng hỗ trợ khách hàng trong đợt chào bán",
+   "Đề nghị khách hàng chuyển giá trị quà thành phí dịch vụ ghi trong hợp đồng riêng"
+  ],
+  "a": 0,
+  "e": "Nhận quà để đổi lấy ưu đãi tạo xung đột lợi ích, trái chuẩn mực đạo đức. Khoản 2 Điều 26 Luật CK yêu cầu phân phối công bằng, công khai; khi đăng ký mua vượt số lượng được phép phát hành phải phân phối tương ứng tỷ lệ đăng ký mua của từng nhà đầu tư.",
+  "basis": "Khoản 2 Điều 26 Luật Chứng khoán 2019; chuẩn mực đạo đức về quà tặng và xung đột lợi ích",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-040",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
+  "level": 2,
+  "q": "Một người quen đề nghị nhân viên môi giới cho biết danh mục và số dư tài khoản của một khách hàng nổi tiếng. Theo quy định và chuẩn mực đạo đức, thông tin này chỉ được cung cấp khi:",
+  "o": [
+   "Người đề nghị là người thân của nhân viên môi giới",
+   "Được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền",
+   "Thông tin được trao đổi bằng lời, không lưu lại văn bản",
+   "Khách hàng đó đã ngừng giao dịch trên 06 tháng"
+  ],
+  "a": 1,
+  "e": "Khoản 2 Điều 91: công ty chứng khoán không được tiết lộ thông tin về khách hàng, trừ trường hợp được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền; nghĩa vụ bảo mật là chuẩn mực đạo đức cơ bản của người hành nghề.",
+  "basis": "Khoản 2 Điều 91 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-041",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, môi giới chứng khoán là:",
+  "o": [
+   "Việc công ty chứng khoán mua, bán chứng khoán cho chính mình",
+   "Việc cung cấp kết quả phân tích và khuyến nghị mua, bán chứng khoán",
+   "Việc làm trung gian thực hiện mua, bán chứng khoán cho khách hàng",
+   "Việc cam kết mua số chứng khoán chưa phân phối hết của tổ chức phát hành"
+  ],
+  "a": 2,
+  "e": "Khoản 29 Điều 4: môi giới chứng khoán là việc làm trung gian thực hiện mua, bán chứng khoán cho khách hàng. Các nội dung khác lần lượt là tự doanh, tư vấn đầu tư và bảo lãnh phát hành.",
+  "basis": "Khoản 29 Điều 4 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-042",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, tư vấn đầu tư chứng khoán là việc:",
+  "o": [
+   "Quản lý theo ủy thác của từng nhà đầu tư trong việc mua, bán, nắm giữ chứng khoán",
+   "Làm trung gian thực hiện lệnh mua, bán chứng khoán theo yêu cầu của khách hàng",
+   "Tư vấn hồ sơ chào bán, niêm yết và tái cấu trúc doanh nghiệp cho tổ chức phát hành",
+   "Cung cấp kết quả phân tích, báo cáo phân tích và khuyến nghị về mua, bán, nắm giữ chứng khoán"
+  ],
+  "a": 3,
+  "e": "Khoản 32 Điều 4: tư vấn đầu tư chứng khoán là việc cung cấp cho khách hàng kết quả phân tích, báo cáo phân tích và đưa ra khuyến nghị liên quan đến việc mua, bán, nắm giữ chứng khoán.",
+  "basis": "Khoản 32 Điều 4 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-043",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Nội dung nào sau đây KHÔNG phải là vai trò của hoạt động môi giới chứng khoán?",
+  "o": [
+   "Giảm chi phí giao dịch và chi phí tìm kiếm thông tin cho nhà đầu tư",
+   "Góp phần tăng tính thanh khoản và hiệu quả của thị trường",
+   "Cung cấp thông tin, sản phẩm và dịch vụ tư vấn cho khách hàng",
+   "Quyết định đầu tư thay cho khách hàng trên tài khoản giao dịch thông thường"
+  ],
+  "a": 3,
+  "e": "Môi giới giúp giảm chi phí giao dịch, tăng thanh khoản, cung cấp thông tin và dịch vụ cho khách hàng. Theo Điều 4 TT 121/2020, công ty chứng khoán và nhân viên không được quyết định đầu tư thay cho khách hàng, trừ dịch vụ ủy thác quản lý tài khoản theo Điều 19.",
+  "basis": "Vai trò của môi giới chứng khoán; khoản 3, điểm a khoản 6 Điều 4 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-044",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Điểm khác biệt cơ bản giữa nghiệp vụ môi giới và nghiệp vụ tự doanh của công ty chứng khoán là:",
+  "o": [
+   "Khi môi giới, công ty dùng vốn của mình và hưởng chênh lệch giá mua bán",
+   "Khi môi giới, công ty cam kết mua lại chứng khoán nếu giá giảm dưới giá vốn",
+   "Khi môi giới, công ty được chia lợi nhuận với khách hàng theo tỷ lệ thỏa thuận",
+   "Khi môi giới, công ty hành động như đại lý, hưởng phí, khách hàng tự chịu rủi ro giá"
+  ],
+  "a": 3,
+  "e": "Môi giới là làm trung gian mua, bán cho khách hàng và thu phí; tự doanh là công ty mua, bán chứng khoán cho chính mình bằng vốn của mình. Công ty môi giới không được cam kết bảo đảm lợi nhuận hay chia sẻ lợi nhuận, thua lỗ với khách hàng.",
+  "basis": "Khoản 29, 30 Điều 4 Luật Chứng khoán 2019; điểm b khoản 4 Điều 13 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-045",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Loại hình môi giới chủ yếu chỉ thực hiện lệnh theo yêu cầu của khách hàng với mức phí thấp, ít hoặc không cung cấp dịch vụ tư vấn, nghiên cứu được gọi là:",
+  "o": [
+   "Môi giới chiết khấu",
+   "Môi giới dịch vụ đầy đủ",
+   "Môi giới quản lý tài sản riêng",
+   "Môi giới kiêm tạo lập thị trường"
+  ],
+  "a": 0,
+  "e": "Môi giới chiết khấu (discount broker) tập trung thực hiện lệnh với phí thấp; môi giới dịch vụ đầy đủ (full-service) cung cấp thêm tư vấn, nghiên cứu, quản lý tài sản với mức phí cao hơn.",
+  "basis": "Phân loại môi giới chứng khoán theo phạm vi dịch vụ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-046",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Trong giai đoạn tìm hiểu nhu cầu của khách hàng, kỹ năng nào sau đây giữ vai trò quan trọng nhất đối với người môi giới?",
+  "o": [
+   "Trình bày nhanh nhiều sản phẩm lợi suất cao",
+   "Thuyết phục khách hàng giao dịch ngay trong ngày",
+   "Đặt câu hỏi mở và lắng nghe tích cực",
+   "Nhấn mạnh thành tích đầu tư của bản thân"
+  ],
+  "a": 2,
+  "e": "Để nắm được tình hình tài chính, mục tiêu và khẩu vị rủi ro, người môi giới cần đặt câu hỏi mở và lắng nghe tích cực; các hành vi còn lại hướng vào bán hàng, chưa khai thác được nhu cầu thực của khách hàng.",
+  "basis": "Kỹ năng giao tiếp và khai thác thông tin khách hàng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-047",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Thông tư 121/2020/TT-BTC, khi cung cấp dịch vụ tư vấn đầu tư chứng khoán, công ty chứng khoán phải thu thập và quản lý những thông tin nào của khách hàng?",
+  "o": [
+   "Số tài khoản và số dư tiền gửi của khách hàng tại tất cả các ngân hàng thương mại",
+   "Danh mục và kết quả đầu tư của khách hàng tại tất cả các công ty chứng khoán khác",
+   "Tình hình tài chính, mục tiêu đầu tư, khả năng chấp nhận rủi ro, kinh nghiệm và hiểu biết đầu tư",
+   "Thu nhập, tình trạng hôn nhân, quê quán và nghề nghiệp của những người thân trong gia đình"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 24 TT 121/2020: công ty chứng khoán phải thu thập và quản lý thông tin về tình hình tài chính, mục tiêu đầu tư, khả năng chấp nhận rủi ro, kinh nghiệm và hiểu biết về đầu tư của khách hàng.",
+  "basis": "Khoản 2 Điều 24 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-048",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Bà H, 62 tuổi, sắp nghỉ hưu, có khoản tiết kiệm 2 tỷ đồng, cần thu nhập ổn định, ưu tiên bảo toàn vốn, khả năng chấp nhận rủi ro thấp, thời gian đầu tư khoảng 3 năm và chưa có kinh nghiệm đầu tư chứng khoán. Khuyến nghị nào sau đây phù hợp nhất?",
+  "o": [
+   "Dùng giao dịch ký quỹ mua cổ phiếu vốn hóa nhỏ để tăng lợi nhuận trước khi nghỉ hưu",
+   "Tập trung toàn bộ vốn vào chứng quyền có bảo đảm để tận dụng hiệu ứng đòn bẩy",
+   "Mua trái phiếu doanh nghiệp riêng lẻ không có tài sản bảo đảm vì lợi suất cao",
+   "Chủ yếu trái phiếu Chính phủ, chứng chỉ quỹ trái phiếu; tỷ trọng nhỏ cổ phiếu cổ tức ổn định"
+  ],
+  "a": 3,
+  "e": "Khuyến nghị phải phù hợp tình hình tài chính, mục tiêu đầu tư và khả năng chấp nhận rủi ro (khoản 6 Điều 89 Luật CK). Hồ sơ thận trọng nên ưu tiên tài sản thu nhập cố định rủi ro thấp. Ký quỹ, chứng quyền có rủi ro cao; trái phiếu doanh nghiệp riêng lẻ chỉ dành cho nhà đầu tư chứng khoán chuyên nghiệp, và cá nhân chuyên nghiệp cũng chỉ được mua loại có xếp hạng tín nhiệm và có tài sản bảo đảm hoặc bảo lãnh thanh toán của tổ chức tín dụng.",
+  "basis": "Khoản 6 Điều 89, khoản 1b Điều 11 Luật Chứng khoán 2019 (sửa đổi bởi Luật 56/2024/QH15); nguyên tắc phù hợp",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-049",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Công ty chứng khoán dùng bảng câu hỏi khẩu vị rủi ro gồm 6 câu, mỗi câu 1–5 điểm; tổng điểm 6–14: Thận trọng; 15–22: Cân bằng; 23–30: Tăng trưởng. Khách hàng T đạt lần lượt 4, 3, 5, 2, 4, 3 điểm. Nhóm khẩu vị rủi ro và định hướng tư vấn phù hợp với T là:",
+  "o": [
+   "Tăng trưởng (21 điểm): ưu tiên cổ phiếu tăng trưởng, có thể sử dụng đòn bẩy",
+   "Thận trọng (21 điểm): chủ yếu tiền gửi và trái phiếu Chính phủ ngắn hạn",
+   "Cân bằng (23 điểm): kết hợp cổ phiếu và tài sản thu nhập cố định",
+   "Cân bằng (21 điểm): kết hợp cổ phiếu và tài sản thu nhập cố định tương đối cân đối"
+  ],
+  "a": 3,
+  "e": "Tổng điểm = 4 + 3 + 5 + 2 + 4 + 3 = 21, thuộc khoảng 15–22 nên khách hàng thuộc nhóm Cân bằng; danh mục nên phân bổ tương đối cân đối giữa cổ phiếu và tài sản thu nhập cố định.",
+  "basis": "Đánh giá khẩu vị rủi ro của khách hàng (dữ kiện nêu trong đề)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-050",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Cổ phiếu Z có thị giá 36.000 đồng, EPS 4 quý gần nhất là 2.400 đồng; P/E bình quân ngành là 12 lần. Khi tư vấn cho khách hàng theo phương pháp P/E so sánh, nhận định nào sau đây đúng?",
+  "o": [
+   "P/E của Z là 15 lần; giá trị ước tính theo P/E ngành là 43.200 đồng, cao hơn thị giá",
+   "P/E của Z là 12 lần; Z đang được định giá ngang mức bình quân của ngành",
+   "P/E của Z là 0,067 lần; Z đang bị định giá thấp hơn nhiều so với ngành",
+   "P/E của Z là 15 lần; giá trị ước tính theo P/E ngành là 28.800 đồng, thấp hơn thị giá"
+  ],
+  "a": 3,
+  "e": "P/E = 36.000 / 2.400 = 15 lần, cao hơn P/E ngành. Giá trị ước tính = EPS × P/E ngành = 2.400 × 12 = 28.800 đồng, thấp hơn thị giá 36.000 đồng.",
+  "basis": "P/E = Thị giá / EPS; giá trị ước tính = EPS × P/E bình quân ngành",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-051",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Khách hàng phản đối: “Phí giao dịch của công ty anh cao hơn nơi khác”. Cách xử lý nào của nhân viên môi giới là phù hợp?",
+  "o": [
+   "Ghi nhận ý kiến, giải thích giá trị dịch vụ đi kèm và so sánh chi phí – lợi ích trung thực",
+   "Cam kết bù phần chênh lệch phí bằng lợi nhuận đầu tư mà khách hàng sẽ đạt được",
+   "Khẳng định chất lượng phân tích của công ty vượt trội các công ty chứng khoán khác",
+   "Hứa áp dụng mức phí thấp hơn biểu phí đã công bố mà không cần công ty phê duyệt"
+  ],
+  "a": 0,
+  "e": "Xử lý từ chối cần lắng nghe, làm rõ giá trị và thông tin trung thực. TT 121/2020 cấm thỏa thuận chia sẻ lợi nhuận, cấm quảng cáo phương pháp phân tích của mình có giá trị cao hơn công ty khác; mức phí phải được công bố trước khi khách hàng giao dịch.",
+  "basis": "Kỹ năng xử lý từ chối; điểm b, c khoản 6 Điều 4 và khoản 5 Điều 14 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-052",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 1,
+  "q": "Phương pháp tìm kiếm khách hàng mới dựa trên sự giới thiệu của khách hàng hiện tại đã hài lòng với dịch vụ được gọi là:",
+  "o": [
+   "Phương pháp gọi điện chào hàng",
+   "Phương pháp khách hàng giới thiệu",
+   "Phương pháp tổ chức hội thảo đầu tư",
+   "Phương pháp gửi thư chào hàng"
+  ],
+  "a": 1,
+  "e": "Phương pháp khách hàng giới thiệu (chuỗi giới thiệu) khai thác uy tín sẵn có với khách hàng hiện tại để tiếp cận khách hàng tiềm năng mới, thường có tỷ lệ chuyển đổi cao.",
+  "basis": "Các phương pháp tìm kiếm khách hàng tiềm năng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-053",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Áp dụng nguyên tắc Pareto (80/20) trong quản lý mạng lưới khách hàng, nhân viên môi giới nên:",
+  "o": [
+   "Chỉ phục vụ 20% khách hàng có tài sản lớn nhất và từ chối phục vụ các khách hàng còn lại",
+   "Ưu tiên nguồn lực cho nhóm nhỏ khách hàng tạo phần lớn doanh thu nhưng vẫn phục vụ mọi khách hàng",
+   "Dành 80% thời gian tìm kiếm khách hàng mới và ngừng chăm sóc các khách hàng hiện có",
+   "Phân bổ thời gian chăm sóc như nhau cho tất cả khách hàng, bất kể mức độ giao dịch của từng người"
+  ],
+  "a": 1,
+  "e": "Nguyên tắc 80/20: phần lớn doanh thu đến từ một nhóm nhỏ khách hàng, nên cần phân nhóm để ưu tiên chăm sóc, nhưng vẫn phải đối xử công bằng và bảo đảm chất lượng dịch vụ tối thiểu cho mọi khách hàng.",
+  "basis": "Phân nhóm và quản lý khách hàng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-054",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Hoạt động nào sau đây thể hiện việc chăm sóc khách hàng sau bán hàng phù hợp của nhân viên môi giới?",
+  "o": [
+   "Định kỳ rà soát danh mục, cập nhật tình hình tài chính, mục tiêu và khẩu vị rủi ro của khách hàng",
+   "Liên tục khuyến nghị khách hàng mua bán để duy trì doanh số phí giao dịch hằng tháng",
+   "Gửi tin nhắn dự báo cổ phiếu sắp tăng trần để khách hàng kịp mua trước phiên sau",
+   "Chỉ liên hệ lại với khách hàng khi khách hàng có khiếu nại hoặc yêu cầu hỗ trợ"
+  ],
+  "a": 0,
+  "e": "Chăm sóc sau bán là duy trì quan hệ dài hạn: rà soát danh mục, cập nhật thông tin khách hàng (khoản 7 Điều 89 Luật CK; khoản 2 Điều 14 TT 121/2020). Khuyến nghị giao dịch quá mức hay đưa nhận định không có căn cứ là trái quy định và đạo đức.",
+  "basis": "Khoản 7 Điều 89 Luật Chứng khoán 2019; khoản 2 Điều 14, điểm a khoản 4 Điều 13 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-055",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Khách hàng khiếu nại vì lệnh đặt qua điện thoại không được nhập vào hệ thống giao dịch do sự cố đường truyền của công ty chứng khoán. Cách xử lý phù hợp là:",
+  "o": [
+   "Đề nghị khách hàng tự liên hệ Sở giao dịch chứng khoán để được xem xét giải quyết",
+   "Nhân viên tự bồi thường bằng tiền cá nhân để khách hàng không khiếu nại lên công ty",
+   "Từ chối giải quyết vì khách hàng đặt lệnh từ xa thì phải tự chịu mọi rủi ro phát sinh",
+   "Chuyển bộ phận chuyên trách giải quyết, đối chiếu bằng chứng đặt lệnh đã lưu, xử lý theo hợp đồng"
+  ],
+  "a": 3,
+  "e": "TT 121/2020 yêu cầu CTCK có bộ phận chuyên trách giải quyết khiếu nại, lưu giữ bằng chứng đặt lệnh từ xa và có biện pháp khắc phục khi không nhập được lệnh do lỗi của công ty.",
+  "basis": "Khoản 11 Điều 4, điểm b, d khoản 3 Điều 16 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-056",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Nhân viên môi giới đặt mục tiêu doanh thu phí 60 triệu đồng/tháng. Mỗi khách hàng hoạt động giao dịch bình quân 1 tỷ đồng/tháng (tổng giá trị mua và bán), phí môi giới 0,15% giá trị giao dịch. Tỷ lệ chuyển đổi từ khách hàng tiềm năng thành khách hàng hoạt động là 20%. Số khách hàng tiềm năng tối thiểu cần tiếp cận là:",
+  "o": [
+   "40 khách hàng",
+   "200 khách hàng",
+   "300 khách hàng",
+   "120 khách hàng"
+  ],
+  "a": 1,
+  "e": "Phí bình quân mỗi khách hàng = 1 tỷ × 0,15% = 1,5 triệu đồng/tháng; số khách hàng hoạt động cần có = 60 / 1,5 = 40; số khách hàng tiềm năng cần tiếp cận = 40 / 20% = 200.",
+  "basis": "Lập kế hoạch phát triển mạng lưới khách hàng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-057",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Trên Sở Giao dịch Chứng khoán TP. Hồ Chí Minh (HOSE), trong ngày giao dịch bình thường (không có sự kiện điều chỉnh giá), giá tham chiếu của cổ phiếu là:",
+  "o": [
+   "Giá mở cửa được xác định trong chính ngày giao dịch đó",
+   "Giá đóng cửa của ngày giao dịch gần nhất trước đó",
+   "Giá bình quân gia quyền của 05 ngày giao dịch gần nhất",
+   "Giá khớp lệnh cao nhất của ngày giao dịch gần nhất"
+  ],
+  "a": 1,
+  "e": "Trên HOSE, giá tham chiếu của cổ phiếu trong ngày giao dịch bình thường là giá đóng cửa của ngày giao dịch gần nhất trước đó; các trường hợp đặc biệt (ngày giao dịch không hưởng quyền, ngày giao dịch đầu tiên…) có cách xác định riêng. Giá trần, giá sàn được tính từ giá tham chiếu cộng, trừ biên độ dao động giá.",
+  "basis": "Quy chế giao dịch chứng khoán của Sở giao dịch chứng khoán: xác định giá tham chiếu cổ phiếu niêm yết trên HOSE",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-058",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Lệnh mua hoặc bán chứng khoán tại mức giá khớp lệnh xác định giá mở cửa, được ưu tiên trước lệnh giới hạn khi so khớp, là lệnh:",
+  "o": [
+   "ATC",
+   "ATO",
+   "LO",
+   "MP"
+  ],
+  "a": 1,
+  "e": "Lệnh ATO được đặt trong phiên khớp lệnh định kỳ mở cửa, không ghi giá cụ thể và được ưu tiên trước lệnh LO khi so khớp; ATC là lệnh tương tự cho phiên đóng cửa.",
+  "basis": "Các loại lệnh giao dịch trên Sở giao dịch chứng khoán",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-059",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Phát biểu nào sau đây đúng về lệnh giới hạn (LO)?",
+  "o": [
+   "Không ghi giá cụ thể, được khớp ngay tại mức giá tốt nhất đang có trên sổ lệnh đối ứng",
+   "Chỉ được thực hiện tại mức giá đã đặt hoặc tốt hơn; hiệu lực đến hết ngày hoặc đến khi bị hủy",
+   "Chỉ được nhập vào hệ thống giao dịch trong phiên khớp lệnh định kỳ xác định giá đóng cửa",
+   "Được ưu tiên so khớp trước lệnh ATO trong phiên khớp lệnh định kỳ xác định giá mở cửa"
+  ],
+  "a": 1,
+  "e": "Lệnh LO ghi rõ mức giá, chỉ được khớp tại giá đó hoặc tốt hơn và có hiệu lực từ khi nhập đến hết ngày giao dịch hoặc đến khi bị hủy; trong phiên định kỳ, ATO/ATC được ưu tiên trước LO.",
+  "basis": "Đặc điểm lệnh giới hạn (LO)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-060",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Nhà đầu tư mua 3.000 cổ phiếu giá 24.800 đồng, sau đó bán toàn bộ giá 27.300 đồng. Phí môi giới 0,15% giá trị giao dịch mỗi chiều; thuế thu nhập cá nhân 0,1% trên giá trị bán (giả định theo đề). Bỏ qua cổ tức và chi phí khác, lãi ròng của nhà đầu tư là:",
+  "o": [
+   "7.500.000 đồng",
+   "7.265.550 đồng",
+   "7.295.250 đồng",
+   "7.183.650 đồng"
+  ],
+  "a": 3,
+  "e": "Giá trị mua = 74.400.000; phí mua = 111.600. Giá trị bán = 81.900.000; phí bán = 122.850; thuế = 81.900. Lãi ròng = 81.900.000 − 122.850 − 81.900 − 74.400.000 − 111.600 = 7.183.650 đồng.",
+  "basis": "Lãi ròng = Giá trị bán − Phí bán − Thuế TNCN − (Giá trị mua + Phí mua)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-061",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Cổ phiếu V có giá đóng cửa ngày giao dịch liền trước ngày giao dịch không hưởng quyền là 39.000 đồng. Công ty đồng thời trả cổ tức bằng tiền 1.500 đồng/cổ phiếu và cổ tức bằng cổ phiếu tỷ lệ 5:1 (sở hữu 5 cổ phiếu nhận thêm 1 cổ phiếu mới), có cùng ngày giao dịch không hưởng quyền. Giá tham chiếu điều chỉnh vào ngày giao dịch không hưởng quyền là:",
+  "o": [
+   "31.000 đồng",
+   "31.250 đồng",
+   "32.500 đồng",
+   "37.500 đồng"
+  ],
+  "a": 1,
+  "e": "Ptc = (39.000 − 1.500) / (1 + 1/5) = 37.500 / 1,2 = 31.250 đồng. Kiểm tra: người giữ 5 cổ phiếu có 5 × 39.000 = 195.000 đồng trước quyền; sau quyền nhận 7.500 đồng tiền và có 6 cổ phiếu, nên 6 × P = 187.500 → P = 31.250 đồng. Chia trước rồi mới trừ cổ tức tiền (39.000/1,2 − 1.500) cho kết quả sai 31.000 đồng.",
+  "basis": "Điều chỉnh giá tham chiếu: Ptc = (P − Cổ tức tiền) / (1 + Tỷ lệ cổ tức bằng cổ phiếu)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-062",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Cổ phiếu W có giá đóng cửa trước ngày giao dịch không hưởng quyền là 28.000 đồng. Công ty phát hành thêm cổ phiếu cho cổ đông hiện hữu theo tỷ lệ thực hiện quyền 2:1 (sở hữu 2 cổ phiếu được mua 1 cổ phiếu mới) với giá 10.000 đồng/cổ phiếu. Giá tham chiếu lý thuyết vào ngày giao dịch không hưởng quyền là:",
+  "o": [
+   "19.000 đồng",
+   "18.667 đồng",
+   "22.000 đồng",
+   "16.000 đồng"
+  ],
+  "a": 2,
+  "e": "Ptc = (P + R × Pph) / (1 + R) với R = 1/2 = 0,5: (28.000 + 0,5 × 10.000) / 1,5 = 33.000 / 1,5 = 22.000 đồng.",
+  "basis": "Ptc = (P + R × Giá phát hành) / (1 + R), R là số cổ phiếu mới được mua trên mỗi cổ phiếu cũ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-063",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Khách hàng mua 10.000 cổ phiếu giá 40.000 đồng bằng giao dịch ký quỹ, tỷ lệ ký quỹ ban đầu 50% (phần còn lại vay công ty chứng khoán). Hợp đồng quy định tỷ lệ ký quỹ duy trì 30%, với tỷ lệ ký quỹ = (Giá trị chứng khoán − Dư nợ) / Giá trị chứng khoán. Bỏ qua lãi vay và phí, công ty sẽ gọi ký quỹ khi giá cổ phiếu giảm xuống dưới mức xấp xỉ:",
+  "o": [
+   "28.571 đồng",
+   "28.000 đồng",
+   "26.667 đồng",
+   "20.000 đồng"
+  ],
+  "a": 0,
+  "e": "Dư nợ = 50% × 400 triệu = 200 triệu đồng. Gọi ký quỹ khi (10.000P − 200.000.000) / 10.000P = 30% → P = 200.000.000 / (0,7 × 10.000) ≈ 28.571 đồng.",
+  "basis": "Tỷ lệ ký quỹ = (Giá trị chứng khoán − Dư nợ) / Giá trị chứng khoán (dữ kiện hợp đồng nêu trong đề)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-064",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Bà K gọi điện cho nhân viên môi giới đề nghị đặt lệnh bán cổ phiếu trên tài khoản giao dịch đứng tên chồng là ông L; ông L chưa có văn bản ủy quyền cho bà K. Theo Thông tư 121/2020/TT-BTC, nhân viên môi giới phải:",
+  "o": [
+   "Nhận lệnh vì vợ chồng là người có liên quan theo quy định của Luật Chứng khoán",
+   "Nhận lệnh nếu bà K cung cấp đúng số tài khoản và mật khẩu giao dịch của ông L",
+   "Từ chối nhận lệnh vì người đặt lệnh không có văn bản ủy quyền của chủ tài khoản",
+   "Nhận lệnh trước, yêu cầu bổ sung văn bản ủy quyền trong vòng 05 ngày làm việc"
+  ],
+  "a": 2,
+  "e": "Điểm d khoản 4 Điều 13 TT 121/2020: công ty chứng khoán thực hiện nghiệp vụ môi giới không được nhận lệnh giao dịch với người không phải là người đứng tên tài khoản giao dịch mà không có ủy quyền bằng văn bản của người đứng tên tài khoản. Quan hệ vợ chồng, việc biết mật khẩu hay hứa bổ sung giấy tờ sau đều không thay thế được văn bản ủy quyền.",
+  "basis": "Điểm d khoản 4 Điều 13 Thông tư 121/2020/TT-BTC (sửa đổi, bổ sung bởi khoản 2 Điều 9 Thông tư 08/2026/TT-BTC)",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-065",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, mệnh giá của trái phiếu chào bán ra công chúng là:",
+  "o": [
+   "100 nghìn đồng và bội số của 100 nghìn đồng",
+   "10 nghìn đồng cho mỗi trái phiếu",
+   "1 triệu đồng và bội số của 1 triệu đồng",
+   "Do tổ chức phát hành tự quyết định"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 13: mệnh giá cổ phiếu, chứng chỉ quỹ chào bán ra công chúng là 10 nghìn đồng; mệnh giá trái phiếu chào bán ra công chúng là 100 nghìn đồng và bội số của 100 nghìn đồng.",
+  "basis": "Khoản 2 Điều 13 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-066",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Khi lãi suất thị trường thay đổi, trái phiếu nào sau đây (cùng mệnh giá, cùng mức tín nhiệm, trả lãi cố định) có giá biến động mạnh nhất?",
+  "o": [
+   "Kỳ hạn còn lại 2 năm, lãi suất coupon 3%/năm",
+   "Kỳ hạn còn lại 10 năm, lãi suất coupon 3%/năm",
+   "Kỳ hạn còn lại 10 năm, lãi suất coupon 9%/năm",
+   "Kỳ hạn còn lại 2 năm, lãi suất coupon 9%/năm"
+  ],
+  "a": 1,
+  "e": "Giá trái phiếu biến động ngược chiều lãi suất; kỳ hạn càng dài và lãi suất coupon càng thấp thì thời lượng (duration) càng lớn, giá càng nhạy cảm với thay đổi lãi suất.",
+  "basis": "Quan hệ giá – lợi suất trái phiếu; độ nhạy giá theo kỳ hạn và lãi suất coupon",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-067",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Nhà đầu tư mua 10.000 trái phiếu Chính phủ mệnh giá 100.000 đồng, lãi suất coupon 6%/năm, trả lãi hằng năm, với giá yết (giá sạch) 98.500 đồng/trái phiếu. Từ ngày trả lãi gần nhất đến ngày thanh toán là 146 ngày; quy ước tính lãi thực tế/365. Tổng số tiền thanh toán (giá bẩn, chưa tính phí) là:",
+  "o": [
+   "985.000.000 đồng",
+   "961.000.000 đồng",
+   "1.009.000.000 đồng",
+   "1.024.000.000 đồng"
+  ],
+  "a": 2,
+  "e": "Lãi cộng dồn = 100.000 × 6% × 146/365 = 2.400 đồng/trái phiếu; giá bẩn = 98.500 + 2.400 = 100.900 đồng; tổng tiền = 100.900 × 10.000 = 1.009.000.000 đồng.",
+  "basis": "Lãi cộng dồn = Mệnh giá × Lãi suất coupon × Số ngày/365; Giá bẩn = Giá sạch + Lãi cộng dồn",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-068",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Nhà đầu tư thực hiện giao dịch mua bán lại (repo) trái phiếu Chính phủ: giá trị thanh toán lượt đi 10 tỷ đồng, lãi suất repo 4,38%/năm, kỳ hạn 14 ngày, quy ước 365 ngày/năm. Giá trị thanh toán lượt về là:",
+  "o": [
+   "10.438.000.000 đồng",
+   "10.017.033.333 đồng",
+   "10.001.200.000 đồng",
+   "10.016.800.000 đồng"
+  ],
+  "a": 3,
+  "e": "Giá trị lượt về = 10.000.000.000 × (1 + 4,38% × 14/365) = 10.000.000.000 × 1,00168 = 10.016.800.000 đồng. Dùng quy ước 360 ngày sẽ ra 10.017.033.333 đồng.",
+  "basis": "Giá trị lượt về = Giá trị lượt đi × (1 + Lãi suất repo × Số ngày/365)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-069",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 8%/năm, trả lãi cuối mỗi năm, còn đúng 2 năm đến ngày đáo hạn (vừa trả lãi). Với lợi suất đáo hạn yêu cầu 10%/năm, giá hợp lý của trái phiếu (làm tròn đến đồng) là:",
+  "o": [
+   "100.000 đồng",
+   "96.000 đồng",
+   "96.529 đồng",
+   "103.667 đồng"
+  ],
+  "a": 2,
+  "e": "P = 8.000/1,1 + 108.000/1,1² = 7.272,73 + 89.256,20 ≈ 96.529 đồng. Lợi suất yêu cầu cao hơn coupon nên trái phiếu được giao dịch dưới mệnh giá (103.667 đồng là giá nếu chiết khấu ở 6%).",
+  "basis": "P = Σ C/(1+r)^t + F/(1+r)^n",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-070",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), nhà đầu tư chứng khoán chuyên nghiệp là cá nhân chỉ được mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ trong trường hợp nào?",
+  "o": [
+   "Mọi trái phiếu doanh nghiệp riêng lẻ, không phân biệt loại trái phiếu và tổ chức phát hành",
+   "Trái phiếu có xếp hạng tín nhiệm và có tài sản bảo đảm hoặc bảo lãnh thanh toán của tổ chức tín dụng",
+   "Chỉ trái phiếu chuyển đổi do công ty đại chúng phát hành, có kỳ hạn dưới 01 năm",
+   "Trái phiếu chưa có xếp hạng tín nhiệm nhưng có lãi suất cố định trong suốt kỳ hạn"
+  ],
+  "a": 1,
+  "e": "Khoản 1b Điều 11 (bổ sung bởi Luật 56/2024, áp dụng từ 01/01/2026): cá nhân là NĐT chuyên nghiệp chỉ được tham gia trái phiếu doanh nghiệp riêng lẻ có xếp hạng tín nhiệm và có tài sản bảo đảm, hoặc có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng.",
+  "basis": "Khoản 1b Điều 11 Luật Chứng khoán 2019 (bổ sung bởi Luật 56/2024/QH15)",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-071",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, công ty chứng khoán vừa môi giới vừa tự doanh phải tuân thủ nguyên tắc nào khi thực hiện lệnh?",
+  "o": [
+   "Ưu tiên thực hiện lệnh của khách hàng trước lệnh của công ty",
+   "Ưu tiên lệnh tự doanh nếu lệnh đó có khối lượng lớn hơn",
+   "Thực hiện lệnh theo giá trị giao dịch từ lớn đến nhỏ",
+   "Thực hiện lệnh tự doanh trước để ổn định giá cho khách hàng"
+  ],
+  "a": 0,
+  "e": "Khoản 5 Điều 89 Luật CK và khoản 4 Điều 22 TT 121/2020: công ty chứng khoán phải ưu tiên thực hiện lệnh của khách hàng trước lệnh của chính mình.",
+  "basis": "Khoản 5 Điều 89 Luật Chứng khoán 2019; khoản 4 Điều 22 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-072",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Khách hàng đặt lệnh giới hạn mua 10.000 cổ phiếu X giá 25.000 đồng tại công ty chứng khoán P. Trước khi lệnh của khách hàng được thực hiện, bộ phận tự doanh của P KHÔNG được thực hiện giao dịch nào sau đây?",
+  "o": [
+   "Mua cổ phiếu X cho tài khoản tự doanh ở mức giá 25.000 đồng hoặc thấp hơn",
+   "Bán cổ phiếu Y không liên quan đang nắm giữ trong tài khoản tự doanh",
+   "Mua trái phiếu Chính phủ theo kế hoạch đầu tư đã được phê duyệt",
+   "Hủy một lệnh bán cổ phiếu Y của tài khoản tự doanh đã đặt trước đó"
+  ],
+  "a": 0,
+  "e": "Khoản 7 Điều 22 TT 121/2020: khi khách hàng đặt lệnh giới hạn, công ty chứng khoán không được mua hoặc bán cùng chiều cùng loại chứng khoán cho mình ở mức giá bằng hoặc tốt hơn giá của khách hàng trước khi lệnh của khách hàng được thực hiện. Với lệnh mua, giá tốt hơn là giá thấp hơn.",
+  "basis": "Khoản 7 Điều 22 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-073",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Người hành nghề được giao quản lý tài khoản ủy thác của một khách hàng cá nhân muốn mua cho tài khoản này cổ phiếu chào bán thêm của một công ty niêm yết mà chính công ty chứng khoán của mình đang thực hiện bảo lãnh phát hành (trong thời gian bảo lãnh). Cách xử lý đúng quy định là:",
+  "o": [
+   "Được mua ngay vì cổ phiếu niêm yết thuộc phạm vi ủy thác về loại chứng khoán",
+   "Chỉ cần báo cáo Ủy ban Chứng khoán Nhà nước sau khi giao dịch hoàn tất",
+   "Công ty phải thông báo và có sự đồng ý bằng văn bản của khách hàng trước khi đầu tư",
+   "Được mua nếu giá mua không cao hơn giá chào bán của đợt phát hành"
+  ],
+  "a": 2,
+  "e": "Điểm l khoản 6 Điều 19 TT 121/2020: công ty chứng khoán phải thông báo và có sự đồng ý bằng văn bản của khách hàng đối với trường hợp đầu tư vào chứng khoán do công ty bảo lãnh phát hành trong thời gian đang bảo lãnh – biện pháp kiểm soát xung đột lợi ích.",
+  "basis": "Điểm l khoản 6 Điều 19 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-074",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Biện pháp “bức tường lửa” (Chinese wall) trong công ty chứng khoán chủ yếu nhằm mục đích:",
+  "o": [
+   "Ngăn thông tin từ bộ phận bảo lãnh, tư vấn tài chính sang môi giới, tự doanh để hạn chế xung đột lợi ích",
+   "Bảo vệ hệ thống giao dịch trực tuyến của công ty khỏi các cuộc tấn công mạng từ bên ngoài",
+   "Tách bạch tiền gửi giao dịch của khách hàng với tiền của công ty tại ngân hàng thương mại",
+   "Giới hạn số lượng lệnh mà mỗi nhân viên môi giới được phép nhập vào hệ thống trong một ngày"
+  ],
+  "a": 0,
+  "e": "Chinese wall là cơ chế ngăn cách thông tin giữa các bộ phận có thể nắm thông tin nội bộ (bảo lãnh, tư vấn tài chính doanh nghiệp) với bộ phận kinh doanh (môi giới, tự doanh, phân tích), thuộc hệ thống kiểm soát nội bộ, giám sát, ngăn ngừa xung đột lợi ích theo khoản 1 Điều 89 Luật CK.",
+  "basis": "Khoản 1 Điều 89 Luật Chứng khoán 2019; biện pháp kiểm soát xung đột lợi ích",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-075",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Lúc 9:20, nhân viên môi giới nhận lệnh mua cổ phiếu X giá LO 30.000 đồng của khách hàng thường M; lúc 9:22 nhận lệnh mua X cùng giá của khách hàng VIP N. Nguồn cung X tại mức giá này đang khan hiếm. Cách xử lý phù hợp là:",
+  "o": [
+   "Nhập lệnh theo đúng thứ tự thời gian nhận: lệnh của M trước, lệnh của N sau",
+   "Nhập lệnh của N trước vì N đóng góp doanh thu phí lớn hơn cho công ty",
+   "Gộp hai lệnh thành một lệnh và ưu tiên phân bổ khối lượng khớp cho N",
+   "Tạm giữ lệnh của M cho đến khi lệnh của N được khớp hết khối lượng"
+  ],
+  "a": 0,
+  "e": "Công ty phải ghi nhận thời gian nhận lệnh và thực hiện lệnh nhanh chóng, chính xác (khoản 4, 5 Điều 16 TT 121/2020); đối xử công bằng giữa các khách hàng là nguyên tắc cơ bản khi giải quyết xung đột lợi ích giữa khách hàng với nhau.",
+  "basis": "Khoản 4, 5 Điều 16 Thông tư 121/2020/TT-BTC; nguyên tắc đối xử công bằng với khách hàng",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-076",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, loại chứng chỉ nào sau đây KHÔNG thuộc các loại chứng chỉ hành nghề chứng khoán?",
+  "o": [
+   "Chứng chỉ hành nghề môi giới chứng khoán",
+   "Chứng chỉ hành nghề tư vấn đầu tư chứng khoán",
+   "Chứng chỉ hành nghề phân tích tài chính",
+   "Chứng chỉ hành nghề quản lý quỹ"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 97: chứng chỉ hành nghề chứng khoán gồm chứng chỉ hành nghề môi giới chứng khoán, phân tích tài chính và quản lý quỹ.",
+  "basis": "Khoản 1 Điều 97 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-077",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Bà C là người hành nghề môi giới tại công ty chứng khoán A (A có nghiệp vụ môi giới). Bà C muốn mở tài khoản giao dịch chứng khoán cho mình tại công ty chứng khoán B vì phí thấp hơn. Theo Luật Chứng khoán:",
+  "o": [
+   "Bà C được mở nếu báo cáo bằng văn bản cho công ty A trước khi mở",
+   "Bà C được mở nếu chỉ giao dịch cổ phiếu niêm yết trên HOSE",
+   "Bà C được mở nếu tổng giá trị tài khoản dưới 02 tỷ đồng",
+   "Bà C không được mở, vì công ty A nơi bà làm việc có nghiệp vụ môi giới"
+  ],
+  "a": 3,
+  "e": "Điểm b khoản 2 Điều 98: người hành nghề chứng khoán không được mở, quản lý tài khoản giao dịch chứng khoán tại công ty chứng khoán nơi mình không làm việc, trừ trường hợp công ty nơi mình làm việc không có nghiệp vụ môi giới.",
+  "basis": "Điểm b khoản 2 Điều 98 Luật Chứng khoán 2019",
+  "quote": "",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-078",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP, để được cấp chứng chỉ hành nghề môi giới chứng khoán, ngoài các điều kiện chung, cá nhân phải có những chứng chỉ chuyên môn (hoặc tương đương) nào?",
+  "o": [
+   "Cơ bản về CK và TTCK; Pháp luật về CK và TTCK; Phân tích và đầu tư CK; Môi giới và tư vấn đầu tư CK",
+   "Cơ bản về CK và TTCK; Pháp luật về CK và TTCK; Phân tích báo cáo tài chính; Môi giới và tư vấn đầu tư CK",
+   "Pháp luật về CK và TTCK; Phân tích và đầu tư CK; Môi giới và tư vấn đầu tư CK; Quản lý quỹ và tài sản",
+   "Cơ bản về CK và TTCK; Phân tích và đầu tư CK; Tư vấn tài chính và bảo lãnh; Môi giới và tư vấn đầu tư CK"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 1 Điều 213 NĐ 155/2020: cần các chứng chỉ Những vấn đề cơ bản về chứng khoán và TTCK, Pháp luật về chứng khoán và TTCK, Phân tích và đầu tư chứng khoán, Môi giới chứng khoán và tư vấn đầu tư chứng khoán hoặc chứng chỉ tương đương.",
+  "basis": "Điểm b khoản 1 Điều 213 Nghị định 155/2020/NĐ-CP",
+  "quote": "",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-079",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 1,
+  "q": "Theo Thông tư 135/2025/TT-BTC, từ ngày 01/01/2027, người hành nghề chứng khoán phải tham gia tập huấn kiến thức chuyên môn hằng năm với thời lượng tối thiểu là:",
+  "o": [
+   "04 giờ mỗi năm",
+   "16 giờ mỗi năm",
+   "08 giờ mỗi năm",
+   "24 giờ mỗi năm"
+  ],
+  "a": 2,
+  "e": "TT 135/2025 (hiệu lực từ 09/02/2026, thay thế TT 197/2015) quy định tập huấn kiến thức cho người hành nghề tối thiểu 08 giờ mỗi năm; nội dung tập huấn tại Chương IV được triển khai từ ngày 01/01/2027.",
+  "basis": "Khoản 3 Điều 10, khoản 3 Điều 12 Thông tư 135/2025/TT-BTC",
+  "quote": "",
+  "src": "TT_135_2025_TT-BTC_English_SSC.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C1-080",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, khi thực hiện nghiệp vụ môi giới, công ty chứng khoán KHÔNG bắt buộc phải bố trí người hành nghề chứng khoán tại vị trí nào sau đây?",
+  "o": [
+   "Tư vấn, giải thích hợp đồng và làm thủ tục mở tài khoản",
+   "Nhận lệnh, kiểm soát lệnh giao dịch của khách hàng",
+   "Nhân viên công nghệ thông tin vận hành hệ thống máy chủ",
+   "Trưởng các bộ phận liên quan đến nghiệp vụ môi giới"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 13 TT 121/2020: phải bố trí người hành nghề tại các vị trí tư vấn, giải thích hợp đồng, mở tài khoản; tư vấn giao dịch; nhận lệnh, kiểm soát lệnh; trưởng các bộ phận liên quan đến nghiệp vụ môi giới. Vị trí vận hành công nghệ thông tin không thuộc danh sách này.",
+  "basis": "Khoản 1 Điều 13 Thông tư 121/2020/TT-BTC",
+  "quote": "",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ }
+]

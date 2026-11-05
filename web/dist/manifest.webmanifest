@@ -1,0 +1,10 @@
+{
+  "name": "Đỗ CCHN – Luyện thi chứng chỉ hành nghề chứng khoán",
+  "short_name": "Đỗ CCHN",
+  "lang": "vi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F1F4F1",
+  "theme_color": "#1D4E92",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "L2-001",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), khi chào bán trái phiếu ra công chúng, trường hợp nào sau đây được miễn điều kiện tổ chức phát hành hoặc trái phiếu phải được xếp hạng tín nhiệm?",
+  "o": [
+   "Trái phiếu do tổ chức tín dụng phát hành",
+   "Tổng giá trị trái phiếu huy động trong 12 tháng không quá 500 tỷ đồng",
+   "Tổng dư nợ trái phiếu không vượt quá 100% vốn chủ sở hữu",
+   "Tổ chức phát hành là công ty chứng khoán niêm yết"
+  ],
+  "a": 0,
+  "e": "NĐ 245 sửa khoản 2 Điều 19: mọi đợt chào bán trái phiếu ra công chúng phải được tổ chức xếp hạng tín nhiệm độc lập xếp hạng, trừ trái phiếu của tổ chức tín dụng hoặc trái phiếu được TCTD, chi nhánh NHNNg, tổ chức tài chính nước ngoài/quốc tế bảo lãnh thanh toán toàn bộ gốc, lãi. Các ngưỡng 500 tỷ đồng/50% VCSH và 100% VCSH là quy định cũ đã bị thay thế.",
+  "basis": "Khoản 2 Điều 19 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm a khoản 8 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Tổ chức phát hành hoặc trái phiếu đăng ký chào bán phải được xếp hạng tín nhiệm bởi tổ chức xếp hạng tín nhiệm độc lập, ngoại trừ trường hợp trái phiếu phát hành của tổ chức tín dụng",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-002",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), điều kiện về nợ phải trả của tổ chức phát hành thông thường khi chào bán trái phiếu ra công chúng là gì?",
+  "o": [
+   "Nợ phải trả, gồm cả trái phiếu dự kiến phát hành, không vượt quá 05 lần vốn chủ sở hữu",
+   "Nợ phải trả, chưa gồm trái phiếu dự kiến phát hành, không vượt quá 05 lần vốn chủ sở hữu",
+   "Nợ phải trả, gồm cả trái phiếu dự kiến phát hành, không vượt quá 03 lần vốn chủ sở hữu",
+   "Nợ phải trả, gồm cả trái phiếu dự kiến phát hành, không vượt quá 05 lần vốn điều lệ"
+  ],
+  "a": 0,
+  "e": "Khoản 4 Điều 19 (bổ sung bởi NĐ 245): nợ phải trả (bao gồm giá trị trái phiếu dự kiến phát hành) không vượt quá 05 lần vốn chủ sở hữu theo BCTC kỳ gần nhất được kiểm toán; một số loại doanh nghiệp (DNNN, TCTD, bảo hiểm, CTCK, CTQLQ, DN phát hành để làm dự án BĐS) được loại trừ.",
+  "basis": "Khoản 4 Điều 19 Nghị định 155/2020/NĐ-CP (bổ sung bởi điểm b khoản 8 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Tổ chức phát hành có nợ phải trả (bao gồm giá trị trái phiếu dự kiến phát hành) không vượt quá 05 lần vốn chủ sở hữu của tổ chức phát hành theo báo cáo tài chính kỳ kế toán gần nhất được kiểm toán",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-003",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 3,
+  "q": "Công ty cổ phần X (sản xuất hàng tiêu dùng, không thuộc diện loại trừ) có vốn chủ sở hữu 400 tỷ đồng, nợ phải trả 1.500 tỷ đồng theo BCTC kiểm toán gần nhất. X dự kiến chào bán trái phiếu ra công chúng một đợt, không nhằm cơ cấu nợ và không có bảo lãnh thanh toán. Giá trị trái phiếu tối đa X có thể chào bán để đáp ứng điều kiện về nợ phải trả là:",
+  "o": [
+   "400 tỷ đồng",
+   "2.000 tỷ đồng",
+   "1.200 tỷ đồng",
+   "500 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Nợ phải trả sau phát hành (gồm cả trái phiếu dự kiến phát hành) ≤ 5 × 400 = 2.000 tỷ đồng → trái phiếu tối đa = 2.000 − 1.500 = 500 tỷ đồng. 2.000 tỷ là lỗi quên trừ nợ hiện hữu; 400 tỷ nhầm với giới hạn từng đợt khi chào bán nhiều đợt.",
+  "basis": "Khoản 4 Điều 19 Nghị định 155/2020/NĐ-CP (bổ sung bởi điểm b khoản 8 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "không vượt quá 05 lần vốn chủ sở hữu của tổ chức phát hành theo báo cáo tài chính kỳ kế toán gần nhất được kiểm toán, ngoại trừ tổ chức phát hành là doanh nghiệp nhà nước",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-004",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), \"tổ chức xếp hạng tín nhiệm độc lập\" bao gồm những tổ chức nào?",
+  "o": [
+   "Moody’s, S&P, Fitch Ratings và doanh nghiệp xếp hạng tín nhiệm được Bộ Tài chính cấp phép",
+   "Chỉ các doanh nghiệp xếp hạng tín nhiệm được Bộ Tài chính cấp Giấy chứng nhận",
+   "Chỉ ba tổ chức quốc tế Moody’s, Standard & Poor’s và Fitch Ratings",
+   "Bất kỳ tổ chức xếp hạng tín nhiệm nào được UBCKNN chấp thuận"
+  ],
+  "a": 0,
+  "e": "Khoản 57 Điều 3 (bổ sung bởi NĐ 245): tổ chức XHTN độc lập gồm Moody’s, Standard & Poor’s, Fitch Ratings và các doanh nghiệp XHTN được Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh.",
+  "basis": "Khoản 57 Điều 3 Nghị định 155/2020/NĐ-CP (bổ sung bởi điểm c khoản 1 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Tổ chức xếp hạng tín nhiệm Moody’s, Standard & Poor’s, Fitch Ratings; b) Các doanh nghiệp xếp hạng tín nhiệm được Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh.",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-005",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 3,
+  "q": "Công ty đại chúng Y chào bán ra công chúng 2.000.000 trái phiếu chuyển đổi cho nhà đầu tư (không phải chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu) nhằm huy động vốn thực hiện dự án. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), số trái phiếu tối thiểu phải bán được là:",
+  "o": [
+   "1.000.000 trái phiếu",
+   "1.400.000 trái phiếu",
+   "1.300.000 trái phiếu",
+   "1.600.000 trái phiếu"
+  ],
+  "a": 1,
+  "e": "Đợt chào bán nhằm huy động vốn thực hiện dự án phải bán được tối thiểu 70% số trái phiếu dự kiến chào bán: 70% × 2.000.000 = 1.400.000 trái phiếu. Ngoại lệ chỉ áp dụng khi chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu.",
+  "basis": "Khoản 6 Điều 21 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 10 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "số lượng trái phiếu chuyển đổi, trái phiếu kèm chứng quyền bán được phải đạt tối thiểu là 70% số trái phiếu chuyển đổi, trái phiếu kèm chứng quyền dự kiến chào bán để thực hiện các dự án",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-006",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán trái phiếu",
+  "level": 2,
+  "q": "Khi công ty đại chúng chào bán trái phiếu chuyển đổi ra công chúng mà không có bảo lãnh phát hành cam kết nhận mua toàn bộ, điều kiện về quy mô đợt chào bán là:",
+  "o": [
+   "Tổng mệnh giá trái phiếu không lớn hơn 50% vốn chủ sở hữu của công ty",
+   "Tổng mệnh giá trái phiếu không vượt quá 05 lần vốn chủ sở hữu của công ty",
+   "Tổng mệnh giá trái phiếu không lớn hơn tổng mệnh giá cổ phiếu đang lưu hành",
+   "Tổng mệnh giá trái phiếu không lớn hơn giá trị vốn hóa thị trường của công ty"
+  ],
+  "a": 2,
+  "e": "Khoản 5 Điều 21 (không bị NĐ 245 sửa đổi): tổng giá trị trái phiếu chuyển đổi, trái phiếu kèm chứng quyền theo mệnh giá không lớn hơn tổng giá trị cổ phiếu đang lưu hành theo mệnh giá, trừ trường hợp có bảo lãnh phát hành cam kết nhận mua toàn bộ hoặc mua phần còn lại.",
+  "basis": "Khoản 5 Điều 21 Nghị định 155/2020/NĐ-CP",
+  "quote": "Tổng giá trị trái phiếu chuyển đổi, trái phiếu kèm chứng quyền tính theo mệnh giá không lớn hơn tổng giá trị cổ phiếu đang lưu hành tính theo mệnh giá",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-007",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán chứng khoán ra công chúng",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), yêu cầu phương án sử dụng vốn phải xác định tỷ lệ chào bán thành công tối thiểu 70% cho mục đích thực hiện dự án KHÔNG áp dụng đối với trường hợp nào?",
+  "o": [
+   "Chào bán thêm cổ phiếu ra công chúng cho nhà đầu tư mới",
+   "Chào bán trái phiếu chuyển đổi ra công chúng cho nhà đầu tư",
+   "Chào bán cổ phiếu ra công chúng có tổ chức bảo lãnh phát hành",
+   "Chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu"
+  ],
+  "a": 3,
+  "e": "NĐ 245 sửa điểm b khoản 2 Điều 12 (và khoản 6 Điều 21, điểm b khoản 2 Điều 22): tỷ lệ chào bán thành công tối thiểu 70% cho mục đích dự án, trừ trường hợp chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu.",
+  "basis": "Điểm b khoản 2 Điều 12 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 7 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "tối thiểu là 70% tổng số cổ phiếu dự kiến chào bán để thực hiện các dự án (trừ trường hợp chào bán cho các cổ đông hiện hữu theo tỷ lệ sở hữu)",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-008",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán chứng khoán ra công chúng",
+  "level": 1,
+  "q": "Trong thời hạn bao lâu kể từ ngày Giấy chứng nhận đăng ký chào bán chứng khoán ra công chúng có hiệu lực, tổ chức phát hành phải công bố Bản thông báo phát hành?",
+  "o": [
+   "05 ngày làm việc",
+   "07 ngày làm việc",
+   "10 ngày",
+   "15 ngày"
+  ],
+  "a": 1,
+  "e": "Khoản 5 Điều 41 (sửa đổi bởi NĐ 245): trong 07 ngày làm việc kể từ ngày Giấy chứng nhận có hiệu lực, phải công bố Bản thông báo phát hành trên 01 tờ báo điện tử hoặc báo in trong 03 số liên tiếp và trên trang thông tin điện tử của tổ chức phát hành, SGDCK.",
+  "basis": "Khoản 5 Điều 41 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm b khoản 19 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Trong thời hạn 07 ngày làm việc kể từ ngày Giấy chứng nhận đăng ký chào bán chứng khoán ra công chúng có hiệu lực, tổ chức phát hành, cổ đông đăng ký chào bán phải công bố Bản thông báo phát hành trên 01 tờ báo điện tử hoặc báo in trong 03 số liên tiếp",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-009",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán chứng khoán ra công chúng",
+  "level": 2,
+  "q": "Số cổ phiếu mà cổ đông hiện hữu không đăng ký mua trong đợt chào bán ra công chúng, được phân phối tiếp cho một số nhà đầu tư xác định, bị hạn chế chuyển nhượng như thế nào?",
+  "o": [
+   "Tối thiểu 01 năm kể từ ngày kết thúc đợt chào bán",
+   "Tối thiểu 06 tháng kể từ ngày kết thúc đợt chào bán",
+   "Tối thiểu 03 năm kể từ ngày kết thúc đợt chào bán",
+   "Tối thiểu 01 năm kể từ ngày được cấp Giấy chứng nhận chào bán"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 42: số cổ phiếu không được đăng ký mua, không nộp tiền mua phân phối cho nhà đầu tư xác định bị hạn chế chuyển nhượng tối thiểu 01 năm kể từ ngày kết thúc đợt chào bán (không áp dụng với cổ phiếu tổ chức bảo lãnh mua theo cam kết và cổ phiếu lẻ).",
+  "basis": "Khoản 2 Điều 42 Nghị định 155/2020/NĐ-CP",
+  "quote": "Số cổ phiếu này bị hạn chế chuyển nhượng trong thời hạn tối thiểu 01 năm kể từ ngày kết thúc đợt chào bán.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-010",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán chứng khoán ra công chúng",
+  "level": 3,
+  "q": "Công ty đại chúng Z (vốn điều lệ 500 tỷ đồng) chào bán thêm cổ phiếu cho cổ đông hiện hữu. Số cổ phiếu cổ đông không đăng ký mua có tổng mệnh giá 60 tỷ đồng; HĐQT dự kiến phân phối toàn bộ cho một nhà đầu tư tổ chức (cùng người có liên quan chưa sở hữu cổ phiếu Z). Việc phân phối này:",
+  "o": [
+   "Phải được Đại hội đồng cổ đông thông qua vì đạt từ 10% vốn điều lệ trở lên",
+   "Do HĐQT quyết định vì nhà đầu tư chưa phải là cổ đông lớn",
+   "Chỉ cần báo cáo UBCKNN trước khi thực hiện phân phối",
+   "Phải được Ban kiểm soát chấp thuận bằng văn bản"
+  ],
+  "a": 0,
+  "e": "60/500 = 12% vốn điều lệ ≥ 10% → theo điểm b khoản 3 Điều 42, việc phân phối cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên (một đợt hoặc trong 12 tháng) phải được ĐHĐCĐ thông qua.",
+  "basis": "Điểm b khoản 3 Điều 42 Nghị định 155/2020/NĐ-CP",
+  "quote": "Chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-011",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán riêng lẻ & phát hành khác",
+  "level": 3,
+  "q": "Công ty đại chúng A kết thúc đợt chào bán cổ phiếu riêng lẻ ngày 15/3/2026. A dự kiến phát hành cổ phiếu để hoán đổi nợ. Theo Nghị định 155/2020/NĐ-CP, đợt phát hành hoán đổi nợ phải đáp ứng yêu cầu nào về thời gian?",
+  "o": [
+   "Cách đợt chào bán riêng lẻ trước ít nhất 03 tháng kể từ ngày 15/3/2026",
+   "Cách đợt chào bán riêng lẻ trước ít nhất 12 tháng kể từ ngày 15/3/2026",
+   "Cách đợt chào bán riêng lẻ trước ít nhất 06 tháng kể từ ngày 15/3/2026",
+   "Không bị giới hạn vì hoán đổi nợ khác loại với chào bán cổ phiếu"
+  ],
+  "a": 2,
+  "e": "Khoản 7 Điều 48: các đợt chào bán, phát hành riêng lẻ (bao gồm cả phát hành cổ phiếu để hoán đổi nợ) phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất.",
+  "basis": "Khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP",
+  "quote": "Khoảng cách giữa các đợt chào bán, phát hành chứng khoán riêng lẻ sau phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-012",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán riêng lẻ & phát hành khác",
+  "level": 2,
+  "q": "Công ty đại chúng chào bán cổ phiếu riêng lẻ với giá thấp hơn mệnh giá phải đáp ứng điều kiện nào về đối tượng mua và hạn chế chuyển nhượng?",
+  "o": [
+   "Nhà đầu tư chứng khoán chuyên nghiệp; hạn chế chuyển nhượng 01 năm",
+   "Chỉ nhà đầu tư chiến lược; hạn chế chuyển nhượng tối thiểu 01 năm",
+   "Chỉ nhà đầu tư chiến lược; hạn chế chuyển nhượng tối thiểu 03 năm",
+   "Mọi nhà đầu tư; hạn chế chuyển nhượng tối thiểu 03 năm"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 44: đối tượng tham gia chỉ gồm nhà đầu tư chiến lược và cổ phiếu bị hạn chế chuyển nhượng tối thiểu 03 năm kể từ ngày kết thúc đợt chào bán (trừ theo bản án, quyết định của Tòa án, Trọng tài hoặc thừa kế).",
+  "basis": "Khoản 1 Điều 44 Nghị định 155/2020/NĐ-CP",
+  "quote": "Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chiến lược và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 03 năm kể từ ngày kết thúc đợt chào bán",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-013",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào bán riêng lẻ & phát hành khác",
+  "level": 3,
+  "q": "Công ty đại chúng B có 80 triệu cổ phiếu đang lưu hành và chưa phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) trong 12 tháng qua. Số cổ phiếu ESOP tối đa B được phát hành trong 12 tháng tới là:",
+  "o": [
+   "800.000 cổ phiếu",
+   "8.000.000 cổ phiếu",
+   "4.000.000 cổ phiếu",
+   "12.000.000 cổ phiếu"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 64: tổng số cổ phiếu phát hành theo chương trình ESOP trong mỗi 12 tháng không vượt quá 5% số cổ phiếu đang lưu hành: 5% × 80.000.000 = 4.000.000 cổ phiếu.",
+  "basis": "Khoản 2 Điều 64 Nghị định 155/2020/NĐ-CP",
+  "quote": "Tổng số cổ phiếu phát hành theo chương trình trong mỗi 12 tháng không được vượt quá 5% số cổ phiếu đang lưu hành của công ty.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-014",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào mua công khai",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), trong thời hạn bao lâu kể từ ngày nhận được hồ sơ hợp lệ, UBCKNN phải thông báo bằng văn bản về việc đã nhận đầy đủ hồ sơ đăng ký chào mua công khai?",
+  "o": [
+   "15 ngày",
+   "05 ngày làm việc",
+   "30 ngày",
+   "07 ngày làm việc"
+  ],
+  "a": 3,
+  "e": "NĐ 245 sửa khoản 3 Điều 86, rút ngắn thời hạn từ 15 ngày (quy định cũ) xuống 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+  "basis": "Khoản 3 Điều 86 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 32 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ủy ban Chứng khoán Nhà nước thông báo bằng văn bản cho tổ chức, cá nhân chào",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-015",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào mua công khai",
+  "level": 1,
+  "q": "Thời gian thực hiện 01 đợt chào mua công khai theo Nghị định 155/2020/NĐ-CP là:",
+  "o": [
+   "Tối thiểu 15 ngày giao dịch, tối đa 30 ngày giao dịch",
+   "Tối thiểu 20 ngày giao dịch, tối đa 45 ngày giao dịch",
+   "Tối thiểu 30 ngày giao dịch, tối đa 90 ngày giao dịch",
+   "Tối thiểu 30 ngày giao dịch, tối đa 60 ngày giao dịch"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 93: thời gian thực hiện 01 đợt chào mua công khai tối thiểu là 30 ngày giao dịch và tối đa là 60 ngày giao dịch kể từ ngày bắt đầu nhận đăng ký bán, đăng ký hoán đổi.",
+  "basis": "Khoản 2 Điều 93 Nghị định 155/2020/NĐ-CP",
+  "quote": "Thời gian thực hiện 01 đợt chào mua công khai tối thiểu là 30 ngày giao dịch và tối đa là 60 ngày giao dịch kể từ ngày bắt đầu nhận đăng ký bán, đăng ký hoán đổi",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-016",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào mua công khai",
+  "level": 2,
+  "q": "Đối với chào mua công khai thanh toán bằng tiền, giá chào mua không được thấp hơn mức nào sau đây?",
+  "o": [
+   "Bình quân giá tham chiếu 30 ngày giao dịch liền trước ngày công bố thông tin",
+   "Giá đóng cửa của ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua",
+   "Giá trị sổ sách một cổ phiếu theo báo cáo tài chính kiểm toán gần nhất",
+   "Bình quân giá tham chiếu 60 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 1 Điều 91: giá chào mua không thấp hơn bình quân giá tham chiếu của 60 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua công khai và không thấp hơn giá mua cao nhất của các đợt chào mua công khai trong thời gian này.",
+  "basis": "Điểm a khoản 1 Điều 91 Nghị định 155/2020/NĐ-CP",
+  "quote": "Giá chào mua không được thấp hơn bình quân giá tham chiếu của 60 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua công khai",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-017",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chào mua công khai",
+  "level": 2,
+  "q": "Trong thời gian chào mua công khai cổ phiếu của công ty mục tiêu M (Bản công bố thông tin đã nêu các trường hợp rút lại theo quy định), sự kiện nào sau đây cho phép bên chào mua đề nghị rút lại việc chào mua?",
+  "o": [
+   "M bán tài sản trị giá 20% tổng giá trị tài sản theo BCTC kỳ gần nhất",
+   "Giá cổ phiếu M trên sàn giảm 25% so với giá chào mua đã công bố",
+   "M bán tài sản trị giá 40% tổng giá trị tài sản theo BCTC kỳ gần nhất",
+   "Bên chào mua thay đổi chiến lược đầu tư sau khi đã công bố thông tin"
+  ],
+  "a": 2,
+  "e": "Điểm đ khoản 1 Điều 92: được đề nghị rút lại khi công ty mục tiêu bán tài sản có giá trị từ 35% tổng giá trị tài sản (BCTC kỳ gần nhất). 40% ≥ 35% nên được rút; 20% chưa đạt ngưỡng; biến động giá hay thay đổi ý định không phải căn cứ rút lại.",
+  "basis": "Điểm đ khoản 1 Điều 92 Nghị định 155/2020/NĐ-CP",
+  "quote": "Công ty mục tiêu bán tài sản của công ty có giá trị từ 35% tổng giá trị tài sản căn cứ trên báo cáo tài chính kỳ gần nhất.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-018",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 1,
+  "q": "Điều kiện về vốn để niêm yết cổ phiếu trên Sở giao dịch chứng khoán theo Nghị định 155/2020/NĐ-CP là:",
+  "o": [
+   "Vốn điều lệ đã góp từ 10 tỷ đồng, giá trị vốn hóa tối thiểu 30 tỷ đồng",
+   "Vốn điều lệ đã góp từ 30 tỷ đồng, giá trị vốn hóa tối thiểu 100 tỷ đồng",
+   "Vốn điều lệ đã góp từ 120 tỷ đồng, giá trị vốn hóa tối thiểu 120 tỷ đồng",
+   "Vốn điều lệ đã góp từ 30 tỷ đồng, giá trị vốn hóa tối thiểu 30 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 1 Điều 109 (không bị NĐ 245 sửa đổi): công ty cổ phần có vốn điều lệ đã góp tại thời điểm đăng ký niêm yết từ 30 tỷ đồng trở lên, đồng thời giá trị vốn hóa đạt tối thiểu 30 tỷ đồng.",
+  "basis": "Điểm a khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP",
+  "quote": "Là công ty cổ phần có vốn điều lệ đã góp tại thời điểm đăng ký niêm yết từ 30 tỷ đồng trở lên căn cứ trên báo cáo tài chính gần nhất được kiểm toán, đồng thời giá trị vốn hóa đạt tối thiểu 30 tỷ đồng",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-019",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 2,
+  "q": "Theo điểm c khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), nội dung nào sau đây KHÔNG còn là điều kiện niêm yết cổ phiếu?",
+  "o": [
+   "ROE năm liền trước năm đăng ký niêm yết tối thiểu là 5%",
+   "Hoạt động kinh doanh của 02 năm liền trước năm đăng ký niêm yết phải có lãi",
+   "Không có lỗ lũy kế căn cứ trên BCTC năm gần nhất được kiểm toán",
+   "Không có khoản nợ phải trả quá hạn trên 01 năm tính đến thời điểm đăng ký niêm yết"
+  ],
+  "a": 3,
+  "e": "NĐ 245 viết lại điểm c khoản 1 Điều 109: giữ ROE ≥ 5%, có lãi 02 năm liền trước và không có lỗ lũy kế; điều kiện \"không có các khoản nợ phải trả quá hạn trên 01 năm\" của NĐ 155 gốc đã bị loại bỏ.",
+  "basis": "Điểm c khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm a khoản 36 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "năm đăng ký niêm yết phải có lãi; không có lỗ lũy kế căn cứ trên báo cáo tài chính năm gần nhất được kiểm toán",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-020",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 3,
+  "q": "Công ty cổ phần C (không phải doanh nghiệp cổ phần hóa) có vốn điều lệ 1.200 tỷ đồng, tương ứng 120 triệu cổ phiếu có quyền biểu quyết, đăng ký niêm yết. Yêu cầu tối thiểu về cơ cấu cổ đông là:",
+  "o": [
+   "18 triệu cổ phiếu do ít nhất 100 cổ đông không phải cổ đông lớn nắm giữ",
+   "12 triệu cổ phiếu do ít nhất 300 cổ đông không phải cổ đông lớn nắm giữ",
+   "12 triệu cổ phiếu do ít nhất 100 cổ đông không phải cổ đông lớn nắm giữ",
+   "6 triệu cổ phiếu do ít nhất 100 cổ đông không phải cổ đông lớn nắm giữ"
+  ],
+  "a": 2,
+  "e": "Điểm d khoản 1 Điều 109: tối thiểu 15% cổ phiếu có quyền biểu quyết do ít nhất 100 cổ đông không phải cổ đông lớn nắm giữ; nếu vốn điều lệ từ 1.000 tỷ đồng trở lên thì tỷ lệ tối thiểu là 10%. 10% × 120 triệu = 12 triệu cổ phiếu (18 triệu là lỗi áp 15%).",
+  "basis": "Điểm d khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP",
+  "quote": "trường hợp vốn điều lệ của tổ chức đăng ký niêm yết từ 1.000 tỷ đồng trở lên, tỷ lệ tối thiểu là 10% số cổ phiếu có quyền biểu quyết",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-021",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 2,
+  "q": "Khi niêm yết cổ phiếu, cổ đông là Chủ tịch HĐQT, thành viên HĐQT, Tổng giám đốc, Kế toán trưởng... của tổ chức đăng ký niêm yết phải cam kết nắm giữ cổ phiếu như thế nào?",
+  "o": [
+   "50% trong 06 tháng kể từ ngày giao dịch đầu tiên và 25% trong 06 tháng tiếp theo",
+   "100% trong 12 tháng kể từ ngày Sở giao dịch chứng khoán chấp thuận niêm yết",
+   "100% trong 06 tháng kể từ ngày giao dịch đầu tiên và 50% trong 06 tháng tiếp theo",
+   "100% trong 03 tháng kể từ ngày giao dịch đầu tiên và 50% trong 03 tháng tiếp theo"
+  ],
+  "a": 2,
+  "e": "Điểm đ khoản 1 Điều 109: cam kết tiếp tục nắm giữ 100% số cổ phiếu sở hữu trong 06 tháng kể từ ngày giao dịch đầu tiên và 50% số cổ phiếu này trong 06 tháng tiếp theo (không tính cổ phiếu sở hữu nhà nước do các cá nhân này đại diện).",
+  "basis": "Điểm đ khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP",
+  "quote": "phải cam kết tiếp tục nắm giữ 100% số cổ phiếu do mình sở hữu trong thời gian 06 tháng kể từ ngày giao dịch đầu tiên của cổ phiếu trên Sở giao dịch chứng khoán và 50% số cổ phiếu này trong thời gian 06 tháng tiếp theo",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-022",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), cổ phiếu bị hủy niêm yết bắt buộc nếu không được đưa vào giao dịch trong thời hạn bao lâu kể từ ngày SGDCK chấp thuận đăng ký niêm yết?",
+  "o": [
+   "90 ngày",
+   "30 ngày",
+   "60 ngày",
+   "12 tháng"
+  ],
+  "a": 1,
+  "e": "NĐ 245 sửa điểm đ khoản 1 Điều 120: rút ngắn từ 90 ngày (quy định cũ) xuống 30 ngày kể từ ngày SGDCK chấp thuận đăng ký niêm yết.",
+  "basis": "Điểm đ khoản 1 Điều 120 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm a khoản 47 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Cổ phiếu không đưa vào giao dịch trong thời hạn 30 ngày kể từ ngày Sở giao dịch chứng khoán chấp thuận đăng ký niêm yết",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-023",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 3,
+  "q": "Công ty niêm yết D có kết quả kinh doanh theo BCTC năm được kiểm toán: năm 2023 lỗ, 2024 lỗ, 2025 lỗ; vốn chủ sở hữu vẫn dương và lỗ lũy kế nhỏ hơn vốn điều lệ thực góp. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), cổ phiếu của D:",
+  "o": [
+   "Chỉ bị hủy niêm yết khi lỗ lũy kế vượt vốn điều lệ thực góp",
+   "Chỉ bị đưa vào diện cảnh báo, chưa thuộc diện hủy niêm yết",
+   "Thuộc diện hủy bỏ niêm yết bắt buộc do thua lỗ 03 năm liên tục",
+   "Chỉ bị hủy niêm yết khi vốn chủ sở hữu trở thành số âm"
+  ],
+  "a": 2,
+  "e": "Điểm e khoản 1 Điều 120 (sửa đổi): thua lỗ trên BCTC năm được kiểm toán trong 03 năm liên tục gần nhất HOẶC lỗ lũy kế vượt vốn điều lệ thực góp HOẶC VCSH âm – chỉ cần một trong các trường hợp (trừ trường hợp Thủ tướng quyết định không áp dụng theo khoản 7 Điều 120).",
+  "basis": "Điểm e khoản 1 Điều 120 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm a khoản 47 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Hoạt động kinh doanh bị thua lỗ trên báo cáo tài chính năm được kiểm toán trong 03 năm liên tục gần nhất hoặc tổng số lỗ lũy kế vượt quá số vốn điều lệ thực góp hoặc vốn chủ sở hữu âm",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-024",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 2,
+  "q": "Cổ phiếu của công ty đại chúng thuộc diện hủy bỏ niêm yết bắt buộc (trừ các trường hợp như bị thu hồi giấy phép, không có giao dịch 12 tháng...) được tiếp tục giao dịch tối đa bao lâu kể từ ngày ra quyết định hủy niêm yết?",
+  "o": [
+   "30 ngày",
+   "15 ngày",
+   "45 ngày",
+   "60 ngày"
+  ],
+  "a": 0,
+  "e": "Khoản 4 Điều 120 (sửa đổi bởi NĐ 245): được tiếp tục giao dịch tối đa 30 ngày kể từ ngày ra quyết định hủy niêm yết, trừ trường hợp hủy theo điểm c, d, đ, l khoản 1 và điểm c, d, đ, e khoản 3 Điều 120.",
+  "basis": "Khoản 4 Điều 120 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm c khoản 47 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "diện hủy bỏ niêm yết bắt buộc được tiếp tục giao dịch trong thời hạn tối đa 30 ngày kể từ ngày ra quyết định hủy niêm yết",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-025",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Niêm yết & hủy niêm yết",
+  "level": 2,
+  "q": "Điều kiện để tổ chức niêm yết được hủy bỏ niêm yết cổ phiếu tự nguyện là:",
+  "o": [
+   "Từ 65% phiếu của cổ đông dự họp tán thành; sau tối thiểu 01 năm niêm yết",
+   "Trên 50% phiếu của tất cả cổ đông tán thành; sau tối thiểu 01 năm niêm yết",
+   "Trên 50% phiếu của cổ đông không phải cổ đông lớn tán thành; sau tối thiểu 02 năm niêm yết",
+   "Hội đồng quản trị thông qua; sau tối thiểu 02 năm kể từ ngày niêm yết"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 121: quyết định hủy niêm yết tự nguyện phải được ĐHĐCĐ thông qua, trong đó trên 50% số phiếu biểu quyết của cổ đông không phải là cổ đông lớn tán thành; chỉ thực hiện sau tối thiểu 02 năm kể từ ngày có Quyết định chấp thuận niêm yết.",
+  "basis": "Khoản 1 Điều 121 Nghị định 155/2020/NĐ-CP",
+  "quote": "trong đó phải được trên 50% số phiếu biểu quyết của các cổ đông không phải là cổ đông lớn thông qua",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-026",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Sở hữu nước ngoài",
+  "level": 2,
+  "q": "Công ty đại chúng hoạt động trong ngành, nghề tiếp cận thị trường có điều kiện đối với nhà đầu tư nước ngoài nhưng danh mục không quy định cụ thể tỷ lệ sở hữu. Tỷ lệ sở hữu nước ngoài tối đa tại công ty là:",
+  "o": [
+   "50% vốn điều lệ",
+   "49% vốn điều lệ",
+   "30% vốn điều lệ",
+   "Không hạn chế"
+  ],
+  "a": 0,
+  "e": "Điểm c khoản 1 Điều 139 (không bị NĐ 245 sửa đổi): trường hợp danh mục không quy định cụ thể tỷ lệ sở hữu của nhà đầu tư nước ngoài thì tỷ lệ sở hữu nước ngoài tối đa là 50% vốn điều lệ.",
+  "basis": "Điểm c khoản 1 Điều 139 Nghị định 155/2020/NĐ-CP",
+  "quote": "thì tỷ lệ sở hữu nước ngoài tối đa tại công ty là 50% vốn điều lệ",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-027",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Sở hữu nước ngoài",
+  "level": 3,
+  "q": "Công ty đại chúng F hoạt động trong 3 ngành: ngành A có tỷ lệ sở hữu nước ngoài tối đa 49% theo pháp luật chuyên ngành; ngành B tiếp cận thị trường có điều kiện, không quy định cụ thể tỷ lệ; ngành C không hạn chế. Tỷ lệ sở hữu nước ngoài tối đa tại F là:",
+  "o": [
+   "50%",
+   "49%",
+   "100%",
+   "Bình quân gia quyền theo doanh thu từng ngành"
+  ],
+  "a": 1,
+  "e": "Điểm đ khoản 1 Điều 139: công ty đa ngành có quy định khác nhau thì tỷ lệ sở hữu nước ngoài không vượt quá mức thấp nhất trong các ngành có quy định. Ngành A 49%, ngành B 50% (điểm c) → mức thấp nhất 49%.",
+  "basis": "Điểm đ khoản 1 Điều 139 Nghị định 155/2020/NĐ-CP",
+  "quote": "Trường hợp công ty đại chúng hoạt động đa ngành, nghề, có quy định khác nhau về tỷ lệ sở hữu nước ngoài, tỷ lệ sở hữu nước ngoài không vượt quá mức thấp nhất trong các ngành, nghề có quy định về tỷ lệ sở hữu nước ngoài",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-028",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Sở hữu nước ngoài",
+  "level": 2,
+  "q": "Công ty đại chúng G trước đây đã thông báo tỷ lệ sở hữu nước ngoài tối đa 30% (thấp hơn mức 50% theo quy định) căn cứ điểm e khoản 1 Điều 139 NĐ 155. Sau khi Nghị định 245/2025/NĐ-CP bãi bỏ điểm e, G muốn thay đổi tỷ lệ này theo Nghị quyết ĐHĐCĐ. Tỷ lệ mới phải đáp ứng yêu cầu nào?",
+  "o": [
+   "Cao hơn 30% và không vượt quá 50%",
+   "Bất kỳ mức nào từ 0% đến 50%",
+   "Giữ nguyên 30% đến hết 12 tháng kể từ ngày NĐ 245 có hiệu lực",
+   "Bằng đúng 50% theo mức tối đa luật định"
+  ],
+  "a": 0,
+  "e": "NĐ 245 bãi bỏ điểm e khoản 1 Điều 139 (công ty tự quyết định FOL thấp hơn). Theo điểm b khoản 4 Điều 3 NĐ 245 (chuyển tiếp), công ty đã thông báo FOL được thay đổi theo Nghị quyết ĐHĐCĐ nhưng phải cao hơn tỷ lệ đã thông báo gần nhất và không vượt quá tỷ lệ tại các điểm a–đ khoản 1 Điều 139.",
+  "basis": "Điểm b khoản 4 Điều 3 và khoản 5 Điều 2 Nghị định 245/2025/NĐ-CP",
+  "quote": "phải đảm bảo cao hơn tỷ lệ sở hữu nước ngoài tối đa đã thông báo tại thời điểm gần nhất và không vượt quá tỷ lệ quy định tại các điểm a, b, c, d, đ khoản 1 Điều 139",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-029",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Vốn điều lệ CTCK",
+  "level": 1,
+  "q": "Vốn điều lệ tối thiểu cho nghiệp vụ môi giới chứng khoán của công ty chứng khoán tại Việt Nam là:",
+  "o": [
+   "25 tỷ đồng",
+   "10 tỷ đồng",
+   "50 tỷ đồng",
+   "165 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 175 (không bị NĐ 245 sửa đổi): môi giới 25 tỷ; tự doanh 50 tỷ; bảo lãnh phát hành 165 tỷ; tư vấn đầu tư 10 tỷ đồng.",
+  "basis": "Điểm a khoản 1 Điều 175 Nghị định 155/2020/NĐ-CP",
+  "quote": "a) Môi giới chứng khoán: 25 tỷ đồng; b) Tự doanh chứng khoán: 50 tỷ đồng;",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-030",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Vốn điều lệ CTCK",
+  "level": 3,
+  "q": "Một tổ chức đề nghị cấp Giấy phép thành lập và hoạt động công ty chứng khoán với ba nghiệp vụ: môi giới, tự doanh và tư vấn đầu tư chứng khoán. Vốn điều lệ tối thiểu là:",
+  "o": [
+   "50 tỷ đồng",
+   "85 tỷ đồng",
+   "75 tỷ đồng",
+   "250 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Khoản 4 Điều 175: đề nghị nhiều nghiệp vụ thì vốn điều lệ tối thiểu là tổng vốn của từng nghiệp vụ: 25 + 50 + 10 = 85 tỷ đồng. (75 tỷ là quên tư vấn; 250 tỷ là đủ 4 nghiệp vụ gồm cả bảo lãnh 165 tỷ.)",
+  "basis": "Khoản 1, khoản 4 Điều 175 Nghị định 155/2020/NĐ-CP",
+  "quote": "Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-031",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Vốn điều lệ CTCK",
+  "level": 1,
+  "q": "Vốn điều lệ tối thiểu của công ty quản lý quỹ đầu tư chứng khoán theo Nghị định 155/2020/NĐ-CP là:",
+  "o": [
+   "10 tỷ đồng",
+   "50 tỷ đồng",
+   "100 tỷ đồng",
+   "25 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Khoản 3 Điều 175: vốn điều lệ tối thiểu của công ty quản lý quỹ, vốn tối thiểu cấp cho chi nhánh công ty quản lý quỹ nước ngoài tại Việt Nam là 25 tỷ đồng.",
+  "basis": "Khoản 3 Điều 175 Nghị định 155/2020/NĐ-CP",
+  "quote": "Vốn điều lệ tối thiểu của công ty quản lý quỹ, vốn tối thiểu cấp cho chi nhánh công ty quản lý quỹ nước ngoài tại Việt Nam là 25 tỷ đồng.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-032",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Tổ chức & hoạt động CTCK",
+  "level": 2,
+  "q": "Công ty chứng khoán thực hiện giảm vốn điều lệ phải đáp ứng điều kiện nào sau đây?",
+  "o": [
+   "Tỷ lệ vốn khả dụng sau giảm vốn tối thiểu 150%; các đợt giảm vốn cách nhau tối thiểu 06 tháng",
+   "Tỷ lệ vốn khả dụng sau giảm vốn tối thiểu 220%; các đợt giảm vốn cách nhau tối thiểu 12 tháng",
+   "Tỷ lệ vốn khả dụng sau giảm vốn tối thiểu 180%; các đợt giảm vốn cách nhau tối thiểu 12 tháng",
+   "Tỷ lệ vốn khả dụng sau giảm vốn tối thiểu 180%; các đợt giảm vốn cách nhau tối thiểu 06 tháng"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 188: VCSH sau giảm không thấp hơn mức vốn tại Điều 175; tỷ lệ vốn khả dụng sau giảm tối thiểu 180%; các đợt giảm vốn cách nhau tối thiểu 12 tháng; đáp ứng điều kiện mua lại cổ phiếu và tỷ lệ sở hữu nước ngoài.",
+  "basis": "Điểm b, c khoản 1 Điều 188 Nghị định 155/2020/NĐ-CP",
+  "quote": "Tỷ lệ vốn khả dụng sau khi giảm vốn đạt tối thiểu là 180%; c) Các đợt giảm vốn phải cách nhau tối thiểu 12 tháng;",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-033",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Tổ chức & hoạt động CTCK",
+  "level": 2,
+  "q": "Điều kiện về nhân sự khi công ty chứng khoán thành lập chi nhánh trong nước là:",
+  "o": [
+   "Giám đốc chi nhánh có CCHN phù hợp; tối thiểu 05 nhân viên có CCHN cho mỗi nghiệp vụ",
+   "Giám đốc chi nhánh có CCHN phù hợp; tối thiểu 02 nhân viên có CCHN cho mỗi nghiệp vụ",
+   "Chỉ yêu cầu Giám đốc chi nhánh có CCHN, không quy định số nhân viên",
+   "Giám đốc chi nhánh có CCHN phù hợp; tối thiểu 03 nhân viên có CCHN cho cả chi nhánh"
+  ],
+  "a": 1,
+  "e": "Điểm đ khoản 2 Điều 190: Giám đốc chi nhánh có CCHN phù hợp với nghiệp vụ của chi nhánh và đáp ứng tiêu chuẩn tại Luật CK; có tối thiểu 02 nhân viên có CCHN phù hợp với mỗi nghiệp vụ kinh doanh của chi nhánh.",
+  "basis": "Điểm đ khoản 2 Điều 190 Nghị định 155/2020/NĐ-CP",
+  "quote": "Có tối thiểu 02 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp với mỗi nghiệp vụ kinh doanh của chi nhánh.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-034",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Tổ chức & hoạt động CTCK",
+  "level": 2,
+  "q": "Để được cung cấp dịch vụ cho vay chứng khoán, công ty chứng khoán phải đáp ứng điều kiện nào về tỷ lệ vốn khả dụng?",
+  "o": [
+   "Tối thiểu 220% liên tục trong 06 tháng gần nhất",
+   "Tối thiểu 180% liên tục trong 06 tháng gần nhất",
+   "Tối thiểu 220% liên tục trong 12 tháng gần nhất",
+   "Tối thiểu 260% liên tục trong 12 tháng gần nhất"
+  ],
+  "a": 0,
+  "e": "Điểm d khoản 1 Điều 199: tỷ lệ vốn khả dụng đạt tối thiểu 220% liên tục trong 06 tháng gần nhất tính đến thời điểm đăng ký; ngoài ra phải được cấp phép môi giới và có hệ thống, quy trình phù hợp.",
+  "basis": "Điểm d khoản 1 Điều 199 Nghị định 155/2020/NĐ-CP",
+  "quote": "Tỷ lệ vốn khả dụng đạt tối thiểu 220% liên tục trong 06 tháng gần nhất tính đến thời điểm đăng ký cung cấp dịch vụ cho vay chứng khoán.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-035",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng quyền có bảo đảm",
+  "level": 2,
+  "q": "Theo Điều 202a Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), tổ chức phát hành chứng quyền có bảo đảm phải là:",
+  "o": [
+   "CTCK được cấp phép môi giới; vốn điều lệ và VCSH tối thiểu 1.000 tỷ đồng",
+   "CTCK được cấp phép tự doanh; vốn điều lệ và VCSH tối thiểu 800 tỷ đồng",
+   "CTCK được cấp phép bảo lãnh phát hành; VCSH tối thiểu 500 tỷ đồng",
+   "CTCK được cấp phép tự doanh; vốn điều lệ và VCSH tối thiểu 1.000 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 1 Điều 202a: CTCK được cấp phép nghiệp vụ tự doanh; vốn điều lệ và vốn chủ sở hữu tối thiểu 1.000 tỷ đồng theo BCTC năm gần nhất được kiểm toán; không đang bị tạm ngừng, đình chỉ hoạt động.",
+  "basis": "Điểm a khoản 1 Điều 202a Nghị định 155/2020/NĐ-CP (bổ sung bởi khoản 72 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Tổ chức phát hành là công ty chứng khoán được cấp phép nghiệp vụ tự doanh chứng khoán; có vốn điều lệ và vốn chủ sở hữu tối thiểu 1.000 tỷ đồng theo báo cáo tài chính năm gần nhất được kiểm toán",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-036",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng quyền có bảo đảm",
+  "level": 2,
+  "q": "CTCK H đã phát hành 10 triệu chứng quyền có bảo đảm mã CW1; hiện có 7,5 triệu chứng quyền đang lưu hành, còn 45 ngày đến ngày đáo hạn. Theo Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), H:",
+  "o": [
+   "Được chào bán bổ sung vì thời gian còn lại đến đáo hạn lớn hơn 30 ngày",
+   "Được chào bán bổ sung vì số đang lưu hành đã vượt quá 50% số đã phát hành",
+   "Không được chào bán bổ sung vì thời gian còn lại đến đáo hạn dưới 60 ngày",
+   "Chưa được chào bán bổ sung vì số lưu hành chưa vượt quá 80% số đã phát hành"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 202a: chỉ được chào bán bổ sung khi đồng thời (i) số chứng quyền đang lưu hành vượt quá 80% số đã phát hành và (ii) thời gian còn lại đến đáo hạn lớn hơn 30 ngày. 7,5/10 = 75% < 80% nên chưa đủ điều kiện.",
+  "basis": "Khoản 2 Điều 202a Nghị định 155/2020/NĐ-CP (bổ sung bởi khoản 72 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Tổ chức phát hành chỉ được thực hiện chào bán bổ sung khi số lượng chứng quyền có bảo đảm đang lưu hành vượt quá 80% số lượng chứng quyền có bảo đảm đó đã phát hành và thời gian còn lại của chứng quyền có bảo đảm đến ngày đáo hạn lớn hơn 30 ngày.",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-037",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng chỉ hành nghề chứng khoán",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), UBCKNN ra quyết định cấp chứng chỉ hành nghề chứng khoán cho người thi đạt trong thời hạn nào?",
+  "o": [
+   "07 ngày làm việc kể từ ngày UBCKNN nhận đủ hồ sơ đề nghị cấp hợp lệ",
+   "15 ngày kể từ ngày kết thúc đợt thi sát hạch cấp chứng chỉ hành nghề",
+   "60 ngày kể từ ngày kết quả thi được thông báo trên trang thông tin điện tử",
+   "30 ngày kể từ ngày kết quả thi được thông báo trên trang thông tin điện tử của UBCKNN"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 6 Điều 213 (sửa đổi bởi NĐ 245): trong 30 ngày kể từ ngày kết quả thi sát hạch được thông báo trên trang thông tin điện tử của UBCKNN, UBCKNN ra quyết định cấp CCHN (bản giấy hoặc điện tử) và thông báo nộp lệ phí. Mốc \"07 ngày làm việc từ khi nhận hồ sơ\" là quy định cũ.",
+  "basis": "Điểm a khoản 6 Điều 213 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm đ khoản 73 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Trong thời hạn 30 ngày kể từ ngày kết quả thi sát hạch cấp chứng chỉ hành nghề chứng khoán được thông báo trên trang thông tin điện tử của Ủy ban Chứng khoán Nhà nước, Ủy ban Chứng khoán Nhà nước ra quyết định cấp chứng chỉ hành nghề chứng khoán",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-038",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng chỉ hành nghề chứng khoán",
+  "level": 2,
+  "q": "Thí sinh K dự thi sát hạch cấp CCHN chứng khoán, đạt phần pháp luật nhưng chưa đạt phần chuyên môn; UBCKNN thông báo kết quả ngày 10/7/2026. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), K:",
+  "o": [
+   "Được thi lại riêng phần chuyên môn trong vòng 02 năm; quá hạn phải thi lại cả hai phần",
+   "Được thi lại riêng phần chuyên môn trong vòng 01 năm; quá hạn phải thi lại cả hai phần",
+   "Phải thi lại cả hai phần ở kỳ thi tiếp theo do kết quả chung chưa đạt",
+   "Được bảo lưu phần pháp luật không thời hạn, chỉ cần thi lại phần chuyên môn"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 6 Điều 213 (sửa đổi): kết quả chưa đạt một phần thì được thi lại phần chưa đạt trong vòng 01 năm kể từ ngày UBCKNN thông báo kết quả thi lần đầu (hoặc kỳ thi gần nhất liền sau); quá thời hạn phải thi lại cả hai phần. Khi đăng ký thi lại phải nộp hồ sơ dự thi và hồ sơ đề nghị cấp CCHN.",
+  "basis": "Điểm c khoản 6 Điều 213 Nghị định 155/2020/NĐ-CP (sửa đổi bởi điểm đ khoản 73 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "thí sinh được thi lại phần chưa đạt trong vòng 01 năm kể từ ngày Ủy ban Chứng khoán Nhà nước thông báo kết quả thi lần đầu",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-039",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng chỉ hành nghề chứng khoán",
+  "level": 2,
+  "q": "Người có chứng chỉ hành nghề phân tích tài chính KHÔNG được thực hiện nghiệp vụ nào sau đây?",
+  "o": [
+   "Tự doanh chứng khoán",
+   "Quản lý quỹ đầu tư chứng khoán",
+   "Bảo lãnh phát hành chứng khoán",
+   "Tư vấn đầu tư chứng khoán"
+  ],
+  "a": 1,
+  "e": "Điểm b khoản 2 Điều 216: CCHN phân tích tài chính được thực hiện môi giới, tư vấn đầu tư, tự doanh, bảo lãnh phát hành chứng khoán. Quản lý danh mục và quản lý quỹ chỉ dành cho người có CCHN quản lý quỹ (điểm c).",
+  "basis": "Điểm b khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP",
+  "quote": "Người có chứng chỉ hành nghề phân tích tài chính được thực hiện nghiệp vụ môi giới chứng khoán, tư vấn đầu tư chứng khoán, tự doanh chứng khoán, bảo lãnh phát hành chứng khoán",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-040",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng chỉ hành nghề chứng khoán",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), UBCKNN thông báo kết quả thi sát hạch cấp chứng chỉ hành nghề chứng khoán trong thời hạn nào?",
+  "o": [
+   "Trong vòng 07 ngày làm việc kể từ ngày kết thúc đợt thi",
+   "Trong vòng 20 ngày kể từ ngày kết thúc đợt thi",
+   "Trong vòng 15 ngày kể từ ngày kết thúc đợt thi",
+   "Trong vòng 30 ngày kể từ ngày kết thúc đợt thi"
+  ],
+  "a": 2,
+  "e": "Khoản 5a Điều 213 (bổ sung bởi NĐ 245): thi sát hạch gồm hai phần (pháp luật và chuyên môn); trong vòng 15 ngày kể từ ngày kết thúc đợt thi, UBCKNN thông báo kết quả trên trang thông tin điện tử.",
+  "basis": "Khoản 5a Điều 213 Nghị định 155/2020/NĐ-CP (bổ sung bởi điểm d khoản 73 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Trong vòng 15 ngày kể từ ngày kết thúc đợt thi sát hạch cấp chứng chỉ hành nghề chứng khoán, Ủy ban Chứng khoán Nhà nước thông báo trên trang thông tin điện tử",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-041",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), thành viên HĐQT của một công ty đại chúng được đồng thời là thành viên HĐQT ở bao nhiêu công ty khác?",
+  "o": [
+   "Tối đa 05 công ty khác, chỉ tính vị trí thành viên Hội đồng quản trị",
+   "Tối đa 03 công ty khác, tính cả vị trí thành viên Hội đồng thành viên",
+   "Không giới hạn nếu không phải là thành viên Hội đồng quản trị độc lập",
+   "Tối đa 05 công ty khác, tính cả vị trí thành viên Hội đồng thành viên"
+  ],
+  "a": 3,
+  "e": "NĐ 245 sửa khoản 3 Điều 275: chỉ được đồng thời là thành viên HĐQT hoặc Hội đồng thành viên tại tối đa 05 công ty khác (bản gốc chỉ tính HĐQT).",
+  "basis": "Khoản 3 Điều 275 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 78 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Thành viên Hội đồng quản trị của một công ty đại chúng chỉ được đồng thời là thành viên Hội đồng quản trị hoặc Hội đồng thành viên tại tối đa 05 công ty khác.",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-042",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 3,
+  "q": "Công ty niêm yết L có Hội đồng quản trị gồm 7 thành viên. Theo Nghị định 155/2020/NĐ-CP, số thành viên HĐQT độc lập tối thiểu của L là:",
+  "o": [
+   "01 thành viên",
+   "03 thành viên",
+   "04 thành viên",
+   "02 thành viên"
+  ],
+  "a": 3,
+  "e": "Khoản 4 Điều 276: công ty niêm yết có HĐQT 03–05 thành viên cần tối thiểu 01 thành viên độc lập; 06–08 thành viên cần tối thiểu 02; 09–11 thành viên cần tối thiểu 03. HĐQT 7 thành viên → tối thiểu 02.",
+  "basis": "Điểm b khoản 4 Điều 276 Nghị định 155/2020/NĐ-CP",
+  "quote": "Có tối thiểu 02 thành viên độc lập trong trường hợp công ty có số thành viên Hội đồng quản trị từ 06 đến 08 thành viên;",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-043",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), công ty đại chúng có HĐQT từ 09 đến 11 thành viên phải có tối thiểu bao nhiêu thành viên HĐQT không điều hành?",
+  "o": [
+   "Tối thiểu một phần ba tổng số thành viên HĐQT",
+   "Tối thiểu 02 thành viên không điều hành",
+   "Tối thiểu một nửa tổng số thành viên HĐQT",
+   "Tối thiểu 03 thành viên không điều hành"
+  ],
+  "a": 3,
+  "e": "NĐ 245 sửa khoản 2 Điều 276, thay quy định cũ \"tối thiểu 1/3 tổng số thành viên\" bằng số tối thiểu theo quy mô: 03–05 thành viên → 01; 06–08 → 02; 09–11 → 03 thành viên không điều hành.",
+  "basis": "Điểm c khoản 2 Điều 276 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 79 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Có tối thiểu 03 thành viên không điều hành trong trường hợp công ty có số thành viên Hội đồng quản trị từ 09 đến 11 thành viên.",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-044",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 3,
+  "q": "Công ty đại chúng P (tổng tài sản theo BCTC gần nhất 2.000 tỷ đồng; Điều lệ không quy định tỷ lệ khác) dự kiến ký hợp đồng mua bán hàng hóa trị giá 600 tỷ đồng với cổ đông Q sở hữu 15% vốn cổ phần phổ thông. Cấp có thẩm quyền chấp thuận giao dịch là:",
+  "o": [
+   "Đại hội đồng cổ đông, vì Q sở hữu trên 10% vốn cổ phần phổ thông",
+   "Đại hội đồng cổ đông, vì giá trị giao dịch lớn hơn 10% tổng tài sản",
+   "Tổng giám đốc tự quyết định theo phân cấp trong Quy chế nội bộ",
+   "Hội đồng quản trị, vì giá trị giao dịch nhỏ hơn 35% tổng giá trị tài sản"
+  ],
+  "a": 3,
+  "e": "600/2.000 = 30% < 35%. Theo khoản 5 Điều 293 (sửa đổi bởi NĐ 245), HĐQT chấp thuận giao dịch tại điểm b khoản 4 (với cổ đông sở hữu trên 10% vốn cổ phần phổ thông...) có giá trị nhỏ hơn 35% tổng tài sản; từ 35% trở lên mới thuộc thẩm quyền ĐHĐCĐ.",
+  "basis": "Điểm b khoản 4, khoản 5 Điều 293 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 84 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Hội đồng quản trị chấp thuận các hợp đồng, giao dịch quy định tại điểm b khoản 4 Điều này có giá trị nhỏ hơn 35% tổng giá trị tài sản ghi trên báo cáo tài chính gần nhất",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-045",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 3,
+  "q": "Công ty đại chúng R dự kiến bán một tài sản cho công ty mẹ S (S sở hữu 60% tổng số cổ phần có quyền biểu quyết của R) với giá trị bằng 12% tổng giá trị tài sản theo BCTC gần nhất. Điều lệ không quy định khác. Giao dịch này:",
+  "o": [
+   "Do HĐQT chấp thuận vì giá trị dưới 35% tổng giá trị tài sản",
+   "Phải được Đại hội đồng cổ đông chấp thuận",
+   "Do Tổng giám đốc quyết định vì là giao dịch trong cùng tập đoàn",
+   "Không cần chấp thuận, chỉ cần công bố thông tin sau giao dịch"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 4 Điều 293 (sửa đổi bởi NĐ 245): hợp đồng vay, bán tài sản có giá trị lớn hơn 10% tổng tài sản giữa công ty và cổ đông sở hữu từ 51% cổ phần có quyền biểu quyết trở lên (hoặc người có liên quan) phải được ĐHĐCĐ chấp thuận. 12% > 10%, S sở hữu 60% ≥ 51%.",
+  "basis": "Điểm c khoản 4 Điều 293 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 84 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "Hợp đồng, giao dịch vay, bán tài sản có giá trị lớn hơn 10% tổng giá trị tài sản ghi trên báo cáo tài chính gần nhất giữa công ty và cổ đông sở hữu từ 51% tổng số cổ phần có quyền biểu quyết trở lên",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-046",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 2,
+  "q": "Thành phần Ủy ban kiểm toán trực thuộc HĐQT của công ty đại chúng phải đáp ứng yêu cầu nào?",
+  "o": [
+   "Từ 03 thành viên trở lên; Chủ tịch là thành viên HĐQT độc lập",
+   "Từ 02 thành viên trở lên; Chủ tịch là thành viên HĐQT điều hành",
+   "Từ 03 đến 05 thành viên; Chủ tịch do Đại hội đồng cổ đông bầu",
+   "Từ 02 thành viên trở lên; Chủ tịch là thành viên HĐQT độc lập"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 282: Ủy ban kiểm toán có từ 02 thành viên trở lên; Chủ tịch phải là thành viên HĐQT độc lập; các thành viên khác phải là thành viên HĐQT không điều hành.",
+  "basis": "Khoản 2 Điều 282 Nghị định 155/2020/NĐ-CP",
+  "quote": "Ủy ban kiểm toán có từ 02 thành viên trở lên. Chủ tịch Ủy ban kiểm toán phải là thành viên Hội đồng quản trị độc lập.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-047",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quản trị công ty đại chúng",
+  "level": 1,
+  "q": "Trường hợp đã xác định được ứng cử viên HĐQT, công ty đại chúng phải công bố thông tin về các ứng cử viên tối thiểu bao nhiêu ngày trước ngày khai mạc họp ĐHĐCĐ?",
+  "o": [
+   "05 ngày",
+   "15 ngày",
+   "10 ngày",
+   "21 ngày"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 274: công bố thông tin liên quan đến ứng cử viên (họ tên, trình độ, quá trình công tác, chức danh quản lý khác, lợi ích liên quan...) tối thiểu 10 ngày trước ngày khai mạc họp ĐHĐCĐ trên trang thông tin điện tử của công ty.",
+  "basis": "Khoản 1 Điều 274 Nghị định 155/2020/NĐ-CP",
+  "quote": "công ty đại chúng phải công bố thông tin liên quan đến các ứng cử viên tối thiểu 10 ngày trước ngày khai mạc họp Đại hội đồng cổ đông",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-048",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 2,
+  "q": "Theo Nghị định 155/2020/NĐ-CP (bổ sung bởi Nghị định 245/2025/NĐ-CP), trong thời gian bị cấm thực hiện hoạt động giao dịch chứng khoán, tổ chức, cá nhân:",
+  "o": [
+   "Không được mua, bán chứng khoán và không được hưởng các quyền phát sinh",
+   "Chỉ được mua thêm chứng khoán để bình quân giá, không được bán ra",
+   "Được mua, bán bình thường nhưng phải báo cáo UBCKNN trước mỗi giao dịch",
+   "Chỉ được bán chứng khoán có trên tài khoản, không được mua thêm chứng khoán"
+  ],
+  "a": 3,
+  "e": "Khoản 6 Điều 307 (bổ sung bởi NĐ 245): bị cấm giao dịch thì chỉ được bán chứng khoán có trên tài khoản, không được tiếp tục mua (trừ giao dịch theo bản án, quyết định của Tòa án, Trọng tài, thừa kế); vẫn được thực hiện các quyền phát sinh liên quan đến chứng khoán.",
+  "basis": "Khoản 6 Điều 307 Nghị định 155/2020/NĐ-CP (bổ sung bởi khoản 87 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "tổ chức, cá nhân chỉ được bán chứng khoán có trên tài khoản giao dịch chứng khoán và không được tiếp tục mua chứng khoán trên tài khoản giao dịch chứng khoán",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-049",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 1,
+  "q": "Theo Thông tư 121/2020/TT-BTC, tỷ lệ tổng nợ trên vốn chủ sở hữu của công ty chứng khoán không được vượt quá:",
+  "o": [
+   "05 lần",
+   "03 lần",
+   "06 lần",
+   "10 lần"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 26: tỷ lệ tổng nợ/VCSH không vượt quá 05 lần; tổng nợ không bao gồm tiền gửi giao dịch chứng khoán của khách hàng, quỹ khen thưởng phúc lợi, dự phòng trợ cấp mất việc làm, dự phòng bồi thường thiệt hại cho nhà đầu tư.",
+  "basis": "Khoản 1 Điều 26 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Tỷ lệ tổng nợ trên vốn chủ sở hữu của công ty chứng khoán không được vượt quá 05 lần.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-050",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 3,
+  "q": "CTCK E có vốn chủ sở hữu 1.000 tỷ đồng; tổng nợ phải trả trên BCTC là 6.500 tỷ đồng, trong đó tiền gửi giao dịch chứng khoán của khách hàng 1.800 tỷ đồng, quỹ khen thưởng phúc lợi 50 tỷ đồng, phần còn lại là vay và phải trả khác. Tỷ lệ tổng nợ/VCSH theo Thông tư 121/2020/TT-BTC và kết luận là:",
+  "o": [
+   "6,50 lần – vi phạm hạn chế vay nợ",
+   "4,65 lần – đáp ứng hạn chế vay nợ",
+   "4,70 lần – đáp ứng hạn chế vay nợ",
+   "6,45 lần – vi phạm hạn chế vay nợ"
+  ],
+  "a": 1,
+  "e": "Tổng nợ tính hạn chế = 6.500 − 1.800 (tiền gửi của khách hàng) − 50 (quỹ khen thưởng phúc lợi) = 4.650 tỷ đồng → 4.650/1.000 = 4,65 lần ≤ 05 lần. 4,70 là lỗi chỉ trừ tiền gửi khách hàng; 6,45 là lỗi chỉ trừ quỹ khen thưởng.",
+  "basis": "Khoản 1 Điều 26 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Giá trị tổng nợ theo quy định này không bao gồm các khoản sau đây: a) Tiền gửi giao dịch chứng khoán của khách hàng; b) Quỹ khen thưởng phúc lợi;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-051",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 2,
+  "q": "CTCK bảo lãnh phát hành chứng khoán ra công chúng theo phương thức nhận mua một phần hoặc toàn bộ chỉ được bảo lãnh tổng giá trị chứng khoán:",
+  "o": [
+   "Không lớn hơn vốn điều lệ và không vượt quá 05 lần vốn chủ sở hữu của công ty",
+   "Không lớn hơn VCSH và không vượt quá 15 lần hiệu số tài sản ngắn hạn – nợ ngắn hạn",
+   "Không lớn hơn 70% VCSH và không vượt quá 10 lần hiệu số tài sản ngắn hạn – nợ ngắn hạn",
+   "Không lớn hơn 02 lần VCSH và không vượt quá 15 lần hiệu số tài sản ngắn hạn – nợ ngắn hạn"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 23: tổng giá trị bảo lãnh không lớn hơn vốn chủ sở hữu và không vượt quá 15 lần hiệu số giữa tài sản ngắn hạn và nợ ngắn hạn theo BCTC quý gần nhất.",
+  "basis": "Khoản 1 Điều 23 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "chỉ được phép bảo lãnh phát hành tổng giá trị chứng khoán không được lớn hơn vốn chủ sở hữu và không được vượt quá 15 lần hiệu số giữa giá trị tài sản ngắn hạn và nợ ngắn hạn tính theo báo cáo tài chính quý gần nhất.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-052",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 3,
+  "q": "Theo BCTC quý gần nhất, CTCK G có vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 2.000 tỷ đồng, nợ ngắn hạn 1.950 tỷ đồng. Tổng giá trị tối đa G được bảo lãnh phát hành chứng khoán ra công chúng (nhận mua một phần hoặc toàn bộ) là:",
+  "o": [
+   "800 tỷ đồng",
+   "750 tỷ đồng",
+   "1.550 tỷ đồng",
+   "50 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Giới hạn 1 = VCSH = 800 tỷ; giới hạn 2 = 15 × (2.000 − 1.950) = 750 tỷ. Phải thỏa cả hai → tối đa 750 tỷ đồng. 800 là chỉ xét VCSH; 50 là quên nhân 15.",
+  "basis": "Khoản 1 Điều 23 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "không được vượt quá 15 lần hiệu số giữa giá trị tài sản ngắn hạn và nợ ngắn hạn tính theo báo cáo tài chính quý gần nhất",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-053",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 2,
+  "q": "Trường hợp nào sau đây CTCK KHÔNG được bảo lãnh phát hành theo hình thức cam kết chắc chắn hoặc làm người bảo lãnh chính cho tổ chức phát hành?",
+  "o": [
+   "CTCK cùng người có liên quan sở hữu 12% vốn điều lệ của tổ chức phát hành",
+   "CTCK sở hữu 8% vốn điều lệ của tổ chức phát hành và không có quyền kiểm soát",
+   "Tổ chức phát hành cùng người có liên quan sở hữu 15% vốn điều lệ của CTCK",
+   "CTCK và tổ chức phát hành cùng thuê một công ty kiểm toán được chấp thuận"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 23: cấm khi CTCK (độc lập hoặc cùng công ty con, người có liên quan) sở hữu từ 10% vốn điều lệ của tổ chức phát hành; hoặc tổ chức phát hành sở hữu từ 20% vốn điều lệ của CTCK; hoặc cùng một chủ thể nắm ≥30% vốn của cả hai... 12% ≥ 10% → bị cấm; 15% < 20% chưa thuộc trường hợp cấm.",
+  "basis": "Điểm a khoản 2 Điều 23 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Công ty chứng khoán, độc lập hoặc cùng công ty con hoặc cùng với người có liên quan sở hữu từ 10% trở lên vốn điều lệ của tổ chức phát hành",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-054",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 1,
+  "q": "Tổng giá trị đầu tư vào trái phiếu doanh nghiệp của công ty chứng khoán không được vượt quá:",
+  "o": [
+   "50% vốn chủ sở hữu",
+   "70% vốn điều lệ",
+   "70% vốn chủ sở hữu",
+   "100% vốn chủ sở hữu"
+  ],
+  "a": 2,
+  "e": "Khoản 3 Điều 28: tổng giá trị đầu tư vào các trái phiếu doanh nghiệp không vượt quá 70% vốn chủ sở hữu.",
+  "basis": "Khoản 3 Điều 28 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Tổng giá trị đầu tư vào các trái phiếu doanh nghiệp của công ty chứng khoán không được vượt quá 70% vốn chủ sở hữu.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-055",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 3,
+  "q": "CTCK K có vốn chủ sở hữu 2.000 tỷ đồng, đang nắm cổ phiếu niêm yết trị giá 900 tỷ đồng và cổ phiếu chưa niêm yết trị giá 350 tỷ đồng (không có phần vốn góp, dự án kinh doanh). Giá trị tối đa K được đầu tư thêm vào cổ phiếu chưa niêm yết là:",
+  "o": [
+   "150 tỷ đồng",
+   "300 tỷ đồng",
+   "50 tỷ đồng",
+   "400 tỷ đồng"
+  ],
+  "a": 2,
+  "e": "Điểm g khoản 4 Điều 28: tổng đầu tư vào cổ phiếu, phần vốn góp, dự án ≤ 70% × 2.000 = 1.400 tỷ; trong đó cổ phiếu chưa niêm yết, phần vốn góp, dự án ≤ 20% × 2.000 = 400 tỷ. Hiện có 350 tỷ → được thêm 50 tỷ (tổng 1.300 tỷ vẫn ≤ 1.400 tỷ). 150 tỷ là chỉ xét hạn mức 70%; 400 tỷ là quên khoản đang nắm giữ.",
+  "basis": "Điểm g khoản 4 Điều 28 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Đầu tư quá 70% vốn chủ sở hữu vào cổ phiếu, phần vốn góp và dự án kinh doanh, trong đó không được đầu tư quá 20% vốn chủ sở hữu vào cổ phiếu chưa niêm yết, phần vốn góp và dự án kinh doanh.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-056",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hạn chế tài chính CTCK",
+  "level": 1,
+  "q": "Công ty chứng khoán không được đầu tư quá bao nhiêu phần trăm tổng số cổ phiếu đang lưu hành của một tổ chức niêm yết?",
+  "o": [
+   "10%",
+   "15%",
+   "25%",
+   "20%"
+  ],
+  "a": 3,
+  "e": "Điểm c khoản 4 Điều 28: không đầu tư quá 20% tổng số cổ phiếu, chứng chỉ quỹ đang lưu hành của một tổ chức niêm yết (15% đối với tổ chức chưa niêm yết – điểm d).",
+  "basis": "Điểm c khoản 4 Điều 28 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Đầu tư quá 20% tổng số cổ phiếu, chứng chỉ quỹ đang lưu hành của một tổ chức niêm yết;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-057",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hoạt động CTCK",
+  "level": 2,
+  "q": "Về dịch vụ ủy thác quản lý tài khoản giao dịch chứng khoán của nhà đầu tư cá nhân, phát biểu nào sau đây đúng theo Thông tư 121/2020/TT-BTC?",
+  "o": [
+   "CTCK được nhận ủy thác quyết định toàn bộ giao dịch thay nhà đầu tư",
+   "Thời hạn hợp đồng ủy thác không quá 01 năm kể từ thời điểm ký kết",
+   "Được ủy thác mua, bán cả cổ phiếu đăng ký giao dịch trên UPCoM",
+   "Người quản lý tài khoản ủy thác chỉ cần có CCHN môi giới chứng khoán"
+  ],
+  "a": 1,
+  "e": "Điều 19: hợp đồng ủy thác không quá 01 năm; CTCK không được nhận ủy thác quyết định toàn bộ giao dịch; chỉ ủy thác cổ phiếu, chứng chỉ quỹ niêm yết (không gồm UPCoM); người quản lý phải có CCHN phân tích tài chính hoặc quản lý quỹ.",
+  "basis": "Điểm a khoản 4 Điều 19 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Thời hạn hợp đồng ủy thác không quá 01 năm tính từ thời điểm ký kết hợp đồng;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-058",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hoạt động CTCK",
+  "level": 3,
+  "q": "Khách hàng cá nhân ký hợp đồng ủy thác quản lý tài khoản với tổng giá trị 2 tỷ đồng tại CTCK M. Sau một thời gian, giá trị tài sản trên tài khoản ủy thác giảm còn 480 triệu đồng. M phải:",
+  "o": [
+   "Thông báo cho khách hàng trong vòng 03 ngày làm việc",
+   "Thông báo cho khách hàng trong vòng 24 giờ",
+   "Chưa phải thông báo vì tài sản chưa giảm xuống dưới 20%",
+   "Báo cáo UBCKNN trong 24 giờ, không phải thông báo khách hàng"
+  ],
+  "a": 1,
+  "e": "480 triệu/2 tỷ = 24% < 25% tổng giá trị hợp đồng ủy thác → theo điểm e khoản 6 Điều 19, CTCK phải thông báo cho khách hàng trong vòng 24 giờ kể từ khi tài sản giảm xuống dưới 25%.",
+  "basis": "Điểm e khoản 6 Điều 19 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Thông báo cho khách hàng trong vòng 24 giờ kể từ khi tài sản trong tài khoản giao dịch ủy thác của khách hàng ủy thác giảm xuống dưới 25% tính trên tổng giá trị hợp đồng ủy thác;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-059",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hoạt động CTCK",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, Tổng Giám đốc công ty chứng khoán KHÔNG được đồng thời giữ vị trí nào sau đây?",
+  "o": [
+   "Thành viên HĐQT của chính công ty chứng khoán đó",
+   "Người đại diện theo pháp luật của chính công ty chứng khoán đó",
+   "Thành viên HĐQT của một công ty chứng khoán khác",
+   "Cổ đông sở hữu cổ phần của chính công ty chứng khoán đó"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 10: Tổng Giám đốc, Phó Tổng Giám đốc CTCK không được đồng thời làm việc cho CTCK, CTQLQ hoặc doanh nghiệp khác; Tổng Giám đốc không được là thành viên HĐQT, HĐTV của công ty chứng khoán khác.",
+  "basis": "Khoản 2 Điều 10 Thông tư 121/2020/TT-BTC (VBHN số 09/VBHN-BTC năm 2026, hợp nhất TT 68/2024 và TT 08/2026)",
+  "quote": "Tổng Giám đốc (Giám đốc) công ty chứng khoán không được là thành viên Hội đồng quản trị, thành viên Hội đồng thành viên của công ty chứng khoán khác.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-060",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 1,
+  "q": "Tổ chức kinh doanh chứng khoán có tỷ lệ vốn khả dụng (tự tính hoặc đã soát xét, kiểm toán) dưới 120% bị UBCKNN đặt vào tình trạng nào?",
+  "o": [
+   "Kiểm soát đặc biệt",
+   "Cảnh báo",
+   "Kiểm soát",
+   "Đình chỉ hoạt động ngay lập tức"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 1 Điều 16: tỷ lệ vốn khả dụng dưới 120% → kiểm soát đặc biệt (thời hạn không quá 04 tháng). Cảnh báo: 150% đến dưới 180%; kiểm soát: 120% đến dưới 150%.",
+  "basis": "Điểm a khoản 1 Điều 16 Thông tư 91/2020/TT-BTC",
+  "quote": "Tỷ lệ vốn khả dụng do công ty tự tính hoặc đã được soát xét, kiểm toán bởi tổ chức kiểm toán được chấp thuận dưới 120%",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-061",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 3,
+  "q": "CTCK T có vốn khả dụng 360 tỷ đồng, tổng giá trị rủi ro 250 tỷ đồng theo báo cáo tỷ lệ an toàn tài chính đã được kiểm toán. Theo Thông tư 91/2020/TT-BTC, T:",
+  "o": [
+   "Có tỷ lệ 144%, thuộc diện bị đặt vào tình trạng cảnh báo",
+   "Có tỷ lệ 144%, thuộc diện bị đặt vào tình trạng kiểm soát",
+   "Có tỷ lệ 69%, thuộc diện bị đặt vào tình trạng kiểm soát đặc biệt",
+   "Có tỷ lệ 144%, đáp ứng chỉ tiêu an toàn tài chính"
+  ],
+  "a": 1,
+  "e": "Tỷ lệ vốn khả dụng = 360/250 × 100% = 144%. Theo điểm b khoản 1 Điều 14, tỷ lệ đã kiểm toán từ 120% đến dưới 150% → kiểm soát. 69% là lỗi đảo mẫu số (250/360).",
+  "basis": "Khoản 1 Điều 11, điểm b khoản 1 Điều 14 Thông tư 91/2020/TT-BTC",
+  "quote": "Tỷ lệ vốn khả dụng đã được soát xét hoặc được kiểm toán bởi tổ chức kiểm toán được chấp thuận từ 120% đến dưới 150%",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-062",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 2,
+  "q": "Căn cứ nào sau đây để UBCKNN đặt tổ chức kinh doanh chứng khoán vào tình trạng cảnh báo?",
+  "o": [
+   "Tỷ lệ vốn khả dụng từ 120% đến dưới 150% tại một kỳ báo cáo bất kỳ trong năm",
+   "Tỷ lệ vốn khả dụng dưới 180% tại một kỳ báo cáo bất kỳ trong 03 tháng gần nhất",
+   "Tỷ lệ vốn khả dụng từ 150% đến dưới 180% trong tất cả kỳ báo cáo của 03 tháng liên tục",
+   "Tỷ lệ vốn khả dụng từ 150% đến dưới 220% trong tất cả kỳ báo cáo của 06 tháng"
+  ],
+  "a": 2,
+  "e": "Điểm a khoản 1 Điều 13: cảnh báo khi tỷ lệ vốn khả dụng từ 150% đến dưới 180% trong tất cả các kỳ báo cáo trong 03 tháng liên tục (hoặc tỷ lệ đã soát xét/kiểm toán trong khoảng này).",
+  "basis": "Điểm a khoản 1 Điều 13 Thông tư 91/2020/TT-BTC",
+  "quote": "Tỷ lệ vốn khả dụng từ 150% đến dưới 180% trong tất cả các kỳ báo cáo trong ba (03) tháng liên tục",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-063",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 1,
+  "q": "Thời hạn tối đa của tình trạng kiểm soát và tình trạng kiểm soát đặc biệt theo Thông tư 91/2020/TT-BTC lần lượt là:",
+  "o": [
+   "06 tháng và 03 tháng",
+   "12 tháng và 06 tháng",
+   "04 tháng và 12 tháng",
+   "12 tháng và 04 tháng"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 14: thời hạn kiểm soát không quá 12 tháng; khoản 2 Điều 16: thời hạn kiểm soát đặc biệt không quá 04 tháng kể từ ngày bị đặt vào tình trạng.",
+  "basis": "Khoản 2 Điều 14, khoản 2 Điều 16 Thông tư 91/2020/TT-BTC",
+  "quote": "Thời hạn kiểm soát không quá 12 tháng, kể từ ngày tổ chức kinh doanh chứng khoán bị đặt vào tình trạng kiểm soát.",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-064",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 2,
+  "q": "Kể từ khi tỷ lệ vốn khả dụng xuống dưới 150%, tổ chức kinh doanh chứng khoán phải báo cáo UBCKNN tỷ lệ vốn khả dụng với tần suất nào?",
+  "o": [
+   "01 tuần 01 lần, gửi trước 16 giờ ngày thứ sáu hàng tuần",
+   "01 tháng 02 lần, với dữ liệu tại ngày 15 và ngày 30 hàng tháng",
+   "Hàng ngày, gửi trước 16 giờ của mỗi ngày làm việc",
+   "01 tháng 01 lần, trong 07 ngày làm việc kể từ ngày kết thúc tháng"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 12: dưới 180% → 2 lần/tháng (ngày 15, 30); dưới 150% → hàng tuần, trước 16 giờ thứ sáu; dưới 120% → hàng ngày trước 16 giờ. Báo cáo định kỳ tháng gửi trong 07 ngày làm việc.",
+  "basis": "Điểm b khoản 2 Điều 12 Thông tư 91/2020/TT-BTC",
+  "quote": "Kể từ khi tỷ lệ vốn khả dụng xuống dưới 150%, tổ chức kinh doanh chứng khoán phải báo cáo Ủy ban Chứng khoán Nhà nước tỷ lệ vốn khả dụng một (01) tuần một (01) lần",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-065",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 3,
+  "q": "CTCK V (không kinh doanh chứng khoán phái sinh) có ba nghiệp vụ môi giới, tự doanh và bảo lãnh phát hành chứng khoán. Chi phí để tính rủi ro hoạt động trong 12 tháng liền kề (sau giảm trừ) là 160 tỷ đồng. Giá trị rủi ro hoạt động của V là:",
+  "o": [
+   "40 tỷ đồng",
+   "48 tỷ đồng",
+   "60 tỷ đồng",
+   "88 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Rủi ro hoạt động = max(25% chi phí; 20% vốn điều lệ tối thiểu cho các nghiệp vụ). 25% × 160 = 40 tỷ; vốn tối thiểu = 25 + 50 + 165 = 240 tỷ → 20% × 240 = 48 tỷ. Lấy giá trị lớn hơn: 48 tỷ đồng. (TT 102/2025 thay cụm từ \"chi phí duy trì hoạt động\" bằng \"chi phí để tính rủi ro hoạt động\".)",
+  "basis": "Khoản 1 Điều 8 Thông tư 91/2020/TT-BTC (sửa đổi bởi khoản 2 Điều 8 Thông tư 102/2025/TT-BTC); Điều 175 Nghị định 155/2020/NĐ-CP",
+  "quote": "20% vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của tổ chức kinh doanh chứng khoán theo quy định của pháp luật.",
+  "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-066",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 2,
+  "q": "Theo Phụ lục báo cáo tỷ lệ an toàn tài chính được thay thế bởi Thông tư 102/2025/TT-BTC, khi xác định giá trị rủi ro hoạt động của CTCK có nghiệp vụ chứng khoán phái sinh, chỉ tiêu tính theo vốn điều lệ tối thiểu là:",
+  "o": [
+   "20% vốn điều lệ tối thiểu, như các CTCK khác",
+   "25% vốn điều lệ tối thiểu cho các nghiệp vụ",
+   "30% vốn điều lệ tối thiểu cho các nghiệp vụ",
+   "50% vốn điều lệ tối thiểu cho các nghiệp vụ"
+  ],
+  "a": 0,
+  "e": "Phụ lục gốc của TT 91 quy định mức 25% vốn điều lệ tối thiểu đối với tổ chức có nghiệp vụ chứng khoán phái sinh. TT 102/2025 (hiệu lực 15/12/2025) thay Phụ lục V, VI: chỉ còn một mức 20% vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh, không phân biệt có nghiệp vụ phái sinh.",
+  "basis": "Khoản 3 Điều 8 Thông tư 102/2025/TT-BTC (thay thế Phụ lục VI Thông tư 91/2020/TT-BTC)",
+  "quote": "IV 25% Tổng chi phí sau khi giảm trừ (IV = 25% III) 20% vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của V tổ chức kinh doanh chứng khoán",
+  "src": "TT_102_2025_TT-BTC_sua_TT91.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-067",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "An toàn tài chính CTCK",
+  "level": 2,
+  "q": "Theo Thông tư 91/2020/TT-BTC (sửa đổi bởi Thông tư 102/2025/TT-BTC), giá trị rủi ro thị trường của khoản đầu tư vào chứng khoán của một tổ chức chiếm 18% vốn chủ sở hữu của CTCK (không phải trái phiếu Chính phủ, không trong thời gian bảo lãnh) được điều chỉnh tăng thêm:",
+  "o": [
+   "20%",
+   "10%",
+   "30%",
+   "Không phải điều chỉnh"
+  ],
+  "a": 0,
+  "e": "Khoản 5 Điều 9 (sửa đổi bởi TT 102): tăng thêm 10% khi khoản đầu tư chiếm trên 10% đến 15% VCSH; 20% khi trên 15% đến 25%; 30% khi trên 25%. 18% thuộc nhóm trên 15% đến 25% → tăng 20%.",
+  "basis": "Điểm b khoản 5 Điều 9 Thông tư 91/2020/TT-BTC (sửa đổi bởi Điều 6 Thông tư 102/2025/TT-BTC)",
+  "quote": "Tăng thêm 20% trong trường hợp tổng giá trị của khoản đầu tư vào chứng khoán, phần vốn góp của một tổ chức chiếm từ trên 15% đến 25% vốn chủ sở hữu của tổ chức kinh doanh chứng khoán",
+  "src": "TT_102_2025_TT-BTC_sua_TT91.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-068",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 1,
+  "q": "Công ty đại chúng phải công bố báo cáo tài chính năm đã được kiểm toán trong thời hạn nào?",
+  "o": [
+   "05 ngày kể từ ngày ký báo cáo kiểm toán, không quá 90 ngày kể từ ngày kết thúc năm tài chính",
+   "10 ngày kể từ ngày ký báo cáo kiểm toán, không quá 100 ngày kể từ ngày kết thúc năm tài chính",
+   "10 ngày kể từ ngày ký báo cáo kiểm toán, không quá 90 ngày kể từ ngày kết thúc năm tài chính",
+   "20 ngày kể từ ngày ký báo cáo kiểm toán, không quá 120 ngày kể từ ngày kết thúc năm tài chính"
+  ],
+  "a": 2,
+  "e": "Điểm c khoản 1 Điều 10: thời hạn 10 ngày kể từ ngày tổ chức kiểm toán ký báo cáo kiểm toán nhưng không vượt quá 90 ngày kể từ ngày kết thúc năm tài chính.",
+  "basis": "Điểm c khoản 1 Điều 10 Thông tư 96/2020/TT-BTC",
+  "quote": "Công ty đại chúng phải công bố báo cáo tài chính năm đã được kiểm toán trong thời hạn 10 ngày, kể từ ngày tổ chức kiểm toán ký báo cáo kiểm toán nhưng không vượt quá 90 ngày, kể từ ngày kết thúc năm tài chính.",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-069",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 2,
+  "q": "Thời hạn công bố báo cáo thường niên của công ty đại chúng là:",
+  "o": [
+   "10 ngày kể từ ngày công bố BCTC năm kiểm toán, không quá 90 ngày kể từ ngày kết thúc năm tài chính",
+   "30 ngày kể từ ngày công bố BCTC năm kiểm toán, không quá 120 ngày kể từ ngày kết thúc năm tài chính",
+   "20 ngày kể từ ngày công bố BCTC năm kiểm toán, không quá 110 ngày kể từ ngày kết thúc năm tài chính",
+   "20 ngày kể từ ngày công bố BCTC năm kiểm toán, không quá 100 ngày kể từ ngày kết thúc năm tài chính"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 10: báo cáo thường niên công bố trong 20 ngày kể từ ngày công bố BCTC năm được kiểm toán nhưng không vượt quá 110 ngày kể từ ngày kết thúc năm tài chính.",
+  "basis": "Khoản 2 Điều 10 Thông tư 96/2020/TT-BTC",
+  "quote": "công bố báo cáo này trong thời hạn 20 ngày kể từ ngày công bố báo cáo tài chính năm được kiểm toán nhưng không vượt quá 110 ngày, kể từ ngày kết thúc năm tài chính.",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-070",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 1,
+  "q": "Nếu Điều lệ không quy định thời hạn dài hơn, công ty đại chúng phải công bố thông tin về họp ĐHĐCĐ thường niên (kèm đường dẫn tài liệu họp) tối thiểu bao nhiêu ngày trước ngày khai mạc?",
+  "o": [
+   "10 ngày",
+   "21 ngày",
+   "15 ngày",
+   "30 ngày"
+  ],
+  "a": 1,
+  "e": "Điểm a khoản 3 Điều 10: tối thiểu 21 ngày trước ngày khai mạc họp ĐHĐCĐ (nếu Điều lệ không quy định dài hơn), công bố trên trang thông tin điện tử của công ty, UBCKNN, SGDCK.",
+  "basis": "Điểm a khoản 3 Điều 10 Thông tư 96/2020/TT-BTC",
+  "quote": "Tối thiểu 21 ngày trước ngày khai mạc họp Đại hội đồng cổ đông nếu Điều lệ công ty không quy định thời hạn dài hơn",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-071",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 1,
+  "q": "Khi tài khoản của công ty đại chúng tại ngân hàng bị phong tỏa theo yêu cầu của cơ quan có thẩm quyền, công ty phải công bố thông tin bất thường trong thời hạn:",
+  "o": [
+   "36 giờ kể từ khi xảy ra sự kiện",
+   "24 giờ kể từ khi xảy ra sự kiện",
+   "72 giờ kể từ khi xảy ra sự kiện",
+   "05 ngày làm việc kể từ khi xảy ra sự kiện"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 11: công ty đại chúng công bố thông tin bất thường trong 24 giờ kể từ khi xảy ra các sự kiện, trong đó có việc tài khoản bị phong tỏa hoặc được hoạt động trở lại.",
+  "basis": "Điểm a khoản 1 Điều 11 Thông tư 96/2020/TT-BTC",
+  "quote": "Công ty đại chúng phải công bố thông tin bất thường trong thời hạn 24 giờ, kể từ khi xảy ra một trong các sự kiện sau đây",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-072",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 2,
+  "q": "Tổ chức niêm yết cổ phiếu là công ty mẹ của tổ chức khác phải công bố BCTC bán niên đã được soát xét trong thời hạn:",
+  "o": [
+   "05 ngày kể từ ngày ký báo cáo soát xét, tối đa 45 ngày kể từ ngày kết thúc 06 tháng đầu năm",
+   "05 ngày kể từ ngày ký báo cáo soát xét, tối đa 60 ngày kể từ ngày kết thúc 06 tháng đầu năm",
+   "10 ngày kể từ ngày ký báo cáo soát xét, tối đa 60 ngày kể từ ngày kết thúc 06 tháng đầu năm",
+   "05 ngày kể từ ngày ký báo cáo soát xét, tối đa 90 ngày kể từ ngày kết thúc 06 tháng đầu năm"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 2 Điều 14: thông thường 05 ngày kể từ ngày ký báo cáo soát xét nhưng không quá 45 ngày; công ty mẹ hoặc đơn vị kế toán cấp trên có đơn vị trực thuộc thì tối đa không quá 60 ngày kể từ ngày kết thúc 06 tháng đầu năm tài chính.",
+  "basis": "Điểm c khoản 2 Điều 14 Thông tư 96/2020/TT-BTC",
+  "quote": "phải công bố báo cáo tài chính bán niên đã được soát xét trong thời hạn 05 ngày, kể từ ngày tổ chức kiểm toán ký báo cáo soát xét nhưng tối đa không quá 60 ngày, kể từ ngày kết thúc 06 tháng đầu năm tài chính.",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-073",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 3,
+  "q": "Công ty niêm yết W là công ty mẹ, không thực hiện soát xét BCTC quý. Hạn chót W phải công bố BCTC quý III/2026 (quý kết thúc ngày 30/9/2026) là:",
+  "o": [
+   "Ngày 20/10/2026",
+   "Ngày 30/10/2026",
+   "Ngày 14/11/2026",
+   "Ngày 29/11/2026"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 3 Điều 14: BCTC quý công bố trong 20 ngày kể từ ngày kết thúc quý; công ty mẹ (hoặc đơn vị kế toán cấp trên có đơn vị trực thuộc) trong 30 ngày → 30/9 + 30 ngày = 30/10/2026. 20/10 là thời hạn của công ty không phải công ty mẹ.",
+  "basis": "Điểm c khoản 3 Điều 14 Thông tư 96/2020/TT-BTC",
+  "quote": "thì phải công bố báo cáo tài chính quý trong thời hạn 30 ngày, kể từ ngày kết thúc quý.",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-074",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 3,
+  "q": "Công ty niêm yết X có lợi nhuận sau thuế quý II/2026 là 106 tỷ đồng, cùng kỳ năm trước là 120 tỷ đồng. Khi công bố BCTC quý II/2026, X:",
+  "o": [
+   "Phải giải trình nguyên nhân vì LNST thay đổi từ 10% trở lên so với cùng kỳ",
+   "Không phải giải trình vì LNST kỳ này vẫn dương",
+   "Chỉ phải giải trình khi LNST giảm từ 20% trở lên so với cùng kỳ",
+   "Chỉ phải giải trình khi số liệu trước và sau soát xét chênh lệch từ 5%"
+  ],
+  "a": 0,
+  "e": "(106 − 120)/120 = −11,7% → thay đổi từ 10% trở lên so với cùng kỳ năm trước → phải đồng thời giải trình nguyên nhân khi công bố BCTC (điểm a khoản 4 Điều 14).",
+  "basis": "Điểm a khoản 4 Điều 14 Thông tư 96/2020/TT-BTC",
+  "quote": "Lợi nhuận sau thuế thu nhập doanh nghiệp tại báo cáo kết quả hoạt động kinh doanh của kỳ báo cáo thay đổi từ 10% trở lên so với báo cáo cùng kỳ năm trước;",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-075",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 1,
+  "q": "Tổ chức, cá nhân khi trở thành hoặc không còn là cổ đông lớn của công ty đại chúng phải công bố thông tin, báo cáo trong thời hạn:",
+  "o": [
+   "05 ngày làm việc kể từ ngày trở thành hoặc không còn là cổ đông lớn",
+   "03 ngày làm việc kể từ ngày trở thành hoặc không còn là cổ đông lớn",
+   "07 ngày làm việc kể từ ngày trở thành hoặc không còn là cổ đông lớn",
+   "10 ngày kể từ ngày trở thành hoặc không còn là cổ đông lớn"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 31: thời hạn 05 ngày làm việc kể từ ngày trở thành hoặc không còn là cổ đông lớn (tính từ ngày hoàn tất giao dịch).",
+  "basis": "Khoản 1 Điều 31 Thông tư 96/2020/TT-BTC",
+  "quote": "trong thời hạn 05 ngày làm việc, kể từ ngày trở thành hoặc không còn là cổ đông lớn.",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-076",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 3,
+  "q": "Nhà đầu tư B sở hữu 7,6% cổ phiếu có quyền biểu quyết của công ty niêm yết Y. Ngày T, B mua thêm làm tỷ lệ tăng lên 7,9%; ngày T+3, B mua tiếp làm tỷ lệ tăng lên 8,2%. Nghĩa vụ công bố thông tin của B là:",
+  "o": [
+   "Phải CBTT sau giao dịch ngày T vì tỷ lệ sở hữu đã thay đổi 0,3%",
+   "Không phải CBTT vì mỗi giao dịch chỉ làm thay đổi dưới 1%",
+   "Phải CBTT trong 05 ngày làm việc từ khi hoàn tất giao dịch ngày T+3 do vượt ngưỡng 8%",
+   "Phải CBTT trong 24 giờ sau mỗi giao dịch vì B là cổ đông lớn"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 31: cổ đông lớn phải CBTT khi tỷ lệ sở hữu thay đổi qua các ngưỡng 1% (6%, 7%, 8%...). Giao dịch ngày T (7,6% → 7,9%) chưa qua ngưỡng; ngày T+3 (7,9% → 8,2%) vượt ngưỡng 8% → CBTT trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch.",
+  "basis": "Khoản 2, khoản 3 Điều 31 Thông tư 96/2020/TT-BTC",
+  "quote": "Cổ đông lớn của công ty đại chúng, công ty đầu tư chứng khoán đại chúng khi có thay đổi về số lượng cổ phiếu sở hữu qua các ngưỡng 1% số cổ phiếu có quyền biểu quyết phải công bố thông tin",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-077",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Công bố thông tin",
+  "level": 2,
+  "q": "Cổ đông sáng lập nắm giữ cổ phiếu đang bị hạn chế chuyển nhượng theo pháp luật doanh nghiệp, khi thực hiện giao dịch phải gửi báo cáo cho UBCKNN, SGDCK, công ty đại chúng... trong thời hạn nào?",
+  "o": [
+   "Tối thiểu 05 ngày làm việc trước ngày thực hiện giao dịch",
+   "Tối thiểu 10 ngày trước ngày thực hiện giao dịch",
+   "Tối thiểu 03 ngày làm việc trước ngày thực hiện giao dịch",
+   "Trong vòng 24 giờ sau khi hoàn tất giao dịch"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 32: tối thiểu 03 ngày làm việc trước ngày giao dịch phải gửi báo cáo theo mẫu Phụ lục XI; chuyển nhượng cho người không phải cổ đông sáng lập phải kèm nghị quyết ĐHĐCĐ. Kết quả giao dịch báo cáo trong 05 ngày làm việc.",
+  "basis": "Khoản 1 Điều 32 Thông tư 96/2020/TT-BTC",
+  "quote": "Tối thiểu 03 ngày làm việc trước ngày thực hiện giao dịch, cổ đông sáng lập nắm giữ cổ phiếu bị hạn chế chuyển nhượng theo quy định pháp luật về doanh nghiệp phải gửi báo cáo",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-078",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 1,
+  "q": "Tần suất giao dịch chứng chỉ quỹ mở tối thiểu theo Thông tư 98/2020/TT-BTC là:",
+  "o": [
+   "02 lần trong 01 tháng",
+   "01 lần trong 01 tháng",
+   "01 lần trong 01 tuần",
+   "04 lần trong 01 tháng"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 30: trong 30 ngày kể từ ngày Giấy chứng nhận đăng ký lập quỹ có hiệu lực, công ty quản lý quỹ phải tổ chức giao dịch chứng chỉ quỹ định kỳ; tần suất tối thiểu 02 lần trong 01 tháng.",
+  "basis": "Khoản 1 Điều 30 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Tần suất giao dịch tối thiểu 02 lần trong 01 tháng.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-079",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 2,
+  "q": "Yêu cầu về đa dạng hóa tổ chức phát hành trong danh mục của quỹ mở theo Thông tư 98/2020/TT-BTC là:",
+  "o": [
+   "Có chứng khoán của ít nhất 05 tổ chức phát hành, áp dụng cả quỹ trái phiếu",
+   "Có chứng khoán của ít nhất 10 tổ chức phát hành, trừ quỹ trái phiếu",
+   "Có chứng khoán của ít nhất 06 tổ chức phát hành, trừ quỹ trái phiếu",
+   "Có chứng khoán của ít nhất 03 tổ chức phát hành, trừ quỹ cổ phiếu"
+  ],
+  "a": 2,
+  "e": "Điểm l khoản 4 Điều 35: quỹ mở phải có chứng khoán của ít nhất 06 tổ chức phát hành, trừ trường hợp quỹ trái phiếu.",
+  "basis": "Điểm l khoản 4 Điều 35 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Phải có chứng khoán của ít nhất 06 tổ chức phát hành, trừ trường hợp quỹ trái phiếu;",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-080",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 3,
+  "q": "Quỹ mở M có tổng giá trị tài sản 500 tỷ đồng. Tổng giá trị tối đa quỹ được đầu tư vào chứng khoán đang lưu hành và tiền gửi, công cụ thị trường tiền tệ của cùng một tổ chức phát hành (không phải công cụ nợ Chính phủ) là:",
+  "o": [
+   "100 tỷ đồng",
+   "50 tỷ đồng",
+   "150 tỷ đồng",
+   "200 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Điểm c khoản 4 Điều 35: không đầu tư quá 20% tổng giá trị tài sản của quỹ vào chứng khoán đang lưu hành và tiền gửi, công cụ thị trường tiền tệ của một tổ chức phát hành → 20% × 500 = 100 tỷ đồng.",
+  "basis": "Điểm c khoản 4 Điều 35 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Không được đầu tư quá 20% tổng giá trị tài sản của quỹ vào chứng khoán đang lưu hành và các tài sản (nếu có) quy định tại điểm a, b khoản 2 Điều này của một tổ chức phát hành, trừ công cụ nợ của Chính phủ;",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-081",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 2,
+  "q": "Theo Thông tư 98/2020/TT-BTC (sửa đổi bởi Thông tư 136/2025/TT-BTC), hạn mức đối với các hạng mục đầu tư lớn trong danh mục quỹ mở (không phải quỹ trái phiếu) là:",
+  "o": [
+   "Tổng không quá 49% tổng tài sản; hạng mục lớn là khoản từ 10% tổng tài sản trở lên",
+   "Tổng không quá 40% tổng tài sản; hạng mục lớn là khoản từ 10% tổng tài sản trở lên",
+   "Tổng không quá 30% tổng tài sản; hạng mục lớn là khoản từ 5% tổng tài sản trở lên",
+   "Tổng không quá 40% tổng tài sản; hạng mục lớn là khoản từ 5% tổng tài sản trở lên"
+  ],
+  "a": 3,
+  "e": "Điểm e khoản 4 Điều 35 (sửa đổi bởi khoản 6 Điều 17 TT 136/2025): tổng giá trị các hạng mục đầu tư lớn không vượt quá 40% tổng giá trị tài sản (trừ quỹ trái phiếu); hạng mục lớn là đầu tư vào tài sản của cùng một tổ chức chiếm từ 5% tổng giá trị tài sản trở lên.",
+  "basis": "Điểm e khoản 4 Điều 35 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Tổng giá trị các hạng mục đầu tư lớn trong danh mục đầu tư của quỹ không được vượt quá 40% tổng giá trị tài sản của quỹ, trừ trường hợp quỹ trái phiếu.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-082",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 1,
+  "q": "Công ty quản lý quỹ được vay ngắn hạn cho quỹ để trang trải chi phí hoặc thanh toán giao dịch chứng chỉ quỹ với giới hạn nào?",
+  "o": [
+   "Tổng khoản vay không quá 10% giá trị tài sản ròng, thời hạn vay tối đa 90 ngày",
+   "Tổng khoản vay không quá 5% giá trị tài sản ròng, thời hạn vay tối đa 90 ngày",
+   "Tổng khoản vay không quá 5% giá trị tài sản ròng, thời hạn vay tối đa 30 ngày",
+   "Tổng khoản vay không quá 20% giá trị tài sản ròng, thời hạn vay tối đa 30 ngày"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 25: không được vay để đầu tư; chỉ vay ngắn hạn để trang trải chi phí cần thiết hoặc thanh toán giao dịch chứng chỉ quỹ, tổng khoản vay ≤ 5% NAV tại mọi thời điểm, thời hạn tối đa 30 ngày (áp dụng cho quỹ mở theo khoản 9 Điều 35).",
+  "basis": "Khoản 2 Điều 25 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Tổng giá trị các khoản vay ngắn hạn của quỹ không được quá 5% giá trị tài sản ròng của quỹ tại mọi thời điểm và thời hạn vay tối đa 30 ngày.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-083",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 3,
+  "q": "Quỹ mở N có giá trị tài sản ròng 200 tỷ đồng. Tại một ngày giao dịch, tổng lệnh bán là 18 tỷ đồng, tổng lệnh mua là 7 tỷ đồng (không có lệnh chuyển đổi). Điều lệ và Bản cáo bạch có quy định về quản lý thanh khoản. Công ty quản lý quỹ:",
+  "o": [
+   "Phải đáp ứng toàn bộ lệnh vì tổng lệnh bán mới bằng 9% NAV, dưới 10%",
+   "Phải đáp ứng toàn bộ lệnh vì NAV sau giao dịch vẫn trên 50 tỷ đồng",
+   "Được quyền chỉ đáp ứng một phần lệnh vì giá trị bán ròng bằng 5,5% NAV",
+   "Bắt buộc phải tạm dừng giao dịch chứng chỉ quỹ ngay trong ngày"
+  ],
+  "a": 2,
+  "e": "Bán ròng = 18 − 7 = 11 tỷ = 5,5% NAV ≥ 5% → theo điểm a khoản 1 Điều 33 (sửa đổi bởi TT 136/2025), công ty quản lý quỹ có quyền chỉ đáp ứng một phần lệnh (theo nguyên tắc ưu tiên thời gian hoặc cùng tỷ lệ).",
+  "basis": "Điểm a khoản 1 Điều 33 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Tổng giá trị các lệnh bán (kể cả lệnh bán từ hoạt động chuyển đổi) trừ tổng giá trị các lệnh mua (kể cả lệnh mua từ hoạt động chuyển đổi) tại ngày giao dịch chứng chỉ quỹ lớn hơn hoặc bằng 5% giá trị tài sản ròng của quỹ",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-084",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 1,
+  "q": "Khi chào bán chứng chỉ quỹ lần đầu ra công chúng, thời hạn đăng ký mua tối thiểu dành cho nhà đầu tư là:",
+  "o": [
+   "10 ngày",
+   "20 ngày",
+   "15 ngày",
+   "30 ngày"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 14: phải phân phối công bằng, công khai, bảo đảm thời hạn đăng ký mua tối thiểu 20 ngày và ghi trong bản thông báo chào bán; khoản 2: hoàn thành phân phối trong 90 ngày kể từ ngày Giấy chứng nhận chào bán có hiệu lực.",
+  "basis": "Khoản 1 Điều 14 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "bảo đảm thời hạn đăng ký mua chứng chỉ quỹ cho nhà đầu tư tối thiểu là 20 ngày; thời hạn này phải được ghi trong bản thông báo chào bán.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-085",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 2,
+  "q": "Theo Thông tư 98/2020/TT-BTC (sửa đổi bởi Thông tư 136/2025/TT-BTC), cuộc họp Đại hội nhà đầu tư lần thứ nhất được tiến hành khi:",
+  "o": [
+   "Số nhà đầu tư dự họp đại diện cho từ 65% tổng số phiếu biểu quyết",
+   "Số nhà đầu tư dự họp đại diện cho trên 50% tổng số phiếu biểu quyết",
+   "Số nhà đầu tư dự họp đại diện cho từ 51% số phiếu của nhà đầu tư dự họp",
+   "Có ít nhất 100 nhà đầu tư tham dự trực tiếp hoặc qua ủy quyền"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 18 (sửa đổi bởi Điều 6 TT 136/2025): họp được tiến hành khi số nhà đầu tư tham dự đại diện trên 50% tổng số phiếu biểu quyết; lần hai triệu tập trong 30 ngày và tiến hành không phụ thuộc số dự họp. Một số nội dung quan trọng cần trên 65% phiếu dự họp tán thành.",
+  "basis": "Khoản 1 Điều 18 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Cuộc họp Đại hội nhà đầu tư được tiến hành khi có số nhà đầu tư tham dự đại diện cho trên 50% tổng số phiếu biểu quyết.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-086",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Quỹ đầu tư",
+  "level": 2,
+  "q": "Theo Thông tư 98/2020/TT-BTC (sửa đổi, bổ sung bởi Thông tư 136/2025/TT-BTC), quỹ mở được đầu tư vào chứng quyền có bảo đảm với giới hạn nào?",
+  "o": [
+   "Chứng quyền thanh toán bằng chứng khoán cơ sở; không quá 10% số lưu hành của một mã",
+   "Chứng quyền niêm yết hoặc chưa niêm yết; không quá 5% số lưu hành của một mã",
+   "Chứng quyền niêm yết, thanh toán bằng tiền; không quá 20% số lưu hành của một mã",
+   "Chứng quyền niêm yết, thanh toán bằng tiền; không quá 5% số đang lưu hành của một mã"
+  ],
+  "a": 3,
+  "e": "TT 136/2025 bổ sung điểm h khoản 2 Điều 35 (chứng quyền có bảo đảm niêm yết, thanh toán bằng tiền) và điểm m khoản 4 Điều 35: không đầu tư quá 5% tổng số chứng quyền có bảo đảm đang lưu hành của một mã.",
+  "basis": "Điểm h khoản 2, điểm m khoản 4 Điều 35 Thông tư 98/2020/TT-BTC (VBHN số 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025)",
+  "quote": "Không được đầu tư quá 5% tổng số chứng quyền có bảo đảm đang lưu hành của một mã chứng quyền có bảo đảm.",
+  "src": "VBHN_04_VBHN-BTC_2026_TT98_136_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-087",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "CK phái sinh",
+  "level": 1,
+  "q": "Vốn điều lệ, vốn chủ sở hữu tối thiểu để CTCK được cấp Giấy chứng nhận đủ điều kiện hoạt động môi giới chứng khoán phái sinh là:",
+  "o": [
+   "250 tỷ đồng",
+   "600 tỷ đồng",
+   "1.200 tỷ đồng",
+   "800 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Điểm b khoản 2 Điều 4 NĐ 158 (không bị NĐ 306 sửa đổi): môi giới CKPS 800 tỷ; tự doanh CKPS 600 tỷ; tư vấn đầu tư CKPS 250 tỷ đồng.",
+  "basis": "Điểm b khoản 2 Điều 4 Nghị định 158/2020/NĐ-CP",
+  "quote": "Đối với hoạt động môi giới chứng khoán phái sinh: có vốn điều lệ, có vốn chủ sở hữu tối thiểu từ 800 tỷ đồng trở lên;",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-088",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "CK phái sinh",
+  "level": 3,
+  "q": "CTCK Q đăng ký kinh doanh cả ba hoạt động: môi giới, tự doanh và tư vấn đầu tư chứng khoán phái sinh. Vốn điều lệ, vốn chủ sở hữu tối thiểu Q phải có là:",
+  "o": [
+   "800 tỷ đồng",
+   "1.650 tỷ đồng",
+   "1.400 tỷ đồng",
+   "600 tỷ đồng"
+  ],
+  "a": 0,
+  "e": "Khác với Điều 175 NĐ 155 (cộng dồn theo nghiệp vụ), NĐ 158 quy định khi đăng ký cả ba hoạt động CKPS thì vốn tối thiểu là 800 tỷ đồng. 1.650 = 800 + 600 + 250 là lỗi cộng dồn.",
+  "basis": "Điểm b khoản 2 Điều 4 Nghị định 158/2020/NĐ-CP",
+  "quote": "Trường hợp đăng ký kinh doanh cả hoạt động môi giới chứng khoán phái sinh, tự doanh chứng khoán phái sinh và tư vấn đầu tư chứng khoán phái sinh, công ty chứng khoán phải có vốn điều lệ, có vốn chủ sở hữu tối thiểu từ 800 tỷ đồng trở lên",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-089",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "CK phái sinh",
+  "level": 2,
+  "q": "Công ty quản lý quỹ đầu tư chứng khoán được thực hiện hoạt động kinh doanh chứng khoán phái sinh nào?",
+  "o": [
+   "Chỉ tư vấn đầu tư chứng khoán phái sinh",
+   "Môi giới và tư vấn đầu tư chứng khoán phái sinh",
+   "Tự doanh chứng khoán phái sinh bằng vốn của công ty",
+   "Môi giới, tự doanh và tư vấn đầu tư chứng khoán phái sinh"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 1 Điều 4: công ty quản lý quỹ chỉ được thực hiện hoạt động tư vấn đầu tư CKPS (vốn điều lệ, VCSH tối thiểu 25 tỷ đồng – điểm a khoản 3).",
+  "basis": "Điểm b khoản 1 Điều 4 Nghị định 158/2020/NĐ-CP",
+  "quote": "Công ty quản lý quỹ chỉ được thực hiện hoạt động tư vấn đầu tư chứng khoán phái sinh.",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-090",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "CK phái sinh",
+  "level": 1,
+  "q": "Vốn điều lệ, vốn chủ sở hữu tối thiểu đối với CTCK đề nghị làm thành viên bù trừ chung trên thị trường chứng khoán phái sinh là:",
+  "o": [
+   "900 tỷ đồng",
+   "1.200 tỷ đồng",
+   "800 tỷ đồng",
+   "5.000 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 2 Điều 9 (không bị NĐ 306 sửa đổi): thành viên bù trừ trực tiếp 900 tỷ; thành viên bù trừ chung 1.200 tỷ đồng. Mức 5.000 tỷ áp dụng cho ngân hàng thương mại (điểm b khoản 3).",
+  "basis": "Điểm c khoản 2 Điều 9 Nghị định 158/2020/NĐ-CP",
+  "quote": "Đối với thành viên bù trừ chung: có vốn điều lệ, có vốn chủ sở hữu tối thiểu từ 1.200 tỷ đồng trở lên;",
+  "src": "ND_158_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-091",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "CK phái sinh",
+  "level": 2,
+  "q": "Theo Nghị định 158/2020/NĐ-CP (sửa đổi bởi Nghị định 306/2025/NĐ-CP, hiệu lực 09/01/2026), điều kiện nào sau đây đã bị bãi bỏ đối với CTCK đề nghị cấp Giấy chứng nhận đủ điều kiện kinh doanh chứng khoán phái sinh?",
+  "o": [
+   "Vốn điều lệ, vốn chủ sở hữu tối thiểu theo từng hoạt động phái sinh",
+   "Tối thiểu 05 nhân viên có CCHN và chứng chỉ phái sinh cho mỗi hoạt động",
+   "Tỷ lệ vốn khả dụng tối thiểu 220% liên tục trong 12 tháng gần nhất",
+   "Không có lỗ trong 02 năm gần nhất của công ty chứng khoán"
+  ],
+  "a": 2,
+  "e": "Khoản 10 Điều 2 NĐ 306/2025 bãi bỏ điểm c (kiểm soát nội bộ), điểm đ (tỷ lệ vốn khả dụng 220% liên tục 12 tháng) và điểm h khoản 2 Điều 4 NĐ 158. Các điều kiện về vốn (điểm b), nhân sự (điểm d), không lỗ 02 năm (điểm e) vẫn giữ nguyên.",
+  "basis": "Khoản 10 Điều 2 Nghị định 306/2025/NĐ-CP; điểm đ khoản 2 Điều 4 Nghị định 158/2020/NĐ-CP",
+  "quote": "Points c, dd, h clause 2 Article 4; point dd clause 1 Article 5; points g, h clause 2, point c clause 3 Article 9; point d clause 1 Article 10 of the Government’s Decree No. 158/2020/ND-CP dated December 31, 2020 prescribing on derivatives and derivative market are abrogated.",
+  "src": "ND_306_2025_ND-CP_English_SSC.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-092",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Xử phạt vi phạm",
+  "level": 2,
+  "q": "Theo Nghị định 156/2020/NĐ-CP, hành vi sử dụng thông tin nội bộ để mua, bán chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự) bị phạt tiền ở mức nào?",
+  "o": [
+   "05 lần khoản thu trái pháp luật",
+   "10 lần khoản thu trái pháp luật",
+   "02 lần khoản thu trái pháp luật",
+   "Mức cố định 1,5 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 35: phạt tiền 10 lần khoản thu trái pháp luật nhưng không thấp hơn mức phạt tiền tối đa chung; không có khoản thu trái pháp luật hoặc mức tính thấp hơn thì áp mức phạt tối đa. Mức phạt trong Chương II áp dụng cho tổ chức; cá nhân bằng 1/2.",
+  "basis": "Khoản 1 Điều 35 Nghị định 156/2020/NĐ-CP",
+  "quote": "Phạt tiền 10 lần khoản thu trái pháp luật nhưng không thấp hơn mức phạt tiền tối đa quy định tại khoản 2 Điều 5 Nghị định này đối với hành vi sử dụng thông tin nội bộ để mua, bán chứng khoán",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-093",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Xử phạt vi phạm",
+  "level": 1,
+  "q": "Người hành nghề chứng khoán có hành vi thao túng thị trường chứng khoán (chưa đến mức hình sự) bị áp dụng hình thức xử phạt bổ sung tước quyền sử dụng CCHN trong thời hạn:",
+  "o": [
+   "Từ 18 tháng đến 24 tháng",
+   "Từ 01 tháng đến 03 tháng",
+   "Từ 06 tháng đến 12 tháng",
+   "Từ 12 tháng đến 18 tháng"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 2 Điều 36 (tương tự Điều 35 về sử dụng thông tin nội bộ): tước quyền sử dụng CCHN chứng khoán từ 18 tháng đến 24 tháng.",
+  "basis": "Điểm b khoản 2 Điều 36 Nghị định 156/2020/NĐ-CP",
+  "quote": "Tước quyền sử dụng chứng chỉ hành nghề chứng khoán trong thời hạn từ 18 tháng đến 24 tháng đối với người hành nghề chứng khoán có hành vi vi phạm quy định tại khoản 1 Điều này.",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-094",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Xử phạt vi phạm",
+  "level": 1,
+  "q": "Hình thức xử phạt bổ sung đối với công ty chứng khoán có hành vi thao túng thị trường chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự) là:",
+  "o": [
+   "Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán từ 01 tháng đến 03 tháng",
+   "Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán từ 03 tháng đến 06 tháng",
+   "Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán từ 06 tháng đến 12 tháng",
+   "Thu hồi ngay Giấy phép thành lập và hoạt động kinh doanh chứng khoán"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 2 Điều 36: đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán từ 01 tháng đến 03 tháng đối với CTCK, CTQLQ, chi nhánh CTCK/CTQLQ nước ngoài vi phạm; kèm biện pháp buộc nộp lại khoản thu trái pháp luật.",
+  "basis": "Điểm a khoản 2 Điều 36 Nghị định 156/2020/NĐ-CP",
+  "quote": "Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán trong thời hạn từ 01 tháng đến 03 tháng đối với công ty chứng khoán",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L2-095",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Xử phạt vi phạm",
+  "level": 2,
+  "q": "Đối với hành vi vi phạm hành chính trong lĩnh vực chứng khoán đã kết thúc, thời hiệu xử phạt được tính từ thời điểm nào?",
+  "o": [
+   "Ngày người có thẩm quyền phát hiện hành vi vi phạm",
+   "Ngày bắt đầu thực hiện hành vi vi phạm",
+   "Ngày lập biên bản vi phạm hành chính",
+   "Ngày chấm dứt hành vi vi phạm"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 6: hành vi đang thực hiện → tính từ ngày người có thẩm quyền phát hiện; hành vi đã kết thúc → tính từ ngày chấm dứt hành vi vi phạm.",
+  "basis": "Điểm b khoản 2 Điều 6 Nghị định 156/2020/NĐ-CP",
+  "quote": "Đối với hành vi vi phạm hành chính đã kết thúc thì thời hiệu được tính từ ngày chấm dứt hành vi vi phạm.",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ }
+]

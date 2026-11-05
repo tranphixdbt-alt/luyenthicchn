@@ -1,0 +1,1912 @@
+This document is for reference purposes only and has no legal value.
+
+  THE GOVERNMENT                THE SOCIALIST REPUBLIC OF VIETNAM
+                                   Independence - Freedom - Happiness
+   No. 158/2020/ND-CP                                  Hanoi, December 31, 2020
+
+
+                                    DECREE
+                   On derivatives and the derivatives market
+
+
+       Pursuant to the June 19, 2015 Law on Organization of the Government; and
+ the November 22, 2019 Law Amending and Supplementing a Number of Articles
+ of the Law on Organization of the Government and Law on Organization of Local
+ Administration;
+      Pursuant to the November 26, 2019 Law on Securities;
+      Pursuant to the June 17, 2020 Law on Enterprises;
+      At the proposal of the Minister of Finance;
+     The Government promulgates the Decree on derivatives and the derivatives
+ market.
+
+                                   Chapter I
+                          GENERAL PROVISIONS
+      Article 1. Scope of regulation
+      This Decree regulates derivatives and the derivatives market in Vietnam.
+      Article 2. Subjects of application
+      1. Vietnamese and foreign institutions and individuals investing in
+ derivatives and operating on the derivatives market in Vietnam.
+      2. State management agency in charge of securities and the securities market.
+      3. Other agencies, institutions and individuals involved in investment and
+ trading in derivatives and the derivatives market in Vietnam.
+      Article 3. Interpretation of terms
+      In this Decree, the terms below are construed as follows:
+
+
+
+                                                                                  1
+     1. Derivatives business means performance of one, several or all of the
+following activities: derivatives brokerage, derivatives dealing, and derivatives
+investment consultancy.
+     2. Position of a derivative (hereinafter referred to as position) means the
+trading status and volume of an immature derivative held by an investor at a given
+time. An investor who buys or sells a derivative is said to open a long position or
+open a short position of such derivative.
+    3. Open position of a derivative means that an investor is holding an
+immature derivative.
+    4. Net position of a derivative at a time is determined by the difference
+between the open long position and open short position of such derivative at the
+same time.
+     5. Position limit means the maximum position of a derivative or of that
+derivative and other derivatives based on the same underlying asset which an
+investor is entitled to hold at a given time.
+     6. Trading order limit of a derivative means the maximum quantity of such
+derivative which may be placed on a trading order.
+     7. Derivatives trading member (hereinafter referred to as trading member)
+means a securities company approved by the Stock Exchange as its derivatives
+trading member.
+     8. Special trading member on the derivatives market (hereinafter referred to
+as special trading member) means a commercial bank or foreign bank branch
+approved by the Stock Exchange as its special trading member that may trade in
+derivatives on Government bonds.
+    9. Market maker means a trading member or special trading member that
+may carry out market making activities for one or several derivative(s).
+     10. Derivatives clearing member (hereinafter referred to as clearing
+member) means a securities company, commercial bank or foreign bank branch
+approved by the Vietnam Securities Depository and Clearing Corporation as a
+derivatives clearing member to make clearing of or settlement for derivatives
+transactions.
+     11. General clearing member means a clearing member that may make
+clearing of or settlement for its own or its clients’ derivatives transactions and
+
+
+                                                                                  2
+provide derivatives clearing or settlement services to non-clearing members and
+their clients.
+     12. Direct clearing member means a clearing member that may only make
+clearing of or settlement for its own derivatives transactions or its own and its
+clients’ derivatives transactions.
+   13. Non-clearing trading member (hereinafter referred to as non-clearing
+member) means a trading member or a special trading member who is not clearing
+member.
+     14. Market making activity means performance of buying and selling
+transactions to provide liquidity for one or several types of derivatives traded on
+the Stock Exchange.
+      15. Clearing or payment entrustment contract means a contract in which a
+non-clearing member entrusts a general clearing member to make clearing of or
+settlement for its own and its clients’ derivatives transactions.
+     16. Clearing margin assets (hereinafter referred to as margin assets) are
+money, securities and other assets as specified by the Vietnam Securities
+Depository and Clearing Corporation which may be used to secure the obligation
+to pay for derivatives transactions of investors and clearing members.
+     17. Clearing margin account (hereinafter referred to as margin account) is an
+account opened for an investor or a clearing member to manage its/his/her
+positions, margin assets and pay for its/his/her derivatives transactions.
+      18. Derivatives clearing and settlement are activities including making of
+margins, comparison and certification of transaction results, handling of errors,
+novated trading, clearing, determination of payment obligations, transfer of money
+or transfer of money and underlying assets on the settlement date.
+      19. Central counterparty mechanism are derivatives transaction clearing and
+settlement activities carried out by the Vietnam Securities Depository and Clearing
+Corporation that, through novation activities, becomes a partner of a derivatives
+transaction while a clearing member acts as the another partner of the transaction.
+     20. Novation means replacement of a party to a derivatives contract or
+transaction with another party, whereby the replacing party inherits all interests and
+obligations related to the derivatives contract or transaction of the replaced party.
+
+
+
+
+                                                                                    3
+                                     Chapter II
+  DERIVATIVES BUSINESS ORGANIZATIONS AND DERIVATIVES
+      CLEARING AND SETTLEMENT SERVICE PROVIDERS
+                        Section 1
+          DERIVATIVES BUSINESS ORGANIZATIONS
+      Article 4. Conditions for grant of a derivatives business eligibility certificate
+      1. A securities company, a securities investment fund management
+company (hereinafter referred to as fund management company) may only be
+engaged in derivatives business after being granted a derivatives business
+eligibility certificate by the State Securities Commission of Vietnam:
+     a) A securities company may carry out one, several or all of derivatives
+business operations, including: derivatives brokerage, derivatives dealing, and
+derivatives investment consultancy;
+     b) A fund management company may carry out only the derivatives
+investment consultancy operation.
+      2. Conditions for a securities company to be granted a derivatives business
+eligibility certificate:
+     a)     Having been licensed to carry out all securities business
+operations in the underlying market;
+
+     b)     Satisfying the following conditions on charter capital and equity:
+   - For derivatives brokerage: having the charter capital and equity of at least
+VND 800 billion;
+   - For derivatives dealing: having the charter capital and equity of at least
+VND 600 billion;
+     - For derivatives investment consultancy: having the charter capital and
+equity of at least VND 250 billion;
+      - In case of having made business registration for all operations of
+derivatives brokerage, derivatives dealing and derivatives investment consultancy,
+a securities company must have the charter capital and equity of at least VND 800
+billion;
+     c) Satisfying requirements on internal control and risk management for
+securities business operations in accordance with the regulations on operation of
+securities companies;
+
+
+                                                                                     4
+     d) Satisfying the condition on personnel: The Director (General Director) and
+Deputy Director (Deputy General Director) in charge of operations and at least 5
+employees for each derivatives business operation intended to be registered must
+possess a securities practice certificate in accordance with law and a certificate of
+professional training in derivatives and the derivatives market;
+    dd) Continuously maintaining a liquidity ratio of at least 220% for the last 12
+consecutive months; and having set aside all provisions as required by law;
+      e) Having suffered no losses for the last 2 years;
+      g) Opinion of an qualified auditing firm for the audited financial statement of
+the latest fiscal year and the reviewed latest semi-annual financial statement (for
+case of application for a derivatives business eligibility certificate after June 30)
+must be fully accepted;
+     h) Not undergoing reorganization, dissolution or bankruptcy; not being
+subject to operation cessation or operation suspension under a decision of a
+competent authority.
+     3. Conditions for a fund management company to be granted a derivatives
+business eligibility certificate:
+     a) Having the charter capital and equity of at least VND 25 billion;
+     b) Satisfying the condition on personnel: The Director (General Director) and
+Deputy Director (Deputy General Director) in charge of operations and at least 5
+employees for the derivatives investment consultancy operation must possess a
+securities practice certificate and a certificate of professional training in
+derivatives and the derivatives market;
+     c) Satisfying the conditions specified at Points dd, e, g and h, Clause 2 of this
+Article.
+     Article 5. Dossiers, order and procedures for grant and modification of
+derivatives business eligibility certificates
+    1. A dossier of application for a derivatives business eligibility certificate
+must comprise:
+      a) An application for a new or modified derivatives business eligibility
+certificate, made according to Form No. 01 provided in the Appendix to this
+Decree;
+      b) A resolution of the Shareholders’ General Meeting or Members’ Council
+or a decision of the owner on derivatives business;
+     c) Audited financial statements of the latest 2 fiscal years and the reviewed
+
+
+                                                                                     5
+latest semi-annual financial statement (for case of application for a derivatives
+business eligibility certificate after June 30); and a report on financial safety ratios
+for the latest 12 months;
+     d) A list of the Director (General Director), Deputy Directors (Deputy
+General Directors) in charge of operations, and employees for different derivatives
+business operations, made according to Form No. 02 provided in the Appendix to
+this Decree, enclosed with their personal files. A personal file must at least
+comprise a people’s identity card or citizen identity card or passport, a securities
+business practice certificate, a certificate of professional training in derivatives and
+the derivatives market, and a labor contract;
+     dd) Processes of internal control and risk management for derivatives
+business operations.
+     2. Documents included in a dossier specified in Clause 1 of this Article are
+not required in case they have been sent to the State Securities Commission of
+Vietnam under regulations on reporting and information disclosure.
+      3. A dossier of application for a derivatives business eligibility certificate
+shall be made in 1 original set. In case a document included in the dossier is a
+copy, such copy must be made from the master register or certified. Such a dossier
+shall be hand-delivered, sent by post or submitted via the online public service to
+the State Securities Commission of Vietnam under guidance of the Minister of
+Finance.
+     4. Within 5 working days after receiving a dossier, the State Securities
+Commission of Vietnam shall send a written request to the securities company or
+fund management company for modification or supplementation of the dossier (if
+necessary).
+      5. Within 15 days after receiving a complete and valid dossier, the State
+Securities Commission of Vietnam shall grant a derivatives business eligibility
+certificate. In case of refusal to grant such a certificate, the State Securities
+Commission of Vietnam shall reply in writing, clearly stating the reason.
+      6. Within 12 months after being granted a derivatives business eligibility
+certificate, a securities company licensed to carry out the derivatives brokerage
+operation shall make trading member registration; otherwise, the State Securities
+Commission of Vietnam shall issue a decision to revoke the derivatives business
+eligibility certificate.
+     7. Modification of a derivatives business eligibility certificate due to
+addition of derivatives business operations shall be carried out under provisions of
+Article 4 and Clauses 1, 2, 3, 4 and 5, Article 5 of this Decree regarding grant of
+
+
+                                                                                       6
+derivatives business eligibility certificates.
+     Article 6. Suspension and resumption of derivatives business operations
+      1. The State Securities Commission of Vietnam shall issue a decision on
+suspension for up to 12 months of one or several derivatives business operations
+of a derivatives business organization in the following cases:
+     a) The securities company has failed to satisfy one or several of the conditions
+specified at Points b, c, d and dd, Clause 2, Article 4 of this Decree for 6
+consecutive months; or the fund management company has failed to satisfy one or
+several of the conditions specified at Point dd, Clause 2, and Points a and b, Clause
+3, Article 4 of this Decree for 6 consecutive months;
+     b) The derivatives business organization is subject to operation suspension in
+accordance with law.
+     2. After receiving a decision of the State Securities Commission of Vietnam
+on suspension of derivatives business operations:
+     a) Within 24 hours, the derivatives business organization shall disclose
+information on the suspension of derivatives business operations;
+      b) Within 5 working days, the derivatives business organization shall disclose
+information on plans, time limit and schedule for settlement of valid contracts and
+send notices of contract settlement plans to its clients. The time limit for contract
+settlement must be between 45 days and 60 days from the date of information
+disclosure for settlement of positions and account transfer of margin assets.
+     3. During the operation suspension period, a derivatives business
+organization shall:
+      a) Report or disclose on a monthly basis or at the request of the State
+Securities Commission of Vietnam information on its status and related
+operations; not be allowed to sign new derivatives trading contracts, and suspend
+all derivatives business operations, except the cases specified at Points b, c and d
+of this Clause;
+      b) Regarding valid derivatives trading contracts, the securities company
+shall:
+     - Receive and execute only trading orders of its clients for reciprocal
+transactions; receive margin assets of its clients only in case of additional margin;
+     - Close balances of and liquidate clients’ accounts; liquidate positions and
+refund margin assets to its clients; reach agreement on and hand over rights,
+responsibilities and obligations, and transfer accounts, margin assets and open
+positions of its clients to the replacing securities company upon request of its
+
+                                                                                    7
+clients;
+      - Execute transactions at the request of the Vietnam Securities Depository
+and Clearing Corporation and the Stock Exchange in order to reduce positions of
+its clients;
+      c) Liquidate and close positions on proprietary trading accounts and market
+maker accounts (if any), prioritizing execution of transactions of its clients before
+its own position-closing transactions;
+     d) Pay fully taxes, service prices, debts and other financial obligations related
+to derivatives business operations (if any).
+      4. The State Securities Commission of Vietnam shall issue a decision on
+resumption of derivatives business operations of a derivatives business
+organization only after such organization has fully remedied its violations that lead
+to its operation suspension.
+     Article 7. Voluntary termination of derivatives business operations
+     1. A derivatives business organization that wishes to voluntarily terminate its
+derivatives business operations shall submit a dossier to the State Securities
+Commission of Vietnam, which must comprise:
+     a) A written request for termination of derivatives business operations, made
+according to Form No. 03 provided in the Appendix to this Decree;
+     b) A resolution of the Shareholders’ General Meeting or Members’ Council
+or a decision of the owner on termination of derivatives business operations and
+approval of a plan on settlement of related issues;
+     c) Plans on settlement of valid derivatives business contracts, including a plan
+on settlement of margin accounts and assets of clients.
+     2. A dossier of request for voluntary termination of derivatives business
+operations shall be made in 1 original set. In case a document included in the
+dossier is a copy, such copy shall be made from the master register or certified.
+Such a dossier shall be hand-delivered, sent by post or submitted via the online
+public service system to the State Securities Commission of Vietnam under
+guidance of the Minister of Finance.
+     3. Within 5 working days after receiving a dossier, the State Securities
+Commission of Vietnam shall send a written request for dossier modification or
+supplementation (if necessary) to the securities business organization.
+     4. Within 7 working days after receiving a complete and valid dossier, the
+State Securities Commission of Vietnam shall issue a written permission for
+performance of procedures for voluntary termination of derivatives business
+
+
+                                                                                     8
+operations. In case of refusal to issue such a permission, the State Securities
+Commission of Vietnam shall reply in writing, clearly stating the reason. After
+receiving a written permission of the State Securities Commission of Vietnam for
+performance of procedures for termination of derivatives business operations:
+     a) Within 24 hours, the derivatives business organization shall disclose
+information on performance of procedures for termination of derivatives business
+operations;
+      b) Within 5 working days, the securities company shall disclose information
+on plans, time limit and schedule for settlement of valid contracts and send notices
+of contract settlement plans to its clients. The time limit for contract settlement
+must be between 45 days and 60 days from the date of information disclosure for
+settlement of positions and transfer of margin assets.
+     5. During the period of performance of procedures for operation
+termination, a derivatives business organization shall:
+      a) Report or disclose on a monthly basis or at the request of the State
+Securities Commission of Vietnam information on its status and related
+operations; not be allowed to sign new derivatives trading contracts; and terminate
+all derivatives business operations, except the cases specified at Points b, c and d
+of this Clause;
+      b) Regarding valid derivatives trading contracts, the securities company
+shall:
+     - Receive and execute only trading orders of its clients for reciprocal
+transactions; receive margin assets of its clients only in case of additional margin;
+     - Close balances of and liquidate clients’ accounts; liquidate positions and
+refund margin assets to its clients; reach agreement on and hand over rights,
+responsibilities and obligations, and transfer accounts, margin assets and open
+positions of its clients to the replacing derivatives business organization;
+      - Execute transactions at the request of the Vietnam Securities Depository
+and Clearing Corporation and the Stock Exchange in order to reduce positions of
+its clients;
+     c) Liquidate and close positions on proprietary trading accounts and market
+maker accounts (if any), prioritizing execution of transactions of its clients before
+its own position-closing transactions;
+     d) Pay fully taxes, service prices, debts and other financial obligations related
+to derivatives business operations (if any).
+     6. Within 5 working days after completing the procedures specified in
+
+
+                                                                                     9
+Clauses 5 and 6 of this Article, a derivatives business institution shall submit a
+dossier of reporting on settlement results to the State Securities Commission of
+Vietnam, which must comprise:
+      a) A list of clients with adequate know-your-customer information,
+derivatives trading account and margin account numbers, and a list of margin
+assets and positions on each account; reasons for failure to liquidate and settle
+existing accounts (if not yet unsettled);
+   b) A minutes of liquidation and certification made by the replacing clearing
+member that the handover of margin accounts and assets of clients to the replacing
+member (if any) is completed;
+     c) A decision on revocation of trading member status, clearing member
+status;
+     d) A written certification that taxes, service prices, debts and other financial
+obligations related to derivatives business operations have been fully paid.
+     7. Within 5 working days after receiving a dossier of reporting on settlement
+results specified in Clause 7 of this Article, the State Securities Commission of
+Vietnam shall modify the derivatives business eligibility certificate, for case of
+termination of one or several derivatives business operations, or issue a decision
+on revocation of the derivatives business eligibility certificate, for case of
+termination of all derivatives business operations. In case of refusal to do so, the
+State Securities Commission of Vietnam shall reply in writing and clearly state the
+reasons.
+     Article 8. Compulsory termination of derivatives business operations
+     1. A derivatives business organization is compelled to terminate its
+derivatives business operations in the following cases:
+     a) Upon the expiration of the derivatives business operation suspension
+period, it still fails to remedy its violations that lead to the operation suspension;
+     b) It is dissolved, falls bankrupt, suspends its operations or has its
+establishment and operation license revoked; is divided, split up, consolidated or
+merged but the organization formed from the division, splitting, consolidation or
+merger fails to satisfy one of the business conditions specified in Clauses 2 and 3,
+Article 4 of this Decree.
+     2. Within 30 days after a derivatives business organization falls into one of
+the cases specified in Clause 1 of this Article, the State Securities Commission of
+Vietnam shall send a written request to such organization for performance of
+procedures for termination of its derivatives business operations.
+
+
+                                                                                     10
+     3. Upon receiving a written request of the State Securities Commission of
+Vietnam for compulsory termination of derivatives business operations, a
+derivatives business organization shall disclose information and send notices to its
+clients under Clause 5, Article 7 of this Decree.
+     4. A derivatives business organization shall comply with Clauses 6 and 7,
+Article 7 of this Decree for carrying out procedures for termination of its
+derivatives business operations and send to the State Securities Commission of
+Vietnam a dossier of reporting on settlement results.
+      5. Within 5 working days after receiving a dossier of reporting on results of
+performance of procedures for termination of derivatives business operations, the
+State Securities Commission of Vietnam shall modify the derivatives business
+eligibility certificate, for case of termination of one or several derivatives business
+operations, or issue a decision on revocation of the derivatives business eligibility
+certificate, for case of termination of all derivatives business operations.
+
+
+                                      Section 2
+ DERIVATIVES CLEARING AND PAYMENT SERVICE PROVIDERS
+     Article 9. Conditions for grant of a derivatives clearing and payment
+service provision eligibility certificate
+     1. A securities company, commercial bank or foreign bank branch may only
+provide derivatives clearing and payment services after being granted a derivatives
+clearing and payment service provision eligibility certificate by the State
+Securities Commission of Vietnam:
+     a) A securities company may make clearing or payment for its own and its
+clients’ derivatives transactions, and provide derivatives clearing and payment
+services to non-clearing members and their clients;
+    b) A commercial bank or foreign bank branch may only make clearing or
+payment for its own derivatives transactions.
+     2. Conditions for a securities company to be granted a derivatives clearing
+and payment service provision eligibility certificate:
+      a) Having been granted a securities depository operation registration
+certificate;
+     b) Having been licensed for derivatives brokerage operation;
+     c) Satisfying the following conditions on charter capital and equity:
+
+
+
+                                                                                      11
+   - For direct clearing members: having the charter capital, equity of at least
+VND 900 billion;
+   - For general clearing members: having the charter capital, equity of at least
+VND 1.2 trillion;
+     d) Having a liquidity ratio of at least 260% for the last 12 consecutive months,
+and a debt-to-equity ratio not exceeding 5 as stated in the latest annual financial
+statement; and having set aside all provisions as required by law;
+     dd) Having suffered no losses for the last 2 years;
+      e) Opinion of an qualified auditing firm for the audited financial statement of
+the latest fiscal year and the reviewed latest semi-annual financial statement (for
+case of application for a derivatives business eligibility certificate after June 30)
+must be fully accepted;
+     g) Satisfying requirements on internal control and risk management in
+accordance with regulations on operation of securities companies;
+     h) Not undergoing reorganization, dissolution or bankruptcy; not being
+subject to operation cessation or operation suspension under a decision of a
+competent agency.
+     3. Conditions for a commercial bank or foreign bank branch to be granted a
+derivatives clearing and payment service provision eligibility certificate:
+     a) Satisfying the conditions for securities clearing and payment service
+provision prescribed by the law on credit institutions;
+    b) Having the charter capital or equity of at least VND 5 trillion, for
+commercial banks, or the allocated capital of at least VND 1 trillion, for foreign
+bank branches;
+      c) Having satisfied the condition on capital adequacy ratio as prescribed by
+the law on credit institutions for the last 12 months;
+     d) Satisfying the conditions specified at Points a and h, Clause 2 of this
+Article.
+     Article 10. Dossiers, order and procedures for grant of derivatives
+clearing and payment service provision eligibility certificates
+     1. A dossier of application for a derivatives clearing and payment service
+provision eligibility certificate must comprise:
+      a) An application for a derivatives clearing and payment service provision
+eligibility certificate, made according to Form No. 04 provided in the Appendix to
+this Decree;
+
+                                                                                    12
+     b) A resolution of the Shareholders’ General Meeting or Members’ Council
+or a decision of the owner on provision of derivatives clearing and payment
+services;
+      c) Audited financial statements of the latest 2 fiscal years and the reviewed
+latest biannual financial statement (for case of application for a derivatives
+clearing and payment service provision eligibility certificate after June 30); and a
+report on financial safety ratio for the latest 12 months (for securities companies)
+or a document proving satisfaction of the requirement on capital adequacy ratio
+(for commercial banks and foreign bank branches);
+     d) Processes of internal control and risk management for the provision of
+derivatives clearing and payment services;
+     dd) A written permission of the State Bank of Vietnam for the commercial
+bank or foreign bank branch to provide derivatives clearing and payment services
+in accordance with the law on credit institutions.
+     2. Documents included in a dossier specified in Clause 1 of this Article are
+not required in case they have been sent to the State Securities Commission of
+Vietnam under regulations on reporting and information disclosure.
+     3. A dossier of application for a derivatives clearing and payment service
+provision eligibility certificate shall be made in an original set. In case a document
+included in the dossier is a copy, such copy must be made from the master register
+or certified. Such a dossier shall be hand-delivered, sent by post or submitted via
+the online public service system to the State Securities Commission of Vietnam
+under guidance of the Minister of Finance.
+     4. Within 5 working days after receiving a dossier, the State Securities
+Commission of Vietnam shall send a written request to the securities company,
+commercial bank or foreign bank branch for modification or supplementation of
+the dossier (if necessary).
+      5. Within 15 days after receiving a complete and valid dossier, the State
+Securities Commission of Vietnam shall grant a derivatives clearing and payment
+service provision eligibility certificate. In case of refusal to grant such a certificate,
+the State Securities Commission of Vietnam shall reply in writing and clearly state
+the reasons.
+     6. Within 12 months after being granted a derivatives clearing and payment
+service provision eligibility certificate, a derivatives clearing and payment service
+provider shall make trading member registration; otherwise, the State Securities
+Commission of Vietnam shall issue a decision to revoke its derivatives clearing
+and payment service provision eligibility certificate.
+
+
+                                                                                        13
+    Article 11. Cessation, resumption of provision of derivatives clearing and
+payment services
+     1. The State Securities Commission of Vietnam shall issue a decision on
+cessation for up to 12 months of derivatives clearing and payment service
+provision of a derivatives clearing and payment service provider in the following
+cases:
+     a) The securities company has failed to satisfy the conditions specified at
+Points c and d, Clause 2, Article 9 of this Decree for 6 consecutive months; or the
+commercial bank or foreign bank branch has failed to satisfy the conditions
+specified at Points b and c, Clause 3, Article 9 of this Decree for 6 consecutive
+months;
+     b) The derivatives clearing and payment service provider is subject to
+operation cessation or suspension in accordance with law.
+     2. A derivatives clearing and payment service provider suspended from
+providing derivatives clearing and payment services shall take the measures
+specified in Clauses 2 and 3, Article 6 of this Decree.
+     3. The State Securities Commission of Vietnam shall issue a decision on
+resumption of derivatives clearing and payment service provision of a derivatives
+clearing and payment service provider only after such service provider has fully
+remedied its violations that lead to the operation cessation.
+     Article 12. Voluntary termination of derivatives clearing and payment
+service provision
+     1. A derivatives clearing and payment service provider that wishes to
+voluntarily terminate its derivatives clearing and payment service provision shall
+submit a dossier to the State Securities Commission of Vietnam, which must
+comprise:
+     a) A written request for termination of derivatives clearing and payment
+service provision, made according to Form No. 05 provided in the Appendix to
+this Decree;
+     b) A resolution of the Shareholders’ General Meeting or Members’ Council
+or a decision of the owner on termination of derivatives clearing and payment
+service provision and approval of a plan on settlement of related issues;
+     c) Plans on settlement of valid derivatives clearing and payment service
+provision contracts, including a plan on settlement of margin accounts and margin
+assets of clients.
+     2. A dossier of request for voluntary termination of derivatives clearing and
+
+
+                                                                                  14
+payment service provision shall be made in 1 original set. In case a document
+included in the dossier is a copy, such copy shall be made from the master register
+or certified. Such a dossier shall be hand-delivered, sent by post or submitted via
+the online public service system to the State Securities Commission of Vietnam
+under guidance of the Minister of Finance.
+     3. Within 5 working days after receiving a dossier, the State Securities
+Commission of Vietnam shall send a written request for dossier modification or
+supplementation (if necessary) to the derivatives clearing and payment service
+provider.
+     4. Within 7 working days after receiving a complete and valid dossier, the
+State Securities Commission of Vietnam shall issue a written permission for
+performance of procedures for termination of derivatives clearing and payment
+service provision. In case of refusal to issue such a permission, the State Securities
+Commission of Vietnam shall reply in writing and clearly state the reasons.
+     5. After receiving a written permission of the State Securities Commission
+of Vietnam for performance of procedures for termination of derivatives clearing
+and payment service provision, a derivatives clearing and payment service
+provider shall take the measures specified in Clauses 5 and 6, Article 7 of this
+Decree.
+      6. Within 5 working days after completing the procedures specified in
+Clause 5 of this Article, a derivatives clearing and payment service provider shall
+submit to the State Securities Commission of Vietnam a dossier of reporting on
+settlement results, which must comprise:
+     a) A list of clients with adequate know-your-customer information,
+derivatives trading accounts, margin accounts, and a list of margin assets and
+positions on each account; reasons for failure to liquidate and settle existing
+accounts that remain unsettled;
+     b) A minutes of liquidation and certification made by the replacing clearing
+member that the handover of margin accounts and margin assets of clients to the
+replacing member (if any) is completed;
+     c) A decision on revocation of clearing member status;
+     d) A written certification that taxes, service prices, debts and other financial
+obligations related to derivatives clearing and payment service provision have
+been fully paid.
+
+
+
+
+                                                                                     15
+      7. Within 5 working days after receiving a dossier of reporting on results of
+settlement of the termination of derivatives clearing and payment service
+provision, the State Securities Commission of Vietnam shall issue a decision on
+revocation of the derivatives clearing and payment service provision eligibility
+certificate. In case of refusal to issue such a decision, the State Securities
+Commission of Vietnam shall reply in writing and clearly state the reasons.
+     Article 13. Compulsory termination of derivatives clearing and payment
+service provision
+     1. A derivatives clearing and payment service provider is compelled to
+terminate its derivatives clearing and payment service provision in the following
+cases:
+     a) Upon the expiration of the derivatives clearing and payment service
+provision cessation period, it still fails to remedy its violations that lead to the
+operation cessation;
+     b) It is dissolved, falls bankrupt, suspends its operation or has its
+establishment and operation license revoked; no longer conducts derivatives
+brokerage; or is divided, split up, consolidated or merged but the institution formed
+from the division, splitting, consolidation or merger fails to satisfy one of the
+business conditions specified in Clauses 2 and 3, Article 9 of this Decree.
+     2. Within 30 days after a derivatives clearing and payment service provider
+is compelled to terminate its derivatives clearing and payment service provision,
+the State Securities Commission of Vietnam shall send a written request to such
+service provider for performance of procedures for termination of its derivatives
+clearing and payment service provision.
+     3. Upon receiving a written request of the State Securities Commission of
+Vietnam for compulsory termination of derivatives clearing and payment service
+provision, a derivatives clearing and payment service provider shall implement
+and apply relevant provisions of Clauses 5 and 6, Article 7 of this Decree.
+      4. Within 5 working days after completing the procedures specified in
+Clause 3 of this Article, a derivatives clearing and payment service provider shall
+submit to the State Securities Commission of Vietnam a dossier of reporting on
+settlement results under Clause 6, Article 12 of this Decree.
+      5. Within 5 working days after receiving a dossier of reporting on results of
+performance of procedures for termination of derivatives clearing and payment
+service provision, the State Securities Commission of Vietnam shall issue a
+decision on revocation of the derivatives clearing and payment service provision
+eligibility certificate.
+
+
+                                                                                    16
+                                  Chapter III
+                 THE DERIVATIVES TRADING MARKET
+                                  Section 1
+                               DERIVATIVES
+     Article 14. Derivatives to be traded on the derivatives market
+     1. Derivatives to be traded on the derivatives market include:
+     a) Futures and listed options based on underlying assets being securities,
+securities indexes or other assets as prescribed by the Government which may be
+used as a basis for valuation of derivatives;
+    b) Forwards and options of agreement-based transactions based on
+underlying assets being securities or securities indexes on the Stock Exchange.
+     2. A derivative to be traded on the Stock Exchange must have the following
+principal contents:
+     a) Information on underlying assets, including their names and codes and
+other information;
+      b) Information on the derivative, including title and size of the contract,
+trading method, position limit, trading duration, maturity time, last payment date,
+last trading date, listing date, payment mode, tick size, quotation unit, fluctuation
+limit, method of determining end-of-the-day price, final payment price, reference
+price, and margin level;
+     c) For derivatives being options, there must be also information on option
+type (put or call), option style (exercise on the maturity date or exercise before or
+on the maturity date), and exercise price.
+     Article 15. Listing of derivatives
+     1. The Stock Exchange shall coordinate with the Vietnam Securities
+Depository and Clearing Corporation in determining contents of derivatives as
+specified in Clause 2, Article 14 of this Decree; list derivatives and organize
+derivatives trading after obtaining approval from the State Securities Commission
+of Vietnam in accordance with law.
+     2. The Stock Exchange shall delist a derivative in the following cases:
+     a) The derivative becomes mature;
+    b) The derivative’s underlying asset is delisted or no longer used as
+underlying asset;
+
+
+
+
+                                                                                    17
+      c) Other cases in which the State Securities Commission of Vietnam deems
+it necessary to delist the derivative to protect interests of investors.
+     3. The delisting of a derivative under Point b, Clause 2 of this Article is
+subject to approval by the State Securities Commission of Vietnam.
+     Article 16. Derivatives investment
+     1. Institutions and individuals may freely invest in derivatives available on
+the derivatives market, except cases in which they are prohibited by competent
+agencies to carry out securities and securities market activities for a definite time
+or an indefinite time for their violations in securities and securities market
+activities and the following cases of conditional investment:
+     a) A securities company may invest in derivatives only after being granted a
+derivatives business eligibility certificate by the State Securities Commission of
+Vietnam to carry out the derivatives dealing operation;
+     b) A fund management company may only invest in derivatives for the
+purpose of preventing risks for securities portfolios which it is holding with regard
+to entrusted capital from investment portfolio management activities; and may
+only invest in derivatives for the purpose of preventing risks in accordance with
+regulations on securities investment funds with regard to capital sources of
+securities investment funds or securities investment companies. A fund
+management company may not invest in derivatives with its own capital, loans
+and other lawfully raised capital sources;
+      c) A credit institution or foreign bank branch may invest in derivatives only
+after obtaining written approval from the State Bank;
+     d) An insurance enterprise or a foreign insurance enterprise branch may only
+invest in derivatives in accordance with the law on insurance business;
+     dd) A state economic group, state corporation or state enterprise may invest
+in derivatives only after obtaining permission from a competent state agency in
+accordance with the law on management and use of state capital invested in
+production or business at enterprises.
+      2. In the course of derivatives investment or derivatives business,
+institutions and individuals shall bear responsibility for risks and comply with law
+and may not commit prohibited acts prescribed by the law on securities and the
+securities market.
+
+
+
+
+                                                                                    18
+                                 Section 2
+    ORGANIZATION OF THE DERIVATIVES TRADING MARKET
+    Article 17. Organization of derivatives trading
+      1. The Stock Exchange may organize the derivatives trading market referred
+to in Clause 1, Article 14 of this Decree.
+     2. The Stock Exchange shall organize and administer operation of the
+derivatives trading market in accordance with the Law on Securities, this Decree,
+relevant legal documents, and its charter.
+     3. The Stock Exchange may suspend trading in one, several or all of
+derivatives on the market after obtaining approval from the State Securities
+Commission of Vietnam in the following cases:
+     a) It is impossible to valuate underlying assets due to cessation of trading on
+the underlying market or suspension of underlying asset trading for 3 working
+days;
+     b) A force majeure event or technical incident occurs in the securities trading
+system or securities clearing or payment system;
+     c) The State Securities Commission of Vietnam so requests to protect lawful
+rights and interests of investors and ensure stability and safety of the securities
+market.
+     Article 18. Rights of the Stock Exchange regarding derivatives trading
+activities
+     1. To design products, list derivatives and organize trading in listed
+derivatives and issue professional regulations after obtaining approval from the
+State Securities Commission of Vietnam.
+     2. To accept or reject registration, suspend or cancel the membership of
+trading members, special trading members and market makers.
+     3. In case a trading member has its membership suspended or cancelled and
+therefore cannot perform the agreement and find a replacing trading member, the
+Stock Exchange may designate a replacing trading member to take over the rights
+and obligations of such member.
+     4. To request the Vietnam Securities Depository and Clearing Corporation to
+timely and fully provide necessary information serving the supervision and
+organization of the derivatives trading market in accordance with law.
+    5. Other rights provided in Clauses 1 and 4, Article 46 of the Law on
+Securities and other relevant laws.
+
+
+                                                                                   19
+     Article 19. Obligations of the Stock Exchange regarding derivatives
+trading activities
+     1. To ensure information technology and technical infrastructure systems for
+operation of the derivatives trading market; to organize operation of the derivatives
+trading market, supervise and disclose information on derivatives trading in
+accordance with law.
+     2. To inspect and supervise the maintenance of conditions for member
+registration and compliance with its regulations and relevant regulations by trading
+members, special trading members and market makers; to promptly, fully and
+accurately report on operation of the market and members to the State Securities
+Commission of Vietnam under regulations, or when so requested or detecting a
+violation.
+     3. To coordinate with the Vietnam Securities Depository and Clearing
+Corporation in ensuring safe and efficient trading activities on the derivatives
+trading market and clearing and payment of derivatives transactions in accordance
+with this Decree and other relevant legal documents.
+     4. To perform other obligations provided in Clauses 2 and 4, Article 46 of
+the Law on Securities and other relevant laws.
+     Article 20. Derivatives trading
+      1. Trading in listed derivatives specified at Point a, Clause 1, Article 14 of
+this Decree shall be carried out via trading members and the Stock Exchange. The
+Stock Exchange shall organize trading in listed derivatives by methods of order
+matching and agreement.
+      2. Agreement-based derivatives transactions specified at Point b, Clause 1,
+Article 14 of this Decree may be carried out under agreements between the parties
+to transactions and in compliance with relevant regulations. After entering into and
+performing contracts, investors shall notify such in writing to the Vietnam
+Securities Depository and Clearing Corporation.
+     3. The Minister of Finance shall provide guidance on derivatives trading.
+     Article 21. Market stabilization measures
+      1. The Stock Exchange may apply one or several of the following measures
+to stabilize the market and protect investors under its regulations:
+     a) Changing the number of trading sessions and trading time;
+     b) Applying or adjusting order limits;
+     c) Applying fluctuation limits or market circuit breakers;
+
+
+                                                                                    20
+     d) Limiting the opening of new positions;
+     dd) Ceasing or cancelling trading orders.
+     2. The Stock Exchange may suspend or cease part or the whole of or resume
+derivatives trading activities after obtaining approval from the State Securities
+Commission of Vietnam.
+
+                         Section 3
+        TRADING MEMBERS, SPECIAL TRADING MEMBERS,
+                    MARKET MAKERS
+     Article 22. Registration of trading members
+     1. A securities company that wishes to register itself as a trading member on
+the Stock Exchange must satisfy the following conditions:
+     a) Being licensed to carry out the derivatives brokerage operation;
+     b) Meeting requirements of the Stock Exchange on information technology
+infrastructure and professional process for derivatives trading;
+   c) Having clearing and payment entrustment contracts with general clearing
+members, in case of registration as a non-clearing member.
+    2. A trading member registration dossier of a securities company must
+comprise:
+    a) An application for registration as a trading member on the derivatives
+market, made according to Form No. 06 provided in the Appendix to this Decree;
+   b) A derivatives business eligibility certificate granted by the State Securities
+Commission of Vietnam;
+      c) A written explanation about information technology infrastructure
+facilities and professional process under guidance of the Stock Exchange;
+   d) Clearing and payment entrustment contracts with general clearing
+members, in case of registration as a non-clearing member.
+     3. A trading member registration dossier shall be made in 1 original set. In
+case a document included in the dossier is a copy, such copy shall be made from
+the master register or certified. Such a dossier shall be hand-delivered or sent by
+post to the Stock Exchange.
+     4. Within 7 working days after receiving a trading member registration
+dossier:
+     a) In case the dossier is complete and valid, the Stock Exchange shall request
+
+
+                                                                                   21
+in writing the registering institution to complete its physical foundations, install
+systems and connect software for trading data transmission and receipt, conduct
+trial transactions, and perform other jobs for trading organization;
+     b) In case the dossier is incomplete and invalid, the Stock Exchange shall
+request in writing the registering institution to modify or supplement the dossier.
+     5. Within 5 working days after the securities company completes
+preparations for trading , the Stock Exchange shall issue a decision to approve
+trading member status, and disclose information for the new member in its
+information disclosure media.
+     6. The Stock Exchange shall disapprove trading member status in the
+following cases:
+   a) The registering institution fails to satisfy conditions for becoming a trading
+member;
+     b) The member registration dossier contains a forged document or untruthful
+information;
+     c) The securities company fails to complete procedures for being granted a
+decision approving its trading member status within 90 days after the Stock
+Exchange sends a written request to the former under Clause 4 of this Article.
+      The Stock Exchange shall send a written reply to the registering securities
+company, clearly stating the reason for disapproval, and disclose information in
+its information disclosure media.
+     7. A trading member shall commence its trading activities on the derivatives
+trading system at the Stock Exchange within 60 days after its membership is
+approved.
+     8. Cessation of trading activities of trading members, termination or
+cancellation of trading member status, handling of violations committed by trading
+members, and other activities related to trading members must comply with
+regulations on the Minister of Finance and the Stock Exchange.
+      9. A securities company may only register itself as a trading member once
+again after 2 years from the date of voluntary cancellation of its membership or
+after 3 years from the date of compulsory cancellation of its membership.
+     Article 23. Registration of special trading members
+     1. A commercial bank or foreign bank branch may register itself as a special
+trading member on the Stock Exchange when satisfying the following conditions:
+
+
+
+
+                                                                                   22
+     a) Being a special trading member on the governmental bond market of the
+Stock Exchange;
+     b) Having obtained a written permission of the State Bank for investment in
+derivatives;
+   c) Having clearing and payment entrustment contracts with general clearing
+members, in case of registration as a non-clearing member;
+     d) Satisfying requirements of the Stock Exchange on information technology
+infrastructure and professional process for derivatives trading;
+     dd) Not undergoing consolidation, merger or dissolution; not being subject
+to control or special control, operation cessation or operation suspension under a
+decision of a competent agency.
+     2. A special trading member registration dossier must comprise:
+     a) An application for registration as a special trading member on the
+derivatives market, made according to Form No. 06 provided in the Appendix to
+this Decree;
+     b) A written permission of the State Bank for investment in derivatives;
+      c) A written explanation about information technology infrastructure
+facilities and professional process under guidance of the Stock Exchange;
+   d) Clearing and payment entrustment contracts with general clearing
+members in case of registration as a non-clearing member.
+      3. A special trading member registration dossier shall be made in 1 original
+set. In case a document included in the dossier is a copy, such copy shall be made
+from the master register or certified. Such a dossier shall be hand-delivered or sent
+by post to the Stock Exchange.
+     4. Within 7 working days after receiving a special trading member
+registration dossier:
+       a) In case the dossier is complete and valid, the Stock Exchange shall request
+in writing the registering institution to complete its physical foundations, install
+systems and connect software for trading data transmission and receipt, conduct
+trial transactions, and perform other jobs for trading organization;
+     b) In case the dossier is incomplete and invalid, the Stock Exchange shall
+request in writing the registering institution to modify or supplement the dossier.
+    5. Within 5 working days after the commercial bank or foreign bank branch
+completes preparations for trading, the Stock Exchange shall issue a decision to
+
+
+
+                                                                                    23
+approve special trading member status of, and disclose information on, the new
+member in its information disclosure media.
+     6. The Stock Exchange shall disapprove special trading member status in the
+following cases:
+     a) The registering institution fails to satisfy conditions for becoming a special
+trading member;
+     b) The member registration dossier contains a forged document or untruthful
+information;
+      c) The commercial bank or foreign bank branch fails to complete procedures
+for being granted a decision approving its special trading member status within 90
+days after the Stock Exchange sends a written request to the former under Clause
+4 of this Article.
+     The Stock Exchange shall send a written reply to the commercial bank or
+foreign bank branch registering itself as a member, clearly stating the reason for
+disapproval, and disclose information in its information disclosure media.
+     7. Cessation of trading activities of special trading members, termination or
+cancellation of special trading member status, handling of violations committed
+by special trading members, and other activities related to special trading members
+must comply with regulations on the Minister of Finance and the Stock Exchange.
+     8. A commercial bank or foreign bank branch may only register itself as a
+special trading member once again after 2 years from the date of voluntary
+cancellation of its membership or after 3 years from the date of compulsory
+cancellation of its membership.
+     Article 24. Registration of market makers
+     1. A trading member or special trading member that is concurrently a
+clearing member may register itself as a market maker on the basis of a market
+maker contract with the Stock Exchange.
+     2. The Stock Exchange may adjust the number of market makers, reject
+registration of market makers, and refuse to extend market maker contracts.
+    3. A derivatives market maker registration dossier on the derivatives market
+must comprise:
+     a) An application for registration as a market maker, made according to Form
+No. 07 provided in the Appendix to this Decree;
+
+
+
+
+                                                                                     24
+    b) A derivatives clearing member certificate granted by the Vietnam
+Securities Depository and Clearing Corporation;
+      c) A written explanation about information technology infrastructure
+facilities and professional process under guidance of the Stock Exchange.
+      4. A market maker registration dossier shall be made in 1 original set. In case
+a document included in the dossier is a copy, such copy shall be made from the
+master register or certified. Such a dossier shall be hand-delivered or sent by post
+to the Stock Exchange.
+     5. Within 7 working days after receiving a market maker registration
+dossier:
+     a) In case the dossier is complete and valid, the Stock Exchange shall request
+in writing the registering institution to organize testing of the market maker
+function;
+     b) In case the dossier is incomplete and invalid, the Stock Exchange shall
+request in writing the registering institution to modify or supplement the dossier.
+     6. After a member completes testing its price quotation function to serve
+market making activities, the Stock Exchange shall issue a notice of in-principle
+approval of the market maker for the latter to make preparations for market making
+activities at the request of the Stock Exchange.
+     7. Within 5 working days after a member completes preparations for market
+making activities, the Stock Exchange shall issue a decision to approve market
+maker status of, and disclose information on, the new member in its information
+disclosure media.
+     8. The Stock Exchange shall disapprove market maker status in the
+following cases:
+    a) The registering institution fails to satisfy conditions for becoming a market
+maker;
+     b) The market maker registration dossier contains a forged document or
+untruthful information;
+      c) The member fails to comply with Clause 6 of this Article within 30 days
+after being approved in principle as a market maker;
+     d) The member fails to complete procedures for being approved as a market
+maker within 90 days after the Stock Exchange receives a complete and valid
+dossier.
+
+
+
+                                                                                    25
+     The Stock Exchange shall notify in writing the registering institution of
+reason(s) for disapproving the membership and disclose information in its
+information disclosure media.
+    9. The cessation of market making activities of market makers, termination
+or cancellation of membership of market makers, handling of violations
+committed market makers, and other activities related to market makers must
+comply with regulations of the Minister of Finance and the Stock Exchange.
+   Article 25. Rights and obligations of trading members, special trading
+members and market makers
+     1. Rights and obligations of trading members:
+     a) To execute trading orders of investors after making sure that investors have
+trading accounts and margin accounts and have made full margins upon request of
+clearing members; to provide investors on a regular basis or upon their request
+with adequate information on activities on trading accounts;
+      b) Trading members that have their membership suspended or cancelled are
+obliged to reach agreement on establishing replacing trading members and provide
+all necessary information on investors to the replacing trading members and
+continue performing their obligations until the handover of rights and obligations
+to the replacing trading members is completed;
+    c) Other rights and obligations provided in Clauses 2 and 3, Article 47 of the
+Law on Securities and guiding documents.
+     2. Rights and obligations of special trading members:
+    a) To invest in derivatives based on underlying assets being governmental
+bonds for themselves;
+    b) Other rights and obligations provided in Clauses 2 and 3, Article 47 of the
+Law on Securities and guiding documents.
+     3. Rights and obligations of market makers:
+     a) To enjoy incentives as agreed upon with the Stock Exchange in
+accordance with law;
+     b) To open market maker accounts separately from dealing accounts and
+trading accounts of investors;
+     c) To make quotations under regulations of the Stock Exchange.
+     Article 26. Contracts on opening of derivatives trading accounts
+
+
+
+
+                                                                                   26
+     1. Trading members shall request investors to provide adequate and accurate
+know-your-customer information before entering into contracts to open
+derivatives trading accounts for investors.
+     2. A contract on opening of a derivatives trading account must have the
+following principal contents on clearing and payment entrustment:
+     a) The terms stating that the clearing member may use margin assets of the
+investor to make margins at the Vietnam Securities Depository and Clearing
+Corporation for open positions of the investor; and may close positions and use
+margin assets of the investor in case the investor is insolvent;
+     b) Risks occurring in case the clearing member is insolvent, subject to
+operation cessation or suspension or dissolved or falls bankrupt.
+     3. The model contract on opening of a derivatives trading account for
+investors shall be issued by the Minister of Finance.
+
+                       Chapter IV
+          DERIVATIVES CLEARING AND PAYMENT
+                        Section 1
+   ORGANIZATION OF DERIVATIVES CLEARING AND PAYMENT
+     Article 27. Organization of derivatives clearing and payment
+     1. A transaction in a listed derivative as specified at Point a, Clause 1, Article
+14 of this Decree may be cleared or paid under the central counterparty mechanism
+through the Vietnam Securities Depository and Clearing Corporation.
+    2. An agreement-based transaction in a derivative as specified at Point b,
+Clause 1, Article 14 of this Decree may be cleared or paid under the central
+counterparty mechanism through the Vietnam Securities Depository and Clearing
+Corporation under a service provision contract between the Vietnam Securities
+Depository and Clearing Corporation and parties to the transaction.
+    Article 28. Rights of the Vietnam Securities Depository and Clearing
+Corporation regarding derivatives clearing and payment
+     1. To clear and pay for derivatives transactions; to issue professional
+regulations after obtaining approval from the State Securities Commission of
+Vietnam.
+     2. To accept or reject registration, suspend or cancel membership of clearing
+members.
+     3. In case a clearing member has its membership suspended or cancelled and
+therefore cannot perform the agreement and establish a replacing clearing member,
+
+
+                                                                                      27
+to designate a replacing clearing member to take over the rights and obligations of
+such member.
+    4. Rights of the Vietnam Securities Depository and Clearing Corporation
+toward clearing members:
+     a) To request clearing members to make margins and contribute to the
+clearing fund;
+     b) To request clearing members to fully, promptly and specifically report on
+trading and payment clearing activities, margin accounts and margin assets of
+investors;
+     c) To determine margin types, adjust margin levels and the list of assets
+accepted as margin assets;
+     d) To determine and adjust position limits;
+     dd) To exercise reciprocal transactions and change positions under names of
+insolvent or bankrupt clearing members to replacing clearing members in order to
+close such positions;
+     e) To determine compensation value and method in case a clearing member
+has insufficient money to pay or has insufficient securities to transfer;
+    g) To refuse positions for invalid transactions under regulations of the
+Minister of Finance.
+    5. To carry out the following activities in order to protect investors and
+market safety:
+     a) To refuse positions for transactions exercised after notifying such to the
+Stock Exchange for cessation of transactions of clearing members and non-
+clearing trading members that have clearing and payment entrustment contracts
+with such clearing members (if any);
+     b) To close or liquidate positions under names of insolvent clearing members,
+including positions of such clearing members and of insolvent investors;
+     c) To use, sell or transfer margin assets of insolvent clearing members and
+investors to perform payment obligations of the insolvent clearing members;
+     d) To use contributions of clearing members to the clearing fund to secure
+payment and offset its financial losses (if any);
+     dd) To transfer margin assets and open positions of clients to replacing
+clearing members under Point h, Clause 2, Article 31 of this Decree. If impossible
+to do so, to close or liquidate positions; to use, sell or transfer assets of clients it
+has received from insolvent clearing members as margin assets to perform such
+
+
+                                                                                       28
+clients’ obligations or offset financial losses arising from open positions of clients.
+Margin assets of clients may only be used to perform financial obligations arising
+from derivatives transactions of such clients;
+     e) To act as the creditor with regard to receivables of clearing members and
+be the first to receive divided assets in accordance with the law on bankruptcy in
+case such clearing members fall bankrupt;
+     g) To request other clearing members to exercise reciprocal transactions to
+close positions under names of insolvent or bankrupt clearing members, regardless
+of whether such positions are open positions of insolvent clearing members or
+investors.
+     6. To provide the service of managing margin accounts and margin assets to
+clearing members, non-clearing members and clients of non-clearing members,
+ensuring separate management of accounts and investment portfolios of clients.
+    7. To request the Stock Exchange and clearing members to promptly and
+adequately provide information on transactions of such members and investors.
+    8. To exercise other rights provided in Clause 1, Article 55 of the Law on
+Securities and other relevant laws.
+    Article 29. Obligations of the Vietnam Securities Depository and
+Clearing Corporation regarding derivatives clearing and payment
+     1. To ensure information technology and technical infrastructure systems for
+derivatives clearing and payment; to organize and supervise derivatives clearing
+and payment to ensure safety, efficiency, fairness and impartiality.
+    2. To establish and operate a risk management system, and formulate a
+payment security mechanism for derivatives clearing and payment activities.
+      3. To inspect and supervise clearing members in complying with regulations
+of the Vietnam Securities Depository and Clearing Corporation and relevant
+regulations; to promptly, fully and accurately report on derivatives clearing and
+payment activities and operations of clearing members to the State Securities
+Commission of Vietnam under regulations, or when so requested or detecting a
+violation.
+      4. To coordinate with and guide clearing members in resolving matters
+related to derivatives clearing and payment activities.
+   5. In derivatives clearing and payment activities, to fulfill its obligations and
+commitments only to clearing members, not to third parties.
+     6. To establish a system to manage accounts and assets of clearing members
+separately from its own accounts and assets; to separately manage accounts and
+
+
+                                                                                      29
+assets of clearing members; to separately manage accounts and assets of clearing
+members and their clients.
+     7. To manage and use the clearing fund and operational risk provision fund
+in accordance with law.
+    8. Other obligations provided in Clause 2, Article 55 of the Law on
+Securities and other relevant laws.
+     Article 30. Registration of clearing members
+     1. A securities company, commercial bank or foreign bank branch that
+wishes to register itself as a clearing member of the Vietnam Securities Depository
+and Clearing Corporation must satisfy the following conditions:
+      a) Having a derivatives clearing and payment service provision eligibility
+certificate granted by the State Securities Commission of Vietnam;
+    b) Being a trading member or special trading member on the derivatives
+market of the Stock Exchange;
+     c) Meeting requirements of the Vietnam Securities Depository and Clearing
+Corporation on information technology infrastructure and professional process for
+derivatives clearing and payment activities.
+     2. A clearing member registration dossier must comprise:
+    a) A written request for registration of a clearing member on the derivatives
+market, made according to Form No. 08 provided in the Appendix to this Decree;
+     b) A derivatives clearing and payment service provision eligibility certificate
+granted by the State Securities Commission of Vietnam;
+     c) A decision on approval of clearing member status or a decision on approval
+of special clearing member status, issued by the Stock Exchange;
+     d) A written explanation about satisfaction of requirements on information
+technology infrastructure and professional process as guided by the Vietnam
+Securities Depository and Clearing Corporation.
+     3. A clearing member registration dossier shall be made in 1 original set. In
+case a document included in the dossier is a copy, such copy shall be made from
+the master register or certified. Such a dossier shall be hand-delivered or sent by
+post to the Vietnam Securities Depository and Clearing Corporation.
+     4. Within 7 working days after receiving a complete and valid clearing
+member registration dossier, the Vietnam Securities Depository and Clearing
+Corporation shall issue a written in-principle approval of clearing member
+registration to the registering institution and request the latter to make preparations
+
+
+                                                                                      30
+for organization of derivatives clearing and payment activities. In case such a
+dossier is incomplete and invalid, the Vietnam Securities Depository and Clearing
+Corporation shall request in writing the registering institution to modify and
+supplement it.
+     5. Within 1 working day after the registering institution completes
+preparations as requested by the Vietnam Securities Depository and Clearing
+Corporation, the latter shall grant a clearing member certificate.
+     6. The Vietnam Securities Depository and Clearing Corporation shall
+disapprove clearing member status in the following cases:
+     a) The registering institution fails to satisfy conditions for becoming a
+clearing member;
+     b) The clearing member registration dossier contains a forged document or
+an untruthful information;
+     c) The registering institution fails to complete procedures for being granted a
+clearing member certificate within 90 days after the Vietnam Securities
+Depository and Clearing Corporation issues a notice of in-principle approval of
+clearing member registration.
+     The Vietnam Securities Depository and Clearing Corporation shall send a
+written reply to the registering institution, clearly stating the reason for
+disapproval, and disclose information in its information disclosure media.
+     7. Cessation of derivatives clearing and payment activities of clearing
+members, termination or cancellation of clearing member status, handling of
+violations committed by clearing members, and other activities related to clearing
+members must comply with regulations of the Minister of Finance and the
+Vietnam Securities Depository and Clearing Corporation.
+     8. A securities company, commercial bank or foreign bank branch may only
+register itself as a clearing member again after 2 years from the date of voluntary
+cancellation of its membership or after 3 years from the date of compulsory
+cancellation of its membership.
+     Article 31. Rights and obligations of clearing members
+     1. Rights of clearing members:
+     a) To request investors to promptly and fully make margins before placing
+orders; to determine margin levels depending on the nature and size of client
+transactions, ensuring that these levels are not lower than the minimum margin
+level set out by the Vietnam Securities Depository and Clearing Corporation; to
+select types of securities to be used as margin assets from the list of assets
+
+
+                                                                                   31
+acceptable as margin assets; to determine methods and period of making and
+adding margins, changing margin securities and transferring margin assets in
+accordance with law;
+     b) In case investors are insolvent, clearing members may:
+     - Request such investors to carry out compulsory closure or liquidation of
+open positions of investors. In case investors fail to do so, clearing members may
+carry out by themselves compulsory closure or liquidation of open positions of
+investors;
+     - Use, sell or transfer margin assets of such investors to buy or to use as
+margin assets for loans to perform payment obligations for open positions of
+investors;
+     c) To use margin assets of investors to perform the margin obligation toward
+the Vietnam Securities Depository and Clearing Corporation for positions of such
+investors on the principles provided in Clause 2, Article 33 of this Decree; to use
+margin assets of investors to secure and make payments regarding positions of
+investors whom they represent;
+      d) A clearing member that performs contractual obligations for another
+clearing member whose membership is suspended or cancelled under Clause 3,
+Article 28 of this Decree may receive investors’ margin assets transferred by the
+latter for management.
+     2. Obligations of clearing members:
+    a) To act as authorized representatives of clients and fulfill on clients’ behalf
+all obligations toward the Vietnam Securities Depository and Clearing
+Corporation.
+      b) To contribute to the clearing fund; to full and promptly make margins at
+the Vietnam Securities Depository and Clearing Corporation for their own and
+their clients’ open positions; to provide professional assistance under the guidance
+of the Vietnam Securities Depository and Clearing Corporation for a clearing
+member or an investor that falls insolvent or bankrupt;
+      c) To establish and maintain an internal control system, a system and
+procedures for risk management in each business operation; to establish and
+operate an account system to separately manage assets and trading positions of
+investors and those of investors and clearing members;
+     d) To determine position profits and losses, calculate margin levels and value
+of margin assets for trading accounts of investors; to request investors to promptly
+and fully add margins; to refund margin assets in excess of the margin level as
+requested by investors; to supervise and manage positions and margin assets of
+
+                                                                                    32
+ investors in accordance with law;
+      dd) To pay compensations to investors in case they fail to perform obligations
+ provided by law, causing damage to lawful interests of investors, at levels agreed
+ upon with investors;
+      e) To provide the Vietnam Securities Depository and Clearing Corporation
+ with copies of clearing and settlement entrustment contracts; to keep all primary-
+ source documents on derivatives clearing and payment; to promptly, fully and
+ accurately provide information on open positions and margin assets of investors
+ and documents related to transactions, clearing and payment at the request of the
+ Vietnam Securities Depository and Clearing Corporation;
+      g) To promptly and fully pay to the Vietnam Securities Depository and
+ Clearing Corporation service charges and other expenses under regulations;
+       h) A clearing member whose membership is suspended or cancelled shall
+ transfer all margin assets and open positions of clients and provide all client-
+ related necessary information to the replacing clearing member and continue
+ performing its obligations until completing the handover of rights and obligations
+ to the replacing clearing member;
+      i) To disclose information and make reports under regulations; to provide, on
+ a regular basis or at the request of investors, all information on activities on margin
+ accounts, margin account balance, and make statements of margin accounts for
+ investors.
+      3. To exercise other rights and perform other obligations under Clauses 4 and
+ 5, Article 56 of the Law on Securities and guiding documents.
+
+                        Section 2
+  CLEARING AND SETTLEMENT OF DERIVATIVES TRANSACTIONS
+      Article 32. Principles of clearing and settlement of derivatives transactions
+      1.     The Vietnam Securities Depository and Clearing Corporation shall
+ensure ability of clearing members to clear and settle for derivatives transaction
+through the risk hedging mechanism provided in Article 35 of this Decree and
+provisions of relevant laws.
+       2. The payment and settlement of monetary derivatives transactions
+ between the Vietnam Securities Depository and Clearing Corporation and clearing
+ members shall be carried out in the form of account transfer via settlement banks
+ in accordance with law. The transfer of underlying assets being securities traded
+ on the Stock Exchange shall be carried out on the system of depository accounts
+ at the Vietnam Securities Depository and Clearing Corporation.
+
+                                                                                       33
+     Article 33. Management of margin accounts and margin assets of
+clearing members
+     1. Clearing members shall fully and promptly make margins on accounts in
+name of the Vietnam Securities Depository and Clearing Corporation. Margin
+assets of clearing members include money, securities and other assets eligible for
+use as margin assets under regulations of the Vietnam Securities Depository and
+Clearing Corporation.
+     2. Margin making by clearing members shall be carried out for all open
+positions under their names, including their own and investors’ open positions, on
+the following principles:
+     a) Margin levels shall be calculated by the Vietnam Securities Depository
+and Clearing Corporation for open positions on margin accounts of investors and
+clearing members in order to determine margin levels required for investor
+accounts of clearing members;
+     b) Assets deposited by investors as margin assets with clearing members
+under Clauses 1, 2 and 3, Article 34 of this Decree may only be used by clearing
+members to make margins for positions of such investors but not for other
+investors or for their own positions.
+     3. On a daily basis and in trading sessions with large securities price
+fluctuations, the Vietnam Securities Depository and Clearing Corporation shall
+determine required margin levels on accounts of investors and clearing members,
+and determine the total margin asset value required to be deposited by clearing
+members and supplemented margin assetvalue of clearing members (if any).
+     4. Clearing members shall add margins or close part or the whole of
+positions at the request of the Vietnam Securities Depository and Clearing
+Corporation. In case a clearing member fails to promptly and fully add the margin,
+the Vietnam Securities Depository and Clearing Corporation may close part or the
+whole of positions under the name of such clearing member, including positions
+of such clearing member and the investor that fails to promptly and fully add the
+margin.
+     5. In case the margin asset value of an investor or a clearing member is larger
+than the margin level required by the Vietnam Securities Depository and Clearing
+Corporation, such clearing member may withdraw part of margin assets under
+guidance of the Vietnam Securities Depository and Clearing Corporation.
+     6. Margin types, margin level determination method, margin making
+method and period, margin addition, transfer of margin assets, margin asset
+valuation method, determination of position profits and losses, and management
+
+
+                                                                                   34
+of margin accounts and margin assets of clearing members must comply with
+guidance of the Minister of Finance and regulations of the Vietnam Securities
+Depository and Clearing Corporation.
+     Article 34. Management of margin accounts and margin assets of investors
+    1. Investors shall promptly and fully make margins for clearing members
+under clauses and terms of contracts on opening of derivatives trading accounts.
+Margin assets must be on the list of assets acceptable by clearing members as
+margin assets.
+     2. On a daily basis and in trading sessions with large securities price
+fluctuations, clearing members shall calculate position profits and losses and
+revaluate margin assets, ensuring that investors always maintain margin levels as
+agreed upon in contracts and in accordance with law.
+     3. At the request of clearing members, investors shall add margins under
+regulations of the Minister of Finance. In case investors fail to promptly and fully
+add margins as requested, clearing members may apply Point b, Clause 1, Article
+31 of this Decree. In case an investor’s margin asset value is larger than the margin
+level required by a clearing member, such investor may withdraw part of the
+investor’s margin assets.
+     4. Clearing members shall separately manage margin accounts and margin
+assets of investors and separately from their own margin accounts and margin
+assets on the following principles:
+     a) For monetary margin assets, clearing members shall open deposit accounts
+at banks and separately manage margin money of investors. Clearing members
+shall coordinate with such banks and request the latter to promptly, fully and
+accurately provide monetary balances of accounts of investors;
+     b) For securities margin assets, clearing members shall manage them on
+depository accounts of investors at the Vietnam Securities Depository and
+Clearing Corporation.
+     5. In case clearing members fall bankrupt in accordance with the law on
+bankruptcy, margin assets of investors are not assets of clearing members and may
+neither be used for disposal in accordance with the law on bankruptcy nor divided
+in any form to creditors of clearing members or to shareholders or capital
+contributing members of companies. Such margin assets may only be used to pay
+or secure payment regarding obligations arising from open positions of investors.
+Assets left after the payment obligation of investors is fulfilled shall be
+immediately returned to such investors.
+     6. The management of margin accounts and margin assets of investors must
+
+
+                                                                                    35
+comply with regulations of the Minister of Finance.
+    Article 35. Risk hedging mechanism at the Vietnam Securities
+Depository and Clearing Corporation
+     1. The Vietnam Securities Depository and Clearing Corporation may apply
+the following measures to hedge risks for the payment system and protect
+investors:
+     a) Determining and adjusting margin levels under regulations;
+     b) Requesting clearing members to make contributions to the clearing fund;
+     c) Determining and adjusting position limits applicable to clearing members
+and investors;
+     d) Partially or wholly closing open positions of insolvent investors and
+clearing members;
+     dd) Using the clearing fund and taking other measures specified in Clause 5,
+Article 28 of this Decree.
+     2. The Vietnam Securities Depository and Clearing Corporation shall guide
+risk hedging measures after obtaining approval from the State Securities
+Commission of Vietnam.
+    Article 36. Coordination between the Stock Exchange and the Vietnam
+Securities Depository and Clearing Corporation
+    Within the scope of their operation, the Stock Exchange and Vietnam
+Securities Depository and Clearing Corporation shall coordinate in:
+     1. Guiding the provisions of Clause 1, Article 15 of this Decree regarding
+derivatives listed on the Stock Exchange.
+     2. Granting identification numbers to investors, trading codes and
+International Securities Identification Numbers (ISINs) for derivatives.
+     3. Handling the case in which a securities company, commercial bank or
+foreign bank branch is suspended from trading or has its trading member status or
+special trading member status at the Stock Exchange cancelled, or is suspended
+from derivative payment clearing activities or has its clearing member status at the
+Vietnam Securities Depository and Clearing Corporation cancelled.
+     4. Establishing and managing position limits, determining payment prices,
+sharing information and carrying out supervision and other activities when
+necessary.
+
+
+
+
+                                                                                   36
+                           Chapter V
+                    REPORTING REGIME AND
+              INFORMATION DISCLOSURE OBLIGATION
+     Article 37. Reporting regime
+      1. The Stock Exchange, Vietnam Securities Depository and Clearing
+Corporation, derivatives business organizations, derivatives clearing and
+settlement service providers, trading members, special trading members, market
+makers and clearing members shall keep all documents on their transactions and
+business operations.
+      2. The Stock Exchange, Vietnam Securities Depository and Clearing
+Corporation, derivatives business organizations and derivatives clearing and
+settlement service providers shall, on a regular basis or an extraordinary basis or
+at the request of the State Securities Commission of Vietnam, report on derivatives
+business activities, derivatives clearing and settlement activities and transactions
+to the State Securities Commission of Vietnam.
+      3. The Stock Exchange, Vietnam Securities Depository and Clearing
+Corporation, derivatives business organizations, derivatives clearing and
+settlement service providers, trading members, special trading members, market
+makers and clearing members shall promptly, adequately and accurately provide
+information and documents and make explanations at the request of the State
+Securities Commission of Vietnam.
+     4. Trading members, special trading members, market makers and clearing
+members shall report to the Stock Exchange and Vietnam Securities Depository
+and Clearing Corporation under their regulations.
+     5. Organizations and individuals engaged in derivatives trading, derivatives
+business or provision of derivatives clearing or settlement services shall promptly,
+adequately and accurately provide information, documents and data related to
+derivatives transactions and make explanations about related cases and matters at
+the request of the State Securities Commission of Vietnam, Stock Exchange and
+Vietnam Securities Depository and Clearing Corporation.
+     6. The subjects specified in Clauses 1, 2 and 3 of this Article shall comply
+with the reporting regime in accordance with law.
+     Article 38. Information disclosure obligation
+     Information disclosure by subjects investing in and operating on the
+derivatives market must comply with law.
+
+
+
+
+                                                                                   37
+                     Chapter VI
+MANAGEMENT AND SUPERVISION OF THE DERIVATIVES MARKET
+
+     Article 39. Supervision by the State Securities Commission of Vietnam
+     1. To supervise derivatives transactions; to supervise derivative-related
+operations and the derivatives market of the Stock Exchange and Vietnam
+Securities Depository and Clearing Corporation in accordance with regulations of
+the Minister of Finance.
+     2. To supervise the observance of regulations on securities by derivatives
+business organizations, derivatives clearing and settlement service providers,
+trading members, special trading members, market makers and clearing members.
+     3. To supervise the organization of implementation of processes,
+regulations and internal regulations on risk management and internal control in
+trading and provision of services to investors by derivatives business organizations
+and derivatives clearing and settlement service providers.
+     4. To supervise the maintenance of operation conditions by derivatives
+business organizations and derivatives clearing and settlement service providers;
+the observance of this Decree’s provisions on restrictions on operation and
+protection of rights and interests of investors and other relevant provisions of the
+law on securities and the securities market.
+     5. To supervise the separate management of accounts and assets of investors
+from accounts and assets of derivatives business orgaizations and derivative
+clearing and settlement service providers under this Decree and relevant legal
+documents.
+     6. To supervise the archive and management of trading data and
+performance of the obligation to report and disclose information.
+     Article 40. Supervision by the Stock Exchange
+   1. The Stock Exchange shall supervise:
+   a) The observance of the law on securities and relevant regulations by trading
+members, special trading members and market makers;
+     b) Trading activities of institutions and individuals on the Stock Exchange in
+order to detect and prevent abnormal transactions and transactions showing signs
+of violation of the law on securities.
+     2. The Stock Exchange shall develop and promulgate a system of criteria for
+supervision of derivatives transactions after obtaining approval from the State
+Securities Commission of Vietnam.
+
+
+                                                                                   38
+    Article 41. Supervision by the Vietnam Securities Depository and
+Clearing Corporation
+      1. The Vietnam Securities Depository and Clearing Corporation shall:
+     a)Supervise clearing members in the observance of the law on securities and
+other relevant regulations; and manage and supervise the maintenance of margin
+levels under regulations;
+     b) Supervise investors in the compliance with regulations on position limits
+of investors when exercising derivatives transactions.
+     2. Upon detecting abnormal signs in derivatives clearing and settlement
+activities or signs of insolvency of investors or clearing members, the Vietnam
+Securities Depository and Clearing Corporation shall warn and request clearing
+members to explain, provide relevant documents and information, and promptly
+report to the State Securities Commission of Vietnam.
+
+
+                                   Chapter VII
+                           IMPLEMENTATION PROVISIONS
+
+      Article 42. Effect
+     1. This Decree takes effect on January 1st, 2021, and replaces the
+Government’s Decree No. 42/2015/ND-CP of May 5th, 2015, on derivatives and
+the derivatives market.
+     2. The Stock Exchange and Vietnam Securities Depository shall continue
+implementing this Decree’s provisions on professional operations which apply to
+them until the Vietnam Stock Exchange and Vietnam Securities Depository and
+Clearing Corporation officially commence their operation in accordance with
+Securities Law No. 54/2019/QH14.
+      Article 43. Organization of implementation
+      1. The Minister of Finance shall guide the implementation of this Decree.
+     2. Ministers, heads of ministerial-level agencies, heads of governmental
+agencies, and chairpersons of provincial-level People’s Committees shall take the
+responsibility to implement this Decree.
+
+Recipients:                                            On behalf of the Government
+- Secretariat of the Party Central Committee;                Prime Minister
+- Prime Minister, Deputy Prime Ministers;
+- Ministries, ministerial-level agencies, Government
+agencies;
+
+
+                                                                                     39
+- People's Councils, People's Committees of
+provinces and centrally-run cities;
+- Central Office and Committees of the Party;
+                                                     NGUYEN XUAN PHUC
+- General Secretary's Office;
+- State President's Office;
+- Ethnic Council and parliamentary committees
+- National Assembly's Office;
+- Supreme People's Court;
+- Supreme People's Procuracy;
+- State Audit;
+- National Financial Supervisory Commission
+- Vietnam Bank for Social Policies
+- Vietnam Development Bank
+- Central Committee of the Vietnam Fatherland
+Front
+- Central agencies of unions and organizations;
+- Government Office: Heading Minister, Deputy
+Minister, Assistant to the Prime Minister, General
+Director of the Government's web Portal,
+Departments and Units directly under the
+Government Office, Official Gazette;
+- Filed in: Archives, Department of General
+Economics (2). 110 copies.
+
+
+
+
+                                                                        40
+                              Apeendix
+               (Attached to Decree No.158/2020/ND-CP
+              dated December 31,2020 of the Government)
+
+Form 01   APPLICATION FOR ISSUANCE/MODIFICATION ELIGIBILITY
+          CERTIFICATE OF DERIVATIVE BUSINESS OPERATIONS
+Form 02   LIST OF MEMBERS OF BOARD OF DIRECTORS, EMPLOYEES IN
+          CHARGE OF DERIVATIVES BUSINESS OPERATIONS
+
+Form 03   APPLICATION OF TERMINATION OF DERIVATIVES BUSINESS
+          OPERATIONS
+
+Form 04   APPLICATION ELIGIBILITY CERTIFICATE OF SERVICE
+          CLEARING AND SETTLEMENT OF SECURITIES TRADING
+          DERIVATIVES
+Form 05   APPLICATION TERMINATION OF OPERATION SERVICE
+          CLEARING AND SETTLEMENT OF SECURITIES TRADING
+          DERIVATIVES
+
+Form 06   REGISTRATION FOR TRADING MEMBERS/SPECIAL TRADING
+          MEMBERS ON DERIVATIVES MARKET
+
+Form 07   CERTIFICATE OF REGISTRATION OF MARKET-MAKING
+          MEMBERS ON THE DERIVATIVES MARKET
+Form 08   REGISTRATION CERTIFICATE OF CLEARING MEMBERS ON THE
+          DERIVATIVES MARKET
+
+
+
+
+                                                          41
+                                                                              Form 01
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                              ..., date … month … year
+
+     APPLICATION FOR ISSUANCE/MODIFICATION ELIGIBILITY
+       CERTIFICATE OF DERIVATIVE BUSINESS OPERATIONS
+                  To: The State Securities Commission of Vietnam
+
+
+We hereby: …
+- Name of organization: ... (full and official name of the company in capital letters)
+- Establishment and operation license No.: ... issued by the State Securities
+Commission of Vietnam dated ... month ... year ...
+- Charter capital: …
+- Equity capital: …
+- Head office address: …
+- Telephone: …                                        Fax: …
+Based on the conditions for business derivatives operations in accordance with the
+law, we find that the requirements are met. Request the State Securities Commission
+of Vietnam to approve our company to carry out/modify derivatives business
+operations:
+- Proposed derivatives business operations:
+We are committed to complying with applicable laws on business and providing
+derivatives services.
+
+
+ Attached documents:                                 LEGAL REPRESENTATIVE
+(Full listing)                                        (Sign, stamp, write full name)
+
+
+
+
+                                                                                    42
+                                                                              Form 02
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                               ..., date ... month … year
+
+    LIST OF MEMBERS OF BOARD OF DIRECTORS, EMPLOYEES IN
+         CHARGE OF DERIVATIVES BUSINESS OPERATIONS
+                  To: The State Securities Commission of Vietnam
+
+
+- Name of organization: ... (full and official name of the company in capital letters)
+- Establishment and operation license No.: …
+- Head office address: …
+- Telephone: …                                              Fax: …
+We would like to register a list of members of the Board of Directors, employees in
+charge of derivatives business operations with the signature form as follows:
+
+                                       Types of securities
+                      Number of ID
+                                       practice certificates,  Expected
+                        or citizen
+ No.     Ful name                    professional certificates working      Signature
+                      identification
+                                        in derivatives and     position
+                       or passport
+                                        derivatives market
+
+
+
+
+We are committed to taking full responsibility for the accuracy and truthfulness of the
+above content.
+
+
+Attached documents:                                LEGAL EPRESENTATIVE
+(Full list)                                         (Sign, seal, write full name)
+
+
+
+                                                                                    43
+                                                                                                                        Form 03
+                                       SOCIALIST OF VIETNAM
+                                   Independence - Freedom - Happiness
+
+                                               ..., date ... month … year
+
+       APPLICATION FOR TERMINATION OF DERIVATIVE BUSINESS
+                          OPERATIONS
+                            To: The State Securities Commission of Vietnam
+We hereby: …
+- Name of organization: ... (full and official name of the company in capital letters)
+- Establishment and operation license No.: ... issued by the State Securities
+Commission of Vietnam dated ... month ... year ...
+- Derivatives business eligibility certificate No.: ... issued by the State Securities
+Commission dated … month … year …
+- Charter capital: …
+- Equity capital: …
+- Head office address: …
+- Telephone: …                                                                     Fax: …
+We request the State Securities Commission of Vietnam to approve our
+company/bank to terminate derivatives business operations:
+- .....................................................................................................................................
+We are committed to complying with applicable laws on trading and providing
+derivatives services.
+
+
+Attached documents:                                                            LEGAL REPRESENTATIVE
+(Full list)                                                                     (Sign, seal, write full name)
+
+
+
+
+                                                                                                                                  44
+                                                                         Form 04
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom – Happiness
+
+                               ..., date … month … year
+    Application Eligibility Certificate of Service Clearing and Settlement of
+                           Securities Trading Derivatives
+                         To: The State Securities Commission
+We hereby: …
+- Name of organization: ... (the full and official name of the organization/bank/foreign
+bank branch in capital letters)
+- Establishment and operation license No.: … issued by the State Securities
+Commission/State Bank of Vietnam dated … month … year ...
+- Derivatives business eligibility certificate No.: ... issued by the State Securities
+Commission dated … month … year …
+- Charter capital: …
+- Equity: …
+- Head office address: …
+- Telephone: …                        Fax: …
+Based on the conditions of providing clearing and settlement services for derivatives
+transactions by the law, we find that we meet the requirements as required. We request
+the State Securities Commission to approve our company/bank to provide clearing
+and settlement services for derivatives transactions.
+
+We are committed to complying with applicable laws on trading and providing
+derivatives services.
+
+
+Attached documents:                                  LEGAL REPRESENTATIVE
+(Full listing)                                        (Sign, stamp, write full name)
+
+
+
+
+                                                                                    45
+                                                                         Form 05
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                                 ..., date … month … year
+  APPLICATION TERMINATION OF OPERATION SERVICE CLEARING
+      AND SETTLEMENT OF SECURITIES TRADING DERIVATIVES
+                          To: The State Securities Commission
+We hereby: …
+- Name of organization: ... (the full and official name of the organization/bank/foreign
+bank branch in capital letters)
+- Establishment and operation license No.: … issued by the State Securities
+Commission/State Bank of Vietnam dated … month ... Year ...
+- Derivatives business eligibility certificate No.: ... issued by the State Securities
+Commission dated … month ... year …
+- Certificate of eligibility to provide clearing and settlement services for derivatives
+securities transactions No.: … issued by the State Securities Commission dated ...
+month … year …
+- Charter capital: …
+- Equity: …
+- Head office address: …
+- Telephone: …                          Fax: …
+
+We request the State Securities Commission to approve our company/bank to
+terminate the activities of providing clearing and settlement services for derivatives
+transactions.
+
+We are committed to complying with applicable laws on trading and providing
+derivatives services.
+
+
+Attached documents:                                  LEGAL REPRESENTATIVE
+(Full listing)                                        (Sign, stamp, write full name)
+
+
+
+
+                                                                                    46
+                                                                           Form 06
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                                  ..., date … Month … year
+     REGISTRATION FOR TRADING MEMBERS/SPECIAL TRADING
+                     MEMBERS ON DERIVATIVES MARKET
+                                      To: Stock Exchange
+We hereby: …
+- Name of organization: ... (the full and official name of the organization/bank/foreign
+bank branch in capital letters)
+- Name of organization in English
+- Abbreviations:
+- Establishment and operation license No.: … issued by the State Securities
+Commission/State Bank of Vietnam dated … month … Year …
+- Certificate of eligibility for derivatives trading No.: … issued by the State Securities
+Commission dated … month … year …
+- Certificate of eligibility to provide clearing and settlement services for derivatives
+securities transactions No.: … issued by the State Securities Commission dated …
+month … year …
+- Head office address: …                                Telephone: …
+- Charter capital: …
+- Equity: …
+- Derivative securities trading: …
+- Form of clearing payment:
++ Direct clearing member
++ General clearing member
++ Signed a clearing trusted contract with a partner
+- Shareholders/Contributing members (specify the name of shareholders, number of
+shares, and holding ratio)
+
+Based on the conditions for becoming a trading member/special trading member as
+prescribed by law, we find that we meet the required conditions. We would like to
+register as a trading member/special trading member on the derivatives market.
+
+Transaction connection form:
+□ Connecting via the online trading system
+- Locations to connect online transactions:
+- Name of online trading software provider:
+
+
+                                                                                      47
+- Name of online trading software:
+
+□ Connecting via the remote trading system
+- The number of machines: …
+- Type of machine: …
+- Software used: …
+- Number of computer staff: …
+
+We guarantee that the information above and the information in the attached
+documents are completely accurate. If approved as a trading member/special trading
+member of the Stock Exchange, we commit to comply with the provisions of the law
+and the professional regulations of the Stock Exchange.
+
+
+
+                                                 LEGAL REPRESENTATIVE
+                                                  (Sign, stamp, write full name)
+
+
+
+
+                                                                               48
+                                                                              Form 07
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                              ..., date … month … year
+
+ CERTIFICATE OF REGISTRATION OF MARKET-MAKING MEMBERS
+                       ON THE DERIVATIVES MARKET
+                                 To: Stock Exchange
+
+       We hereby: …
+- Name of organization: ... (the full and official name of the organization/bank/foreign
+bank branch in capital letters)
+- Name of organization in English: …
+- Abbreviations: …
+- Establishment and operation license No.: ... issued by the State Securities
+Commission of Vietnam dated ... month ... year ...
+- Being a trading member/special trading member on the derivatives market according
+to Decision No. … issued by the Stock Exchange dated … month … year…;
+- Being a clearing member on the derivatives market according to Decision No. …
+issued by the Vietnam Securities Depository and Clearing Corporation dated …
+month … year …;
+- Having obtained permission from the State Bank of Vietnam for investing in
+derivatives and providing clearing service according to Decision No. … dated …
+month … year … (for commercial bank)
+- Head office address: …                         Telephone: …
+- Charter capital: …
+- Equity capital: …
+- Business: …
+Based on the conditions for becoming a market-making member as prescribed by law,
+we find that we meet the required conditions. We would like to register as a market-
+making member on the derivatives market of the Stock Exchange as following:
+1. Time period for participating in market-making activities: No limitation or
+starting …. month since approved date
+2. Trading connection:
+  -    Connecting location for market-making activities: …
+  -    Name of the software supplier for market-making activities: …
+  -    Name of the software for market-making activities: …
+
+
+                                                                                    49
+3. Staff in charge of market-making activities
+      Name of (General) Director/Deputy (General) Director or/and professional
+      staff in charge of market-making activities (Full information as follow for each
+      person): …
+-     Name: …
+-     Position: …
+-     Securities business practice certificate No.: …
+-     Professional certificates in derivatives and derivatives market:
+(Documents, decisions for appointment above persons should be attached to the
+Market-making member registration document)
+We guarantee that the information above and the information in the attached
+documents are completely accurate. If approved as a market-making member of the
+Stock Exchange, we commit to comply with the provisions of the law and the
+professional regulations of the Stock Exchange, the provisions in the market-making
+member contract.
+                                                 LEGAL REPRESENTATIVE
+                                                    (Sign, stamp, write full name)
+
+
+
+
+                                                                                  50
+                                                                              Form 08
+                           SOCIALIST OF VIETNAM
+                       Independence - Freedom - Happiness
+
+                              ..., date … month … year
+
+        REGISTRATION CERTIFICATE OF CLEARING MEMBERS
+                       ON THE DERIVATIVES MARKET
+            To: Vietnam Securities Depository and Clearing Corporation
+
+
+      We hereby: …
+- Name of organization: ... (the full and official name of the organization/bank/foreign
+bank branch in capital letters)
+- Name of organization in English: …
+- Abbreviations: …
+- Abbreviations when registered for clearing member: …
+- Head office address: …
+- Charter capital: …
+- Telephone: …                    Fax: …
+- Establishment and operation license No. ... issued by the State Securities
+Commission of Vietnam dated ... month ... year ...
+- Certificate of eligibility to provide clearing and settlement services for derivatives
+securities transactions No. … issued by the State Securities Commission of Vietnam
+dated … Month … year ...
+Based on the conditions for becoming a clearing member as prescribed by law, we
+find that we meet the required conditions. We would like to register as a clearing
+member: (general clearing member/direct clearing member)
+We guarantee that the information above and the information in the attached
+documents are completely accurate. We commit to comply with the provisions of the
+law and the professional regulations of the Vietnam Securities Depository and
+Clearing Corporation.
+                                                 LEGAL REPRESENTATIVE
+                                                      (Sign, stamp, write full name)
+
+
+
+
+                                                                                    51
+

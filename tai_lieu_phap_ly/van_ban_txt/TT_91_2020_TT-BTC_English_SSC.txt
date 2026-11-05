@@ -1,0 +1,849 @@
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+     MINISTRY OF FINANCE                           SOCIALIST REPUBLIC OF VIETNAM
+            --------                              Independence - Freedom – Happiness
+                                                              ---------------
+       No. 91/2020/TT-BTC                                                  Hanoi, November 13, 2020
+
+
+                                               CIRCULAR
+ PRUDENTIAL INDICATORS AND ACTIONS AGAINST SECURITIES-TRADING ORGANIZATIONS
+                THAT FAIL TO ACHIEVE THE PRUDENTIAL INDICATORS
+Pursuant to the Law on Securities dated November 26, 2019;
+Pursuant to the Law on Enterprises dated June 17, 2020;
+Pursuant to the Government’s Decree No. 87/2017/ND-CP dated July 26, 2017 defining functions,
+tasks, powers and organizational structure of the Ministry of Finance;
+At the request of the President of the State Securities Commission (SSC);
+The Ministry of Finance promulgates a Circular on prudential indicators and actions against securities-
+trading organizations that fail to achieve the prudential indicators.
+                                                 Chapter I
+                                      GENERAL PROVISIONS
+Article 1. Scope and regulated entities
+1. Scope
+This Circular provides guidance on the determination of prudential indicators, regulation on report on
+prudential indicators of securities-trading organizations, actions against and responsibilities of relevant
+parties to securities-trading organizations that fail to maintain the prudential indicators. This Circular
+does not apply to determination of tax liabilities of securities-trading organizations.
+2. Regulated entities
+a) Securities companies, branches of foreign securities companies in Vietnam (below collectively
+referred to as “securities companies”), securities investment fund management companies, branches
+of foreign fund management companies in Vietnam (below collectively referred to as “fund
+management companies”);
+b) Relevant organizations and individuals.
+Article 2. Definitions
+For the purposes of this Circular, the terms below shall be construed as follows:
+1. “securities-trading organizations” are securities companies, branches of foreign securities
+companies in Vietnam, securities investment fund management companies, branches of foreign fund
+management companies in Vietnam.
+2. “value at risk” means a value equivalent to a loss likely to be incurred when the market price of
+assets owned and expected to be owned by an organization according to underwriting commitment
+adversely fluctuates.
+3. “settlement risk value” means a value equivalent to a loss likely to be incurred when a partner fails
+to settle or transfer assets on schedule as committed.
+4. “operational risk value” means a value equivalent to a loss likely to be incurred due to a technical,
+systematic or professional procedure breakdown or a human error in the course of performance, or
+due to working capital shortages resulting from investment costs or losses or for other objective
+reasons.
+5. “total risk value” means the total of the value at risk, settlement risk value and operational risk value.
+6. “liquid capital” means the equity which can be converted into cash within ninety (90) days.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+7. “liquid capital ratio” means a percentage of the liquid capital value to the total risk value.
+8. “payment guarantee” means a commitment to fulfill financial obligations in order to secure the
+payment by a third party.
+9. “underwriting period” means a period from the date on which the underwriting obligation arises in
+the form of firm commitment to the date on which the underwriter is paid as agreed.
+10. “net position in a security at a specific time” (hereinafter referred to as “net position in a security”)
+means the number of securities currently held by a securities-trading organization after the number of
+lent securities is reduced, the number of securities is protected by put warrant or futures contract, and
+the number of borrowed securities is increased in accordance with regulations of law.
+11. “net payment position in a partner at a specific time” (hereinafter referred to as “net position in a
+partner”) means the value of loans and receivables after debts owed and payable to such partner are
+adjusted.
+12. “related group” includes the organizations and individuals specified in Clause 46 Article 4 of the
+Law on Securities.
+13. “margin value” is the total of the following values:
+a) The value in cash or securities contributed to the clearing fund of the Vietnam Securities Depository
+and Clearing Corporation (VSDCC) by a securities-trading organization;
+b) The value in cash or securities accepted as by a securities-trading organization as margins for
+investment, self-trading and derivatives market making;
+c) The margins in cashes and the payment guarantee value of a depository bank in case a securities-
+trading organization issues a covered warrant.
+14. “open interests of a derivative at a specific time” (hereinafter referred to as “open interests”) is the
+number of derivatives which is traded at that time, is yet to be liquidated or closed.
+15. “accredited audit organization” means an independent audit organization on the list of audit
+organizations accredited by SSC in accordance with the Law on Securities and regulations of law on
+independent audit.
+16. “interest warrant” is a call warrant whose executed price (executed parameter) is lower or higher
+than the price (executed parameter) of underlying securities.
+17. “executed price” is the price at which the warrant holder has the right to buy (call warrant) or sell
+(put warrant) an underlying security (shares or ETFs) to the issuing organization, or that is used by the
+issuing organization to determine the amount payable to the warrant holder.
+18. “conversion ratio” is the number of warrants needed in order to be converted into one unit of the
+underlying security.
+Article 3. Rules for application of prudential indicators
+1. Securities-trading organizations shall calculate their prudential indicators and take responsibility for
+the accuracy of their calculations.
+2. Assets and capital sources used for calculation of the liquid capital value and risk values up to the
+time of calculation shall be updated.
+3. Securities-trading organizations are not required to calculate the value of various risks against
+assets which have been deducted from liquid capitals as prescribed in Articles 5 and 6 of this Circular.
+4. The securities-trading organization that has subsidiaries shall calculate prudential indicators
+according to its own financial terms.
+5. The prudential indicator reports of June 30 shall be examined by accredited audit organizations
+according to Vietnam’s Audit Standards for examination contracts. The prudential indicator report of
+December 31 and the prudential indicator report used for proving that a securities-trading organization
+is eligible to have warning, control or special control lifted must be audited by an accredited audit
+organization according to the Vietnam’s Audit Standard - Special considerations – Audits of financial
+statements prepared in accordance with special purpose frameworks and other relevant Audit
+Standards.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+6. The securities-trading organization must establish an internal control and information system for
+recording, monitoring, and updating the financial information and detailed information serving the
+preparation, examination, and audit of the prudential indicator reports. The Board of Directors
+(management board) of the securities-trading organization shall be responsible for the preparation and
+presentation of prudential indicator reports prescribed by this Circular.
+                                                  Chapter II
+                                     PRUDENTIAL INDICATORS
+Section 1. LIQUID CAPITALS
+Article 4. Liquid capitals
+1. The liquid capitals of a securities company shall be determined according to Appendix VI enclosed
+herewith. To be specific:
+a) Equity, excluding refunded preferred equity (if any);
+b) Share capital surplus, excluding refunded preferred equity (if any);
+c) Options on – conversion from bond to stake (for the securities company issuing convertible bond);
+d) Other equity;
+e) Differences upon asset valuation according to the reasonable value;
+f) Foreign exchange differences;
+g) Additional reserve fund of charter capital;
+h) Operational risk and financial reserve funds;
+i) Other funds which are established in accordance with regulations of law;
+k) Undistributed profits;
+l) Provision for impairment of assets;
+m) Fifty percent (50%) of the increase in value of fixed assets which are revalued in accordance with
+regulations of law (in case the value of these assets is increased), or the whole decrease in value (in
+case the value of these assets is reduced);
+n) Deductions specified in Article 5 of this Circular;
+o) Increases specified in Article 7 of this Circular;
+p) Other capitals (if any).
+2. The liquid capitals of a fund management company shall be determined according to Appendix V
+enclosed herewith. To be specific:
+a) Paid-in capital, excluding refunded preferred equity (if any);
+b) Share capital surplus, excluding refunded preferred equity (if any);
+c) Additional reserve fund of charter capital;
+d) Investment and development fund (if any);
+e) Operational risk and financial reserve funds;
+f) Other funds which are established in accordance with regulations of law;
+g) Undistributed profit after tax;
+h) Provision for impairment of assets;
+i) Fifty percent (50%) of the increased value of fixed assets which are revalued in accordance with
+regulations of law (in case the value of these assets is increased), or subtraction of the entire
+decrease in value (in case the value of these assets is reduced);
+j) Foreign exchange differences;
+k) Deductions specified in Article 6 of this Circular;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+l) Increases specified in Article 7 of this Circular;
+m) Other capitals (if any).
+3. The liquid capitals specified in Clause 1 and Clause 2 of this Article shall be adjusted to reduce
+treasury stock (if any).
+Article 5. Deductions from liquid capitals of a securities company
+1. Margin value.
+In case a securities company has secured assets in order for the bank to guarantee payment when
+issuing covered warrants, the deduction value equals the minimum value of payment guarantee value
+of the bank; secured assets value determined as prescribed in Clause 6, Article 10 of this Circular.
+2. The asset value used for securing other organizations and individuals’ obligations has the remaining
+term of over ninety (90) days. Asset values shall be determined in accordance with Clause 6 Article 10
+of this Circular.
+3. The whole decrease in value of financial assets according to their book value, excluding the
+securities specified in Clause 7 of this Article, shall be calculated according to the difference between
+the book value and the market price determined according to Appendix II enclosed herewith.
+4. Other deductions shall be determined according to Appendix VI enclosed herewith, including:
+a) Long-term asset indicators, except for those specified in Clause 6 of this Article;
+b) The following short-term asset indicators:
+- Securities specified in Clause 7 of this Article in the short-term financial assets;
+- Prepayments;
+- Receivables with the payback period or remaining maturity of over ninety (90) days;
+- Advances that must be returned within over ninety (90) days;
+- Other short-term assets, except for those specified in Clause 5 of this Article.
+c) The amounts mentioned in qualified opinions, adverse opinions or disclaimer of opinions (if any) are
+included in the audited and examined financial statements but are yet to be deducted from the liquid
+capitals as prescribed in Points a, b of this Clause. In case the audit organization confirms that it no
+longer has qualified opinions, the securities-trading organization is not required to deduct these
+amounts.
+5. The following indicators are not included in the deductions from liquid capitals specified at Points a
+and b, Clause 4 of this Article:
+a) Assets against which market risks shall be identified as prescribed in Clause 2, Article 9 of this
+Circular, except for the securities specified in Clause 7 of this Article;
+b) Provision for impairment of assets recorded at book value;
+c) Provision for impairment of other assets;
+d) Provision for non-performing receivables;
+e) The contracts and transactions mentioned in Point k Clause 1 Article 10 of this Circular.
+6. When determining assets to be deducted from liquid capitals specified in Clause 1, Clause 2, Points
+a and b of Clause 4 of this Article, the securities-trading organization may reduce the value of
+deductions as follows:.
+a) For the asset used for securing the obligation of the securities-trading organization, upon
+calculation of deductions, the minimum value of the market value of these assets determined as
+prescribed in the Appendix II enclosed herewith (if any), book value and remaining value of the
+obligation may be deducted;
+b) For the asset secured by client’s property, upon calculation of deductions, the minimum value of the
+market value of these assets determined as prescribed in Clause 6, Article 10 of this Circular and
+book value may be deducted.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+7. The following securities classified as short-term and long-term financial assets shall be considered
+deductions from liquid capitals:
+a) Securities issued by organizations that are related to the securities-trading organization in the
+following manners:
+- They are parent companies, subsidiaries, joint-venture companies of the securities-trading
+organization;
+- They are subsidiaries of the parent company of the securities-trading organization.
+b) Securities to be restricted from transfer for over ninety (90) days from the date of calculation.
+Article 6. Deductions from liquid capitals of a fund management company
+1. The whole decrease in value of investments, excluding the securities specified in Clause 5 of this
+Article, shall be calculated according to the difference between the book value and the market price
+determined according to Appendix II enclosed herewith.
+2. Other deductions shall be determined according to Appendix V enclosed herewith, including:
+a) Long-term asset indicators, except for those specified in Clause 3 of this Article;
+b) The following short-term asset indicators:
+- Securities specified in Clause 5 of this Article in the short-term financial asset ratio;
+- Prepayments;
+- Receivables with the payback period or remaining maturity of over ninety (90) days;
+- Advances that must be returned within over ninety (90) days;
+- Other short-term assets, except for those specified in Clause 3 of this Article.
+c) The amounts mentioned in qualified opinions, adverse opinions or disclaimer of opinions (if any) are
+included in the audited and examined financial statements but are yet to be deducted from the liquid
+capitals as prescribed in Points a, b of this Clause. In case the audit organization confirms that it no
+longer has qualified opinions, the securities-trading organization is not required to deduct these
+amounts.
+3. The following indicators are not included in the deductions from liquid capitals specified at Points a
+and b, Clause 2 of this Article:
+a) Assets against which market risks shall be identified as prescribed in Clause 2, Article 9 of this
+Circular, except for the securities specified in Clause 5 of this Article;
+b) Provision for investment markdown;
+c) Provision for non-performing receivables.
+d) The contracts and transactions mentioned in Point k Clause 1 Article 10 of this Circular.
+4. When determining assets to be deducted from liquid capitals specified in Point a and Point b,
+Clause 2 of this Article, the securities-trading organization may reduce the value of deductions as
+follows:
+a) For the asset used for securing the obligation of a securities-trading organization or third party ,
+upon calculation of deductions, the minimum value of the market value of these assets determined as
+prescribed in the Appendix II enclosed herewith (if any), book value and remaining value of the
+obligation may be deducted;
+b) For the asset secured by client’s property, upon calculation of deductions, the minimum value of the
+market value of these assets determined as prescribed in Clause 6, Article 10 of this Circular and
+book value may be deducted.
+5. The following securities included in the ratio of short-term and long-term financial assets shall be
+considered deductions from liquid capitals:
+a) Securities issued by organizations that are related to the securities-trading organization in the
+following manners:
+- They are parent companies, subsidiaries, joint-venture companies of the securities-trading
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+organization;
+- They are subsidiaries of the parent company of the securities-trading organization.
+b) Securities to be restricted from transfer for over ninety (90) days from the date of calculation.
+Article 7. Increases
+1. The whole increase in value of investments and financial assets according to the book value,
+excluding the securities specified in Clause 7, Article 5, Clause 5, Article 6 of this Circular, shall be
+calculated according to the difference between the book value and the market price determined
+according to Appendix II enclosed herewith.
+2. The debts which can be converted into equity include:
+a) Convertible bonds, except for those considered liquid capitals specified in Point c, Clause 1, Article
+4 of this Circular and preferred stocks issued by a securities-trading organization which satisfy all of
+the following conditions:
+- The initial term is at least five (05) years;
+- They are not secured by assets of the securities-trading organization;
+- The securities-trading organization may only early redeem these bonds and stocks at the request of
+the holder or redeem them on the secondary market after informing SSC as prescribed in Clauses 5
+and 6 of this Article;
+- The securities-trading organization may stop paying interests and transferring accumulated interests
+to the subsequent year in case the payment of interests causes business losses in the year;
+- In case of dissolution of the securities-trading organization, payment may be made to the bond and
+stock holder only after the securities-trading organization pays debts to all other secured and
+unsecured creditors;
+- The interest rate, including the interest rate and the reference interest rate added shall only be
+increased after five (05) years after the date of issuance and increased once throughout the term
+before these preferred stocks are converted into common stocks;
+- They have been registered liquid capital as increases in liquid capital as prescribed in Clause 4 of
+this Article.
+b) Other debt instruments which satisfy all of the following conditions:
+- It is the debt which shall, in any circumstances, be paid to a creditor after the securities-trading
+organization has paid debts to other secured and unsecured creditors;
+- The initial term is at least ten (10) years;
+- They are not secured by assets of the securities-trading organization;
+- The securities-trading organization may stop paying interests and transferring accumulated interests
+to the subsequent year in case the payment of interests causes business losses in the year;
+- The securities-trading organization may early pay debts to the creditor after informing such to SSC
+as prescribed in Clauses 5 and 6 of this Article;
+- Increases in interest rates: Fixed interest rates, including the reference interest rate, shall only be
+increased once after five (05) years from the issuance date or contract conclusion date throughout the
+term of the secondary debt; For interest rates calculated by a formula, the formula must not change
+and the value in the formula may only be changed once after 05 years from the issuance date or
+contract conclusion date;
+- They have been registered liquid capital as increases in liquid capital as prescribed in Clause 4 of
+this Article.
+3. Limitations upon calculation of increases in liquid capitals:
+a) The value of debts specified in Points a and b, Clause 2 of this Article shall be gradually
+depreciated according to the following rules:
+- Over the last five (05) years before the deadline for payment and conversion into common stocks,
+the initial value of the debts specified in Points a and b, Clause 2 of this Article shall be decreased by
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+20% each year;
+- Within the last four (04) quarters before the deadline for payment and conversion into common
+stocks, the remaining value after the depreciation according to the above mentioned regulation shall
+be decreased by (an additional) 25% on a quarterly basis.
+b) Total value of the debts specified in Clause 2 of this Article liquid capital used for increasing liquid
+capital must not exceed 50% of equity.
+4. The securities-trading organization shall send reports on addition of debts prescribed in Clauses 2
+and 3 of this Article to liquid capitals with SSC. The following reports shall be directly sent to SSC:
+a) Report according to the form in Appendix VII on use of convertible bonds, preferred stocks and
+debts for increasing liquid capitals;
+b) A meeting minute, Resolution of the Board of Directors, Board of Members, holder's decision on the
+use of debts convertible into equity for increasing liquid capitals;
+c) Valid copies of loan agreements or equivalent documents. Loan contracts or equivalent documents
+must contain commitments made by the two parties and all proper contents specified in Clauses 2 and
+3 of this Article. This does not apply to public offering of shares granted the offering certificate by SSC.
+5. The securities-trading organization may redeem convertible bonds and preferred stocks or early pay
+debts registered for increasing liquid capitals in the following cases:
+a) The liquid capital ratio after the redemption of convertible bonds and preferred stocks or early
+payment of debts registered for increasing liquid capitals must not be lower than 180%;
+b) In case the securities-trading organization fails to satisfy the requirement specified in Point a of this
+Clause, it must have new capital sources added in order to ensure that the minimum liquid capital ratio
+is not lower 180%.
+6. The securities-trading organization shall submit a report to SSC at least fifteen (15) days before
+redeeming convertible bonds and preferred stocks or early paying debts registered for increasing
+liquid capitals. The following reports shall be directly sent to SSC:
+a) The reports mentioned in Point a Clause 4 of this Article;
+b) The documents specified in Points b and c, Clause 4 of this Article about new convertible bonds,
+preferred stocks and debts that are used for increasing liquid capitals in replacement of convertible
+bonds and preferred stocks which must be redeemed or debts which must be paid (if any).
+Section 2. RISK VALUES
+Article 8. Operational risk value
+1. The operational risk of a securities-trading organization is either 25% of such trader's operating
+costs in twelve (12) months by the time of calculation or 20% of the minimum charter capital for
+business operations of the securities-trading organization, whichever is greater.
+2. The operating cost of a securities-trading organization equals (=) the total costs incurred in a period
+minus (-):
+a) Depreciated cost;
+b) Cost or reversal of provision for impairment of short-term financial assets and collateral;
+c) Cost or reversal of provision for impairment of long-term financial assets;
+d) Cost or reversal of provision for impairment of receivables;
+e) Cost or reversal of provision for impairment of other short-term financial assets;
+f) Decreases due to revaluation of financial assets recorded as profit/loss;
+g) Loan interest.
+3. The operating cost of a fund management company equals (=) the total costs incurred in a period
+minus (-):
+a) Depreciated cost;
+b) Cost or reversal of provision for impairment of short-term investments;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+c) Cost or reversal of provision for impairment of long-term investments;
+d) Cost or reversal of provision for non-performing receivables.
+4. In case a securities-trading organization that has operated for less than one (01) year, its
+operational risk shall be either three (03) times the average monthly operating cost beginning from the
+time this trader commences its operation or 20% of minimal charter capital for business operations of
+the securities-trading organization, whichever is greater.
+Article 9. Value at risk
+1. At the end of a trading day, a securities-trading organization shall determine the value at risk of its
+assets specified in Clause 2 of this Article.
+2. Market risk of the following assets shall be determined:
+a) Securities from proprietary trading accounts, excluding the number of covered warrants that are yet
+to be completely issued; (applicable to securities companies) or securities trading accounts (applicable
+to fund management companies and securities companies not engaged in proprietary trading of
+securities), entrusted securities , other investment securities, including securities pending settlement;
+b) Securities provided by other individuals and organizations in accordance with regulations of law,
+including securities borrowed by the securities-trading organization itself and securities borrowed on
+behalf of other individuals and organizations;
+c) Clients’ securities used by the securities-trading organization as secured assets. The trader may
+either use such securities or lend them to a third party in accordance with regulations of law;
+d) Cash, cash equivalents, negotiable instruments and valuable papers owned by the securities-
+trading organization;
+e) The securities which are underwritten by the securities-trading organization in the form of firm
+commitment, which remain undistributed and to which full payment has not been made throughout the
+underwriting period.
+3. The securities and assets specified in Clause 2 of this Article shall not include:
+a) Treasury stocks;
+b) The securities specified in Clause 7, Article 5 and Clause 5, Article 6 of this Circular;
+c) Due bonds, debt instruments and valuable papers on the monetary market.
+d) The securities that have been prevented from risks with call warrant or futures contract. The call
+warrant and warrant agreement shall be used for preventing risks from underlying securities.
+4. The value at risk of the assets specified at Points a, b, c and d, Clause 2 of this Article shall be
+determined according to the following formula:
+Value at risk = Net position x Asset price x Market risk coefficient
+a) Market risk coefficient shall be determined according to Appendix 1 enclosed herewith;
+b) Asset price shall be determined according to Appendix 2 enclosed herewith.
+5. The value at risk of each asset determined as prescribed in Clause 4 of this Article shall be
+increased in case the securities-trading organization invests too much in such asset, except the
+securities underwritten in the form of firm commitment, government bonds and government-
+guaranteed bonds. The value at risk shall be increased in the following cases:
+a) Increased by 10% in case the total investment in an organization's shares and bonds accounts for
+from over 10% to 15% of the securities-trading organization’s equity;
+b) Increased by 20% in case the total investment in an organization's shares and bonds accounts for
+from over 15% to 25% of the securities-trading organization’s equity;
+c) Increased by 30% in case the total investment in an organization's share and bond accounts for
+more than 25% of the securities-trading organization’s equity.
+6. The securities-trading organization shall aggregate the value of stock dividends, bond yields, and
+the value of preferred rights whenever they arise (applicable to securities), or loan interests (applicable
+to deposits and cash equivalents, negotiable instruments and valuable papers) with the asset price
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+upon determination of the value at risk.
+7. The value at risk applicable to the securities that are not fully distributed and whose trading price is
+lower than the underwriting price under the firm commitment underwriting agreement shall be
+determined according to the following formula:
+                                            (P0  P1 )
+Value at risk = (Q0 x P0 - Vc) x R x (r +              x 100%)
+                                               P0
+
+Where:
+Q0: Undistributed securities or distributed securities for which payment has not been paid
+P0: underwriting price
+Vc: Value of security asset (if any)
+R: Issuance risk coefficient
+r: Market risk coefficient
+P1: Trading price
+a) The trading price shall vary according to the types of securities prescribed in Sections 5, 6, 7, 8, 9,
+10, 11, 12, 13, 14, 15, 16, 21, 22 of Appendix II hereof. In case of initial public offering, including initial
+equity auction or bond auction, the trading price equals the book value per stock of the issuing
+organization, which is determined at the nearest time, or reserve price (if the book value is
+unidentifiable) or par value (applicable to bonds);
+b) Market risk coefficient shall be determined according to the corresponding securities prescribed in
+the sections II, III, IV, V, VI, VII of the Appendix I enclosed herewith;
+c) The underwriting risk coefficient shall be determined according to the remainder of the distribution
+period, including its ending day under the contract, which must not exceed the distribution deadline
+prescribed by law. To be specific:
+- If the remainder of the distribution period, including its ending day, is more than sixty (60) days, the
+underwriting risk coefficient is 20%;
+- If the remainder of the distribution period, including its ending day, is between thirty (30) and sixty
+(60) days, the issuance risk coefficient is 40%;
+- If the remainder of the distribution period, including its ending day, is over sixty (30) days, the
+issuance risk coefficient is 60%;
+- During the period from the ending day of the distribution to the due date of payment to the issuing
+organization, the issuance risk coefficient is 80%.
+d) After the deadline for paying the issuing organization, the securities-trading organization shall
+determine the value at risk of the securities which cannot be fully distributed as prescribed in Clause 4
+of this Article.
+e) The clients’ secured asset value shall be determined as prescribed in Clause 6, Article 10 of this
+Circular.
+8. The securities-trading organization shall determine the value at risk of the outstanding covered
+warrant issued by the securities-trading organization. The value at risk shall be calculated as follows:
+Value at risk = Max {((P0 x Q0/k- P1 x Q1) x r -MD), 0}
+Where:
+P0: Average closing price of underlying securities in 05 trading days before the calculation date.
+Q0: the number of outstanding warrants of a securities-trading organization.
+k: conversation ratio
+P1: price of the underlying securities determined as prescribed in the Appendix II hereof
+Q1: the number of the underlying securities used by a securities-trading organization as guarantee of
+the obligation to make payment for the covered warrant issued by such trader.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+r: the market risk coefficient of the warrant, which is determined according to Appendix I enclosed
+herewith
+MD: the margin value in case the securities company issues the covered warrant
+a) The underlying securities used for calculation of market risk according to the above mentioned
+formula must satisfy the following conditions:
+- The use of underlying securities on proprietary trading accounts in order to prevent risks upon
+issuance of covered warrants have been included in the issuance plan and registered with SSC;
+- The underlying securities of the covered warrant.
+b) In case the warrant issued by a securities company is unprofitable as prescribed in Clause 16,
+Article 2 of this Circular, the securities company shall not calculate the market risk of the issued
+warrant but shall calculate the market risk of the underlying securities derived from management of
+risks to the issued warrants.
+c) The securities company shall determine the value at risk of the positive difference between
+underlying security value used for management of risks to its covered warrants by such company and
+the value of underlying securities that is sufficient for management of risks to the covered warrants.
+The value of underlying securities shall be proportional to the value of risks.
+9. The value at risk of the futures contract shall be determined according to the following formula:
+value at risk = Max {((Daily settlement value - Buy-in security value) x Market risk coefficient of futures
+contract - Margin value), 0}
+Daily settlement value = Daily settlement price x Open interests
+Where:
+- Buy-in securities value is the value of underlying securities which a securities-trading organization
+buys in to guarantee the obligation to settle the futures contract;
+- Margin value is the value of asset accepted by a securities-trading organization as margins for
+investment, self-trading and derivatives market making.
+Article 10. Settlement risk value
+1. At the end of a trading day, the securities-trading organization shall determine the settlement risk
+value of the following contracts and transactions:
+a) Time deposits at credit institutions, certificates of deposit issued by credit institutions;
+b) Securities borrowing agreement in accordance with regulations of law;
+c) Securities sale contracts which contain commitments to redeem securities in accordance with
+regulations of law;
+d) Securities purchase contracts which contain commitments to resell securities in accordance with
+regulations of law;
+e) Listed securities margin lending and purchase contracts in accordance with regulations of law;
+f) Firm commitment underwriting agreement signed with other organizations in an underwriting
+syndicate in which the securities-trading organization is the principal underwriter;
+g) Receivables of clients in securities trading business;
+h) Receivables from mature bonds, valuable papers, mature debt instruments for which payment has
+not been paid;
+i) Assets the lime limit for transfer of which has expired, including securities in trading activities of the
+securities-trading organization and securities of clients in securities brokerage;
+k) The contracts, transactions, payments other than those specified in Points a, b, c, d, dd, e, g of this
+Article; receivables from debt trading with partners other than VAMC and DATC.
+2. For the contracts specified in Points a, b, c, d, dd and g, Clause 1 of this Article, the settlement risk
+value before the deadline for transfer of securities, cash and contract liquidation shall be determined
+as follows:
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+Settlement risk value = Value of assets with potential settlement risk x Settlement risk coefficient by
+partner
+a) The settlement risk coefficient by partner shall be determined according to credit ratings of trading
+partner(s) under the rules prescribed in Appendix III enclosed herewith;
+b) The value of assets with potential settlement risk shall be determined according to Appendix IV
+hereof. The stock dividends, bond yields and the value of preferred rights whenever they arise
+(applicable to securities), or deposit interests, loan interests and other surcharges (applicable to
+credits) shall be included in the value of assets with potential settlement risk.
+3. For the contracts specified in Point e, Clause 1 of this Article, the settlement risk value equals 30%
+of the remaining value of unpaid underwriting agreements.
+4. For the overdue receivables and securities that are yet to be transferred on schedule as prescribed
+in Points h and i, Clause 1 of this Article, including securities and cash that are yet to be received from
+due transactions and contracts prescribed in Points a, b, c, d, dd and g, Clause 1 of this Article, the
+settlement risk value shall be determined according to the following rules:
+Settlement risk value = Value of assets with potential settlement risk x Settlement risk coefficient by
+time
+a) The settlement risk coefficient by time shall be determined according to the overdue settlement
+period under the rules prescribed in the Appendix III enclosed herewith;
+b) The value of assets with potential settlement risk shall be determined as follows:
+- For securities purchase or sale transactions by clients or the securities-trading organization itself:
+This value is the market value of contracts, calculated according to the rules prescribed in Appendix II
+and Appendix IV enclosed herewith;
+- For margin lending and purchase transactions, securities sale transactions with a commitment to
+redeem securities, securities purchase transactions with a commitment to resell, borrow or lend
+securities: This value shall be determined according to the rules prescribed in Appendix IV enclosed
+herewith;
+- For receivables, mature bonds and due debt instruments: This value is the value of receivables
+calculated according to their par value. The unpaid interests and related expenses shall be added, and
+actually received payments (if any) shall be deducted.
+5. Except for the transactions and contracts specified in Point k Clause 1 and Point b Clause 10 of this
+Article, a securities-trading organization may deduct the value of secured assets of its partners and
+clients upon determination of the value of assets with potential settlement risk prescribed in Clause 1
+of this Article if these contracts and transactions satisfy the following conditions:
+a) Partners and clients provide secured assets to ensure the fulfillment of their obligations and these
+secured assets are cash, cash equivalents, valuable papers and negotiable instruments on the
+monetary market or securities listed or registered for trading on the Vietnam Exchange and its
+subsidiary companies (hereinafter referred to as “VNX”), government bonds and bonds underwritten
+by the Ministry of Finance;
+b) The securities-trading organization may dispose of, manage, use and transfer secured assets in
+case its partners fail to fulfill the settlement obligation within the time limit under the contracts.
+6. The value of secured assets to be deducted as prescribed in Clause 5 of this Article shall be
+determined as follows:
+Value of secured asset = Volume of secured assets x Asset price x (1 - Market risk coefficient)
+a) The asset price shall be determined according to the rules provided in Appendix II enclosed
+herewith;
+b) The market risk coefficient shall be determined according to the rules provided in Appendix I
+enclosed herewith.
+7. When determining the settlement risk value, the securities-trading organization may make mutual
+net offsetting of the asset value with potential settlement risk if the following conditions are satisfied:
+a) The settlement risk is related to the same partner;
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+b) The settlement risk arises during the same type of transaction specified in Clause 1 of this Article;
+c) The mutual offsetting has been agreed upon in writing by the parties.
+8. The settlement risk value shall be increased in the following cases:
+a) Increased by 10% in case the value of deposit contract, certificates of deposit, loans, due
+receivables, securities purchase contract with a commitment to resell securities, sale contract with a
+commitment to repurchase securities, total value of loans provided for an organization, individual and
+group of relevant organizations or individuals (if any), accounts for from 10% to 15% of the equity;
+b) Increased by 20% in case the value of deposit contract, certificates of deposit, loans, due
+receivables, securities purchase contract with a commitment to resell securities, sale contract with a
+commitment to repurchase securities, total value of loans provided for an organization, individual and
+group of relevant organizations or individuals (if any), accounts for from 15% to 25% of the equity;
+c) Increased by 30% in case the value of deposit contract, certificates of deposit, loans, due
+receivables, securities purchase contract with a commitment to resell securities, sale contract with a
+commitment to repurchase securities, total value of loans provided for an organization, individual and
+group of relevant organizations or individuals (if any), or an individual and parties related to him/her (if
+any), accounts for more than 25% of the equity.
+9. In case a partner is totally insolvent, the loss calculated according to the contract value shall be
+deducted from liquid capitals.
+10. The value of assets with potential settlement risk in other cases shall be determined as follows:
+a) For the contracts and transactions specified in Point k Clause 1 of this Article:
+Settlement risk value = Value of all assets with potential settlement risk x 100%
+b) For advances that must be returned within over ninety (90) days:
+ Value of assets with potential settlement   Risk                       Settlement risk value
+                   risk                    weighting
+Value of all accounts for 0% - 5% of equity          8%     Settlement risk value = Value of assets with
+advances     at calculation time                            potential settlement risk x Risk weighting
+              accounts for more than 5% of         100%
+              equity at calculation time
+Section 3. LIQUID CAPITAL RATIO AND REGULATION ON REPORTING BY SECURITIES-
+TRADING ORGANIZATIONS
+Article 11. Liquid capital ratio and warning levels
+1. The liquid capital ratio shall be determined according to the following rules:
+                               Liquid capital
+ Liquid capital ratio   =                               x 100%
+                                Total risk value
+2. The SSC shall issue the decision to issue warning to the securities-trading organization according
+to Article 13 of this Circular, place it under control or under special control according to Article 14 and
+Article 16 of this Circular respectively. Within 24 hours from the issuance of the decision, SSC shall
+post such decision on the website of SSC and the securities-trading organization shall publish
+information about such decision on the websites of SSC, VNX and the securities-trading organization.
+Article 12. Liquid capital reporting
+1. Periodic reporting
+a) The securities-trading organization shall submit monthly reports on prudential indicator made using
+the form provided in the Appendix V or VI enclosed herewith to the SSC. Electronic reports shall be
+sent via the database system within 07 working days from the end of the month.
+b) The securities-trading organization must submit prudential indicator reports of 30 June and 31
+December made using the form provided in the Append ix V or VI enclosed herewith and publish the
+reports on its website after they have been examined and audited by an accredited audit organization.
+These reports shall be sent to SSC via the database system and disclosed together with the examined
+biannual financial statements and audited annual financial statements.
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+2. Unscheduled reporting
+a) Since its liquid capital ratio falls below 180%, a securities-trading organization shall submit an liquid
+capital ratio report made using the form provided in the Appendix V or VI enclosed herewith to the
+SSC twice a month (on the 15th and 30th). Reports shall be sent electronically via the database system
+within 03 working days after the 15th and 30th every month.
+b) Since its liquid capital ratio falls below 150%, a securities-trading organization shall submit a weekly
+report on liquid capital ratio made using the form provided in the Appendix V or VI enclosed herewith
+to the SSC. Reports shall be sent electronically via the database system before 16:00 every Friday.
+c) Since its liquid capital ratio falls below 120%, a securities-trading organization shall submit a weekly
+report on liquid capital ratio made using the form provided in the Appendix V or VI enclosed herewith
+to the SSC. Reports shall be sent electronically via the database system before 16:00 every day.
+3. The securities-trading organization may prepare periodic reports as prescribed in Clause 1 of this
+Article when its liquid capital ratio reaches or surpasses 180% during the reporting periods for three
+(3) consecutive months.
+                                                Chapter III
+  ACTIONS AGAINST SECURITIES-TRADING ORGANIZATION THAT FAILS TO
+                  ACHIEVE PRUDENTIAL INDICATOR
+Section 1. WARNING
+Article 13. Warning
+1. The SSC shall issue the decision to issue warning to a securities-trading organization in the
+following cases:
+a) The liquid capital ratio reaches from 150% to below 180% during the reporting periods in three (03)
+consecutive months; or
+b) The liquid capital ratio that has been examined or audited by an accredited audit organization
+reaches from 150% to below 180%; or
+c) The prudential indicator report about which the accredited audit organization issue a dissenting or
+contrary opinion, or a disclaimer of opinion, or fails to give any opinion, or issues a qualified opinion,
+the liquid capital ratio is from 150% to below 180%, if the exceptions are not included in the liquid
+capitals.
+2. The warning period begins when a warning is issued against the securities-trading organization and
+ends when SSC issues a decision to lift the warning.
+3. SSC will consider lifting the warning when the securities-trading organization’s liquid capital ratio
+reaches 180% or more in three (03) consecutive months, the liquid capital ratio during the last
+reporting period has been audited by an accredited audit organization, and the securities-trading
+organization has submitted a report according to Appendix XI hereof to SSC.
+Section 2. CONTROL
+Article 14. Control
+1. The SSC shall issue the decision to place a securities-trading organization under control in the
+following cases:
+a) The liquid capital ratio reaches from 120% to below 150% during the reporting periods in three (03)
+consecutive months; or
+b) The liquid capital ratio that has been examined or audited by an accredited audit organization
+reaches from 120% to below 150%; or
+c) The prudential indicator report about which the accredited audit organization issue a dissenting or
+contrary opinion, or a disclaimer of opinion, or fails to give any opinion, or issues a qualified opinion,
+the liquid capital ratio is from 120% to below 150%, if the exceptions are not included in the liquid
+capitals.
+2. The control period must not exceed 12 months from the day on which the securities-trading
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+organization is placed under control.
+3. After 04 months from the day on which the control is placed, VNX shall partially suspend the trading
+by the affiliated securities companies that fail to successfully take remedial actions against the control.
+The suspension of affiliated securities companies of VNX will be lifted when SSC stops placing the
+securities company under control. Procedures for suspension shall comply with regulations of VNX.
+4. SSC will consider lifting the control status when the securities-trading organization’s liquid capital
+ratio reaches 180% or more in three (03) consecutive months, the liquid capital ratio during the last
+reporting period has been audited by an accredited audit organization, and the securities-trading
+organization has submitted a report according to Appendix XI hereof to SSC.
+Article 15. Remediation plan
+1. Within fifteen (15) days from the day on which the SSC issues the decision to place a securities-
+trading organization under control, the securities-trading organization shall submit a detailed report on
+financial condition, reasons and remediation plan to the SSC.
+2. The remediation plan shall cover the next 02 years with specific road map, conditions and deadline
+for each month wand quarter. The SSC may request the securities-trading organization to make
+adjustments to the remediation plan at any time if it is unfeasible or inconsistent with market conditions
+or regulations of law.
+3. The remedial measures include:
+a) Sale of high-risk assets; restriction on or cessation of the purchase of treasury stock;
+b) Recovery of debts; resale of shares or stake to the creditor;
+c) Reduction of operating and corporate governance costs; reorganization of the management
+apparatus and human resources or staff reduction;
+d) Narrowing of the operation scope and area; shutdown of some branches or transaction offices;
+reduction of securities services;
+e) Suspension of the payment of stock dividends and distribution of profits; increase of capital in
+accordance with law;
+f) Consolidation into or merger with a securities-trading organization conducting the same business
+line or of the same type in accordance with law;
+g) Other measures that are not contrary to regulations of law.
+Section 3. SPECIAL CONTROL
+Article 16. Special control
+1. The SSC shall issue the decision to issue place a securities-trading organization under special
+control in the following cases:
+a) The liquid capital ratio that is calculated by the securities-trading organization itself or has been
+examined or audited by an accredited audit organization is below 120%; or
+b) The securities-trading organization fails to take remedial actions against the special control within
+twelve (12) months as prescribed in Clause 2, Article 14 of this Circular; or
+c) The securities-trading organization fails to prepare prudential indicator reports in two (02)
+consecutive reporting period, or fails to carry out audits or examine prudential indicator reports or fails
+to publish information about the prudential indicator reports examined or audited by a accredited audit
+organization as prescribed in Point b, Clause 1, Article 12 of this Circular; or
+d) The prudential indicator report about which the accredited audit organization gives dissenting or
+contrary opinions, or refuses to give any opinion, or fails to give any opinion, or gives opinions that, the
+liquid capital ratio is below 120%, if the exceptions are not included in the liquid capitals.
+2. The special control period must not exceed four (04) months from the day on which the securities-
+trading organization is placed under special control.
+3. In case the special control is placed as prescribed in Point b, Clause 1 of this Article, after two (01)
+months from the day on which the special control is placed, VNX shall partially suspend the trading of
+the affiliated securities companies that fail to take remedial actions against the special control. The
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+suspension will be lifted when SCC issues a decision to stop putting the securities company under
+special control. Procedures for suspension of subsidiary companies shall comply with regulations of
+VNX.
+4. SSC will consider lifting the special control status when the securities-trading organization’s liquid
+capital ratio reaches 180% or more in three (03) consecutive months, the liquid capital ratio during the
+last reporting period has been audited by an accredited audit organization, and the securities-trading
+organization has submitted a report according to Appendix XI hereof to SSC.
+5. After the special control period ends as prescribed in Clause 2 of this Article, if the securities-trading
+organization still fails to take remedial actions against the special control, its operation shall be
+suspended from operation. Procedures for suspension of operation shall comply with regulations on
+organization and operation of securities companies and fund management companies.
+6. Within twenty-four (24) hours after the securities-trading organization is suspended from operation,
+SSC shall disclose this information on SSC’s website.
+7. After 06 months from the effective date of the suspension decision, SSC shall issue a decision to
+withdraw the securities brokerage license if the securities company fails to eliminate the causes of
+suspension as prescribed in Clause 5 Article 16 of this Circular.
+Article 17. Remediation plan
+1. Within fifteen (07) days from the day on which the SSC issues the decision to place a securities-
+trading organization under special control, the securities-trading organization shall submit a detailed
+report on financial condition, reasons and remediation plan to the SSC.
+2. The remediation plan shall be implemented as prescribed in Clauses 2 and 3, Article 15 of this
+Circular.
+Section 4. RESPONSIBILITIES OF RELEVANT PARTIES
+Article 18. Responsibilities of individuals and securities-trading organization placed under
+control or special control
+1. The Board of Directors, Board of Members, President, Director General (Director) of the securities-
+trading organization placed under control or special control shall:
+a) Develop a remediation plan and organize the implementation of such plan;
+b) Continue managing, controlling and administering operation and ensuring safety of securities-
+trading organization’s assets in accordance with law;
+c) Take responsibility for the issues concerning organizational structure and operation of the
+securities-trading organization before, during and after the period of control or special control;
+d) Provide assistance for or enable other organizations to perform their duties as prescribed in this
+Circular and perform other tasks at the request of the SSC.
+2. Before 16:00 every Friday, the securities-trading organization shall submit a report on the
+implementation of remediation plan and results.
+3. During the control or special control period:
+a) A securities-trading institution shall not pay stock dividends to its shareholders, divide profits to its
+capital contributors or give bonuses to members of the Board of Directors, Board of Members, Board
+of Controllers, Director General (Director), Deputy Director General (Deputy Director), chief
+accountant, staff members and relevant individuals;
+b) The securities-trading organization must not convert unsecured debts into debts secured by its
+assets;
+c) The securities-trading organization must not purchase treasury stocks or redeem the stake from
+capital contributors;
+d) The securities-trading organization must not sign new and extended margin trading contracts,
+securities lending and purchase contracts, purchase transactions with a commitment to resell
+securities and contracts on provision of loans to customers without secured assets and continue
+carrying out these contracts and transactions; and must not sign the firm commitment underwriting
+SSC’s Disclaimer: The English translation of the securities supervisory regulations is
+not official and is intended for reference only. Neither the SSC nor the MOF is
+responsible for the correctness of the English translation, and the reader is advised to
+refer to the most up‐to‐date regulations in Vietnam.
+
+
+agreement;
+e) The securities-trading organization must not establish new transaction offices, branches and
+representative offices, expand its operation area and provide new services;
+f) The securities-trading organization must not contribute capital to establish subsidiaries or invest in
+real estate; must avoid investment in high-risk assets or business operations that increase its risk
+value and reduce liquid capitals.
+g) A securities company shall manage only securities trading money by having its customers open
+accounts at commercial banks selected by the securities company.
+Article 19. Responsibilities of other relevant organizations
+1. VNX, VSDCC, depository members, supervisory banks, clearing banks and other relevant
+organizations shall provide the SSC with sufficient and timely information and documents on
+transactions, investment and trading operations of the securities-trading organization placed under
+control or special control at the request of the SSC.
+2. VNX, VSDCC, supervisory banks, payment banks and relevant securities-trading organizations
+shall provide guidance, assistance and securities services for clients of the securities-trading
+organization placed under control or special control at the request of the SSC.
+3. VNX and SSC shall implement relevant regulations of this Circular.
+                                               Chapter IV
+                                 IMPLEMENTATION CLAUSES
+Article 20. Implementation clause
+1. This Circular comes into force from January 01, 2021, except for the regulations specified in Clause
+2 of this Article. This Circular replaces Circular No. 87/2017/TT-BTC of the Ministry of Finance on
+prudential ratios and actions against securities-trading organizations that fail to achieve the prudential
+ratios.
+2. Point dd Clause 5 Article 5, Point d Clause 3 Article 6, Point k Clause 1 Article 10, Clause 10 Article
+10 of this Circular and VII.28 of Appendix I hereof take effect from January 01, 2022.
+3. Amendments, replacement or abrogation of this Circular shall be decided by the Minister of
+Finance./.
+
+
+                                                                   PP MINISTER
+                                                                 DEPUTY MINISTER
+
+
+
+
+                                                                  Huynh Quang Hai
+
