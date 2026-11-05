@@ -28,7 +28,10 @@ body { margin: 0; background: #ccc; }
 .mark span { font: 800 40px/1 "Be Vietnam Pro"; letter-spacing: -2px; } .mark span i { font-style: normal; color: var(--gold); }
 .mark em { display: flex; align-items: flex-end; gap: 4px; height: 16px; } .mark em b { width: 6px; border-radius: 2px; display: block; }
 .word { font: 800 92px/1 "Be Vietnam Pro"; letter-spacing: 2px; } .word i { font-style: normal; color: var(--gold); }
-h1 { margin: 6px 0 0; font: 700 41px/1.15 "Literata", Georgia, serif; letter-spacing: -.3px; white-space: nowrap; }
+h1 { margin: 6px 0 0; font: 700 52px/1.15 "Literata", Georgia, serif; letter-spacing: -.3px; white-space: nowrap; }
+.series { display: flex; align-items: center; gap: 14px; font: 600 27px/1.2 "Be Vietnam Pro"; color: #E3EAF8; margin-top: -4px; }
+.play { width: 44px; height: 44px; border-radius: 50%; background: var(--gold); position: relative; flex: none; box-shadow: 0 0 0 7px rgba(224,176,74,.22); }
+.play::after { content: ""; position: absolute; left: 17px; top: 13px; border-left: 15px solid #0A1B3F; border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .pills { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
 .pills span { padding: 9px 18px; border-radius: 999px; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.16); font: 600 21px/1.2 "Be Vietnam Pro"; color: #E3EAF8; }
 .pills span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--up); margin-right: 10px; vertical-align: 2px; }
@@ -45,17 +48,18 @@ h1 { margin: 6px 0 0; font: 700 41px/1.15 "Literata", Georgia, serif; letter-spa
     <path d="M0 560 C 220 540, 300 500, 420 510 S 640 430, 760 450 S 980 360, 1100 330 S 1380 230, 1640 150" fill="none" stroke="#E0B04A" stroke-width="3" opacity=".35"/>
   </svg>
   <div class="tape">
-    <span>LUẬT CK HỢP NHẤT<b>▲ 2025</b></span><span>NĐ 245/2025<b>▲ CẬP NHẬT</b></span><span>TT 135/2025<b>▲ MỚI</b></span>
-    <span>NGÂN HÀNG CÂU HỎI<i>452</i></span><span>MỐC ĐẠT<i>60% MỖI PHẦN</i></span><span>MÔI GIỚI<b>▲</b></span><span>PHÂN TÍCH TÀI CHÍNH<b>▲</b></span><span>QUẢN LÝ QUỸ<b>▲</b></span>
+    <span>LÃI KÉP<b>▲</b></span><span>TIẾT KIỆM<b>▲</b></span><span>LẠM PHÁT<i>●</i></span><span>CỔ PHIẾU<b>▲</b></span><span>TRÁI PHIẾU<b>▲</b></span>
+    <span>QUỸ ĐẦU TƯ<b>▲</b></span><span>DÒNG TIỀN<b>▲</b></span><span>QUẢN LÝ RỦI RO<i>●</i></span><span>P/E<b>▲</b></span><span>CỔ TỨC<b>▲</b></span>
   </div>
   <div class="main">
     <div class="brand">
       <div class="mark"><span>B<i>T</i></span><em><b style="height:7px;background:var(--down)"></b><b style="height:11px;background:var(--up)"></b><b style="height:16px;background:var(--gold)"></b></em></div>
       <div class="word">BT-<i>INVEST</i></div>
     </div>
-    <h1>Luyện thi chứng chỉ hành nghề chứng khoán 2026</h1>
-    <div class="pills"><span>Bám sát luật hiện hành</span><span>Thi thử đúng cấu trúc</span><span>Ôn lặp lại thông minh</span></div>
-    <div class="contact"><span class="hot">Hotline / Zalo: 0942 037 820</span><span class="web">luyenthicchn-dist.vercel.app</span></div>
+    <h1>Kiến thức tài chính, nói thật đơn giản</h1>
+    <div class="series"><span class="play" aria-hidden="true"></span>Chuỗi video ngắn cho người mới bắt đầu</div>
+    <div class="pills"><span>Quản lý tiền cá nhân</span><span>Tiết kiệm &amp; lãi kép</span><span>Chứng khoán cho người mới</span></div>
+    <div class="contact"><span class="hot">Hotline / Zalo: 0942 037 820</span></div>
   </div>
 </div>
 <script>
