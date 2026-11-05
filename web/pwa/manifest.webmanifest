@@ -1,10 +1,23 @@
 {
-  "name": "Đỗ CCHN – Luyện thi chứng chỉ hành nghề chứng khoán",
-  "short_name": "Đỗ CCHN",
+  "name": "BT-INVEST – Luyện thi CCHN chứng khoán",
+  "short_name": "BT-INVEST",
   "lang": "vi",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#F1F4F1",
-  "theme_color": "#1D4E92",
-  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+  "theme_color": "#0C2A63",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>BT-INVEST brand</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700;800&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap">
+<style>
+/* Bộ nhận diện BT-INVEST: xanh mực (niềm tin), vàng kim (đầu tư), xanh lá nến tăng (bảng điện). Dùng để chụp ra PNG. */
+:root { --navy: #0C2A63; --navy2: #17408F; --gold: #E0B04A; --up: #19B47A; --ink: #0A1B3F; }
+body { margin: 0; background: #ddd; font-family: "Be Vietnam Pro", Arial, sans-serif; }
+.mark { position: relative; width: 1024px; height: 1024px; overflow: hidden; border-radius: 0;
+  background: radial-gradient(circle at 30% 20%, var(--navy2), var(--navy) 62%, #081D47); }
+.mark.round { border-radius: 230px; }
+.mark .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.06) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,.06) 2px, transparent 2px); background-size: 128px 128px; }
+.mark .bt { position: absolute; left: 0; right: 0; top: 196px; text-align: center; font: 800 400px/1 "Be Vietnam Pro"; letter-spacing: -22px; color: #fff; }
+.mark .bt i { font-style: normal; color: var(--gold); }
+.mark .candles { position: absolute; left: 50%; transform: translateX(-50%); top: 640px; display: flex; align-items: flex-end; gap: 34px; height: 170px; }
+.c { width: 54px; position: relative; border-radius: 8px; }
+.c::before { content: ""; position: absolute; left: 50%; width: 8px; margin-left: -4px; top: -26px; bottom: -26px; background: inherit; border-radius: 4px; opacity: .85; }
+.mark .word { position: absolute; left: 0; right: 0; top: 860px; text-align: center; font: 700 78px/1 "Be Vietnam Pro"; letter-spacing: 26px; padding-left: 26px; color: var(--gold); }
+.mark.small .word { display: none; }
+.mark.small .candles { top: 690px; }
+.mark.small .bt { top: 236px; }
+
+.og { width: 1200px; height: 630px; position: relative; overflow: hidden; display: grid; grid-template-columns: 1fr 380px; color: #fff;
+  background: radial-gradient(circle at 85% 30%, var(--navy2), var(--navy) 55%, #081D47); }
+.og .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 60px 60px; }
+.og .l { position: relative; padding: 64px 0 56px 72px; display: flex; flex-direction: column; gap: 22px; }
+.og .brand { display: flex; align-items: center; gap: 18px; }
+.og .brand .logo { width: 78px; height: 78px; border-radius: 18px; overflow: hidden; }
+.og .brand b { font: 800 44px/1 "Be Vietnam Pro"; letter-spacing: .5px; }
+.og .brand b i { font-style: normal; color: var(--gold); }
+.og h1 { margin: 6px 0 0; font: 700 62px/1.12 "Literata", Georgia, serif; letter-spacing: -.5px; max-width: 700px; }
+.og ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font: 500 26px/1.3 "Be Vietnam Pro"; color: #D9E3F7; }
+.og ul li::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--up); margin-right: 14px; vertical-align: 3px; }
+.og .phone { margin-top: auto; font: 700 30px/1 "Be Vietnam Pro"; color: var(--gold); }
+.og .r { position: relative; display: flex; align-items: flex-end; justify-content: center; gap: 26px; padding-bottom: 120px; }
+.og .r .c { width: 46px; }
+</style>
+</head>
+<body>
+<!-- Avatar / biểu tượng (nến xếp tăng dần như bảng điện) -->
+<div class="mark" id="avatar"><div class="grid"></div><div class="bt">B<i>T</i></div>
+  <div class="candles"><div class="c" style="height:58px;background:#E0505A"></div><div class="c" style="height:92px;background:var(--up)"></div><div class="c" style="height:126px;background:var(--up)"></div><div class="c" style="height:170px;background:var(--gold)"></div></div>
+  <div class="word">INVEST</div></div>
+<div class="mark small" id="icon"><div class="grid"></div><div class="bt">B<i>T</i></div>
+  <div class="candles"><div class="c" style="height:58px;background:#E0505A"></div><div class="c" style="height:92px;background:var(--up)"></div><div class="c" style="height:126px;background:var(--up)"></div><div class="c" style="height:170px;background:var(--gold)"></div></div></div>
+
+<!-- Ảnh xem trước khi chia sẻ link (Open Graph 1200×630) -->
+<div class="og" id="og"><div class="grid"></div>
+  <div class="l">
+    <div class="brand"><div class="logo"><div class="mark small" style="transform:scale(.0762);transform-origin:0 0"><div class="grid"></div><div class="bt">B<i>T</i></div><div class="candles"><div class="c" style="height:58px;background:#E0505A"></div><div class="c" style="height:92px;background:var(--up)"></div><div class="c" style="height:126px;background:var(--up)"></div><div class="c" style="height:170px;background:var(--gold)"></div></div></div></div><b>BT-<i>INVEST</i></b></div>
+    <h1>Luyện thi chứng chỉ hành nghề chứng khoán 2026</h1>
+    <ul><li>452 câu soát theo luật hiện hành</li><li>Thi thử đúng cấu trúc từng chứng chỉ</li><li>Ôn lặp lại, thư viện luật, máy tính tài chính</li></ul>
+    <div class="phone">Hotline / Zalo: 0942 037 820</div>
+  </div>
+  <div class="r"><div class="c" style="height:110px;background:#E0505A"></div><div class="c" style="height:170px;background:var(--up)"></div><div class="c" style="height:140px;background:#E0505A"></div><div class="c" style="height:230px;background:var(--up)"></div><div class="c" style="height:300px;background:var(--gold)"></div></div>
+</div>
+</body>
+</html>

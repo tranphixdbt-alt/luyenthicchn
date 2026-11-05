@@ -1,4 +1,4 @@
-/* Đỗ CCHN — ứng dụng luyện thi chứng chỉ hành nghề chứng khoán. JavaScript thuần, không cần build. */
+/* BT-INVEST — ứng dụng luyện thi chứng chỉ hành nghề chứng khoán. JavaScript thuần, không cần build. */
 (() => {
 'use strict';
 
@@ -23,7 +23,9 @@ const PARTS = { LUAT: 'Pháp luật CK & TTCK', CM: 'Chuyên môn' };
 const LEVEL = { 1: 'Nhớ', 2: 'Hiểu', 3: 'Vận dụng' };
 const PASS = 0.6;
 const DAY = 864e5, SRS_DAYS = [0, 1, 3, 7, 16, 35];
-const KEY = 'docchn_v1';
+const KEY = 'docchn_v1';   // giữ khóa cũ để người dùng không mất tiến độ khi đổi thương hiệu
+const BRAND = { name: 'BT-INVEST', phone: '0942037820', phoneShow: '0942 037 820', zalo: 'https://zalo.me/0942037820' };
+const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ---------- tiện ích ----------
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
@@ -103,23 +105,26 @@ const IC = {
   history: '<path d="M4 19h16M7 16V9M12 16V5M17 16v-4"/>',
   gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
 };
 const icon = k => `<svg viewBox="0 0 24 24" aria-hidden="true">${IC[k]}</svg>`;
 const NAV = [
   ['Học', [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['on-tap', 'Ôn lặp lại', 'review'], ['thi-thu', 'Thi thử', 'exam']]],
   ['Tra cứu', [['ngan-hang', 'Ngân hàng câu hỏi', 'bank'], ['the-nho', 'Thẻ ghi nhớ số liệu', 'cards'], ['cong-thuc', 'Công thức & máy tính', 'calc'],
     ['thu-vien', 'Thư viện luật', 'law'], ['thay-doi', 'Luật mới 2025–2026', 'change'], ['quy-che', 'Quy chế thi 2026', 'rules']]],
-  ['Cá nhân', [['lich-su', 'Lịch sử & tiến độ', 'history'], ['cai-dat', 'Cài đặt & sao lưu', 'gear']]],
+  ['Cá nhân', [['lich-su', 'Lịch sử & tiến độ', 'history'], ['cai-dat', 'Cài đặt & sao lưu', 'gear'], ['lien-he', 'Giới thiệu & liên hệ', 'phone']]],
 ];
 const TITLES = Object.fromEntries(NAV.flatMap(g => g[1].map(x => [x[0], x[1]])));
 Object.assign(TITLES, { 'lam-bai': 'Đang làm bài', 'ket-qua': 'Kết quả' });
+const brandMark = () => `<span class="brand-mark" aria-hidden="true"><span>B<i>T</i></span><em><b style="height:3px;background:#E0505A"></b><b style="height:5px;background:#19B47A"></b><b style="height:7px;background:#E0B04A"></b></em></span>`;
 
 function renderNav(cur) {
   const due = dueIds().length;
-  $('#nav').innerHTML = `<div class="brand"><div class="brand-mark">Đỗ</div><div><b>Đỗ CCHN</b><small>Thi sát hạch 2026</small></div></div>` +
+  $('#nav').innerHTML = `<a class="brand" href="#tong-quan" style="text-decoration:none;color:inherit">${brandMark()}<div><b>BT-<i>INVEST</i></b><small>Luyện thi CCHN</small></div></a>` +
     NAV.map(([g, items]) => `<div class="nav-group">${g}</div>` + items.map(([h, t, i]) =>
       `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}<span>${t}</span>${h === 'on-tap' && due ? `<span class="badge-due">${due}</span>` : ''}</a>`).join('')).join('') +
-    `<div class="nav-foot">${fmt(D.q.length)} câu hỏi · cập nhật luật đến 11/2026<br>Không phải trang chính thức của UBCKNN.</div>`;
+    `<div class="nav-foot"><a class="hotline" href="#lien-he"><span>Hotline / Zalo</span><b>${BRAND.phoneShow}</b></a>
+      <span>${fmt(D.q.length)} câu hỏi, luật cập nhật đến 11/2026. Không phải trang chính thức của UBCKNN.</span></div>`;
   const tabs = [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['thi-thu', 'Thi thử', 'exam'], ['thu-vien', 'Thư viện', 'law']];
   $('#tabbar').innerHTML = tabs.map(([h, t, i]) => `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}${t}</a>`).join('') +
     `<a href="#menu" id="tab-more">${icon('menu')}Thêm</a>`;
@@ -160,9 +165,8 @@ function route() {
   let h = decodeURIComponent(location.hash.slice(1)) || 'tong-quan';
   if (h.startsWith('dieu-')) { current = 'thu-vien'; renderNav(current); VIEWS['thu-vien'](h.slice(5)); return; }
   if (!VIEWS[h]) h = 'tong-quan';
-  current = h; renderNav(h); openNav(false);
-  VIEWS[h]();
-  $('#main').scrollTo?.(0, 0); window.scrollTo(0, 0);
+  const render = () => { current = h; renderNav(h); openNav(false); VIEWS[h](); $('#main').scrollTo?.(0, 0); window.scrollTo(0, 0); };
+  if (document.startViewTransition && current && current !== h && !reduceMotion()) document.startViewTransition(render); else render();
 }
 const go = h => { if (location.hash === '#' + h) route(); else location.hash = h; };
 const main = html => { $('#main').innerHTML = html; };
@@ -185,8 +189,18 @@ VIEWS['tong-quan'] = () => {
       <span class="pct">${st.n ? Math.round(st.acc * 100) + '%' : '—'}</span><span class="tiny muted">${lab} · đã làm ${st.seen}/${st.total}</span></button>`;
   }).join('');
   const resume = S.sess ? `<div class="note info row between"><span>Bạn có bài <b>${esc(S.sess.title)}</b> chưa hoàn tất.</span><a class="btn sm primary" href="#lam-bai">Tiếp tục</a></div>` : '';
-  main(page('Tổng quan', 'Chào bạn, hôm nay ôn gì?', `Mục tiêu: đúng từ 60% số câu ở <b>mỗi</b> phần thi. Chứng chỉ đang chọn: <b>${CERTS[cert].name}</b>.`,
-    `${resume}
+  const last8 = exams.slice(0, 8).reverse();
+  const candles = last8.length ? last8.map((h, i) => { const p = pct(h.ok, h.n); return `<span class="candle ${p >= 60 ? 'up' : 'down'}" style="height:${Math.max(p, 6)}%;animation-delay:${i * 60}ms" title="${dt(h.at)}: ${p}%"></span>`; }).join('')
+    : [38, 52, 46, 64, 58, 72].map((p, i) => `<span class="candle ghost" style="height:${p}%;animation-delay:${i * 60}ms"></span>`).join('');
+  main(`<div class="page"><section class="hero">
+      <div><div class="who">${brandMark()}<span>BT-INVEST · Luyện thi CCHN 2026</span></div>
+        <h1>Chào bạn, hôm nay ôn gì?</h1>
+        <p>Mục tiêu: đúng từ 60% số câu ở <b>mỗi</b> phần thi. Chứng chỉ đang chọn: <b>${CERTS[cert].name}</b>.</p>
+        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div></div>
+      <div class="chart" aria-label="Phong độ thi thử"><div class="candles"><span class="line60"></span>${candles}</div>
+        <span class="cap">${last8.length ? `Phong độ ${last8.length} lần thi thử gần nhất · nét đứt là mốc 60%` : 'Kết quả thi thử sẽ hiện ở đây'}</span></div>
+    </section>
+    ${resume}
     <div class="grid g4">
       <a class="card stat" href="#on-tap" style="text-decoration:none;color:inherit"><div class="k">Cần ôn hôm nay</div><div class="v">${due}</div><div class="d">${due ? 'Câu đến hạn theo lịch lặp lại' : 'Không có câu đến hạn'}</div></a>
       <div class="card stat"><div class="k">Đã luyện</div><div class="v">${fmt(seen)}</div><div class="d">${pct(seen, D.q.length)}% ngân hàng ${fmt(D.q.length)} câu</div></div>
@@ -207,7 +221,7 @@ VIEWS['tong-quan'] = () => {
       <a class="card stack" href="#on-luyen" style="text-decoration:none;color:inherit"><h3>Ôn luyện theo chủ đề</h3><p class="small muted">Chọn môn, chủ đề, mức độ; xem đáp án, giải thích và điều luật ngay sau mỗi câu.</p></a>
       <a class="card stack" href="#thi-thu" style="text-decoration:none;color:inherit"><h3>Thi thử đúng cấu trúc</h3><p class="small muted">Hai phần tính giờ riêng, chỉ lấy câu thuộc chương trình của chứng chỉ bạn thi.</p></a>
       <a class="card stack" href="#thay-doi" style="text-decoration:none;color:inherit"><h3>Luật mới 2025–2026</h3><p class="small muted">Những quy định đã đổi theo Luật 56/2024, NĐ 245/2025, TT 135/2025… hay bị hỏi.</p></a>
-    </div>`));
+    </div></div>`);
   $$('[data-subj]').forEach(b => (b.onclick = () => { practiceFilter = { ...practiceFilter, subject: b.dataset.subj, part: b.dataset.subj === 'LU' ? 'LUAT' : 'CM', topic: '' }; go('on-luyen'); }));
 };
 
@@ -346,7 +360,7 @@ VIEWS['lam-bai'] = () => {
   const answered = pt.ids.filter(x => pt.ans[x] !== undefined).length;
   const optHtml = pt.perm[id].map((oi, pos) => {
     let cls = '';
-    if (shown) cls = oi === q.a ? 'ok' : (oi === chosen ? 'bad' : '');
+    if (shown) cls = (oi === q.a ? 'ok' : (oi === chosen ? 'bad' : '')) + (justAnswered === id && (oi === q.a || oi === chosen) ? ' just' : '');
     else if (oi === chosen) cls = 'sel';
     return `<button class="opt ${cls}" data-oi="${oi}" ${shown ? 'disabled' : ''} aria-pressed="${oi === chosen}"><span class="l">${L[pos]}</span><span>${esc(q.o[oi])}</span></button>`;
   }).join('');
@@ -402,12 +416,13 @@ function explainHtml(q, chosen) {
     ${q.quote ? `<blockquote class="quote">“${esc(q.quote)}”</blockquote>` : ''}
     <div><button class="btn sm ghost" data-report="${esc(q.id)}">Báo lỗi câu này</button></div></div>`;
 }
+let justAnswered = null;
 function choose(oi) {
   const s = S.sess, pt = part(), id = pt.ids[s.i];
   if (s.kind !== 'exam' && pt.checked[id]) return;
   pt.ans[id] = oi;
-  if (s.kind !== 'exam') { pt.checked[id] = true; rec(id, isRight(D.byId.get(id), oi)); }
-  save(); VIEWS['lam-bai']();
+  if (s.kind !== 'exam') { pt.checked[id] = true; const ok = isRight(D.byId.get(id), oi); rec(id, ok); justAnswered = id; if (!ok) navigator.vibrate?.(12); }
+  save(); VIEWS['lam-bai'](); justAnswered = null;
   if (s.kind !== 'exam') $('#explain')?.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 }
 function move(d) { const s = S.sess; s.i = Math.max(0, Math.min(part().ids.length - 1, s.i + d)); save(); VIEWS['lam-bai'](); }
@@ -504,6 +519,7 @@ VIEWS['ket-qua'] = () => {
           ${explainHtml(q, it.c)}</div></details>`;
       }).join('') || '<p class="muted">Không có câu nào.</p>'}</div>`));
   $('#r-filter').onclick = () => { onlyWrong = !onlyWrong; VIEWS['ket-qua'](); };
+  if (exam && r.pass && !r.celebrated && window.confetti) { r.celebrated = true; save(); window.confetti({ particleCount: 140, spread: 80, origin: { y: .3 }, colors: ['#0C2A63', '#E0B04A', '#19B47A', '#FFFFFF'], disableForReducedMotion: true }); }
   $('#r-wrong').onclick = () => startPractice(shuffle(wrongIds), 'Ôn câu sai', true);
   $$('.explain [data-report]').forEach(b => (b.onclick = () => report(b.dataset.report)));
 };
@@ -735,7 +751,7 @@ VIEWS['cai-dat'] = () => {
         <textarea id="s-dump" readonly>${esc(dump)}</textarea><div class="row"><button class="btn" id="s-copy">Sao chép</button><button class="btn" id="s-file">Tải file .json</button></div></div>
       <div class="card stack"><h2>Khôi phục</h2><textarea id="s-in" placeholder="Dán mã sao lưu vào đây"></textarea>
         <div class="row"><button class="btn primary" id="s-restore">Khôi phục</button><label class="btn">Chọn file<input type="file" id="s-upload" accept="application/json,.json" hidden></label></div></div>
-      <div class="card stack"><h2>Ghi chú báo lỗi (${S.reports.length})</h2><textarea id="s-rep" readonly>${esc(reports)}</textarea>
+      <div class="card stack"><h2>Ghi chú báo lỗi (${S.reports.length})</h2><p class="small muted">Sao chép rồi gửi cho BT-INVEST qua Zalo <a href="${BRAND.zalo}" target="_blank" rel="noopener">${BRAND.phoneShow}</a>.</p><textarea id="s-rep" readonly>${esc(reports)}</textarea>
         <div class="row"><button class="btn" id="s-rep-copy" ${S.reports.length ? '' : 'disabled'}>Sao chép ghi chú</button></div></div>
       <div class="card stack"><h2>Xóa dữ liệu</h2><p class="small muted">Xóa lịch sử, câu đã làm, đánh dấu và thẻ đã nhớ trên máy này.</p><div><button class="btn danger" id="s-reset">Xóa toàn bộ tiến độ</button></div></div>
       <div class="card stack"><h2>Về dữ liệu</h2><p class="small">${fmt(D.q.length)} câu hỏi · ${D.law?.dieu.length || 0} điều luật · ${D.cards.length} thẻ số liệu.</p>
@@ -756,6 +772,25 @@ VIEWS['cai-dat'] = () => {
   $('#s-restore').onclick = () => restore($('#s-in').value);
   $('#s-upload').onchange = e => { const f = e.target.files[0]; if (!f) return; const r = new FileReader(); r.onload = () => restore(r.result); r.readAsText(f, 'utf-8'); };
   $('#s-reset').onclick = async () => { if (await confirmBox('Xóa toàn bộ tiến độ?', 'Thao tác này không hoàn tác được.', 'Xóa', 'danger')) { const keep = { theme: S.theme, prefs: S.prefs }; S = { ...blank(), ...keep }; save(); toast('Đã xóa tiến độ.'); go('tong-quan'); } };
+};
+
+
+// ---------- GIỚI THIỆU & LIÊN HỆ ----------
+VIEWS['lien-he'] = () => {
+  main(page('Giới thiệu & liên hệ', 'BT-INVEST', 'Đồng hành cùng người học và làm nghề chứng khoán: luyện thi chứng chỉ hành nghề bám sát luật hiện hành, kiến thức đầu tư dễ hiểu, áp dụng được.',
+    `<div class="grid g2">
+      <div class="card stack"><h2>Liên hệ BT-INVEST</h2><p class="small muted">Hỏi đáp khi ôn thi, góp ý hoặc báo lỗi câu hỏi.</p>
+        <div class="contact-num" id="ct-num">${BRAND.phoneShow}</div>
+        <div class="row"><a class="btn primary" href="tel:${BRAND.phone}">Gọi điện</a><a class="btn" href="${BRAND.zalo}" target="_blank" rel="noopener">Nhắn Zalo</a><button class="btn" id="ct-copy">Sao chép số</button></div>
+        <p class="tiny muted">Trên một số thiết bị, nút Gọi và Zalo có thể không mở được ứng dụng; hãy sao chép số để gọi hoặc tìm trên Zalo.</p></div>
+      <div class="card stack"><h2>Ứng dụng này có gì</h2>
+        <p class="small">${fmt(D.q.length)} câu hỏi biên soạn mới; câu Luật kèm trích nguyên văn điều khoản hiện hành (cập nhật đến 11/2026) và đã đối chiếu tự động với văn bản gốc.</p>
+        <p class="small">Thi thử đúng cấu trúc từng chứng chỉ: hai phần tính giờ riêng, đạt khi đúng từ 60% mỗi phần.</p>
+        <p class="small">Ôn lặp lại câu sai theo lịch, thư viện Luật Chứng khoán hợp nhất, máy tính tài chính và thẻ ghi nhớ số liệu.</p></div>
+      <div class="card stack"><h2>Dữ liệu của bạn</h2><p class="small">Ứng dụng không yêu cầu tài khoản và không gửi dữ liệu đi đâu. Tiến độ học lưu ngay trong trình duyệt của bạn; dùng mục Cài đặt để sao lưu khi đổi máy.</p></div>
+      <div class="card stack"><h2>Lưu ý</h2><p class="small">BT-INVEST không phải cơ quan quản lý hay đơn vị tổ chức thi. Đây không phải trang chính thức của UBCKNN và không bảo đảm kết quả thi. Quy định chính thức xem tại trang của UBCKNN và SRTC.</p></div>
+    </div>`));
+  $('#ct-copy').onclick = async () => { try { await navigator.clipboard.writeText(BRAND.phone); toast('Đã sao chép số ' + BRAND.phoneShow); } catch { const r = document.createRange(); r.selectNodeContents($('#ct-num')); getSelection().removeAllRanges(); getSelection().addRange(r); toast('Đã chọn số, hãy nhấn sao chép.'); } };
 };
 
 // ---------- khởi động ----------
