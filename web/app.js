@@ -25,6 +25,19 @@ const PASS = 0.6;
 const DAY = 864e5, SRS_DAYS = [0, 1, 3, 7, 16, 35];
 const KEY = 'docchn_v1';   // giữ khóa cũ để người dùng không mất tiến độ khi đổi thương hiệu
 const BRAND = { name: 'BT-INVEST', phone: '0942037820', phoneShow: '0942 037 820', zalo: 'https://zalo.me/0942037820' };
+const SOCIAL = [   // [mã, tên, link, tên hiển thị trên kênh]
+  ['facebook', 'Facebook', 'https://www.facebook.com/profile.php?id=61590345622201', 'BT Tài Chính'],
+  ['youtube', 'YouTube', 'https://www.youtube.com/@bt.invest', '@bt.invest'],
+  ['tiktok', 'TikTok', 'https://www.tiktok.com/@bt.invest', '@bt.invest'],
+  ['x', 'X', 'https://x.com/btinvest24', '@btinvest24'],
+];
+const SOCIAL_IC = {
+  facebook: '<path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H7.9v3h2.6V21z"/>',
+  youtube: '<path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3z"/>',
+  tiktok: '<path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 1 0 5 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z"/>',
+  x: '<path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/>',
+};
+const socialIcons = () => `<div class="social">${SOCIAL.map(([k, n, u]) => `<a href="${u}" target="_blank" rel="noopener" aria-label="BT-INVEST trên ${n}" title="${n}"><svg viewBox="0 0 24 24" aria-hidden="true">${SOCIAL_IC[k]}</svg></a>`).join('')}</div>`;
 const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ---------- tiện ích ----------
@@ -123,7 +136,7 @@ function renderNav(cur) {
   $('#nav').innerHTML = `<a class="brand" href="#tong-quan" style="text-decoration:none;color:inherit">${brandMark()}<div><b>BT-<i>INVEST</i></b><small>Luyện thi CCHN</small></div></a>` +
     NAV.map(([g, items]) => `<div class="nav-group">${g}</div>` + items.map(([h, t, i]) =>
       `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}<span>${t}</span>${h === 'on-tap' && due ? `<span class="badge-due">${due}</span>` : ''}</a>`).join('')).join('') +
-    `<div class="nav-foot"><a class="hotline" href="#lien-he"><span>Hotline / Zalo</span><b>${BRAND.phoneShow}</b></a>
+    `<div class="nav-foot"><a class="hotline" href="#lien-he"><span>Hotline / Zalo</span><b>${BRAND.phoneShow}</b></a>${socialIcons()}
       <span>${fmt(D.q.length)} câu hỏi, luật cập nhật đến 11/2026. Không phải trang chính thức của UBCKNN.</span></div>`;
   const tabs = [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['thi-thu', 'Thi thử', 'exam'], ['thu-vien', 'Thư viện', 'law']];
   $('#tabbar').innerHTML = tabs.map(([h, t, i]) => `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}${t}</a>`).join('') +
@@ -196,7 +209,8 @@ VIEWS['tong-quan'] = () => {
       <div><div class="who">${brandMark()}<span>BT-INVEST · Luyện thi CCHN 2026</span></div>
         <h1>Chào bạn, hôm nay ôn gì?</h1>
         <p>Mục tiêu: đúng từ 60% số câu ở <b>mỗi</b> phần thi. Chứng chỉ đang chọn: <b>${CERTS[cert].name}</b>.</p>
-        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div></div>
+        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div>
+        <div class="follow"><span>Video kiến thức tài chính đơn giản:</span>${socialIcons()}</div></div>
       <div class="chart" aria-label="Phong độ thi thử"><div class="candles"><span class="line60"></span>${candles}</div>
         <span class="cap">${last8.length ? `Phong độ ${last8.length} lần thi thử gần nhất · nét đứt là mốc 60%` : 'Kết quả thi thử sẽ hiện ở đây'}</span></div>
     </section>
@@ -634,7 +648,7 @@ const fmtM = x => (isFinite(x) ? Math.round(x).toLocaleString('vi-VN') : '—');
 const fmtP = x => (isFinite(x) ? (x * 100).toLocaleString('vi-VN', { maximumFractionDigits: 3 }) + '%' : '—');
 VIEWS['cong-thuc'] = () => {
   main(page('Công thức & máy tính', 'Bấm số nhanh cho bài tính', 'Nhập số liệu đề bài để kiểm tra kết quả. Mỗi máy tính kèm công thức gốc theo giáo trình.',
-    `<div class="grid g2">${CALCS.map(c => `<div class="card stack calc" data-calc="${c.id}"><h2>${c.t}</h2><div class="formula">${esc(c.f)}</div>
+    `<div class="grid g2">${CALCS.map(c => `<div class="card stack calc" data-calc="${c.id}"><h2>${c.t}</h2><div class="formula">${c.f.split(' · ').map(x => `<div>${esc(x)}</div>`).join('')}</div>
       <div class="grid g2" style="gap:10px">${c.in.map(([k, lab, def]) => `<label class="f">${lab}<input type="number" step="any" id="${c.id}-${k}" value="${def}" inputmode="decimal"></label>`).join('')}</div>
       <div class="stack out-wrap" id="${c.id}-out"></div></div>`).join('')}</div>`));
   for (const c of CALCS) {
@@ -778,7 +792,9 @@ VIEWS['cai-dat'] = () => {
 // ---------- GIỚI THIỆU & LIÊN HỆ ----------
 VIEWS['lien-he'] = () => {
   main(page('Giới thiệu & liên hệ', 'BT-INVEST', 'Đồng hành cùng người học và làm nghề chứng khoán: luyện thi chứng chỉ hành nghề bám sát luật hiện hành, kiến thức đầu tư dễ hiểu, áp dụng được.',
-    `<div class="grid g2">
+    `<div class="card stack"><h2>Kênh của BT-INVEST</h2><p class="small muted">Theo dõi chuỗi video kiến thức tài chính nói đơn giản và các mẹo ôn thi.</p>
+      <div class="channels">${SOCIAL.map(([k, n, u, h]) => `<a href="${u}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true">${SOCIAL_IC[k]}</svg><span><b>${n}</b><small>${esc(h)}</small></span></a>`).join('')}</div></div>
+    <div class="grid g2">
       <div class="card stack"><h2>Liên hệ BT-INVEST</h2><p class="small muted">Hỏi đáp khi ôn thi, góp ý hoặc báo lỗi câu hỏi.</p>
         <div class="contact-num" id="ct-num">${BRAND.phoneShow}</div>
         <div class="row"><a class="btn primary" href="tel:${BRAND.phone}">Gọi điện</a><a class="btn" href="${BRAND.zalo}" target="_blank" rel="noopener">Nhắn Zalo</a><button class="btn" id="ct-copy">Sao chép số</button></div>
