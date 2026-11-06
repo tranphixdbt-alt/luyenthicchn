@@ -288,7 +288,9 @@ td.r, th.r { text-align: right; }
 .social a { width: 36px; height: 36px; border-radius: 8px; display: grid; place-items: center; background: var(--surface-2); color: var(--ink); }
 .social a:hover { background: var(--accent-soft); color: var(--accent); }
 .social svg, .channels svg { width: 18px; height: 18px; fill: currentColor; }
-.hero .follow { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 16px; font-size: .82rem; color: #B9C8E8; }
+.hero .follow { position: absolute; top: 20px; right: 20px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; font-size: .75rem; color: #B9C8E8; }
+.hero .who { padding-right: 190px; }
+@media (max-width: 600px) { .hero .follow > span, .hero .who-sub { display: none; } .hero .follow .social a { width: 36px; height: 36px; } .hero .who { padding-right: 160px; min-height: 36px; } }
 .hero .social a { background: rgba(255,255,255,.1); color: #fff; }
 .hero .social a:hover { background: rgba(255,255,255,.2); color: #fff; }
 .channels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 10px; }
@@ -1421,11 +1423,11 @@ VIEWS['tong-quan'] = () => {
   const candles = last8.length ? last8.map((h, i) => { const p = pct(h.ok, h.n); return `<span class="candle ${p >= 60 ? 'up' : 'down'}" style="height:${Math.max(p, 6)}%;animation-delay:${i * 60}ms" title="${dt(h.at)}: ${p}%"></span>`; }).join('')
     : [38, 52, 46, 64, 58, 72].map((p, i) => `<span class="candle ghost" style="height:${p}%;animation-delay:${i * 60}ms"></span>`).join('');
   main(`<div class="page"><section class="hero">
-      <div><div class="who">${brandMark()}<span>BT-INVEST · Luyện thi CCHN 2026</span></div>
+      <div><div class="who">${brandMark()}<span>BT-INVEST<span class="who-sub"> · Luyện thi CCHN 2026</span></span></div>
         <h1>Chào bạn, hôm nay ôn gì?</h1>
         <p>Mục tiêu: đúng từ 60% số câu ở <b>mỗi</b> phần thi. Chứng chỉ đang chọn: <b>${CERTS[cert].name}</b>.</p>
-        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div>
-        <div class="follow"><span>Video kiến thức tài chính đơn giản:</span>${socialIcons()}</div></div>
+        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div></div>
+      <div class="follow"><span>Video tài chính đơn giản</span>${socialIcons()}</div>
       <div class="chart" aria-label="Phong độ thi thử"><div class="candles"><span class="line60"></span>${candles}</div>
         <span class="cap">${last8.length ? `Phong độ ${last8.length} lần thi thử gần nhất · nét đứt là mốc 60%` : 'Kết quả thi thử sẽ hiện ở đây'}</span></div>
     </section>

@@ -206,11 +206,11 @@ VIEWS['tong-quan'] = () => {
   const candles = last8.length ? last8.map((h, i) => { const p = pct(h.ok, h.n); return `<span class="candle ${p >= 60 ? 'up' : 'down'}" style="height:${Math.max(p, 6)}%;animation-delay:${i * 60}ms" title="${dt(h.at)}: ${p}%"></span>`; }).join('')
     : [38, 52, 46, 64, 58, 72].map((p, i) => `<span class="candle ghost" style="height:${p}%;animation-delay:${i * 60}ms"></span>`).join('');
   main(`<div class="page"><section class="hero">
-      <div><div class="who">${brandMark()}<span>BT-INVEST · Luyện thi CCHN 2026</span></div>
+      <div><div class="who">${brandMark()}<span>BT-INVEST<span class="who-sub"> · Luyện thi CCHN 2026</span></span></div>
         <h1>Chào bạn, hôm nay ôn gì?</h1>
         <p>Mục tiêu: đúng từ 60% số câu ở <b>mỗi</b> phần thi. Chứng chỉ đang chọn: <b>${CERTS[cert].name}</b>.</p>
-        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div>
-        <div class="follow"><span>Video kiến thức tài chính đơn giản:</span>${socialIcons()}</div></div>
+        <div class="cta"><a class="btn primary" href="${due ? '#on-tap' : '#on-luyen'}">${due ? `Ôn ${due} câu đến hạn` : 'Bắt đầu ôn luyện'}</a><a class="btn line" href="#thi-thu">Vào thi thử</a></div></div>
+      <div class="follow"><span>Video tài chính đơn giản</span>${socialIcons()}</div>
       <div class="chart" aria-label="Phong độ thi thử"><div class="candles"><span class="line60"></span>${candles}</div>
         <span class="cap">${last8.length ? `Phong độ ${last8.length} lần thi thử gần nhất · nét đứt là mốc 60%` : 'Kết quả thi thử sẽ hiện ở đây'}</span></div>
     </section>
