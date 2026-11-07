@@ -610,56 +610,132 @@ VIEWS['the-nho'] = () => {
 };
 
 // ---------- CÔNG THỨC & MÁY TÍNH ----------
-const CALCS = [
-  { id: 'tvm', t: 'Giá trị thời gian của tiền', f: 'FV = PV × (1 + r/m)^(m·n) · EAR = (1 + r/m)^m − 1',
-    in: [['pv', 'Số tiền hiện tại PV', 100e6], ['r', 'Lãi suất năm (%)', 8], ['n', 'Số năm', 3], ['m', 'Số kỳ ghép lãi/năm', 4]],
-    run: v => { const fv = v.pv * (1 + v.r / 100 / v.m) ** (v.m * v.n); return [['FV', fmtM(fv)], ['Lãi suất hiệu dụng EAR', fmtP((1 + v.r / 100 / v.m) ** v.m - 1)]]; } },
-  { id: 'pre', t: 'Lãi suất trả trước → trả sau', f: 'r_sau = r_trước ÷ (1 − r_trước)',
-    in: [['r', 'Lãi suất trả trước (%/kỳ)', 10]], run: v => [['Lãi suất trả sau tương đương', fmtP(v.r / 100 / (1 - v.r / 100))]] },
-  { id: 'bond', t: 'Định giá trái phiếu', f: 'P = Σ C/(1+y)^t + F/(1+y)^N · Dmod = Dmac ÷ (1 + y)',
-    in: [['F', 'Mệnh giá', 100000], ['c', 'Lãi suất coupon (%/năm)', 8], ['k', 'Số lần trả lãi/năm', 1], ['T', 'Số năm còn lại', 5], ['y', 'Lợi suất yêu cầu (%/năm)', 10]],
-    run: v => { const b = bond(v); return [['Giá trái phiếu', fmtM(b.p)], ['Lợi suất hiện hành', fmtP(v.c / 100 * v.F / b.p)], ['Duration Macaulay (năm)', b.mac.toFixed(3)], ['Duration điều chỉnh', b.mod.toFixed(3)]]; } },
-  { id: 'ytm', t: 'Lợi suất đáo hạn (YTM)', f: 'Tìm y sao cho giá lý thuyết = giá thị trường',
-    in: [['F', 'Mệnh giá', 100000], ['c', 'Lãi suất coupon (%/năm)', 8], ['k', 'Số lần trả lãi/năm', 1], ['T', 'Số năm còn lại', 5], ['P', 'Giá thị trường', 95000]],
-    run: v => { let lo = -0.99, hi = 5; for (let i = 0; i < 200; i++) { const mid = (lo + hi) / 2; bond({ ...v, y: mid * 100 }).p > v.P ? (lo = mid) : (hi = mid); } return [['YTM', fmtP((lo + hi) / 2)]]; } },
-  { id: 'capm', t: 'CAPM và định giá cao/thấp', f: 'E(r) = rf + β × (rm − rf)',
-    in: [['rf', 'Lãi suất phi rủi ro (%)', 4], ['b', 'Hệ số beta', 1.2], ['rm', 'Lợi suất thị trường (%)', 12], ['er', 'Lợi suất kỳ vọng của bạn (%)', 15]],
-    run: v => { const req = v.rf + v.b * (v.rm - v.rf); return [['Lợi suất yêu cầu', req.toFixed(2) + '%'], ['Kết luận', v.er > req ? 'Nằm phía trên SML: đang bị định giá thấp, nên mua' : v.er < req ? 'Nằm phía dưới SML: đang bị định giá cao, không nên mua' : 'Nằm trên SML: định giá hợp lý']]; } },
-  { id: 'ddm', t: 'Mô hình Gordon (cổ tức tăng đều)', f: 'P0 = D1 ÷ (r − g), D1 = D0 × (1 + g)',
-    in: [['d0', 'Cổ tức vừa trả D0 (đ)', 2000], ['g', 'Tốc độ tăng g (%)', 5], ['r', 'Tỷ suất yêu cầu r (%)', 12]],
-    run: v => v.r <= v.g ? [['Lỗi', 'Cần r lớn hơn g']] : [['D1', fmtM(v.d0 * (1 + v.g / 100))], ['Giá hợp lý P0', fmtM(v.d0 * (1 + v.g / 100) / ((v.r - v.g) / 100))]] },
-  { id: 'wacc', t: 'Chi phí vốn bình quân (WACC)', f: 'WACC = E/V·re + D/V·rd·(1 − t)',
-    in: [['E', 'Giá trị vốn chủ E', 600], ['Dv', 'Giá trị nợ D', 400], ['re', 'Chi phí vốn chủ re (%)', 15], ['rd', 'Chi phí nợ rd (%)', 9], ['t', 'Thuế suất TNDN (%)', 20]],
-    run: v => { const V = v.E + v.Dv; return [['WACC', fmtP((v.E / V) * v.re / 100 + (v.Dv / V) * v.rd / 100 * (1 - v.t / 100))]]; } },
-  { id: 'adj', t: 'Giá tham chiếu điều chỉnh (GDKHQ)', f: "P' = (P − Cổ tức tiền + PR × I1) ÷ (1 + I1 + I2)",
-    in: [['P', 'Giá đóng cửa trước ngày GDKHQ', 30000], ['C', 'Cổ tức tiền mặt/cp (đ)', 0], ['PR', 'Giá mua cổ phiếu phát hành thêm (đ)', 10000], ['I1', 'Tỷ lệ quyền mua (cp mới/cp cũ)', 0.2], ['I2', 'Tỷ lệ cổ tức bằng cổ phiếu', 0]],
-    run: v => [['Giá tham chiếu điều chỉnh', fmtM((v.P - v.C + v.PR * v.I1) / (1 + v.I1 + v.I2))]] },
-  { id: 'perf', t: 'Đo lường hiệu quả danh mục', f: 'Sharpe = (rp − rf)/σp · Treynor = (rp − rf)/βp · Jensen α = rp − [rf + βp(rm − rf)]',
-    in: [['rp', 'Lợi suất danh mục (%)', 14], ['rf', 'Lãi suất phi rủi ro (%)', 4], ['sd', 'Độ lệch chuẩn σp (%)', 20], ['b', 'Beta βp', 1.1], ['rm', 'Lợi suất thị trường (%)', 11]],
-    run: v => [['Sharpe', ((v.rp - v.rf) / v.sd).toFixed(3)], ['Treynor (%)', ((v.rp - v.rf) / v.b).toFixed(3)], ['Jensen alpha (%)', (v.rp - (v.rf + v.b * (v.rm - v.rf))).toFixed(3)]] },
-];
+// Mỗi máy tính: dùng khi nào, đề ví dụ (= số điền sẵn), gợi ý từng ô, kết quả, và các bước giải thay đúng số người dùng nhập.
+const nf = (x, d = 2) => (isFinite(x) ? x.toLocaleString('vi-VN', { maximumFractionDigits: d }) : '—');
+const fmtM = x => nf(Math.round(x), 0);
+const fmtP = x => nf(x * 100, 3) + '%';          // x là số thập phân (0,08 → 8%)
+const pc = x => nf(x, 3) + '%';                  // x đã ở dạng % (8 → 8%)
 function bond(v) {
   const k = v.k, N = Math.round(v.T * k), y = v.y / 100 / k, C = v.F * v.c / 100 / k;
-  let p = 0, w = 0;
-  for (let t = 1; t <= N; t++) { const cf = C + (t === N ? v.F : 0), pv = cf / (1 + y) ** t; p += pv; w += t * pv; }
-  const mac = w / p / k; return { p, mac, mod: mac / (1 + y) };
+  let p = 0, w = 0; const flows = [];
+  for (let t = 1; t <= N; t++) { const cf = C + (t === N ? v.F : 0), pv = cf / (1 + y) ** t; p += pv; w += t * pv; flows.push([t, cf, pv]); }
+  const mac = w / p / k; return { p, mac, mod: mac / (1 + y), N, C, y, flows };
 }
-const fmtM = x => (isFinite(x) ? Math.round(x).toLocaleString('vi-VN') : '—');
-const fmtP = x => (isFinite(x) ? (x * 100).toLocaleString('vi-VN', { maximumFractionDigits: 3 }) + '%' : '—');
+const ytmOf = v => { let lo = -0.99, hi = 5; for (let i = 0; i < 200; i++) { const mid = (lo + hi) / 2; bond({ ...v, y: mid * 100 }).p > v.P ? (lo = mid) : (hi = mid); } return (lo + hi) / 2; };
+const CALCS = [
+  { id: 'tvm', t: 'Giá trị thời gian của tiền (lãi kép)', when: 'Biết số tiền hôm nay, muốn biết sau vài năm thành bao nhiêu khi lãi được nhập vào gốc nhiều lần trong năm.',
+    ex: 'Gửi 100 triệu, lãi 8%/năm, nhập lãi mỗi quý. Sau 3 năm nhận về bao nhiêu?', f: 'FV = PV × (1 + r/m)^(m·n) · EAR = (1 + r/m)^m − 1',
+    in: [['pv', 'Số tiền ban đầu PV (đ)', 100e6, 'Gõ 100000000 cho 100 triệu'], ['r', 'Lãi suất năm r (%)', 8, '8 nghĩa là 8%/năm'], ['n', 'Số năm n', 3], ['m', 'Số lần nhập lãi mỗi năm m', 4, 'Hằng năm = 1 · hằng quý = 4 · hằng tháng = 12']],
+    run: v => [['Số tiền sau cùng FV', fmtM(v.pv * (1 + v.r / 100 / v.m) ** (v.m * v.n)) + ' đ'], ['Lãi suất hiệu dụng EAR', fmtP((1 + v.r / 100 / v.m) ** v.m - 1)]],
+    steps: v => { const i = v.r / v.m, k = v.m * v.n, fv = v.pv * (1 + i / 100) ** k; return [
+      `Lãi mỗi kỳ = r ÷ m = ${pc(v.r)} ÷ ${nf(v.m)} = <b>${pc(i)}</b>.`,
+      `Số kỳ nhập lãi = m × n = ${nf(v.m)} × ${nf(v.n)} = <b>${nf(k)} kỳ</b>.`,
+      `FV = PV × (1 + lãi mỗi kỳ)^số kỳ = ${fmtM(v.pv)} × (1 + ${pc(i)})^${nf(k)} = <b>${fmtM(fv)} đ</b>.`,
+      `EAR = (1 + ${pc(i)})^${nf(v.m)} − 1 = <b>${fmtP((1 + i / 100) ** v.m - 1)}</b>: nhập lãi ${nf(v.m)} lần/năm ở mức ${pc(v.r)} tương đương lãi ${fmtP((1 + i / 100) ** v.m - 1)} nếu chỉ nhập 1 lần/năm.`]; } },
+  { id: 'pre', t: 'Lãi suất trả trước → trả sau', when: 'Ngân hàng trả lãi ngay lúc gửi (trả trước). Muốn so sánh với lãi trả cuối kỳ thì phải quy đổi.',
+    ex: 'Lãi suất trả trước 10%/năm tương đương lãi suất trả sau bao nhiêu?', f: 'r_sau = r_trước ÷ (1 − r_trước)',
+    in: [['r', 'Lãi suất trả trước (%/kỳ)', 10]],
+    run: v => [['Lãi suất trả sau tương đương', fmtP(v.r / 100 / (1 - v.r / 100))]],
+    steps: v => [
+      `Giả sử gửi 100 đồng: nhận ngay ${nf(v.r)} đồng lãi, nên thực chất chỉ bỏ ra 100 − ${nf(v.r)} = <b>${nf(100 - v.r)} đồng</b>.`,
+      `Cuối kỳ nhận lại 100 đồng, tức lãi ${nf(v.r)} đồng trên ${nf(100 - v.r)} đồng bỏ ra.`,
+      `r_sau = ${nf(v.r)} ÷ ${nf(100 - v.r)} = <b>${fmtP(v.r / (100 - v.r))}</b>. Lãi trả trước luôn tương đương mức trả sau cao hơn.`] },
+  { id: 'bond', t: 'Định giá trái phiếu', when: 'Tính giá hợp lý của trái phiếu khi biết lãi coupon và lợi suất nhà đầu tư đòi hỏi.',
+    ex: 'Trái phiếu mệnh giá 100.000 đ, coupon 8%/năm trả hằng năm, còn 5 năm. Nhà đầu tư đòi lợi suất 10%/năm. Giá hợp lý là bao nhiêu?',
+    f: 'P = Σ C/(1+y)^t + F/(1+y)^N · Dmod = Dmac ÷ (1 + y)',
+    in: [['F', 'Mệnh giá F (đ)', 100000], ['c', 'Lãi coupon (%/năm)', 8], ['k', 'Số lần trả lãi mỗi năm', 1, '1 = trả hằng năm · 2 = 6 tháng/lần'], ['T', 'Số năm còn lại', 5], ['y', 'Lợi suất yêu cầu (%/năm)', 10, 'Mức lợi suất nhà đầu tư muốn nhận']],
+    run: v => { const b = bond(v); return [['Giá trái phiếu', fmtM(b.p) + ' đ'], ['Lợi suất hiện hành', fmtP(v.c / 100 * v.F / b.p)], ['Duration Macaulay (năm)', nf(b.mac, 3)], ['Duration điều chỉnh', nf(b.mod, 3)]]; },
+    steps: v => { const b = bond(v), fl = b.flows.length > 6 ? [...b.flows.slice(0, 2), null, b.flows.at(-1)] : b.flows; return [
+      `Tiền lãi mỗi kỳ C = F × coupon ÷ số lần trả = ${fmtM(v.F)} × ${pc(v.c)} ÷ ${nf(v.k)} = <b>${fmtM(b.C)} đ</b>, nhận trong <b>${b.N} kỳ</b>.`,
+      `Lợi suất mỗi kỳ y = ${pc(v.y)} ÷ ${nf(v.k)} = <b>${pc(b.y * 100)}</b>.`,
+      `Quy từng khoản tiền về hiện tại: ` + fl.map(f => f ? `kỳ ${f[0]}: ${fmtM(f[1])} ÷ (1 + ${pc(b.y * 100)})^${f[0]} ≈ ${fmtM(f[2])}` : '…').join('; ') + ` (kỳ cuối nhận cả lãi lẫn mệnh giá).`,
+      `Cộng lại (lấy số chưa làm tròn): <b>P = ${fmtM(b.p)} đ</b>. ${v.c < v.y ? 'Coupon thấp hơn lợi suất yêu cầu nên giá thấp hơn mệnh giá (trái phiếu chiết khấu).' : v.c > v.y ? 'Coupon cao hơn lợi suất yêu cầu nên giá cao hơn mệnh giá (trái phiếu có phụ trội).' : 'Coupon bằng lợi suất yêu cầu nên giá bằng mệnh giá.'}`,
+      `Duration điều chỉnh ${nf(b.mod, 2)}: nếu lợi suất tăng 1% thì giá giảm khoảng ${nf(b.mod, 2)}%.`]; } },
+  { id: 'ytm', t: 'Lợi suất đáo hạn (YTM)', when: 'Biết giá đang mua trái phiếu, muốn biết nếu giữ đến đáo hạn thì mỗi năm lời bao nhiêu phần trăm.',
+    ex: 'Trái phiếu mệnh giá 100.000 đ, coupon 8%/năm trả hằng năm, còn 5 năm, đang bán 95.000 đ. YTM là bao nhiêu?',
+    f: 'Giá mua = Σ C/(1+YTM)^t + F/(1+YTM)^N · Gần đúng: YTM ≈ [C + (F − P)/N] ÷ [(F + P)/2]',
+    in: [['F', 'Mệnh giá F (đ)', 100000], ['c', 'Lãi coupon (%/năm)', 8], ['k', 'Số lần trả lãi mỗi năm', 1, '1 = trả hằng năm · 2 = 6 tháng/lần'], ['T', 'Số năm còn lại', 5], ['P', 'Giá đang mua P (đ)', 95000]],
+    run: v => [['YTM', fmtP(ytmOf(v))]],
+    steps: v => { const y = ytmOf(v), C = v.F * v.c / 100, ap = (C + (v.F - v.P) / v.T) / ((v.F + v.P) / 2); return [
+      `Dòng tiền: mỗi năm nhận lãi ${fmtM(C)} đ; năm thứ ${nf(v.T)} nhận thêm mệnh giá ${fmtM(v.F)} đ.`,
+      `Tìm lợi suất sao cho tổng giá trị hiện tại của dòng tiền đúng bằng giá mua ${fmtM(v.P)} đ (máy thử dần). Với YTM = ${fmtP(y)}, giá lý thuyết = <b>${fmtM(bond({ ...v, y: y * 100 }).p)} đ</b> ✓.`,
+      `Đi thi không có máy, dùng công thức gần đúng: [${fmtM(C)} + (${fmtM(v.F)} − ${fmtM(v.P)}) ÷ ${nf(v.T)}] ÷ [(${fmtM(v.F)} + ${fmtM(v.P)}) ÷ 2] ≈ <b>${fmtP(ap)}</b>, rồi chọn đáp án gần nhất.`,
+      v.P < v.F ? `Mua dưới mệnh giá nên YTM (${fmtP(y)}) cao hơn coupon (${pc(v.c)}).` : v.P > v.F ? `Mua trên mệnh giá nên YTM (${fmtP(y)}) thấp hơn coupon (${pc(v.c)}).` : 'Mua đúng mệnh giá nên YTM bằng coupon.']; } },
+  { id: 'capm', t: 'CAPM: cổ phiếu đắt hay rẻ?', when: 'Tính lợi suất tối thiểu nên đòi hỏi ở một cổ phiếu theo mức rủi ro (beta), rồi so với lợi suất bạn dự kiến.',
+    ex: 'Lãi suất phi rủi ro 4%, lợi suất thị trường 12%, cổ phiếu có beta 1,2 và bạn dự kiến lời 15%. Có nên mua?', f: 'E(r) = rf + β × (rm − rf)',
+    in: [['rf', 'Lãi suất phi rủi ro rf (%)', 4, 'Thường lấy lợi suất trái phiếu Chính phủ'], ['b', 'Hệ số beta β', 1.2, 'β > 1: biến động mạnh hơn thị trường'], ['rm', 'Lợi suất thị trường rm (%)', 12], ['er', 'Lợi suất bạn dự kiến (%)', 15]],
+    run: v => { const req = v.rf + v.b * (v.rm - v.rf); return [['Lợi suất yêu cầu', pc(req)], ['Kết luận', v.er > req ? 'Định giá thấp, nên mua' : v.er < req ? 'Định giá cao, không nên mua' : 'Định giá hợp lý']]; },
+    steps: v => { const prem = v.rm - v.rf, req = v.rf + v.b * prem; return [
+      `Phần bù rủi ro thị trường = rm − rf = ${pc(v.rm)} − ${pc(v.rf)} = <b>${pc(prem)}</b>.`,
+      `Nhân với beta: ${nf(v.b)} × ${pc(prem)} = <b>${pc(v.b * prem)}</b> (phần bù cho rủi ro riêng của cổ phiếu này).`,
+      `Lợi suất yêu cầu E(r) = ${pc(v.rf)} + ${pc(v.b * prem)} = <b>${pc(req)}</b>.`,
+      v.er > req ? `Bạn dự kiến ${pc(v.er)} > ${pc(req)}: cổ phiếu nằm <b>phía trên đường SML</b>, đang bị định giá thấp, nên mua.`
+        : v.er < req ? `Bạn dự kiến ${pc(v.er)} < ${pc(req)}: cổ phiếu nằm <b>phía dưới đường SML</b>, đang bị định giá cao, không nên mua.` : 'Bằng nhau: nằm đúng trên SML, định giá hợp lý.']; } },
+  { id: 'ddm', t: 'Mô hình Gordon (cổ tức tăng đều)', when: 'Định giá cổ phiếu của công ty trả cổ tức và cổ tức tăng đều mãi mãi.',
+    ex: 'Công ty vừa trả cổ tức 2.000 đ/cp, cổ tức tăng đều 5%/năm, nhà đầu tư đòi lợi suất 12%. Giá hợp lý?', f: 'P0 = D1 ÷ (r − g) · D1 = D0 × (1 + g)',
+    in: [['d0', 'Cổ tức vừa trả D0 (đ)', 2000], ['g', 'Tốc độ tăng cổ tức g (%)', 5], ['r', 'Lợi suất yêu cầu r (%)', 12, 'Phải lớn hơn g']],
+    run: v => v.r <= v.g ? [['Lỗi', 'Cần r lớn hơn g']] : [['Cổ tức năm sau D1', fmtM(v.d0 * (1 + v.g / 100)) + ' đ'], ['Giá hợp lý P0', fmtM(v.d0 * (1 + v.g / 100) / ((v.r - v.g) / 100)) + ' đ']],
+    steps: v => v.r <= v.g ? ['Mô hình chỉ dùng được khi lợi suất yêu cầu r lớn hơn tốc độ tăng g.'] : [
+      `Cổ tức năm sau D1 = D0 × (1 + g) = ${fmtM(v.d0)} × (1 + ${pc(v.g)}) = <b>${fmtM(v.d0 * (1 + v.g / 100))} đ</b>.`,
+      `P0 = D1 ÷ (r − g) = ${fmtM(v.d0 * (1 + v.g / 100))} ÷ (${pc(v.r)} − ${pc(v.g)}) = <b>${fmtM(v.d0 * (1 + v.g / 100) / ((v.r - v.g) / 100))} đ</b>.`,
+      `Lỗi hay gặp: chia D0 thay vì D1 sẽ ra ${fmtM(v.d0 / ((v.r - v.g) / 100))} đ, thường là một phương án nhiễu.`] },
+  { id: 'wacc', t: 'Chi phí vốn bình quân (WACC)', when: 'Tính chi phí trung bình của toàn bộ vốn công ty dùng (vốn chủ và vốn vay), làm lãi suất chiết khấu khi thẩm định dự án.',
+    ex: 'Công ty có vốn chủ 600 tỷ (chi phí 15%), nợ vay 400 tỷ (lãi 9%), thuế TNDN 20%. WACC bằng bao nhiêu?', f: 'WACC = E/V × re + D/V × rd × (1 − t)',
+    in: [['E', 'Vốn chủ sở hữu E', 600, 'Cùng đơn vị với D (tỷ, triệu…)'], ['Dv', 'Nợ vay D', 400], ['re', 'Chi phí vốn chủ re (%)', 15], ['rd', 'Lãi vay rd (%)', 9], ['t', 'Thuế suất TNDN t (%)', 20]],
+    run: v => { const V = v.E + v.Dv; return [['WACC', fmtP((v.E / V) * v.re / 100 + (v.Dv / V) * v.rd / 100 * (1 - v.t / 100))]]; },
+    steps: v => { const V = v.E + v.Dv, we = v.E / V, wd = v.Dv / V, rdt = v.rd * (1 - v.t / 100); return [
+      `Tổng vốn V = E + D = ${nf(v.E)} + ${nf(v.Dv)} = ${nf(V)} → tỷ trọng vốn chủ <b>${fmtP(we)}</b>, nợ <b>${fmtP(wd)}</b>.`,
+      `Lãi vay được trừ khi tính thuế, nên chi phí nợ sau thuế = ${pc(v.rd)} × (1 − ${pc(v.t)}) = <b>${pc(rdt)}</b>.`,
+      `WACC = ${fmtP(we)} × ${pc(v.re)} + ${fmtP(wd)} × ${pc(rdt)} = ${pc(we * v.re)} + ${pc(wd * rdt)} = <b>${pc(we * v.re + wd * rdt)}</b>.`]; } },
+  { id: 'adj', t: 'Giá tham chiếu điều chỉnh (ngày GDKHQ)', when: 'Ngày giao dịch không hưởng quyền, sàn hạ giá tham chiếu vì người mua từ hôm đó không còn nhận cổ tức hoặc quyền mua.',
+    ex: 'Giá đóng cửa 30.000 đ. Công ty trả cổ tức tiền 2.000 đ/cp và phát hành thêm theo tỷ lệ 2:1 (2 cổ phiếu cũ mua 1 cổ phiếu mới) giá 10.000 đ. Giá tham chiếu ngày GDKHQ?',
+    f: "P' = (P − Cổ tức tiền + PR × I1) ÷ (1 + I1 + I2)",
+    in: [['P', 'Giá đóng cửa trước ngày GDKHQ P (đ)', 30000], ['C', 'Cổ tức tiền mặt mỗi cổ phiếu (đ)', 2000, 'Cổ tức 20% mệnh giá 10.000 đ = 2.000 đ'], ['PR', 'Giá mua cổ phiếu phát hành thêm PR (đ)', 10000],
+      ['I1', 'Tỷ lệ quyền mua I1', 0.5, 'Tỷ lệ 2:1 → gõ 0.5 · 10:2 → gõ 0.2 · không có thì gõ 0'], ['I2', 'Tỷ lệ cổ tức bằng cổ phiếu I2', 0, 'Thưởng 10% (10:1) → gõ 0.1 · không có thì gõ 0']],
+    run: v => [['Giá tham chiếu điều chỉnh', fmtM((v.P - v.C + v.PR * v.I1) / (1 + v.I1 + v.I2)) + ' đ']],
+    steps: v => { const top = v.P - v.C + v.PR * v.I1, bot = 1 + v.I1 + v.I2; return [
+      `Tử số = P − cổ tức tiền + PR × I1 = ${fmtM(v.P)} − ${fmtM(v.C)} + ${fmtM(v.PR)} × ${nf(v.I1)} = <b>${fmtM(top)}</b>.`,
+      `Mẫu số = 1 + I1 + I2 = 1 + ${nf(v.I1)} + ${nf(v.I2)} = <b>${nf(bot, 4)}</b>.`,
+      `P' = ${fmtM(top)} ÷ ${nf(bot, 4)} = <b>${fmtM(top / bot)} đ</b>.`,
+      'Đổi tỷ lệ "a:b" thành số: lấy b ÷ a (số cổ phiếu mới được mua hoặc được thưởng trên 1 cổ phiếu cũ).']; } },
+  { id: 'perf', t: 'Đo lường hiệu quả danh mục', when: 'So sánh hiệu quả các quỹ hoặc danh mục khi đã tính đến rủi ro. Cả ba chỉ số đều càng cao càng tốt.',
+    ex: 'Danh mục lời 14%, độ lệch chuẩn 20%, beta 1,1. Lãi suất phi rủi ro 4%, thị trường lời 11%. Tính Sharpe, Treynor, Jensen alpha.',
+    f: 'Sharpe = (rp − rf) ÷ σp · Treynor = (rp − rf) ÷ βp · Jensen α = rp − [rf + βp × (rm − rf)]',
+    in: [['rp', 'Lợi suất danh mục rp (%)', 14], ['rf', 'Lãi suất phi rủi ro rf (%)', 4], ['sd', 'Độ lệch chuẩn σp (%)', 20, 'Đo rủi ro tổng'], ['b', 'Beta βp', 1.1, 'Đo rủi ro theo thị trường'], ['rm', 'Lợi suất thị trường rm (%)', 11]],
+    run: v => [['Sharpe', nf((v.rp - v.rf) / v.sd, 3)], ['Treynor', pc((v.rp - v.rf) / v.b)], ['Jensen alpha', pc(v.rp - (v.rf + v.b * (v.rm - v.rf)))]],
+    steps: v => { const ex = v.rp - v.rf, capm = v.rf + v.b * (v.rm - v.rf); return [
+      `Lợi suất vượt phi rủi ro = rp − rf = ${pc(v.rp)} − ${pc(v.rf)} = <b>${pc(ex)}</b>.`,
+      `Sharpe = ${pc(ex)} ÷ ${pc(v.sd)} = <b>${nf(ex / v.sd, 3)}</b>: mỗi 1% rủi ro tổng mang lại ${nf(ex / v.sd, 3)}% lợi suất vượt trội.`,
+      `Treynor = ${pc(ex)} ÷ ${nf(v.b)} = <b>${pc(ex / v.b)}</b>: lợi suất vượt trội trên mỗi đơn vị beta.`,
+      `Theo CAPM, danh mục chỉ cần lời ${pc(v.rf)} + ${nf(v.b)} × (${pc(v.rm)} − ${pc(v.rf)}) = ${pc(capm)}. Jensen α = ${pc(v.rp)} − ${pc(capm)} = <b>${pc(v.rp - capm)}</b>${v.rp - capm > 0 ? ': danh mục làm tốt hơn mức đáng lẽ đạt được.' : v.rp - capm < 0 ? ': danh mục kém hơn mức đáng lẽ đạt được.' : '.'}`]; } },
+];
 VIEWS['cong-thuc'] = () => {
-  main(page('Công thức & máy tính', 'Bấm số nhanh cho bài tính', 'Nhập số liệu đề bài để kiểm tra kết quả. Mỗi máy tính kèm công thức gốc theo giáo trình.',
-    `<div class="grid g2">${CALCS.map(c => `<div class="card stack calc" data-calc="${c.id}"><h2>${c.t}</h2><div class="formula">${c.f.split(' · ').map(x => `<div>${esc(x)}</div>`).join('')}</div>
-      <div class="grid g2" style="gap:10px">${c.in.map(([k, lab, def]) => `<label class="f">${lab}<input type="number" step="any" id="${c.id}-${k}" value="${def}" inputmode="decimal"></label>`).join('')}</div>
-      <div class="stack out-wrap" id="${c.id}-out"></div></div>`).join('')}</div>`));
+  main(page('Công thức & máy tính', 'Bấm số nhanh cho bài tính', 'Mỗi máy tính đã điền sẵn một đề ví dụ. Thay số theo đề của bạn, kết quả và lời giải từng bước tự cập nhật.',
+    `<div class="card stack"><h2>Cách dùng</h2>
+      <ol class="howto"><li>Chọn đúng dạng bài bên dưới (bấm tên để nhảy tới).</li><li>Thay các ô bằng số trong đề. Phần trăm gõ số thường: 8% gõ <b>8</b>; số thập phân dùng dấu chấm: 0,5 gõ <b>0.5</b>.</li><li>Đọc kết quả, rồi xem "Cách làm từng bước" để tự làm lại trên giấy khi đi thi.</li></ol>
+      <div class="row">${CALCS.map(c => `<button class="chip acc jump" data-jump="${c.id}">${esc(c.t.replace(/ \(.*\)$/, ''))}</button>`).join('')}</div></div>
+    <div class="grid g2">${CALCS.map(c => `<section class="card stack calc" id="calc-${c.id}"><h2>${c.t}</h2>
+      <p class="small"><b>Dùng khi:</b> ${c.when}</p>
+      <div class="formula">${c.f.split(' · ').map(x => `<div>${esc(x)}</div>`).join('')}</div>
+      <div class="note info small"><b>Ví dụ:</b> ${esc(c.ex)} <span class="muted">Số đã điền sẵn bên dưới.</span></div>
+      <div class="grid g2" style="gap:10px">${c.in.map(([k, lab, def, hint]) => `<label class="f">${lab}<input type="number" step="any" id="${c.id}-${k}" value="${def}" inputmode="decimal">
+        <span class="hint">${hint ? esc(hint) : ''}<span class="echo" id="${c.id}-${k}-echo"></span></span></label>`).join('')}</div>
+      <div class="stack out-wrap" id="${c.id}-out" aria-live="polite"></div>
+      <details class="steps" open><summary>Cách làm từng bước</summary><ol id="${c.id}-steps"></ol></details>
+      <div><button class="btn sm" data-reset="${c.id}">Điền lại số ví dụ</button></div></section>`).join('')}</div>`));
   for (const c of CALCS) {
     const run = () => {
       const v = Object.fromEntries(c.in.map(([k]) => [k, parseFloat($(`#${c.id}-${k}`).value)]));
+      for (const [k] of c.in) { const x = v[k]; $(`#${c.id}-${k}-echo`).textContent = isFinite(x) && Math.abs(x) >= 10000 ? ` = ${fmtM(x)}` : ''; }
       const bad = Object.values(v).some(x => !isFinite(x));
       $(`#${c.id}-out`).innerHTML = bad ? '<p class="small muted">Nhập đủ các ô bằng số.</p>' :
         c.run(v).map(([k, val]) => `<div class="row between"><span class="small muted">${k}</span><span class="out">${esc(val)}</span></div>`).join('');
+      $(`#${c.id}-steps`).innerHTML = bad ? '<li class="muted">Điền đủ các ô để xem lời giải.</li>' : c.steps(v).map(x => `<li>${x}</li>`).join('');
     };
     c.in.forEach(([k]) => ($(`#${c.id}-${k}`).oninput = run)); run();
+    $(`[data-reset="${c.id}"]`).onclick = () => { c.in.forEach(([k, , def]) => ($(`#${c.id}-${k}`).value = def)); run(); };
   }
+  $$('[data-jump]').forEach(b => (b.onclick = () => $('#calc-' + b.dataset.jump).scrollIntoView({ block: 'start', behavior: reduceMotion() ? 'auto' : 'smooth' })));
 };
 
 // ---------- THƯ VIỆN LUẬT ----------
