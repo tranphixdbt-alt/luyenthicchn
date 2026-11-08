@@ -14,7 +14,7 @@ E["C10-002"] = dict(o={3: "Công cụ tài chính dạng hợp đồng, xác nh�
 E["C10-004"] = dict(
     q="Ông H yêu cầu mọi việc phải làm đúng quy trình, thủ tục; trước khi quyết định, ông muốn có đầy đủ thông tin chi tiết, chính xác bằng văn bản và cần thời gian cân nhắc. Cách làm việc phù hợp nhất của nhân viên môi giới với ông H là:",
     o=["Trình bày ngắn gọn vài điểm chính rồi đề nghị ông H quyết định ngay trong buổi gặp",
-       "Chuẩn bị tài liệu đầy đủ, số liệu chính xác, làm đúng thủ tục và để ông H có thời gian cân nhắc",
+       "Chuẩn bị tài liệu đầy đủ, chính xác, làm đúng thủ tục và để ông H có thời gian cân nhắc",
        "Nhấn mạnh rằng nhiều nhà đầu tư quen biết đã mua để ông H yên tâm làm theo số đông",
        "Linh động bỏ qua một số bước thủ tục để rút ngắn thời gian mở tài khoản cho ông H"],
     a=1,
@@ -37,7 +37,7 @@ E["C10-009"] = dict(
     q="Anh P thường mua bán theo biến động hằng ngày của thị trường, nghe tin là muốn đổi danh mục ngay và lo bỏ lỡ cơ hội hơn là lo thua lỗ; vòng quay tài khoản và tổng phí giao dịch của anh rất cao. Cách tư vấn phù hợp nhất của nhân viên môi giới là:",
     o=["Gửi thêm khuyến nghị lướt sóng mỗi ngày để anh P không bỏ lỡ cơ hội nào trên thị trường",
        "Đề nghị anh P dùng thêm giao dịch ký quỹ để tăng quy mô vốn mỗi lần nắm bắt cơ hội",
-       "Chỉ ra tác động của phí, thuế và giao dịch dồn dập lên lợi nhuận, cùng anh P lập kế hoạch có kỷ luật",
+       "Chỉ ra chi phí của việc giao dịch dồn dập, cùng anh P lập kế hoạch đầu tư có kỷ luật",
        "Khuyên anh P chuyển toàn bộ vốn sang tiền gửi tiết kiệm để khỏi phải theo dõi thị trường"],
     a=2,
     e="Anh P giao dịch theo cảm hứng, chạy theo biến động ngắn hạn và sợ bỏ lỡ cơ hội (một số tài liệu gọi là nhà đầu tư “tự phát”); hệ quả là vòng quay cao và chi phí giao dịch bào mòn lợi nhuận. Ví dụ, giả sử mỗi vòng mua – bán tốn khoảng 0,4% giá trị (phí hai chiều và thuế), vòng quay 20 lần/năm làm mất khoảng 20 × 0,4% = 8% vốn mỗi năm. Nhân viên môi giới cần giúp khách hàng thấy rõ chi phí và rủi ro đó, rồi cùng khách hàng thống nhất mục tiêu, phân bổ tài sản và nguyên tắc mua bán. Gửi thêm khuyến nghị ngắn hạn hay khuyến khích dùng đòn bẩy chỉ làm tăng phí, rủi ro và tạo xung đột lợi ích (phí môi giới tăng); chuyển toàn bộ sang tiền gửi thì bỏ qua mục tiêu và nhu cầu đầu tư của khách hàng.",
@@ -64,7 +64,8 @@ E["C11-001"] = dict(
     src="TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt")
 
 E["C11-002"] = dict(o={0: "Tăng sức mua của nhà đầu tư, qua đó tăng cầu và tính thanh khoản cho thị trường",
-                       1: "Giảm tỷ lệ lỗ tính trên vốn tự có của nhà đầu tư khi giá chứng khoán giảm"})
+                       1: "Giảm tỷ lệ lỗ tính trên vốn tự có của nhà đầu tư khi giá chứng khoán giảm",
+                       2: "Chuyển rủi ro giảm giá của chứng khoán ký quỹ sang công ty chứng khoán cho vay"})
 
 E["C11-003"] = dict(
     e="Với đòn bẩy, bỏ qua lãi vay, tỷ lệ lỗ trên vốn tự có = tỷ lệ giảm giá/tỷ lệ ký quỹ ban đầu. Ví dụ, giả sử ký quỹ 50% (mua 100 triệu đồng, tự có 50, vay 50) và giá giảm 60%: chứng khoán còn 40 triệu đồng, không đủ trả 50 triệu đồng nợ ⇒ lỗ 60 triệu đồng = 120% vốn tự có. Nếu giá giảm sâu, liên tục (giảm sàn nhiều phiên, thiếu thanh khoản) trước khi kịp bán giải chấp, tiền bán chứng khoán không đủ trả nợ: khách hàng mất hết vốn mà vẫn còn nợ công ty. Hợp đồng giao dịch ký quỹ phải nêu rõ các rủi ro, thiệt hại có thể phát sinh và chi phí khách hàng phải trả; khi tỷ lệ ký quỹ thấp hơn tỷ lệ duy trì, công ty gọi ký quỹ bổ sung, khách hàng không bổ sung thì công ty có quyền bán chứng khoán bảo đảm theo hợp đồng mà không chờ giá phục hồi (khoản 1, 6 Điều 9 TT 120/2020). Lãi vay tính trên dư nợ theo thời gian vay, không phụ thuộc giá tăng hay giảm.",
