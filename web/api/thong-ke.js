@@ -2,8 +2,10 @@
 // POST {a: [[mã câu, 1 đúng | 0 sai], ...]} để cộng dồn; GET trả {n: {mã: lượt làm}, w: {mã: lượt sai}}.
 // Cần biến môi trường của Upstash Redis (tự có khi nối kho Upstash với dự án trên Vercel).
 const crypto = require('crypto');
-const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+// Tên biến tùy tiền tố chọn khi nối kho (KV_…, STORAGE_…, UPSTASH_REDIS_…): nhận mọi tên kết thúc bằng REST_API_URL / REST_URL
+const env = process.env, pick = re => env[Object.keys(env).sort().find(k => re.test(k))];
+const URL_ = env.KV_REST_API_URL || env.UPSTASH_REDIS_REST_URL || pick(/REST_(API_)?URL$/);
+const TOKEN = env.KV_REST_API_TOKEN || env.UPSTASH_REDIS_REST_TOKEN || pick(/^(?!.*READ_ONLY).*REST_(API_)?TOKEN$/);
 const ID = /^[A-Z][A-Z0-9]{0,3}-\d{3}$/, MAX_BATCH = 200, MAX_PER_MIN = 1000;
 
 async function redis(cmds) {
@@ -15,7 +17,9 @@ const toObj = flat => { const o = {}; for (let i = 0; i + 1 < (flat || []).lengt
 
 module.exports = async (req, res) => {
   // chưa nối kho: GET báo tắt, POST bỏ qua êm (không làm trình duyệt báo lỗi)
-  if (!URL_ || !TOKEN) return req.method === 'POST' ? res.status(204).end() : res.status(200).json({ off: true, n: {}, w: {} });
+  // kèm tên (không kèm giá trị) các biến liên quan để biết vì sao chưa nối được
+  if (!URL_ || !TOKEN) return req.method === 'POST' ? res.status(204).end()
+    : res.status(200).json({ off: true, n: {}, w: {}, vars: Object.keys(env).filter(k => /REDIS|UPSTASH|^KV_|REST_API/.test(k)) });
   try {
     if (req.method === 'GET') {
       const [n, w] = await redis([['HGETALL', 'n'], ['HGETALL', 'w']]);
