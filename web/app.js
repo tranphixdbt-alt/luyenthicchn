@@ -457,6 +457,8 @@ VIEWS['thi-thu'] = () => {
           <li>Gạch chân từ khóa trong đề: <b>KHÔNG, NGOẠI TRỪ</b>, tối thiểu/tối đa, trước/sau, ngày/ngày làm việc, tổ chức/cá nhân.</li>
           <li>Loại phương án dùng quy định cũ hoặc sai cơ quan có thẩm quyền; hai phương án gần giống nhau thường có một cái đúng.</li>
           <li>Câu tính toán: viết công thức ra giấy nháp trước khi bấm máy, rồi so đơn vị (đồng/nghìn đồng, %/năm hay %/kỳ).</li>
+          <li>Đề ôn của lớp và đề sát hạch cũ hay có câu <b>tổ hợp I, II, III, IV</b> và phương án <b>"a và b", "tất cả các phương án trên"</b>: xét đúng/sai từng mệnh đề trước rồi mới chọn tổ hợp; chỉ chọn "tất cả" khi chắc mọi mệnh đề đều đúng.</li>
+          <li>Bộ đề trôi nổi trên mạng có nhiều câu theo luật cũ (ví dụ công bố thông tin bất thường trong 72 giờ, nay là <b>24 giờ</b>). Gặp đáp án khác trang này, xem phần Căn cứ của câu để biết quy định đang áp dụng.</li>
           ${tips.map(t => `<li>${t}</li>`).join('')}
         </ol></div>
       <div class="card stack"><h2>Kế hoạch 7 ngày để qua môn</h2>
