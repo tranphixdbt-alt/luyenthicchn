@@ -45,7 +45,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Tài khoản giao dịch ký quỹ của khách hàng có: tiền 40 triệu đồng; tiền bán chứng khoán chờ về 60 triệu đồng; chứng khoán thuộc danh sách được giao dịch ký quỹ trị giá 700 triệu đồng; cổ phiếu Z trị giá 200 triệu đồng (vừa bị Sở giao dịch đưa ra khỏi danh sách được giao dịch ký quỹ); dư nợ 450 triệu đồng. Hợp đồng quy định tỷ lệ ký quỹ = (Tổng tài sản − Dư nợ)/Tổng tài sản. Tỷ lệ ký quỹ của tài khoản theo quy định hiện hành là",
+  "q": "Tài khoản giao dịch ký quỹ của khách hàng có: tiền 40 triệu đồng; tiền bán chứng khoán chờ về 60 triệu đồng; chứng khoán thuộc danh sách được giao dịch ký quỹ trị giá 700 triệu đồng; cổ phiếu Z trị giá 200 triệu đồng (vừa bị Sở giao dịch đưa ra khỏi danh sách được giao dịch ký quỹ); dư nợ 450 triệu đồng. Hợp đồng quy định tỷ lệ ký quỹ = (Tổng tài sản − Dư nợ)/Tổng tài sản, trong đó tổng tài sản gồm tiền, tiền bán chứng khoán chờ về và giá trị chứng khoán được tính làm tài sản bảo đảm theo quy định. Theo Thông tư 120/2020/TT-BTC, tỷ lệ ký quỹ của tài khoản là",
   "o": [
    "55,00%",
    "50,00%",
@@ -53,8 +53,8 @@
    "43,75%"
   ],
   "a": 3,
-  "e": "Khoản 6 Điều 9 TT 120/2020: chứng khoán không được phép giao dịch ký quỹ không được tính vào tài sản bảo đảm khi xác định tỷ lệ ký quỹ ban đầu và duy trì ⇒ loại cổ phiếu Z. Tổng tài sản = tiền + tiền bán chờ về + chứng khoán được ký quỹ = 40 + 60 + 700 = 800 triệu đồng; tài sản thực có = 800 − 450 = 350 ⇒ tỷ lệ = 350/800 = 43,75%. Lỗi thường gặp: vẫn tính Z ((1.000 − 450)/1.000 = 55,00%), bỏ tiền bán chờ về ((740 − 450)/740 = 39,19%), chia tài sản thực có cho riêng giá trị chứng khoán (350/700 = 50,00%). Theo Quy chế 87/QĐ-UBCK (Điều 10 khoản 2), cổ phiếu bị loại khỏi danh sách không được cho vay mới, không tính vào tài sản thực có nhưng vẫn là tài sản bảo đảm cho khoản vay hiện hữu (trừ khi có thỏa thuận khác).",
-  "basis": "Khoản 6 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026); Điều 2, khoản 2 Điều 10 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017 (văn bản do UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN tiếp tục áp dụng trong Kết luận thanh tra 109/KL-TT ngày 08/11/2024 và 47/KL-TT ngày 08/8/2025)",
+  "e": "Khoản 6 Điều 9 TT 120/2020: chứng khoán không được phép giao dịch ký quỹ không được tính vào tài sản bảo đảm khi xác định tỷ lệ ký quỹ ban đầu và duy trì ⇒ loại cổ phiếu Z. Tổng tài sản = 40 + 60 + 700 = 800 triệu đồng; tài sản thực có = 800 − 450 = 350 ⇒ tỷ lệ = 350/800 = 43,75%. Lỗi thường gặp: vẫn tính Z ((1.000 − 450)/1.000 = 55,00%), bỏ tiền bán chờ về ((740 − 450)/740 = 39,19%), chia tài sản thực có cho riêng giá trị chứng khoán (350/700 = 50,00%).",
+  "basis": "Khoản 6 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
   "quote": "Chứng khoán không được phép giao dịch ký quỹ không được tính vào tài sản bảo đảm khi xác định tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì cho giao dịch ký quỹ.",
   "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
   "as_of": "2026-11"
@@ -85,18 +85,18 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Công ty chứng khoán K có vốn chủ sở hữu 2.400 tỷ đồng (theo báo cáo tài chính soát xét gần nhất), tổng dư nợ cho vay giao dịch ký quỹ hiện là 4.700 tỷ đồng. Khách hàng M chưa có dư nợ, đề nghị vay ký quỹ 90 tỷ đồng để mua một mã cổ phiếu mà K còn dư hạn mức theo mã. Theo hạn mức cho vay giao dịch ký quỹ của UBCKNN, K được cho M vay tối đa",
+  "q": "Giả sử quy chế hạn mức cho vay giao dịch ký quỹ áp dụng như sau: tổng dư nợ cho vay ký quỹ của công ty không vượt quá 200% vốn chủ sở hữu; cho vay một khách hàng không vượt quá 3% vốn chủ sở hữu; dư nợ đối với một loại chứng khoán không vượt quá 10% vốn chủ sở hữu. Công ty chứng khoán K có vốn chủ sở hữu 2.400 tỷ đồng, tổng dư nợ cho vay ký quỹ hiện là 4.700 tỷ đồng. Khách hàng M chưa có dư nợ, đề nghị vay ký quỹ 90 tỷ đồng để mua một mã cổ phiếu mà K còn dư hạn mức theo mã. K được cho M vay tối đa",
   "o": [
-   "100 tỷ đồng",
    "72 tỷ đồng",
+   "100 tỷ đồng",
    "240 tỷ đồng",
    "90 tỷ đồng"
   ],
-  "a": 1,
-  "e": "Hạn mức: tổng dư nợ cho vay ký quỹ ≤ 200% vốn chủ sở hữu = 4.800 tỷ ⇒ còn 4.800 − 4.700 = 100 tỷ; cho vay một khách hàng ≤ 3% vốn chủ sở hữu = 72 tỷ. Mức cho vay tối đa = min(90; 100; 72) = 72 tỷ đồng. Lỗi thường gặp: chỉ xét hạn mức tổng (100), đáp ứng đủ đề nghị (90), dùng nhầm hạn mức theo một loại chứng khoán 10% (240).",
-  "basis": "Khoản 1, 2 Điều 9 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017 (văn bản do UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN tiếp tục áp dụng trong Kết luận thanh tra 109/KL-TT ngày 08/11/2024 và 47/KL-TT ngày 08/8/2025)",
-  "quote": "Tổng mức cho vay giao dịch ký quỹ của công ty chứng khoán đối với một khách hàng không được vượt quá 3% vốn chủ sở hữu của công ty chứng khoán.",
-  "src": "QD_87_QD-UBCK_2017_Quy_che_giao_dich_ky_quy_ban_dang_lai_MBS.txt",
+  "a": 0,
+  "e": "Hạn mức tổng: 200% × 2.400 = 4.800 tỷ ⇒ còn 4.800 − 4.700 = 100 tỷ; hạn mức một khách hàng: 3% × 2.400 = 72 tỷ. Mức cho vay tối đa = min(90; 100; 72) = 72 tỷ đồng. Lỗi thường gặp: chỉ xét hạn mức tổng (100), đáp ứng đủ đề nghị (90), dùng nhầm hạn mức theo một loại chứng khoán 10% (240). Các tỷ lệ là giả định của đề (theo quy chế giao dịch ký quỹ của UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN có thể điều chỉnh).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Hạn mức cho vay giao dịch ký quỹ (tỷ lệ là giả định của đề)",
+  "quote": "",
+  "src": "",
   "as_of": "2026-11"
  },
  {
@@ -105,18 +105,18 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 2,
-  "q": "Theo hạn mức cho vay giao dịch ký quỹ trong Quy chế hướng dẫn giao dịch ký quỹ chứng khoán của UBCKNN (được áp dụng trong các kết luận thanh tra năm 2024–2025), nhận định nào sau đây KHÔNG đúng?",
+  "q": "Theo Thông tư 120/2020/TT-BTC, chứng khoán được giao dịch ký quỹ phải đáp ứng các tiêu chí cơ bản sau, NGOẠI TRỪ:",
   "o": [
-   "Tổng dư nợ cho vay ký quỹ của công ty không vượt quá 200% vốn chủ sở hữu",
-   "Dư nợ cho vay ký quỹ đối với một loại chứng khoán không vượt quá 10% vốn chủ sở hữu",
-   "Tổng mức cho vay ký quỹ đối với một khách hàng không vượt quá 3% vốn chủ sở hữu",
-   "Số chứng khoán cho vay ký quỹ không vượt quá 10% số chứng khoán niêm yết của tổ chức"
+   "Thời gian niêm yết, đăng ký giao dịch của chứng khoán",
+   "Tính thanh khoản và biến động giá của chứng khoán (nếu có)",
+   "Tỷ lệ chi trả cổ tức bằng tiền tối thiểu trong năm gần nhất",
+   "Quy mô vốn và kết quả kinh doanh của tổ chức phát hành"
   ],
-  "a": 3,
-  "e": "Điều 9 Quy chế: tổng dư nợ ≤ 200% vốn chủ sở hữu; một khách hàng ≤ 3%; một loại chứng khoán ≤ 10% vốn chủ sở hữu; tổng số chứng khoán cho vay ký quỹ của một công ty ≤ 5% (không phải 10%) tổng số chứng khoán niêm yết của một tổ chức niêm yết. Vốn chủ sở hữu lấy theo báo cáo tài chính kiểm toán/soát xét gần nhất, không quá 06 tháng. Kết luận thanh tra 47/KL-TT (2025) của UBCKNN xử lý vi phạm hạn mức 3% và 5% này.",
-  "basis": "Điều 9 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017 (văn bản do UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN tiếp tục áp dụng trong Kết luận thanh tra 109/KL-TT ngày 08/11/2024 và 47/KL-TT ngày 08/8/2025)",
-  "quote": "Tổng số chứng khoán cho vay giao dịch ký quỹ của một công ty chứng khoán không được vượt quá 5% tổng số chứng khoán niêm yết của một tổ chức niêm yết.",
-  "src": "QD_87_QD-UBCK_2017_Quy_che_giao_dich_ky_quy_ban_dang_lai_MBS.txt",
+  "a": 2,
+  "e": "Khoản 4 Điều 9: chứng khoán được giao dịch ký quỹ là cổ phiếu niêm yết, đăng ký giao dịch, chứng chỉ quỹ niêm yết đáp ứng các tiêu chí cơ bản: thời gian niêm yết, đăng ký giao dịch; quy mô vốn và kết quả hoạt động kinh doanh của tổ chức phát hành; tính thanh khoản và biến động giá (nếu có); minh bạch thông tin và tiêu chí khác theo quy chế của UBCKNN. Không có tiêu chí về tỷ lệ chi trả cổ tức bằng tiền.",
+  "basis": "Khoản 4 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
+  "quote": "đáp ứng các tiêu chí cơ bản sau: thời gian niêm yết, đăng ký giao dịch; quy mô vốn và kết quả hoạt động kinh doanh của tổ chức phát hành; tính thanh khoản và biến động giá (nếu có); minh bạch thông tin",
+  "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
   "as_of": "2026-11"
  },
  {
@@ -125,18 +125,18 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 2,
-  "q": "Xét các tình huống sau tại công ty chứng khoán P (đã được cung cấp dịch vụ giao dịch ký quỹ):\nI. Khách hàng đề nghị vay ký quỹ để mua cổ phiếu do chính P phát hành\nII. Cá nhân nước ngoài đã có mã số giao dịch đề nghị mở tài khoản giao dịch ký quỹ tại P\nIII. Thành viên Hội đồng quản trị của P đề nghị mở tài khoản giao dịch ký quỹ tại P\nIV. Cổ phiếu khách hàng đã mua bằng tiền vay bị Sở giao dịch đưa ra khỏi danh sách ký quỹ; P tiếp tục giữ cổ phiếu này làm tài sản bảo đảm cho khoản vay hiện hữu (hợp đồng không có thỏa thuận khác)\nNhững tình huống nào P KHÔNG được chấp thuận hoặc thực hiện?",
+  "q": "Xét các việc sau tại công ty chứng khoán P (đã được cung cấp dịch vụ giao dịch ký quỹ):\nI. Cho thành viên Ban kiểm soát của P vay tiền mua chứng khoán trên tài khoản giao dịch ký quỹ\nII. Ký hợp đồng giao dịch ký quỹ với cá nhân nước ngoài đã có mã số giao dịch chứng khoán\nIII. Cho vay ký quỹ mua cổ phiếu đăng ký giao dịch có trong danh sách Sở giao dịch công bố và được P lựa chọn\nIV. Tiếp tục ký mới hợp đồng giao dịch ký quỹ khi P không còn đáp ứng điều kiện cung cấp dịch vụ cho vay tiền mua chứng khoán\nNhững việc nào P KHÔNG được thực hiện?",
   "o": [
-   "I và III",
+   "I và II",
    "II, III và IV",
-   "I, II và III",
-   "I, II, III và IV"
+   "I, II, III và IV",
+   "I, II và IV"
   ],
-  "a": 2,
-  "e": "I: Điều 10 khoản 1 Quy chế 87 – không cho vay ký quỹ đối với cổ phiếu do chính công ty chứng khoán phát hành (cũng không cho vay đối với cổ phiếu, chứng chỉ quỹ do chính công ty bảo lãnh phát hành theo hình thức cam kết chắc chắn trong thời gian quy định, cổ phiếu của công ty sở hữu từ 50% vốn điều lệ của công ty chứng khoán hoặc do công ty chứng khoán sở hữu từ 50%). II: khoản 2 Điều 9 TT 120/2020 – nhà đầu tư nước ngoài không được giao dịch ký quỹ. III: Điều 13 khoản 4 Quy chế – không mở tài khoản ký quỹ cho chủ sở hữu, cổ đông lớn, thành viên HĐQT/HĐTV, Ban kiểm soát, Ban Giám đốc, kế toán trưởng… và người có liên quan (Kết luận thanh tra 109/KL-TT năm 2024 xử lý đúng các vi phạm I và III). IV được phép: Điều 10 khoản 2 – chứng khoán bị loại khỏi danh sách thì không cho vay mới, không tính vào tài sản thực có, nhưng vẫn là tài sản bảo đảm cho khoản vay trừ khi có thỏa thuận khác.",
-  "basis": "Khoản 2 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026); Điều 10, khoản 4 Điều 13 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017 (văn bản do UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN tiếp tục áp dụng trong Kết luận thanh tra 109/KL-TT ngày 08/11/2024 và 47/KL-TT ngày 08/8/2025)",
-  "quote": "Nhà đầu tư nước ngoài không được thực hiện giao dịch ký quỹ.",
-  "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
+  "a": 3,
+  "e": "I: khoản 3 Điều 27 TT 121/2020 – công ty chứng khoán không được cho vay dưới bất kỳ hình thức nào đối với chủ sở hữu, cổ đông lớn, thành viên Ban kiểm soát, HĐQT, HĐTV, Ban Giám đốc, kế toán trưởng… và người có liên quan. II: khoản 2 Điều 9 TT 120/2020 – nhà đầu tư nước ngoài không được thực hiện giao dịch ký quỹ. IV: khoản 7 Điều 9 TT 120/2020 – phải ngừng ngay việc ký mới, gia hạn hợp đồng, ngừng cho vay và báo cáo UBCKNN trong 48 giờ. III được phép: khoản 4, 5 Điều 9 TT 120/2020 – chứng khoán được giao dịch ký quỹ gồm cả cổ phiếu đăng ký giao dịch đáp ứng tiêu chí; công ty lựa chọn trên cơ sở danh sách Sở giao dịch công bố.",
+  "basis": "Khoản 3 Điều 27 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 2, 4, 5, 7 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
+  "quote": "Công ty chứng khoán không được cho vay dưới bất kỳ hình thức nào đối với Chủ sở hữu, cổ đông lớn, thành viên Ban Kiểm soát, thành viên Hội đồng quản trị",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -147,13 +147,13 @@
   "level": 2,
   "q": "Theo Thông tư 120/2020/TT-BTC, hợp đồng giao dịch ký quỹ tối thiểu phải có các nội dung sau, NGOẠI TRỪ:",
   "o": [
+   "Mức lợi nhuận kỳ vọng của danh mục chứng khoán mua bằng tiền vay",
    "Tài sản bảo đảm cho giao dịch ký quỹ và thời hạn bổ sung ký quỹ",
    "Cách xử lý tài sản bảo đảm khi nhà đầu tư không bổ sung ký quỹ",
-   "Các rủi ro, thiệt hại có thể phát sinh và chi phí khách hàng phải trả",
-   "Mức lợi nhuận kỳ vọng của danh mục chứng khoán mua bằng tiền vay"
+   "Các rủi ro, thiệt hại có thể phát sinh và chi phí khách hàng phải trả"
   ],
-  "a": 3,
-  "e": "Khoản 1 Điều 9: trước khi giao dịch ký quỹ, nhà đầu tư phải ký hợp đồng giao dịch ký quỹ với công ty chứng khoán được phép cho vay tiền mua chứng khoán; hợp đồng này đồng thời là hợp đồng cho các khoản vay trên tài khoản ký quỹ và tối thiểu gồm: tài sản bảo đảm, thời hạn bổ sung ký quỹ, xử lý tài sản bảo đảm khi không bổ sung ký quỹ, phương thức giải quyết tranh chấp, các rủi ro, thiệt hại có thể phát sinh và chi phí khách hàng phải thanh toán. Công ty không được cam kết lợi nhuận cho khách hàng.",
+  "a": 0,
+  "e": "Khoản 1 Điều 9: trước khi giao dịch ký quỹ, nhà đầu tư phải ký hợp đồng giao dịch ký quỹ với công ty chứng khoán được phép cho vay tiền mua chứng khoán; hợp đồng này đồng thời là hợp đồng cho các khoản vay trên tài khoản ký quỹ và tối thiểu gồm: tài sản bảo đảm, thời hạn bổ sung ký quỹ, xử lý tài sản bảo đảm khi không bổ sung ký quỹ, phương thức giải quyết tranh chấp, các rủi ro, thiệt hại có thể phát sinh và chi phí khách hàng phải thanh toán. Lợi nhuận kỳ vọng không phải nội dung bắt buộc của hợp đồng.",
   "basis": "Khoản 1 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
   "quote": "Hợp đồng giao dịch ký quỹ tối thiểu phải bao gồm nội dung về tài sản bảo đảm cho giao dịch ký quỹ, thời hạn bổ sung ký quỹ, xử lý tài sản bảo đảm cho giao dịch ký quỹ khi nhà đầu tư không bổ sung ký quỹ",
   "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
@@ -173,7 +173,7 @@
    "Chuyển chứng khoán sang tài khoản tự doanh của công ty theo giá tham chiếu ngày đó"
   ],
   "a": 1,
-  "e": "Khoản 6 Điều 9: khi khách hàng không ký quỹ bổ sung, công ty có quyền bán chứng khoán là tài sản bảo đảm theo hợp đồng (không cần xin UBCKNN hay chờ khách hàng đồng ý từng lệnh). Trước khi bán, công ty công bố thông tin theo quy định và thông báo kết quả bán cho nhà đầu tư để họ thực hiện nghĩa vụ báo cáo sở hữu, công bố thông tin (nếu có – ví dụ cổ đông lớn, người nội bộ). Công ty không được tự chuyển chứng khoán của khách hàng sang tài khoản của mình.",
+  "e": "Khoản 6 Điều 9: khi khách hàng không ký quỹ bổ sung, công ty có quyền bán chứng khoán là tài sản bảo đảm theo hợp đồng (không cần xin UBCKNN hay chờ khách hàng đồng ý từng lệnh). Trước khi bán, công ty công bố thông tin theo quy định và thông báo kết quả bán cho nhà đầu tư để họ thực hiện nghĩa vụ báo cáo sở hữu, công bố thông tin (nếu có – ví dụ cổ đông lớn, người nội bộ). Khoản 6 không cho phép công ty chuyển chứng khoán của khách hàng sang tài khoản tự doanh thay cho việc bán.",
   "basis": "Khoản 6 Điều 9 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
   "quote": "Trước khi thực hiện bán chứng khoán là tài sản bảo đảm, công ty chứng khoán thực hiện công bố thông tin theo quy định pháp luật và thông báo kết quả giao dịch bán chứng khoán là tài sản bảo đảm cho nhà đầu tư biết",
   "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
@@ -193,7 +193,7 @@
    "I, III và IV"
   ],
   "a": 2,
-  "e": "Khoản 8 Điều 9: UBCKNN ban hành quy chế hướng dẫn giao dịch ký quỹ (hiện là Quy chế kèm Quyết định 87/QĐ-UBCK); khoản 9: UBCKNN có quyền yêu cầu tạm ngừng giao dịch ký quỹ khi cần ổn định thị trường. III sai: tỷ lệ ký quỹ ban đầu, duy trì do công ty chứng khoán quy định trong hợp đồng (không thấp hơn mức tối thiểu của quy chế); nhà đầu tư có nghĩa vụ bảo đảm các tỷ lệ này (khoản 6). IV sai: nhà đầu tư nước ngoài không được giao dịch ký quỹ (khoản 2); đánh giá rủi ro thanh toán thuộc cơ chế mua cổ phiếu không yêu cầu đủ tiền của nhà đầu tư nước ngoài là tổ chức (Điều 9a), không phải cho vay ký quỹ.",
+  "e": "Khoản 8 Điều 9: UBCKNN ban hành quy chế hướng dẫn giao dịch ký quỹ (các kết luận thanh tra của UBCKNN năm 2024–2025 dẫn chiếu Quy chế kèm Quyết định 87/QĐ-UBCK); khoản 9: UBCKNN có quyền yêu cầu tạm ngừng giao dịch ký quỹ khi cần ổn định thị trường. III sai: tỷ lệ ký quỹ ban đầu, duy trì do công ty chứng khoán quy định trong hợp đồng; nhà đầu tư có nghĩa vụ bảo đảm các tỷ lệ này (khoản 6). IV sai: nhà đầu tư nước ngoài không được giao dịch ký quỹ (khoản 2); đánh giá rủi ro thanh toán thuộc cơ chế mua cổ phiếu không yêu cầu đủ tiền của nhà đầu tư nước ngoài là tổ chức (Điều 9a), không phải cho vay ký quỹ.",
   "basis": "Khoản 2, 6, 8, 9 Điều 9; Điều 9a Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026, hợp nhất TT 68/2024, TT 18/2025, TT 08/2026)",
   "quote": "Trong trường hợp cần thiết để ổn định thị trường, Ủy ban Chứng khoán Nhà nước có quyền yêu cầu tạm ngừng giao dịch ký quỹ tại công ty chứng khoán.",
   "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
@@ -247,13 +247,13 @@
   "level": 3,
   "q": "Giả sử thị trường cho phép bán khống (ở Việt Nam, bán khống có bảo đảm theo Điều 11 Thông tư 120/2020/TT-BTC chỉ thực hiện khi UBCKNN triển khai). Nhà đầu tư bán khống 2.000 cổ phiếu giá 60.000 đồng, nộp ký quỹ 50% giá trị bán bằng tiền; tiền bán được giữ trong tài khoản. Tỷ lệ ký quỹ = (Tổng tiền trong tài khoản − Giá trị thị trường cổ phiếu phải trả)/Giá trị thị trường cổ phiếu phải trả; tỷ lệ duy trì 30%. Khi giá lên 72.000 đồng, bỏ qua lãi và phí, số tiền tối thiểu phải nộp thêm để về tỷ lệ duy trì là",
   "o": [
-   "36.000.000 đồng",
+   "6.000.000 đồng",
    "24.000.000 đồng",
-   "7.200.000 đồng",
-   "10.285.714 đồng"
+   "10.285.714 đồng",
+   "7.200.000 đồng"
   ],
-  "a": 2,
-  "e": "Tổng tiền (dư có) = 120 + 60 = 180 triệu đồng. Giá trị cổ phiếu phải trả = 2.000 × 72.000 = 144 triệu ⇒ vốn thực có = 36 triệu, tỷ lệ 25% < 30%. Tiền nộp thêm làm tăng cả tổng tiền và vốn thực có, giá trị phải trả không đổi: (36 + X)/144 = 30% ⇒ X = 43,2 − 36 = 7,2 triệu đồng. Lỗi thường gặp: áp công thức của vị thế mua ((36 + X)/(144 + X) = 30% ⇒ 10.285.714), lấy toàn bộ khoản lỗ (12.000 × 2.000 = 24 triệu), đưa về tỷ lệ ban đầu 50% (72 − 36 = 36 triệu).",
+  "a": 3,
+  "e": "Tổng tiền (dư có) = 120 + 60 = 180 triệu đồng. Giá trị cổ phiếu phải trả = 2.000 × 72.000 = 144 triệu ⇒ vốn thực có = 36 triệu, tỷ lệ 25% < 30%. Tiền nộp thêm làm tăng cả tổng tiền và vốn thực có, giá trị phải trả không đổi: (36 + X)/144 = 30% ⇒ X = 43,2 − 36 = 7,2 triệu đồng. Lỗi thường gặp: áp công thức của vị thế mua ((36 + X)/(144 + X) = 30% ⇒ 10.285.714), lấy toàn bộ khoản lỗ (12.000 × 2.000 = 24 triệu), chỉ bù 5 điểm phần trăm thiếu hụt trên giá trị bán ban đầu (5% × 120 = 6 triệu).",
   "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Ký quỹ bổ sung của vị thế bán trước mua sau; Điều 11 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC/2026)",
   "quote": "",
   "src": "",
@@ -287,14 +287,14 @@
   "level": 1,
   "q": "Theo giáo trình, xét các cách xác định giá trị thị trường hiện hành của chứng khoán trên tài khoản giao dịch ký quỹ:\nI. Ngày thông thường: theo giá đóng cửa của ngày giao dịch liền trước\nII. Ngày mua chứng khoán: bằng tổng số tiền trả cho chứng khoán, gồm cả hoa hồng và phí\nIII. Ngày bán chứng khoán: bằng giá khớp nhân khối lượng, chưa trừ hoa hồng, phí và thuế\nIV. Ngày bán chứng khoán: bằng tổng số tiền đã trả khi mua chứng khoán đó trước đây\nNhững cách xác định nào đúng?",
   "o": [
-   "I, II và III",
    "I và II",
+   "I, II và III",
    "II và IV",
    "I và III"
   ],
-  "a": 1,
-  "e": "Giáo trình: giá trị thị trường hiện hành thường tính theo giá đóng cửa ngày giao dịch liền trước; ngày mua là tổng số tiền phải trả cho chứng khoán (gồm hoa hồng, phí); ngày bán là số tiền thực nhận sau khi trừ hoa hồng, phí và thuế (không phải giá trị gộp, càng không phải giá vốn). Quy chế 87/QĐ-UBCK (khoản 4 Điều 2) cũng quy định giá trị chứng khoán ký quỹ do công ty xác định trong hợp đồng nhưng không vượt quá giá đóng cửa tại ngày gần nhất; tỷ lệ ký quỹ được xác định vào cuối ngày giao dịch (Điều 6).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị thị trường hiện hành trên tài khoản giao dịch ký quỹ; khoản 4 Điều 2, Điều 6 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017 (văn bản do UBCKNN ban hành theo khoản 8 Điều 9 TT 120/2020; UBCKNN tiếp tục áp dụng trong Kết luận thanh tra 109/KL-TT ngày 08/11/2024 và 47/KL-TT ngày 08/8/2025)",
+  "a": 0,
+  "e": "Giáo trình: giá trị thị trường hiện hành thường tính theo giá đóng cửa ngày giao dịch liền trước; ngày mua là tổng số tiền phải trả cho chứng khoán (gồm hoa hồng, phí); ngày bán là số tiền thực nhận sau khi trừ hoa hồng, phí và thuế (không phải giá trị gộp, càng không phải giá vốn). Cách định giá cụ thể do hợp đồng giao dịch ký quỹ giữa công ty và khách hàng quy định.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị thị trường hiện hành trên tài khoản giao dịch ký quỹ",
   "quote": "",
   "src": "",
   "as_of": "2026-11"

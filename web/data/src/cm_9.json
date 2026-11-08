@@ -645,7 +645,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Giả sử quy chế của công ty chứng khoán quy định tỷ lệ ký quỹ ban đầu 60% (vốn tự có/giá trị chứng khoán mua). Khách hàng có 300 triệu đồng tiền mặt, muốn dùng tối đa sức mua ký quỹ để mua cổ phiếu giá 25.000 đồng. Bỏ qua phí giao dịch, khối lượng tối đa khách hàng có thể mua là",
+  "q": "Giả sử quy chế của công ty chứng khoán quy định tỷ lệ ký quỹ ban đầu 60% (vốn tự có/giá trị chứng khoán mua). Khách hàng có 360 triệu đồng tiền mặt, muốn dùng tối đa sức mua ký quỹ để mua cổ phiếu giá 30.000 đồng. Bỏ qua phí giao dịch, khối lượng tối đa khách hàng có thể mua là",
   "o": [
    "12.000 cổ phiếu",
    "30.000 cổ phiếu",
@@ -653,8 +653,8 @@
    "20.000 cổ phiếu"
   ],
   "a": 3,
-  "e": "Sức mua = vốn tự có/tỷ lệ ký quỹ ban đầu = 300/0,6 = 500 triệu đồng (vay tối đa 200 triệu) ⇒ 500.000.000/25.000 = 20.000 cổ phiếu. Lỗi thường gặp: chỉ dùng tiền mặt (12.000), lấy 300 × (1 + 60%) (19.200), chia cho phần vay 40% thay vì tỷ lệ ký quỹ 60% (30.000). (Đề cũ giả định tỷ lệ ban đầu 40%; đã sửa thành 60% vì Quy chế hướng dẫn giao dịch ký quỹ của UBCKNN – theo bản Quyết định 87/QĐ-UBCK đăng lại, chưa đối chiếu được trên cổng UBCKNN – yêu cầu tỷ lệ ban đầu không thấp hơn 50%.)",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Sức mua trong giao dịch ký quỹ; khoản 1 Điều 5 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành kèm Quyết định 87/QĐ-UBCK ngày 25/01/2017",
+  "e": "Sức mua = vốn tự có/tỷ lệ ký quỹ ban đầu = 360/0,6 = 600 triệu đồng (vay tối đa 240 triệu) ⇒ 600.000.000/30.000 = 20.000 cổ phiếu. Lỗi thường gặp: chỉ dùng tiền mặt (12.000), lấy 360 × (1 + 60%) (19.200), chia cho phần vay 40% thay vì tỷ lệ ký quỹ 60% (30.000). Tỷ lệ ký quỹ ban đầu là giả định của đề; công ty quy định trong hợp đồng theo quy chế của UBCKNN.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Sức mua trong giao dịch ký quỹ (tỷ lệ là giả định của đề)",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
