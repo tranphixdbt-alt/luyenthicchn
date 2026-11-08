@@ -67,12 +67,12 @@
   "level": 2,
   "q": "Theo Thông tư 121/2020/TT-BTC, cách bố trí nào sau đây tại công ty chứng khoán vi phạm nguyên tắc tổ chức hệ thống quản trị rủi ro?",
   "o": [
-   "Trưởng phòng tự doanh chịu trách nhiệm quản trị rủi ro trong phạm vi hoạt động của phòng mình",
    "Giám đốc khối môi giới được giao kiêm nhiệm phụ trách bộ phận quản trị rủi ro của công ty",
+   "Trưởng phòng tự doanh chịu trách nhiệm quản trị rủi ro trong phạm vi hoạt động của phòng mình",
    "Hạn mức rủi ro của từng nghiệp vụ được ban hành bằng văn bản và được rà soát, cập nhật thường xuyên",
    "Bộ phận quản trị rủi ro hoạt động độc lập với các bộ phận tác nghiệp như môi giới, tự doanh"
   ],
-  "a": 1,
+  "a": 0,
   "e": "Điểm d khoản 1 Điều 11: bộ phận tác nghiệp và bộ phận quản trị rủi ro phải được tổ chức tách biệt, độc lập; người phụ trách bộ phận tác nghiệp (như khối môi giới) không đồng thời phụ trách bộ phận quản trị rủi ro và ngược lại. Trưởng các bộ phận nghiệp vụ vẫn có trách nhiệm quản trị rủi ro trong bộ phận mình (điểm a khoản 1); quy trình, hạn mức rủi ro phải bằng văn bản và được rà soát, cập nhật thường xuyên (điểm a khoản 1, khoản 2).",
   "basis": "Điểm a, d khoản 1, khoản 2 Điều 11 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026, hợp nhất TT 68/2024 và TT 08/2026)",
   "quote": "Hệ thống quản trị rủi ro được thiết lập phải đảm bảo các bộ phận tác nghiệp và bộ phận quản trị rủi ro được tổ chức tách biệt và độc lập với nhau và người phụ trách bộ phận tác nghiệp không đồng thời phụ trách bộ phận quản trị rủi ro và ngược lại.",
@@ -93,7 +93,7 @@
    "Ban kiểm soát xây dựng, rà soát; Đại hội đồng cổ đông (Hội đồng thành viên) thông qua hằng năm"
   ],
   "a": 2,
-  "e": "Khoản 4 Điều 11: công ty chứng khoán phải xây dựng kế hoạch dự phòng cho các tình huống khẩn cấp; Tổng giám đốc (Giám đốc) chịu trách nhiệm xây dựng, rà soát thường xuyên; kế hoạch phải được Hội đồng quản trị hoặc Hội đồng thành viên hoặc Chủ sở hữu công ty thông qua. Kế hoạch này đi cùng nghĩa vụ xây dựng hệ thống công nghệ thông tin, cơ sở dữ liệu dự phòng (khoản 10 Điều 89 Luật Chứng khoán); không có thủ tục UBCKNN chấp thuận trước kế hoạch dự phòng.",
+  "e": "Khoản 4 Điều 11: công ty chứng khoán phải xây dựng kế hoạch dự phòng cho các tình huống khẩn cấp; Tổng giám đốc (Giám đốc) chịu trách nhiệm xây dựng, rà soát thường xuyên; kế hoạch phải được Hội đồng quản trị hoặc Hội đồng thành viên hoặc Chủ sở hữu công ty thông qua. Kế hoạch này đi cùng nghĩa vụ xây dựng hệ thống công nghệ thông tin, cơ sở dữ liệu dự phòng (khoản 10 Điều 89 Luật Chứng khoán); Điều 11 không yêu cầu Ủy ban Chứng khoán Nhà nước chấp thuận kế hoạch dự phòng.",
   "basis": "Khoản 4 Điều 11 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026, hợp nhất TT 68/2024 và TT 08/2026); khoản 10 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
   "quote": "Tổng Giám đốc (Giám đốc) chịu trách nhiệm xây dựng, rà soát thường xuyên kế hoạch dự phòng. Kế hoạch dự phòng phải được Hội đồng quản trị hoặc Hội đồng thành viên hoặc Chủ sở hữu công ty thông qua.",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
@@ -105,14 +105,14 @@
   "subject": "MG",
   "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
   "level": 2,
-  "q": "Theo Thông tư 121/2020/TT-BTC, khi thực hiện hoạt động nghiệp vụ, công ty chứng khoán phải bảo đảm những nguyên tắc nào sau đây?\nI. Ban hành quy trình hoạt động cho các nghiệp vụ và quy tắc đạo đức hành nghề\nII. Được quyết định mua, bán thay khách hàng trên tài khoản giao dịch thông thường nếu khách hàng đồng ý qua điện thoại\nIII. Thiết lập bộ phận chuyên trách thông tin liên lạc với khách hàng, giải quyết thắc mắc, khiếu nại của khách hàng\nIV. Xây dựng hệ thống công nghệ thông tin, cơ sở dữ liệu dự phòng để bảo đảm hoạt động an toàn, liên tục",
+  "q": "Theo Thông tư 121/2020/TT-BTC, những nội dung nào sau đây phù hợp với nguyên tắc hoạt động nghiệp vụ của công ty chứng khoán?\nI. Ban hành quy trình hoạt động cho các nghiệp vụ và quy tắc đạo đức hành nghề\nII. Được quyết định mua, bán thay khách hàng trên tài khoản giao dịch thông thường nếu khách hàng đồng ý qua điện thoại\nIII. Thiết lập bộ phận chuyên trách thông tin liên lạc với khách hàng, giải quyết thắc mắc, khiếu nại của khách hàng\nIV. Xây dựng hệ thống công nghệ thông tin, cơ sở dữ liệu dự phòng để bảo đảm hoạt động an toàn, liên tục",
   "o": [
    "I và III",
+   "I, II và IV",
    "I, III và IV",
-   "II, III và IV",
-   "I, II và IV"
+   "II, III và IV"
   ],
-  "a": 1,
+  "a": 2,
   "e": "Điều 4: công ty chứng khoán phải ban hành quy trình hoạt động cho các nghiệp vụ (khoản 1) và quy tắc đạo đức hành nghề (khoản 2); xây dựng hệ thống công nghệ thông tin, cơ sở dữ liệu dự phòng (khoản 9); thiết lập bộ phận chuyên trách liên lạc với khách hàng và giải quyết thắc mắc, khiếu nại (khoản 11). Ý II sai: công ty, nhân viên không được đầu tư thay khách hàng, trừ trường hợp ủy thác quản lý tài khoản của nhà đầu tư cá nhân theo Điều 19 (khoản 3, điểm a khoản 6 Điều 4); lời đồng ý qua điện thoại không biến tài khoản thông thường thành tài khoản ủy thác.",
   "basis": "Khoản 1, 2, 3, 9, 11 và điểm a khoản 6 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026, hợp nhất TT 68/2024 và TT 08/2026)",
   "quote": "Công ty chứng khoán phải thiết lập một bộ phận chuyên trách chịu trách nhiệm thông tin liên lạc với khách hàng và giải quyết các thắc mắc, khiếu nại của khách hàng.",
@@ -133,8 +133,8 @@
    "Có Tổng giám đốc; tối thiểu 03 người có CCHN phù hợp cho mỗi nghiệp vụ; tối thiểu 01 nhân viên kiểm soát tuân thủ"
   ],
   "a": 3,
-  "e": "Khoản 5 Điều 74: có Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ; Tổng giám đốc phải có CCHN phân tích tài chính hoặc quản lý quỹ. Con số 05 người có CCHN là điều kiện của công ty quản lý quỹ (khoản 5 Điều 75); 02 người cho mỗi nghiệp vụ là điều kiện khi công ty chứng khoán lập chi nhánh trong nước (Nghị định 155/2020/NĐ-CP).",
-  "basis": "Khoản 5 Điều 74 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "e": "Khoản 5 Điều 74: có Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ; Tổng giám đốc phải có CCHN phân tích tài chính hoặc quản lý quỹ. Con số 05 người có CCHN là điều kiện của công ty quản lý quỹ (khoản 5 Điều 75); 02 người cho mỗi nghiệp vụ là điều kiện khi công ty chứng khoán thành lập chi nhánh trong nước (điểm đ khoản 2 Điều 190 Nghị định 155/2020/NĐ-CP, điều này không bị Nghị định 245/2025/NĐ-CP sửa).",
+  "basis": "Khoản 5 Điều 74, khoản 5 Điều 75 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm đ khoản 2 Điều 190 Nghị định 155/2020/NĐ-CP",
   "quote": "Có Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.",
   "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
   "as_of": "2026-11"
@@ -148,15 +148,15 @@
   "q": "Vai trò của công ty chứng khoán đối với thị trường chứng khoán và nền kinh tế bao gồm các nội dung sau, NGOẠI TRỪ:",
   "o": [
    "Bảo đảm giá trị khoản đầu tư của khách hàng không bị sụt giảm",
-   "Tạo cơ chế huy động vốn cho doanh nghiệp và nền kinh tế",
-   "Góp phần giảm chi phí giao dịch, nâng cao hiệu quả đầu tư",
-   "Hỗ trợ cơ quan quản lý giám sát thị trường hiệu quả hơn"
+   "Làm cầu nối giúp doanh nghiệp huy động vốn qua thị trường",
+   "Giúp nhà đầu tư giảm chi phí giao dịch, đầu tư hiệu quả hơn",
+   "Hỗ trợ cơ quan quản lý trong việc giám sát thị trường"
   ],
   "a": 0,
-  "e": "Công ty chứng khoán tạo cơ chế huy động vốn, giảm chi phí giao dịch và rủi ro, nâng cao hiệu quả đầu tư, góp phần tạo sản phẩm, dịch vụ mới và hỗ trợ cơ quan quản lý giám sát thị trường. Công ty không bảo đảm khách hàng không bị lỗ: nhà đầu tư tự chịu trách nhiệm về rủi ro (khoản 4 Điều 5 Luật Chứng khoán); công ty không được bảo đảm khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định (khoản 1 Điều 91 Luật Chứng khoán).",
+  "e": "Công ty chứng khoán là cầu nối giúp doanh nghiệp huy động vốn, giúp nhà đầu tư giảm chi phí giao dịch và rủi ro, góp phần tạo sản phẩm, dịch vụ mới và hỗ trợ cơ quan quản lý giám sát thị trường. Công ty không bảo đảm khách hàng không bị lỗ: nhà đầu tư tự chịu trách nhiệm về rủi ro (khoản 4 Điều 5 Luật Chứng khoán); công ty chứng khoán không được bảo đảm khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định (khoản 1 Điều 91 Luật Chứng khoán).",
   "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – vai trò của công ty chứng khoán; khoản 4 Điều 5, khoản 1 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
-  "quote": "",
-  "src": "",
+  "quote": "Không được đưa ra nhận định hoặc bảo đảm với khách hàng về mức thu nhập hoặc lợi nhuận đạt được trên khoản đầu tư của mình hoặc bảo đảm khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -165,16 +165,16 @@
   "subject": "MG",
   "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
   "level": 1,
-  "q": "Trong cơ cấu tổ chức thường gặp của công ty chứng khoán, bộ phận nào sau đây KHÔNG thuộc khối nghiệp vụ (front office)?",
+  "q": "Trong cơ cấu tổ chức của công ty chứng khoán, khối nghiệp vụ (front office) trực tiếp thực hiện các nghiệp vụ kinh doanh chứng khoán và cung cấp dịch vụ cho khách hàng; khối hỗ trợ (back office) phục vụ hoạt động của khối nghiệp vụ. Bộ phận nào sau đây thuộc khối hỗ trợ?",
   "o": [
    "Phòng môi giới chứng khoán",
-   "Phòng kế toán – ngân quỹ",
    "Phòng tự doanh chứng khoán",
-   "Phòng bảo lãnh phát hành"
+   "Phòng bảo lãnh phát hành",
+   "Phòng tài chính – kế toán"
   ],
-  "a": 1,
-  "e": "Khối nghiệp vụ (front office) trực tiếp thực hiện các giao dịch kinh doanh và dịch vụ chứng khoán: môi giới, tự doanh, bảo lãnh phát hành, tư vấn tài chính và đầu tư… Khối hỗ trợ (back office) phục vụ khối nghiệp vụ, gồm kế toán, ngân quỹ, nhân sự, công nghệ thông tin, thanh toán – lưu ký… nên phòng kế toán – ngân quỹ thuộc khối hỗ trợ.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – cơ cấu tổ chức của công ty chứng khoán (khối nghiệp vụ và khối hỗ trợ)",
+  "a": 3,
+  "e": "Theo mô tả trong đề, khối nghiệp vụ gồm các bộ phận trực tiếp thực hiện nghiệp vụ kinh doanh chứng khoán như môi giới, tự doanh, bảo lãnh phát hành, tư vấn đầu tư (các nghiệp vụ tại khoản 1 Điều 72 Luật Chứng khoán). Phòng tài chính – kế toán không trực tiếp kinh doanh mà ghi chép, hạch toán và quản lý tài chính cho toàn công ty, nên thuộc khối hỗ trợ, cùng với nhân sự, công nghệ thông tin, thanh toán – lưu ký.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – cơ cấu tổ chức của công ty chứng khoán (khối nghiệp vụ, khối hỗ trợ); khoản 1 Điều 72 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
   "quote": "",
   "src": "",
   "as_of": "2026-11"
@@ -194,7 +194,7 @@
   ],
   "a": 2,
   "e": "Có ba triết lý: truyền thống (bán càng nhiều càng tốt những gì có sẵn), bán hàng – tiếp thị (tìm hiểu nhu cầu thị trường để tạo ra sản phẩm rồi bán) và bán hàng tư vấn (tìm hiểu từng khách hàng cần gì rồi đáp ứng bằng sản phẩm phù hợp nhất). Bán hàng tư vấn phù hợp với nguyên tắc tính phù hợp: khuyến nghị phải hợp với tình hình tài chính, mục tiêu và khả năng chấp nhận rủi ro của khách hàng (khoản 6 Điều 89 Luật Chứng khoán). Ưu tiên sản phẩm hoa hồng cao là biểu hiện xung đột lợi ích.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – triết lý hành nghề môi giới (bán hàng tư vấn); khoản 6 Điều 89 Luật Chứng khoán 2019",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – triết lý hành nghề môi giới (bán hàng tư vấn); khoản 6 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
   "quote": "",
   "src": "",
   "as_of": "2026-11"
@@ -205,18 +205,18 @@
   "subject": "MG",
   "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
   "level": 2,
-  "q": "Xét các nhận định sau về phạm vi chăm sóc khách hàng của nhân viên môi giới:\nI. Việc chăm sóc bắt đầu ngay từ khi người đó còn là khách hàng tiềm năng\nII. Với khách hàng đang giao dịch thường xuyên, cần duy trì liên hệ và định kỳ rà soát nhu cầu\nIII. Khi khách hàng đã ngừng giao dịch, vẫn nên giữ liên hệ thiện chí và tìm hiểu lý do rời đi\nCác nhận định đúng là:",
+  "q": "Xét các nhận định sau về chăm sóc khách hàng của nhân viên môi giới:\nI. Việc chăm sóc bắt đầu ngay từ khi người đó còn là khách hàng tiềm năng\nII. Với khách hàng đang giao dịch thường xuyên, cần duy trì liên hệ và định kỳ rà soát nhu cầu\nIII. Khi khách hàng đã ngừng giao dịch, vẫn nên giữ liên hệ thiện chí và tìm hiểu lý do rời đi\nIV. Hồ sơ của khách hàng đã đóng tài khoản có thể chuyển cho đối tác bên ngoài để chào sản phẩm khác mà không cần hỏi ý kiến khách hàng\nCác nhận định đúng là:",
   "o": [
-   "Chỉ II",
-   "I và II",
    "II và III",
-   "I, II và III"
+   "I, II và III",
+   "I, II và IV",
+   "II, III và IV"
   ],
-  "a": 3,
-  "e": "Chăm sóc khách hàng được thực hiện ở cả ba giai đoạn: khi là khách hàng tiềm năng (tạo thiện cảm, cung cấp thông tin hữu ích), khi là khách hàng thân thiết (duy trì liên hệ, rà soát danh mục và nhu cầu) và khi không còn là khách hàng (giữ quan hệ, tìm hiểu nguyên nhân để cải thiện dịch vụ, tạo cơ hội để khách hàng quay lại hoặc giới thiệu người khác).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – chăm sóc khách hàng ở ba giai đoạn (tiềm năng, thân thiết, không còn là khách hàng)",
-  "quote": "",
-  "src": "",
+  "a": 1,
+  "e": "Chăm sóc khách hàng được thực hiện ở cả ba giai đoạn: khi là khách hàng tiềm năng (tạo thiện cảm, cung cấp thông tin hữu ích), khi là khách hàng thân thiết (duy trì liên hệ, rà soát danh mục và nhu cầu) và khi không còn là khách hàng (giữ quan hệ, tìm hiểu nguyên nhân để cải thiện dịch vụ, tạo cơ hội để khách hàng quay lại hoặc giới thiệu người khác). Ý IV sai: công ty chứng khoán không được tiết lộ thông tin về khách hàng, trừ trường hợp được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền (khoản 2 Điều 91 Luật Chứng khoán); quy định này không loại trừ khách hàng đã đóng tài khoản.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – chăm sóc khách hàng ở ba giai đoạn (tiềm năng, thân thiết, không còn là khách hàng); khoản 2 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Không được tiết lộ thông tin về khách hàng, trừ trường hợp được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -268,11 +268,11 @@
   "q": "Khi khai thác thông tin để lập hồ sơ khách hàng, câu hỏi nào sau đây chủ yếu nhằm đánh giá mức độ chấp nhận rủi ro của khách hàng?",
   "o": [
    "“Khoản đầu tư thành công nhất anh/chị từng thực hiện là khoản nào, vì sao?”",
-   "“Nếu danh mục giảm 20% trong một tháng, anh/chị sẽ cảm thấy thế nào và xử lý ra sao?”",
+   "“Anh/chị cần khoản thu nhập bao nhiêu mỗi năm từ danh mục và dùng vào việc gì?”",
    "“Anh/chị đang mở tài khoản ở công ty nào và hài lòng điều gì ở người môi giới?”",
-   "“Anh/chị cần khoản thu nhập bao nhiêu mỗi năm từ danh mục và dùng vào việc gì?”"
+   "“Nếu danh mục giảm 20% trong một tháng, anh/chị sẽ cảm thấy thế nào và xử lý ra sao?”"
   ],
-  "a": 1,
+  "a": 3,
   "e": "Nhóm câu hỏi về rủi ro có thể chấp nhận hỏi khách hàng sẵn sàng chịu mức lỗ bao nhiêu, phản ứng thế nào khi thua lỗ. Câu hỏi về khoản đầu tư thành công nhất thuộc nhóm lịch sử đầu tư; câu hỏi về công ty, người môi giới hiện tại thuộc nhóm thông tin liên quan đến nhà môi giới; câu hỏi về khoản thu nhập cần có thuộc nhóm mục tiêu thu nhập.",
   "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – các nhóm câu hỏi khai thác nhu cầu, mục tiêu và khả năng chấp nhận rủi ro của khách hàng",
   "quote": "",
@@ -285,16 +285,16 @@
   "subject": "MG",
   "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
   "level": 2,
-  "q": "Ông A và bà B có tài sản ròng, thu nhập và thời gian đầu tư tương đương nhau. Ông A tự gây dựng tài sản qua nhiều năm khởi nghiệp, điều hành doanh nghiệp; tài sản của bà B chủ yếu do thừa kế. Khi xét nguồn gốc tài sản trong hồ sơ khách hàng cá nhân, nhận định nào sau đây thường đúng?",
+  "q": "Ông A và bà B có tài sản ròng, thu nhập và thời gian đầu tư tương đương nhau. Ông A tự gây dựng tài sản qua nhiều năm điều hành doanh nghiệp; tài sản của bà B chủ yếu do thừa kế. Khi lập hồ sơ khách hàng cá nhân cho hai người, cách làm nào sau đây phù hợp?",
   "o": [
-   "Bà B thường sẵn sàng chấp nhận rủi ro cao hơn vì tài sản có được không do công sức tích lũy",
-   "Nguồn gốc tài sản không ảnh hưởng thái độ với rủi ro; chỉ quy mô tài sản mới cần được xem xét",
-   "Ông A thường sẵn sàng chấp nhận rủi ro cao hơn vì quen chủ động chấp nhận rủi ro để tạo tài sản",
-   "Hai người phải được xếp cùng một mức rủi ro vì tài sản ròng và thu nhập của họ như nhau"
+   "Xếp hai người vào cùng một mức rủi ro vì các chỉ tiêu tài chính của họ tương đương nhau",
+   "Bỏ qua nguồn gốc tài sản vì đây là thông tin riêng tư, không ảnh hưởng đến việc tư vấn",
+   "Xem nguồn gốc tài sản là một yếu tố của hồ sơ, trao đổi thêm để đánh giá thái độ rủi ro từng người",
+   "Mặc định bà B chấp nhận rủi ro cao hơn vì tài sản thừa kế không do công sức của bà tích lũy"
   ],
   "a": 2,
-  "e": "Nguồn gốc của sự giàu có là một yếu tố trong hồ sơ khách hàng cá nhân (cùng với giai đoạn cuộc đời, hồ sơ tâm lý…). Người tự tạo ra tài sản bằng kinh doanh thường tự tin, quen chấp nhận rủi ro và cảm thấy kiểm soát được kết quả nên mức sẵn sàng chấp nhận rủi ro thường cao hơn. Người có tài sản do thừa kế thường thận trọng hơn vì lo mất phần tài sản khó tạo lại. Đây là xu hướng chung; nhân viên môi giới vẫn phải kiểm chứng qua trao đổi với từng khách hàng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – hồ sơ khách hàng cá nhân: nguồn gốc của sự giàu có",
+  "e": "Nguồn gốc của sự giàu có là một trong các đặc điểm riêng cần xem xét khi lập hồ sơ khách hàng cá nhân, cùng với hồ sơ phân loại nhà đầu tư, thước đo của cải, giai đoạn cuộc đời và hồ sơ tâm lý. Hai người có chỉ tiêu tài chính như nhau vẫn có thể có thái độ khác nhau với rủi ro (người tự tạo tài sản qua kinh doanh thường quen chấp nhận rủi ro hơn, người được thừa kế thường thận trọng hơn), nhưng đó chỉ là xu hướng nên phải kiểm chứng qua trao đổi với từng người, không được mặc định. Khuyến nghị phải phù hợp với khả năng chấp nhận rủi ro của từng khách hàng (khoản 6 Điều 89 Luật Chứng khoán).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – hồ sơ khách hàng cá nhân: nguồn gốc của sự giàu có; khoản 6 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
   "quote": "",
   "src": "",
   "as_of": "2026-11"
@@ -393,10 +393,10 @@
    "I, III và IV"
   ],
   "a": 1,
-  "e": "Khác với cổ phiếu (mua phải đủ tiền, bán phải có cổ phiếu), với hợp đồng tương lai nhà đầu tư không cần đủ toàn bộ tiền để mở vị thế mua, không cần nắm giữ tài sản cơ sở để mở vị thế bán; ký quỹ đóng vai trò khoản đặt cọc bảo đảm nghĩa vụ. Hợp đồng có ngày đáo hạn nên phải chọn tháng đáo hạn phù hợp. Ý III sai: lãi, lỗ vị thế được xác định và thanh toán hằng ngày theo giá thanh toán cuối ngày (thời hạn nộp, nhận tiền cụ thể theo quy chế của VSDC).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – kiến thức về sản phẩm phái sinh: ký quỹ, thanh toán lãi lỗ hằng ngày, tháng đáo hạn",
-  "quote": "",
-  "src": "",
+  "e": "Với hợp đồng tương lai, nhà đầu tư không phải có đủ toàn bộ tiền để mở vị thế mua và không cần nắm giữ tài sản cơ sở để mở vị thế bán; ký quỹ đóng vai trò như khoản đặt cọc bảo đảm thực hiện nghĩa vụ. Hợp đồng có tháng đáo hạn nên phải chọn hợp đồng có thời hạn phù hợp. Ý III sai: lãi, lỗ vị thế được xác định hằng ngày (thành viên bù trừ tính lãi lỗ vị thế, đánh giá lại tài sản ký quỹ hằng ngày) và nhà đầu tư thanh toán lãi, lỗ phát sinh theo từng ngày, không đợi đến khi đóng vị thế hay đáo hạn; thời hạn nộp, nhận tiền cụ thể theo quy chế của VSDC tại từng thời điểm.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – kiến thức về sản phẩm phái sinh: ký quỹ, thanh toán lãi lỗ hằng ngày, tháng đáo hạn; khoản 2 Điều 34 Nghị định 158/2020/NĐ-CP (VBHN 16/VBHN-BTC/2026, hợp nhất NĐ 306/2025/NĐ-CP)",
+  "quote": "Hàng ngày và trong các phiên giao dịch có giá chứng khoán biến động mạnh, thành viên bù trừ tính toán lãi lỗ vị thế, đánh giá lại giá trị tài sản ký quỹ, bảo đảm nhà đầu tư luôn duy trì ký quỹ theo thỏa thuận tại hợp đồng và phù hợp với quy định của pháp luật.",
+  "src": "VBHN_16_VBHN-BTC_2026_ND158_306_phai_sinh_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -405,7 +405,7 @@
   "subject": "MG",
   "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
   "level": 2,
-  "q": "Để tạo lập sự tín nhiệm và lòng tin với khách hàng, nhân viên môi giới nên tuân thủ những nguyên tắc nào sau đây?\nI. Đưa ra các phương án phù hợp để khách hàng tự quyết định, không quyết định thay khách hàng\nII. Nhận vay tiền của khách hàng thân thiết khi khách hàng chủ động đề nghị và có giấy vay rõ ràng\nIII. Áp dụng phương pháp làm việc nhất quán, tuân thủ các nguyên tắc đã cam kết với khách hàng",
+  "q": "Để tạo lập sự tín nhiệm và lòng tin với khách hàng, nhân viên môi giới nên tuân thủ những nguyên tắc nào sau đây?\nI. Đưa ra các phương án phù hợp để khách hàng tự quyết định, không quyết định thay khách hàng\nII. Vay tiền của khách hàng thân thiết nếu chính khách hàng chủ động đề nghị và có giấy vay rõ ràng\nIII. Áp dụng phương pháp làm việc nhất quán, tuân thủ các nguyên tắc đã cam kết với khách hàng",
   "o": [
    "Chỉ I",
    "I và III",
@@ -433,7 +433,7 @@
    "Luôn hàm chứa yếu tố rủi ro trong quá trình cung ứng"
   ],
   "a": 2,
-  "e": "Ngoài đặc điểm chung của dịch vụ, dịch vụ tài chính liên tục thay đổi, dễ bắt chước và không có bản quyền; được tích hợp trên nền tảng công nghệ cao; được cung cấp trên cơ sở liên kết nhiều bộ phận chức năng và nhiều trung gian tài chính; hàm chứa yếu tố rủi ro trong cung ứng. Vì dễ bị sao chép, lợi thế cạnh tranh bền vững của công ty chứng khoán chủ yếu đến từ chất lượng đội ngũ, uy tín và quan hệ với khách hàng.",
+  "e": "Ngoài đặc điểm chung của dịch vụ, dịch vụ tài chính liên tục thay đổi, dễ bắt chước và không có bản quyền; được tích hợp trên nền tảng công nghệ cao; được cung cấp trên cơ sở liên kết nhiều bộ phận chức năng và nhiều trung gian tài chính; hàm chứa yếu tố rủi ro trong cung ứng. Vì dễ bị sao chép, công ty chứng khoán thường phải cạnh tranh nhiều bằng chất lượng đội ngũ, uy tín và quan hệ với khách hàng.",
   "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – đặc tính của dịch vụ tài chính",
   "quote": "",
   "src": "",
