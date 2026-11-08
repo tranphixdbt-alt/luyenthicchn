@@ -85,6 +85,10 @@ p { margin: 0; }
 .acct-me .av { width: 24px; height: 24px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--navy, #0C2A63); color: #fff; font-weight: 700; font-size: .8rem; }
 .acct-top { display: inline-flex; }
 .tip-today { border-left: 4px solid var(--gold, #E0B04A); }
+/* biểu đồ cột một chuỗi (trang quản trị): cột mảnh, bo 4px đầu cột, cách nhau 2px */
+.vbars { display: flex; align-items: flex-end; gap: 2px; height: 140px; border-bottom: 1px solid var(--line); }
+.vbars i { flex: 1; min-width: 3px; background: var(--accent); border-radius: 4px 4px 0 0; opacity: .85; }
+.vbars i:hover { opacity: 1; outline: 2px solid var(--surface); }
 @media (min-width: 901px) { .main { padding-top: 64px; } }
 
 @media (max-width: 900px) {

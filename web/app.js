@@ -237,12 +237,19 @@ const VIEWS = {};
 let current = '';
 function route() {
   let h = decodeURIComponent(location.hash.slice(1)) || 'tong-quan';
-  if (h.startsWith('dieu-')) { current = 'thu-vien'; renderNav(current); VIEWS['thu-vien'](h.slice(5)); return; }
+  if (h.startsWith('dieu-')) { current = 'thu-vien'; renderNav(current); VIEWS['thu-vien'](h.slice(5)); track('thu-vien'); return; }
   if (!VIEWS[h]) h = 'tong-quan';
+  track(h);
   const render = () => { current = h; renderNav(h); openNav(false); VIEWS[h](); $('#main').scrollTo?.(0, 0); window.scrollTo(0, 0); };
   if (document.startViewTransition && current && current !== h && !reduceMotion()) document.startViewTransition(render); else render();
 }
 const go = h => { if (location.hash === '#' + h) route(); else location.hash = h; };
+// Lượt truy cập cho trang quản trị: mã ngẫu nhiên của trình duyệt + tên trang (máy chủ tự thêm giờ, thiết bị, khu vực). Tắt được trong Cài đặt.
+let VID = ''; try { VID = localStorage.getItem('btinvest_vid') || ''; if (!VID && crypto.randomUUID) localStorage.setItem('btinvest_vid', (VID = crypto.randomUUID())); } catch { /* không có bộ nhớ */ }
+function track(p) {
+  if (!VID || p === 'quan-tri' || S.prefs.share === false || !location.protocol.startsWith('http')) return;
+  try { navigator.sendBeacon?.('/api/truy-cap', new Blob([JSON.stringify({ v: VID, p })], { type: 'application/json' })); } catch { /* bỏ qua */ }
+}
 const main = html => { $('#main').innerHTML = html; };
 
 // Gợi ý hôm nay: trong các môn của chứng chỉ mục tiêu, chọn môn đúng ít nhất (môn chưa làm đủ 10 câu được ưu tiên trước)
@@ -1093,7 +1100,7 @@ VIEWS['cai-dat'] = () => {
     `<div class="grid g2">
       <div class="card stack"><h2>Giao diện</h2><label class="f">Chế độ màu<select id="s-theme">${opts([['', 'Theo hệ thống'], ['light', 'Sáng'], ['dark', 'Tối']], S.theme)}</select></label>
         <label class="f">Chứng chỉ mục tiêu<select id="s-cert">${opts(Object.entries(CERTS).map(([k, c]) => [k, c.name]), S.prefs.cert)}</select></label></div>
-      <div class="card stack"><h2>Góp số liệu ẩn danh</h2><p class="small muted">Khi bật, trang gửi mã câu và đúng/sai của mỗi lượt làm (không có tên, email hay thông tin thiết bị) để tổng hợp phần "Nhiều người sai" ở trang Trọng tâm từng môn.</p>
+      <div class="card stack"><h2>Góp số liệu ẩn danh</h2><p class="small muted">Khi bật, trang gửi mã câu và đúng/sai của mỗi lượt làm (để tổng hợp phần "Nhiều người sai") và lượt xem trang kèm loại thiết bị, khu vực ước tính, địa chỉ IP đã che bớt (để thống kê truy cập). Không gửi tên, email hay số điện thoại.</p>
         <label class="check"><input type="checkbox" id="s-share" ${S.prefs.share !== false ? 'checked' : ''}> Góp số liệu ẩn danh</label></div>
       <div class="card stack"><h2>Sao lưu</h2><p class="small muted">Sao chép đoạn mã dưới đây và lưu lại; khi cần khôi phục, dán vào ô Khôi phục.</p>
         <textarea id="s-dump" readonly>${esc(dump)}</textarea><div class="row"><button class="btn" id="s-copy">Sao chép</button><button class="btn" id="s-file">Tải file .json</button></div></div>
@@ -1164,7 +1171,7 @@ VIEWS['tai-khoan'] = () => {
         <label class="f">Email *<input name="email" type="email" autocomplete="email" required></label>
         <label class="f">Mật khẩu * (từ 8 ký tự)<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
         <label class="f">Mục tiêu *<select name="cert">${certOpts(S.prefs.cert)}</select></label>
-        <label class="check"><input type="checkbox" name="consent"> Tôi đồng ý để BT-INVEST lưu số điện thoại, email, mục tiêu và tiến độ học để đồng bộ, gợi ý bài học và liên hệ tư vấn. Tôi có thể xóa tài khoản bất cứ lúc nào.</label>
+        <label class="check"><input type="checkbox" name="consent"> Tôi đồng ý để BT-INVEST lưu số điện thoại, email, mục tiêu, tiến độ học và lịch sử đăng nhập (thời gian, địa chỉ IP, thiết bị, khu vực) để đồng bộ, bảo mật tài khoản, gợi ý bài học và liên hệ tư vấn. Tôi có thể xóa tài khoản bất cứ lúc nào.</label>
         <p class="tiny muted">Tiến độ bạn đã học trên máy này sẽ được chuyển vào tài khoản. Hiện chưa có chức năng lấy lại mật khẩu, hãy ghi nhớ mật khẩu.</p>
         <div><button class="btn primary">Tạo tài khoản</button></div></form>
       <form class="card stack" id="f-login" novalidate><h2>Đăng nhập</h2>
@@ -1197,18 +1204,50 @@ VIEWS['quan-tri'] = async () => {
     `<form class="card stack" id="q-f"><label class="f">Mã quản trị<input type="password" name="k" autocomplete="off" required></label><div><button class="btn primary">Xem danh sách</button></div></form>`));
     $('#q-f').onsubmit = e => { e.preventDefault(); try { sessionStorage.setItem('btinvest_admin', e.target.k.value); } catch { /* bỏ qua */ } VIEWS['quan-tri'](); }; };
   if (!key) return form();
-  let users;
-  try { users = (await api('quan-tri', {}, { 'x-admin-key': key })).users; }
+  let users, logins, st;
+  try { ({ users, logins, stats: st } = await api('quan-tri', {}, { 'x-admin-key': key })); }
   catch (e) { try { sessionStorage.removeItem('btinvest_admin'); } catch { /* bỏ qua */ } return form(e.message); }
   if (current !== 'quan-tri') return;
   const cert = c => CERTS[c]?.name || c;
   const cell = v => { const t = String(v ?? ''); return '"' + (/^[=+\-@]/.test(t) ? "'" + t : t).replace(/"/g, '""') + '"'; };   // chặn công thức khi mở bằng Excel
-  const csv = '﻿' + [['Tên', 'SĐT', 'Email', 'Mục tiêu', 'Ngày tạo', 'Hoạt động gần nhất', 'Số câu đã làm', 'Đúng lần gần nhất', 'Bài thi thử'],
-    ...users.map(u => [u.name, u.phone, u.email, cert(u.cert), dt(u.created), dt(u.last), u.done, u.ok, u.exams])].map(r => r.map(cell).join(',')).join('\r\n');
-  main(page('Quản trị', `${fmt(users.length)} tài khoản`, 'Chỉ dùng để chăm sóc, tư vấn người học đã đồng ý. Không chia sẻ danh sách này.',
-    `<div class="card stack"><div class="row"><button class="btn primary" id="q-csv">Tải file CSV</button><button class="btn" id="q-out">Thoát quản trị</button></div>
-      <div class="tablewrap"><table><thead><tr><th>Tên</th><th>SĐT</th><th>Email</th><th>Mục tiêu</th><th>Ngày tạo</th><th>Gần nhất</th><th>Đã làm</th><th>Thi thử</th></tr></thead>
-      <tbody>${users.map(u => `<tr><td>${esc(u.name)}</td><td class="num">${esc(u.phone)}</td><td>${esc(u.email)}</td><td>${esc(cert(u.cert))}</td><td class="num small">${dt(u.created)}</td><td class="num small">${dt(u.last)}</td><td class="num">${u.done}</td><td class="num">${u.exams}</td></tr>`).join('') || '<tr><td colspan="8" class="muted">Chưa có tài khoản nào.</td></tr>'}</tbody></table></div></div>`));
+  const csv = '﻿' + [['Tên', 'SĐT', 'Email', 'Mục tiêu', 'Ngày tạo', 'Hoạt động gần nhất', 'Số câu đã làm', 'Đúng lần gần nhất', 'Bài thi thử', 'IP đăng nhập gần nhất', 'Khu vực'],
+    ...users.map(u => [u.name, u.phone, u.email, cert(u.cert), dt(u.created), dt(u.last), u.done, u.ok, u.exams, u.login?.ip, u.login?.where])].map(r => r.map(cell).join(',')).join('\r\n');
+  const today = st.days[29], pv7 = st.days.slice(-7).reduce((a, d) => a + d.pv, 0), pv30 = st.days.reduce((a, d) => a + d.pv, 0);
+  const new7 = users.filter(u => u.created > now() - 7 * DAY).length;
+  const tile = (k, v, d) => `<div class="card stat"><div class="k">${k}</div><div class="v">${fmt(v)}</div><div class="d">${d}</div></div>`;
+  const ddmm = d => d.slice(8) + '/' + d.slice(5, 7);
+  // biểu đồ cột một chuỗi: một màu, không chú giải; rê chuột xem số, có bảng số bên dưới
+  const vbars = (rows, label, tip) => { const mx = Math.max(1, ...rows.map(r => r.n)); return `<div class="vbars" role="img" aria-label="${esc(label)}">${rows.map(r => `<i style="height:${Math.max(2, r.n / mx * 100)}%" title="${esc(tip(r))}"></i>`).join('')}</div>`; };
+  const hbars = obj => { const e = Object.entries(obj || {}).sort((a, b) => b[1] - a[1]).slice(0, 8), mx = Math.max(1, ...e.map(x => x[1]));
+    return e.map(([k, n]) => `<div class="stack" style="gap:3px"><div class="row between small"><span>${esc(k)}</span><span class="num muted">${fmt(n)}</span></div><div class="bar"><i style="width:${n / mx * 100}%;background:var(--accent)"></i></div></div>`).join('') || '<p class="muted small">Chưa có dữ liệu.</p>'; };
+  const pages = Object.fromEntries(Object.entries(st.pages || {}).map(([k, n]) => [TITLES[k] || k, n]));
+  main(page('Quản trị', 'Thống kê & tài khoản', 'Số liệu truy cập tính theo giờ Việt Nam. Chỉ dùng để quản lý trang và chăm sóc người học đã đồng ý; không chia sẻ ra ngoài.',
+    `<div class="grid g4">
+      ${tile('Hôm nay', today.uv, `người truy cập · ${fmt(today.pv)} lượt xem`)}
+      ${tile('7 ngày', st.uv7, `người truy cập · ${fmt(pv7)} lượt xem`)}
+      ${tile('30 ngày', st.uv30, `người truy cập · ${fmt(pv30)} lượt xem`)}
+      ${tile('Tài khoản', users.length, `mới trong 7 ngày: ${new7} · tổng người truy cập: ${fmt(st.uvAll)}`)}
+    </div>
+    <div class="card stack"><h2>Người truy cập mỗi ngày (30 ngày)</h2>
+      ${vbars(st.days.map(d => ({ n: d.uv, d })), 'Người truy cập mỗi ngày trong 30 ngày', r => `${ddmm(r.d.d)}: ${r.d.uv} người, ${r.d.pv} lượt xem`)}
+      <div class="row between tiny muted"><span>${ddmm(st.days[0].d)}</span><span>${ddmm(st.days[15].d)}</span><span>${ddmm(today.d)}</span></div>
+      <details><summary class="small">Xem bảng số</summary><div class="tablewrap"><table><thead><tr><th>Ngày</th><th>Người truy cập</th><th>Lượt xem</th></tr></thead><tbody>
+        ${[...st.days].reverse().map(d => `<tr><td class="num">${ddmm(d.d)}</td><td class="num">${d.uv}</td><td class="num">${d.pv}</td></tr>`).join('')}</tbody></table></div></details></div>
+    <div class="card stack"><h2>Khung giờ truy cập (30 ngày)</h2>
+      ${vbars(st.hours.map((n, h) => ({ n, h })), 'Lượt xem theo giờ trong ngày', r => `${r.h}h–${r.h + 1}h: ${r.n} lượt xem`)}
+      <div class="row between tiny muted"><span>0h</span><span>6h</span><span>12h</span><span>18h</span><span>23h</span></div></div>
+    <div class="grid g3">
+      <div class="card stack"><h2>Trang xem nhiều</h2>${hbars(pages)}</div>
+      <div class="card stack"><h2>Thiết bị</h2>${hbars(st.devs)}</div>
+      <div class="card stack"><h2>Khu vực</h2>${hbars(st.geo)}<p class="tiny muted">Ước tính theo địa chỉ IP, có thể lệch tỉnh/thành.</p></div>
+    </div>
+    <div class="card stack"><h2>Đăng nhập gần đây</h2><div class="tablewrap"><table><thead><tr><th>Thời gian</th><th>Tài khoản</th><th>Địa chỉ IP</th><th>Khu vực</th><th>Thiết bị</th></tr></thead><tbody>
+      ${logins.map(e => `<tr><td class="num small">${dt(e.at)}</td><td>${esc(e.who)}</td><td class="num">${esc(e.ip)}</td><td>${esc(e.where)}</td><td>${esc(e.dev)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Chưa có lượt đăng nhập.</td></tr>'}</tbody></table></div></div>
+    <div class="card stack"><h2>Lượt truy cập gần đây</h2><p class="tiny muted">Khách không đăng nhập: IP chỉ lưu dạng che bớt để bảo vệ dữ liệu cá nhân.</p><div class="tablewrap"><table><thead><tr><th>Thời gian</th><th>Trang</th><th>Khu vực</th><th>Thiết bị</th><th>IP</th></tr></thead><tbody>
+      ${st.log.slice(0, 50).map(e => `<tr><td class="num small">${dt(e.at)}</td><td>${esc(TITLES[e.p] || e.p)}</td><td>${esc(e.where)}</td><td>${esc(e.dev)}</td><td class="num">${esc(e.ip)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Chưa có lượt truy cập.</td></tr>'}</tbody></table></div></div>
+    <div class="card stack"><div class="row between"><h2>Tài khoản (${fmt(users.length)})</h2><span class="row"><button class="btn primary sm" id="q-csv">Tải file CSV</button><button class="btn sm" id="q-out">Thoát quản trị</button></span></div>
+      <div class="tablewrap"><table><thead><tr><th>Tên</th><th>SĐT</th><th>Email</th><th>Mục tiêu</th><th>Ngày tạo</th><th>Gần nhất</th><th>Đã làm</th><th>Thi thử</th><th>Đăng nhập gần nhất</th></tr></thead>
+      <tbody>${users.map(u => `<tr><td>${esc(u.name)}</td><td class="num">${esc(u.phone)}</td><td>${esc(u.email)}</td><td>${esc(cert(u.cert))}</td><td class="num small">${dt(u.created)}</td><td class="num small">${dt(u.last)}</td><td class="num">${u.done}</td><td class="num">${u.exams}</td><td class="small">${u.login ? esc(u.login.ip) + '<br><span class="muted">' + esc(u.login.where) + ' · ' + esc(u.login.dev) + '</span>' : ''}</td></tr>`).join('') || '<tr><td colspan="9" class="muted">Chưa có tài khoản nào.</td></tr>'}</tbody></table></div></div>`));
   $('#q-csv').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' })); a.download = 'tai-khoan-bt-invest.csv'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); };
   $('#q-out').onclick = () => { try { sessionStorage.removeItem('btinvest_admin'); } catch { /* bỏ qua */ } go('tong-quan'); };
 };

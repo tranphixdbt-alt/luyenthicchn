@@ -2,7 +2,7 @@
 // POST {a: hành động, ...}; đăng nhập rồi thì gửi "Authorization: Bearer <mã phiên>". Trang quản trị gửi "X-Admin-Key".
 // Mật khẩu chỉ lưu dạng băm scrypt + muối; mã phiên ngẫu nhiên 32 byte, hết hạn sau 180 ngày.
 const crypto = require('crypto');
-const { db, ipHash, limited, body, hasStore, env } = require('./_db');
+const { db, ipHash, limited, body, hasStore, env, vnNow, vnDay, ipOf, device, place } = require('./_db');
 
 const CERTS = ['moi-gioi', 'phan-tich', 'quan-ly-quy'];
 const SESSION_SEC = 180 * 86400, MAX_DATA = 1_500_000;
@@ -43,6 +43,29 @@ async function saveData(r, id, d) {
 }
 const fail = (res, code, msg) => res.status(code).json({ error: msg });
 
+// Lịch sử đăng nhập (người dùng đã đồng ý khi đăng ký): 20 lần gần nhất mỗi tài khoản, 200 lần gần nhất toàn trang
+async function logLogin(r, req, id) {
+  const e = JSON.stringify({ at: Date.now(), id, ip: ipOf(req), where: place(req), dev: device(req) });
+  await r.multi().lPush('lg:' + id, e).lTrim('lg:' + id, 0, 19).lPush('st:logins', e).lTrim('st:logins', 0, 199).exec();
+}
+// Thống kê truy cập 30 ngày cho trang quản trị (dữ liệu do api/truy-cap.js ghi)
+async function siteStats(r) {
+  const days = [...Array(30)].map((_, i) => vnDay(new Date(vnNow() - (29 - i) * 86400e3)));
+  const m = r.multi().hGetAll('st:pv').pfCount('st:uv:all').pfCount(days.slice(-7).map(d => 'st:uv:' + d)).pfCount(days.map(d => 'st:uv:' + d));
+  for (const d of days) m.pfCount('st:uv:' + d);
+  const KINDS = ['h', 'pg', 'dev', 'geo'];
+  for (const k of KINDS) for (const d of days) m.hGetAll(`st:${k}:${d}`);
+  m.lRange('st:log', 0, 99);
+  const out = await m.exec();
+  const [pv, uvAll, uv7, uv30] = out, uvDay = out.slice(4, 34), sums = {};
+  KINDS.forEach((k, i) => { sums[k] = {}; for (const h of out.slice(34 + i * 30, 64 + i * 30)) for (const [x, n] of Object.entries(h || {})) sums[k][x] = (sums[k][x] || 0) + +n; });
+  return {
+    days: days.map((d, i) => ({ d, pv: +(pv[d] || 0), uv: uvDay[i] })), pvAll: Object.values(pv).reduce((a, n) => a + +n, 0), uvAll, uv7, uv30,
+    hours: [...Array(24)].map((_, h) => sums.h[h] || 0), pages: sums.pg, devs: sums.dev, geo: sums.geo,
+    log: out[34 + KINDS.length * 30].map(x => JSON.parse(x)),
+  };
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return fail(res, 405, 'Chỉ nhận POST.');
   if (!hasStore) return fail(res, 503, 'Máy chủ chưa nối kho dữ liệu.');
@@ -67,7 +90,7 @@ module.exports = async (req, res) => {
       const u = { id, phone, email, name, cert: b.cert, salt, hash, created: now, last: now, consentAt: now };
       const data = merge({}, pick(b.data)); data.prefs = { ...(data.prefs || {}), cert: b.cert };
       await r.multi().set('u:' + id, JSON.stringify(u)).zAdd('users', { score: now, value: id }).exec();
-      await saveData(r, id, data);
+      await saveData(r, id, data); await logLogin(r, req, id);
       return res.status(200).json({ token: await newSession(r, id), user: pub(u), data });
     }
 
@@ -79,7 +102,7 @@ module.exports = async (req, res) => {
       if (!ok) return fail(res, 401, 'SĐT/email hoặc mật khẩu chưa đúng.');
       const data = merge(await loadData(r, id), pick(b.data), true);   // cài đặt (mục tiêu) trên tài khoản thắng máy mới
       u.last = Date.now();
-      await r.set('u:' + id, JSON.stringify(u)); await saveData(r, id, data);
+      await r.set('u:' + id, JSON.stringify(u)); await saveData(r, id, data); await logLogin(r, req, id);
       return res.status(200).json({ token: await newSession(r, id), user: pub(u), data });
     }
 
@@ -93,9 +116,12 @@ module.exports = async (req, res) => {
       for (const id of ids.slice(0, 5000)) {
         const raw = await r.get('u:' + id); if (!raw) continue;
         const u = JSON.parse(raw), d = await loadData(r, id), q = Object.values(d.q || {});
-        out.push({ ...pub(u), last: u.last, done: q.length, ok: q.filter(s => s && s.lastOk).length, exams: (d.hist || []).filter(h => h.kind === 'exam').length });
+        const ll = await r.lIndex('lg:' + id, 0);
+        out.push({ ...pub(u), last: u.last, done: q.length, ok: q.filter(s => s && s.lastOk).length, exams: (d.hist || []).filter(h => h.kind === 'exam').length, login: ll ? JSON.parse(ll) : null });
       }
-      return res.status(200).json({ users: out });
+      const names = Object.fromEntries(out.map(u => [u.id, u.name || u.phone]));
+      const logins = (await r.lRange('st:logins', 0, 99)).map(x => JSON.parse(x)).map(e => ({ ...e, who: names[e.id] || '(đã xóa)' }));
+      return res.status(200).json({ users: out, logins, stats: await siteStats(r) });
     }
 
     const me = await userOf(r, req);
@@ -121,7 +147,10 @@ module.exports = async (req, res) => {
       if (!ok) return fail(res, 401, 'Mật khẩu chưa đúng.');
       const toks = await r.sMembers('ut:' + u.id), m = r.multi();
       for (const x of toks) m.del('t:' + x);
-      await m.del(['ut:' + u.id, 'u:' + u.id, 'd:' + u.id, 'ix:p:' + u.phone, 'ix:e:' + u.email]).zRem('users', u.id).exec();
+      const keep = (await r.lRange('st:logins', 0, -1)).filter(x => JSON.parse(x).id !== u.id);
+      m.del(['ut:' + u.id, 'u:' + u.id, 'd:' + u.id, 'lg:' + u.id, 'ix:p:' + u.phone, 'ix:e:' + u.email, 'st:logins']).zRem('users', u.id);
+      if (keep.length) m.rPush('st:logins', keep);
+      await m.exec();
       return res.status(200).json({ ok: true });
     }
     return fail(res, 400, 'Hành động không hợp lệ.');

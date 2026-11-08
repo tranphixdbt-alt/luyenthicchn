@@ -8,6 +8,7 @@ http.createServer((req, res) => {
   if (url.pathname.startsWith('/api/')) {
     const name = url.pathname.slice(5).replace(/[^a-z-]/g, '');
     if (!fs.existsSync(path.join(API, name + '.js'))) { res.statusCode = 404; return res.end(); }
+    req.headers['x-forwarded-for'] ||= req.socket.remoteAddress;   // như Vercel: IP người truy cập
     let raw = ''; req.on('data', c => (raw += c)); req.on('end', () => {
       try { req.body = raw && /json/.test(req.headers['content-type'] || '') ? JSON.parse(raw) : raw; } catch { req.body = raw; }
       res.status = c => { res.statusCode = c; return res; };
