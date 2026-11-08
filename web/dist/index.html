@@ -1303,6 +1303,26 @@ function rec(id, ok) {
   if (ok) { st.box = Math.min(st.box + 1, 5); st.due = now() + SRS_DAYS[st.box] * DAY; }
   else { st.box = 1; st.due = now(); }
   S.q[id] = st;
+  share(id, ok);
+}
+// ---------- thống kê chung, ẩn danh: chỉ gửi mã câu và đúng/sai (tắt được trong Cài đặt) ----------
+const STATS_API = '/api/thong-ke';
+const outbox = [];
+function share(id, ok) {
+  if (S.prefs.share === false || !location.protocol.startsWith('http')) return;
+  outbox.push([id, ok ? 1 : 0]); if (outbox.length >= 20) flushStats();
+}
+function flushStats() {
+  if (!outbox.length) return;
+  const body = JSON.stringify({ a: outbox.splice(0, 200) });
+  try { if (!navigator.sendBeacon?.(STATS_API, new Blob([body], { type: 'application/json' }))) fetch(STATS_API, { method: 'POST', body, headers: { 'content-type': 'application/json' }, keepalive: true }).catch(() => {}); }
+  catch { /* mất mạng: bỏ qua, không ảnh hưởng việc học */ }
+}
+addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushStats(); });
+let COMM;   // { n: {mã: lượt làm}, w: {mã: lượt sai} } từ máy chủ; null nếu chưa bật
+async function loadComm() {
+  if (COMM === undefined) { COMM = null; try { const r = await fetch(STATS_API); if (r.ok) COMM = await r.json(); } catch { /* chưa có máy chủ thống kê */ } }
+  return COMM;
 }
 const dueIds = () => D.q.filter(q => S.q[q.id] && S.q[q.id].due <= now()).map(q => q.id);
 function subjStats(code) {
@@ -1345,11 +1365,12 @@ const IC = {
   history: '<path d="M4 19h16M7 16V9M12 16V5M17 16v-4"/>',
   gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6-6M15 6h3v3"/>',
   phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
 };
 const icon = k => `<svg viewBox="0 0 24 24" aria-hidden="true">${IC[k]}</svg>`;
 const NAV = [
-  ['Học', [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['on-tap', 'Ôn lặp lại', 'review'], ['thi-thu', 'Thi thử', 'exam']]],
+  ['Học', [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['trong-tam', 'Trọng tâm từng môn', 'target'], ['on-tap', 'Ôn lặp lại', 'review'], ['thi-thu', 'Thi thử', 'exam']]],
   ['Tra cứu', [['ngan-hang', 'Ngân hàng câu hỏi', 'bank'], ['the-nho', 'Thẻ ghi nhớ số liệu', 'cards'], ['cong-thuc', 'Công thức & máy tính', 'calc'],
     ['thu-vien', 'Thư viện luật', 'law'], ['thay-doi', 'Luật mới 2025–2026', 'change'], ['quy-che', 'Quy chế thi 2026', 'rules']]],
   ['Cá nhân', [['lich-su', 'Lịch sử & tiến độ', 'history'], ['cai-dat', 'Cài đặt & sao lưu', 'gear'], ['lien-he', 'Giới thiệu & liên hệ', 'phone']]],
@@ -1554,16 +1575,78 @@ VIEWS['on-tap'] = () => {
   $('#rv-start').onclick = () => startPractice(shuffle(due).slice(0, 40), 'Ôn lặp lại', true, 'review');
 };
 
+// ---------- TRỌNG TÂM TỪNG MÔN: chủ đề và câu bạn / mọi người hay sai ----------
+const MIN_TRIES = 5;   // câu có từ 5 lượt làm (của mọi người) mới tính tỷ lệ sai chung
+const errOf = id => { const s = S.q[id]; return s ? (s.n - s.ok) / s.n : 0; };
+function topicBars(rows, pr) {   // rows: [chủ đề, số sai, số lượt]
+  return rows.map(([t, w, n]) => `<div class="stack" style="gap:4px"><div class="row between small"><span>${esc(t)}</span>
+    <span class="row"><span class="num muted">sai ${pct(w, n)}% · ${fmt(n)} lượt</span><button class="btn sm" data-${pr}="${esc(t)}">Luyện</button></span></div>
+    <div class="bar"><i style="width:${pct(w, n)}%;background:var(--down)"></i></div></div>`).join('');
+}
+VIEWS['trong-tam'] = () => {
+  const k = SUBJ[S.prefs.focus] ? S.prefs.focus : 'LU', name = SUBJ[k].name;
+  const qs = D.q.filter(q => q.subject === k), ids = qs.map(q => q.id);
+  const mine = {};
+  for (const q of qs) { const s = S.q[q.id]; if (s) { const t = (mine[q.topic] ||= [q.topic, 0, 0]); t[1] += s.n - s.ok; t[2] += s.n; } }
+  const myTopics = Object.values(mine).filter(t => t[1]).sort((a, b) => b[1] / b[2] - a[1] / a[2]);
+  const myFocus = ids.filter(id => errOf(id) > 0).sort((a, b) => (S.q[a].lastOk - S.q[b].lastOk) || errOf(b) - errOf(a));
+  main(page('Trọng tâm từng môn', 'Ôn đúng phần hay sai của môn sắp thi', 'Chọn môn bạn sắp thi. Trang chỉ hiện chủ đề và câu của môn đó mà bạn hoặc nhiều người ôn hay làm sai, để tập trung đúng phần cần nhớ.',
+    `<div class="card stack"><div class="row">${Object.entries(SUBJ).map(([c, s]) => `<button class="btn sm ${c === k ? 'primary' : ''}" data-focus="${c}" aria-pressed="${c === k}">${esc(s.short)}</button>`).join('')}</div>
+      <div class="row between"><span class="small muted">Môn <b>${esc(name)}</b>: ${fmt(ids.length)} câu, bạn đã làm ${ids.filter(id => S.q[id]).length}.</span><button class="btn sm" id="tt-exam">Thi thử riêng môn này</button></div></div>
+    <div class="grid g2">
+      <div class="card stack"><h2>Bạn hay sai</h2>
+        ${myTopics.length ? `<p class="small muted">Chủ đề sai nhiều nhất trước (tính trên mọi lượt bạn đã làm).</p>${topicBars(myTopics.slice(0, 8), 'mytopic')}
+          <div class="row"><button class="btn primary" id="tt-mine">Luyện ${Math.min(myFocus.length, 20)} câu bạn hay sai nhất</button></div>`
+        : '<p class="muted small">Bạn chưa làm sai câu nào của môn này. Hãy ôn luyện hoặc thi thử môn này trước, phần trọng tâm sẽ tự hiện ra.</p>'}</div>
+      <div class="card stack"><h2>Nhiều người sai</h2><div id="tt-comm" data-k="${k}" class="stack"><p class="small muted">Đang tải số liệu chung…</p></div></div>
+    </div>
+    <p class="tiny muted">Số liệu chung là tổng hợp ẩn danh từ người ôn trên trang (chỉ gồm mã câu và đúng/sai), không có thông tin cá nhân. Có thể tắt góp dữ liệu trong Cài đặt.</p>`));
+  const practiceTopic = t => startPractice(spread(smartPick(qs.filter(q => q.topic === t).map(q => q.id), 20)), `${SUBJ[k].short} · ${t}`, true);
+  $$('[data-focus]').forEach(b => (b.onclick = () => { S.prefs.focus = b.dataset.focus; save(); VIEWS['trong-tam'](); }));
+  $$('[data-mytopic]').forEach(b => (b.onclick = () => practiceTopic(b.dataset.mytopic)));
+  $('#tt-mine') && ($('#tt-mine').onclick = () => startPractice(spread(myFocus.slice(0, 20)), 'Câu bạn hay sai · ' + SUBJ[k].short, true));
+  $('#tt-exam').onclick = () => { S.prefs.type = k; save(); go('thi-thu'); };
+  loadComm().then(C => {
+    const el = $('#tt-comm'); if (!el || el.dataset.k !== k) return;   // đã chuyển sang môn/trang khác
+    const cn = id => C?.n?.[id] || 0, cw = id => C?.w?.[id] || 0;
+    const top = {};
+    for (const q of qs) if (cn(q.id)) { const t = (top[q.topic] ||= [q.topic, 0, 0]); t[1] += cw(q.id); t[2] += cn(q.id); }
+    const cTopics = Object.values(top).filter(t => t[2] >= MIN_TRIES * 2 && t[1]).sort((a, b) => b[1] / b[2] - a[1] / a[2]);
+    const hard = ids.filter(id => cn(id) >= MIN_TRIES && cw(id) / cn(id) >= 0.3).sort((a, b) => cw(b) / cn(b) - cw(a) / cn(a));
+    if (!cTopics.length) { el.innerHTML = `<p class="muted small">${C && !C.off ? 'Chưa đủ lượt làm bài của mọi người cho môn này. Số liệu sẽ tự hiện khi có thêm người ôn.' : 'Số liệu chung chưa được bật trên máy chủ.'}</p>`; return; }
+    el.innerHTML = `<p class="small muted">Chủ đề có tỷ lệ sai cao nhất trong ${fmt(Object.values(top).reduce((s, t) => s + t[2], 0))} lượt làm của mọi người.</p>${topicBars(cTopics.slice(0, 8), 'ctopic')}
+      ${hard.length ? `<div class="row"><button class="btn primary" id="tt-hard">Luyện ${Math.min(hard.length, 20)} câu nhiều người sai nhất</button></div>` : ''}`;
+    $$('[data-ctopic]').forEach(b => (b.onclick = () => practiceTopic(b.dataset.ctopic)));
+    $('#tt-hard') && ($('#tt-hard').onclick = () => startPractice(spread(hard.slice(0, 20)), 'Câu nhiều người sai · ' + SUBJ[k].short, true));
+  });
+};
+
 // ---------- THI THỬ ----------
 VIEWS['thi-thu'] = () => {
-  const p = S.prefs, c = CERTS[p.cert];
+  const p = S.prefs, c = CERTS[p.cert], k = SUBJ[p.type] ? p.type : '';
+  const typeSel = `<label class="f">Loại đề<select id="e-type">${opts([['', 'Sát hạch CCHN (2 phần)'], ...Object.entries(SUBJ).map(([x, s]) => [x, 'Từng môn: ' + s.name])], k)}</select></label>`;
+  const nSel = label => `<label class="f">${label}<select id="e-n">${opts([[25, '25 câu'], [35, '35 câu'], [50, '50 câu'], [60, '60 câu']], p.n)}</select></label>`;
+  const bindCommon = () => { $('#e-type').onchange = e => { p.type = e.target.value; save(); VIEWS['thi-thu'](); }; $('#e-n').onchange = e => { p.n = +e.target.value; save(); }; $('#e-start').onclick = startExam; };
+  if (k) {
+    main(page('Thi thử', 'Thi thử từng môn', 'Mô phỏng bài thi cuối khóa của một chứng chỉ chuyên môn: một phần, tính giờ, chỉ có câu của môn đó. Không xem đáp án cho tới khi nộp.',
+      `<div class="card stack">
+        <div class="grid g3">${typeSel}${nSel('Số câu')}
+          <label class="f">Thời gian<select id="e-min">${opts([[30, '30 phút'], [45, '45 phút'], [60, '60 phút'], [90, '90 phút']], p.min || 60)}</select></label></div>
+        <p class="small muted">Lấy từ ${D.q.filter(q => q.subject === k).length} câu môn ${esc(SUBJ[k].name)}, rải đều các chủ đề; ưu tiên câu chưa làm, xen khoảng 30% câu bạn từng làm sai. Đạt khi đúng từ 60% số câu.</p>
+        <div class="note">Số câu, thời gian và mốc đạt của bài thi cuối khóa từng chứng chỉ chuyên môn do đơn vị đào tạo (SRTC) quy định; ở đây bạn tự chọn để luyện, mốc 60% là mức mô phỏng.</div>
+        <div class="row"><button class="btn primary" id="e-start">Vào phòng thi</button><a class="btn" href="#trong-tam">Xem trọng tâm môn này</a></div>
+      </div>`));
+    bindCommon();
+    $('#e-min').onchange = e => { p.min = +e.target.value; save(); };
+    return;
+  }
   const bp = Object.entries(c.blueprint).map(([k, w]) => `<span class="chip">${SUBJ[k].short} ${Math.round(w * 100)}%</span>`).join(' ');
   main(page('Thi thử', 'Thi sát hạch mô phỏng', 'Phần Pháp luật trước, phần Chuyên môn sau. Mỗi phần tính giờ riêng và phải đúng từ 60% số câu. Không xem đáp án cho tới khi nộp.',
     `<div class="card stack">
-      <div class="grid g3">
+      <div class="grid g3">${typeSel}
         <label class="f">Chứng chỉ<select id="e-cert">${opts(Object.entries(CERTS).map(([k, x]) => [k, `${x.name} · ${x.minutes}′ + ${x.minutes}′`]), p.cert)}</select></label>
         <label class="f">Phần thi<select id="e-mode">${opts([['both', 'Thi đủ 2 phần'], ['LUAT', 'Thi lại riêng phần Pháp luật'], ['CM', 'Thi lại riêng phần Chuyên môn']], p.mode || 'both')}</select></label>
-        <label class="f">Số câu mỗi phần<select id="e-n">${opts([[25, '25 câu'], [35, '35 câu'], [50, '50 câu'], [60, '60 câu']], p.n)}</select></label>
+        ${nSel('Số câu mỗi phần')}
       </div>
       <div class="grid g2">
         <div class="card flat stack"><div class="row between"><h3>Phần 1 · Pháp luật CK & TTCK</h3><span class="chip acc num">${c.minutes} phút</span></div>
@@ -1577,8 +1660,7 @@ VIEWS['thi-thu'] = () => {
     </div>`));
   $('#e-cert').onchange = e => { p.cert = e.target.value; save(); VIEWS['thi-thu'](); };
   $('#e-mode').onchange = e => { p.mode = e.target.value; save(); };
-  $('#e-n').onchange = e => { p.n = +e.target.value; save(); };
-  $('#e-start').onclick = startExam;
+  bindCommon();
 };
 const topicOf = id => D.byId.get(id).topic;
 function pickLaw(n) {     // rải đều theo chủ đề
@@ -1597,14 +1679,17 @@ function pickSpec(cert, n) {
   return spread(out);
 }
 async function startExam() {
-  const p = S.prefs, c = CERTS[p.cert], mode = p.mode || 'both';
+  const p = S.prefs, c = CERTS[p.cert], k = SUBJ[p.type] ? p.type : '', mode = k || p.mode || 'both';
   if (S.sess && !(await confirmBox('Bỏ bài đang làm?', `Bài "${esc(S.sess.title)}" chưa hoàn tất sẽ bị bỏ.`, 'Bỏ và vào thi'))) return;
   const parts = [];
-  if (mode !== 'CM') parts.push(mkPart('LUAT', 'Phần 1 · Pháp luật', pickLaw(p.n), true, c.minutes));
-  if (mode !== 'LUAT') parts.push(mkPart('CM', mode === 'both' ? 'Phần 2 · Chuyên môn' : 'Phần Chuyên môn', pickSpec(p.cert, p.n), true, c.minutes));
+  if (k) parts.push(mkPart(k === 'LU' ? 'LUAT' : 'CM', 'Môn ' + SUBJ[k].short, spread(smartPick(D.q.filter(q => q.subject === k).map(q => q.id), p.n, topicOf)), true, p.min || 60));
+  else {
+    if (mode !== 'CM') parts.push(mkPart('LUAT', 'Phần 1 · Pháp luật', pickLaw(p.n), true, c.minutes));
+    if (mode !== 'LUAT') parts.push(mkPart('CM', mode === 'both' ? 'Phần 2 · Chuyên môn' : 'Phần Chuyên môn', pickSpec(p.cert, p.n), true, c.minutes));
+  }
   if (parts.some(x => x.ids.length < p.n)) toast('Ngân hàng chưa đủ câu cho cấu hình này; đề sẽ ngắn hơn.');
-  parts[0].startAt = now(); parts[0].endAt = now() + c.minutes * 60e3;
-  S.sess = { kind: 'exam', title: 'Thi thử ' + c.name, cert: p.cert, mode, p: 0, i: 0, createdAt: now(), parts, waiting: false };
+  parts[0].startAt = now(); parts[0].endAt = now() + parts[0].minutes * 60e3;
+  S.sess = { kind: 'exam', title: k ? 'Thi thử môn ' + SUBJ[k].name : 'Thi thử ' + c.name, cert: k ? null : p.cert, mode, p: 0, i: 0, createdAt: now(), parts, waiting: false };
   save(); go('lam-bai');
 }
 
@@ -1705,6 +1790,7 @@ function finishPart(auto) {
   const s = S.sess; if (!s) return;
   const pt = part(); if (pt.done) return;
   pt.done = true; pt.doneAt = now(); pt.auto = auto;
+  setTimeout(flushStats, 0);
   if (s.kind === 'exam' && s.p < s.parts.length - 1) { s.p++; s.i = 0; s.waiting = true; save(); if (auto) toast('Hết giờ ' + pt.label + '. Bài đã được nộp.'); return go('lam-bai'); }
   // chấm
   const parts = s.parts.map(x => {
@@ -1757,8 +1843,9 @@ VIEWS['ket-qua'] = () => {
   const items = r.parts.flatMap(x => x.items.map(it => ({ ...it, part: x.label }))).filter(it => D.byId.has(it.id) && (exam || it.c !== null))
     .filter(it => !onlyWrong || !(it.c !== null && isRight(D.byId.get(it.id), it.c)));
   const p = pct(r.ok, r.n);
-  main(page(exam ? 'Kết quả thi thử' : 'Kết quả ôn luyện', exam ? (r.pass ? 'Đạt cả hai phần' : 'Chưa đạt') : `Đúng ${r.ok}/${r.n} câu`,
-    exam ? 'Đạt khi đúng từ 60% số câu ở mỗi phần; không cộng bù điểm giữa hai phần.' : '',
+  const multi = r.parts.length > 1;
+  main(page(exam ? 'Kết quả thi thử' : 'Kết quả ôn luyện', exam ? (r.pass ? (multi ? 'Đạt cả hai phần' : 'Đạt') : 'Chưa đạt') : `Đúng ${r.ok}/${r.n} câu`,
+    exam ? (multi ? 'Đạt khi đúng từ 60% số câu ở mỗi phần; không cộng bù điểm giữa hai phần.' : 'Đạt khi đúng từ 60% số câu.') : '',
     `<div class="card row" style="gap:22px">
       <div class="ring" style="--p:${p};--c:var(--${r.pass ? 'up' : 'down'})"><div><span><b>${p}%</b><span class="tiny muted">đúng</span></span></div></div>
       <div class="stack" style="flex:1">${r.parts.map(x => `<div class="stack" style="gap:6px"><div class="row between"><b>${esc(x.label || 'Ôn luyện')}</b>
@@ -1771,7 +1858,7 @@ VIEWS['ket-qua'] = () => {
       <div class="card stack"><h2>Việc nên làm tiếp</h2>
         <p class="small muted">${wrongIds.length ? `Có ${wrongIds.length} câu sai hoặc bỏ trống. Ôn lại ngay giúp nhớ lâu hơn; các câu này cũng đã vào lịch ôn lặp lại.` : 'Không có câu sai. Hãy thử một đề mới hoặc tăng số câu.'}</p>
         <div class="row"><button class="btn primary" id="r-wrong" ${wrongIds.length ? '' : 'disabled'}>Ôn lại ${wrongIds.length} câu sai</button>
-          ${exam ? '<a class="btn" href="#thi-thu">Thi đề khác</a>' : '<a class="btn" href="#on-luyen">Luyện tiếp</a>'}</div></div>
+          ${exam ? '<a class="btn" href="#thi-thu">Thi đề khác</a>' : '<a class="btn" href="#on-luyen">Luyện tiếp</a>'}<a class="btn" href="#trong-tam">Trọng tâm từng môn</a></div></div>
     </div>
     <div class="card stack"><div class="row between"><h2>Xem lại từng câu</h2><button class="btn sm" id="r-filter">${onlyWrong ? 'Hiện tất cả' : 'Chỉ câu sai'}</button></div>
       ${items.map((it, k) => {
@@ -2082,10 +2169,12 @@ VIEWS['lich-su'] = () => {
 VIEWS['cai-dat'] = () => {
   const dump = JSON.stringify({ app: 'docchn', v: 1, at: now(), q: S.q, star: S.star, hist: S.hist, cards: S.cards, reports: S.reports });
   const reports = S.reports.map(r => `${r.id}: ${r.note}`).join('\n');
-  main(page('Cài đặt & sao lưu', 'Tiến độ của bạn', 'Mọi dữ liệu học tập chỉ lưu trong trình duyệt này. Sao lưu để chuyển sang máy khác.',
+  main(page('Cài đặt & sao lưu', 'Tiến độ của bạn', 'Tiến độ học tập lưu trong trình duyệt này. Sao lưu để chuyển sang máy khác.',
     `<div class="grid g2">
       <div class="card stack"><h2>Giao diện</h2><label class="f">Chế độ màu<select id="s-theme">${opts([['', 'Theo hệ thống'], ['light', 'Sáng'], ['dark', 'Tối']], S.theme)}</select></label>
         <label class="f">Chứng chỉ mục tiêu<select id="s-cert">${opts(Object.entries(CERTS).map(([k, c]) => [k, c.name]), S.prefs.cert)}</select></label></div>
+      <div class="card stack"><h2>Góp số liệu ẩn danh</h2><p class="small muted">Khi bật, trang gửi mã câu và đúng/sai của mỗi lượt làm (không có tên, email hay thông tin thiết bị) để tổng hợp phần "Nhiều người sai" ở trang Trọng tâm từng môn.</p>
+        <label class="check"><input type="checkbox" id="s-share" ${S.prefs.share !== false ? 'checked' : ''}> Góp số liệu ẩn danh</label></div>
       <div class="card stack"><h2>Sao lưu</h2><p class="small muted">Sao chép đoạn mã dưới đây và lưu lại; khi cần khôi phục, dán vào ô Khôi phục.</p>
         <textarea id="s-dump" readonly>${esc(dump)}</textarea><div class="row"><button class="btn" id="s-copy">Sao chép</button><button class="btn" id="s-file">Tải file .json</button></div></div>
       <div class="card stack"><h2>Khôi phục</h2><textarea id="s-in" placeholder="Dán mã sao lưu vào đây"></textarea>
@@ -2099,6 +2188,7 @@ VIEWS['cai-dat'] = () => {
   const copy = async (id) => { const el = $('#' + id); try { await navigator.clipboard.writeText(el.value); toast('Đã sao chép.'); } catch { el.select(); toast('Hãy nhấn Ctrl+C / giữ để sao chép.'); } };
   $('#s-theme').onchange = e => { S.theme = e.target.value; applyTheme(); save(); };
   $('#s-cert').onchange = e => { S.prefs.cert = e.target.value; save(); };
+  $('#s-share').onchange = e => { S.prefs.share = e.target.checked; if (!e.target.checked) outbox.length = 0; save(); };
   $('#s-copy').onclick = () => copy('s-dump');
   $('#s-rep-copy').onclick = () => copy('s-rep');
   $('#s-file').onclick = () => { try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([dump], { type: 'application/json' })); a.download = 'do-cchn-sao-luu.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); } catch { toast('Trình duyệt chặn tải file. Hãy dùng nút Sao chép.'); } };

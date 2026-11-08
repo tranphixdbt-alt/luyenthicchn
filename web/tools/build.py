@@ -30,4 +30,5 @@ for f in ["manifest.webmanifest", "sw.js"]:
 for f in ["icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon-64.png", "og.png"]:
     shutil.copy(root / "brand" / "out" / f, dist / f)
 (dist / "icon.svg").unlink(missing_ok=True)
+shutil.copytree(root / "api", dist / "api", dirs_exist_ok=True)   # Vercel Function: thống kê chung ẩn danh
 print("dist/index.html", round(len(html.encode()) / 1024), "KB")
