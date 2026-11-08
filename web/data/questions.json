@@ -1033,8 +1033,8 @@
 "Định kỳ rà soát danh mục, cập nhật tình hình tài chính, mục tiêu và khẩu vị rủi ro của khách hàng"
 ],
 "a": 3,
-"e": "Chăm sóc sau bán là duy trì quan hệ dài hạn: rà soát danh mục, cập nhật thông tin khách hàng (khoản 7 Điều 89 Luật CK; khoản 2 Điều 14 TT 121/2020). Khuyến nghị giao dịch quá mức hay đưa nhận định không có căn cứ là trái quy định và đạo đức.",
-"basis": "Khoản 7 Điều 89 Luật Chứng khoán 2019; khoản 2 Điều 14, điểm a khoản 4 Điều 13 Thông tư 121/2020/TT-BTC",
+"e": "Chăm sóc sau bán là duy trì quan hệ dài hạn: rà soát danh mục, cập nhật, lưu giữ hồ sơ thông tin khách hàng (khoản 7 Điều 89 Luật CK; CTCK cập nhật thông tin thay đổi khi khách hàng yêu cầu – khoản 2 Điều 14 TT 121/2020, sửa đổi bởi TT 08/2026). Khuyến nghị giao dịch quá mức hay đưa nhận định không có căn cứ là trái quy định và đạo đức.",
+"basis": "Khoản 7 Điều 89 Luật Chứng khoán 2019; khoản 2 Điều 14 (sửa đổi bởi khoản 1 Điều 10 Thông tư 08/2026/TT-BTC), điểm a khoản 4 Điều 13 Thông tư 121/2020/TT-BTC",
 "quote": "",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
 "as_of": "2026-11"
@@ -1557,6 +1557,406 @@
 "basis": "Khoản 1 Điều 13 Thông tư 121/2020/TT-BTC",
 "quote": "",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+"as_of": "2026-11"
+},
+{
+"id": "C10-001",
+"part": "CM",
+"subject": "MG",
+"topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+"level": 2,
+"q": "Dịch vụ tài chính, chứng khoán mà công ty chứng khoán cung cấp cho khách hàng có các đặc điểm sau, NGOẠI TRỪ:",
+"o": [
+"Vô hình, khách hàng khó đánh giá chất lượng trước khi sử dụng",
+"Việc cung cấp và việc sử dụng dịch vụ thường diễn ra đồng thời",
+"Có thể tạo ra trước, lưu kho rồi cung cấp dần khi khách hàng cần",
+"Chất lượng không đồng nhất, phụ thuộc người cung cấp và thời điểm"
+],
+"a": 2,
+"e": "Dịch vụ tài chính mang các đặc điểm chung của dịch vụ: tính vô hình (không nhìn thấy, cầm nắm được nên khách hàng khó đánh giá trước, phải dựa vào uy tín và lòng tin), tính không tách rời (cung ứng và tiêu dùng diễn ra đồng thời, có sự tham gia của khách hàng), tính không đồng nhất (chất lượng thay đổi theo người phục vụ, thời điểm) và tính không thể cất trữ (không thể sản xuất trước để lưu kho). Vì vậy uy tín, kỹ năng và sự ổn định trong chất lượng phục vụ của nhân viên môi giới đặc biệt quan trọng.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Đặc điểm của dịch vụ tài chính (vô hình, không tách rời, không đồng nhất, không thể cất trữ)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-002",
+"part": "LUAT",
+"subject": "LU",
+"topic": "Giải thích từ ngữ",
+"level": 1,
+"q": "Theo Luật Chứng khoán, chứng khoán phái sinh là:",
+"o": [
+"Chứng khoán có tài sản bảo đảm do công ty chứng khoán phát hành, cho quyền mua hoặc bán chứng khoán cơ sở với tổ chức phát hành",
+"Chứng khoán phát hành cùng trái phiếu hoặc cổ phiếu ưu đãi, cho quyền mua một số cổ phiếu phổ thông theo giá xác định trước",
+"Chứng khoán được phát hành trên cơ sở chứng khoán của tổ chức được thành lập và hoạt động hợp pháp tại Việt Nam",
+"Công cụ tài chính dạng hợp đồng xác nhận quyền, nghĩa vụ thanh toán tiền, chuyển giao tài sản cơ sở theo giá xác định cho thời điểm tương lai"
+],
+"a": 3,
+"e": "Khoản 9 Điều 4 Luật Chứng khoán: chứng khoán phái sinh là công cụ tài chính dưới dạng hợp đồng (quyền chọn, tương lai, kỳ hạn), xác nhận quyền, nghĩa vụ của các bên về thanh toán tiền, chuyển giao tài sản cơ sở theo mức giá đã xác định, trong khoảng thời gian hoặc vào ngày xác định trong tương lai; tài sản cơ sở là chứng khoán, chỉ số chứng khoán hoặc tài sản khác theo quy định của Chính phủ (khoản 10). Chứng khoán có tài sản bảo đảm do CTCK phát hành là chứng quyền có bảo đảm (khoản 6); chứng khoán phát hành cùng trái phiếu hoặc cổ phiếu ưu đãi là chứng quyền (khoản 5); chứng khoán phát hành trên cơ sở chứng khoán của tổ chức tại Việt Nam là chứng chỉ lưu ký (khoản 8) – đều không phải chứng khoán phái sinh.",
+"basis": "Khoản 9 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)",
+"quote": "Chứng khoán phái sinh là công cụ tài chính dưới dạng hợp đồng, bao gồm hợp đồng quyền chọn, hợp đồng tương lai, hợp đồng kỳ hạn, trong đó xác nhận quyền, nghĩa vụ của các bên đối với việc thanh toán tiền, chuyển giao số lượng tài sản cơ sở nhất định theo mức giá đã được xác định",
+"src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+"as_of": "2026-11"
+},
+{
+"id": "C10-003",
+"part": "CM",
+"subject": "MG",
+"topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+"level": 1,
+"q": "Trình tự hợp lý của quy trình bán hàng (cung cấp sản phẩm, dịch vụ chứng khoán) của nhân viên môi giới đối với một khách hàng mới là:",
+"o": [
+"Chuẩn bị thông tin → Tiếp cận khách hàng → Giới thiệu sản phẩm → Thống nhất, ký hợp đồng → Chăm sóc sau bán",
+"Tiếp cận khách hàng → Giới thiệu sản phẩm → Chuẩn bị thông tin → Thống nhất, ký hợp đồng → Chăm sóc sau bán",
+"Chuẩn bị thông tin → Giới thiệu sản phẩm → Tiếp cận khách hàng → Chăm sóc sau bán → Thống nhất, ký hợp đồng",
+"Giới thiệu sản phẩm → Tiếp cận khách hàng → Thống nhất, ký hợp đồng → Chuẩn bị thông tin → Chăm sóc sau bán"
+],
+"a": 0,
+"e": "Trước khi gặp khách hàng, nhân viên môi giới chuẩn bị hồ sơ, thông tin về khách hàng và sản phẩm; tiếp theo tiếp cận, tạo thiện cảm và tìm hiểu nhu cầu; sau đó giới thiệu sản phẩm phù hợp với nhu cầu và giải đáp thắc mắc; khi khách hàng đồng ý thì thống nhất điều khoản, ký hợp đồng (bước chốt); cuối cùng là chăm sóc sau bán để duy trì quan hệ lâu dài và được khách hàng giới thiệu thêm khách hàng mới. Chăm sóc sau bán không thể đặt trước bước ký hợp đồng; giới thiệu sản phẩm khi chưa tiếp cận, chưa hiểu khách hàng dễ dẫn đến tư vấn không phù hợp.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Kỹ năng bán hàng: quy trình bán hàng (chuẩn bị, tiếp cận, giới thiệu sản phẩm, kết thúc bán hàng, chăm sóc sau bán)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-004",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "Ông H luôn yêu cầu mọi việc phải làm đúng quy định, thủ tục và nguyên tắc; bà K thường quyết định theo số đông, thấy nhiều người mua thì mua theo. Theo cách phân loại khách hàng theo phong cách hành vi (độc tài, quan liêu, xã hội…), ông H và bà K lần lượt thuộc nhóm:",
+"o": [
+"Xã hội và quan liêu",
+"Quan liêu và xã hội",
+"Độc tài và xã hội",
+"Quan liêu và độc tài"
+],
+"a": 1,
+"e": "Khách hàng quan liêu làm việc theo luật lệ, quy trình, cần thông tin chi tiết, chính xác và thời gian cân nhắc – nhân viên môi giới nên chuẩn bị tài liệu đầy đủ, làm đúng thủ tục. Khách hàng xã hội coi trọng quan hệ, dễ chịu ảnh hưởng của người khác và có xu hướng làm theo đám đông – cần xây dựng quan hệ, đồng thời giúp họ thấy rủi ro của việc chạy theo số đông. Khách hàng độc tài thích chi phối, muốn khẳng định quan điểm của mình và quyết định nhanh.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Phân loại khách hàng theo phong cách hành vi (độc tài, quan liêu, xã hội)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-005",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "Khi làm việc với khách hàng thuộc nhóm “độc tài” (thích chi phối cuộc trao đổi, muốn áp đặt quan điểm, quyết định nhanh), cách ứng xử phù hợp của nhân viên môi giới là:",
+"o": [
+"Im lặng, nhượng bộ mọi ý kiến của khách hàng để tránh làm khách hàng phật ý",
+"Tranh luận trực diện đến cùng để khách hàng thấy rõ chuyên môn của mình",
+"Khẳng định quan điểm một cách thân thiện, lắng nghe, trình bày ngắn gọn và đi thẳng vào vấn đề",
+"Gửi thật nhiều tài liệu chi tiết và để khách hàng tự nghiên cứu trong thời gian dài"
+],
+"a": 2,
+"e": "Với khách hàng độc tài, né tránh hay nhượng bộ hoàn toàn làm nhân viên môi giới mất vai trò tư vấn, còn đối đầu trực tiếp dễ làm đổ vỡ quan hệ. Cách phù hợp là khẳng định thân thiện: tôn trọng, lắng nghe nhưng tự tin nêu quan điểm có căn cứ, trình bày ngắn gọn, tập trung vào kết quả và để khách hàng cảm thấy mình là người quyết định. Cung cấp nhiều tài liệu chi tiết và cho thời gian cân nhắc phù hợp hơn với khách hàng quan liêu.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Cách ứng xử với từng nhóm khách hàng theo phong cách hành vi (khách hàng độc tài: khẳng định thân thiện)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-006",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "Về các mô hình giao tiếp giữa nhân viên môi giới và khách hàng (bổ sung, đối xứng, song song), nhận định nào sau đây đúng?",
+"o": [
+"Bổ sung: cả hai bên cùng muốn chi phối nên dễ phát sinh cạnh tranh, căng thẳng",
+"Đối xứng: một bên chi phối, bên còn lại chấp nhận để mình bị chi phối",
+"Đối xứng: hai bên luân phiên dẫn dắt, là kiểu giao tiếp linh hoạt nhất",
+"Song song: hai bên linh hoạt đổi vai trò dẫn dắt, là kiểu giao tiếp tích cực, hiệu quả"
+],
+"a": 3,
+"e": "Giao tiếp bổ sung: một bên chi phối, một bên bị chi phối (hai vai trò bổ sung cho nhau). Giao tiếp đối xứng: hai bên có hành vi giống nhau – cùng muốn kiểm soát hoặc cùng bị động – dễ dẫn tới cạnh tranh, căng thẳng hoặc bế tắc. Giao tiếp song song: hai bên linh hoạt chuyển đổi vai trò tùy tình huống, là kiểu giao tiếp tích cực, hiệu quả mà nhân viên môi giới nên hướng tới.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Các mô hình giao tiếp với khách hàng (bổ sung, đối xứng, song song)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-007",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 1,
+"q": "Theo thang nhu cầu của Maslow, thứ tự các bậc nhu cầu của con người từ thấp đến cao là:",
+"o": [
+"Sinh lý → An toàn → Xã hội → Được tôn trọng → Tự thể hiện",
+"An toàn → Sinh lý → Xã hội → Được tôn trọng → Tự thể hiện",
+"Sinh lý → Xã hội → An toàn → Tự thể hiện → Được tôn trọng",
+"Sinh lý → An toàn → Được tôn trọng → Xã hội → Tự thể hiện"
+],
+"a": 0,
+"e": "Maslow xếp nhu cầu thành 5 bậc: sinh lý (ăn, mặc, ở) → an toàn (ổn định, được bảo vệ) → xã hội (được yêu thương, thuộc về một nhóm) → được tôn trọng (địa vị, được công nhận) → tự thể hiện (phát huy năng lực bản thân). Khi nhu cầu bậc thấp cơ bản được đáp ứng, nhu cầu bậc cao hơn mới trở thành động lực chính. Nhân viên môi giới dùng thang này để hiểu động cơ đầu tư: khách hàng chưa có quỹ dự phòng sẽ ưu tiên an toàn, còn khách hàng đã đủ đầy có thể đầu tư vì mong muốn được công nhận, tự khẳng định.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Tìm hiểu nhu cầu khách hàng theo thang nhu cầu của Maslow",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-008",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "Khi lập hồ sơ khách hàng, mục tiêu đầu tư nào sau đây được xác định rõ ràng nhất, có tác dụng thúc đẩy và làm căn cứ tư vấn tốt nhất?",
+"o": [
+"Đầu tư sao cho tài sản tăng nhanh nhất có thể trong thời gian tới",
+"Tích lũy đủ 1,5 tỷ đồng sau 10 năm để thanh toán tiền mua nhà",
+"Có thu nhập ổn định hơn để cuộc sống gia đình thoải mái hơn",
+"Đạt mức lợi nhuận cao hơn bình quân của thị trường chứng khoán"
+],
+"a": 1,
+"e": "Mục tiêu đầu tư cụ thể gắn với nhu cầu thực (mua nhà, học phí, nghỉ hưu…), có số tiền và thời hạn xác định nên đo lường được, tạo động lực tích lũy và giúp tính được mức sinh lời yêu cầu, khung thời gian, mức rủi ro phù hợp. Khi khách hàng có nhiều mục tiêu, nhân viên môi giới cần sắp xếp thứ tự ưu tiên và xác định giới hạn (số tiền, thời gian) cho từng mục tiêu. Các mong muốn chung chung như tăng tài sản nhanh, sống thoải mái hơn hay thắng thị trường không đo lường được nên khó làm căn cứ tư vấn.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Xây dựng hồ sơ khách hàng: xác định mục tiêu đầu tư cụ thể, thứ tự ưu tiên và giới hạn",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-009",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "Một khách hàng cá nhân ra quyết định dựa trên số liệu và báo cáo phân tích, thường tìm thêm nguồn thông tin để kiểm chứng và hầu như không gắn cảm xúc với khoản đầu tư của mình. Theo cách phân loại nhà đầu tư cá nhân theo tính cách, khách hàng này thuộc nhóm:",
+"o": [
+"Nhà đầu tư thận trọng",
+"Nhà đầu tư cá nhân (độc lập)",
+"Nhà đầu tư có phương pháp",
+"Nhà đầu tư tự phát"
+],
+"a": 2,
+"e": "Phân loại theo tính cách gồm 4 nhóm. Nhà đầu tư có phương pháp dựa vào dữ kiện, số liệu, nghiên cứu, ít để cảm xúc chi phối. Nhà đầu tư thận trọng đặt nặng an toàn tài chính, rất ngại thua lỗ, chuộng tài sản ít biến động và thường chậm ra quyết định. Nhà đầu tư cá nhân (độc lập) tự tin, thích tự nghiên cứu và tự quyết định. Nhà đầu tư tự phát hay thay đổi danh mục theo diễn biến thị trường, sợ bỏ lỡ cơ hội hơn sợ rủi ro nên vòng quay và chi phí giao dịch cao.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Phân loại nhà đầu tư cá nhân theo tính cách (thận trọng, có phương pháp, cá nhân, tự phát)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-010",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 2,
+"q": "So với khách hàng cá nhân, khách hàng tổ chức như quỹ hưu trí, công ty bảo hiểm, ngân hàng thương mại thường có đặc điểm nào sau đây?",
+"o": [
+"Quyết định đầu tư chủ yếu dựa vào cảm xúc và sở thích của người đứng đầu tổ chức",
+"Mục tiêu đầu tư thay đổi liên tục theo diễn biến thị trường, khó xác định trước",
+"Không chịu ràng buộc pháp lý về danh mục nên được tự do đầu tư mọi loại tài sản",
+"Mục tiêu, ràng buộc đầu tư được xác định rõ theo chức năng, điều lệ và quy định áp dụng"
+],
+"a": 3,
+"e": "Khách hàng tổ chức đầu tư theo chức năng hoạt động: quỹ hưu trí phải bảo đảm chi trả lương hưu dài hạn, công ty bảo hiểm phải cân đối tài sản với nghĩa vụ bồi thường, ngân hàng chú trọng thanh khoản. Vì vậy mục tiêu, khẩu vị rủi ro và các ràng buộc về thanh khoản, thời hạn, pháp lý (giới hạn đầu tư theo luật chuyên ngành, điều lệ) được xác định rõ; quyết định thường qua quy trình tập thể, ít bị cảm xúc chi phối như nhiều khách hàng cá nhân.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Đặc điểm khách hàng tổ chức (quỹ hưu trí, công ty bảo hiểm, ngân hàng)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C10-011",
+"part": "CM",
+"subject": "MG",
+"topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+"level": 3,
+"q": "Nhân viên tư vấn của công ty chứng khoán A được hưởng hoa hồng cao hơn khi giới thiệu chứng chỉ quỹ do công ty quản lý quỹ cùng tập đoàn với A quản lý. Cách xử lý phù hợp với nguyên tắc quản lý xung đột lợi ích là:",
+"o": [
+"Công khai mối quan hệ và cơ chế hoa hồng, chỉ giới thiệu khi sản phẩm phù hợp với khách hàng",
+"Ưu tiên giới thiệu sản phẩm cùng tập đoàn vì nhân viên hiểu rõ sản phẩm này hơn",
+"Giới thiệu như sản phẩm khác, không nêu cơ chế hoa hồng vì đó là thông tin nội bộ",
+"Chỉ giới thiệu sản phẩm cùng tập đoàn cho các khách hàng có khẩu vị rủi ro cao"
+],
+"a": 0,
+"e": "Bán sản phẩm của công ty liên quan khi được hưởng thù lao cao hơn là xung đột lợi ích tiềm ẩn: nhân viên dễ tư vấn thiên lệch về sản phẩm nội bộ. Biện pháp cơ bản là công bố cho khách hàng mối quan hệ và lợi ích của mình để khách hàng tự đánh giá, kết hợp kiểm soát nội bộ và chỉ khuyến nghị khi sản phẩm phù hợp với tình hình tài chính, mục tiêu, khả năng chấp nhận rủi ro của khách hàng. Luật Chứng khoán yêu cầu CTCK giám sát, ngăn ngừa xung đột lợi ích trong giao dịch với người có liên quan (khoản 1 Điều 89), cung cấp đầy đủ, trung thực thông tin (khoản 4) và bảo đảm tư vấn phù hợp với từng khách hàng (khoản 6). Khẩu vị rủi ro cao không thay thế việc công khai xung đột lợi ích.",
+"basis": "Khoản 1, 4, 6 Điều 89 Luật Chứng khoán 2019; Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Xung đột lợi ích khi bán sản phẩm của công ty liên quan, biện pháp công bố và kiểm soát",
+"quote": "",
+"src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+"as_of": "2026-11"
+},
+{
+"id": "C10-012",
+"part": "LUAT",
+"subject": "LU",
+"topic": "Hoạt động CTCK",
+"level": 1,
+"q": "Theo Thông tư 121/2020/TT-BTC (sửa đổi bởi Thông tư 08/2026/TT-BTC), khi thực hiện nghiệp vụ môi giới, công ty chứng khoán có nghĩa vụ cập nhật các thông tin thay đổi của khách hàng trong trường hợp nào?",
+"o": [
+"Khi Ủy ban Chứng khoán Nhà nước yêu cầu trong quá trình thanh tra, kiểm tra công ty",
+"Khi khách hàng hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện có yêu cầu",
+"Khi Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam gửi thông báo thay đổi",
+"Khi khách hàng phát sinh giao dịch có giá trị từ 01 tỷ đồng trở lên trong ngày"
+],
+"a": 1,
+"e": "Khoản 2 Điều 14 TT 121/2020 (sửa đổi bởi khoản 1 Điều 10 TT 08/2026/TT-BTC): công ty chứng khoán có nghĩa vụ cập nhật các thông tin thay đổi của khách hàng khi khách hàng hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện có yêu cầu. Khoản 7 Điều 89 Luật Chứng khoán cũng yêu cầu CTCK cập nhật, lưu giữ đầy đủ hồ sơ thông tin khách hàng; còn khách hàng chịu trách nhiệm cung cấp đầy đủ, chính xác thông tin nhận biết khách hàng (khoản 1 Điều 15 TT 121/2020). Thông tư không gắn nghĩa vụ này với yêu cầu của UBCKNN, thông báo của VSDC hay giá trị giao dịch.",
+"basis": "Khoản 2 Điều 14 Thông tư 121/2020/TT-BTC (sửa đổi bởi khoản 1 Điều 10 Thông tư 08/2026/TT-BTC; VBHN 09/VBHN-BTC năm 2026)",
+"quote": "Công ty chứng khoán có nghĩa vụ cập nhật các thông tin thay đổi của khách hàng khi khách hàng hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện có yêu cầu.",
+"src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+"as_of": "2026-11"
+},
+{
+"id": "C11-001",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 1,
+"q": "Giao dịch ký quỹ (giao dịch bảo chứng) mua chứng khoán là nghiệp vụ trong đó công ty chứng khoán",
+"o": [
+"Cho nhà đầu tư vay toàn bộ tiền mua chứng khoán, nhà đầu tư không phải góp vốn tự có",
+"Chỉ thực hiện lệnh mua trong phạm vi số tiền nhà đầu tư đã có sẵn trên tài khoản",
+"Cho nhà đầu tư vay một phần tiền mua chứng khoán, dùng chính chứng khoán đó làm tài sản bảo đảm khoản vay",
+"Cho nhà đầu tư vay tiền mua chứng khoán và để nhà đầu tư tự do rút chứng khoán khi còn dư nợ"
+],
+"a": 2,
+"e": "Trong giao dịch ký quỹ, nhà đầu tư góp phần vốn tự có theo tỷ lệ ký quỹ, phần còn lại vay công ty chứng khoán; chứng khoán mua được (và chứng khoán ký quỹ khác) là tài sản bảo đảm nên không được tự do rút, chuyển khi còn dư nợ. Khoản tiền công ty cho vay (cộng lãi cộng dồn) là dư nợ; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ. Giao dịch chỉ trong phạm vi tiền có sẵn là tài khoản tiền mặt (giao dịch thông thường); cho vay toàn bộ thì không còn phần ký quỹ của nhà đầu tư.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Khái niệm giao dịch ký quỹ (bảo chứng) và dư nợ; điểm b khoản 1 Điều 86 Luật Chứng khoán 2019 (dịch vụ cho khách hàng vay tiền mua chứng khoán)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-002",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 1,
+"q": "Lợi ích nào sau đây là ưu điểm của giao dịch ký quỹ đối với nhà đầu tư và thị trường chứng khoán?",
+"o": [
+"Giảm tỷ lệ lỗ trên vốn tự có của nhà đầu tư khi giá chứng khoán giảm",
+"Chuyển rủi ro giảm giá của chứng khoán ký quỹ sang công ty chứng khoán",
+"Hạn chế biến động giá vì chứng khoán ký quỹ không được bán trước hạn vay",
+"Tăng sức mua của nhà đầu tư, qua đó làm tăng cầu và tính thanh khoản của thị trường"
+],
+"a": 3,
+"e": "Vay ký quỹ cho phép nhà đầu tư mua lượng chứng khoán lớn hơn vốn tự có (sức mua = vốn tự có/tỷ lệ ký quỹ), làm tăng cầu, khối lượng giao dịch và thanh khoản, góp phần phát triển thị trường; khi giá tăng, lợi nhuận trên vốn tự có được khuếch đại. Ngược lại, đòn bẩy cũng khuếch đại thua lỗ khi giá giảm, nhà đầu tư vẫn chịu toàn bộ rủi ro giá và phải trả đủ nợ vay; chứng khoán ký quỹ bị bán giải chấp khi tài khoản thiếu ký quỹ, và bán giải chấp hàng loạt lúc thị trường giảm mạnh còn có thể làm giá biến động mạnh hơn.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Ưu điểm và rủi ro của giao dịch ký quỹ",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-003",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 2,
+"q": "Trước khi khách hàng mở tài khoản giao dịch ký quỹ, nhân viên môi giới cần giải thích rõ rủi ro nào sau đây?",
+"o": [
+"Khách hàng có thể lỗ vượt số vốn ký quỹ ban đầu và vẫn phải trả đủ dư nợ, lãi vay",
+"Khoản lỗ tối đa chỉ bằng vốn ký quỹ ban đầu, phần lỗ vượt quá do công ty chịu",
+"Khi bị gọi ký quỹ, khách hàng được chờ giá phục hồi, công ty không được bán chứng khoán",
+"Lãi vay ký quỹ chỉ phát sinh khi giá chứng khoán giảm xuống dưới giá mua"
+],
+"a": 0,
+"e": "Với đòn bẩy, tỷ lệ lỗ trên vốn tự có ≈ tỷ lệ giảm giá/tỷ lệ ký quỹ (ký quỹ 50%, giá giảm 60% ⇒ lỗ 120% vốn tự có). Nếu giá giảm sâu, liên tục (giảm sàn nhiều phiên, thiếu thanh khoản) trước khi công ty kịp bán giải chấp, tiền bán chứng khoán không đủ trả nợ: khách hàng mất hết vốn ký quỹ mà vẫn còn nợ công ty. Khi bị gọi ký quỹ, khách hàng phải bổ sung tài sản trong thời hạn theo hợp đồng; quá hạn, công ty được bán chứng khoán ký quỹ để thu hồi nợ mà không chờ giá phục hồi. Lãi vay tính trên dư nợ theo thời gian vay, không phụ thuộc giá tăng hay giảm.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Rủi ro của giao dịch ký quỹ cần giải thích cho khách hàng (lỗ vượt vốn ký quỹ, gọi ký quỹ, bán giải chấp)",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-004",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 1,
+"q": "Theo Luật Chứng khoán, khi cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo các điều kiện cung cấp dịch vụ, bao gồm:",
+"o": [
+"Tỷ lệ ký quỹ, lãi suất vay và mức lợi nhuận tối thiểu cam kết cho khách hàng sử dụng dịch vụ",
+"Tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức gọi ký quỹ bổ sung, danh mục chứng khoán ký quỹ",
+"Tỷ lệ ký quỹ, lãi suất vay, danh sách khách hàng đang vay và dư nợ của từng khách hàng",
+"Lãi suất vay, thời hạn vay và cam kết mua lại chứng khoán ký quỹ của khách hàng khi giá giảm"
+],
+"a": 1,
+"e": "Khoản 3 Điều 123 Luật Chứng khoán: trường hợp cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo điều kiện cung cấp dịch vụ gồm yêu cầu về tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức thực hiện lệnh gọi ký quỹ bổ sung, danh mục chứng khoán thực hiện giao dịch ký quỹ. Vì vậy khách hàng chỉ ký quỹ hoặc bổ sung ký quỹ bằng chứng khoán thuộc danh mục công ty chấp nhận. Công ty không được cam kết lợi nhuận, chia sẻ lỗ hay cam kết mua lại chứng khoán cho khách hàng, và phải bảo mật thông tin tài khoản của khách hàng khác.",
+"basis": "Khoản 3 Điều 123 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH/2025); Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Điều kiện cung cấp dịch vụ giao dịch ký quỹ",
+"quote": "Trường hợp cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo các điều kiện cung cấp dịch vụ bao gồm yêu cầu về tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức thực hiện lệnh gọi ký quỹ bổ sung, danh mục chứng khoán thực hiện giao dịch ký quỹ.",
+"src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+"as_of": "2026-11"
+},
+{
+"id": "C11-005",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 2,
+"q": "Trong giao dịch ký quỹ (bảo chứng), lệnh gọi ký quỹ ban đầu và lệnh gọi ký quỹ duy trì khác nhau ở điểm nào?",
+"o": [
+"Gọi ban đầu phát sinh khi tỷ lệ ký quỹ thực tế giảm dưới tỷ lệ duy trì; gọi duy trì yêu cầu nộp đủ vốn tự có theo tỷ lệ ban đầu khi mua",
+"Gọi ban đầu chỉ áp dụng cho vị thế bán khống; gọi duy trì chỉ áp dụng cho vị thế mua chứng khoán bằng tiền vay công ty chứng khoán",
+"Gọi ban đầu yêu cầu nộp đủ vốn tự có theo tỷ lệ ký quỹ ban đầu khi mua; gọi duy trì phát sinh khi tỷ lệ ký quỹ thực tế giảm dưới tỷ lệ duy trì",
+"Gọi ban đầu do Sở giao dịch chứng khoán gửi cho nhà đầu tư; gọi duy trì do công ty chứng khoán gửi cho khách hàng của mình"
+],
+"a": 2,
+"e": "Lệnh gọi ký quỹ ban đầu: khi khách hàng mua chứng khoán trên tài khoản ký quỹ, công ty yêu cầu nộp phần vốn tự có tối thiểu theo tỷ lệ ký quỹ ban đầu (mua 100 triệu đồng với tỷ lệ 50% phải có 50 triệu đồng). Lệnh gọi ký quỹ duy trì: sau khi mua, nếu giá giảm làm tỷ lệ ký quỹ thực tế = (giá trị chứng khoán − dư nợ)/giá trị chứng khoán thấp hơn tỷ lệ duy trì, công ty yêu cầu bổ sung tiền, chứng khoán hoặc bán bớt chứng khoán. Cả hai đều do công ty chứng khoán (bên cho vay) thực hiện với khách hàng và áp dụng cho cả vị thế mua ký quỹ lẫn bán khống (nơi được phép).",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Các loại lệnh gọi ký quỹ: gọi ký quỹ ban đầu và gọi ký quỹ duy trì",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-006",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 2,
+"q": "Mục đích chủ yếu của việc quy định tỷ lệ ký quỹ duy trì và thực hiện gọi ký quỹ duy trì trên tài khoản giao dịch ký quỹ là",
+"o": [
+"Bảo đảm nhà đầu tư không bị lỗ quá tỷ lệ ký quỹ duy trì tính trên vốn tự có ban đầu",
+"Tăng doanh thu lãi vay cho công ty chứng khoán khi giá chứng khoán ký quỹ giảm",
+"Giữ giá chứng khoán ký quỹ không giảm xuống dưới giá mua ban đầu của nhà đầu tư",
+"Bảo vệ công ty chứng khoán cho vay trước rủi ro giá trị tài sản bảo đảm không đủ thu hồi nợ"
+],
+"a": 3,
+"e": "Tỷ lệ duy trì tạo vùng đệm vốn tự có của nhà đầu tư so với dư nợ: khi giá giảm làm vùng đệm mỏng tới mức duy trì, công ty gọi ký quỹ để khách hàng bổ sung tài sản hoặc bán bớt chứng khoán trả nợ trước khi giá trị chứng khoán xuống thấp hơn dư nợ. Mục đích là bảo vệ khoản cho vay của công ty chứng khoán; gọi ký quỹ không bảo đảm nhà đầu tư không lỗ (đòn bẩy vẫn khuếch đại lỗ), không làm tăng lãi vay và không giữ được giá chứng khoán.",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Mục đích của ký quỹ duy trì và gọi ký quỹ duy trì",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-007",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+"level": 3,
+"q": "Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K trên tài khoản ký quỹ với tổng số tiền 60.000.000 đồng, cùng ngày thanh toán 42.000.000 đồng, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K trong ba ngày giao dịch liên tiếp kể từ ngày mua lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử giá trị thị trường hiện hành của chứng khoán trên tài khoản trong mỗi ngày được xác định theo giá đóng cửa của ngày giao dịch liền trước (riêng ngày mua tính theo giá mua). Bỏ qua lãi vay và phí, giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
+"o": [
+"40.000.000 đồng",
+"37.000.000 đồng",
+"45.000.000 đồng",
+"58.000.000 đồng"
+],
+"a": 0,
+"e": "Dư nợ = 60.000.000 − 42.000.000 = 18.000.000 đồng. Ngày thứ ba dùng giá đóng cửa ngày thứ hai: giá trị thị trường hiện hành = 2.000 × 29.000 = 58.000.000 đồng ⇒ giá trị chứng khoán thực có = 58.000.000 − 18.000.000 = 40.000.000 đồng (chuỗi ba ngày: 42, 45, 40 triệu đồng). Lỗi thường gặp: dùng giá đóng cửa của chính ngày thứ ba (2.000 × 27.500 − 18.000.000 = 37.000.000), dùng giá đóng cửa ngày mua (45.000.000), quên trừ dư nợ (58.000.000).",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị thị trường hiện hành, dư nợ và giá trị chứng khoán thực có trên tài khoản ký quỹ",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
+"as_of": "2026-11"
+},
+{
+"id": "C11-008",
+"part": "CM",
+"subject": "MG",
+"topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+"level": 3,
+"q": "Công ty chứng khoán trả cho nhân viên môi giới lương cố định 6,3 triệu đồng/tháng (12 tháng/năm). Một năm có 252 ngày làm việc; mỗi ngày nhân viên dự kiến thực hiện 120 cuộc điện thoại tìm kiếm khách hàng (không tính cước điện thoại). Giá trị (chi phí lương) của một cuộc gọi tìm kiếm khách hàng là",
+"o": [
+"1.726 đồng",
+"2.500 đồng",
+"208 đồng",
+"300.000 đồng"
+],
+"a": 1,
+"e": "Lương năm = 6,3 triệu × 12 = 75.600.000 đồng; số cuộc gọi/năm = 252 × 120 = 30.240 ⇒ giá trị một cuộc gọi = 75.600.000/30.240 = 2.500 đồng. Con số này giúp nhân viên môi giới ý thức chi phí thời gian, sàng lọc danh sách gọi và đo hiệu quả tìm kiếm khách hàng. Lỗi thường gặp: chia cho 365 ngày lịch (1.726), lấy lương một tháng chia số cuộc gọi cả năm (208), chỉ tính chi phí lương một ngày (300.000).",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị một cuộc gọi trong kế hoạch tìm kiếm khách hàng",
+"quote": "",
+"src": "Giáo trình SRTC (khung chương trình)",
 "as_of": "2026-11"
 },
 {
