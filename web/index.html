@@ -171,7 +171,7 @@ td.r, th.r { text-align: right; }
 .quiz { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 16px; align-items: start; }
 @media (max-width: 900px) { .quiz { grid-template-columns: minmax(0, 1fr); } }
 .qcard { display: flex; flex-direction: column; gap: 14px; }
-.qtext { font: 500 1.08rem/1.6 var(--font-ui); }
+.qtext { font: 500 1.08rem/1.6 var(--font-ui); white-space: pre-line; }   /* câu tổ hợp: mỗi mệnh đề I, II, III một dòng */
 .opts { display: flex; flex-direction: column; gap: 8px; }
 .opt { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: start; text-align: left; border: 1px solid var(--line); background: var(--surface);
   border-radius: 9px; padding: 11px 12px; cursor: pointer; font-size: .97rem; line-height: 1.5; }
