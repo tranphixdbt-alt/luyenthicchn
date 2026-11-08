@@ -1965,7 +1965,7 @@
 "subject": "CB",
 "topic": "Các công cụ tài chính trên thị trường chứng khoán",
 "level": 3,
-"q": "Điều lệ của công ty niêm yết K cho phép phát hành tối đa 10.000.000 cổ phiếu phổ thông. K đã phát hành 6.000.000 cổ phiếu, trong đó có 1.500.000 cổ phiếu quỹ do K mua lại trước năm 2021 và chưa bán ra; K không có cổ phiếu ưu đãi. Năm N, K có lợi nhuận sau thuế 12 tỷ đồng và Đại hội đồng cổ đông quyết định dùng 9 tỷ đồng trả cổ tức bằng tiền. Cổ tức mỗi cổ phiếu cổ đông nhận được là:",
+"q": "Điều lệ của công ty niêm yết K cho phép phát hành tối đa 10.000.000 cổ phiếu phổ thông. K đã phát hành 6.000.000 cổ phiếu, trong đó có 1.500.000 cổ phiếu quỹ do K mua lại trước năm 2021, đến ngày đăng ký cuối cùng vẫn chưa bán ra; K không có cổ phiếu ưu đãi. Năm N, K có lợi nhuận sau thuế 12 tỷ đồng và Đại hội đồng cổ đông quyết định dùng 9 tỷ đồng trả cổ tức bằng tiền. Cổ tức mỗi cổ phiếu cổ đông nhận được là:",
 "o": [
 "1.500 đồng",
 "900 đồng",
@@ -1973,8 +1973,8 @@
 "2.667 đồng"
 ],
 "a": 2,
-"e": "Cổ phiếu quỹ là cổ phiếu đã phát hành được chính tổ chức phát hành mua lại; không được nhận cổ tức, không có quyền biểu quyết. Cổ phiếu đang lưu hành = 6.000.000 − 1.500.000 = 4.500.000 cổ phiếu (10.000.000 chỉ là số được phép phát hành theo điều lệ). Cổ tức mỗi cổ phiếu = 9.000.000.000 / 4.500.000 = 2.000 đồng. Chia cho số đã phát hành (gồm cả cổ phiếu quỹ) ra 1.500 đồng; chia cho số được phép phát hành ra 900 đồng; dùng lợi nhuận sau thuế thay cho tổng cổ tức ra 2.667 đồng (đó là EPS). Lưu ý: từ năm 2021, công ty đại chúng mua lại cổ phiếu theo khoản 1, điểm a khoản 2 Điều 37 Luật Chứng khoán phải giảm vốn điều lệ tương ứng (khoản 5), nên cổ phiếu quỹ chủ yếu còn ở các đợt mua lại trước năm 2021.",
-"basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Cổ phiếu được phép phát hành, đã phát hành, đang lưu hành, cổ phiếu quỹ; cổ tức mỗi cổ phiếu; khoản 5 Điều 37 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026)",
+"e": "Cổ phiếu quỹ là cổ phiếu đã phát hành được chính tổ chức phát hành mua lại; không được nhận cổ tức, không có quyền biểu quyết. Cổ phiếu đang lưu hành = 6.000.000 − 1.500.000 = 4.500.000 cổ phiếu (10.000.000 chỉ là số được phép phát hành theo điều lệ). Cổ tức mỗi cổ phiếu = 9.000.000.000 / 4.500.000 = 2.000 đồng. Chia cho số đã phát hành (gồm cả cổ phiếu quỹ) ra 1.500 đồng; chia cho số được phép phát hành ra 900 đồng; dùng lợi nhuận sau thuế thay cho tổng cổ tức ra 2.667 đồng (12.000.000.000 / 4.500.000, tức EPS khi số cổ phiếu lưu hành không đổi trong năm). Lưu ý: từ năm 2021, công ty đại chúng mua lại cổ phiếu theo khoản 1, điểm a khoản 2 Điều 36 Luật Chứng khoán phải làm thủ tục giảm vốn điều lệ tương ứng (khoản 5 Điều 36), nên cổ phiếu quỹ chủ yếu còn ở các đợt mua lại trước năm 2021.",
+"basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Cổ phiếu được phép phát hành, đã phát hành, đang lưu hành, cổ phiếu quỹ; cổ tức mỗi cổ phiếu; khoản 5 Điều 36 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026)",
 "quote": "",
 "src": "",
 "as_of": "2026-11"
@@ -1993,8 +1993,8 @@
 "Lệnh dừng để mua 2.000 cổ phiếu, giá dừng 69.000 đồng"
 ],
 "a": 3,
-"e": "Người bán khống lỗ khi giá tăng, nên phải mua lại cổ phiếu để đóng vị thế khi giá tăng tới ngưỡng chịu lỗ: 60.000 × (1 + 15%) = 69.000 đồng. Lệnh dừng để mua đặt cao hơn giá thị trường, chỉ được kích hoạt thành lệnh mua khi giá tăng chạm 69.000 đồng; lỗ dự kiến (69.000 − 60.000) × 2.000 = 18.000.000 đồng, chưa tính trượt giá. Lệnh giới hạn mua giá 69.000 sẽ khớp ngay ở giá bán hiện có quanh 60.000 nên đóng vị thế luôn; lệnh dừng để bán dùng bảo vệ vị thế mua; 51.000 là mức giá có lãi của vị thế bán khống, không phải ngưỡng lỗ. Ở Việt Nam nhà đầu tư chỉ được bán chứng khoán đã có trên tài khoản, trừ các trường hợp khoản 3 Điều 7 Thông tư 120/2020/TT-BTC; lệnh dừng không phải loại lệnh của Sở mà là lệnh điều kiện do một số công ty chứng khoán cung cấp, nên đề nêu dưới dạng giả sử.",
-"basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Lệnh dừng (stop order) và bán khống; khoản 3 Điều 7, Điều 11 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)",
+"e": "Người bán khống lỗ khi giá tăng, nên phải mua lại cổ phiếu để đóng vị thế khi giá tăng tới ngưỡng chịu lỗ: 60.000 × (1 + 15%) = 69.000 đồng. Lệnh dừng để mua đặt cao hơn giá thị trường, chỉ được kích hoạt thành lệnh mua khi giá tăng chạm 69.000 đồng; lỗ dự kiến (69.000 − 60.000) × 2.000 = 18.000.000 đồng, chưa tính trượt giá. Lệnh giới hạn mua giá 69.000 có hiệu lực ngay chứ không chờ giá tăng: nếu hợp lệ sẽ khớp ngay với lệnh bán quanh 60.000 (đóng vị thế luôn), nếu vượt giá trần thì bị từ chối. Lệnh dừng để bán dùng bảo vệ vị thế mua. 51.000 = 60.000 × (1 − 15%) là mức giá có lãi của vị thế bán khống; lệnh dừng mua đặt thấp hơn giá thị trường sẽ bị kích hoạt ngay. Ở Việt Nam nhà đầu tư chỉ được bán chứng khoán đã có trên tài khoản, trừ các trường hợp khoản 3 Điều 7 Thông tư 120/2020/TT-BTC; các loại lệnh do quy chế giao dịch của Sở giao dịch chứng khoán Việt Nam quy định (khoản 3 Điều 3) và có thể thay đổi theo hệ thống giao dịch mới; trên thực tế lệnh dừng thường là lệnh điều kiện do công ty chứng khoán cung cấp, nên đề nêu dưới dạng giả sử.",
+"basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Lệnh dừng (stop order) và bán khống; khoản 3 Điều 3, khoản 3 Điều 7, Điều 11 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)",
 "quote": "",
 "src": "",
 "as_of": "2026-11"
@@ -2013,7 +2013,7 @@
 "Lệnh dừng để mua, giá dừng 45.000 đồng, thấp hơn giá thị trường"
 ],
 "a": 0,
-"e": "Lệnh dừng để bán được đặt dưới giá thị trường hiện hành; khi giá giảm chạm giá dừng 45.000 đồng, lệnh được kích hoạt thành lệnh bán, giữ lại khoảng 45.000 − 40.000 = 5.000 đồng lãi mỗi cổ phiếu (chưa tính trượt giá). Giá dừng bán cao hơn giá thị trường sẽ kích hoạt ngay (bán luôn); lệnh giới hạn bán giá 45.000 đồng khớp ngay với lệnh mua tốt nhất quanh 48.000 đồng; lệnh dừng để mua dùng để bảo vệ vị thế bán khống, được đặt cao hơn giá thị trường.",
+"e": "Lệnh dừng để bán được đặt dưới giá thị trường hiện hành; khi giá giảm chạm giá dừng 45.000 đồng, lệnh được kích hoạt thành lệnh bán, giữ lại khoảng 45.000 − 40.000 = 5.000 đồng lãi mỗi cổ phiếu (chưa tính trượt giá). Giá dừng bán cao hơn giá thị trường sẽ bị kích hoạt ngay (bán luôn) hoặc bị từ chối, không chờ giá giảm; lệnh giới hạn bán giá 45.000 đồng khớp ngay với lệnh mua tốt nhất quanh 48.000 đồng; lệnh dừng để mua dùng để bảo vệ vị thế bán khống, được đặt cao hơn giá thị trường.",
 "basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Lệnh dừng (stop order): lệnh dừng để bán đặt thấp hơn, lệnh dừng để mua đặt cao hơn giá thị trường",
 "quote": "",
 "src": "",
@@ -2053,7 +2053,7 @@
 "Phương án phát hành, sử dụng vốn"
 ],
 "a": 2,
-"e": "Khoản 23 Điều 4 Luật Chứng khoán: bản cáo bạch là tài liệu hoặc dữ liệu điện tử công khai những thông tin chính xác, trung thực, khách quan liên quan đến việc chào bán hoặc niêm yết chứng khoán của tổ chức phát hành. Theo Điều 19, bản cáo bạch tổng hợp thông tin về tổ chức phát hành, đợt chào bán (rủi ro, phương án phát hành và sử dụng vốn) và báo cáo tài chính 02 năm gần nhất, nên quan trọng nhất với nhà đầu tư. Giấy đăng ký, báo cáo tài chính, nghị quyết thông qua phương án phát hành là các tài liệu khác trong hồ sơ (Điều 18).",
+"e": "Khoản 23 Điều 4 Luật Chứng khoán: bản cáo bạch là tài liệu hoặc dữ liệu điện tử công khai những thông tin chính xác, trung thực, khách quan liên quan đến việc chào bán hoặc niêm yết chứng khoán của tổ chức phát hành. Theo Điều 19, bản cáo bạch tổng hợp thông tin về tổ chức phát hành, đợt chào bán (rủi ro, phương án phát hành và sử dụng vốn) và báo cáo tài chính 02 năm gần nhất, nên quan trọng nhất với nhà đầu tư. Giấy đăng ký chào bán và quyết định của Đại hội đồng cổ đông thông qua phương án phát hành, phương án sử dụng vốn là các tài liệu khác trong hồ sơ (khoản 1 Điều 18); báo cáo tài chính 02 năm gần nhất là một phần nội dung của bản cáo bạch (điểm c khoản 1 Điều 19).",
 "basis": "Khoản 23 Điều 4, Điều 18, Điều 19 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026); Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Bản cáo bạch",
 "quote": "Bản cáo bạch là tài liệu hoặc dữ liệu điện tử công khai những thông tin chính xác, trung thực, khách quan liên quan đến việc chào bán hoặc niêm yết chứng khoán của tổ chức phát hành.",
 "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
@@ -2073,8 +2073,8 @@
 "Các bên tham gia giao dịch tự thỏa thuận, thống nhất các nội dung giao dịch"
 ],
 "a": 3,
-"e": "Điểm b khoản 1 Điều 3: phương thức giao dịch thỏa thuận được thực hiện theo nguyên tắc các bên tham gia giao dịch tự thỏa thuận, thống nhất các nội dung giao dịch; còn phương thức khớp lệnh tập trung phải bảo đảm nguyên tắc ưu tiên về giá và thời gian (điểm a). Vì vậy điểm khác biệt cơ bản giữa hai phương thức là cách xác định giá: khớp lệnh do hệ thống so khớp, thỏa thuận do hai bên tự thống nhất. Thời gian, biên độ, khối lượng của giao dịch thỏa thuận do quy chế giao dịch của Sở giao dịch chứng khoán Việt Nam quy định (khoản 3 Điều 3).",
-"basis": "Điểm a, b khoản 1 và khoản 3 Điều 3 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)",
+"e": "Điểm b khoản 1 Điều 3: phương thức giao dịch thỏa thuận được thực hiện theo nguyên tắc các bên tham gia giao dịch tự thỏa thuận, thống nhất các nội dung giao dịch; còn phương thức khớp lệnh tập trung phải bảo đảm nguyên tắc ưu tiên về giá và thời gian (điểm a). Vì vậy điểm khác biệt cơ bản giữa hai phương thức là cách xác định giá: khớp lệnh do hệ thống so khớp, thỏa thuận do hai bên tự thống nhất. Định nghĩa ở khoản 7 Điều 2 cũng vậy: các bên thông qua thành viên giao dịch tự thỏa thuận các điều kiện giao dịch trên hệ thống, hoặc thỏa thuận, thực hiện rồi ghi nhận kết quả vào hệ thống. Thời gian giao dịch, biên độ dao động giá, loại lệnh… do quy chế giao dịch của Sở giao dịch chứng khoán Việt Nam quy định (khoản 3 Điều 3).",
+"basis": "Khoản 7 Điều 2, điểm a, b khoản 1 và khoản 3 Điều 3 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)",
 "quote": "Phương thức giao dịch thỏa thuận trên hệ thống giao dịch chứng khoán được thực hiện theo nguyên tắc các bên tham gia giao dịch tự thỏa thuận, thống nhất các nội dung giao dịch.",
 "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
 "as_of": "2026-11"
@@ -2085,7 +2085,7 @@
 "subject": "CB",
 "topic": "Thị trường chứng khoán thứ cấp",
 "level": 3,
-"q": "Giả sử trong phiên khớp lệnh liên tục: lệnh được so khớp ngay khi nhập theo ưu tiên giá rồi thời gian, giá thực hiện là giá của lệnh đối ứng đang chờ trên sổ lệnh; lệnh MP khớp lần lượt với các mức giá tốt nhất của phía đối ứng. Cổ phiếu G có giá tham chiếu 45.000 đồng, sổ lệnh ban đầu trống; các lệnh được nhập lần lượt: (1) P mua LO 2.000 cổ phiếu giá 44.800; (2) Q bán LO 1.500 cổ phiếu giá 45.300; (3) R mua LO 1.000 cổ phiếu giá 45.000; (4) S mua MP 500 cổ phiếu; (5) T bán MP 2.500 cổ phiếu; (6) U mua LO 1.200 cổ phiếu giá 45.500. Kết quả của U là:",
+"q": "Giả sử trong phiên khớp lệnh liên tục: lệnh được so khớp ngay khi nhập theo ưu tiên giá rồi thời gian, giá thực hiện là giá của lệnh đối ứng đang chờ trên sổ lệnh; lệnh MP khớp lần lượt với các mức giá tốt nhất của phía đối ứng. Cổ phiếu G có giá tham chiếu 45.000 đồng, biên độ ±7%, bước giá 50 đồng; sổ lệnh ban đầu trống, ngoài các lệnh dưới đây không có lệnh nào khác và không lệnh nào bị sửa, hủy; các lệnh được nhập lần lượt: (1) P mua LO 2.000 cổ phiếu giá 44.800 đồng; (2) Q bán LO 1.500 cổ phiếu giá 45.300 đồng; (3) R mua LO 1.000 cổ phiếu giá 45.000 đồng; (4) S mua MP 500 cổ phiếu; (5) T bán MP 2.500 cổ phiếu; (6) U mua LO 1.200 cổ phiếu giá 45.500 đồng. Kết quả của U là:",
 "o": [
 "Khớp 1.000 cổ phiếu giá 45.300 đồng; 200 cổ phiếu chờ mua giá 45.500 đồng",
 "Khớp 1.200 cổ phiếu giá 45.300 đồng; không còn khối lượng chờ khớp",
@@ -2093,7 +2093,7 @@
 "Khớp 1.200 cổ phiếu giá 45.500 đồng; không còn khối lượng chờ khớp"
 ],
 "a": 0,
-"e": "Xử lý theo thứ tự nhập: (1) P chờ mua 44.800. (2) Q chờ bán 45.300 vì giá mua tốt nhất chỉ 44.800. (3) R chờ mua 45.000. (4) S mua MP khớp 500 cổ phiếu với Q tại 45.300, Q còn 1.000. (5) T bán MP khớp 1.000 với R tại 45.000 rồi 1.500 với P tại 44.800, P còn 500 chờ mua. (6) U mua 45.500 ≥ giá bán tốt nhất 45.300 nên khớp 1.000 cổ phiếu còn lại của Q tại giá lệnh chờ 45.300; 200 cổ phiếu còn lại chờ mua tại 45.500. Bỏ qua lệnh của S cho kết quả 1.200 cổ phiếu; lấy giá đặt của U (45.500) là sai vì giá khớp là giá của lệnh đối ứng đã chờ trên sổ.",
+"e": "Giá trần/sàn 48.150/41.850 đồng, mọi giá đặt đều hợp lệ (bội số 50 đồng, trong biên độ). Xử lý theo thứ tự nhập: (1) P chờ mua 44.800. (2) Q chờ bán 45.300 vì giá mua tốt nhất chỉ 44.800. (3) R chờ mua 45.000. (4) S mua MP khớp 500 cổ phiếu với Q tại 45.300, Q còn 1.000. (5) T bán MP khớp 1.000 với R tại 45.000 rồi 1.500 với P tại 44.800, P còn 500 chờ mua. (6) U mua 45.500 ≥ giá bán tốt nhất 45.300 nên khớp 1.000 cổ phiếu còn lại của Q tại giá lệnh chờ 45.300; 200 cổ phiếu còn lại chờ mua tại 45.500. Bỏ qua lệnh của S cho kết quả 1.200 cổ phiếu; lấy giá đặt của U (45.500) là sai vì giá khớp là giá của lệnh đối ứng đã chờ trên sổ.",
 "basis": "Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Khớp lệnh liên tục: ưu tiên giá, thời gian; giá thực hiện là giá lệnh đối ứng đang chờ; lệnh thị trường (quy tắc giao dịch là giả định nêu trong đề)",
 "quote": "",
 "src": "",
