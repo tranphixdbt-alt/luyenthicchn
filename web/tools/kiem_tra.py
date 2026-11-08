@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "src"
 DOCS = ROOT.parent / "tai_lieu_phap_ly"
-FILES = ["luat_1.json", "luat_2.json", "luat_3.json", "luat_4.json", "luat_5.json", "luat_6.json", "cm_1.json", "cm_2.json", "cm_3.json", "cm_4.json", "cm_5.json", "cm_6.json", "cm_7.json", "cm_8.json", "cm_9.json", "cm_10.json", "cm_11.json", "cm_12.json", "cm_13.json", "cm_14.json", "cm_15.json"]
+FILES = ["luat_1.json", "luat_2.json", "luat_3.json", "luat_4.json", "luat_5.json", "luat_6.json", "cm_1.json", "cm_2.json", "cm_3.json", "cm_4.json", "cm_5.json", "cm_6.json", "cm_7.json", "cm_8.json", "cm_9.json", "cm_10.json", "cm_11.json", "cm_12.json", "cm_13.json", "cm_14.json", "cm_15.json", "cm_16.json"]
 SUBJ = {"LU", "CB", "PT", "MG", "BC", "BL", "QU", "PS"}
 REF = re.compile(r"(\b[A-Da-d]\s*(và|,|&)\s*[A-Da-d]\b)|tất cả (các )?(phương án|đáp án|ý|câu) (trên|đều)|cả (hai|ba|bốn) (phương án|ý|đáp án)|không (có )?(phương án|đáp án|ý|câu) nào", re.I)
 LETTER_IN_E = re.compile(r"(phương án|đáp án|chọn|câu)\s+[A-D]\b")
