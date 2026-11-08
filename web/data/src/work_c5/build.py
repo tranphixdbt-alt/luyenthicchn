@@ -507,13 +507,13 @@ target = [10, 10, 10, 10]
 need = [t - c for t, c in zip(target, cnt)]
 assert min(need) >= 0, (cnt, need)
 free = [i for i in range(len(Q)) if pos[i] is None]
-for seed in range(2026, 5000):  # seed đầu tiên không tạo chuỗi >= 3 đáp án trùng vị trí liên tiếp
+for seed in range(2026, 5000):  # seed đầu tiên không tạo chuỗi >= 4 đáp án trùng vị trí liên tiếp
     pool = [p for p in range(4) for _ in range(need[p])]
     random.Random(seed).shuffle(pool)
     trial = pos[:]
     for i, p in zip(free, pool):
         trial[i] = p
-    if all(len(set(trial[k:k + 3])) > 1 for k in range(len(trial) - 2)):
+    if all(len(set(trial[k:k + 4])) > 1 for k in range(len(trial) - 3)):
         break
 else:
     raise SystemExit('no seed')
