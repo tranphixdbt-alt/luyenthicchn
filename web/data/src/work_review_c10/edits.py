@@ -22,7 +22,7 @@ E["C10-004"] = dict(
     basis=GT + " – Ứng xử với khách hàng theo phong cách hành vi (khách hàng coi trọng quy trình, thủ tục, thông tin chi tiết)")
 
 E["C10-005"] = dict(
-    q="Một khách hàng thích chi phối cuộc trao đổi, muốn áp đặt quan điểm của mình, ra quyết định nhanh và không kiên nhẫn nghe giải thích dài dòng. Cách ứng xử phù hợp nhất của nhân viên môi giới là:",
+    q="Một khách hàng thích chi phối cuộc trao đổi, muốn áp đặt quan điểm của mình, ra quyết định nhanh và thiếu kiên nhẫn khi nghe giải thích dài dòng. Cách ứng xử phù hợp nhất của nhân viên môi giới là:",
     o=["Im lặng, nhượng bộ mọi ý kiến và làm đúng theo ý khách hàng để tránh làm khách hàng phật ý",
        "Tranh luận trực diện đến cùng để khách hàng thấy rõ chuyên môn và vị thế của nhân viên môi giới",
        "Tôn trọng, lắng nghe nhưng tự tin nêu quan điểm có căn cứ, trình bày ngắn gọn, đi thẳng vào vấn đề",
@@ -45,7 +45,7 @@ E["C10-009"] = dict(
 
 E["C10-010"] = dict(o={3: "Mục tiêu, ràng buộc đầu tư xác định rõ theo chức năng, điều lệ và quy định áp dụng"})
 
-E["C10-011"] = dict(o={0: "Công khai mối quan hệ, cơ chế hoa hồng và chỉ giới thiệu khi sản phẩm phù hợp khách hàng",
+E["C10-011"] = dict(o={0: "Công khai mối quan hệ, cơ chế hoa hồng và chỉ giới thiệu khi sản phẩm phù hợp với khách hàng",
                        1: "Ưu tiên giới thiệu sản phẩm cùng tập đoàn cho mọi khách hàng vì nhân viên hiểu rõ hơn",
                        3: "Chỉ giới thiệu sản phẩm cùng tập đoàn cho những khách hàng có khẩu vị rủi ro cao"})
 
@@ -96,11 +96,16 @@ E["C11-006"] = dict(
     src="TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt")
 
 E["C11-007"] = dict(
-    q="Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K giá 30.000 đồng trên tài khoản giao dịch ký quỹ, dùng 42.000.000 đồng vốn tự có, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K vào ngày giao dịch thứ nhất, thứ hai và thứ ba lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử: tài khoản chỉ có số cổ phiếu K và khoản vay này, không nộp, rút tiền hay mua bán thêm; giá trị thị trường hiện hành của chứng khoán trong mỗi ngày tính theo giá đóng cửa của ngày giao dịch liền trước; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ; bỏ qua lãi vay và phí. Giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
+    q="Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K giá 30.000 đồng trên tài khoản giao dịch ký quỹ, dùng 42.000.000 đồng vốn tự có, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K vào ngày giao dịch thứ nhất, thứ hai và thứ ba lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử: tài khoản chỉ có số cổ phiếu K và khoản vay này, trong ba ngày khách hàng chưa nộp, rút tiền hay mua bán thêm; giá trị thị trường hiện hành của chứng khoán trong mỗi ngày tính theo giá đóng cửa của ngày giao dịch liền trước; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ; bỏ qua lãi vay và phí. Giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
     o=["37.000.000 đồng", "45.000.000 đồng", "42.000.000 đồng", "40.000.000 đồng"],
     a=3,
     e="Dư nợ = 2.000 × 30.000 − 42.000.000 = 60.000.000 − 42.000.000 = 18.000.000 đồng (không đổi vì bỏ qua lãi). Ngày thứ ba dùng giá đóng cửa ngày thứ hai: giá trị thị trường hiện hành = 2.000 × 29.000 = 58.000.000 đồng ⇒ giá trị chứng khoán thực có = 58.000.000 − 18.000.000 = 40.000.000 đồng. Lỗi thường gặp: dùng giá đóng cửa của chính ngày thứ ba (2.000 × 27.500 − 18.000.000 = 37.000.000), dùng giá đóng cửa ngày thứ nhất – tức kết quả của ngày thứ hai (2.000 × 31.500 − 18.000.000 = 45.000.000), dùng giá mua (60.000.000 − 18.000.000 = 42.000.000).",
     basis=GT + " – Giá trị thị trường hiện hành, dư nợ và giá trị chứng khoán thực có trên tài khoản ký quỹ (quy ước định giá nêu trong đề)")
+
+E["C11-008"] = dict(
+    q="Công ty chứng khoán trả cho nhân viên môi giới lương cố định 6,3 triệu đồng/tháng (12 tháng/năm). Một năm có 252 ngày làm việc; mỗi ngày nhân viên dự kiến thực hiện 120 cuộc điện thoại tìm kiếm khách hàng (bỏ qua cước điện thoại). Giả sử toàn bộ chi phí lương trong năm được phân bổ đều cho các cuộc gọi này, giá trị (chi phí lương) của một cuộc gọi tìm kiếm khách hàng là")
+
+E["C11-008"]["e"] = "Lương năm = 6,3 triệu × 12 = 75.600.000 đồng; số cuộc gọi/năm = 252 × 120 = 30.240 ⇒ giá trị một cuộc gọi = 75.600.000/30.240 = 2.500 đồng. Con số này giúp nhân viên môi giới ý thức chi phí thời gian, sàng lọc danh sách gọi và đo hiệu quả tìm kiếm khách hàng. Lỗi thường gặp: chia cho 365 ngày lịch (75.600.000/43.800 ≈ 1.726), lấy lương một tháng chia số cuộc gọi cả năm (6.300.000/30.240 ≈ 208), nhầm sang chi phí lương một ngày (75.600.000/252 = 300.000)."
 
 FILES = {"cm_10.json": "cm_10.orig.json", "cm_11.json": "cm_11.orig.json"}
 used = set()

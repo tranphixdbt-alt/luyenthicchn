@@ -125,7 +125,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K giá 30.000 đồng trên tài khoản giao dịch ký quỹ, dùng 42.000.000 đồng vốn tự có, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K vào ngày giao dịch thứ nhất, thứ hai và thứ ba lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử: tài khoản chỉ có số cổ phiếu K và khoản vay này, không nộp, rút tiền hay mua bán thêm; giá trị thị trường hiện hành của chứng khoán trong mỗi ngày tính theo giá đóng cửa của ngày giao dịch liền trước; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ; bỏ qua lãi vay và phí. Giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
+  "q": "Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K giá 30.000 đồng trên tài khoản giao dịch ký quỹ, dùng 42.000.000 đồng vốn tự có, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K vào ngày giao dịch thứ nhất, thứ hai và thứ ba lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử: tài khoản chỉ có số cổ phiếu K và khoản vay này, trong ba ngày khách hàng chưa nộp, rút tiền hay mua bán thêm; giá trị thị trường hiện hành của chứng khoán trong mỗi ngày tính theo giá đóng cửa của ngày giao dịch liền trước; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ; bỏ qua lãi vay và phí. Giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
   "o": [
    "37.000.000 đồng",
    "45.000.000 đồng",
@@ -145,7 +145,7 @@
   "subject": "MG",
   "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
   "level": 3,
-  "q": "Công ty chứng khoán trả cho nhân viên môi giới lương cố định 6,3 triệu đồng/tháng (12 tháng/năm). Một năm có 252 ngày làm việc; mỗi ngày nhân viên dự kiến thực hiện 120 cuộc điện thoại tìm kiếm khách hàng (không tính cước điện thoại). Giá trị (chi phí lương) của một cuộc gọi tìm kiếm khách hàng là",
+  "q": "Công ty chứng khoán trả cho nhân viên môi giới lương cố định 6,3 triệu đồng/tháng (12 tháng/năm). Một năm có 252 ngày làm việc; mỗi ngày nhân viên dự kiến thực hiện 120 cuộc điện thoại tìm kiếm khách hàng (bỏ qua cước điện thoại). Giả sử toàn bộ chi phí lương trong năm được phân bổ đều cho các cuộc gọi này, giá trị (chi phí lương) của một cuộc gọi tìm kiếm khách hàng là",
   "o": [
    "1.726 đồng",
    "2.500 đồng",
@@ -153,7 +153,7 @@
    "300.000 đồng"
   ],
   "a": 1,
-  "e": "Lương năm = 6,3 triệu × 12 = 75.600.000 đồng; số cuộc gọi/năm = 252 × 120 = 30.240 ⇒ giá trị một cuộc gọi = 75.600.000/30.240 = 2.500 đồng. Con số này giúp nhân viên môi giới ý thức chi phí thời gian, sàng lọc danh sách gọi và đo hiệu quả tìm kiếm khách hàng. Lỗi thường gặp: chia cho 365 ngày lịch (1.726), lấy lương một tháng chia số cuộc gọi cả năm (208), chỉ tính chi phí lương một ngày (300.000).",
+  "e": "Lương năm = 6,3 triệu × 12 = 75.600.000 đồng; số cuộc gọi/năm = 252 × 120 = 30.240 ⇒ giá trị một cuộc gọi = 75.600.000/30.240 = 2.500 đồng. Con số này giúp nhân viên môi giới ý thức chi phí thời gian, sàng lọc danh sách gọi và đo hiệu quả tìm kiếm khách hàng. Lỗi thường gặp: chia cho 365 ngày lịch (75.600.000/43.800 ≈ 1.726), lấy lương một tháng chia số cuộc gọi cả năm (6.300.000/30.240 ≈ 208), nhầm sang chi phí lương một ngày (75.600.000/252 = 300.000).",
   "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị một cuộc gọi trong kế hoạch tìm kiếm khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
