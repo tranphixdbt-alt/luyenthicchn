@@ -1,0 +1,547 @@
+Nguồn: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&dDocName=APPSSCGOVVN1620149832&dID=154915 (Cổng TTĐT UBCKNN – Kết luận thanh tra số 109/KL-TT ngày 08/11/2024 tại CTCP Chứng khoán SmartInvest) — truy xuất 2026-11-08
+     Ngày 08/11/2024, Thanh tra Ủy ban Chứng khoán Nhà nước (UBCKNN)
+ban hành Kết luận thanh tra số 109/KL-TT về việc thanh tra tại Công ty cổ phần
+chứng khoán SmartInvest, toàn văn Kết luận thanh tra như sau:
+     1. Khái quát chung
+     Công ty Cổ phần Chứng khoán SmartInvest (Công ty/AAS) tiền thân là Công
+ty Cổ phần Chứng khoán Gia Anh, sau đổi tên là Công ty Cổ phần Chứng khoán
+Hamico (10/03/2011), được Ủy ban Chứng khoán Nhà nước (UBCKNN) cấp
+phép thành lập theo Giấy phép số 38/UBCK-GPHĐKD ngày 26/12/2006 và các
+Giấy phép điều chỉnh.
+     Vốn điều lệ của Công ty tại thời điểm thanh tra là 2.299.995.210.000 đồng
+(theo Báo cáo tài chính (BCTC) bán niên năm 2024 đã soát xét).
+    Tại thời điểm thanh tra, các nghiệp vụ kinh doanh của Công ty được cấp
+phép bao gồm: Môi giới chứng khoán; Tự doanh chứng khoán; Bảo lãnh phát
+hành chứng khoán; Tư vấn và đầu tư chứng khoán.
+     Cơ cấu cổ đông: Theo danh sách người sở hữu chứng khoán gần nhất, cơ cấu
+cổ đông của Công ty gồm 5987 cổ đông cá nhân trong nước, 04 cổ đông tổ chức
+trong nước, 17 cổ đông cá nhân nước ngoài và 04 cổ đông tổ chức nước ngoài.
+     2. Kết quả kiểm tra, xác minh
+     2.1. Việc duy trì điều kiện cấp phép hoạt động
+     Công ty đáp ứng duy trì điều kiện cấp phép hoạt động về cơ sở vật chất, vốn
+điều lệ tối thiểu và nhân sự theo quy định tại khoản 4 và khoản 5 Điều 74, điểm a
+khoản 1 Điều 85 Luật Chứng khoán, Điều 175 Nghị định số 155/2020/NĐ-CP
+ngày 31/12/2020 của Chính phủ quy định chi tiết thi hành một số điều của Luật
+Chứng khoán (Nghị định số 155/2020/NĐ-CP), điểm đ khoản 2 Điều 190 và
+khoản 2 Điều 191 Nghị định số 155/2020/NĐ-CP.
+     2.2. Hoạt động tự doanh chứng khoán
+     2.2.1. Quy trình nghiệp vụ tự doanh
+    Công ty ban hành các Quy trình liên quan đến nghiệp vụ tự doanh chứng
+khoán.
+     2.2.2. Hoạt động tự doanh
+     Hoạt động tự doanh của Công ty bao gồm: Tự doanh chứng khoán niêm yết
+và chưa niêm yết, chứng chỉ quỹ niêm yết; Tự doanh trái phiếu và cổ phiếu lẻ. Kết
+quả kiểm tra chọn mẫu cho thấy, tại thời điểm thanh tra, Công ty về cơ bản tuân
+thủ quy định về tỷ lệ đầu tư theo quy định tại Điều 28 Thông tư số 121/2020/TT-
+BTC ngày 31/12/2020 của Bộ trưởng Bộ Tài chính quy định về hoạt động của
+công ty chứng khoán (Thông tư số 121/2020/TT-BTC).
+     2.3. Hoạt động môi giới chứng khoán
+                                        2
+
+
+     2.3.1. Quy trình hoạt động môi giới
+    Công ty ban hành các quy trình liên quan đến hoạt động môi giới chứng
+khoán.
+     2.3.2. Tình hình thực hiện
+    Đến ngày 11/07/2024, số lượng tài khoản giao dịch chứng khoán thông
+thường mở tại Công ty là 6.996 tài khoản.
+     Kết quả kiểm tra chọn mẫu đối với 20 tài khoản giao dịch thường cho thấy:
+     - Về việc ký hợp đồng mở tài khoản: Hợp đồng mở tài khoản của Công ty ký
+với khách hàng đã bao gồm các nội dung quy định tại khoản 1 Điều 15 Thông tư
+số 121/2020/TT-BTC. Các hợp đồng mở tài khoản do Công ty cung cấp có đầy
+đủ chữ ký của các bên, số chứng minh thư nhân dân/căn cước công dân (đối với
+khách hàng cá nhân), giấy phép đăng ký kinh doanh/giấy phép thành lập và hoạt
+động (đối với khách hàng tổ chức). Đối với hợp đồng mở tài khoản trực tuyến
+(theo phương thức EKYC), hợp đồng mở tài khoản có xác nhận của khách hàng,
+có thể hiện thông tin về thời gian xác nhận, mã xác nhận và số điện thoại xác nhận,
+hồ sơ của khách hàng được Công ty lưu giữ bản PDF và dữ liệu điện tử.
+      - Về việc nhận lệnh, thực hiện lệnh và lưu giữ các bằng chứng đặt lệnh: Kết
+quả kiểm tra chọn mẫu một số thời điểm đặt lệnh của một số tài khoản cho thấy,
+tại thời điểm đặt lệnh (ngày T0) khách hàng có đủ tiền trên tài khoản giao dịch
+chứng khoán và Công ty đã lưu giữ bằng chứng đặt lệnh của khách hàng.
+     2.3.3. Về việc quản lý tiền gửi giao dịch chứng khoán của khách hàng
+    a) Đối với trường hợp khách hàng mở tài khoản trực tiếp tại ngân hàng
+thương mại do công ty chứng khoán lựa chọn để quản lý tiền giao dịch chứng
+khoán
+     Công ty đã ký Hợp đồng sử dụng dịch vụ BIDV@Securities số
+0112022/HĐDV ngày 07/09/2022 với Ngân hàng TMCP Đầu tư và Phát triển Việt
+Nam – Chi nhánh Nam Kỳ Khởi Nghĩa về việc quản lý tài khoản tiền gửi nhà đầu
+tư phục vụ cho các giao dịch chứng khoán trong trường hợp khách hàng mở tài
+khoản trực tiếp tại ngân hàng. Theo báo cáo của Công ty, đến thời điểm
+11/07/2024, Công ty không có khách hàng sử dụng dịch vụ này.
+     b) Đối với trường hợp quản lý tiền giao dịch chứng khoán của khách hàng
+theo tài khoản chuyên dụng của Công ty chứng khoán mở tại ngân hàng thương
+mại
+      Công ty mở 29 tài khoản chuyên dụng tại 11 ngân hàng thương mại để quản
+lý tiền gửi giao dịch chứng khoán của nhà đầu tư, trong đó có 26 tài khoản chuyên
+dụng tại ngân hàng thương mại để quản lý tiền gửi giao dịch chứng khoán của
+khách hàng theo phương thức công ty chứng khoán quản lý, 03 tài khoản tiền gửi
+tổng hợp giao dịch chứng khoán cho khách hàng.
+                                        3
+
+
+      Kết quả kiểm tra chọn mẫu cho thấy, trong thời kỳ thanh tra, tại một số thời
+điểm, Công ty không thực hiện quản lý tách bạch tài khoản chuyên dụng của khách
+hàng và tài khoản thanh toán của Công ty, vi phạm quy định về quản lý tách bạch
+tiền của khách hàng với tiền của công ty chứng khoán tại khoản 1 Điều 17 Thông
+tư số 121/2020/TT-BTC.
+     2.4. Hoạt động bảo lãnh phát hành chứng khoán
+     Công ty ban hành Quy trình nghiệp vụ bảo lãnh phát hành chứng khoán.
+     Trong thời kỳ thanh tra, Công ty báo cáo không phát sinh hoạt động bảo lãnh
+phát hành chứng khoán.
+     2.5. Hoạt động tư vấn đầu tư chứng khoán
+     Công ty đã ban hành Quy trình Tư vấn đầu tư chứng khoán. Trong thời kỳ
+thanh tra, Công ty đã ký kết 06 Hợp đồng tư vấn đầu tư chứng khoán với các cá
+nhân vào cuối năm 2021, các hợp đồng được thanh lý và thu phí vào năm 2022.
+Theo Hợp đồng tư vấn đầu tư chứng khoán được ký giữa Công ty và khách hàng,
+Công ty được hưởng phí (được thanh toán từ khách hàng) từ việc Công ty phối
+hợp với tổ chức tín dụng là Ngân hàng TMCP Đầu tư và Phát triển Việt Nam –
+Chi nhánh Hà Thành (BIDV Hà Thành) cung cấp dịch vụ cho khách hàng vay tiền
+mua chứng khoán (chi tiết tại mục 2.10.1).
+     2.6. Dịch vụ tư vấn tài chính
+     Công ty ban hành các quy trình liên quan đến hoạt động tư vấn tài chính.
+      Trong thời kỳ thanh tra, Công ty đã ký 15 Hợp đồng tư vấn tài chính với
+khách hàng. Kết quả kiểm tra chọn mẫu một số hợp đồng cung cấp dịch vụ tư vấn
+tài chính cho thấy, hoạt động cung cấp dịch vụ tư vấn của Công ty cơ bản được
+thực hiện phù hợp với quy trình của Công ty và nội dung hợp đồng đã ký kết với
+khách hàng.
+    2.7. Hoạt động uỷ thác quản lý tài khoản giao dịch chứng khoán của nhà
+đầu tư cá nhân
+     Trong kỳ thanh tra, Công ty không phát sinh hoạt động này.
+     2.8. Hoạt động ứng trước tiền bán chứng khoán
+     Công ty đã ban hành Quy trình ứng trước tiền bán chứng khoán.
+     Công ty được UBCKNN chấp thuận cung cấp dịch vụ ứng trước tiền bán
+chứng khoán theo Quyết định số 790/QĐ-UBCK ngày 26/10/2022. Theo BCTC
+kiểm toán năm 2022, soát xét bán niên năm 2023, kiểm toán năm 2023 và soát xét
+bán niên năm 2024, số dư nợ ứng trước tiền bán của Công ty tại các thời điểm
+31/12/2022, 30/6/2023, 31/12/2023 và 30/6/2024 lần lượt là 217.258.762 đồng,
+259.350.918 đồng, 3.251.909.500 đồng và 5.828.804.498 đồng.
+     Theo BCTC năm 2022 được kiểm toán, Công ty có giao dịch cho vay ứng
+trước tiền bán giá trị 93.308.200.750 đồng với bên liên quan là Công ty cổ phần
+                                       4
+
+
+Đầu tư Sao Thăng Long (tổ chức có liên quan với ông Trần Minh Tuấn, thành
+viên Hội đồng quản trị (HĐQT) Công ty), vi phạm quy định về hạn chế cho vay
+tại khoản 3 Điều 27 Thông tư số 121/2020/TT-BTC.
+     2.9. Hoạt động giao dịch ký quỹ
+     2.9.1. Quy trình ban hành
+     Công ty đã ban hành Quy trình giao dịch ký quỹ chứng khoán.
+     2.9.2. Tình hình thực hiện
+     Kết quả kiểm tra chọn mẫu đối với 18 tài khoản giao dịch ký quỹ cho thấy:
+     a) Về việc mở tài khoản giao dịch ký quỹ
+    Công ty thực hiện ký hợp đồng mở tài khoản giao dịch ký quỹ với khách
+hàng theo quy định.
+     b) Về tuân thủ quy định hạn chế giao dịch ký quỹ
+      - Kết quả rà soát danh sách tài khoản giao dịch ký quỹ tại thời điểm
+11/07/2024 và danh sách các tài khoản của cổ đông lớn, cổ đông nội bộ và người
+có liên quan của Công ty cho thấy, Công ty mở tài khoản giao dịch ký quỹ đối với
+các đối tượng không được mở tài khoản giao dịch ký quỹ theo quy định tại điểm
+a khoản 4 Điều 13 Quy chế hướng dẫn giao dịch ký quỹ chứng khoán ban hành
+kèm theo Quyết định số 87/QĐ-UBCK ngày 25/01/2017 của Chủ tịch UBCKNN
+(Quyết định số 87/QĐ-UBCK) và khoản 8 Điều 9 Thông tư số 120/2020/TT-BTC
+ngày 31/12/2020 của Bộ trưởng Bộ Tài chính quy định giao dịch cổ phiếu niêm
+yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền
+có bảo đảm niêm yết trên hệ thống giao dịch chứng khoán (Thông tư số
+120/2020/TT-BTC).
+     - Công ty không đưa cổ phiếu của mình (mã chứng khoán: AAS) vào danh
+sách chứng khoán được phép giao dịch ký quỹ.
+     c) Về danh sách chứng khoán được phép giao dịch ký quỹ
+     Hàng tháng, Công ty lập và thông báo danh sách chứng khoán được phép
+giao dịch ký quỹ cho khách hàng. Công ty đã công bố danh sách cập nhật chứng
+khoán được phép giao dịch trên trang thông tin điện tử của Công ty.
+     Kết quả chọn mẫu danh mục chứng khoán được phép giao dịch ký quỹ tháng
+11/2022, tháng 6/2023, tháng 11/2023 và tháng 3/2024 của Công ty cho thấy, danh
+sách chứng khoán được phép giao dịch ký quỹ do Công ty công bố phù hợp với
+danh sách do 02 Sở giao dịch chứng khoán công bố.
+     Kết quả rà soát sao kê sổ lệnh đặt trên tài khoản giao dịch ký quỹ và sao kê
+giao dịch tiền của tài khoản ký quỹ của các tài khoản kiểm tra chọn mẫu cho thấy
+tại một số thời điểm, Công ty giải ngân cho khách hàng mua chứng khoán một số
+mã chứng khoán không nằm trong danh sách chứng khoán được phép giao dịch
+ký quỹ (cụ thể: giải ngân cho vay giao dịch ký quỹ đối với các mã chứng khoán
+                                        5
+
+
+HAG, MBS, YEG, AAS), vi phạm quy định tại điểm c khoản 1 và khoản 2 Điều
+10 Quyết định số 87/QĐ-UBCK và khoản 8 Điều 9 Thông tư số 120/2020/TT-
+BTC.
+     d) Về hạn mức cho vay giao dịch ký quỹ
+     - Kết quả kiểm tra tổng dư nợ giao dịch ký quỹ của Công ty tại các thời điểm
+30/06/2022, 31/12/2022, 30/6/2023, 31/12/2023, 30/6/2024 và 11/07/2024 cho
+thấy tổng dư nợ cho vay giao dịch ký quỹ của Công ty không vượt quá 200% vốn
+chủ sở hữu của Công ty.
+      - Kết quả kiểm tra dư nợ giao dịch ký quỹ của các tài khoản giao dịch ký quỹ
+tại các thời điểm 30/06/2022, 31/12/2022, 30/6/2023, 31/12/2023, 30/6/2024 và
+11/07/2024 thấy tổng mức cho vay giao dịch ký quỹ của Công ty đối với một
+khách hàng không vượt quá 3% vốn chủ sở hữu của Công ty.
+     - Kết quả kiểm tra chọn mẫu dư nợ đối với một số mã chứng khoán tại một
+số thời điểm (30/06/2022, 31/12/2022, 30/6/2023, 31/12/2023, 30/6/2024 và
+11/07/2024) có thực hiện giải ngân cho vay giao dịch ký quỹ lớn nhất, cho thấy,
+tổng dư nợ cho vay đối với một loại chứng khoán không vượt quá 10% vốn chủ
+sở hữu và tổng số chứng khoán cho vay giao dịch ký quỹ đối với một loại chứng
+khoán không vượt quá 5% khối lượng niêm yết.
+     e) Về tỷ lệ giao dịch ký quỹ
+    Kết quả kiểm tra chọn mẫu cho thấy Công ty giải ngân cho vay giao dịch ký
+quỹ không vượt quá sức mua trên tài khoản giao dịch ký quỹ của khách hàng và
+không có khoản vay có tỷ lệ ký quỹ xuống thấp hơn tỷ lệ ký quỹ duy trì 30%.
+     2.10. Hoạt động cung cấp dịch vụ khác
+    2.10.1. Hoạt động phối hợp với tổ chức tín dụng cho khách hàng vay tiền
+mua chứng khoán
+     Công ty, khách hàng và BIDV Hà Thành ký Hợp đồng tín dụng kiêm bảo
+đảm tiền vay giữa 03 bên; theo đó, Công ty đóng vai trò là Bên quản lý tài sản;
+khách hàng là bên vay; BIDV Hà Thành cấp cho khách hàng một hạn mức cho
+vay cụ thể để đầu tư, kinh doanh chứng khoán. Khoản tiền cho vay được sử dụng
+với mục đích bổ sung số tiền thiếu khi mua chứng khoán theo danh sách chứng
+khoán.
+     Trong thời kỳ thanh tra, Công ty và BIDV Hà Thành đã ký 06 hợp đồng tín
+dụng với 06 khách hàng với tổng số tiền giải ngân là 76.284.185.056 đồng. Theo
+báo cáo của Công ty, các hợp đồng đã được thanh lý (hợp đồng thanh lý muộn
+nhất vào ngày 26/12/2022).
+     Việc Công ty phối hợp với BIDV Hà Thành cung cấp dịch vụ cho khách
+hàng vay tiền mua chứng khoán khi chưa được UBCKNN chấp thuận là vi phạm
+quy định tại điểm e khoản 1 Điều 87 Luật Chứng khoán.
+                                        6
+
+
+     2.10.2. Hoạt động cung cấp dịch vụ tài chính theo hình thức Hợp đồng
+dịch vụ quản lý tài khoản giao dịch chứng khoán được ký kết giữa 03 bên (Công
+ty cổ phần đầu tư tài chính Sao Kim, Công ty và khách hàng)
+      Công ty, khách hàng và Công ty cổ phần đầu tư tài chính Sao Kim (Sao Kim)
+ký Hợp đồng 03 bên; theo đó, Công ty đóng vai trò là Bên quản lý tài khoản,
+khách hàng là bên vay và Sao Kim là bên cho vay; Sao Kim cho khách hàng vay
+tiền để mua chứng khoán và khách hàng sử dụng chứng khoán và các lợi ích vật
+chất phát sinh (tài sản đảm bảo) trong tài khoản giao dịch chứng khoán của khách
+hàng được mở tại Công ty để đảm bảo thanh toán cho các khoản vay, phí quản lý,
+các khoản thuế theo Hợp đồng 03 bên.
+     Trong thời kỳ thanh tra, Công ty đã thực hiện ký kết 22 hợp đồng 03 bên với
+22 khách hàng với tổng số tiền giải ngân là 79.042.488.401 đồng. Theo báo cáo
+của Công ty, các hợp đồng đã được thanh lý (hợp đồng thanh lý muộn nhất vào
+ngày 27/04/2023).
+      Việc Công ty phối hợp với Sao Kim cung cấp dịch vụ tài chính cho khách
+hàng vay tiền mua chứng khoán khi chưa báo cáo UBCKNN là vi phạm quy định
+tại khoản 5 Điều 86 Luật Chứng khoán.
+     2.10.3. Hoạt động cho vay tiền
+     a) Hợp đồng đặt cọc mua trái phiếu
+      Công ty và khách hàng ký Hợp đồng đặt cọc mua trái phiếu, theo đó Công
+ty là bên mua, khách hàng là bên bán, trường hợp hết thời hạn đặt cọc mà khách
+hàng không thực hiện giao dịch trái phiếu theo đúng yêu cầu của Công ty, Công
+ty sẽ được hoàn cọc và phí phạt.
+      Trong thời kỳ thanh tra, Công ty đã thực hiện ký các hợp đồng đặt cọc với
+cá nhân/tổ chức với mục đích mua trái phiếu (Công ty không cung cấp được số
+lượng và giá trị của các hợp đồng trong thời kỳ thanh tra). Theo báo cáo của Công
+ty tại thời điểm thanh tra, Công ty đã thanh lý các hợp đồng đặt cọc này. Tuy
+nhiên, Công ty không lưu trữ đầy đủ hồ sơ, chứng từ liên quan đến hoạt động kinh
+doanh của Công ty, vi phạm quy định tại khoản 7 Điều 89 Luật Chứng khoán.
+     Kết quả kiểm tra chọn mẫu 02 hợp đồng đặt cọc cho thấy, Công ty thực hiện
+đặt cọc toàn bộ giá trị hợp đồng nhưng không thực hiện mua bán mà giao tiền cho
+khách hàng trong thời gian nhất định theo thoả thuận và có hoàn trả gốc và phí, là
+hoạt động cho vay tiền, vi phạm quy định về hạn chế cho vay tại khoản 1 Điều 27
+Thông tư số 121/2020/TT-BTC.
+     2.10.4. Hoạt động khác
+     - Công ty cung cấp sản phẩm Tối ưu hóa nguồn vốn (sản phẩm MM) là sản
+phẩm giúp khách hàng tối ưu hóa nguồn tiền nhàn rỗi trên tài khoản chứng khoán
+trong ngắn hạn để hưởng lãi suất linh hoạt. Thời gian triển khai sản phẩm tối ưu
+hóa nguồn vốn là từ 03/10/2022. Theo báo cáo của Công ty tại Công văn số
+                                        7
+
+
+171/2024/CV-AAS ngày 28/06/2024 gửi UBCKNN và Báo cáo số dư sản phẩm
+tối ưu hóa nguồn vốn tại ngày 30/06/2024 do Công ty cung cấp, Công ty còn dư
+nợ với 126 hợp đồng, tổng giá trị dư nợ tại ngày 30/06/2024 là 28.499.299.418
+đồng. Việc Công ty cung cấp dịch vụ giúp khách hàng tối ưu hóa nguồn tiền nhàn
+rỗi trên tài khoản chứng khoán trong ngắn hạn để hưởng lãi suất linh hoạt (Sản phẩm
+Tối ưu hóa nguồn vốn – Sản phẩm MM) khi chưa báo cáo UBCKNN là vi phạm quy
+định tại khoản 5 Điều 86 Luật Chứng khoán.
+     - Ngoài các hợp đồng tối ưu hóa nguồn vốn chưa tất toán, Công ty đã ký hợp
+đồng vay tài sản với các tổ chức, cá nhân, trong đó chủ yếu là các khách hàng có
+tài khoản chứng khoán tại Công ty. Theo BCTC bán niên năm 2024 đã soát xét,
+tại thời điểm 30/06/2024, khoản mục vay ngắn hạn tổ chức, cá nhân là
+638.066.671.241 đồng (khoản mục này trên BCTC năm 2023 được kiểm toán là
+625.824.769.643 đồng). Theo tài liệu Công ty cung cấp đối với dư nợ
+638.066.671.241 đồng tại thời điểm 30/06/2024 bao gồm chủ yếu là dư nợ với các
+khách hàng mở tài khoản chứng khoán tại Công ty (114 khách hàng với tổng dư
+nợ 552.605.671.241 đồng).
+      Kết quả kiểm tra chọn mẫu sao kê của một số tài khoản chứng khoán của khách
+hàng ký kết hợp đồng vay tài sản cho thấy tại các ngày khách hàng giải ngân, Công
+ty không thực hiện trích chuyển tiền từ tài khoản chứng khoán của khách hàng đến
+tài khoản thanh toán của Công ty.
+     2.11. Việc chào bán/phát hành cổ phiếu
+     Trong thời kỳ thanh tra, Công ty có các đợt chào bán/phát hành cổ phiếu:
+Chào bán 80.000.000 cổ phiếu ra công chúng và phát hành 39.999.969 cổ phiếu
+để trả cổ tức năm 2021; phát hành 29.999.552 cổ phiếu để trả cổ tức năm 2022.
+     2.12. Việc chào bán trái phiếu doanh nghiệp riêng lẻ
+      Trong thời kỳ thanh tra, Công ty thực hiện 02 đợt chào bán trái phiếu doanh
+nghiệp riêng lẻ (TPDNRL). Đối với đợt phát TPDNRL trị giá 300.000 triệu đồng
+mã AASH2227001, HĐQT Công ty đã có Nghị quyết số 01/2022/NQ-HĐQT
+ngày 11/01/2022 phê duyệt mục đích phát hành: Bổ sung vốn lưu động để thực
+hiện các nghiệp vụ kinh doanh của tổ chức phát hành. Tại Báo cáo tình hình sử
+dụng vốn từ đợt phát hành trái phiếu bán niên năm 2022 công bố thông tin (CBTT)
+trên Sở giao dịch chứng khoán Hà Nội (HNX), Công ty báo cáo số tiền 127.988
+triệu đồng được sử dụng tăng quy mô vốn cho "Hoạt động đầu tư". Tuy nhiên, tại
+Báo cáo tình hình sử dụng vốn năm 2022, năm 2023 được kiểm toán và bán niên
+năm 2023 được soát xét, Công ty báo cáo số tiền 127.988 triệu đồng được sử dụng
+cho mục đích tăng quy mô vốn cho "Hoạt động kinh doanh khác theo quy định
+của pháp luật chuyên ngành".
+      Ngày 23/08/2024, Công ty đã thực hiện đính chính Báo cáo tình hình sử
+dụng vốn từ đợt phát hành trái phiếu bán niên năm 2022 theo ý kiến của đơn vị
+                                       8
+
+
+kiểm toán, theo đó Công ty đã đính chính số tiền 127.988 triệu đồng được sử dụng
+cho mục đích tăng quy mô vốn cho " Hoạt động kinh doanh khác theo quy định
+của pháp luật chuyên ngành ".
+      Công ty đã CBTT sai lệch về tình hình sử dụng vốn tại Báo cáo tình hình sử
+dụng vốn từ đợt phát hành trái phiếu bán niên năm 2022, vi phạm quy định về
+nguyên tắc CBTT tại khoản 1 Điều 18 Nghị định số 153/2020/NĐ-CP ngày
+31/12/2020 của Chính phủ quy định về chào bán, giao dịch trái phiếu doanh
+nghiệp riêng lẻ tại thị trường trong nước và chào bán trái phiếu doanh nghiệp ra
+thị trường quốc tế (Nghị định số 153/2020/NĐ-CP).
+     2.13. Hoạt động kiểm toán nội bộ, kiểm soát nội bộ và quản trị rủi ro
+     2.13.1. Hoạt động kiểm toán nội bộ
+     Công ty đã ban hành Quy trình kiểm toán nội bộ, tuy nhiên Quy trình kiểm
+toán nội bộ của Công ty chưa cập nhật căn cứ ban hành theo các văn bản pháp
+luật mới có hiệu lực thi hành.
+     Công ty bổ nhiệm bà Lê Thị Minh Khai (bà Khai) là người phụ trách Kiểm
+toán nội bộ của Công ty kể từ ngày 05/11/2021 theo Quyết định số 2511/2021/QĐ-
+TGĐ ngày 05/11/2021. Bà Khai hiện đang làm việc tại Công ty cổ phần quản lý
+quỹ SGI và là cộng tác viên hỗ trợ các công việc ở Phòng Kiểm toán nội bộ của
+Công ty theo Hợp đồng cộng tác viên có thời hạn từ ngày 05/11/2021 đến ngày
+31/12/2024.
+    Công ty đã có Báo cáo kiểm toán nội bộ các năm 2022, 2023. Tuy nhiên,
+Công ty chưa cung cấp được các tài liệu, bằng chứng về việc tiến hành các cuộc
+kiểm toán nội bộ theo Quy trình kiểm toán nội bộ và Báo cáo kiểm toán nội bộ
+hàng năm của Công ty.
+    Công ty cơ bản chưa duy trì hoạt động kiểm toán nội bộ trong hoạt động kinh
+doanh theo đúng quy trình của Công ty; không đảm bảo cơ cấu nhân sự tại bộ
+phận kiểm toán nội bộ theo quy định tại khoản 4 Điều 9 Thông tư số 121/2020/TT-
+BTC.
+     2.13.2 Hoạt động kiểm soát nội bộ
+      Công ty đã ban hành Quy trình kiểm soát nội bộ, tuy nhiên, nội dung quy
+trình kiểm soát nội bộ chưa có các quy định, cách thức giám sát thường xuyên đối
+với việc tuân thủ quy định pháp luật, giám sát thực thi các quy định nội bộ của
+từng bộ phận nghiệp vụ, hoạt động kinh doanh, người hành nghề chứng khoán và
+các nhiệm vụ kiểm soát khác theo quy định tại Điều 12 Thông tư số 121/2020/TT-
+BTC.
+      Tại thời điểm thanh tra, nhân sự bộ phận kiểm soát nội bộ có 01 người là bà
+Phạm Thị Nhài đáp ứng điều kiện làm nhân viên kiểm soát nội bộ theo quy định
+tại khoản 4 Điều 12 Thông tư số 121/2020/TT-BTC.
+                                         9
+
+
+     Trong thời kỳ thanh tra, Công ty bố trí một số nhân sự không đáp ứng điều
+kiện làm nhân sự kiểm soát nội bộ, cụ thể:
+    - Từ ngày 01/04/2021 đến ngày 03/10/2022: ông Nguyễn Trường Sơn là Phó
+Tổng giám đốc công ty kiêm Trưởng phòng Kiểm soát nội bộ;
+    - Từ ngày 25/04/2022 đến ngày 15/07/2022, bà Phạm Thị Hiền (bà Hiền)
+được bổ nhiệm là chuyên viên Phòng Kiểm soát nội bộ. Từ ngày 01/10/2023 đến
+ngày 02/01/2024, bà Dương Thị Nhật Lệ (bà Lệ) được bổ nhiệm là chuyên viên
+Phòng Kiểm soát nội bộ. Trong thời gian làm kiểm soát nội bộ, Bà Hiền và Bà Lệ
+chưa có chứng chỉ Những vấn đề cơ bản về chứng khoán và thị trường chứng
+khoán và Chứng chỉ Pháp luật về chứng khoán và thị trường chứng khoán.
+     Trong thời kỳ thanh tra, Báo cáo công tác kiểm soát nội bộ các năm 2022,
+2023 của Công ty không có chữ ký của nhân viên phụ trách kiểm soát nội bộ theo
+Quy trình kiểm soát nội bộ của Công ty. Công ty chưa cung cấp được các tài liệu
+về việc thực hiện các hoạt động kiểm soát nội bộ định kỳ và kiểm soát đột xuất
+theo chuyên đề theo Quy trình kiểm soát nội bộ của Công ty và báo cáo kiểm soát
+nội bộ hàng năm. Nội dung các báo cáo kiểm soát nội bộ chưa đưa ra các kiến
+nghị về các rủi ro, các vấn đề vướng mắc, tồn đọng tại các bộ phận nghiệp vụ và
+đề xuất phương án cải tiến như nội dung Quy trình kiểm soát nội bộ của Công ty
+đã nêu.
+     Công ty cơ bản chưa duy trì hoạt động kiểm soát nội bộ trong hoạt động kinh
+doanh theo đúng quy trình của Công ty; bố trí nhân sự kiểm soát nội bộ chưa đáp
+ứng tiêu chuẩn nhân sự kiểm soát nội bộ theo quy định tại khoản 4 Điều 12 Thông
+tư số 121/2020/TT-BTC.
+      2.13.3 Hoạt động quản trị rủi ro
+      Công ty đã xây dựng Quy trình quản trị rủi ro. Nội dung quy trình chưa đảm
+bảo các nội dung tối thiểu theo quy định tại Điều 11 Thông tư số 121/2020/TT-
+BTC và Quyết định số 105/QĐ-UBCK ngày 26/02/2013 của Chủ tịch UBCKNN
+về việc ban hành Quy chế hướng dẫn việc thiết lập và vận hành hệ thống quản trị
+rủi ro cho công ty chứng khoán.
+      Công ty bổ nhiệm bà Lê Thị Hòa là người phụ trách quản trị rủi ro của Công
+ty.
+      Trong thời kỳ thanh tra, Công ty đã gửi báo cáo năm, 6 tháng về hoạt động
+quản trị rủi ro (Báo cáo quản trị rủi ro bán niên năm 2022, năm 2023, năm 2024
+và Báo cáo quản trị rủi ro năm 2022, năm 2023) theo quy định tại khoản 4 Điều
+29 Thông tư số 121/2020/TT-BTC. Báo cáo quản trị rủi ro của Công ty được lập
+theo mẫu quy định.
+      2.14. Về quản trị công ty
+      Công ty ban hành các văn bản liên quan đến quản trị công ty:
+                                      10
+
+
+     - Điều lệ Công ty về cơ bản được xây dựng theo mẫu quy định tại Thông tư
+116/2020/TT-BTC ngày 31/12/2020 của Bộ trưởng Bộ Tài chính hướng dẫn một
+số điều về quản trị công ty áp dụng đối với công ty đại chúng tại Nghị định số
+155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ quy định chi tiết thi hành một
+số điều của Luật Chứng khoán (Thông tư số 116/2020/TT-BTC).
+    - Quy chế nội bộ về quản trị công ty: Công ty có Quy chế nội bộ về quản trị
+công ty ban hành kèm theo Nghị quyết số 01/2021/AAS/NQ-ĐHĐCĐ ngày
+23/04/2021 của ĐHĐCĐ, sửa đổi và bổ sung theo Nghị quyết số
+01/2023/AAS/NQ-ĐHĐCĐ ngày 12/06/2023. Quy chế nội bộ về quản trị công ty
+của Công ty cơ bản được xây dựng theo mẫu tại Phụ lục II ban hành kèm theo
+Thông tư số 116/2020/TT-BTC.
+     - Quy chế hoạt động của HĐQT: Công ty có Quy chế hoạt động của HĐQT
+thông qua tại Nghị quyết số 01/2021/AAS/NQ-ĐHĐCĐ ngày 23/04/2021 của
+ĐHĐCĐ, sửa đổi và bổ sung theo Nghị quyết số 01/2023/AAS/NQ-ĐHĐCĐ ngày
+12/06/2023. Quy chế hoạt động của HĐQT của Công ty cơ bản được xây dựng
+theo mẫu tại Phụ lục III ban hành kèm theo Thông tư số 116/2020/TT-BTC.
+    - Quy chế hoạt động của Ban Kiểm soát (BKS): Công ty có Quy chế hoạt
+động của Ban kiểm soát thông qua tại Nghị quyết số 01/2021/AAS/NQ-ĐHĐCĐ
+ngày 23/04/2021 của ĐHĐCĐ. Quy chế hoạt động của BKS cơ bản được xây
+dựng theo mẫu tại Phụ lục IV ban hành kèm theo Thông tư số 116/2020/TT-BTC.
+     Tại thời điểm thanh tra, HĐQT Công ty có 05 thành viên, trong đó có 01
+thành viên độc lập và 01 thành viên không điều hành, đáp ứng quy định tại Điều
+276 Nghị định số 155/2020/NĐ-CP.
+      Theo các Báo cáo tình hình quản trị công ty năm 2022 và 2023, HĐQT Công
+ty tổ chức tổng cộng 55 cuộc họp (năm 2022: 30 cuộc họp và năm 2023: 25 cuộc
+họp); theo sổ theo dõi danh sách cuộc họp HĐQT của Công ty, từ ngày 01/01/2024
+đến ngày 11/07/2024, Công ty đã tổ chức 07 cuộc họp, đảm bảo số lượng cuộc
+họp thực hiện tối thiểu mỗi quý một lần theo quy định tại khoản 2 Điều 157 Luật
+Doanh nghiệp 2020, điểm c khoản 3 Điều 41 Luật Chứng khoán và khoản 1 Điều
+279 Nghị định số 155/2020/NĐ-CP.
+     Công ty lưu giữ các Nghị quyết, Biên bản và tài liệu họp HĐQT tại trụ sở
+Công ty theo quy định tại khoản 4 Điều 158 Luật Doanh nghiệp, Điều 279 Nghị
+định số 155/2020/NĐ-CP, khoản 4 Điều 17 Thông tư số 116/2020/TT-BTC.
+    Trong thời kỳ thanh tra, Công ty tổ chức 03 cuộc họp Đại hội đồng cổ đông
+thường niên năm 2022, 2023 và 2024.
+    2.15. Hoạt động phòng, chống rửa tiền
+     Công ty đã ban hành Quy định về phòng, chống rửa tiền theo quy định. Tuy
+nhiên, nội dung Quy định chưa quy định về chế độ báo cáo, cung cấp thông tin
+cho Ngân hàng Nhà nước Việt Nam (NHNN) và các cơ quan nhà nước có thẩm
+quyền theo quy định tại khoản 1 Điều 24 Luật Phòng, chống rửa tiền và khoản 5
+                                        11
+
+
+Điều 5 Thông tư số 09/2023/TT-NHNN ngày 28/7/2023 của NHNN; chưa quy
+định mức giao dịch có giá trị lớn phải báo cáo theo Quyết định số 11/2023/QĐ-
+TTg ngày 27/4/2023 của Thủ tướng Chính phủ. Công ty cần lưu ý cập nhật thông
+tin về Giấy tờ nhận diện khách hàng là cá nhân Việt Nam theo số Căn cước công
+dân theo quy định tại Luật Căn cước.
+     Công ty chưa thực hiện đầy đủ trách nhiệm của đối tượng báo cáo về phòng,
+chống rửa tiền theo quy định tại khoản 10 Điều 5 Thông tư số 09/2023/TT-NHNN
+ngày 28/7/2023 của NHNN, chưa tuân thủ các quy định về phòng, chống rửa tiền
+theo các quy định pháp luật hiện hành theo quy định tại khoản 2 Điều 13 Thông
+tư số 121/2020/TT-BTC: Công ty chưa cung cấp được tài liệu về việc Đăng ký
+thông tin của người chịu trách nhiệm về phòng, chống rửa tiền cho NHNN. Công
+ty chưa gửi báo cáo kiểm toán nội bộ về phòng, chống rửa tiền hàng năm cho
+NHNN.
+     2.16. Về việc tuân thủ chế độ báo cáo, công bố thông tin
+     2.16.1 Về quy trình và tổ chức việc báo cáo, công bố thông tin
+     - Công ty đã ban hành Quy chế CBTT. Quy chế CBTT cần cập nhật nội dung
+theo Thông tư số 96/2020/TT-BTC ngày 16/11/2020 của Bộ Tài chính hướng dẫn
+CBTT trên thị trường chứng khoán (Thông tư số 96/2020/TT-BTC) và theo quy
+định pháp luật về hướng dẫn giao dịch điện tử theo quy định tại khoản 3 Điều 20
+Thông tư số 121/2020/TT-BTC.
+     - Công ty đã thiết lập trang thông tin điện tử (http://aas.com.vn) để thực hiện
+CBTT. Trang thông tin điện tử Công ty có chuyên mục riêng về quan hệ cổ đông
+(báo cáo thường niên, báo cáo tài chính, CBTT).
+     - Công ty đã đăng ký thực hiện báo cáo, CBTT trên Hệ thống quản lý công
+ty chứng khoán của UBCKNN (SCMS) và hệ thống CIMS của HNX.
+     - Trong giai đoạn thanh tra, Công ty đã đăng ký, báo cáo thay đổi người thực
+hiện CBTT theo quy định pháp luật về chứng khoán. Hiện tại, bà Nguyễn Thị Huề
+- nhân viên Công ty là người CBTT từ ngày 21/05/2024 theo Giấy ủy quyền thực
+hiện CBTT số 99/2024/GUQ-AAS ngày 21/5/2024.
+     2.16.2. Về nghĩa vụ báo cáo, công bố thông tin
+     Trong thời kỳ thanh tra, Công ty đã thực hiện nghĩa vụ báo cáo theo quy định
+tại Thông tư số 121/2020/TT-BTC, thực hiện CBTT (định kỳ, bất thường) theo
+quy định tại Thông tư số 96/2020/TT-BTC ngày 16/11/2020 của Bộ Tài chính
+hướng dẫn CBTT trên thị trường chứng khoán. Công ty báo cáo không đúng thời
+hạn theo quy định đối với Danh sách người hành nghề chứng khoán năm 2022
+theo quy định tại điểm d khoản 5 Điều 216 Nghị định số 155/2020/NĐ-CP, Báo
+cáo định kỳ của tổ chức tư vấn hồ sơ trái phiếu năm 2022 (Quý 4, Năm), năm
+2023 (Quý 1, Quý 2, Năm) theo quy định tại khoản 3 Điều 10 Thông tư số
+122/2020/TT-BTC ngày 31/12/2020 của Bộ trưởng Bộ Tài chính hướng dẫn chế
+độ CBTT và báo cáo theo quy định của Nghị định số 153/2020/NĐ-CP.
+                                        12
+
+
+     2.17. Các chỉ tiêu an toàn tài chính và tỷ lệ an toàn vốn khả dụng
+     2.17.1. Các chỉ tiêu về quản lý an toàn tài chính
+      Căn cứ BCTC năm 2022 đã kiểm toán, BCTC năm 2023 đã kiểm toán và
+BCTC bán niên năm 2024 đã soát xét của Công ty, các chỉ tiêu về quản lý an toàn
+tài chính như sau::
+      - Tỷ lệ Tổng nợ (sau điều chỉnh) trên Vốn chủ sở hữu của Công ty tại các
+thời điểm 31/12/2022, 31/12/2023 và 30/06/2024 lần lượt là 0,47 lần; 0,5 lần và
+0,5 lần, đáp ứng tỷ lệ theo quy định tại khoản 1 Điều 26 Thông tư số 121/2020/TT-
+BTC.
+     - Tỷ lệ nợ ngắn hạn trên tài sản ngắn hạn của Công ty tại các thời điểm
+31/12/2022, 31/12/2023 và 31/3/2024 lần lượt là 0,33 lần; 0,28 lần; 0,32 lần, đáp
+ứng tỷ lệ theo quy định tại khoản 2 Điều 26 Thông tư số 121/2020/TT-BTC.
+     2.17.2. Tỷ lệ an toàn tài chính
+      - Công ty đã lập và thực hiện báo cáo định kỳ với UBCKNN về tỷ lệ an toàn
+tài chính theo quy định tại Thông tư số 91/2020/TT-BTC ngày 13/11/2020 của
+Bộ trưởng Bộ Tài chính quy định chỉ tiêu an toàn tài chính và biện pháp xử lý đối
+với các tổ chức kinh doanh chứng khoán không đáp ứng các chỉ tiêu an toàn tài
+chính.
+      - Theo báo cáo của Công ty, tỷ lệ vốn khả dụng của Công ty tại các thời
+điểm 31/12/2022, 31/12/2023 và 30/6/2024 lần lượt là 232,13%; 294,45% và
+318,97%.
+     3. Kết luận
+    Trong thời kỳ thanh tra, Công ty còn có một số vi phạm, thiếu sót được nêu
+mục 2 Kết luận Thanh tra.
+     4. Các biện pháp xử lý theo thẩm quyền
+      Trong quá trình tiến hành thanh tra, Đoàn thanh tra đã yêu cầu Công ty có
+biện pháp chấn chỉnh, khắc phục vi phạm, tồn tại, thiếu sót; yêu cầu Công ty chấn
+chỉnh việc quản lý tiền gửi giao dịch chứng khoán của khách hàng, bảo đảm tuân
+thủ quy định về việc tách bạch tiền của khách hàng và Công ty; chấn chỉnh hoạt
+động giao dịch ký quỹ, đảm bảo thực hiện đúng quy định về mở tài khoản giao
+dịch ký quỹ, chứng khoán được phép giao dịch ký quỹ; tuân thủ quy định về hạn
+chế cho vay đối với công ty chứng khoán, hoạt động dịch vụ chứng khoán; tất
+toán các hợp đồng tối ưu hóa nguồn vốn; tuân thủ quy định về công tác kiểm toán
+nội bộ, kiểm soát nội bộ, quản trị rủi ro, hoạt động quản trị công ty; tuân thủ chặt
+chẽ quy định về báo cáo, công bố thông tin, công tác phòng chống rửa tiền, công
+tác lưu giữ hồ sơ tài liệu của Công ty theo quy định.
+     5. Kiến nghị biện pháp xử lý
+                                       13
+
+
+      5.1. Đối với các vi phạm của Công ty nêu tại mục 2 (Không thực hiện quản
+lý tách biệt tài sản của khách hàng với tài sản của công ty chứng khoán; Vi phạm
+quy định về mở tài khoản giao dịch ký quỹ; Vi phạm quy định về hạn chế giao
+dịch ký quỹ; Thực hiện dịch vụ quy định tại điểm b khoản 1 Điều 86 Luật Chứng
+khoán khi chưa được UBCKNN chấp thuận bằng văn bản; Cung cấp các dịch vụ
+chứng khoán hoặc dịch vụ khác phải báo cáo UBCKNN trước khi thực hiện nhưng
+chưa báo cáo UBCKNN hoặc khi chưa có ý kiến bằng văn bản của UBCKNN
+hoặc chưa có quy định hướng dẫn của cơ quan nhà nước có thẩm quyền; Vi phạm
+quy định về hạn chế cho vay; Không lưu giữ đầy đủ hồ sơ, dữ liệu, tài liệu, chứng
+từ liên quan đến hoạt động của công ty chứng khoán; CBTT sai lệch; Không đảm
+bảo cơ cấu nhân sự tại bộ phận kiểm soát nội bộ, kiểm toán nội bộ hoặc không
+đảm bảo cơ cấu nhân sự đáp ứng điều kiện; Không báo cáo đối với thông tin phải
+báo cáo theo quy định pháp luật), Thanh tra UBCKNN kiến nghị UBCKNN xem
+xét xử phạt vi phạm hành chính theo quy định pháp luật.
+     5.2. Thanh tra UBCKNN đề nghị Công ty khẩn trương có biện pháp chấn
+chỉnh, khắc phục các tồn tại, thiếu sót sau thanh tra, cụ thể như sau:
+     - Rà soát việc quản lý tiền gửi giao dịch chứng khoán của khách hàng, đảm
+bảo quản lý tách bạch tiền gửi giao dịch chứng khoản giữa các khách hàng và giữa
+khách hàng và Công ty;
+     - Dừng việc phối hợp với tổ chức tín dụng cung cấp dịch vụ cho khách hàng
+vay tiền mua chứng khoán;
+     - Không được cho vay dưới bất kỳ hình thức nào đối với các đối tượng không
+được phép cho vay; không được cho vay tiền dưới mọi hình thức, trừ trường hợp
+quy định tại Khoản 1 Điều 86 Luật Chứng khoán.
+     - Không được mở tài khoản giao dịch ký quỹ đối với các đối tượng không
+được mở tài khoản giao dịch ký quỹ; không được cho vay giao dịch ký quỹ đối
+với mã chứng khoán không được phép giao dịch ký quỹ.
+     - Rà soát, tất toán toàn bộ các hợp đồng phối hợp với Sao Kim cung cấp dịch
+vụ tài chính cho khách hàng vay tiền mua chứng khoán; tất toán các khoản huy
+động tiền của khách hàng từ sản phẩm tối ưu hóa nguồn vốn, không được cung
+cấp các dịch vụ chứng khoán hoặc dịch vụ khác khi chưa báo cáo UBCKNN, khi
+chưa có ý kiến bằng văn bản của UBCKNN hoặc chưa có quy định hướng dẫn
+của cơ quan nhà nước có thẩm quyền.
+     - Sửa đổi, cập nhật các quy trình, quy chế liên quan đến kiểm toán nội bộ,
+kiểm soát nội bộ, quản trị rủi ro; đảm bảo việc tuân thủ quy trình kiểm soát nội
+bộ, quy trình kiểm toán nội bộ; kiện toàn công tác nhân sự kiểm soát nội bộ, kiểm
+toán nội bộ.
+      - Sửa đổi, bổ sung Quy định về phòng chống rửa tiền đảm bảo nội dung theo
+quy định; khắc phục thực hiện đầy đủ báo cáo, tài liệu liên quan đến phòng, chống
+rửa tiền cho NHNN.
+                                       14
+
+
+    - Tuân thủ chặt chẽ quy định về lưu trữ, đảm bảo lưu trữ hồ sơ tài liệu liên
+quan đến hoạt động của Công ty.
+      Thanh tra UBCKNN yêu cầu Công ty thực hiện ngay các biện pháp chấn
+chỉnh, khắc phục sau thanh tra trong thời hạn 30 ngày kể từ ngày ký kết luận thanh
+tra. Báo cáo kết quả gửi về Thanh tra UBCKNN trong vòng 05 ngày, kể từ ngày
+hết thời hạn chấn chỉnh, khắc phục./.
+
