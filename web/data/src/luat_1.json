@@ -185,16 +185,16 @@
   "subject": "LU",
   "topic": "Nhà đầu tư chuyên nghiệp",
   "level": 3,
-  "q": "Tháng 10/2026, bà M (nhà đầu tư chứng khoán chuyên nghiệp là cá nhân) muốn mua trái phiếu của một đợt chào bán trái phiếu doanh nghiệp riêng lẻ công bố thông tin trước đợt chào bán vào tháng 9/2026. Theo Luật Chứng khoán hiện hành, bà M được mua loại trái phiếu nào sau đây?",
+  "q": "Tháng 10/2026, bà M (nhà đầu tư chứng khoán chuyên nghiệp là cá nhân) muốn mua trái phiếu doanh nghiệp riêng lẻ không chuyển đổi, không kèm chứng quyền của một đợt chào bán công bố thông tin trước đợt chào bán vào tháng 9/2026. Theo Luật Chứng khoán hiện hành, bà M được mua loại trái phiếu nào sau đây?",
   "o": [
    "Trái phiếu có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng",
    "Trái phiếu không có xếp hạng tín nhiệm nhưng có tài sản bảo đảm",
    "Trái phiếu có xếp hạng tín nhiệm nhưng không có tài sản bảo đảm hay bảo lãnh",
-   "Mọi loại trái phiếu riêng lẻ, vì bà M đã là nhà đầu tư chuyên nghiệp"
+   "Mọi trái phiếu loại này, vì bà M đã là nhà đầu tư chuyên nghiệp"
   ],
   "a": 0,
-  "e": "Từ 01/01/2026, khoản 1b Điều 11 (bổ sung bởi Luật 56/2024) chỉ cho phép nhà đầu tư chuyên nghiệp là cá nhân mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ khi trái phiếu có xếp hạng tín nhiệm VÀ có tài sản bảo đảm hoặc có bảo lãnh thanh toán của tổ chức tín dụng. Nhà đầu tư chuyên nghiệp là tổ chức không bị giới hạn này (khoản 1a). Đợt chào bán ở đây công bố thông tin năm 2026 nên không thuộc trường hợp chuyển tiếp tại khoản 1 Điều 11 Luật 56/2024.",
-  "basis": "Khoản 1b Điều 11 Luật Chứng khoán 2019 (sửa đổi, bổ sung bởi Luật 56/2024/QH15); hiệu lực từ 01/01/2026",
+  "e": "Từ 01/01/2026, khoản 1b Điều 11 (bổ sung bởi Luật 56/2024) cho phép nhà đầu tư chuyên nghiệp là cá nhân mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ khi trái phiếu có xếp hạng tín nhiệm VÀ có tài sản bảo đảm hoặc có bảo lãnh thanh toán của tổ chức tín dụng; điểm đ khoản 1 Điều 9 NĐ 200/2026 áp dụng yêu cầu này cho mọi trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền. Riêng trái phiếu chuyển đổi riêng lẻ của công ty đại chúng, công ty chứng khoán, công ty quản lý quỹ thì cá nhân là NĐT chuyên nghiệp được mua mà không cần điều kiện này (điểm b khoản 1 Điều 31 Luật CK; điểm d khoản 1 Điều 9 NĐ 200), nên đề nêu rõ loại trái phiếu. Nhà đầu tư chuyên nghiệp là tổ chức không bị giới hạn này (khoản 1a). Đợt chào bán ở đây công bố thông tin năm 2026 nên không thuộc trường hợp chuyển tiếp tại khoản 1 Điều 11 Luật 56/2024.",
+  "basis": "Khoản 1b Điều 11 Luật Chứng khoán 2019 (sửa đổi, bổ sung bởi Luật 56/2024/QH15), hiệu lực từ 01/01/2026; điểm d, đ khoản 1 Điều 9 Nghị định 200/2026/NĐ-CP",
   "quote": "Trái phiếu doanh nghiệp riêng lẻ có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng đối với trái phiếu đó.",
   "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
   "as_of": "2026-11"

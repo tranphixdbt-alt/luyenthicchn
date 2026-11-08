@@ -63,9 +63,9 @@
   "id": "L5-004",
   "part": "LUAT",
   "subject": "LU",
-  "topic": "Chào bán chứng khoán ra công chúng",
+  "topic": "Chào bán ra công chúng",
   "level": 2,
-  "q": "Xét các phát biểu sau theo Nghị định 155/2020/NĐ-CP: I. Tổ chức phát hành, người nội bộ và người có liên quan không được công khai đưa ra nhận định hoặc đảm bảo với nhà đầu tư về giá chứng khoán trong tương lai; II. Công ty đại chúng được quảng cáo đợt chào bán cổ phiếu riêng lẻ trên báo điện tử nếu chỉ nêu giá chào bán dự kiến; III. Ngân hàng nơi mở tài khoản phong tỏa nhận tiền mua chứng khoán không được là người có liên quan của tổ chức phát hành; IV. Tổ chức phát hành là ngân hàng thương mại được mở tài khoản phong tỏa tại chính ngân hàng mình. Các phát biểu đúng là:",
+  "q": "Theo Nghị định 155/2020/NĐ-CP, xét các phát biểu sau:\nI. Khi chào bán cổ phiếu ra công chúng, tổ chức phát hành, người nội bộ của tổ chức phát hành và người có liên quan không được công khai đưa ra nhận định hoặc đảm bảo với nhà đầu tư về giá cổ phiếu trong tương lai;\nII. Công ty đại chúng được quảng cáo đợt chào bán cổ phiếu riêng lẻ trên báo điện tử nếu chỉ nêu giá chào bán dự kiến;\nIII. Ngân hàng nơi mở tài khoản phong tỏa nhận tiền mua chứng khoán không được là người có liên quan của tổ chức phát hành;\nIV. Tổ chức phát hành là ngân hàng thương mại được mở tài khoản phong tỏa tại chính ngân hàng mình.\nCác phát biểu đúng là:",
   "o": [
    "I, II và III",
    "II và IV",
@@ -94,7 +94,7 @@
   ],
   "a": 0,
   "e": "Khoản 1 Điều 8 NĐ 155: tổ chức phát hành, cổ đông đăng ký chào bán phải mở 01 tài khoản phong tỏa nhận tiền mua chứng khoán của đợt chào bán, đợt phát hành, trừ khi phát hành cổ phiếu để hoán đổi, trả cổ tức, tăng vốn cổ phần từ nguồn vốn chủ sở hữu, thưởng cho người lao động hoặc chuyển đổi trái phiếu (không thu tiền của nhà đầu tư). Phát hành cổ phiếu theo chương trình lựa chọn cho người lao động có thu tiền vẫn phải mở tài khoản phong tỏa (khoản 6 Điều 64). Tiền trong tài khoản phong tỏa chỉ được dùng sau khi UBCKNN thông báo đã nhận báo cáo kết quả (khoản 5 Điều 8).",
-  "basis": "Khoản 1, 5 Điều 8; khoản 6 Điều 64 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 5 Điều 8; khoản 6 Điều 64 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "trừ trường hợp phát hành cổ phiếu để hoán đổi, phát hành cổ phiếu để trả cổ tức, phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu thưởng cho người lao động, phát hành cổ phiếu để chuyển đổi trái phiếu",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -125,7 +125,7 @@
   "subject": "LU",
   "topic": "Chào bán ra công chúng",
   "level": 2,
-  "q": "Công ty cổ phần (không phải công ty chứng khoán) đăng ký chào bán cổ phiếu lần đầu ra công chúng. Theo khoản 1 Điều 15 Luật Chứng khoán, xét các yêu cầu: I. Có công ty chứng khoán tư vấn hồ sơ đăng ký chào bán; II. Có cam kết và phải thực hiện niêm yết hoặc đăng ký giao dịch cổ phiếu sau khi kết thúc đợt chào bán; III. Hoạt động kinh doanh của 03 năm liên tục liền trước năm đăng ký chào bán phải có lãi; IV. Không đang bị truy cứu trách nhiệm hình sự hoặc đã bị kết án về tội xâm phạm trật tự quản lý kinh tế mà chưa được xóa án tích. Các yêu cầu là điều kiện chào bán gồm:",
+  "q": "Công ty cổ phần (không phải công ty chứng khoán) đăng ký chào bán cổ phiếu lần đầu ra công chúng. Theo khoản 1 Điều 15 Luật Chứng khoán, xét các yêu cầu sau:\nI. Có công ty chứng khoán tư vấn hồ sơ đăng ký chào bán;\nII. Có cam kết và phải thực hiện niêm yết hoặc đăng ký giao dịch cổ phiếu sau khi kết thúc đợt chào bán;\nIII. Hoạt động kinh doanh của 03 năm liên tục liền trước năm đăng ký chào bán phải có lãi;\nIV. Không đang bị truy cứu trách nhiệm hình sự hoặc đã bị kết án về tội xâm phạm trật tự quản lý kinh tế mà chưa được xóa án tích.\nCác yêu cầu thuộc điều kiện chào bán là:",
   "o": [
    "I, II và III",
    "II, III và IV",
@@ -145,7 +145,7 @@
   "subject": "LU",
   "topic": "Chào bán trái phiếu",
   "level": 2,
-  "q": "Xét các phát biểu sau về điều kiện doanh nghiệp (không phải tổ chức tín dụng) chào bán trái phiếu ra công chúng theo Luật Chứng khoán và Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP): I. Vốn điều lệ đã góp tại thời điểm đăng ký chào bán từ 30 tỷ đồng trở lên; II. Không có khoản nợ phải trả quá hạn trên 01 năm; III. Phương án phát hành, sử dụng và trả nợ vốn bắt buộc phải do Đại hội đồng cổ đông thông qua; IV. Chỉ phải xếp hạng tín nhiệm khi tổng giá trị trái phiếu huy động trong 12 tháng trên 500 tỷ đồng và trên 50% vốn chủ sở hữu. Các phát biểu đúng là:",
+  "q": "Theo Luật Chứng khoán và Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), xét các phát biểu sau về điều kiện doanh nghiệp (không phải tổ chức tín dụng) chào bán trái phiếu ra công chúng:\nI. Vốn điều lệ đã góp tại thời điểm đăng ký chào bán từ 30 tỷ đồng trở lên;\nII. Không có khoản nợ phải trả quá hạn trên 01 năm;\nIII. Phương án phát hành, sử dụng và trả nợ vốn bắt buộc phải do Đại hội đồng cổ đông thông qua;\nIV. Chỉ phải xếp hạng tín nhiệm khi tổng giá trị trái phiếu huy động trong 12 tháng trên 500 tỷ đồng và trên 50% vốn chủ sở hữu.\nCác phát biểu đúng là:",
   "o": [
    "I, II và IV",
    "I, II và III",
@@ -163,7 +163,7 @@
   "id": "L5-009",
   "part": "LUAT",
   "subject": "LU",
-  "topic": "Chào bán chứng khoán ra công chúng",
+  "topic": "Chào bán ra công chúng",
   "level": 1,
   "q": "Theo Luật Chứng khoán, kể từ ngày nhận được hồ sơ đăng ký chào bán chứng khoán ra công chúng đầy đủ và hợp lệ, UBCKNN cấp Giấy chứng nhận đăng ký chào bán (hoặc từ chối bằng văn bản, nêu rõ lý do) trong thời hạn:",
   "o": [
@@ -185,7 +185,7 @@
   "subject": "LU",
   "topic": "Chào bán ra công chúng",
   "level": 2,
-  "q": "Theo Điều 28 Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), xét các trường hợp: I. Hết thời hạn đình chỉ mà tổ chức phát hành không khắc phục được thiếu sót dẫn đến việc đình chỉ; II. Đợt chào bán cổ phiếu lần đầu ra công chúng không bán đủ tỷ lệ tối thiểu cổ phiếu có quyền biểu quyết cho ít nhất 100 nhà đầu tư không phải cổ đông lớn; III. Đợt chào bán thêm cổ phiếu cho cổ đông hiện hữu theo tỷ lệ sở hữu để thực hiện dự án chỉ bán được 60% số cổ phiếu dự kiến; IV. Sau khi kết thúc đợt chào bán trái phiếu ra công chúng, phát hiện hồ sơ có thông tin sai lệch gây thiệt hại cho nhà đầu tư. UBCKNN quyết định hủy bỏ đợt chào bán trong các trường hợp:",
+  "q": "Theo Điều 28 Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), xét các trường hợp sau:\nI. Hết thời hạn đình chỉ mà tổ chức phát hành không khắc phục được thiếu sót dẫn đến việc đình chỉ;\nII. Đợt chào bán cổ phiếu lần đầu ra công chúng không bán đủ tỷ lệ tối thiểu cổ phiếu có quyền biểu quyết cho ít nhất 100 nhà đầu tư không phải cổ đông lớn;\nIII. Đợt chào bán thêm cổ phiếu cho cổ đông hiện hữu theo tỷ lệ sở hữu để thực hiện dự án chỉ bán được 60% số cổ phiếu dự kiến;\nIV. Sau khi kết thúc đợt chào bán trái phiếu ra công chúng, phát hiện hồ sơ đăng ký chào bán có thông tin sai lệch gây thiệt hại cho nhà đầu tư.\nUBCKNN quyết định hủy bỏ đợt chào bán trong các trường hợp:",
   "o": [
    "I, II và III",
    "I, II và IV",
@@ -225,7 +225,7 @@
   "subject": "LU",
   "topic": "Chào bán riêng lẻ & phát hành khác",
   "level": 2,
-  "q": "Công ty đại chúng phát hành cổ phiếu để trả cổ tức. Theo Điều 69 Nghị định 155/2020/NĐ-CP, xét các phát biểu: I. UBCKNN thông báo việc nhận đầy đủ tài liệu báo cáo phát hành trong 07 ngày làm việc kể từ ngày nhận tài liệu đầy đủ, hợp lệ; II. Bản thông báo phát hành phải được công bố ít nhất 07 ngày làm việc trước ngày kết thúc đợt phát hành; III. Ngày kết thúc đợt phát hành không quá 45 ngày kể từ ngày UBCKNN thông báo nhận đủ tài liệu; IV. Báo cáo kết quả đợt phát hành phải gửi UBCKNN trong 10 ngày kể từ ngày kết thúc đợt phát hành. Các phát biểu đúng là:",
+  "q": "Công ty đại chúng phát hành cổ phiếu để trả cổ tức. Theo Điều 69 Nghị định 155/2020/NĐ-CP, xét các phát biểu sau:\nI. UBCKNN thông báo việc nhận đầy đủ tài liệu báo cáo phát hành trong 07 ngày làm việc kể từ ngày nhận tài liệu đầy đủ, hợp lệ;\nII. Bản thông báo phát hành phải được công bố ít nhất 07 ngày làm việc trước ngày kết thúc đợt phát hành;\nIII. Ngày kết thúc đợt phát hành không quá 45 ngày kể từ ngày UBCKNN thông báo nhận đủ tài liệu;\nIV. Báo cáo kết quả đợt phát hành phải gửi UBCKNN trong 10 ngày kể từ ngày kết thúc đợt phát hành.\nCác phát biểu đúng là:",
   "o": [
    "I, II và IV",
    "II, III và IV",
@@ -245,16 +245,16 @@
   "subject": "LU",
   "topic": "Chào bán riêng lẻ & phát hành khác",
   "level": 3,
-  "q": "Công ty đại chúng H (không phải công ty mẹ) có vốn điều lệ 500 tỷ đồng. BCTC năm 2025 đã được tổ chức kiểm toán được chấp thuận kiểm toán có: thặng dư vốn cổ phần 40 tỷ đồng, quỹ đầu tư phát triển 25 tỷ đồng, lợi nhuận sau thuế chưa phân phối 30 tỷ đồng, quỹ khen thưởng, phúc lợi 10 tỷ đồng. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), giá trị vốn cổ phần tối đa H có thể tăng thêm bằng phát hành cổ phiếu từ nguồn vốn chủ sở hữu là:",
+  "q": "Tháng 11/2026, công ty đại chúng H (không phải công ty mẹ) dự kiến phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu. BCTC năm 2025 của H được tổ chức kiểm toán được chấp thuận kiểm toán có: thặng dư vốn cổ phần 40 tỷ đồng, quỹ đầu tư phát triển 25 tỷ đồng, lợi nhuận sau thuế chưa phân phối 30 tỷ đồng. BCTC bán niên 2026 của H (cũng được kiểm toán) có lợi nhuận sau thuế chưa phân phối 50 tỷ đồng, hai khoản còn lại không đổi. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), giá trị vốn cổ phần (theo mệnh giá) H được tăng thêm tối đa là:",
   "o": [
    "95 tỷ đồng",
-   "105 tỷ đồng",
+   "115 tỷ đồng",
    "70 tỷ đồng",
    "55 tỷ đồng"
   ],
   "a": 0,
-  "e": "Điểm a khoản 2 Điều 62 (sửa đổi bởi NĐ 245/2025): nguồn vốn chủ sở hữu để tăng vốn cổ phần căn cứ BCTC năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận, gồm thặng dư vốn cổ phần, quỹ đầu tư phát triển, lợi nhuận sau thuế chưa phân phối và quỹ khác được dùng bổ sung vốn điều lệ theo quy định. Khoản 3: tổng các nguồn này không thấp hơn phần vốn cổ phần tăng thêm. Tối đa = 40 + 25 + 30 = 95 tỷ đồng (tỷ lệ 19%). Quỹ khen thưởng, phúc lợi không thuộc vốn chủ sở hữu và không dùng để bổ sung vốn điều lệ (105 tỷ là lỗi cộng thêm quỹ này). Trước NĐ 245, nguồn được căn cứ BCTC kỳ gần nhất được kiểm toán.",
-  "basis": "Điểm a khoản 2 Điều 62 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 29 Điều 1 Nghị định 245/2025/NĐ-CP); khoản 3 Điều 62",
+  "e": "Điểm a khoản 2 Điều 62 (sửa đổi bởi NĐ 245/2025): nguồn vốn chủ sở hữu để tăng vốn cổ phần căn cứ trên BCTC NĂM gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận, gồm thặng dư vốn cổ phần, quỹ đầu tư phát triển, lợi nhuận sau thuế chưa phân phối và quỹ khác (nếu có) được dùng bổ sung vốn điều lệ theo quy định. Khoản 3: tổng các nguồn này không thấp hơn phần vốn cổ phần tăng thêm. Theo BCTC năm 2025: 40 + 25 + 30 = 95 tỷ đồng. 115 tỷ đồng (40 + 25 + 50) là cách tính theo văn bản trước NĐ 245, khi nguồn được căn cứ BCTC kỳ gần nhất được kiểm toán (có thể là BCTC bán niên đã kiểm toán). 70 tỷ đồng bỏ sót quỹ đầu tư phát triển; 55 tỷ đồng bỏ sót thặng dư vốn cổ phần.",
+  "basis": "Điểm a khoản 2 Điều 62 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 29 Điều 1 Nghị định 245/2025/NĐ-CP); khoản 3 Điều 62 (không bị sửa đổi)",
   "quote": "Nguồn vốn chủ sở hữu để tăng vốn cổ phần được căn cứ trên báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận, bao gồm các nguồn sau: thặng dư vốn cổ phần; quỹ đầu tư phát triển; lợi nhuận sau thuế chưa phân phối",
   "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
   "as_of": "2026-11"
@@ -285,7 +285,7 @@
   "subject": "LU",
   "topic": "Chào bán riêng lẻ & phát hành khác",
   "level": 2,
-  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), xét các phát biểu về phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) của công ty đại chúng: I. Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm kể từ ngày kết thúc đợt phát hành; II. Khi phát hành cổ phiếu thưởng cho người lao động, công ty vẫn phải mở tài khoản phong tỏa; III. Danh sách người lao động được tham gia do ĐHĐCĐ thông qua hoặc ủy quyền cho HĐQT thông qua; IV. Cổ phiếu ESOP đang bị hạn chế chuyển nhượng mà được công ty mua lại theo quy chế ESOP thì không còn bị hạn chế chuyển nhượng. Các phát biểu đúng là:",
+  "q": "Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), xét các phát biểu sau về phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) của công ty đại chúng:\nI. Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm kể từ ngày kết thúc đợt phát hành;\nII. Khi phát hành cổ phiếu thưởng cho người lao động, công ty vẫn phải mở tài khoản phong tỏa;\nIII. Danh sách người lao động được tham gia do Đại hội đồng cổ đông thông qua hoặc ủy quyền cho Hội đồng quản trị thông qua;\nIV. Cổ phiếu ESOP đang bị hạn chế chuyển nhượng mà được công ty mua lại theo quy chế ESOP thì không còn bị hạn chế chuyển nhượng.\nCác phát biểu đúng là:",
   "o": [
    "I, II và III",
    "II và IV",
@@ -325,7 +325,7 @@
   "subject": "LU",
   "topic": "Chào bán riêng lẻ & phát hành khác",
   "level": 2,
-  "q": "Công ty đại chúng A phát hành cổ phiếu để hoán đổi lấy cổ phần của các cổ đông công ty cổ phần B (chưa là công ty đại chúng). Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), xét các yêu cầu: I. Cổ phiếu A phát hành để hoán đổi bị hạn chế chuyển nhượng tối thiểu 01 năm kể từ ngày kết thúc đợt phát hành; II. BCTC năm gần nhất của B được tổ chức kiểm toán được chấp thuận kiểm toán, ý kiến chấp nhận toàn phần, kỳ kế toán tối thiểu 12 tháng; III. Cổ phần B được hoán đổi có thể đang bị hạn chế chuyển nhượng nếu ĐHĐCĐ của A chấp thuận; IV. Đợt phát hành cách đợt chào bán, phát hành riêng lẻ gần nhất của A ít nhất 06 tháng. Các yêu cầu là điều kiện phát hành gồm:",
+  "q": "Công ty đại chúng A phát hành cổ phiếu để hoán đổi lấy cổ phần của các cổ đông công ty cổ phần B (chưa là công ty đại chúng). Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), xét các yêu cầu sau:\nI. Cổ phiếu A phát hành để hoán đổi bị hạn chế chuyển nhượng tối thiểu 01 năm kể từ ngày kết thúc đợt phát hành;\nII. BCTC năm gần nhất của B được tổ chức kiểm toán được chấp thuận kiểm toán, ý kiến chấp nhận toàn phần, kỳ kế toán tối thiểu 12 tháng;\nIII. Cổ phần B được hoán đổi có thể đang bị hạn chế chuyển nhượng nếu Đại hội đồng cổ đông của A chấp thuận;\nIV. Đợt phát hành cách đợt chào bán, phát hành riêng lẻ gần nhất của A ít nhất 06 tháng.\nCác yêu cầu thuộc điều kiện phát hành là:",
   "o": [
    "I, II và IV",
    "I, II và III",
@@ -345,7 +345,7 @@
   "subject": "LU",
   "topic": "Chào bán riêng lẻ & phát hành khác",
   "level": 2,
-  "q": "Công ty đại chúng A phát hành cổ phiếu để hoán đổi lấy cổ phần của một số cổ đông xác định của công ty đại chúng B. Sau hoán đổi, A và người có liên quan sẽ nắm 30% số cổ phiếu có quyền biểu quyết của B. Theo Nghị định 155/2020/NĐ-CP, ngoài các điều kiện chung, việc hoán đổi này phải:",
+  "q": "Công ty đại chúng A phát hành cổ phiếu để hoán đổi lấy cổ phần của một số cổ đông xác định của công ty đại chúng B. Sau hoán đổi, A và người có liên quan sẽ nắm 30% số cổ phiếu có quyền biểu quyết của B. Theo Nghị định 155/2020/NĐ-CP, ngoài các điều kiện chung và chấp thuận về nguyên tắc bằng văn bản của các cổ đông được hoán đổi, việc hoán đổi này còn phải:",
   "o": [
    "Được Hội đồng quản trị của công ty B chấp thuận bằng văn bản",
    "Được Đại hội đồng cổ đông của công ty B thông qua",
@@ -354,7 +354,7 @@
   ],
   "a": 1,
   "e": "Điều 51 NĐ 155: ngoài các điều kiện tại Điều 49, phải có chấp thuận về nguyên tắc bằng văn bản của các cổ đông được hoán đổi; nếu việc hoán đổi dẫn đến tỷ lệ sở hữu của tổ chức phát hành và người có liên quan tại công ty đại chúng khác đến mức phải chào mua công khai theo Điều 35 Luật CK (ở đây đạt từ 25% trở lên), việc hoán đổi phải được ĐHĐCĐ của công ty có cổ phần được hoán đổi (B) thông qua. Hoán đổi với số cổ đông không xác định của công ty đại chúng khác thì phải thực hiện theo phương thức chào mua công khai bằng cổ phiếu phát hành (Điều 53).",
-  "basis": "Khoản 2, 3 Điều 51 Nghị định 155/2020/NĐ-CP; điểm a khoản 1 Điều 35 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15)",
+  "basis": "Khoản 2, 3 Điều 51 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi); điểm a khoản 1 Điều 35 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15)",
   "quote": "Trường hợp hoán đổi cổ phần dẫn đến tỷ lệ sở hữu của tổ chức phát hành và người có liên quan tại công ty đại chúng khác đến mức phải chào mua công khai theo quy định tại Điều 35 Luật Chứng khoán, việc hoán đổi phải được Đại hội đồng cổ đông của công ty đại chúng có cổ phần được hoán đổi thông qua.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -425,7 +425,7 @@
   "subject": "LU",
   "topic": "Chào mua công khai",
   "level": 3,
-  "q": "Các tổ chức sau (cùng người có liên quan, không thuộc trường hợp miễn trừ) dự kiến mua cổ phiếu có quyền biểu quyết đang lưu hành của các công ty đại chúng qua sàn: I. X đang nắm 20%, dự kiến mua thêm để nắm 25%; II. Y đang nắm 26%, dự kiến mua thêm để nắm 34%; III. Z đang nắm 30%, dự kiến mua thêm để nắm đúng 35%; IV. T đang nắm 56%, dự kiến mua thêm để nắm 64%. Theo Điều 35 Luật Chứng khoán, các trường hợp phải chào mua công khai là:",
+  "q": "Theo Điều 35 Luật Chứng khoán, xét các tổ chức sau; mỗi tổ chức (cùng người có liên quan, không thuộc trường hợp miễn trừ) dự kiến mua thêm cổ phiếu có quyền biểu quyết đang lưu hành của một công ty đại chúng (tỷ lệ là tỷ lệ sở hữu cổ phiếu có quyền biểu quyết tại công ty đó):\nI. X đang nắm 20%, dự kiến mua thêm để nắm 25%;\nII. Y đang nắm 26%, dự kiến mua thêm để nắm 34%;\nIII. Z đang nắm 30%, dự kiến mua thêm để nắm đúng 35%;\nIV. T đang nắm 56%, dự kiến mua thêm để nắm 64%.\nCác trường hợp phải chào mua công khai là:",
   "o": [
    "I, III và IV",
    "I và III",
@@ -454,7 +454,7 @@
   ],
   "a": 2,
   "e": "Khoản 1, 2 Điều 87 NĐ 155: trong 10 ngày kể từ ngày nhận hồ sơ, HĐQT công ty mục tiêu phải công bố thông tin cho cổ đông về đánh giá, khuyến nghị đối với đề nghị chào mua và báo cáo UBCKNN. Đánh giá, khuyến nghị phải bằng văn bản; nếu một hoặc một số thành viên HĐQT có ý kiến khác thì HĐQT phải công bố kèm theo các ý kiến này. Trước đó, trong 03 ngày làm việc kể từ ngày nhận hồ sơ, công ty mục tiêu phải công bố việc nhận được đề nghị chào mua (khoản 2 Điều 86).",
-  "basis": "Khoản 1, 2 Điều 87; khoản 2 Điều 86 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 2 Điều 87; khoản 2 Điều 86 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Trường hợp một hoặc một số thành viên Hội đồng quản trị, Ban đại diện quỹ có ý kiến khác, Hội đồng quản trị, Ban đại diện quỹ phải công bố kèm theo các ý kiến này.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -465,7 +465,7 @@
   "subject": "LU",
   "topic": "Chào mua công khai",
   "level": 3,
-  "q": "Bản thông báo chào mua công khai (thanh toán bằng tiền) của công ty K xác định ngày cuối cùng nhận đăng ký bán là 30/11/2026. K muốn điều chỉnh giá chào mua. Theo Nghị định 155/2020/NĐ-CP, phát biểu nào đúng?",
+  "q": "Bản thông báo chào mua công khai (thanh toán bằng tiền) của công ty K xác định ngày cuối cùng nhận đăng ký bán là 30/11/2026. K muốn điều chỉnh giá chào mua. Theo Nghị định 155/2020/NĐ-CP, phát biểu nào đúng? (Coi “n ngày trước ngày D” là ngày D − n.)",
   "o": [
    "Được tăng giá, công bố chậm nhất ngày 23/11/2026, chỉ áp dụng cho cổ đông đăng ký sau đó",
    "Được tăng hoặc giảm giá nếu công bố chậm nhất ngày 27/11/2026 và UBCKNN chấp thuận",
@@ -474,7 +474,7 @@
   ],
   "a": 3,
   "e": "Điểm b, c khoản 1 Điều 91: trong quá trình chào mua, bên chào mua không được giảm giá; nếu tăng giá phải công bố giá điều chỉnh tối thiểu 07 ngày trước ngày cuối cùng nhận đăng ký bán (30/11 lùi 7 ngày là 23/11/2026) và giá điều chỉnh áp dụng cho tất cả cổ đông đăng ký bán; bên chào mua phải bảo đảm khả năng thanh toán phần tiền tăng thêm.",
-  "basis": "Điểm b, c khoản 1 Điều 91 Nghị định 155/2020/NĐ-CP",
+  "basis": "Điểm b, c khoản 1 Điều 91 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Trường hợp điều chỉnh tăng giá chào mua công khai, tổ chức, cá nhân chào mua công khai phải công bố giá điều chỉnh tối thiểu 07 ngày trước ngày cuối cùng nhận đăng ký bán và giá điều chỉnh được áp dụng đối với tất cả các cổ đông, nhà đầu tư đăng ký bán",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -494,7 +494,7 @@
   ],
   "a": 0,
   "e": "Điểm a khoản 1 Điều 91: giá chào mua không thấp hơn bình quân giá tham chiếu của 60 ngày giao dịch liền trước ngày gửi giấy đăng ký (24.000) và không thấp hơn giá mua cao nhất của các đợt chào mua công khai đối với cổ phiếu của công ty mục tiêu trong thời gian này (26.500 của G). Giá tối thiểu = max(24.000; 26.500) = 26.500 đồng. Giá H mua qua khớp lệnh (25.000) không phải giá của một đợt chào mua công khai, và dù sao cũng thấp hơn 26.500. 25.250 là lỗi lấy trung bình hai mức.",
-  "basis": "Điểm a khoản 1 Điều 91 Nghị định 155/2020/NĐ-CP",
+  "basis": "Điểm a khoản 1 Điều 91 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Giá chào mua không được thấp hơn bình quân giá tham chiếu của 60 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua công khai và không thấp hơn giá mua cao nhất của các đợt chào mua công khai",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -514,7 +514,7 @@
   ],
   "a": 1,
   "e": "Khoản 5 Điều 93: khi số cổ phiếu được chào mua nhỏ hơn số đăng ký bán, số cổ phiếu được mua của từng cổ đông xác định theo tỷ lệ tương ứng với số cổ phiếu mỗi người đăng ký bán, bảo đảm mức giá công bằng. Tỷ lệ = 3.000.000 / 4.800.000 = 62,5%; bà Z bán được 40.000 × 62,5% = 25.000 cổ phiếu. 15.000 là phần không được mua; 24.000 là kết quả khi làm tròn tỷ lệ xuống 60%.",
-  "basis": "Khoản 5 Điều 93 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 5 Điều 93 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "việc xác định số cổ phiếu, chứng chỉ quỹ đóng được mua, được hoán đổi của từng cổ đông, nhà đầu tư căn cứ trên cơ sở tỷ lệ tương ứng với số cổ phiếu, chứng chỉ quỹ đóng mà mỗi cổ đông, nhà đầu tư đăng ký bán, hoán đổi",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -534,7 +534,7 @@
   ],
   "a": 2,
   "e": "Khoản 3, 4 Điều 93: cổ phiếu đã đăng ký bán không được giao dịch cho đến khi kết thúc chào mua, trừ khi cổ đông rút lại đăng ký; cổ đông chỉ có quyền rút lại đăng ký bán khi các điều kiện chào mua công khai thay đổi hoặc có tổ chức, cá nhân khác chào mua cạnh tranh.",
-  "basis": "Khoản 3, 4 Điều 93 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 3, 4 Điều 93 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Cổ đông, nhà đầu tư có quyền rút lại đăng ký bán, đăng ký hoán đổi trong thời gian chào mua công khai khi các điều kiện chào mua công khai được thay đổi hoặc có tổ chức, cá nhân khác thực hiện chào mua cạnh tranh",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -554,7 +554,7 @@
   ],
   "a": 3,
   "e": "Khoản 1 Điều 93: trong 07 ngày làm việc kể từ ngày UBCKNN thông báo nhận đủ tài liệu (hoặc cấp Giấy chứng nhận đăng ký phát hành khi chào mua bằng cổ phiếu), tổ chức, cá nhân chào mua công khai phải công bố Bản thông báo chào mua, Bản công bố thông tin trên trang điện tử của mình (nếu có), của đại lý chào mua và Sở giao dịch chứng khoán; việc chào mua chỉ được thực hiện sau tối thiểu 03 ngày kể từ ngày công bố. Một đợt chào mua kéo dài từ 30 đến 60 ngày giao dịch (khoản 2).",
-  "basis": "Khoản 1, 2 Điều 93 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 2 Điều 93 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Việc chào mua công khai chỉ được thực hiện sau tối thiểu 03 ngày kể từ ngày tổ chức, cá nhân chào mua công khai công bố thông tin theo quy định tại điểm a khoản này.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -574,7 +574,7 @@
   ],
   "a": 0,
   "e": "Khoản 4 Điều 82: tổ chức, cá nhân chào mua công khai phải chỉ định một công ty chứng khoán làm đại lý chào mua công khai. Điều 90: đại lý hướng dẫn bên chào mua thực hiện đúng quy định và chịu trách nhiệm liên đới nếu bên chào mua vi phạm; làm đại lý nhận đăng ký bán, đăng ký hoán đổi và chuyển giao cổ phiếu; bảo đảm bên chào mua có đủ tiền vào thời điểm chính thức chào mua (chào mua thanh toán bằng tiền).",
-  "basis": "Khoản 4 Điều 82; Điều 90 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 4 Điều 82; Điều 90 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Hướng dẫn tổ chức, cá nhân thực hiện chào mua công khai theo đúng quy định tại Nghị định này và chịu trách nhiệm liên đới trong trường hợp tổ chức, cá nhân chào mua công khai vi phạm quy định về chào mua công khai.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -625,7 +625,7 @@
   "subject": "LU",
   "topic": "Chào bán trái phiếu",
   "level": 2,
-  "q": "Doanh nghiệp D muốn thay đổi mục đích phát hành đã công bố của trái phiếu riêng lẻ đang lưu hành tại thị trường trong nước. Theo Nghị định 200/2026/NĐ-CP, ngoài việc được cấp có thẩm quyền phê duyệt phương án phát hành thông qua, D phải:",
+  "q": "Doanh nghiệp D chào bán trái phiếu riêng lẻ tại thị trường trong nước vào tháng 7/2026; trái phiếu đang lưu hành. Nay D muốn thay đổi mục đích phát hành đã công bố. Theo Nghị định 200/2026/NĐ-CP, ngoài việc được cấp có thẩm quyền phê duyệt phương án phát hành thông qua, D phải:",
   "o": [
    "Được người sở hữu đại diện trên 50% số trái phiếu cùng loại đang lưu hành chấp thuận; không phải mua lại trái phiếu của người không chấp thuận",
    "Được người sở hữu đại diện từ 65% số trái phiếu cùng loại đang lưu hành chấp thuận; người không chấp thuận vẫn phải chấp nhận thay đổi",
@@ -633,8 +633,8 @@
    "Được người sở hữu đại diện từ 65% số trái phiếu cùng loại đang lưu hành chấp thuận và đã mua lại trước hạn trái phiếu của người không chấp thuận"
   ],
   "a": 3,
-  "e": "Khoản 4 Điều 5 NĐ 200/2026: doanh nghiệp chỉ được thay đổi điều kiện, điều khoản trái phiếu hoặc mục đích phát hành khi (a) được cấp có thẩm quyền phê duyệt phương án phát hành thông qua (mục đích mới phải phù hợp khoản 2); (b) được người sở hữu trái phiếu đại diện từ 65% tổng số trái phiếu cùng loại đang lưu hành chấp thuận; và (c) đã hoàn thành việc mua lại trước hạn trái phiếu của những người không chấp thuận.",
-  "basis": "Khoản 4 Điều 5 Nghị định 200/2026/NĐ-CP (hiệu lực 05/6/2026, thay thế NĐ 153/2020, 65/2022, 08/2023)",
+  "e": "Khoản 4 Điều 5 NĐ 200/2026: với trái phiếu phát hành tại thị trường trong nước, doanh nghiệp chỉ được thay đổi điều kiện, điều khoản trái phiếu hoặc mục đích phát hành khi (a) được cấp có thẩm quyền phê duyệt phương án phát hành thông qua (mục đích mới phải phù hợp khoản 2); (b) được người sở hữu trái phiếu đại diện từ 65% tổng số trái phiếu cùng loại đang lưu hành chấp thuận; và (c) đã hoàn thành việc mua lại trước hạn trái phiếu của những người không chấp thuận. Trái phiếu phát hành trước 05/6/2026 theo quy định chuyển tiếp riêng (khoản 5, 6 Điều 50), nên đề nêu rõ D phát hành vào tháng 7/2026.",
+  "basis": "Khoản 4 Điều 5; khoản 5, 6 Điều 50 Nghị định 200/2026/NĐ-CP (hiệu lực 05/6/2026, thay thế NĐ 153/2020, 65/2022, 08/2023)",
   "quote": "c) Đã hoàn thành việc mua lại trái phiếu trước hạn đối với những người sở hữu trái phiếu không chấp thuận việc thay đổi điều kiện, điều khoản của trái phiếu hoặc thay đổi mục đích phát hành tại phương án phát hành.",
   "src": "ND_200_2026_ND-CP_trai_phieu_rieng_le_Cong_bao_so_342_2026.txt",
   "as_of": "2026-11"
@@ -653,7 +653,7 @@
    "Tổ chức tín dụng; tối đa 12 tháng kể từ ngày phát hành của đợt đầu tiên"
   ],
   "a": 0,
-  "e": "Khoản 3 Điều 13 NĐ 200/2026: chào bán trái phiếu riêng lẻ thành nhiều đợt chỉ áp dụng cho doanh nghiệp phát hành là tổ chức tín dụng; thời gian phân phối mỗi đợt không quá 30 ngày kể từ ngày công bố thông tin trước đợt chào bán; tổng thời gian chào bán không quá 06 tháng kể từ ngày phát hành của đợt đầu tiên (khoản 1 Điều 16 áp dụng tương tự cho công ty đại chúng). Mốc 12 tháng là khoảng cách tối đa giữa các đợt khi chào bán chứng khoán ra công chúng nhiều đợt (khoản 4 Điều 26 Luật CK).",
+  "e": "Khoản 3 Điều 13 NĐ 200/2026: chào bán trái phiếu riêng lẻ thành nhiều đợt chỉ áp dụng cho doanh nghiệp phát hành là tổ chức tín dụng; thời gian phân phối mỗi đợt không quá 30 ngày kể từ ngày công bố thông tin trước đợt chào bán; tổng thời gian chào bán không quá 06 tháng kể từ ngày phát hành của đợt đầu tiên. Công ty đại chúng chào bán nhiều đợt cũng phải đáp ứng các điểm a, c, d, đ khoản 3 Điều 13 (khoản 1 Điều 16), tức cũng phải là tổ chức tín dụng. Mốc 12 tháng là khoảng cách tối đa giữa các đợt khi chào bán chứng khoán ra công chúng nhiều đợt (khoản 4 Điều 26 Luật CK).",
   "basis": "Điểm a, đ khoản 3 Điều 13; khoản 1 Điều 16 Nghị định 200/2026/NĐ-CP (hiệu lực 05/6/2026, thay thế NĐ 153/2020, 65/2022, 08/2023)",
   "quote": "Thời gian phân phối trái phiếu của từng đợt chào bán không vượt quá 30 ngày kể từ ngày công bố thông tin trước đợt chào bán. Tổng thời gian chào bán trái phiếu thành nhiều đợt tối đa không quá 06 tháng kể từ ngày phát hành của đợt chào bán đầu tiên.",
   "src": "ND_200_2026_ND-CP_trai_phieu_rieng_le_Cong_bao_so_342_2026.txt",
@@ -685,7 +685,7 @@
   "subject": "LU",
   "topic": "Chào bán trái phiếu",
   "level": 2,
-  "q": "Công ty đại chúng E (không phải công ty chứng khoán, công ty quản lý quỹ, không thuộc diện loại trừ về hệ số nợ) chào bán trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền. Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15) và Nghị định 200/2026/NĐ-CP, xét các phát biểu: I. Phương án phát hành có thể do Đại hội đồng cổ đông hoặc Hội đồng quản trị thông qua; II. Nhà đầu tư chứng khoán chuyên nghiệp là cá nhân chỉ được mua nếu trái phiếu có xếp hạng tín nhiệm và có tài sản bảo đảm hoặc bảo lãnh thanh toán của tổ chức tín dụng; III. Đợt chào bán phải cách đợt chào bán cổ phiếu riêng lẻ gần nhất của E ít nhất 06 tháng; IV. Nợ phải trả, gồm cả giá trị trái phiếu dự kiến phát hành, không vượt quá 05 lần vốn chủ sở hữu. Các phát biểu đúng là:",
+  "q": "Công ty đại chúng E (không phải công ty chứng khoán, công ty quản lý quỹ, không thuộc diện loại trừ về hệ số nợ) chào bán trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền. Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15) và Nghị định 200/2026/NĐ-CP, xét các phát biểu sau:\nI. Phương án phát hành có thể do Đại hội đồng cổ đông hoặc Hội đồng quản trị thông qua;\nII. Nhà đầu tư chứng khoán chuyên nghiệp là cá nhân chỉ được mua trái phiếu này nếu trái phiếu có xếp hạng tín nhiệm và có tài sản bảo đảm hoặc bảo lãnh thanh toán của tổ chức tín dụng;\nIII. Đợt chào bán phải cách đợt chào bán cổ phiếu riêng lẻ gần nhất của E ít nhất 06 tháng;\nIV. Nợ phải trả, gồm cả giá trị trái phiếu dự kiến phát hành, không vượt quá 05 lần vốn chủ sở hữu.\nCác phát biểu đúng là:",
   "o": [
    "I, II và III",
    "II, III và IV",
@@ -693,8 +693,8 @@
    "I và IV"
   ],
   "a": 2,
-  "e": "I, II: điểm a, b khoản 2 Điều 31 Luật CK (sửa đổi bởi Luật 56/2024) và khoản 1b Điều 11. IV: khoản 1 Điều 16 NĐ 200/2026 dẫn chiếu điểm d khoản 1 Điều 13 (nợ phải trả gồm trái phiếu dự kiến phát hành không quá 05 lần vốn chủ sở hữu theo BCTC năm được kiểm toán). III sai: khoảng cách 06 tháng chỉ áp dụng cho chào bán cổ phiếu, trái phiếu chuyển đổi, trái phiếu kèm chứng quyền riêng lẻ (điểm d khoản 1 Điều 31 Luật CK; điểm b khoản 3 Điều 16 NĐ 200). Điều kiện khác: thanh toán đủ gốc, lãi, nợ đến hạn trong 03 năm liên tiếp trước đợt chào bán; BCTC năm trước liền kề được kiểm toán bởi tổ chức kiểm toán được chấp thuận; chỉ chuyển nhượng giữa các nhà đầu tư chứng khoán chuyên nghiệp.",
-  "basis": "Khoản 2 Điều 31, khoản 1b Điều 11 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15); khoản 1 Điều 16, điểm d khoản 1 Điều 13 Nghị định 200/2026/NĐ-CP (hiệu lực 05/6/2026, thay thế NĐ 153/2020, 65/2022, 08/2023)",
+  "e": "I: điểm a khoản 2 Điều 31 Luật CK (sửa đổi bởi Luật 56/2024); điểm a khoản 2 Điều 10 NĐ 200/2026 (cấp có thẩm quyền theo Điều lệ, Điều lệ không quy định khác thì HĐQT phê duyệt và báo cáo ĐHĐCĐ gần nhất). II: điểm b khoản 2 Điều 31 và khoản 1b Điều 11 Luật CK; điểm đ khoản 1 Điều 9 NĐ 200 (tài sản bảo đảm hoặc bảo lãnh phải bảo đảm thanh toán toàn bộ gốc). IV: khoản 1 Điều 16 NĐ 200 dẫn chiếu điểm d khoản 1 Điều 13 (nợ phải trả gồm trái phiếu dự kiến phát hành không quá 05 lần vốn chủ sở hữu theo BCTC năm được kiểm toán). III sai: khoảng cách 06 tháng chỉ áp dụng cho chào bán cổ phiếu, trái phiếu chuyển đổi, trái phiếu kèm chứng quyền riêng lẻ (điểm d khoản 1 Điều 31 Luật CK; điểm b khoản 3 Điều 16 NĐ 200). Điều kiện khác: thanh toán đủ gốc, lãi, nợ đến hạn trong 03 năm liên tiếp trước đợt chào bán; BCTC năm trước liền kề được kiểm toán bởi tổ chức kiểm toán được chấp thuận; chỉ chuyển nhượng giữa các nhà đầu tư chứng khoán chuyên nghiệp.",
+  "basis": "Điểm a, b khoản 2 Điều 31, khoản 1b Điều 11 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15); điểm đ khoản 1 Điều 9, điểm a khoản 2 Điều 10, khoản 1 Điều 16, điểm d khoản 1 Điều 13 Nghị định 200/2026/NĐ-CP (hiệu lực 05/6/2026, thay thế NĐ 153/2020, 65/2022, 08/2023)",
   "quote": "Điều kiện chào bán trái phiếu không chuyển đổi, không kèm chứng quyền riêng lẻ của công ty đại chúng thực hiện theo quy định tại khoản 2 Điều 31 Luật Chứng khoán số 54/2019/QH14 và điểm d khoản 1 Điều 13 Nghị định này",
   "src": "ND_200_2026_ND-CP_trai_phieu_rieng_le_Cong_bao_so_342_2026.txt",
   "as_of": "2026-11"

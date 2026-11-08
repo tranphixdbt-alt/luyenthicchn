@@ -1345,16 +1345,16 @@
   "subject": "MG",
   "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
   "level": 2,
-  "q": "Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), nhà đầu tư chứng khoán chuyên nghiệp là cá nhân chỉ được mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ trong trường hợp nào?",
+  "q": "Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15) và Nghị định 200/2026/NĐ-CP, nhà đầu tư chứng khoán chuyên nghiệp là cá nhân chỉ được mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ không chuyển đổi, không kèm chứng quyền (chào bán từ ngày 01/01/2026) trong trường hợp nào?",
   "o": [
-   "Mọi trái phiếu doanh nghiệp riêng lẻ, không phân biệt loại trái phiếu và tổ chức phát hành",
+   "Mọi trái phiếu loại này, không phân biệt tổ chức phát hành hay biện pháp bảo đảm",
    "Trái phiếu có xếp hạng tín nhiệm và có tài sản bảo đảm hoặc bảo lãnh thanh toán của tổ chức tín dụng",
-   "Chỉ trái phiếu chuyển đổi do công ty đại chúng phát hành, có kỳ hạn dưới 01 năm",
+   "Trái phiếu có tài sản bảo đảm hoặc bảo lãnh thanh toán, không cần xếp hạng tín nhiệm",
    "Trái phiếu chưa có xếp hạng tín nhiệm nhưng có lãi suất cố định trong suốt kỳ hạn"
   ],
   "a": 1,
-  "e": "Khoản 1b Điều 11 (bổ sung bởi Luật 56/2024, áp dụng từ 01/01/2026): cá nhân là NĐT chuyên nghiệp chỉ được tham gia trái phiếu doanh nghiệp riêng lẻ có xếp hạng tín nhiệm và có tài sản bảo đảm, hoặc có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng.",
-  "basis": "Khoản 1b Điều 11 Luật Chứng khoán 2019 (bổ sung bởi Luật 56/2024/QH15)",
+  "e": "Khoản 1b Điều 11 Luật CK (bổ sung bởi Luật 56/2024, áp dụng từ 01/01/2026) và điểm đ khoản 1 Điều 9 NĐ 200/2026: với trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền, cá nhân là NĐT chuyên nghiệp chỉ được tham gia khi trái phiếu có xếp hạng tín nhiệm và có tài sản bảo đảm, hoặc có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng; tài sản bảo đảm hoặc bảo lãnh phải bảo đảm thanh toán toàn bộ gốc. Riêng trái phiếu chuyển đổi riêng lẻ của công ty đại chúng, công ty chứng khoán, công ty quản lý quỹ thì cá nhân là NĐT chuyên nghiệp được mua mà không cần các điều kiện này (điểm d khoản 1 Điều 9 NĐ 200), nên đề giới hạn ở trái phiếu không chuyển đổi.",
+  "basis": "Khoản 1b Điều 11 Luật Chứng khoán 2019 (bổ sung bởi Luật 56/2024/QH15); điểm d, đ khoản 1 Điều 9 Nghị định 200/2026/NĐ-CP",
   "quote": "",
   "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
   "as_of": "2026-11"
