@@ -94,6 +94,10 @@ def main():
     print(f"OK: {len(out)} câu → data/questions.json")
     print("theo môn:", dict(sorted(Counter(q['subject'] for q in out).items())))
     print("vị trí đáp án:", dict(sorted(cnt.items())), "| mức độ:", dict(sorted(Counter(q['level'] for q in out).items())))
+    # chủ đề Luật/Môi giới phải được gán vào một chuyên đề SRTC trong app.js (SYL), nếu không đề thi thử từng môn sẽ bỏ sót
+    js = (ROOT / "app.js").read_text(encoding="utf-8"); syl = js[js.index("const SYL = {"):js.index("\n};", js.index("const SYL = {"))]
+    for t in sorted({q["topic"] for q in out if q["subject"] in ("LU", "MG")}):
+        if f"'{t}'" not in syl: warns.append(f"chủ đề chưa gán chuyên đề SRTC (SYL trong app.js): {t}")
     if warns: print("CẢNH BÁO:", len(warns)); print("\n".join(warns[:30]))
 
 if __name__ == "__main__":

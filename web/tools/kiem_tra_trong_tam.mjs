@@ -52,13 +52,16 @@ const h1 = (await p.textContent('h1')).trim(); A(h1 === 'Đạt' || h1 === 'Chư
 // 6) Quay lại thi CCHN 2 phần vẫn bình thường
 await setState({ ...base, prefs: { ...base.prefs, type: '' } }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('#e-cert');
 await p.click('#e-start'); await p.waitForSelector('#qcard'); s = await sess(); A(s.parts.length === 2, 'thi CCHN vẫn 2 phần');
-// 7) Người mới thi riêng môn Môi giới 35 câu: chọn bằng nút trên trang; mỗi chủ đề góp số câu theo tỷ trọng (lệch tối đa 1 câu)
+// 7) Người mới thi riêng môn Môi giới 35 câu: chọn bằng nút trên trang; 7 chuyên đề SRTC mỗi chuyên đề 5 câu; có khung quy định thi
 await setState({ ...base, q: {}, prefs: { ...base.prefs, type: '', n: 35 } }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('[data-etype="MG"]');
-await p.click('[data-etype="MG"]'); await p.waitForSelector('#e-min'); await p.click('#e-start'); await p.waitForSelector('#qcard');
+await p.click('[data-etype="MG"]'); await p.waitForSelector('#e-min');
+A(/Quy định thi cuối khóa/.test(await p.textContent('.page')) && (await p.$$('[data-ch]')).length === 7, 'trang thi từng môn phải có quy định và 7 chuyên đề');
+await p.click('#e-start'); await p.waitForSelector('#qcard');
 s = await sess(); const got = {}, size = {};
 for (const id of s.parts[0].ids) { const t = byIdT(id); got[t] = (got[t] || 0) + 1; }
 for (const x of mg) size[x.topic] = (size[x.topic] || 0) + 1;
-for (const t of Object.keys(size)) { const exp = 35 * size[t] / mg.length; A(Math.abs((got[t] || 0) - exp) <= 1, `chủ đề ${t}: ${got[t] || 0} câu, kỳ vọng ${exp.toFixed(1)}`); }
+for (const t of Object.keys(size)) A(got[t] === 5, `chuyên đề ${t}: ${got[t] || 0} câu, cần 5 (7 chuyên đề SRTC chia đều 35 câu)`);
+A(s.passAt === 0.5, 'thi từng môn đạt từ 50%');
 // 8) Bấm môn ở Tổng quan mở đúng trang Trọng tâm của môn đó
 await p.goto(url + "#tong-quan"); await p.waitForSelector('[data-subj="LU"]'); await p.click('[data-subj="LU"]');
 await p.waitForSelector('#tt-all'); A((await p.textContent('#tt-comm').catch(() => '')) !== null && /Pháp luật/.test(await p.textContent('.page')), 'bấm môn ở Tổng quan phải mở Trọng tâm môn đó');

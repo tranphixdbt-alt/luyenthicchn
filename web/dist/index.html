@@ -1248,7 +1248,8 @@ const CERTS = {
 };
 const PARTS = { LUAT: 'Pháp luật CK & TTCK', CM: 'Chuyên môn' };
 const LEVEL = { 1: 'Nhớ', 2: 'Hiểu', 3: 'Vận dụng' };
-const PASS = 0.6;
+const PASS = 0.6;          // sát hạch CCHN: đúng từ 60% mỗi phần (thông báo Hội đồng thi 2026)
+const SUBJ_PASS = 0.5;     // thi cuối khóa chứng chỉ chuyên môn: đạt từ 50/100 điểm (nguồn tổng hợp, chưa thấy quy chế gốc công khai)
 const DAY = 864e5, SRS_DAYS = [0, 1, 3, 7, 16, 35];
 const KEY = 'docchn_v1';   // giữ khóa cũ để người dùng không mất tiến độ khi đổi thương hiệu
 const BRAND = { name: 'BT-INVEST', phone: '0942037820', phoneShow: '0942 037 820', zalo: 'https://zalo.me/0942037820' };
@@ -1626,6 +1627,19 @@ VIEWS['trong-tam'] = () => {
   });
 };
 
+// Mẹo riêng từng môn (hiện ở trang Thi thử từng chứng chỉ chuyên môn)
+const TIPS = {
+  LU: ['Môn Luật hỏi nhiều con số: tỷ lệ sở hữu, vốn, số nhà đầu tư, thời hạn (24 giờ, 10 ngày, 15 ngày…). Học bằng trang <a href="#the-nho">Thẻ ghi nhớ số liệu</a>.',
+    'Đề dùng luật hiện hành: các điểm đã sửa theo Luật 56/2024, NĐ 245/2025, TT 135/2025, NĐ 306/2025 rất hay bị hỏi. Xem <a href="#thay-doi">Luật mới 2025–2026</a>.',
+    'Chuyên đề Công ty đại chúng có 2 buổi học nên thường nhiều câu nhất: nắm chắc điều kiện công ty đại chúng, chào mua công khai, sở hữu nước ngoài.',
+    'Phân biệt rõ ai làm gì: Bộ Tài chính, UBCKNN, Sở giao dịch, VSDC, ngân hàng giám sát. Nhiều phương án nhiễu chỉ đổi tên cơ quan.'],
+  MG: ['Các chuyên đề lý thuyết (tổng quan, kỹ năng, mạng lưới khách hàng, xung đột lợi ích, quản lý nhà nước) là điểm dễ lấy: chiếm khoảng 5/7 đề, học kỹ để bù cho câu tính.',
+    'Câu tính hay gặp: giá trần/sàn và bước giá, giá khớp lệnh định kỳ và liên tục, phí và thuế bán, lãi trái phiếu cộng dồn, giá trái phiếu, ký quỹ và lệnh gọi ký quỹ. Xem <a href="#cong-thuc">Công thức & máy tính</a>.',
+    'Câu xung đột lợi ích: phương án đúng luôn ưu tiên lệnh và quyền lợi khách hàng, công bố xung đột cho khách hàng và không hứa hẹn lợi nhuận.',
+    'Quy định giao dịch có thể đổi theo hệ thống KRX: đọc kỹ giả định trong đề (biên độ, bước giá, loại lệnh) thay vì dùng trí nhớ.'],
+  CB: ['Nắm chắc khớp lệnh định kỳ và liên tục, giá trần/sàn, quyền lợi cổ phiếu phổ thông và ưu đãi, đặc điểm các loại quỹ.'],
+  PT: ['Học thuộc công thức: lợi suất, CAPM, giá trái phiếu, Gordon, P/E, Sharpe. Luyện bấm máy cho nhanh. Xem <a href="#cong-thuc">Công thức & máy tính</a>.'],
+};
 // ---------- THI THỬ ----------
 VIEWS['thi-thu'] = () => {
   const p = S.prefs, c = CERTS[p.cert], k = SUBJ[p.type] ? p.type : '';
@@ -1636,16 +1650,53 @@ VIEWS['thi-thu'] = () => {
   const nSel = label => `<label class="f">${label}<select id="e-n">${opts([[25, '25 câu'], [35, '35 câu'], [50, '50 câu'], [60, '60 câu']], p.n)}</select></label>`;
   const bindCommon = () => { $$('[data-etype]').forEach(b => (b.onclick = () => { p.type = b.dataset.etype; save(); VIEWS['thi-thu'](); })); $('#e-n').onchange = e => { p.n = +e.target.value; save(); }; $('#e-start').onclick = startExam; };
   if (k) {
-    main(page('Thi thử từng chứng chỉ chuyên môn', esc(SUBJ[k].name), 'Mô phỏng bài thi cuối khóa của một chứng chỉ chuyên môn: một phần, tính giờ, chỉ có câu của môn đó. Không xem đáp án cho tới khi nộp.',
+    const ch = chapters(k), n = Math.min(p.n, D.q.filter(q => q.subject === k).length), qn = quotas(ch, n);
+    const rows = ch.map((c, i) => {
+      const ids = D.q.filter(q => q.subject === k && c[2].includes(q.topic)).map(q => q.id), seen = ids.filter(id => S.q[id]);
+      const acc = seen.length ? seen.filter(id => S.q[id].lastOk).length / seen.length : null;
+      return { name: c[0], w: c[1], q: qn[i], ids, seen: seen.length, acc, gain: qn[i] * (1 - (acc ?? 0.4)) };   // điểm có thể lấy thêm
+    });
+    const tot = ch.reduce((a, c) => a + c[1], 0), top = new Set([...rows].sort((a, b) => b.gain - a.gain).slice(0, 3).map(r => r.name));
+    const need = Math.ceil(n * SUBJ_PASS), tips = TIPS[k] || [];
+    main(page('Thi thử từng chứng chỉ chuyên môn', esc(SUBJ[k].name), 'Mô phỏng bài thi cuối khóa chứng chỉ chuyên môn: một bài, tính giờ, chỉ có câu của môn này. Không xem đáp án cho tới khi nộp.',
       `<div class="card stack">
         ${typeSel}<div class="grid g3">${nSel('Số câu')}
-          <label class="f">Thời gian<select id="e-min">${opts([[30, '30 phút'], [45, '45 phút'], [60, '60 phút'], [90, '90 phút']], p.min || 60)}</select></label></div>
-        <p class="small muted">Lấy từ ${D.q.filter(q => q.subject === k).length} câu môn này, rải theo tỷ trọng từng chủ đề; ưu tiên câu chưa làm, xen khoảng 30% câu bạn từng làm sai. Đạt khi đúng từ 60% số câu.</p>
-        <div class="note">Số câu, thời gian và mốc đạt của bài thi cuối khóa từng chứng chỉ chuyên môn do đơn vị đào tạo (SRTC) quy định; ở đây bạn tự chọn để luyện, mốc 60% là mức mô phỏng.</div>
-        <div class="row"><button class="btn primary" id="e-start">Vào phòng thi</button><a class="btn" href="#trong-tam">Xem trọng tâm môn này</a></div>
-      </div>`));
+          <label class="f">Thời gian<select id="e-min">${opts([[30, '30 phút'], [45, '45 phút'], [60, '60 phút (như thi thật)'], [90, '90 phút']], p.min || 60)}</select></label></div>
+        <div class="row"><button class="btn primary" id="e-start">Vào phòng thi ${n} câu · ${p.min || 60} phút</button><a class="btn" href="#trong-tam">Xem trọng tâm môn này</a></div>
+      </div>
+      <div class="card stack"><h2>Quy định thi cuối khóa (cập nhật 11/2026)</h2>
+        <ul class="small stack" style="gap:6px;margin:0;padding-left:18px">
+          <li><b>Hình thức:</b> trắc nghiệm trên máy tính tại SRTC, mỗi môn một ca thi <b>60 phút</b> (theo các thông báo lịch thi cuối khóa của SRTC).</li>
+          <li><b>Mang theo:</b> giấy tờ tùy thân, máy tính cầm tay, có mặt trước giờ thi 15 phút.</li>
+          <li><b>Điểm đạt:</b> thang 100, đạt từ <b>50 điểm</b> mỗi môn, tức khoảng <b>50% số câu</b>. Mức này lấy từ các nguồn tổng hợp; chưa thấy quy chế gốc công khai, hãy hỏi lại cán bộ lớp.</li>
+          <li><b>Số câu:</b> SRTC chưa công bố công khai số câu từng môn. Nên luyện <b>50 câu trong 60 phút</b> (khoảng 1 phút 10 giây mỗi câu) để quen nhịp; với ${n} câu bạn cần đúng ít nhất <b>${need} câu</b>.</li>
+          <li><b>Mục tiêu an toàn:</b> thi thử đạt từ <b>65%</b> trở lên 3 lần liên tiếp thì đi thi, vì đề thật có thể khó hơn đề luyện.</li>
+        </ul></div>
+      <div class="card stack"><h2>Tỷ trọng câu theo chuyên đề</h2>
+        <p class="small muted">${SYL[k] ? `Ước tính theo số buổi học của từng chuyên đề trong chương trình SRTC (${tot} buổi học), vì SRTC không công bố cơ cấu đề. Đề thi thử ở đây chia câu đúng theo tỷ trọng này.` : 'Theo số câu của từng chủ đề trong ngân hàng.'} Dòng có nhãn <b>Ưu tiên</b> là chỗ ôn sẽ thêm được nhiều điểm nhất (tỷ trọng lớn, bạn còn sai nhiều).</p>
+        <div class="stack" style="gap:10px">${rows.map(r => `<div class="stack" style="gap:4px">
+          <div class="row between small"><span>${top.has(r.name) ? '<span class="chip down">Ưu tiên</span> ' : ''}${esc(r.name)}</span>
+            <span class="row"><span class="num muted">${Math.round(r.w / tot * 100)}% · ≈${r.q} câu · ${r.acc === null ? 'chưa làm' : `bạn đúng ${Math.round(r.acc * 100)}%`}</span><button class="btn sm" data-ch="${esc(r.name)}">Luyện</button></span></div>
+          <div class="bar"><i style="width:${Math.round(r.w / tot * 100)}%;background:var(--accent)"></i></div></div>`).join('')}</div></div>
+      <div class="card stack"><h2>Mẹo làm bài để qua môn</h2>
+        <ol class="small stack" style="gap:6px;margin:0;padding-left:18px">
+          <li><b>Lượt 1</b> (khoảng 35 phút): làm hết câu chắc chắn, câu nào nghĩ quá 1 phút thì đánh dấu và bỏ qua. <b>Lượt 2</b>: quay lại câu đã đánh dấu. Còn 3 phút thì chọn hết các câu trống, vì bỏ trống chắc chắn mất điểm.</li>
+          <li>Gạch chân từ khóa trong đề: <b>KHÔNG, NGOẠI TRỪ</b>, tối thiểu/tối đa, trước/sau, ngày/ngày làm việc, tổ chức/cá nhân.</li>
+          <li>Loại phương án dùng quy định cũ hoặc sai cơ quan có thẩm quyền; hai phương án gần giống nhau thường có một cái đúng.</li>
+          <li>Câu tính toán: viết công thức ra giấy nháp trước khi bấm máy, rồi so đơn vị (đồng/nghìn đồng, %/năm hay %/kỳ).</li>
+          ${tips.map(t => `<li>${t}</li>`).join('')}
+        </ol></div>
+      <div class="card stack"><h2>Kế hoạch 7 ngày để qua môn</h2>
+        <ol class="small stack" style="gap:6px;margin:0;padding-left:18px">
+          <li><b>Ngày 1:</b> thi thử 1 đề đủ giờ để biết mình đang ở đâu, rồi xem trang Trọng tâm của môn.</li>
+          <li><b>Ngày 2–5:</b> mỗi ngày ôn 2 chuyên đề, bắt đầu từ các dòng <b>Ưu tiên</b> ở trên: bấm "Luyện" 20 câu cho mỗi chuyên đề, đọc kỹ giải thích các câu sai. Tối làm phần Ôn lặp lại.</li>
+          <li><b>Ngày 6:</b> thi thử 2 đề, sau mỗi đề bấm "Ôn lại câu sai".</li>
+          <li><b>Ngày 7:</b> không học mới: ôn câu sai, câu đã đánh dấu${k === 'LU' ? ', Thẻ ghi nhớ số liệu và Luật mới 2025–2026' : ''}.</li>
+        </ol></div>`));
     bindCommon();
-    $('#e-min').onchange = e => { p.min = +e.target.value; save(); };
+    $('#e-min').onchange = e => { p.min = +e.target.value; save(); VIEWS['thi-thu'](); };
+    $('#e-n').onchange = e => { p.n = +e.target.value; save(); VIEWS['thi-thu'](); };
+    $$('[data-ch]').forEach(b => (b.onclick = () => { const r = rows.find(x => x.name === b.dataset.ch); startPractice(spread(smartPick(r.ids, 20, topicOf)), `${SUBJ[k].short} · ${r.name}`, true); }));
     return;
   }
   const bp = Object.entries(c.blueprint).map(([k, w]) => `<span class="chip">${SUBJ[k].short} ${Math.round(w * 100)}%</span>`).join(' ');
@@ -1658,7 +1709,7 @@ VIEWS['thi-thu'] = () => {
       </div>
       <div class="grid g2">
         <div class="card flat stack"><div class="row between"><h3>Phần 1 · Pháp luật CK & TTCK</h3><span class="chip acc num">${c.minutes} phút</span></div>
-          <p class="small muted">Rải theo tỷ trọng các chủ đề từ ${D.q.filter(q => q.subject === 'LU').length} câu Luật đã soát theo văn bản hiện hành.</p></div>
+          <p class="small muted">Chia câu theo 10 chuyên đề của chương trình Pháp luật SRTC, lấy từ ${D.q.filter(q => q.subject === 'LU').length} câu Luật đã soát theo văn bản hiện hành.</p></div>
         <div class="card flat stack"><div class="row between"><h3>Phần 2 · Chuyên môn</h3><span class="chip acc num">${c.minutes} phút</span></div>
           <p class="small muted">Chỉ gồm các môn trong điều kiện cấp CCHN ${c.name}:</p><div class="row">${bp}</div></div>
       </div>
@@ -1671,15 +1722,44 @@ VIEWS['thi-thu'] = () => {
   bindCommon();
 };
 const topicOf = id => D.byId.get(id).topic;
-function pickLaw(n) {     // rải đều theo chủ đề
-  return spread(smartPick(D.q.filter(q => q.subject === 'LU').map(q => q.id), n, topicOf));
+// Chuyên đề của chương trình đào tạo SRTC: [tên, số buổi học, chủ đề tương ứng trong ngân hàng].
+// SRTC không công bố cơ cấu đề, nên đề mô phỏng chia số câu theo số buổi học của từng chuyên đề.
+const SYL = {
+  LU: [['Khái quát pháp luật về CK & TTCK', 1, ['Giải thích từ ngữ', 'Nhà đầu tư chuyên nghiệp']],
+    ['Pháp luật về công ty đại chúng', 2, ['Công ty đại chúng', 'Quản trị công ty đại chúng', 'Chào mua công khai', 'Sở hữu nước ngoài']],
+    ['Chào bán chứng khoán ra công chúng', 1, ['Chào bán ra công chúng', 'Chào bán chứng khoán ra công chúng', 'Chào bán riêng lẻ', 'Chào bán trái phiếu', 'Chào bán riêng lẻ & phát hành khác']],
+    ['Thị trường giao dịch chứng khoán', 1, ['Giao dịch chứng khoán', 'SGDCK & VSDC', 'Niêm yết & hủy niêm yết', 'CK phái sinh', 'Chứng quyền có bảo đảm']],
+    ['Công ty chứng khoán & người hành nghề', 1, ['CTCK & CTQLQ', 'An toàn tài chính CTCK', 'Hạn chế tài chính CTCK', 'Tổ chức & hoạt động CTCK', 'Hoạt động CTCK', 'Vốn điều lệ CTCK', 'Chứng chỉ hành nghề & quy chế thi 2026', 'Chứng chỉ hành nghề chứng khoán']],
+    ['Công ty quản lý quỹ, quỹ đầu tư, công ty đầu tư CK', 1, ['Quỹ đầu tư']],
+    ['Đăng ký, lưu ký, bù trừ và thanh toán', 1, ['Đăng ký, lưu ký, bù trừ & thanh toán']],
+    ['Công bố thông tin', 1, ['Công bố thông tin']],
+    ['Quản lý nhà nước, giám sát, thanh tra, xử lý vi phạm', 1, ['Xử phạt vi phạm', 'Thanh tra & xử lý vi phạm', 'Giám sát & an ninh thị trường', 'Hành vi bị cấm']],
+    ['Giải quyết tranh chấp, khiếu nại, tố cáo, bồi thường', 1, ['Giải quyết tranh chấp, khiếu nại & bồi thường']]],
+  MG: ['Tổng quan về môi giới và tư vấn đầu tư chứng khoán', 'Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán',
+    'Xây dựng mạng lưới khách hàng và chăm sóc khách hàng', 'Giao dịch cổ phiếu trên thị trường chứng khoán', 'Giao dịch trái phiếu trên thị trường chứng khoán',
+    'Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán',
+    'Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán'].map(t => [t, 1, [t]]),
+};
+// Môn không có trong SYL: mỗi chủ đề của ngân hàng là một chuyên đề, tỷ trọng theo số câu.
+const chapters = k => SYL[k] || [...new Set(D.q.filter(q => q.subject === k).map(q => q.topic))].map(t => [t, D.q.filter(q => q.subject === k && q.topic === t).length, [t]]);
+function quotas(ch, n) {   // chia n câu theo trọng số, phần dư cho chuyên đề có số lẻ lớn nhất
+  const tot = ch.reduce((s, c) => s + c[1], 0), want = ch.map(c => n * c[1] / tot), q = want.map(Math.floor);
+  want.map((w, i) => [w - q[i], i]).sort((a, b) => b[0] - a[0]).slice(0, n - q.reduce((a, b) => a + b, 0)).forEach(([, i]) => q[i]++);
+  return q;
 }
+function pickSubj(k, n) {
+  const ids = D.q.filter(q => q.subject === k).map(q => q.id), ch = chapters(k), q = quotas(ch, n), out = [];
+  ch.forEach((c, i) => out.push(...smartPick(ids.filter(id => c[2].includes(topicOf(id))), q[i], topicOf)));
+  if (out.length < n) { const used = new Set(out); out.push(...smartPick(ids.filter(id => !used.has(id)), n - out.length, topicOf)); }
+  return out;
+}
+function pickLaw(n) { return spread(pickSubj('LU', n)); }
 function pickSpec(cert, n) {
   const bp = Object.entries(CERTS[cert].blueprint), want = bp.map(([k, w]) => [k, Math.floor(w * n)]);
   let left = n - want.reduce((s, x) => s + x[1], 0);
   for (let i = 0; left > 0; i = (i + 1) % want.length, left--) want[i][1]++;
   const out = [];
-  for (const [k, m] of want) out.push(...smartPick(D.q.filter(q => q.subject === k).map(q => q.id), m, topicOf));
+  for (const [k, m] of want) out.push(...pickSubj(k, m));
   if (out.length < n) {      // môn nào thiếu câu thì bù bằng môn khác trong cùng chương trình
     const used = new Set(out);
     out.push(...smartPick(D.q.filter(q => CERTS[cert].blueprint[q.subject] && !used.has(q.id)).map(q => q.id), n - out.length, topicOf));
@@ -1690,14 +1770,14 @@ async function startExam() {
   const p = S.prefs, c = CERTS[p.cert], k = SUBJ[p.type] ? p.type : '', mode = k || p.mode || 'both';
   if (S.sess && !(await confirmBox('Bỏ bài đang làm?', `Bài "${esc(S.sess.title)}" chưa hoàn tất sẽ bị bỏ.`, 'Bỏ và vào thi'))) return;
   const parts = [];
-  if (k) parts.push(mkPart(k === 'LU' ? 'LUAT' : 'CM', 'Môn ' + SUBJ[k].short, spread(smartPick(D.q.filter(q => q.subject === k).map(q => q.id), p.n, topicOf)), true, p.min || 60));
+  if (k) parts.push(mkPart(k === 'LU' ? 'LUAT' : 'CM', 'Môn ' + SUBJ[k].short, spread(pickSubj(k, p.n)), true, p.min || 60));
   else {
     if (mode !== 'CM') parts.push(mkPart('LUAT', 'Phần 1 · Pháp luật', pickLaw(p.n), true, c.minutes));
     if (mode !== 'LUAT') parts.push(mkPart('CM', mode === 'both' ? 'Phần 2 · Chuyên môn' : 'Phần Chuyên môn', pickSpec(p.cert, p.n), true, c.minutes));
   }
   if (parts.some(x => x.ids.length < p.n)) toast('Ngân hàng chưa đủ câu cho cấu hình này; đề sẽ ngắn hơn.');
   parts[0].startAt = now(); parts[0].endAt = now() + parts[0].minutes * 60e3;
-  S.sess = { kind: 'exam', title: k ? 'Thi thử môn ' + SUBJ[k].name : 'Thi thử ' + c.name, cert: k ? null : p.cert, mode, p: 0, i: 0, createdAt: now(), parts, waiting: false };
+  S.sess = { kind: 'exam', title: k ? 'Thi thử môn ' + SUBJ[k].name : 'Thi thử ' + c.name, cert: k ? null : p.cert, mode, p: 0, i: 0, createdAt: now(), parts, waiting: false, passAt: k ? SUBJ_PASS : PASS };
   save(); go('lam-bai');
 }
 
@@ -1805,11 +1885,11 @@ function finishPart(auto) {
     const items = x.ids.map(id => ({ id, c: x.ans[id] ?? null, perm: x.perm[id] }));
     const ok = items.filter(it => it.c !== null && isRight(D.byId.get(it.id), it.c)).length;
     const n = s.kind === 'exam' ? items.length : items.filter(it => it.c !== null).length;
-    return { key: x.key, label: x.label, n, ok, pass: n ? ok / n >= PASS : false, items };
+    return { key: x.key, label: x.label, n, ok, pass: n ? ok / n >= (s.passAt || PASS) : false, items };
   });
   if (s.kind === 'exam') for (const x of parts) for (const it of x.items) rec(it.id, it.c !== null && isRight(D.byId.get(it.id), it.c));
   const n = parts.reduce((a, x) => a + x.n, 0), ok = parts.reduce((a, x) => a + x.ok, 0);
-  const res = { at: now(), kind: s.kind, title: s.title, cert: s.cert || null, n, ok, pass: s.kind === 'exam' ? parts.every(x => x.pass) : (n ? ok / n >= PASS : false),
+  const res = { at: now(), kind: s.kind, title: s.title, cert: s.cert || null, passAt: s.passAt || PASS, n, ok, pass: s.kind === 'exam' ? parts.every(x => x.pass) : (n ? ok / n >= PASS : false),
     parts: parts.map(({ items, ...r }) => r) };
   S.hist.unshift(res); S.hist = S.hist.slice(0, 200);
   S.last = { ...res, parts };
@@ -1851,14 +1931,14 @@ VIEWS['ket-qua'] = () => {
   const items = r.parts.flatMap(x => x.items.map(it => ({ ...it, part: x.label }))).filter(it => D.byId.has(it.id) && (exam || it.c !== null))
     .filter(it => !onlyWrong || !(it.c !== null && isRight(D.byId.get(it.id), it.c)));
   const p = pct(r.ok, r.n);
-  const multi = r.parts.length > 1;
+  const multi = r.parts.length > 1, pa = r.passAt || PASS;
   main(page(exam ? 'Kết quả thi thử' : 'Kết quả ôn luyện', exam ? (r.pass ? (multi ? 'Đạt cả hai phần' : 'Đạt') : 'Chưa đạt') : `Đúng ${r.ok}/${r.n} câu`,
-    exam ? (multi ? 'Đạt khi đúng từ 60% số câu ở mỗi phần; không cộng bù điểm giữa hai phần.' : 'Đạt khi đúng từ 60% số câu.') : '',
+    exam ? (multi ? 'Đạt khi đúng từ 60% số câu ở mỗi phần; không cộng bù điểm giữa hai phần.' : `Đạt khi đúng từ ${Math.round(pa * 100)}% số câu.`) : '',
     `<div class="card row" style="gap:22px">
       <div class="ring" style="--p:${p};--c:var(--${r.pass ? 'up' : 'down'})"><div><span><b>${p}%</b><span class="tiny muted">đúng</span></span></div></div>
       <div class="stack" style="flex:1">${r.parts.map(x => `<div class="stack" style="gap:6px"><div class="row between"><b>${esc(x.label || 'Ôn luyện')}</b>
         <span class="row"><span class="num">${x.ok}/${x.n}</span>${exam ? `<span class="chip ${x.pass ? 'up' : 'down'}">${x.pass ? 'Đạt' : 'Chưa đạt'}</span>` : ''}</span></div>
-        <div class="bar"><i style="width:${pct(x.ok, x.n)}%;background:var(--${x.ok / Math.max(x.n, 1) >= PASS ? 'up' : 'down'})"></i><span class="mark" style="left:60%"></span></div></div>`).join('')}
+        <div class="bar"><i style="width:${pct(x.ok, x.n)}%;background:var(--${x.ok / Math.max(x.n, 1) >= pa ? 'up' : 'down'})"></i><span class="mark" style="left:${pa * 100}%"></span></div></div>`).join('')}
       </div></div>
     <div class="grid g2">
       <div class="card stack"><h2>Theo chủ đề (yếu nhất trước)</h2>${tp.slice(0, 12).map(([t, x]) => `<div class="stack" style="gap:4px"><div class="row between small"><span>${esc(t)}</span><span class="num">${x.ok}/${x.n}</span></div>
