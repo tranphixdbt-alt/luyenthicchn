@@ -21,7 +21,7 @@ html = ('<!doctype html>\n<html lang="vi">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="theme-color" content="#0C2A63">\n<link rel="manifest" href="manifest.webmanifest">\n'
         '<link rel="icon" href="favicon-64.png" type="image/png">\n<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
         f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="BT-INVEST">\n<meta property="og:title" content="BT-INVEST – Luyện thi chứng chỉ hành nghề chứng khoán 2026">\n'
-        f'<meta property="og:description" content="452 câu soát theo luật hiện hành, thi thử đúng cấu trúc từng chứng chỉ, ôn lặp lại, thư viện luật. Hotline/Zalo 0942 037 820.">\n'
+        f'<meta property="og:description" content="{len(json.loads((root / "data" / "questions.json").read_text(encoding="utf-8")))} câu soát theo luật hiện hành, thi thử đúng cấu trúc từng chứng chỉ, ôn lặp lại, thư viện luật. Hotline/Zalo 0942 037 820.">\n'
         f'<meta property="og:url" content="{SITE}/">\n<meta property="og:image" content="{SITE}/og.png">\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">\n'
         + head + "</style>\n</head>\n<body>\n" + body + "\n</body>\n</html>\n")
 (dist / "index.html").write_text(html, encoding="utf-8")
