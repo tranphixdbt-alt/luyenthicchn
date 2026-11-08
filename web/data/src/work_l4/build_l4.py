@@ -191,14 +191,14 @@ add("Thanh tra & xử lý vi phạm", 2,
      "Chuyển hồ sơ cho Sở giao dịch chứng khoán Việt Nam ra quyết định xử phạt",
      "Đề nghị Tòa án nhân dân có thẩm quyền ra quyết định xử phạt hành chính",
      "Báo cáo Thanh tra Chính phủ để Tổng Thanh tra Chính phủ ra quyết định"], 0,
-    "Điểm b khoản 4 Điều 129: Thanh tra chứng khoán xử phạt vi phạm hành chính theo thẩm quyền hoặc kiến nghị Chủ tịch UBCKNN quyết định việc xử phạt theo pháp luật về xử lý vi phạm hành chính. Chủ tịch UBCKNN có thẩm quyền xử phạt cao nhất trong lĩnh vực (khoản 6 Điều 132; khoản 2 Điều 47 NĐ 156/2020). Sở giao dịch chứng khoán không có thẩm quyền xử phạt; Tòa án không ra quyết định xử phạt hành chính. Lưu ý: Luật Thanh tra 2025 đã tổ chức lại hệ thống cơ quan thanh tra; Điều 129 Luật Chứng khoán chưa được sửa (khoản 2 Điều 62 Luật Thanh tra 2025 yêu cầu sửa trước 01/3/2027), còn NĐ 306/2025 vẫn quy định thẩm quyền của Chánh Thanh tra, Trưởng đoàn thanh tra Thanh tra Chứng khoán Nhà nước.",
+    "Điểm b khoản 4 Điều 129: Thanh tra chứng khoán xử phạt vi phạm hành chính theo thẩm quyền hoặc kiến nghị Chủ tịch UBCKNN quyết định việc xử phạt theo pháp luật về xử lý vi phạm hành chính. Chủ tịch UBCKNN được phạt đến mức tối đa của lĩnh vực chứng khoán (khoản 6 Điều 132; khoản 2 Điều 47 NĐ 156/2020). Sở giao dịch chứng khoán không có thẩm quyền xử phạt; Tòa án không ra quyết định xử phạt hành chính. Lưu ý: Luật Thanh tra 2025 đã tổ chức lại hệ thống cơ quan thanh tra; Điều 129 Luật Chứng khoán chưa được sửa (khoản 2 Điều 62 Luật Thanh tra 2025 yêu cầu sửa trước 01/3/2027), còn NĐ 306/2025 vẫn quy định thẩm quyền của Chánh Thanh tra, Trưởng đoàn thanh tra Thanh tra Chứng khoán Nhà nước.",
     "Điểm b khoản 4 Điều 129, khoản 6 Điều 132 " + VB24,
     "b) Xử phạt vi phạm hành chính theo thẩm quyền hoặc kiến nghị Chủ tịch Ủy ban Chứng khoán Nhà nước quyết định việc xử phạt vi phạm hành chính theo quy định của pháp luật về xử lý vi phạm hành chính;", LCK)
 
 add("Thanh tra & xử lý vi phạm", 2,
     "Theo Luật Thanh tra số 84/2025/QH15 (hiệu lực 01/7/2025), cơ quan nào sau đây KHÔNG thuộc danh sách cơ quan thanh tra?",
     ["Thanh tra Chính phủ", "Thanh tra tỉnh, thành phố", "Thanh tra Ngân hàng Nhà nước", "Thanh tra Bộ Tài chính"], 3,
-    "Điều 7 Luật Thanh tra 2025: cơ quan thanh tra gồm Thanh tra Chính phủ; Thanh tra tỉnh, thành phố; cơ quan thanh tra trong Quân đội nhân dân, Công an nhân dân, Ngân hàng Nhà nước (Thanh tra Bộ Quốc phòng, Thanh tra Bộ Công an, Thanh tra Ngân hàng Nhà nước…); Thanh tra Cơ yếu và thanh tra thành lập theo điều ước quốc tế. Luật này thay Luật Thanh tra 2022 mà slide 2025 còn trích: bỏ thanh tra bộ ở các bộ khác, thanh tra sở, thanh tra huyện, thanh tra Tổng cục, Cục và mô hình cơ quan được giao thực hiện chức năng thanh tra chuyên ngành; thủ trưởng cơ quan quản lý nhà nước tổ chức kiểm tra chuyên ngành (Điều 61).",
+    "Điều 7 Luật Thanh tra 2025: cơ quan thanh tra gồm Thanh tra Chính phủ; Thanh tra tỉnh, thành phố; cơ quan thanh tra trong Quân đội nhân dân, Công an nhân dân, Ngân hàng Nhà nước (Thanh tra Bộ Quốc phòng, Thanh tra Bộ Công an, Thanh tra Ngân hàng Nhà nước…); Thanh tra Cơ yếu và thanh tra thành lập theo điều ước quốc tế. Luật này thay Luật Thanh tra 2022 mà slide 2025 còn trích: bỏ thanh tra bộ ở các bộ khác, thanh tra sở, thanh tra huyện, thanh tra Tổng cục, Cục và mô hình cơ quan được giao thực hiện chức năng thanh tra chuyên ngành; thủ trưởng cơ quan quản lý nhà nước tổ chức kiểm tra chuyên ngành (Điều 61). Thanh tra chứng khoán thuộc UBCKNN hiện vẫn được Điều 129 Luật Chứng khoán và NĐ 306/2025 quy định, chờ Luật Chứng khoán được sửa cho thống nhất (khoản 2 Điều 62 Luật Thanh tra 2025: trước 01/3/2027).",
     "Điều 7, Điều 61, Điều 63 Luật Thanh tra số 84/2025/QH15 (hiệu lực 01/7/2025, thay thế Luật Thanh tra số 11/2022/QH15)",
     "Điều 7. Cơ quan thanh tra 1. Thanh tra Chính phủ. 2. Thanh tra tỉnh, thành phố (sau đây gọi chung là Thanh tra tỉnh). 3. Cơ quan thanh tra trong Quân đội nhân dân, Công an nhân dân, Ngân hàng Nhà nước Việt Nam, bao gồm Thanh tra Bộ Quốc phòng, Thanh tra Bộ Công an, Thanh tra Ngân hàng Nhà nước", LTT)
 
@@ -245,7 +245,7 @@ add("Giám sát & an ninh thị trường", 2,
 add("SGDCK & VSDC", 1,
     "Công ty chứng khoán K là thành viên lưu ký. Theo Luật Chứng khoán, chủ thể có nghĩa vụ giám sát việc tuân thủ nghĩa vụ thành viên của K, đồng thời giám sát tỷ lệ sở hữu của nhà đầu tư nước ngoài, là:",
     ["Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam", "Sở giao dịch chứng khoán Việt Nam và công ty con",
-     "Ngân hàng Nhà nước, qua Cục Quản lý ngoại hối", "Hiệp hội Kinh doanh chứng khoán Việt Nam"], 0,
+     "Ngân hàng Nhà nước Việt Nam (quản lý ngoại hối)", "Hiệp hội Kinh doanh chứng khoán Việt Nam"], 0,
     "Điểm c khoản 2 Điều 55: VSDC giám sát hoạt động đăng ký, lưu ký, bù trừ, thanh toán; giám sát tỷ lệ sở hữu của nhà đầu tư nước ngoài; giám sát việc tuân thủ nghĩa vụ của thành viên VSDC (thành viên lưu ký, thành viên bù trừ). Sở giao dịch chứng khoán giám sát hoạt động giao dịch, việc tuân thủ nghĩa vụ của thành viên giao dịch và công bố thông tin của tổ chức niêm yết, đăng ký giao dịch (điểm c khoản 2 Điều 46). Phân chia trên slide 2025 trang 20 là đúng.",
     "Điểm c khoản 2 Điều 55 " + VB24,
     "c) Giám sát hoạt động đăng ký, lưu ký, bù trừ và thanh toán giao dịch chứng khoán; giám sát tỷ lệ sở hữu của nhà đầu tư nước ngoài theo quy định của pháp luật về chứng khoán và thị trường chứng khoán; giám sát việc tuân thủ nghĩa vụ của thành viên", LCK)
@@ -266,8 +266,8 @@ add("Xử phạt vi phạm", 1,
     "Thời hiệu xử phạt vi phạm hành chính là 01 năm, trừ các trường hợp sau đây: Vi phạm hành chính về kế toán; hóa đơn; phí, lệ phí; kinh doanh bảo hiểm; quản lý giá; chứng khoán;", XLVPHC)
 
 add("Xử phạt vi phạm", 2,
-    "Ba nhà đầu tư A, B, C cùng thực hiện một hành vi vi phạm hành chính trong lĩnh vực chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự). Theo nguyên tắc xử phạt của Luật Xử lý vi phạm hành chính:",
-    ["Mỗi người A, B, C đều bị xử phạt về hành vi vi phạm đó",
+    "Ba nhà đầu tư H, K, M cùng thực hiện một hành vi vi phạm hành chính trong lĩnh vực chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự). Theo nguyên tắc xử phạt của Luật Xử lý vi phạm hành chính:",
+    ["Mỗi người H, K, M đều bị xử phạt về hành vi vi phạm đó",
      "Chỉ người khởi xướng bị phạt tiền, hai người còn lại bị cảnh cáo",
      "Cả ba bị xử phạt chung một lần, tiền phạt chia đều cho ba người",
      "Chỉ xử phạt người thu được khoản lợi bất hợp pháp lớn nhất"], 0,

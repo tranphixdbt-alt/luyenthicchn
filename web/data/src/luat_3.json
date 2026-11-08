@@ -50,7 +50,7 @@
    "Chỉ qua ngân hàng lưu ký nơi mở tài khoản, dùng số hiệu tài khoản tiền gửi thanh toán của chính nhà đầu tư",
    "Chỉ qua văn phòng đại diện tại Việt Nam của tổ chức kinh doanh chứng khoán nước ngoài đã được cấp phép",
    "Tự đặt bằng tài khoản giao dịch của mình, hoặc qua tổ chức KDCK nước ngoài đại diện bằng số hiệu tài khoản lưu ký",
-   "Qua bất kỳ cá nhân được ủy quyền bằng lời nói, sử dụng tài khoản giao dịch của chính người được ủy quyền"
+   "Chỉ qua công ty quản lý quỹ trong nước nhận ủy thác, bằng tài khoản giao dịch đứng tên công ty quản lý quỹ"
   ],
   "a": 2,
   "e": "Điểm a khoản 1 Điều 6 (sửa đổi bởi khoản 1 Điều 4 TT 08/2026, hiệu lực 03/02/2026): nhà đầu tư nước ngoài không cư trú đặt lệnh thông qua tổ chức kinh doanh chứng khoán nước ngoài đại diện bằng số hiệu tài khoản lưu ký của nhà đầu tư, hoặc tự đặt bằng tài khoản giao dịch của mình. CTCK phải ký hợp đồng với tổ chức đại diện và nhận biết cả nhà đầu tư lẫn tổ chức đại diện (Điều 15a TT 121/2020).",
@@ -85,7 +85,7 @@
   "subject": "LU",
   "topic": "Giao dịch chứng khoán",
   "level": 3,
-  "q": "Trong phiên khớp lệnh liên tục buổi sáng, nhà đầu tư H đặt lệnh giới hạn mua 1.000 cổ phiếu X; lệnh chưa khớp và vẫn còn hiệu lực. Trong đợt khớp lệnh định kỳ đóng cửa cùng ngày, H muốn đặt lệnh bán 500 cổ phiếu X đang có sẵn trên tài khoản. Theo Thông tư 120/2020/TT-BTC, H:",
+  "q": "Giả định quy chế giao dịch của Sở có phiên khớp lệnh liên tục, sau đó là đợt khớp lệnh định kỳ đóng cửa. Trong phiên khớp lệnh liên tục, nhà đầu tư H đặt lệnh mua 1.000 cổ phiếu X; đến đợt định kỳ đóng cửa, lệnh này chưa khớp và vẫn còn hiệu lực. Trong đợt định kỳ đó, H muốn đặt lệnh bán 500 cổ phiếu X đang có sẵn trên tài khoản. Theo Thông tư 120/2020/TT-BTC, H:",
   "o": [
    "Được đặt, vì lệnh mua nhập từ đợt trước, chưa khớp, còn hiệu lực không thuộc phạm vi bị cấm",
    "Không được đặt, phải hủy lệnh mua còn hiệu lực trước khi đặt lệnh bán trong đợt định kỳ",
@@ -93,7 +93,7 @@
    "Chỉ được đặt nếu lệnh bán có mức giá cao hơn mức giá của lệnh mua đang chờ khớp"
   ],
   "a": 0,
-  "e": "Khoản 4 Điều 7: nhà đầu tư không được đặt các lệnh cùng mua, cùng bán đồng thời một mã trong cùng một đợt khớp lệnh định kỳ, trừ các lệnh đã nhập vào hệ thống tại đợt giao dịch trước đó, chưa khớp nhưng còn hiệu lực. Lệnh mua của H thuộc trường hợp loại trừ nên H được đặt lệnh bán. CTCK có trách nhiệm kiểm soát việc đặt lệnh này khi nhận và nhập lệnh (khoản 5 Điều 7, sửa đổi bởi TT 08/2026).",
+  "e": "Khoản 4 Điều 7: nhà đầu tư không được đặt các lệnh cùng mua, cùng bán đồng thời một mã trong cùng một đợt khớp lệnh định kỳ, trừ các lệnh đã nhập vào hệ thống tại đợt giao dịch trước đó, chưa khớp nhưng còn hiệu lực. Lệnh mua của H thuộc trường hợp loại trừ nên H được đặt lệnh bán. CTCK có trách nhiệm kiểm soát việc đặt lệnh này khi nhận và nhập lệnh (khoản 5 Điều 7, sửa đổi bởi TT 08/2026). Cấu trúc phiên trong đề là giả định: tên phiên, loại lệnh do quy chế giao dịch của Sở quy định và có thể thay đổi theo hệ thống giao dịch mới.",
   "basis": "Khoản 4, 5 Điều 7 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026) (khoản 5 sửa đổi bởi khoản 2 Điều 5 Thông tư 08/2026/TT-BTC)",
   "quote": "Nhà đầu tư không được đặt các lệnh giao dịch cùng mua, cùng bán đồng thời cùng một mã chứng khoán trong cùng một đợt khớp lệnh định kỳ, trừ các lệnh đã được nhập vào hệ thống giao dịch chứng khoán tại đợt giao dịch trước đó, chưa được khớp nhưng vẫn còn hiệu lực.",
   "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
@@ -105,7 +105,7 @@
   "subject": "LU",
   "topic": "Giao dịch chứng khoán",
   "level": 2,
-  "q": "Theo Thông tư 120/2020/TT-BTC, nhà đầu tư chỉ được đặt lệnh bán chứng khoán đã có sẵn trên tài khoản lưu ký tại ngày giao dịch. Các trường hợp sau là ngoại lệ, NGOẠI TRỪ:",
+  "q": "Theo Thông tư 120/2020/TT-BTC, nhà đầu tư chỉ được đặt lệnh bán chứng khoán đã có sẵn trên tài khoản lưu ký tại ngày giao dịch. Các trường hợp sau đây đều là ngoại lệ của quy định này, NGOẠI TRỪ:",
   "o": [
    "Thành viên lập quỹ ETF bán chứng chỉ quỹ ETF khi bảo đảm đủ để chuyển giao trước thời hạn thanh toán",
    "Bán trước số cổ phiếu thưởng đã chốt danh sách nhưng chưa được phân bổ vào tài khoản",
@@ -314,7 +314,7 @@
   ],
   "a": 3,
   "e": "Điều 97: CTCK phải là thành viên bù trừ hoặc thành viên lưu ký có hợp đồng ủy thác bù trừ, thanh toán với thành viên bù trừ chung; đáp ứng hạ tầng CNTT, quy trình, nhân sự theo quy chế của Sở; không trong tình trạng kiểm soát, kiểm soát đặc biệt. Yêu cầu là thành viên lưu ký và được cấp phép đầy đủ các nghiệp vụ theo khoản 1 Điều 72 Luật Chứng khoán chỉ áp dụng khi đăng ký làm thành viên giao dịch công cụ nợ. SGDCK chấp thuận, hủy bỏ tư cách thành viên (điểm e khoản 1 Điều 46 Luật).",
-  "basis": "Khoản 1, 3 Điều 97 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 3 Điều 97 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Công ty chứng khoán là thành viên bù trừ hoặc thành viên lưu ký có hợp đồng ủy thác bù trừ, thanh toán với thành viên bù trừ chung",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -327,14 +327,14 @@
   "level": 2,
   "q": "Ngân hàng thương mại H được Sở giao dịch chứng khoán chấp thuận là thành viên giao dịch đặc biệt. Theo Nghị định 155/2020/NĐ-CP, phạm vi giao dịch của H là:",
   "o": [
-   "Chỉ giao dịch công cụ nợ cho chính mình",
-   "Giao dịch cổ phiếu và công cụ nợ cho chính mình và cho khách hàng của ngân hàng",
-   "Giao dịch công cụ nợ cho chính mình và cho khách hàng là tổ chức tín dụng khác",
-   "Giao dịch mọi loại chứng khoán niêm yết nhưng chỉ cho chính mình"
+   "Chỉ giao dịch công cụ nợ, và chỉ giao dịch cho chính ngân hàng H",
+   "Giao dịch cổ phiếu và công cụ nợ cho chính mình và cho khách hàng của H",
+   "Giao dịch công cụ nợ cho chính mình và cho các tổ chức tín dụng khác",
+   "Giao dịch mọi loại chứng khoán niêm yết, nhưng chỉ cho chính mình"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 99: thành viên giao dịch đặc biệt, Kho bạc Nhà nước chỉ được giao dịch công cụ nợ cho chính mình. Điều kiện làm thành viên giao dịch đặc biệt: NHTM, chi nhánh NHNNg có vốn điều lệ thực góp/được cấp tối thiểu bằng vốn pháp định, không bị kiểm soát đặc biệt; là thành viên lưu ký hoặc tổ chức mở tài khoản trực tiếp tại VSDC; đáp ứng hạ tầng, quy trình, nhân sự (khoản 1 Điều 99).",
-  "basis": "Khoản 1, 3 Điều 99 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 3 Điều 99 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Thành viên giao dịch đặc biệt, Kho bạc Nhà nước chỉ được phép thực hiện giao dịch công cụ nợ cho chính mình.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -354,9 +354,9 @@
   ],
   "a": 1,
   "e": "Điều 49: UBCKNN tạm ngừng, đình chỉ một phần hoặc toàn bộ hoạt động giao dịch của SGDCK Việt Nam và công ty con khi có chiến tranh, thiên tai, biến động lớn của nền kinh tế, sự cố hệ thống giao dịch, sự kiện bất khả kháng hoặc thị trường biến động bất thường; UBCKNN cũng quyết định khôi phục. Còn SGDCK có quyền tạm ngừng, đình chỉ giao dịch đối với một hoặc một số chứng khoán cụ thể (điểm d khoản 1 Điều 46).",
-  "basis": "Khoản 1 Điều 49, điểm d khoản 1 Điều 46 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
+  "basis": "Khoản 1 Điều 49, điểm d khoản 1 Điều 46 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026; hai điều này không bị Luật 56/2024/QH15, Luật 142/2025/QH15 sửa đổi)",
   "quote": "Ủy ban Chứng khoán Nhà nước thực hiện tạm ngừng, đình chỉ một phần hoặc toàn bộ hoạt động giao dịch của Sở giao dịch chứng khoán Việt Nam và công ty con trong trường hợp sau đây: a) Khi xảy ra chiến tranh, thảm họa tự nhiên, biến động lớn của nền kinh tế, sự cố hệ thống giao dịch",
-  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -414,9 +414,9 @@
   ],
   "a": 0,
   "e": "Điều 52–54: Thủ tướng quyết định thành lập, giải thể, mô hình hoạt động, hình thức sở hữu và cơ cấu tổ chức quản lý của VSDC theo đề nghị của Bộ trưởng Bộ Tài chính; Chủ tịch HĐTV/HĐQT, Tổng giám đốc và Điều lệ VSDC do Bộ trưởng Bộ Tài chính phê chuẩn hoặc ban hành theo đề nghị của HĐTV/HĐQT và ý kiến Chủ tịch UBCKNN. VSDC do Nhà nước nắm trên 50% vốn điều lệ, chịu sự quản lý, giám sát của UBCKNN.",
-  "basis": "Khoản 2 Điều 52, Điều 53, khoản 1 Điều 54 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
+  "basis": "Khoản 2 Điều 52, Điều 53, khoản 1 Điều 54 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026; các khoản này không bị Luật 56/2024/QH15, Luật 142/2025/QH15 sửa đổi)",
   "quote": "Điều lệ Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam được Bộ trưởng Bộ Tài chính phê chuẩn hoặc ban hành, sửa đổi, bổ sung theo đề nghị của Hội đồng thành viên hoặc Hội đồng quản trị",
-  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
   "as_of": "2026-11"
  },
  {
@@ -454,7 +454,7 @@
   ],
   "a": 2,
   "e": "Khoản 1 Điều 165: tổ chức mở tài khoản trực tiếp gồm SCIC; tổ chức tín dụng, bảo hiểm tham gia giao dịch công cụ nợ do SGDCK tổ chức; NHNN, Kho bạc Nhà nước, trung tâm lưu ký chứng khoán nước ngoài. VSDC cung cấp dịch vụ cho các tổ chức này trên cơ sở hợp đồng hoặc văn bản thỏa thuận. Công ty quản lý quỹ lưu ký chứng khoán qua thành viên lưu ký (ngân hàng lưu ký, CTCK).",
-  "basis": "Khoản 1, 4 Điều 165 Nghị định 155/2020/NĐ-CP",
+  "basis": "Khoản 1, 4 Điều 165 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "a) Tổng công ty đầu tư và kinh doanh vốn Nhà nước; b) Các tổ chức tín dụng, bảo hiểm tham gia giao dịch công cụ nợ do Sở giao dịch chứng khoán tổ chức; c) Ngân hàng Nhà nước Việt Nam, Kho bạc Nhà nước, Trung tâm lưu ký chứng khoán nước ngoài.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -474,7 +474,7 @@
   ],
   "a": 3,
   "e": "Khoản 2 Điều 166: NHTM làm ngân hàng thanh toán phải duy trì điều kiện tại khoản 2 Điều 69 Luật (vốn điều lệ trên 10.000 tỷ đồng, có lãi 02 năm gần nhất…), cho thành viên bù trừ vay để hỗ trợ thanh toán khi mất khả năng thanh toán, bồi thường cho VSDC, thành viên bù trừ nếu thanh toán sai do lỗi của mình, báo cáo và công bố thông tin. Quỹ hỗ trợ thanh toán do thành viên lưu ký đóng góp; bù trừ do VSDC thực hiện.",
-  "basis": "Điểm b khoản 2 Điều 166 Nghị định 155/2020/NĐ-CP; khoản 2 Điều 69 Luật Chứng khoán 2019",
+  "basis": "Điểm b khoản 2 Điều 166 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi); khoản 2 Điều 69 Luật Chứng khoán 2019",
   "quote": "Thực hiện cho thành viên bù trừ vay để hỗ trợ thanh toán giao dịch chứng khoán trong trường hợp thành viên bù trừ mất khả năng thanh toán giao dịch chứng khoán",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
   "as_of": "2026-11"
@@ -585,7 +585,7 @@
   "subject": "LU",
   "topic": "Đăng ký, lưu ký, bù trừ & thanh toán",
   "level": 3,
-  "q": "Thành viên lưu ký M thiếu chứng khoán cho một giao dịch có giá trị 2 tỷ đồng nên bị VSDC lùi thời hạn thanh toán 02 ngày làm việc; sau đó M thanh toán đủ. Theo Thông tư 119/2020/TT-BTC (sửa đổi bởi Thông tư 18/2025/TT-BTC), khoản bồi thường M phải trả cho bên đối ứng là:",
+  "q": "Giao dịch thiếu chứng khoán của thành viên lưu ký M bị VSDC lùi thời hạn thanh toán; giá trị giao dịch lùi thanh toán là 2 tỷ đồng. Sau 02 ngày làm việc lùi thanh toán, M có đủ chứng khoán và hoàn tất thanh toán. Theo Thông tư 119/2020/TT-BTC (sửa đổi bởi Thông tư 18/2025/TT-BTC), khoản bồi thường M phải trả cho bên đối ứng là:",
   "o": [
    "100 triệu đồng",
    "200 triệu đồng",
@@ -629,8 +629,8 @@
   "o": [
    "Dùng ngay khoản đóng góp của các thành viên lưu ký khác, sau đó mới dùng khoản đóng góp của chính Z",
    "Chỉ dùng khoản đóng góp của Z; phần còn thiếu thì VSDC loại bỏ thanh toán các giao dịch mua tương ứng",
-   "Chia đều số tiền thiếu cho tất cả thành viên lưu ký theo tỷ lệ đóng góp quỹ của từng thành viên",
-   "Trước hết dùng phần đóng góp của Z; thiếu mà không vay đủ ngân hàng thanh toán mới dùng phần thành viên khác"
+   "Phân bổ số tiền thiếu cho mọi thành viên lưu ký theo tỷ lệ đóng góp quỹ của từng thành viên, kể cả Z",
+   "Dùng phần đóng góp của Z trước; thiếu mà ngân hàng thanh toán không cho vay đủ mới dùng phần thành viên khác"
   ],
   "a": 3,
   "e": "Điểm b khoản 1 Điều 40l: VSDC dùng khoản đóng góp quỹ của chính thành viên (sau khi trừ khoản đã dùng chưa hoàn trả); nếu không đủ và ngân hàng thanh toán không cho vay hoặc chỉ cho vay một phần, mới dùng khoản đóng góp của thành viên khác (trên 50 tỷ đồng/ngày phải báo cáo UBCKNN). Z phải hoàn trả số tiền đã dùng trong 01 ngày và trả lãi sử dụng quỹ (điểm a khoản 2 Điều 40l). Thành viên mất khả năng thanh toán tiền còn được vay ngân hàng thanh toán (khoản 1 Điều 40g).",

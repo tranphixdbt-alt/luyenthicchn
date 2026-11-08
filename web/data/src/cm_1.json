@@ -1085,18 +1085,18 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 1,
-  "q": "Trên Sở Giao dịch Chứng khoán TP. Hồ Chí Minh (HOSE), trong ngày giao dịch bình thường (không có sự kiện điều chỉnh giá), giá tham chiếu của cổ phiếu là:",
+  "q": "Theo Thông tư 120/2020/TT-BTC quy định giao dịch chứng khoán trên hệ thống giao dịch chứng khoán, giá tham chiếu là:",
   "o": [
-   "Giá mở cửa được xác định trong chính ngày giao dịch đó",
-   "Giá đóng cửa của ngày giao dịch gần nhất trước đó",
-   "Giá bình quân gia quyền của 05 ngày giao dịch gần nhất",
-   "Giá khớp lệnh cao nhất của ngày giao dịch gần nhất"
+   "Mức giá do Sở giao dịch chứng khoán xác định, làm cơ sở để tính giá trần, giá sàn trong ngày giao dịch",
+   "Mức giá do Ủy ban Chứng khoán Nhà nước công bố hằng ngày, làm cơ sở để xác định biên độ dao động giá",
+   "Giá khớp lệnh bình quân gia quyền của ngày giao dịch liền trước, do từng công ty chứng khoán tự tính",
+   "Giá mở cửa của chính ngày giao dịch, dùng để xác định thứ tự ưu tiên khi so khớp lệnh trong phiên"
   ],
-  "a": 1,
-  "e": "Trên HOSE, giá tham chiếu của cổ phiếu trong ngày giao dịch bình thường là giá đóng cửa của ngày giao dịch gần nhất trước đó; các trường hợp đặc biệt (ngày giao dịch không hưởng quyền, ngày giao dịch đầu tiên…) có cách xác định riêng. Giá trần, giá sàn được tính từ giá tham chiếu cộng, trừ biên độ dao động giá.",
-  "basis": "Quy chế giao dịch chứng khoán của Sở giao dịch chứng khoán: xác định giá tham chiếu cổ phiếu niêm yết trên HOSE",
-  "quote": "",
-  "src": "Giáo trình SRTC (khung chương trình)",
+  "a": 0,
+  "e": "Khoản 3 Điều 2: giá tham chiếu là mức giá do Sở giao dịch chứng khoán xác định, dùng làm cơ sở để xác định giá trần, giá sàn trong ngày giao dịch; biên độ dao động giá tính theo tỷ lệ % so với giá tham chiếu (khoản 1 Điều 2). Cách xác định giá tham chiếu thuộc quy chế giao dịch do SGDCK Việt Nam ban hành (khoản 3 Điều 3). Quy chế của Sở thường lấy giá đóng cửa ngày giao dịch gần nhất trước đó, có điều chỉnh khi có sự kiện quyền, nhưng đây là quy định cấp Sở, có thể thay đổi theo hệ thống giao dịch mới nên cần đối chiếu quy chế hiện hành.",
+  "basis": "Khoản 1, 3 Điều 2; khoản 3 Điều 3 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)",
+  "quote": "Giá tham chiếu là mức giá do Sở giao dịch chứng khoán xác định và được dùng làm cơ sở để xác định giá cao nhất (giá trần), giá thấp nhất (giá sàn) trong ngày giao dịch.",
+  "src": "TT_120_2020_TT-BTC_hop_nhat_VBHN_08_VBHN-BTC_2026.txt",
   "as_of": "2026-11"
  },
  {
