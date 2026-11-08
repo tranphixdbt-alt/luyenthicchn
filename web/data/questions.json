@@ -3085,7 +3085,7 @@
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
 "level": 1,
-"q": "Theo giáo trình, về cơ bản hoạt động quản lý nhà nước đối với lĩnh vực chứng khoán và thị trường chứng khoán được thực hiện qua các nội dung nào?",
+"q": "Giáo trình khái quát hoạt động quản lý nhà nước về chứng khoán và thị trường chứng khoán thành ba nội dung cơ bản. Ba nội dung đó là:",
 "o": [
 "Lập quy; trực tiếp kinh doanh và bình ổn giá chứng khoán",
 "Cấp phép; bảo lãnh giá và phân phối chứng khoán niêm yết",
@@ -3109,12 +3109,12 @@
 "o": [
 "Duy trì sự ổn định, phát triển lành mạnh của hệ thống tài chính",
 "Bảo vệ quyền lợi người gửi tiền, nhà đầu tư và khách hàng khác",
-"Bảo đảm hội nhập hiệu quả của thị trường tài chính trong nước",
-"Bảo đảm mức lợi nhuận tối thiểu cho các công ty chứng khoán"
+"Hội nhập hiệu quả thị trường tài chính trong nước với quốc tế",
+"Can thiệp để giá chứng khoán niêm yết luôn tăng ổn định"
 ],
 "a": 3,
-"e": "Ba mục tiêu cơ bản: duy trì sự ổn định và phát triển lành mạnh của hệ thống tài chính; bảo đảm môi trường phát triển ổn định, lành mạnh cho mỗi thành viên, đặc biệt bảo vệ quyền lợi người gửi tiền, nhà đầu tư và khách hàng của các trung gian tài chính; bảo đảm hội nhập hiệu quả của thị trường tài chính trong nước vào thị trường quốc tế. Quản lý nhà nước không bảo đảm lợi nhuận cho bất kỳ doanh nghiệp nào; công ty chứng khoán tự chịu rủi ro kinh doanh.",
-"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC), chuyên đề Yêu cầu quản lý đối với hoạt động môi giới và tư vấn đầu tư chứng khoán – Mục tiêu cơ bản của quản lý hệ thống tài chính",
+"e": "Ba mục tiêu cơ bản: duy trì sự ổn định và phát triển lành mạnh của hệ thống tài chính; bảo đảm môi trường phát triển ổn định, lành mạnh cho mỗi thành viên, đặc biệt bảo vệ quyền lợi người gửi tiền, nhà đầu tư và khách hàng của các trung gian tài chính; bảo đảm hội nhập hiệu quả của thị trường tài chính trong nước vào thị trường quốc tế. Quản lý nhà nước không nhằm giữ giá chứng khoán luôn tăng: giá do cung cầu quyết định và người tham gia thị trường tự chịu trách nhiệm về rủi ro (khoản 4 Điều 5 Luật Chứng khoán).",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC), chuyên đề Yêu cầu quản lý đối với hoạt động môi giới và tư vấn đầu tư chứng khoán – Mục tiêu cơ bản của quản lý hệ thống tài chính; khoản 4 Điều 5 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15 và Luật 142/2025/QH15)",
 "quote": "",
 "src": "",
 "as_of": "2026-11"
@@ -3145,7 +3145,7 @@
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
 "level": 2,
-"q": "Theo giáo trình, ngoài yêu cầu các quyết định điều hành phải đúng đắn, phù hợp thực tế và giám sát có hiệu quả, tổ chức tự quản trên thị trường chứng khoán còn hoạt động theo nguyên tắc nào?",
+"q": "Theo giáo trình, một tổ chức tự quản trên thị trường chứng khoán hoạt động dựa trên hai nguyên tắc. Bên cạnh nguyên tắc quyết định điều hành phải đúng đắn, sát thực tế và giám sát phải có hiệu quả, nguyên tắc còn lại là:",
 "o": [
 "Chi phí điều hành, giám sát do ngân sách nhà nước cấp đủ hằng năm để bảo đảm độc lập",
 "Chi phí điều hành, giám sát được bù đắp từ hoạt động trên thị trường, không do ngân sách cấp",
@@ -3185,7 +3185,7 @@
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
 "level": 2,
-"q": "Theo Luật Chứng khoán, xét các nhận định sau về tổ chức xã hội – nghề nghiệp về chứng khoán (như Hiệp hội Kinh doanh chứng khoán Việt Nam):\nI. Được thành lập theo quyết định của Ủy ban Chứng khoán Nhà nước;\nII. Chịu sự giám sát của Ủy ban Chứng khoán Nhà nước;\nIII. Ban hành bộ quy tắc đạo đức nghề nghiệp sau khi được Ủy ban Chứng khoán Nhà nước chấp thuận;\nIV. Được cấp chứng chỉ hành nghề chứng khoán cho hội viên đạt kỳ thi do hiệp hội tổ chức.\nNhững nhận định đúng là:",
+"q": "Theo Luật Chứng khoán, xét các nhận định sau về tổ chức xã hội – nghề nghiệp về chứng khoán:\nI. Được thành lập theo quyết định của Ủy ban Chứng khoán Nhà nước;\nII. Chịu sự giám sát của Ủy ban Chứng khoán Nhà nước;\nIII. Ban hành bộ quy tắc đạo đức nghề nghiệp sau khi được Ủy ban Chứng khoán Nhà nước chấp thuận;\nIV. Được cấp chứng chỉ hành nghề chứng khoán cho hội viên đạt kỳ thi do hiệp hội tổ chức.\nNhững nhận định đúng là:",
 "o": [
 "I và II",
 "II, III và IV",
@@ -3204,19 +3204,19 @@
 "part": "CM",
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
-"level": 1,
-"q": "Theo giáo trình, nội dung nào sau đây KHÔNG thuộc nhóm quy định quản lý nhà nước đối với nghề môi giới chứng khoán?",
+"level": 2,
+"q": "Công ty chứng khoán K bán cho khách hàng môi giới của mình trái phiếu lấy từ danh mục tự doanh, với giá cao hơn đáng kể so với giá phổ biến trên thị trường cùng thời điểm để hưởng chênh lệch. Trong nhóm quy định quản lý nghề môi giới nêu trong giáo trình, quy định nào trực tiếp nhằm ngăn hành vi này?",
 "o": [
-"Quy định bảo đảm mức lợi nhuận tối thiểu cho khách hàng",
-"Quy định về sự thích hợp của khuyến nghị với khách hàng",
-"Quy định cấm giao dịch quá mức trên tài khoản khách hàng",
-"Quy định về thi hành tốt nhất đối với lệnh của khách hàng"
+"Quy định cấm tăng giá quá mức (markup)",
+"Quy định cấm giao dịch quá mức (churning)",
+"Quy định về cơ sở hợp lý của khuyến nghị",
+"Quy định về lưu trữ hồ sơ khách hàng"
 ],
 "a": 0,
-"e": "Nhóm quy định quản lý nghề môi giới trong giáo trình gồm: đăng ký kinh doanh; sự thích hợp; cơ sở hợp lý; cấm tăng giá quá mức; cấm giao dịch quá mức; giám sát người hành nghề (đại diện đã đăng ký); thi hành tốt nhất; lưu trữ hồ sơ; quy định về công ty chứng khoán và người được ủy thác. Pháp luật Việt Nam tương ứng: khoản 6, 7 Điều 89 Luật Chứng khoán (phù hợp với khách hàng, lưu giữ hồ sơ), khoản 3 Điều 24 Thông tư 121/2020/TT-BTC (cơ sở hợp lý). Bảo đảm mức lợi nhuận hay bảo đảm khách hàng không thua lỗ thì bị cấm (khoản 1 Điều 91 Luật Chứng khoán).",
-"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC), chuyên đề Yêu cầu quản lý đối với hoạt động môi giới và tư vấn đầu tư chứng khoán – Quản lý đối với nghề môi giới; khoản 6, 7 Điều 89, khoản 1 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15 và Luật 142/2025/QH15)",
-"quote": "",
-"src": "",
+"e": "Giáo trình liệt kê nhóm quy định quản lý nghề môi giới: đăng ký kinh doanh; sự thích hợp; cơ sở hợp lý; cấm tăng giá quá mức; cấm giao dịch quá mức; giám sát người hành nghề (đại diện đã đăng ký); thi hành tốt nhất; lưu trữ hồ sơ; quy định về công ty chứng khoán và người được ủy thác. Cấm tăng giá quá mức nhắm vào việc công ty, khi tự mình là bên bán (hoặc bên mua) đối với khách hàng, đặt mức chênh lệch giá bất hợp lý so với giá thị trường. Giao dịch quá mức (churning) là mua bán dồn dập trên tài khoản khách hàng để thu phí; cơ sở hợp lý và lưu trữ hồ sơ không xử lý mức giá bán. Pháp luật Việt Nam không có quy định riêng về mức chênh giá, nhưng công ty không được làm khách hàng hiểu nhầm về giá chứng khoán (khoản 3 Điều 91 Luật Chứng khoán) và phải cho khách hàng biết khi mình là đối tác trong giao dịch thỏa thuận (khoản 5 Điều 22 Thông tư 121/2020/TT-BTC).",
+"basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC), chuyên đề Yêu cầu quản lý đối với hoạt động môi giới và tư vấn đầu tư chứng khoán – Quản lý đối với nghề môi giới (quy định cấm tăng giá quá mức); khoản 3 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15 và Luật 142/2025/QH15); khoản 5 Điều 22 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC)",
+"quote": "Không được thực hiện hành vi làm cho khách hàng và nhà đầu tư hiểu nhầm về giá chứng khoán.",
+"src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
 "as_of": "2026-11"
 },
 {
@@ -3247,14 +3247,14 @@
 "level": 2,
 "q": "Theo Thông tư 121/2020/TT-BTC, nội dung nào sau đây KHÔNG thuộc nhiệm vụ của bộ phận kiểm soát nội bộ trực thuộc Ban Tổng giám đốc (Ban Giám đốc) công ty chứng khoán?",
 "o": [
-"Kiểm soát việc tuân thủ quy định pháp luật về phòng, chống rửa tiền trong công ty",
+"Kiểm tra, giám sát việc tuân thủ quy trình nghiệp vụ của người hành nghề chứng khoán",
 "Kiểm tra nội dung và giám sát việc thực hiện các quy tắc về đạo đức nghề nghiệp",
 "Đánh giá độc lập sự đầy đủ, hiệu quả và hiệu lực của chính hệ thống kiểm soát nội bộ",
-"Giám sát các hoạt động tiềm ẩn xung đột lợi ích và giao dịch cá nhân của nhân viên"
+"Giám sát việc tính toán và tuân thủ các quy định bảo đảm an toàn tài chính"
 ],
 "a": 2,
-"e": "Khoản 2 Điều 12: bộ phận kiểm soát nội bộ kiểm soát việc tuân thủ, gồm giám sát hoạt động tiềm ẩn xung đột lợi ích và giao dịch cá nhân của nhân viên (điểm b), kiểm tra, giám sát thực hiện quy tắc đạo đức nghề nghiệp (điểm c), kiểm soát tuân thủ pháp luật về phòng, chống rửa tiền (điểm g)… Việc kiểm tra, đánh giá sự đầy đủ, hiệu quả, hiệu lực của hệ thống kiểm soát nội bộ trực thuộc Ban Tổng giám đốc là nhiệm vụ của kiểm toán nội bộ (điểm b khoản 2 Điều 9), bộ phận phải độc lập với ban điều hành. Đây là cách công ty thực hiện 'giám sát người hành nghề' mà giáo trình nêu; công ty chịu trách nhiệm về hoạt động nghiệp vụ của người hành nghề (khoản 4 Điều 98 Luật Chứng khoán).",
-"basis": "Điểm b, c, g khoản 2 Điều 12, điểm b khoản 2 Điều 9 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC); khoản 4 Điều 98 Luật Chứng khoán 2019",
+"e": "Khoản 2 Điều 12: bộ phận kiểm soát nội bộ trực thuộc Ban Tổng giám đốc kiểm soát việc tuân thủ, gồm kiểm tra, giám sát việc tuân thủ pháp luật, quy chế, quy trình nghiệp vụ của các bộ phận và của người hành nghề chứng khoán trong công ty (điểm a), kiểm tra, giám sát thực hiện quy tắc đạo đức nghề nghiệp (điểm c), giám sát việc tính toán, tuân thủ quy định bảo đảm an toàn tài chính (điểm d)… Việc kiểm tra, đánh giá sự đầy đủ, hiệu quả, hiệu lực của hệ thống kiểm soát nội bộ thuộc chức năng ban kiểm soát, kiểm toán nội bộ (điểm b khoản 2 Điều 9), bộ phận phải độc lập với ban điều hành (khoản 3 Điều 9); bộ phận kiểm soát nội bộ không tự đánh giá độc lập chính mình. Đây là cách công ty thực hiện yêu cầu 'giám sát người hành nghề' mà giáo trình nêu; công ty chịu trách nhiệm về hoạt động nghiệp vụ của người hành nghề (khoản 4 Điều 98 Luật Chứng khoán).",
+"basis": "Điểm a, c, d khoản 2 Điều 12, điểm b khoản 2 và khoản 3 Điều 9 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC); khoản 4 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026, hợp nhất Luật 56/2024/QH15 và Luật 142/2025/QH15)",
 "quote": "b) Kiểm tra, xem xét và đánh giá sự đầy đủ, hiệu quả và hiệu lực của hệ thống kiểm soát nội bộ trực thuộc Ban Tổng Giám đốc (Ban Giám đốc) nhằm hoàn thiện hệ thống này;",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
 "as_of": "2026-11"
@@ -3270,7 +3270,7 @@
 "Chỉ lưu hồ sơ của khách hàng còn số dư; dữ liệu tài khoản môi giới do từng chi nhánh tự quản lý độc lập",
 "Chỉ lưu hợp đồng mở tài khoản; dữ liệu giao dịch của khách hàng do Sở giao dịch chứng khoán lưu giữ thay",
 "Lưu dữ liệu tài khoản môi giới duy nhất tại trụ sở chính, không sao lưu ra nơi khác để bảo mật thông tin",
-"Cập nhật, lưu giữ đủ hồ sơ khách hàng, chứng từ; dữ liệu tài khoản môi giới quản lý tập trung, có dự phòng ở địa điểm khác"
+"Lưu giữ đủ hồ sơ khách hàng, chứng từ; dữ liệu tài khoản môi giới quản lý tập trung, dự phòng ở nơi khác"
 ],
 "a": 3,
 "e": "Khoản 7 Điều 89 Luật Chứng khoán: công ty chứng khoán phải cập nhật, lưu giữ đầy đủ hồ sơ thông tin khách hàng, chứng từ và phản ánh chi tiết, chính xác giao dịch của khách hàng và của công ty; khoản 10: xây dựng cơ sở dữ liệu dự phòng để hoạt động an toàn, liên tục. Khoản 3 Điều 13 Thông tư 121/2020 (sửa đổi bởi khoản 1 Điều 9 Thông tư 08/2026/TT-BTC, hiệu lực 03/02/2026): dữ liệu tài khoản môi giới của khách hàng, kể cả dữ liệu giao dịch của nhà đầu tư nước ngoài dùng số hiệu tài khoản lưu ký, phải được quản lý tập trung và lưu dự phòng tại địa điểm khác.",
@@ -3287,13 +3287,13 @@
 "level": 2,
 "q": "Theo Thông tư 121/2020/TT-BTC, nội dung nào sau đây KHÔNG thuộc các nội dung tối thiểu của hợp đồng cung cấp dịch vụ tư vấn đầu tư chứng khoán giữa công ty chứng khoán và khách hàng?",
 "o": [
-"Mức lợi nhuận tối thiểu công ty cam kết cho khách hàng",
+"Tỷ lệ chia sẻ lãi, lỗ giữa công ty và khách hàng",
 "Phạm vi tư vấn đầu tư chứng khoán của công ty",
 "Phương thức công ty cung cấp dịch vụ tư vấn",
 "Phí dịch vụ tư vấn mà khách hàng phải trả"
 ],
 "a": 0,
-"e": "Khoản 1 Điều 24: hợp đồng tư vấn đầu tư chứng khoán có tối thiểu: (a) quyền, nghĩa vụ, trách nhiệm của các bên; (b) phạm vi tư vấn đầu tư chứng khoán; (c) phương thức cung cấp dịch vụ; (d) phí dịch vụ. Công ty không được đưa ra nhận định hoặc bảo đảm về mức thu nhập, lợi nhuận hay bảo đảm khách hàng không thua lỗ, trừ chứng khoán có thu nhập cố định (khoản 1 Điều 91 Luật Chứng khoán), và không được thỏa thuận chia sẻ lợi nhuận hoặc lỗ với khách hàng (điểm b khoản 6 Điều 4 Thông tư 121).",
+"e": "Khoản 1 Điều 24: hợp đồng tư vấn đầu tư chứng khoán có tối thiểu: (a) quyền, nghĩa vụ, trách nhiệm của các bên; (b) phạm vi tư vấn đầu tư chứng khoán; (c) phương thức cung cấp dịch vụ; (d) phí dịch vụ. Thỏa thuận với khách hàng để chia sẻ lợi nhuận hoặc lỗ là hành vi công ty bị cấm khi cung cấp dịch vụ (điểm b khoản 6 Điều 4 Thông tư 121), nên không thể là nội dung của hợp đồng; công ty cũng không được bảo đảm mức lợi nhuận hay bảo đảm khách hàng không thua lỗ, trừ chứng khoán có thu nhập cố định (khoản 1 Điều 91 Luật Chứng khoán).",
 "basis": "Khoản 1 Điều 24, điểm b khoản 6 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC); khoản 1 Điều 91 Luật Chứng khoán 2019",
 "quote": "phải ký kết hợp đồng với khách hàng với các nội dung tối thiểu như sau: a) Quyền, nghĩa vụ, trách nhiệm của các bên tham gia hợp đồng; b) Phạm vi tư vấn đầu tư chứng khoán; c) Phương thức cung cấp dịch vụ; d) Phí dịch vụ.",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
@@ -3314,7 +3314,7 @@
 ],
 "a": 1,
 "e": "Khoản 1 Điều 3 Luật Phòng, chống rửa tiền 2022: rửa tiền là hành vi của tổ chức, cá nhân nhằm hợp pháp hóa nguồn gốc của tài sản do phạm tội mà có; tài sản do phạm tội mà có gồm cả thu nhập, hoa lợi, lợi tức, lợi nhuận sinh ra từ tài sản đó (khoản 2). Giáo trình diễn đạt: biến lợi nhuận, tài sản có từ phạm tội hoặc tham nhũng thành tài sản được coi là 'hợp pháp'. Không khai báo tiền mặt khi xuất cảnh, trốn thuế hay không báo cáo giao dịch lớn là các vi phạm khác, tự chúng không phải là định nghĩa rửa tiền. Tội rửa tiền được quy định tại Điều 324 Bộ luật Hình sự.",
-"basis": "Khoản 1, 2 Điều 3 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi); Điều 324 Bộ luật Hình sự 2015 (sửa đổi bởi Luật 12/2017/QH14)",
+"basis": "Khoản 1, 2 Điều 3 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; hai khoản này không bị sửa bởi Nghị quyết 66.23/2026/NQ-CP và Luật 23/2026/QH16 – hai văn bản này chỉ sửa khoản 7 về chủ sở hữu hưởng lợi); Điều 324 Bộ luật Hình sự 2015 (sửa đổi bởi Luật 12/2017/QH14)",
 "quote": "Rửa tiền là hành vi của tổ chức, cá nhân nhằm hợp pháp hóa nguồn gốc của tài sản do phạm tội mà có.",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"
@@ -3405,7 +3405,7 @@
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
 "level": 2,
-"q": "Theo khoản 1 Điều 4 Luật Phòng, chống rửa tiền 2022, xét các hoạt động được cấp phép sau:\nI. Môi giới chứng khoán;\nII. Kinh doanh bảo hiểm phi nhân thọ;\nIII. Tư vấn đầu tư chứng khoán;\nIV. Quản lý danh mục đầu tư chứng khoán.\nTổ chức tài chính được cấp phép thực hiện những hoạt động nào thì thuộc đối tượng báo cáo theo luật này?",
+"q": "Khoản 1 Điều 4 Luật Phòng, chống rửa tiền 2022 liệt kê các hoạt động mà tổ chức tài chính được cấp phép thực hiện thì thuộc đối tượng báo cáo. Xét các hoạt động sau:\nI. Môi giới chứng khoán;\nII. Kinh doanh bảo hiểm phi nhân thọ;\nIII. Tư vấn đầu tư chứng khoán;\nIV. Quản lý danh mục đầu tư chứng khoán.\nNhững hoạt động có trong danh sách tại khoản này là:",
 "o": [
 "I và III",
 "I, II và III",
@@ -3413,8 +3413,8 @@
 "I, II, III và IV"
 ],
 "a": 2,
-"e": "Điểm i, k, l khoản 1 Điều 4: đối tượng báo cáo gồm tổ chức tài chính được cấp phép môi giới chứng khoán; tư vấn đầu tư chứng khoán, bảo lãnh phát hành chứng khoán; quản lý quỹ đầu tư chứng khoán; quản lý danh mục đầu tư chứng khoán; kinh doanh bảo hiểm nhân thọ (không gồm bảo hiểm phi nhân thọ). Vì vậy công ty chứng khoán, công ty quản lý quỹ phải thực hiện nhận biết khách hàng, báo cáo giao dịch, lưu trữ hồ sơ theo luật này; Thông tư 121/2020/TT-BTC cũng yêu cầu công ty chứng khoán tuân thủ quy định về phòng, chống rửa tiền khi môi giới (khoản 2 Điều 13).",
-"basis": "Điểm i, k, l khoản 1 Điều 4 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi); khoản 2 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC)",
+"e": "Điểm i, k, l khoản 1 Điều 4 liệt kê: môi giới chứng khoán; tư vấn đầu tư chứng khoán, bảo lãnh phát hành chứng khoán (I, III); quản lý quỹ đầu tư chứng khoán; quản lý danh mục đầu tư chứng khoán (IV); kinh doanh bảo hiểm nhân thọ – danh sách không có bảo hiểm phi nhân thọ (II). Luật 23/2026/QH16 (hiệu lực 01/12/2026) bổ sung điểm n 'Dịch vụ tài sản mã hóa' nhưng không đổi các điểm trên. Vì vậy công ty chứng khoán, công ty quản lý quỹ phải nhận biết khách hàng, báo cáo giao dịch, lưu trữ hồ sơ theo luật này; Thông tư 121/2020/TT-BTC cũng yêu cầu công ty chứng khoán tuân thủ quy định về phòng, chống rửa tiền khi môi giới (khoản 2 Điều 13).",
+"basis": "Điểm i, k, l khoản 1 Điều 4 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; khoản 1 Điều 4 được bổ sung điểm n bởi khoản 2 Điều 2 Luật 23/2026/QH16, hiệu lực 01/12/2026; Nghị định 19/2023/NĐ-CP không bổ sung hoạt động theo khoản 3 Điều 4); khoản 2 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026, hợp nhất Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC)",
 "quote": "i) Môi giới chứng khoán; tư vấn đầu tư chứng khoán, bảo lãnh phát hành chứng khoán; k) Quản lý quỹ đầu tư chứng khoán; quản lý danh mục đầu tư chứng khoán; l) Kinh doanh bảo hiểm nhân thọ;",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"
@@ -3434,7 +3434,7 @@
 ],
 "a": 3,
 "e": "Điều 31 liệt kê dấu hiệu đáng ngờ trong lĩnh vực chứng khoán, gồm: tài khoản đột nhiên nhận khoản tiền lớn không phù hợp khả năng tài chính (khoản 6) – I; khách hàng thường xuyên bán tất cả cổ phiếu và đề nghị công ty ký ủy nhiệm chi để rút tiền mặt (khoản 4) – II; người không cư trú chuyển số tiền lớn từ tài khoản giao dịch chứng khoán hoặc thanh lý hợp đồng ủy thác để chuyển tiền ra khỏi Việt Nam (khoản 3) – IV. Đầu tư định kỳ từ thu nhập hợp pháp, ổn định (III) không có dấu hiệu bất thường. Khi có dấu hiệu đáng ngờ, công ty phải xem xét, phân tích và báo cáo giao dịch đáng ngờ cho Ngân hàng Nhà nước Việt Nam (Điều 26).",
-"basis": "Khoản 3, 4, 6 Điều 31, Điều 26 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi)",
+"basis": "Khoản 3, 4, 6 Điều 31 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; Điều 31 không bị sửa đổi), Điều 26 (thay thế bởi khoản 8 Điều 2 Luật 23/2026/QH16 từ 01/12/2026, vẫn báo cáo Ngân hàng Nhà nước và vẫn dẫn chiếu dấu hiệu tại Điều 31)",
 "quote": "6. Tài khoản chứng khoán của khách hàng đột nhiên nhận được một khoản tiền lớn không phù hợp với khả năng tài chính của khách hàng.",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"
@@ -3453,8 +3453,8 @@
 "Ngân hàng Nhà nước Việt Nam; 10 ngày kể từ ngày kết thúc tháng có phát sinh giao dịch đáng ngờ"
 ],
 "a": 0,
-"e": "Điều 26: đối tượng báo cáo báo cáo giao dịch đáng ngờ cho Ngân hàng Nhà nước Việt Nam. Khoản 2 Điều 37: thời hạn 03 ngày làm việc kể từ ngày phát sinh giao dịch hoặc 01 ngày làm việc kể từ ngày phát hiện giao dịch đáng ngờ. Thời hạn 24 giờ (khoản 3 Điều 37) chỉ áp dụng khi giao dịch đáng ngờ do khách hàng yêu cầu có dấu hiệu liên quan đến tội phạm, và phải báo cáo cả cơ quan nhà nước có thẩm quyền lẫn Ngân hàng Nhà nước. Bộ Tài chính (UBCKNN) thanh tra, giám sát hoạt động phòng, chống rửa tiền của công ty chứng khoán (khoản 2 Điều 51) nhưng không phải nơi nhận báo cáo giao dịch đáng ngờ.",
-"basis": "Khoản 1 Điều 26, khoản 2, 3 Điều 37, khoản 2 Điều 51 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi)",
+"e": "Điều 26: đối tượng báo cáo báo cáo giao dịch đáng ngờ cho Ngân hàng Nhà nước Việt Nam (Điều 26 mới do Luật 23/2026/QH16 thay thế từ 01/12/2026 giữ nguyên nơi nhận). Khoản 2 Điều 37: thời hạn 03 ngày làm việc kể từ ngày phát sinh giao dịch hoặc 01 ngày làm việc kể từ ngày phát hiện giao dịch đáng ngờ. Thời hạn 24 giờ (khoản 3 Điều 37) chỉ áp dụng khi giao dịch đáng ngờ do khách hàng yêu cầu có dấu hiệu liên quan đến tội phạm, và phải báo cáo cả cơ quan nhà nước có thẩm quyền lẫn Ngân hàng Nhà nước. Bộ Tài chính thanh tra, kiểm tra, giám sát hoạt động phòng, chống rửa tiền của công ty chứng khoán (khoản 2 Điều 51) nhưng không phải nơi nhận báo cáo giao dịch đáng ngờ.",
+"basis": "Khoản 1 Điều 26, khoản 2, 3 Điều 37, khoản 2 Điều 51 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; Điều 37 không bị sửa đổi; Điều 26 và Điều 51 được thay thế bởi khoản 8, khoản 13 Điều 2 Luật 23/2026/QH16 từ 01/12/2026, nội dung dùng trong câu không đổi)",
 "quote": "Đối tượng báo cáo phải báo cáo giao dịch đáng ngờ quy định tại Điều 26 của Luật này trong thời hạn 03 ngày làm việc kể từ ngày phát sinh giao dịch hoặc trong thời hạn 01 ngày làm việc kể từ ngày đối tượng báo cáo phát hiện được giao dịch đáng ngờ.",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"
@@ -3473,8 +3473,8 @@
 "Tự phong tỏa toàn bộ tài khoản của M và N cho đến khi tòa án có bản án hoặc quyết định đã có hiệu lực pháp luật"
 ],
 "a": 1,
-"e": "Điểm a khoản 1 Điều 44: đối tượng báo cáo phải áp dụng ngay biện pháp trì hoãn giao dịch khi có căn cứ nghi ngờ hoặc phát hiện các bên liên quan đến giao dịch thuộc Danh sách đen; khoản 2: phải báo cáo ngay cho cơ quan nhà nước có thẩm quyền và Ngân hàng Nhà nước Việt Nam; khoản 3: thời hạn trì hoãn không quá 03 ngày làm việc; khoản 4: đối tượng báo cáo không chịu trách nhiệm pháp lý về hậu quả khi trì hoãn đúng quy định. Vẫn thực hiện giao dịch là sai; công ty không tự phong tỏa tài khoản tới khi có bản án.",
-"basis": "Điểm a khoản 1, khoản 2, 3, 4 Điều 44 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi)",
+"e": "Điểm a khoản 1 Điều 44: đối tượng báo cáo phải áp dụng ngay biện pháp trì hoãn giao dịch khi có căn cứ nghi ngờ hoặc phát hiện các bên liên quan đến giao dịch thuộc Danh sách đen; khoản 2: phải báo cáo ngay cho cơ quan nhà nước có thẩm quyền và Ngân hàng Nhà nước Việt Nam (Điều 12 Nghị định 19/2023/NĐ-CP nêu cụ thể: cơ quan phòng, chống khủng bố có thẩm quyền và Cơ quan thực hiện chức năng, nhiệm vụ phòng, chống rửa tiền thuộc Ngân hàng Nhà nước Việt Nam); khoản 3: thời hạn trì hoãn không quá 03 ngày làm việc; khoản 4: đối tượng báo cáo không chịu trách nhiệm pháp lý về hậu quả khi trì hoãn đúng quy định. Vẫn thực hiện giao dịch là sai; công ty không tự phong tỏa tài khoản tới khi có bản án.",
+"basis": "Điểm a khoản 1, khoản 2, 3, 4 Điều 44 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; Điều 44 không bị sửa đổi); Điều 12 Nghị định 19/2023/NĐ-CP (căn cứ nghi ngờ thuộc Danh sách đen và cơ quan tiếp nhận báo cáo trì hoãn)",
 "quote": "Thời hạn áp dụng biện pháp trì hoãn giao dịch không quá 03 ngày làm việc kể từ ngày bắt đầu áp dụng.",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"
@@ -3494,7 +3494,7 @@
 ],
 "a": 2,
 "e": "Khoản 2 Điều 38: thông tin, hồ sơ, tài liệu nhận biết khách hàng, kết quả phân tích, đánh giá và tài liệu khác liên quan đến khách hàng, giao dịch phải báo cáo được lưu trữ 05 năm kể từ ngày kết thúc giao dịch hoặc ngày đóng tài khoản hoặc ngày báo cáo; các báo cáo giao dịch (giao dịch giá trị lớn, đáng ngờ, chuyển tiền điện tử) lưu 05 năm kể từ ngày phát sinh giao dịch. Mốc tính không phải ngày mở tài khoản.",
-"basis": "Khoản 1, 2 Điều 38 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023, chưa bị sửa đổi)",
+"basis": "Khoản 1, 2 Điều 38 Luật Phòng, chống rửa tiền số 14/2022/QH15 (hiệu lực 01/3/2023; khoản 1 được thay thế bởi khoản 10 Điều 2 Luật 23/2026/QH16 từ 01/12/2026 nhưng vẫn gồm thông tin, hồ sơ, tài liệu nhận biết khách hàng; khoản 2 về thời hạn lưu trữ không đổi)",
 "quote": "a) 05 năm kể từ ngày kết thúc giao dịch hoặc ngày đóng tài khoản hoặc ngày báo cáo đối với các thông tin, hồ sơ, tài liệu quy định tại các điểm a, b và c khoản 1 Điều này;",
 "src": "Luat_Phong_chong_rua_tien_14_2022_QH15_Cong_bao_so_909-910_2022.txt",
 "as_of": "2026-11"

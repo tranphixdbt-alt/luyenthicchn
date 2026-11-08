@@ -17,3 +17,4 @@ Trang: https://luyenthicchn-dist.vercel.app (Vercel tự triển khai `web/dist`
 - Khóa localStorage `docchn_v1`: không đổi, để người dùng không mất tiến độ.
 - Người dùng đang ôn để thi môn Pháp luật và Môi giới chứng khoán.
 - Sau 21/11/2026 (hết kỳ họp Quốc hội): kiểm tra Luật Chứng khoán sửa đổi và Bộ luật Hình sự sửa đổi có được thông qua không; nếu có, soát lại L6-003, L6-006, L6-013, L6-014, L4-017, C8-012 và các câu trích Luật CK bị đổi.
+- Từ 01/12/2026 Luật 23/2026/QH16 sửa Luật Phòng, chống rửa tiền có hiệu lực: soát lại các câu C15-xxx về rửa tiền (trích Luật 14/2022) theo bản hợp nhất mới.
