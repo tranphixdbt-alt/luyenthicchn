@@ -44,7 +44,7 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Tổng quan về phân tích và đầu tư",
-  "level": 2,
+  "level": 3,
   "q": "Nhà đầu tư gửi 10 triệu đồng vào cuối mỗi năm, liên tục trong 4 năm, lãi suất 8%/năm, ghép lãi hằng năm. Số tiền nhà đầu tư có ngay sau lần gửi cuối cùng là bao nhiêu?",
   "o": [
    "40,00 triệu đồng",
@@ -104,7 +104,7 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Mức sinh lời và rủi ro",
-  "level": 2,
+  "level": 3,
   "q": "Lãi suất phi rủi ro là 5%/năm, mức bù rủi ro thị trường [E(Rm) − Rf] là 6%/năm. Theo CAPM, lợi suất yêu cầu của cổ phiếu có hệ số beta 1,3 là bao nhiêu?",
   "o": [
    "7,80%",
@@ -145,16 +145,16 @@
   "subject": "PT",
   "topic": "Mức sinh lời và rủi ro",
   "level": 3,
-  "q": "Lãi suất phi rủi ro 4%, lợi suất kỳ vọng của danh mục thị trường 10%. Cổ phiếu X có beta 1,5, lợi suất kỳ vọng theo dự báo 12%; cổ phiếu Y có beta 0,7, lợi suất kỳ vọng theo dự báo 9%. Theo đường SML, nhận định nào đúng?",
+  "q": "Theo CAPM, hai cổ phiếu A và B đều đang được định giá hợp lý (nằm đúng trên đường SML). Cổ phiếu A có beta 0,8 và lợi suất kỳ vọng 10,0%; cổ phiếu B có beta 1,4 và lợi suất kỳ vọng 14,2%. Lợi suất kỳ vọng của danh mục thị trường là bao nhiêu?",
   "o": [
-   "X nằm trên SML (bị định giá thấp), Y nằm dưới SML (bị định giá cao)",
-   "X và Y đều nằm trên SML vì lợi suất kỳ vọng đều cao hơn Rf",
-   "X và Y đều bị định giá cao vì lợi suất kỳ vọng thấp hơn mức yêu cầu",
-   "X nằm dưới SML (bị định giá cao), Y nằm trên SML (bị định giá thấp)"
+   "11,40%",
+   "7,00%",
+   "12,10%",
+   "12,50%"
   ],
-  "a": 3,
-  "e": "Lợi suất yêu cầu: X = 4% + 1,5 × 6% = 13,00% > 12% (alpha = −1,00%) nên X nằm dưới SML, bị định giá cao; Y = 4% + 0,7 × 6% = 8,20% < 9% (alpha = +0,80%) nên Y nằm trên SML, bị định giá thấp. Lỗi thường gặp: so trực tiếp với lợi suất thị trường 10% mà không điều chỉnh theo beta.",
-  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đường thị trường chứng khoán (SML): định giá cao/thấp theo alpha",
+  "a": 0,
+  "e": "Hai cổ phiếu cùng nằm trên SML nên độ dốc SML (mức bù rủi ro thị trường) = (14,2% − 10,0%)/(1,4 − 0,8) = 7,00%; Rf = 10,0% − 0,8 × 7,00% = 4,40%. Danh mục thị trường có beta bằng 1 ⇒ E(Rm) = 4,40% + 7,00% = 11,40%. Lỗi thường gặp: coi độ dốc SML là lợi suất thị trường (7,00%), lấy bình quân giản đơn lợi suất hai cổ phiếu (12,10%), lấy lợi suất chia beta (10,0%/0,8 = 12,50%).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đường thị trường chứng khoán (SML): tung độ gốc Rf, độ dốc E(Rm) − Rf",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -185,16 +185,16 @@
   "subject": "PT",
   "topic": "Mức sinh lời và rủi ro",
   "level": 3,
-  "q": "Danh mục đầu tư 50% vào cổ phiếu M (độ lệch chuẩn 25%) và 50% vào cổ phiếu N (độ lệch chuẩn 15%); hiệp phương sai giữa lợi suất M và N là −0,009. Độ lệch chuẩn của danh mục là bao nhiêu?",
+  "q": "Danh mục gồm 25 cổ phiếu với tỷ trọng bằng nhau. Mỗi cổ phiếu có độ lệch chuẩn lợi suất 40%; hiệp phương sai giữa lợi suất của hai cổ phiếu bất kỳ đều bằng 0,04. Độ lệch chuẩn của danh mục là bao nhiêu?",
   "o": [
-   "14,58%",
-   "16,05%",
-   "12,94%",
-   "20,00%"
+   "40,00%",
+   "20,00%",
+   "21,17%",
+   "8,00%"
   ],
   "a": 2,
-  "e": "σp² = 0,5² × 0,25² + 0,5² × 0,15² + 2 × 0,5 × 0,5 × (−0,009) = 0,015625 + 0,005625 − 0,0045 = 0,01675 ⇒ σp = 12,94%, thấp hơn cả độ lệch chuẩn của N do hiệp phương sai âm. Lỗi thường gặp: bỏ qua hiệp phương sai (14,58%), cộng hiệp phương sai sai dấu (16,05%), lấy bình quân gia quyền độ lệch chuẩn (20,00%).",
-  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phương sai danh mục: σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂Cov(1,2)",
+  "e": "Với N cổ phiếu tỷ trọng 1/N: σp² = σ²/N + (1 − 1/N) × Cov = 0,16/25 + 0,96 × 0,04 = 0,0064 + 0,0384 = 0,0448 ⇒ σp = 21,17%. Phần σ²/N (rủi ro riêng) giảm dần khi N tăng; phần hiệp phương sai là rủi ro hệ thống không đa dạng hóa được, nên σp chỉ tiến về √0,04 = 20,00%. Lỗi thường gặp: chỉ giữ phần hiệp phương sai (20,00%), bỏ qua hiệp phương sai (√0,0064 = 8,00%), coi như không có lợi ích đa dạng hóa (40,00%).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đa dạng hóa danh mục N tài sản tỷ trọng bằng nhau: σp² = σ²/N + (1 − 1/N) × Cov",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -204,7 +204,7 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Mức sinh lời và rủi ro",
-  "level": 2,
+  "level": 3,
   "q": "Danh mục 1.000 triệu đồng gồm: 300 triệu đồng cổ phiếu P (beta 1,4), 200 triệu đồng cổ phiếu Q (beta 0,9) và 500 triệu đồng tín phiếu Kho bạc (coi là tài sản phi rủi ro). Hệ số beta của danh mục là bao nhiêu?",
   "o": [
    "1,20",
@@ -213,7 +213,7 @@
    "1,15"
   ],
   "a": 2,
-  "e": "Beta tài sản phi rủi ro bằng 0. βp = 0,3 × 1,4 + 0,2 × 0,9 + 0,5 × 0 = 0,42 + 0,18 = 0,60. Lỗi thường gặp: bỏ tín phiếu khỏi mẫu số (600/500 = 1,20), bình quân giản đơn ba tài sản (0,77) hoặc hai cổ phiếu (1,15).",
+  "e": "Beta tài sản phi rủi ro bằng 0. βp = 0,3 × 1,4 + 0,2 × 0,9 + 0,5 × 0 = 0,42 + 0,18 = 0,60. Lỗi thường gặp: chỉ tính trên phần cổ phiếu 500 triệu đồng ((0,42 + 0,18)/0,5 = 1,20), bình quân giản đơn ba tài sản (0,77) hoặc hai cổ phiếu (1,15).",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số beta của danh mục: βp = Σ wi × βi",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -265,16 +265,16 @@
   "subject": "PT",
   "topic": "Mức sinh lời và rủi ro",
   "level": 3,
-  "q": "Quỹ nắm giữ danh mục cổ phiếu trị giá 20 tỷ đồng, beta 1,1 so với chỉ số VN30, muốn phòng ngừa toàn bộ rủi ro giảm giá của thị trường (đưa beta danh mục về 0) bằng hợp đồng tương lai chỉ số VN30. Chỉ số VN30 đang ở mức 1.280 điểm; hợp đồng tương lai đang giao dịch ở 1.300 điểm, hệ số nhân 100.000 đồng/điểm. Quỹ cần thực hiện giao dịch nào?",
+  "q": "Quỹ nắm giữ danh mục cổ phiếu trị giá 20 tỷ đồng, beta 1,1 so với chỉ số VN30, đã bán 169 hợp đồng tương lai chỉ số VN30 ở mức 1.300 điểm (hệ số nhân 100.000 đồng/điểm) để phòng ngừa rủi ro thị trường. Sau đó chỉ số VN30 giảm 5%, giá hợp đồng tương lai cũng giảm 5% về 1.235 điểm và danh mục biến động đúng theo beta. Quỹ đóng vị thế hợp đồng tương lai; bỏ qua cổ tức, phí và chi phí ký quỹ. Kết quả ròng của danh mục cộng vị thế hợp đồng tương lai xấp xỉ là",
   "o": [
-   "Bán 154 hợp đồng",
-   "Bán 172 hợp đồng",
-   "Mua 169 hợp đồng",
-   "Bán 169 hợp đồng"
+   "Lỗ 1.100,0 triệu đồng",
+   "Lãi 98,5 triệu đồng",
+   "Lỗ 2.198,5 triệu đồng",
+   "Lỗ 1,5 triệu đồng"
   ],
   "a": 3,
-  "e": "Giá trị 1 hợp đồng = 1.300 × 100.000 = 130 triệu đồng. N = β × V/(F × hệ số nhân) = 1,1 × 20 tỷ/130 triệu = 169,23 ≈ 169 hợp đồng; vị thế mua cổ phiếu được phòng ngừa bằng vị thế bán hợp đồng tương lai. Lỗi thường gặp: bỏ qua beta (154), dùng mức chỉ số giao ngay 1.280 thay cho giá hợp đồng tương lai (172), mua thay vì bán.",
-  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phòng ngừa rủi ro hệ thống bằng hợp đồng tương lai chỉ số: N = β × V/(F × hệ số nhân)",
+  "e": "Danh mục: 20 tỷ × 1,1 × (−5%) = −1.100 triệu đồng. Vị thế bán hợp đồng tương lai: 169 × (1.300 − 1.235) × 100.000 = +1.098,5 triệu đồng. Kết quả ròng = −1.100 + 1.098,5 = −1,5 triệu đồng ≈ 0: phòng ngừa đưa beta về xấp xỉ 0 nên lãi/lỗ do thị trường gần như được bù trừ (phần lệch nhỏ do làm tròn số hợp đồng 1,1 × 20 tỷ/130 triệu = 169,2). Lỗi thường gặp: chỉ tính danh mục (lỗ 1.100,0 triệu), bỏ qua beta khi tính lỗ danh mục (−1.000 + 1.098,5 = lãi 98,5 triệu), nhầm chiều vị thế như khi mua hợp đồng tương lai (lỗ 2.198,5 triệu).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phòng ngừa rủi ro hệ thống bằng hợp đồng tương lai chỉ số: kết quả của danh mục đã phòng ngừa",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -344,16 +344,16 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Phân tích và định giá cổ phiếu",
-  "level": 2,
+  "level": 3,
   "q": "Công ty có tỷ lệ chi trả cổ tức ổn định 60%, tốc độ tăng trưởng đều 6%/năm, tỷ suất sinh lời yêu cầu 11%/năm. Theo mô hình Gordon, hệ số P/E hợp lý tính trên EPS năm vừa qua (P0/E0) là bao nhiêu?",
   "o": [
    "12,72 lần",
    "12,00 lần",
-   "5,45 lần",
+   "5,78 lần",
    "8,48 lần"
   ],
   "a": 0,
-  "e": "P0 = D0(1 + g)/(r − g) ⇒ P0/E0 = tỷ lệ chi trả × (1 + g)/(r − g) = 0,6 × 1,06/0,05 = 12,72 lần. 12,00 lần là P/E tính trên EPS năm tới (P0/E1 = 0,6/0,05); 5,45 lần là quên trừ g ở mẫu số; 8,48 lần là dùng nhầm tỷ lệ giữ lại 40%.",
+  "e": "P0 = D0(1 + g)/(r − g) ⇒ P0/E0 = tỷ lệ chi trả × (1 + g)/(r − g) = 0,6 × 1,06/0,05 = 12,72 lần. 12,00 lần là P/E tính trên EPS năm tới (P0/E1 = 0,6/0,05); 5,78 lần là quên trừ g ở mẫu số (0,6 × 1,06/0,11); 8,48 lần là dùng nhầm tỷ lệ giữ lại 40% (0,4 × 1,06/0,05).",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số P/E theo mô hình tăng trưởng cổ tức đều",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -404,17 +404,17 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Phân tích và định giá trái phiếu",
-  "level": 2,
-  "q": "Một trái phiếu trả lãi cố định hằng năm đang giao dịch ở giá cao hơn mệnh giá. Quan hệ nào sau đây giữa lãi suất coupon, lợi suất hiện hành và lợi suất đáo hạn (YTM) là đúng?",
+  "level": 3,
+  "q": "Nhà đầu tư mua trái phiếu mệnh giá 100.000 đồng, coupon 10%/năm trả cuối mỗi năm, còn đúng 2 năm đến hạn, với giá bằng mệnh giá (YTM = 10%/năm) và nắm giữ đến ngày đáo hạn. Coupon năm thứ nhất chỉ tái đầu tư được với lãi suất 6%/năm cho đến ngày đáo hạn. Lợi suất bình quân năm thực tế đạt được (lãi kép) của khoản đầu tư là",
   "o": [
-   "Lợi suất đáo hạn > lợi suất hiện hành > lãi suất coupon",
-   "Lợi suất hiện hành > lãi suất coupon > lợi suất đáo hạn",
-   "Lãi suất coupon = lợi suất hiện hành = lợi suất đáo hạn",
-   "Lãi suất coupon > lợi suất hiện hành > lợi suất đáo hạn"
+   "10,00%",
+   "9,82%",
+   "10,30%",
+   "9,54%"
   ],
-  "a": 3,
-  "e": "Giá > mệnh giá ⇒ lợi suất hiện hành = coupon/giá < lãi suất coupon; YTM còn tính khoản lỗ vốn khi giá kéo về mệnh giá lúc đáo hạn nên thấp hơn nữa. Ví dụ coupon 8%, giá 105.000 đồng, còn 5 năm: lợi suất hiện hành 7,62%, YTM ≈ 6,79%. Thứ tự ngược lại đúng với trái phiếu chiết khấu.",
-  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Quan hệ giữa lãi suất coupon, lợi suất hiện hành và YTM",
+  "a": 1,
+  "e": "Giá trị cuối năm 2 = 10.000 × 1,06 + 110.000 = 120.600 đồng. Lợi suất thực tế = (120.600/100.000)^(1/2) − 1 = 9,82%, thấp hơn YTM vì coupon được tái đầu tư ở lãi suất thấp hơn YTM (rủi ro tái đầu tư). YTM chỉ đạt được khi nắm giữ đến hạn và mọi coupon được tái đầu tư đúng bằng YTM. Lỗi thường gặp: cho rằng luôn đạt YTM (10,00%), lấy lãi đơn bình quân 20.600/2/100.000 (10,30%), bỏ qua tiền lãi tái đầu tư ((120.000/100.000)^(1/2) − 1 = 9,54%).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất đáo hạn, giả định tái đầu tư coupon và rủi ro tái đầu tư",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -424,7 +424,7 @@
   "part": "CM",
   "subject": "PT",
   "topic": "Phân tích và định giá trái phiếu",
-  "level": 2,
+  "level": 3,
   "q": "Trái phiếu không trả lãi định kỳ (zero-coupon), mệnh giá 100.000 đồng, còn đúng 5 năm đến hạn. Với lợi suất đáo hạn yêu cầu 7%/năm (ghép lãi hằng năm), giá trái phiếu (làm tròn đến đồng) là",
   "o": [
    "71.299 đồng",
@@ -564,8 +564,8 @@
   "part": "CM",
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
-  "level": 2,
-  "q": "Nhà đầu tư vay và bán khống 5.000 cổ phiếu ở giá 40.000 đồng. Trong thời gian vay, công ty trả cổ tức tiền mặt 1.000 đồng/cp và nhà đầu tư phải hoàn trả khoản cổ tức này cho bên cho vay chứng khoán. Sau đó nhà đầu tư mua lại 5.000 cổ phiếu ở giá 34.000 đồng để trả. Bỏ qua phí vay, phí giao dịch và thuế, kết quả của nhà đầu tư là",
+  "level": 3,
+  "q": "Giả sử được phép bán khống. Nhà đầu tư vay và bán khống 5.000 cổ phiếu ở giá 40.000 đồng. Trong thời gian vay, công ty trả cổ tức tiền mặt 1.000 đồng/cp và nhà đầu tư phải hoàn trả khoản cổ tức này cho bên cho vay chứng khoán. Sau đó nhà đầu tư mua lại 5.000 cổ phiếu ở giá 34.000 đồng để trả. Bỏ qua phí vay, phí giao dịch và thuế, kết quả của nhà đầu tư là",
   "o": [
    "Lãi 30.000.000 đồng",
    "Lãi 35.000.000 đồng",
@@ -604,7 +604,7 @@
   "part": "CM",
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
-  "level": 2,
+  "level": 3,
   "q": "Khách hàng mua 20.000 cổ phiếu giá 30.000 đồng bằng giao dịch ký quỹ: tự có 50%, vay công ty chứng khoán 50%. Hợp đồng quy định tỷ lệ ký quỹ = (Giá trị chứng khoán − Dư nợ)/Giá trị chứng khoán. Bỏ qua lãi vay và phí. Khi giá cổ phiếu giảm còn 25.000 đồng, tỷ lệ ký quỹ thực tế của tài khoản là",
   "o": [
    "60,00%",
@@ -624,7 +624,7 @@
   "part": "CM",
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
-  "level": 2,
+  "level": 3,
   "q": "Nhà đầu tư dùng 300 triệu đồng vốn tự có và vay ký quỹ thêm 200 triệu đồng để mua cổ phiếu (tỷ lệ ký quỹ ban đầu 60%). Sau đó giá cổ phiếu giảm 15%. Bỏ qua lãi vay, phí và thuế, tỷ lệ lỗ trên vốn tự có của nhà đầu tư là",
   "o": [
    "15,00%",
@@ -705,16 +705,16 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Giả sử quy chế quy định tỷ lệ ký quỹ ban đầu 50% và tỷ lệ ký quỹ duy trì 35%, với tỷ lệ ký quỹ = (Giá trị chứng khoán − Dư nợ)/Giá trị chứng khoán. Khách hàng mua cổ phiếu với đúng tỷ lệ ký quỹ ban đầu. Bỏ qua lãi vay và phí, giá cổ phiếu giảm bao nhiêu phần trăm so với giá mua thì tài khoản chạm tỷ lệ duy trì?",
+  "q": "Khách hàng mua 20.000 cổ phiếu giá 25.000 đồng bằng giao dịch ký quỹ: tự có 50%, vay công ty chứng khoán 50% với lãi suất 13%/năm (lãi đơn, số ngày thực tế/365, lãi cộng dồn vào dư nợ). Giả sử hợp đồng quy định tỷ lệ ký quỹ = (Giá trị chứng khoán − Dư nợ)/Giá trị chứng khoán và tỷ lệ duy trì 30%. Bỏ qua phí; tại ngày thứ 146 kể từ khi vay, tài khoản bị gọi ký quỹ nếu giá cổ phiếu thấp hơn mức xấp xỉ",
   "o": [
-   "23,08%",
-   "15,00%",
-   "30,00%",
-   "35,00%"
+   "18.786 đồng",
+   "17.857 đồng",
+   "19.714 đồng",
+   "20.000 đồng"
   ],
   "a": 0,
-  "e": "Giá mua = 1 đơn vị, dư nợ = 0,5. Chạm duy trì khi (P − 0,5)/P = 35% ⇒ P = 0,5/0,65 = 0,7692 ⇒ giá giảm 23,08%. Lỗi thường gặp: lấy hiệu hai tỷ lệ (15,00%), chia hiệu cho tỷ lệ ban đầu (30,00%), lấy chính tỷ lệ duy trì (35,00%).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Tỷ lệ ký quỹ ban đầu, tỷ lệ duy trì và mức giảm giá gây gọi ký quỹ",
+  "e": "Lãi cộng dồn = 250 triệu × 13% × 146/365 = 13 triệu đồng ⇒ dư nợ = 263 triệu đồng. Gọi ký quỹ khi (20.000P − 263.000.000)/(20.000P) = 30% ⇒ P = 263.000.000/(0,7 × 20.000) = 18.786 đồng. Lãi vay làm dư nợ tăng nên ngưỡng giá gọi ký quỹ cao dần theo thời gian. Lỗi thường gặp: bỏ qua lãi (250.000.000/14.000 = 17.857), tính lãi trên toàn bộ giá trị mua 500 triệu đồng (276.000.000/14.000 = 19.714), lấy giá mua giảm đúng chênh lệch tỷ lệ 50% − 30% (20.000).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá gọi ký quỹ khi dư nợ gồm cả lãi vay cộng dồn",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -784,7 +784,7 @@
   "part": "CM",
   "subject": "MG",
   "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
-  "level": 2,
+  "level": 3,
   "q": "Giao dịch repo trái phiếu kỳ hạn 14 ngày có giá trị thanh toán lượt đi 20.000.000.000 đồng và lượt về 20.046.027.397 đồng. Theo quy ước lãi đơn, 365 ngày/năm, lãi suất repo năm là",
   "o": [
    "6,00%",
