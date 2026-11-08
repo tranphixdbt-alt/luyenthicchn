@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 # Bản soát ngân hàng câu hỏi của trang bên thứ ba (chứa nội dung của họ), chỉ giữ trên máy
 soat_xet/
+
+node_modules/

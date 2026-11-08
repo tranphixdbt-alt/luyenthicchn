@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Thư viện cho hàm thống kê api/thong-ke.js trên Vercel (trang tĩnh không cần cài gì)",
+  "dependencies": {
+    "redis": "4.7.1"
+  }
+}
