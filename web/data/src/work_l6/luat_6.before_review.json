@@ -1,0 +1,282 @@
+[
+ {
+  "id": "L6-001",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, chiến lược phát triển thị trường chứng khoán (như Chiến lược phát triển thị trường chứng khoán đến năm 2030) được ban hành theo trình tự nào?",
+  "o": [
+   "Bộ Tài chính trình, Thủ tướng Chính phủ phê duyệt chiến lược",
+   "UBCKNN xây dựng, Bộ trưởng Bộ Tài chính phê duyệt chiến lược",
+   "Chính phủ trình, Quốc hội thông qua chiến lược bằng nghị quyết",
+   "Bộ Tài chính xây dựng, Chủ tịch UBCKNN ký ban hành chiến lược"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 2 Điều 8: Bộ Tài chính chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về chứng khoán, trình Chính phủ, Thủ tướng Chính phủ ban hành chiến lược, kế hoạch, đề án, chính sách phát triển thị trường chứng khoán, rồi chỉ đạo UBCKNN thực hiện (điểm c). UBCKNN chỉ trình Bộ trưởng Bộ Tài chính để trình cấp có thẩm quyền (điểm a khoản 1 Điều 9). Chiến lược hiện hành được Thủ tướng Chính phủ phê duyệt tại Quyết định 1726/QĐ-TTg ngày 29/12/2023 theo đề nghị của Bộ trưởng Bộ Tài chính.",
+  "basis": "Điểm a, c khoản 2 Điều 8, điểm a khoản 1 Điều 9 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026); Quyết định 1726/QĐ-TTg ngày 29/12/2023",
+  "quote": "a) Trình Chính phủ, Thủ tướng Chính phủ ban hành chiến lược, kế hoạch, đề án, chính sách phát triển thị trường chứng khoán;",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-002",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 1,
+  "q": "Theo Chiến lược phát triển thị trường chứng khoán đến năm 2030 (Quyết định 1726/QĐ-TTg ngày 29/12/2023), mục tiêu về quy mô thị trường đến năm 2030 là:",
+  "o": [
+   "Vốn hóa cổ phiếu đạt 100% GDP; dư nợ trái phiếu tối thiểu 47% GDP",
+   "Vốn hóa cổ phiếu đạt 120% GDP; dư nợ trái phiếu tối thiểu 47% GDP",
+   "Vốn hóa cổ phiếu đạt 150% GDP; dư nợ trái phiếu tối thiểu 70% GDP",
+   "Vốn hóa cổ phiếu đạt 120% GDP; dư nợ trái phiếu tối thiểu 58% GDP"
+  ],
+  "a": 3,
+  "e": "Mục 3 Điều 1 Quyết định 1726/QĐ-TTg: vốn hóa thị trường cổ phiếu đạt 100% GDP vào năm 2025 và 120% GDP vào năm 2030; dư nợ thị trường trái phiếu tối thiểu 47% GDP (2025) và 58% GDP (2030), trong đó trái phiếu doanh nghiệp tối thiểu 20% GDP (2025) và 25% GDP (2030); thị trường phái sinh tăng trưởng bình quân khoảng 20%–30%/năm giai đoạn 2021–2030; số tài khoản giao dịch của nhà đầu tư đạt 9 triệu (2025) và 11 triệu (2030); phấn đấu đến năm 2025 nâng hạng từ thị trường cận biên lên mới nổi. Cặp 100%/47% là mục tiêu năm 2025. Đến 11/2026 chưa có văn bản sửa đổi Quyết định này.",
+  "basis": "Mục 3 Điều 1 Quyết định 1726/QĐ-TTg ngày 29/12/2023 của Thủ tướng Chính phủ phê duyệt Chiến lược phát triển thị trường chứng khoán đến năm 2030 (Công báo số 33+34 năm 2024)",
+  "quote": "Quy mô vốn hóa thị trường cổ phiếu đạt 100% GDP vào năm 2025 và đạt 120% GDP vào năm 2030. Dư nợ thị trường trái phiếu đạt tối thiểu 47% GDP",
+  "src": "QD_1726_QD-TTg_2023_Chien_luoc_TTCK_2030_Cong_bao_so_33-34_2024.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-003",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 2,
+  "q": "Theo Luật Thanh tra số 84/2025/QH15 và Nghị định 216/2025/NĐ-CP, những nhận định nào sau đây ĐÚNG về Thanh tra Chứng khoán Nhà nước? I. Thuộc nhóm cơ quan thanh tra được thành lập theo điều ước quốc tế mà Việt Nam là thành viên; II. Chịu sự chỉ đạo về công tác thanh tra, hướng dẫn nghiệp vụ của Thanh tra Bộ Tài chính; III. Có con dấu và tài khoản riêng; IV. Chịu sự chỉ đạo, điều hành của Chủ tịch Ủy ban Chứng khoán Nhà nước.",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "I, III và IV",
+   "II, III và IV"
+  ],
+  "a": 2,
+  "e": "Khoản 4 Điều 7 Luật Thanh tra 2025 và Điều 7 NĐ 216/2025: Thanh tra Chứng khoán Nhà nước là một trong 04 \"Thanh tra được thành lập theo điều ước quốc tế\" (cùng Thanh tra An toàn bức xạ và hạt nhân, Thanh tra Hàng hải Việt Nam, Thanh tra Hàng không Việt Nam) – I đúng. Khoản 3 Điều 3 NĐ 216: các cơ quan này chịu sự chỉ đạo, điều hành của Thủ trưởng cơ quan, đơn vị quản lý trực tiếp (với Thanh tra Chứng khoán Nhà nước là Chủ tịch UBCKNN, khớp khoản 3 Điều 129 Luật Chứng khoán) – IV đúng; và chịu sự chỉ đạo về công tác thanh tra, hướng dẫn nghiệp vụ của Thanh tra Chính phủ, không phải Thanh tra Bộ Tài chính (cơ quan này không còn trong danh sách Điều 7 Luật Thanh tra 2025) – II sai. Khoản 4 Điều 6 NĐ 216: có con dấu và tài khoản riêng – III đúng.",
+  "basis": "Khoản 4 Điều 7 Luật Thanh tra số 84/2025/QH15; khoản 3 Điều 3, khoản 4 Điều 6, Điều 7 Nghị định 216/2025/NĐ-CP; khoản 3 Điều 129 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026)",
+  "quote": "3. Thanh tra Cơ yếu, Thanh tra được thành lập theo điều ước quốc tế chịu sự chỉ đạo, điều hành của Thủ trưởng cơ quan, đơn vị quản lý trực tiếp và chịu sự chỉ đạo về công tác thanh tra, hướng dẫn nghiệp vụ của Thanh tra Chính phủ.",
+  "src": "ND_216_2025_ND-CP_huong_dan_Luat_Thanh_tra_Cong_bao_so_1071-1072_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-004",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 2,
+  "q": "Thanh tra Chứng khoán Nhà nước tiến hành thanh tra công ty chứng khoán X; nội dung thanh tra phức tạp. Theo Luật Thanh tra số 84/2025/QH15 và Nghị định 216/2025/NĐ-CP, thời hạn tối đa của cuộc thanh tra này, kể cả gia hạn (không tính thời gian tạm dừng), là:",
+  "o": [
+   "70 ngày",
+   "40 ngày",
+   "75 ngày",
+   "90 ngày"
+  ],
+  "a": 1,
+  "e": "Điều 7 NĐ 216/2025 xếp Thanh tra Chứng khoán Nhà nước vào nhóm Thanh tra được thành lập theo điều ước quốc tế. Điểm c khoản 1 Điều 20 Luật Thanh tra 2025: cuộc thanh tra do nhóm này tiến hành không quá 30 ngày, phức tạp được gia hạn một lần không quá 10 ngày, tối đa 30 + 10 = 40 ngày. 70 ngày (45 + 25) là mức của Thanh tra tỉnh, Thanh tra Ngân hàng Nhà nước; 75 ngày (45 + 30) là mức của Luật Thanh tra 2022 đã hết hiệu lực; 90 ngày (60 + 30) là lần gia hạn thứ nhất của Thanh tra Chính phủ. Thời hạn thanh tra tính từ ngày công bố quyết định thanh tra đến ngày kết thúc thanh tra trực tiếp (khoản 10 Điều 2); thời gian tạm dừng không tính (khoản 2 Điều 20).",
+  "basis": "Điểm c khoản 1, khoản 2 Điều 20, khoản 10 Điều 2 Luật Thanh tra số 84/2025/QH15; Điều 7 Nghị định 216/2025/NĐ-CP",
+  "quote": "điều ước quốc tế và các cơ quan thanh tra khác trong Quân đội nhân dân, Công an nhân dân, Ngân hàng Nhà nước Việt Nam tiến hành không quá 30 ngày; trường hợp phức tạp hoặc ở miền núi, biên giới, hải đảo, vùng sâu, vùng xa đi lại khó khăn thì có thể gia hạn một lần không quá 10 ngày.",
+  "src": "Luat_Thanh_tra_84_2025_QH15_Cong_bao_so_953-954_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-005",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 1,
+  "q": "Theo Luật Thanh tra số 84/2025/QH15, nhận định nào sau đây ĐÚNG về hình thức và cách thức tiến hành hoạt động thanh tra?",
+  "o": [
+   "Theo kế hoạch hoặc đột xuất; tiến hành trực tiếp, trực tuyến, từ xa dựa trên dữ liệu điện tử",
+   "Theo kế hoạch hoặc đột xuất; chỉ được tiến hành trực tiếp tại trụ sở của đối tượng thanh tra",
+   "Chỉ theo kế hoạch đã ban hành; thanh tra đột xuất chỉ do Thanh tra Chính phủ tiến hành",
+   "Gồm thanh tra hành chính và thanh tra chuyên ngành; luôn tiến hành trực tiếp tại đối tượng"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 19: hoạt động thanh tra được thực hiện theo kế hoạch hoặc đột xuất; thanh tra đột xuất khi phát hiện dấu hiệu vi phạm, theo yêu cầu giải quyết khiếu nại, tố cáo, phòng, chống tham nhũng, lãng phí, tiêu cực hoặc do Thủ trưởng cơ quan quản lý nhà nước, cấp có thẩm quyền giao hoặc đề nghị. Khoản 2 Điều 19 (điểm mới): thanh tra được tiến hành trực tiếp, trực tuyến, từ xa dựa trên dữ liệu điện tử theo quy định của Chính phủ (NĐ 216/2025). Luật Thanh tra 2025 không còn chia thanh tra hành chính và thanh tra chuyên ngành.",
+  "basis": "Điều 19 Luật Thanh tra số 84/2025/QH15 (hiệu lực 01/7/2025)",
+  "quote": "2. Hoạt động thanh tra được tiến hành trực tiếp, trực tuyến, từ xa dựa trên dữ liệu điện tử.",
+  "src": "Luat_Thanh_tra_84_2025_QH15_Cong_bao_so_953-954_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-006",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 2,
+  "q": "Qua giám sát, Chủ tịch Ủy ban Chứng khoán Nhà nước phát hiện công ty chứng khoán X có dấu hiệu vi phạm pháp luật và muốn tiến hành thanh tra. Theo Luật Thanh tra số 84/2025/QH15, cách làm nào sau đây đúng?",
+  "o": [
+   "Chủ tịch UBCKNN trực tiếp ban hành quyết định thanh tra và quyết định thành lập Đoàn thanh tra",
+   "Chủ tịch UBCKNN đề nghị Tổng Thanh tra Chính phủ ban hành quyết định thanh tra công ty X",
+   "Chủ tịch UBCKNN đề nghị Bộ trưởng Bộ Tài chính ban hành quyết định thanh tra công ty X",
+   "Chủ tịch UBCKNN yêu cầu Thanh tra Chứng khoán Nhà nước thanh tra; Chánh Thanh tra ban hành quyết định"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 1 Điều 22: Thủ trưởng cơ quan quản lý nhà nước có trách nhiệm yêu cầu, đề nghị cơ quan thanh tra tiến hành thanh tra khi phát hiện dấu hiệu vi phạm. Khoản 1 Điều 26: căn cứ ban hành quyết định thanh tra gồm kế hoạch thanh tra; yêu cầu, đề nghị của Thủ trưởng cơ quan quản lý nhà nước, cấp có thẩm quyền; phát hiện dấu hiệu vi phạm; yêu cầu giải quyết khiếu nại, tố cáo, phòng, chống tham nhũng, lãng phí, tiêu cực; căn cứ khác theo luật. Khoản 2 Điều 26: Thủ trưởng cơ quan thanh tra (ở đây là Chánh Thanh tra Chứng khoán Nhà nước, khoản 3 Điều 5 NĐ 216/2025) ban hành quyết định thanh tra; quyết định phải được công bố chậm nhất 15 ngày kể từ ngày ban hành (khoản 4).",
+  "basis": "Điểm a khoản 1 Điều 22, Điều 26 Luật Thanh tra số 84/2025/QH15; khoản 3 Điều 5 Nghị định 216/2025/NĐ-CP",
+  "quote": "2. Thủ trưởng cơ quan thanh tra căn cứ quy định tại khoản 1 Điều này ban hành quyết định thanh tra.",
+  "src": "Luat_Thanh_tra_84_2025_QH15_Cong_bao_so_953-954_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-007",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 2,
+  "q": "Theo Thông tư 95/2020/TT-BTC (sửa đổi, bổ sung bởi Thông tư 138/2025/TT-BTC), những nhận định nào sau đây ĐÚNG về phân công giám sát giao dịch chứng khoán? I. Sở giao dịch chứng khoán Việt Nam giám sát giao dịch liên thị trường (thị trường cơ sở, phái sinh, chứng quyền có bảo đảm); II. Sở giao dịch chứng khoán Hà Nội, TP. Hồ Chí Minh giám sát trực tiếp giao dịch tại khu vực thị trường được giao và chịu trách nhiệm xác định giao dịch nghi vấn; III. Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam và công ty con giám sát, làm rõ dấu hiệu vi phạm về bù trừ, thanh toán, giới hạn vị thế, ký quỹ; IV. Công ty chứng khoán thành viên tự ban hành tiêu chí giám sát giao dịch áp dụng cho khách hàng của mình.",
+  "o": [
+   "I và III",
+   "II, III và IV",
+   "I, II và III",
+   "I, II và IV"
+  ],
+  "a": 2,
+  "e": "Khoản 3 Điều 3a, điểm b khoản 1 Điều 7: Sở giao dịch chứng khoán Việt Nam giám sát hoạt động giao dịch và giao dịch liên thị trường (khoản 4 Điều 3) – I đúng. Điểm a, c khoản 2 Điều 7: các Sở giao dịch (công ty con) giám sát trực tiếp tại khu vực thị trường được giao, phân tích, đánh giá và chịu trách nhiệm xác định giao dịch nghi vấn – II đúng. Khoản 5 Điều 3a, Điều 17: VSDC và công ty con giám sát bù trừ, thanh toán, ký quỹ, giới hạn vị thế và báo cáo UBCKNN – III đúng. Tiêu chí giám sát và chỉ tiêu báo cáo giám sát cho thành viên giao dịch do Sở giao dịch chứng khoán Việt Nam xây dựng, ban hành, UBCKNN chấp thuận (Điều 9, khoản 4 Điều 4); công ty chứng khoán chỉ triển khai, cảnh báo khách hàng và báo cáo (Điều 23) – IV sai.",
+  "basis": "Khoản 3, 5 Điều 3a, Điều 7, Điều 9, Điều 17, Điều 23 Thông tư 95/2020/TT-BTC (VBHN 13/VBHN-BTC năm 2026, hợp nhất TT 138/2025/TT-BTC, hiệu lực 01/3/2026)",
+  "quote": "5. Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam và công ty con thực hiện giám sát, làm rõ các dấu hiệu vi phạm pháp luật đối với các nội dung về bù trừ, thanh toán; giới hạn vị thế, ký quỹ trong giao dịch chứng khoán để kịp thời phát hiện, báo cáo Ủy ban Chứng khoán Nhà nước theo quy định.",
+  "src": "VBHN_13_VBHN-BTC_2026_TT95_138_giam_sat_giao_dich_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-008",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 2,
+  "q": "Theo Thông tư 95/2020/TT-BTC (sửa đổi, bổ sung bởi Thông tư 138/2025/TT-BTC), chế độ báo cáo giám sát giao dịch của công ty chứng khoán là thành viên giao dịch được quy định như thế nào?",
+  "o": [
+   "Báo cáo quý gửi UBCKNN; báo cáo bất thường chỉ gửi Sở giao dịch chứng khoán Việt Nam",
+   "Báo cáo tháng gửi Sở giao dịch; báo cáo bất thường, theo yêu cầu gửi cả Sở giao dịch và UBCKNN",
+   "Báo cáo tháng gửi UBCKNN và VSDC; không phải lập báo cáo giám sát giao dịch bất thường",
+   "Chỉ báo cáo khi Sở giao dịch yêu cầu; không phải lập báo cáo giám sát định kỳ hằng tháng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 25: thành viên giao dịch gửi Sở giao dịch chứng khoán Việt Nam và công ty con báo cáo giám sát giao dịch định kỳ tháng, báo cáo bất thường và báo cáo theo yêu cầu; khoản 2: gửi UBCKNN báo cáo giám sát giao dịch bất thường và theo yêu cầu. Khoản 6 Điều 23: khi phát hiện giao dịch có dấu hiệu vi phạm, thành viên giao dịch báo cáo Sở giao dịch chứng khoán Việt Nam và công ty con, đồng thời báo cáo UBCKNN. Công ty chứng khoán không thực hiện giám sát, không báo cáo theo quy định có thể bị phạt theo khoản 5b Điều 26 NĐ 156/2020 (bổ sung bởi NĐ 306/2025).",
+  "basis": "Điều 25, khoản 6 Điều 23 Thông tư 95/2020/TT-BTC (VBHN 13/VBHN-BTC năm 2026, hợp nhất TT 138/2025/TT-BTC, hiệu lực 01/3/2026)",
+  "quote": "1. Thành viên giao dịch có trách nhiệm gửi Sở giao dịch chứng khoán Việt Nam và công ty con báo cáo giám sát giao dịch định kỳ tháng, báo cáo giám sát bất thường và báo cáo giám sát theo yêu cầu về kết quả công tác giám sát giao dịch chứng khoán.",
+  "src": "VBHN_13_VBHN-BTC_2026_TT95_138_giam_sat_giao_dich_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-009",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Giám sát & an ninh thị trường",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, chủ thể có nhiệm vụ quản lý, thanh tra, kiểm tra, giám sát hoạt động nghiệp vụ chứng khoán của Sở giao dịch chứng khoán Việt Nam và Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam là:",
+  "o": [
+   "Ủy ban Chứng khoán Nhà nước",
+   "Bộ trưởng Bộ Tài chính",
+   "Thủ tướng Chính phủ",
+   "Thanh tra Chính phủ"
+  ],
+  "a": 0,
+  "e": "Điểm d khoản 1 Điều 9: UBCKNN quản lý, thanh tra, kiểm tra, giám sát hoạt động nghiệp vụ chứng khoán của Sở giao dịch chứng khoán Việt Nam, VSDC và các công ty con; chấp thuận quy chế nghiệp vụ của hai tổ chức này. Công tác giám sát tuân thủ này được hướng dẫn tại Thông tư 06/2022/TT-BTC (sửa đổi bởi Thông tư 138/2025/TT-BTC). Thủ tướng Chính phủ quyết định thành lập, mô hình hoạt động của Sở giao dịch chứng khoán Việt Nam và VSDC (khoản 2 Điều 43, khoản 2 Điều 52) nhưng không trực tiếp giám sát nghiệp vụ. Phân công giám sát tuân thủ ở tầng dưới: Sở giao dịch giám sát thành viên, tổ chức niêm yết, đăng ký giao dịch (điểm c khoản 2 Điều 46); VSDC giám sát thành viên lưu ký, thành viên bù trừ (điểm c khoản 2 Điều 55).",
+  "basis": "Điểm d khoản 1 Điều 9 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026); Thông tư 06/2022/TT-BTC (sửa đổi bởi Thông tư 138/2025/TT-BTC)",
+  "quote": "d) Quản lý, thanh tra, kiểm tra, giám sát hoạt động nghiệp vụ chứng khoán của Sở giao dịch chứng khoán Việt Nam và công ty con, Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam và công ty con;",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-010",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Hành vi bị cấm",
+  "level": 2,
+  "q": "Theo khoản 49 Điều 4 Luật Chứng khoán (bổ sung bởi Luật 56/2024/QH15), những hành vi nào sau đây là thao túng thị trường chứng khoán? I. Dùng nhiều tài khoản của mình và của người thân liên tục mua, bán một mã cổ phiếu nhằm tạo cung, cầu giả tạo; II. Cấu kết, lôi kéo nhiều người liên tục đặt lệnh mua một mã cổ phiếu, gây ảnh hưởng lớn đến cung cầu và giá; III. Kế toán trưởng mua cổ phiếu của công ty trước khi công ty công bố thông tin về một hợp đồng lớn mà ông biết nhờ chức vụ; IV. Vừa giao dịch vừa tung tin đồn sai sự thật về tổ chức phát hành để tạo cung cầu giả tạo, thao túng giá.",
+  "o": [
+   "I và II",
+   "I, II và III",
+   "II, III và IV",
+   "I, II và IV"
+  ],
+  "a": 3,
+  "e": "Khoản 49 Điều 4 liệt kê 06 nhóm hành vi thao túng: (a) dùng một hoặc nhiều tài khoản của mình hoặc người khác, hoặc thông đồng liên tục mua, bán tạo cung cầu giả tạo – I; (b) đặt lệnh mua và bán cùng loại trong ngày hoặc giao dịch không chuyển quyền sở hữu thực sự; (c) liên tục mua, bán khối lượng chi phối lúc mở cửa, đóng cửa; (d) cấu kết, lôi kéo người khác liên tục đặt lệnh – II; (đ) đưa ý kiến qua phương tiện thông tin đại chúng sau khi đã nắm giữ vị thế; (e) hành vi giao dịch khác hoặc kết hợp tung tin đồn sai sự thật, cung cấp thông tin sai lệch – IV. Hành vi III là sử dụng thông tin nội bộ để mua, bán chứng khoán (khoản 2 Điều 12), cũng bị nghiêm cấm nhưng không phải thao túng.",
+  "basis": "Điểm a, d, e khoản 49 Điều 4, khoản 2, 3 Điều 12 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026) (khoản 49 bổ sung bởi Luật 56/2024/QH15)",
+  "quote": "a) Sử dụng một hoặc nhiều tài khoản giao dịch của mình hoặc của người khác hoặc thông đồng liên tục mua, bán chứng khoán nhằm tạo ra cung, cầu giả tạo;",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-011",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Xử phạt vi phạm",
+  "level": 3,
+  "q": "Anh M là người hành nghề chứng khoán, tự ý sử dụng tiền, chứng khoán trên tài khoản của khách hàng khi không được khách hàng ủy thác (chưa đến mức truy cứu trách nhiệm hình sự). Theo Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP, hiệu lực 09/01/2026), anh M có thể bị xử phạt và áp dụng biện pháp khắc phục hậu quả nào?",
+  "o": [
+   "Phạt 400–500 triệu đồng; tước CCHN 06–12 tháng; buộc hoàn trả cho khách hàng",
+   "Phạt 200–250 triệu đồng; tước CCHN 06–12 tháng; buộc hoàn trả cho khách hàng",
+   "Phạt 200–250 triệu đồng; buộc hoàn trả tiền, chứng khoán cho khách hàng",
+   "Phạt 400–500 triệu đồng; buộc hoàn trả tiền, chứng khoán cho khách hàng"
+  ],
+  "a": 2,
+  "e": "Điểm a khoản 6 Điều 32 NĐ 156: sử dụng tài khoản, tài sản của khách hàng khi không được ủy thác bị phạt 400–500 triệu đồng (NĐ 306 không sửa khung này). Mức này áp dụng cho tổ chức; cá nhân vi phạm như tổ chức bị phạt bằng 1/2 (điểm c khoản 3 Điều 5, sửa bởi NĐ 128), nên anh M bị phạt 200–250 triệu đồng. Điểm e khoản 12 Điều 1 NĐ 306 sửa điểm b khoản 7 Điều 32: tước chứng chỉ hành nghề 06–12 tháng chỉ còn áp dụng với khoản 5 và điểm b khoản 6, nên hành vi ở điểm a khoản 6 không còn bị tước chứng chỉ (bài giảng ghi \"400–500 triệu + tước 6–12 tháng\" là quy định trước 09/01/2026 và là khung của tổ chức). Biện pháp khắc phục: buộc hoàn trả chứng khoán, tiền của khách hàng trong tối đa 60 ngày, kèm tiền lãi theo lãi suất không kỳ hạn (điểm c khoản 8 Điều 32; khoản 3, điểm a khoản 5 Điều 51 sửa bởi NĐ 306). Ngoài xử phạt, vi phạm khoản 5 Điều 12 Luật Chứng khoán là căn cứ để UBCKNN thu hồi chứng chỉ hành nghề và không cấp lại (điểm b khoản 3, khoản 4 Điều 97) – đây không phải hình thức xử phạt hành chính.",
+  "basis": "Điểm a khoản 6, điểm b khoản 7 (sửa đổi bởi điểm e khoản 12 Điều 1 Nghị định 306/2025/NĐ-CP), điểm c khoản 8 Điều 32 (sửa đổi bởi khoản 26 Điều 1 Nghị định 128/2021/NĐ-CP), điểm c khoản 3 Điều 5 Nghị định 156/2020/NĐ-CP (sửa đổi bởi khoản 4 Điều 1 Nghị định 128/2021/NĐ-CP); khoản 3, điểm a khoản 5 Điều 51 (sửa đổi bởi khoản 23 Điều 1 Nghị định 306/2025/NĐ-CP)",
+  "quote": "b) Tước quyền sử dụng chứng chỉ hành nghề chứng khoán có thời hạn từ 06 tháng đến 12 tháng đối với hành vi vi phạm quy định tại khoản 5 và điểm b khoản 6 Điều này.",
+  "src": "ND_306_2025_ND-CP_Cong_bao_so_1651-1652_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-012",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Chứng chỉ hành nghề chứng khoán",
+  "level": 2,
+  "q": "Theo khoản 3 Điều 97 Luật Chứng khoán, những trường hợp nào sau đây là căn cứ thu hồi chứng chỉ hành nghề chứng khoán? I. Người được cấp chứng chỉ không hành nghề chứng khoán trong 03 năm liên tục; II. Người hành nghề mở tài khoản giao dịch tại công ty chứng khoán khác trong khi công ty nơi mình làm việc có nghiệp vụ môi giới; III. Người được cấp chứng chỉ đang bị truy cứu trách nhiệm hình sự; IV. Người hành nghề nghỉ việc tại công ty chứng khoán để chuyển sang làm việc cho một công ty quản lý quỹ.",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "I, II và IV",
+   "II, III và IV"
+  ],
+  "a": 1,
+  "e": "Khoản 3 Điều 97: chứng chỉ bị thu hồi khi (a) không còn đáp ứng điều kiện cấp tại khoản 2 – trong đó có điều kiện không đang bị truy cứu trách nhiệm hình sự, có năng lực hành vi dân sự đầy đủ – III; (b) vi phạm Điều 12 hoặc khoản 2 Điều 98 – mở tài khoản tại công ty chứng khoán nơi mình không làm việc (khi công ty mình có nghiệp vụ môi giới) vi phạm điểm b khoản 2 Điều 98 – II; (c) không hành nghề chứng khoán 03 năm liên tục – I. Chuyển việc sang một công ty quản lý quỹ là hợp pháp nếu không đồng thời làm việc cho từ 02 công ty trở lên – IV sai. Người bị thu hồi theo điểm b không được cấp lại (khoản 4); thu hồi theo điểm a, c thì được xét cấp lại (Điều 214 NĐ 155 sửa bởi NĐ 245/2025). Bài giảng tóm tắt là \"vi phạm pháp luật nghiêm trọng\" chưa sát luật: căn cứ là vi phạm Điều 12 hoặc khoản 2 Điều 98, không cần mức \"nghiêm trọng\".",
+  "basis": "Khoản 2, 3, 4 Điều 97, điểm b khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026); Điều 214, 215 Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP)",
+  "quote": "a) Không còn đáp ứng điều kiện cấp chứng chỉ hành nghề chứng khoán quy định tại khoản 2 Điều này; b) Vi phạm quy định tại Điều 12, khoản 2 Điều 98 của Luật này; c) Không hành nghề chứng khoán trong 03 năm liên tục.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-013",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 3,
+  "q": "Ông T thực hiện hành vi thao túng thị trường chứng khoán, thu lợi bất chính 2 tỷ đồng và bị truy cứu trách nhiệm hình sự (không phạm tội có tổ chức, không tái phạm nguy hiểm). Theo Điều 211 Bộ luật Hình sự (văn bản hợp nhất năm 2025), khung hình phạt chính áp dụng với ông T là:",
+  "o": [
+   "Phạt tiền từ 2 tỷ đến 4 tỷ đồng hoặc phạt tù từ 02 năm đến 07 năm",
+   "Phạt tiền từ 500 triệu đến 2 tỷ đồng hoặc phạt tù từ 06 tháng đến 03 năm",
+   "Phạt tiền từ 2 tỷ đến 5 tỷ đồng hoặc phạt tù từ 02 năm đến 05 năm",
+   "Phạt tiền từ 5 tỷ đến 10 tỷ đồng hoặc phạt tù từ 05 năm đến 10 năm"
+  ],
+  "a": 0,
+  "e": "Điều 211 BLHS: khoản 1 (thu lợi bất chính từ 500 triệu đến dưới 1,5 tỷ đồng hoặc gây thiệt hại 1–dưới 3 tỷ đồng) – phạt tiền 500 triệu–2 tỷ đồng hoặc tù 06 tháng–03 năm; khoản 2 (có tổ chức, thu lợi bất chính từ 1,5 tỷ đồng, gây thiệt hại từ 3 tỷ đồng, tái phạm nguy hiểm) – phạt tiền 2–4 tỷ đồng hoặc tù 02–07 năm. Ông T thu lợi 2 tỷ đồng nên thuộc khoản 2. Hình phạt bổ sung (khoản 3): phạt tiền 50–250 triệu đồng, cấm đảm nhiệm chức vụ, cấm hành nghề 01–05 năm. Mức 5–10 tỷ đồng là của pháp nhân thương mại ở khoản 2. Khi chưa đến mức truy cứu hình sự thì xử phạt hành chính, tối đa 05 lần khoản thu trái pháp luật với cá nhân (Điều 132 Luật Chứng khoán, Điều 5 NĐ 156).",
+  "basis": "Khoản 1, 2, 3, 4 Điều 211 Bộ luật Hình sự 2015 (VBHN 135/VBHN-VPQH ngày 05/9/2025, hợp nhất Luật 12/2017/QH14, Luật 59/2024/QH15, Luật 86/2025/QH15)",
+  "quote": "2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 2.000.000.000 đồng đến 4.000.000.000 đồng hoặc phạt tù từ 02 năm đến 07 năm: a) Có tổ chức; b) Thu lợi bất chính 1.500.000.000 đồng trở lên;",
+  "src": "VBHN_135_VBHN-VPQH_2025_Bo_luat_Hinh_su_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "L6-014",
+  "part": "LUAT",
+  "subject": "LU",
+  "topic": "Thanh tra & xử lý vi phạm",
+  "level": 3,
+  "q": "Công ty cổ phần K (pháp nhân thương mại) phạm tội sử dụng thông tin nội bộ để mua bán chứng khoán, thu lợi bất chính 1,2 tỷ đồng. Theo Điều 210 Bộ luật Hình sự (văn bản hợp nhất năm 2025), mức phạt tiền áp dụng với công ty K là:",
+  "o": [
+   "Từ 1 tỷ đồng đến 5 tỷ đồng",
+   "Từ 2 tỷ đồng đến 5 tỷ đồng",
+   "Bằng 10 lần khoản thu trái pháp luật",
+   "Từ 5 tỷ đồng đến 10 tỷ đồng"
+  ],
+  "a": 3,
+  "e": "Điều 210 BLHS: thu lợi bất chính từ 1 tỷ đồng trở lên thuộc khoản 2. Pháp nhân thương mại phạm tội thuộc khoản 2 bị phạt tiền 5–10 tỷ đồng (điểm b khoản 4); thuộc khoản 1 (thu lợi 300 triệu–dưới 1 tỷ đồng) bị phạt 1–5 tỷ đồng; pháp nhân còn có thể bị cấm kinh doanh, cấm hoạt động trong một số lĩnh vực hoặc cấm huy động vốn 01–03 năm. Mức 2–5 tỷ đồng là của cá nhân phạm tội ở khoản 2. \"10 lần khoản thu trái pháp luật\" là mức phạt hành chính tối đa với tổ chức (khoản 3 Điều 132 Luật Chứng khoán), chỉ áp dụng khi chưa đến mức truy cứu hình sự. Điều 76 BLHS: pháp nhân thương mại chịu trách nhiệm hình sự về các tội ở Điều 209, 210, 211 (không có Điều 212).",
+  "basis": "Khoản 2, khoản 4 Điều 210, Điều 76 Bộ luật Hình sự 2015 (VBHN 135/VBHN-VPQH ngày 05/9/2025, hợp nhất Luật 12/2017/QH14, Luật 59/2024/QH15, Luật 86/2025/QH15)",
+  "quote": "a) Phạm tội thuộc trường hợp quy định tại khoản 1 Điều này, thì bị phạt tiền từ 1.000.000.000 đồng đến 5.000.000.000 đồng; b) Phạm tội thuộc trường hợp quy định tại khoản 2 Điều này, thì bị phạt tiền từ 5.000.000.000 đồng đến 10.000.000.000 đồng;",
+  "src": "VBHN_135_VBHN-VPQH_2025_Bo_luat_Hinh_su_hop_nhat.txt",
+  "as_of": "2026-11"
+ }
+]

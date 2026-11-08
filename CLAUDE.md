@@ -16,3 +16,4 @@ Trang: https://luyenthicchn-dist.vercel.app (Vercel tự triển khai `web/dist`
 - Ứng dụng: `web/index.html` + `web/app.js` (JS thuần), dữ liệu `web/data/`, build ra một file `web/dist/index.html`. Hàm thống kê ẩn danh: `web/api/thong-ke.js` dùng kho Redis của dự án Vercel qua biến `REDIS_URL` (đã nối 11/2026; mã giả `Z9-999` trong kho là bản ghi thử, trang bỏ qua). Kiểm thử: `cd web && npm install && node tools/kiem_tra_thong_ke.js` (cần `redis-server`).
 - Khóa localStorage `docchn_v1`: không đổi, để người dùng không mất tiến độ.
 - Người dùng đang ôn để thi môn Pháp luật và Môi giới chứng khoán.
+- Sau 21/11/2026 (hết kỳ họp Quốc hội): kiểm tra Luật Chứng khoán sửa đổi và Bộ luật Hình sự sửa đổi có được thông qua không; nếu có, soát lại L6-003, L6-006, L6-013, L6-014, L4-017, C8-012 và các câu trích Luật CK bị đổi.
