@@ -1,0 +1,162 @@
+[
+ {
+  "id": "C11-001",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Giao dịch ký quỹ (giao dịch bảo chứng) mua chứng khoán là nghiệp vụ trong đó công ty chứng khoán",
+  "o": [
+   "Cho nhà đầu tư vay toàn bộ tiền mua chứng khoán, nhà đầu tư không phải góp vốn tự có",
+   "Chỉ thực hiện lệnh mua trong phạm vi số tiền nhà đầu tư đã có sẵn trên tài khoản",
+   "Cho nhà đầu tư vay tiền mua chứng khoán và để nhà đầu tư tự do rút chứng khoán khi còn dư nợ",
+   "Cho nhà đầu tư vay một phần tiền mua chứng khoán, dùng chính chứng khoán đó làm tài sản bảo đảm khoản vay"
+  ],
+  "a": 3,
+  "e": "Trong giao dịch ký quỹ, nhà đầu tư góp phần vốn tự có theo tỷ lệ ký quỹ, phần còn lại vay công ty chứng khoán; chứng khoán mua được (và chứng khoán ký quỹ khác) là tài sản bảo đảm nên không được tự do rút, chuyển khi còn dư nợ. Khoản tiền công ty cho vay (cộng lãi cộng dồn) là dư nợ; giá trị chứng khoán thực có = giá trị thị trường hiện hành − dư nợ. Giao dịch chỉ trong phạm vi tiền có sẵn là tài khoản tiền mặt (giao dịch thông thường); cho vay toàn bộ thì không còn phần ký quỹ của nhà đầu tư.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Khái niệm giao dịch ký quỹ (bảo chứng) và dư nợ; điểm b khoản 1 Điều 86 Luật Chứng khoán 2019 (dịch vụ cho khách hàng vay tiền mua chứng khoán)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-002",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Lợi ích nào sau đây là ưu điểm của giao dịch ký quỹ đối với nhà đầu tư và thị trường chứng khoán?",
+  "o": [
+   "Tăng sức mua của nhà đầu tư, qua đó làm tăng cầu và tính thanh khoản của thị trường",
+   "Giảm tỷ lệ lỗ trên vốn tự có của nhà đầu tư khi giá chứng khoán giảm",
+   "Chuyển rủi ro giảm giá của chứng khoán ký quỹ sang công ty chứng khoán",
+   "Hạn chế biến động giá vì chứng khoán ký quỹ không được bán trước hạn vay"
+  ],
+  "a": 0,
+  "e": "Vay ký quỹ cho phép nhà đầu tư mua lượng chứng khoán lớn hơn vốn tự có (sức mua = vốn tự có/tỷ lệ ký quỹ), làm tăng cầu, khối lượng giao dịch và thanh khoản, góp phần phát triển thị trường; khi giá tăng, lợi nhuận trên vốn tự có được khuếch đại. Ngược lại, đòn bẩy cũng khuếch đại thua lỗ khi giá giảm, nhà đầu tư vẫn chịu toàn bộ rủi ro giá và phải trả đủ nợ vay; chứng khoán ký quỹ bị bán giải chấp khi tài khoản thiếu ký quỹ, và bán giải chấp hàng loạt lúc thị trường giảm mạnh còn có thể làm giá biến động mạnh hơn.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Ưu điểm và rủi ro của giao dịch ký quỹ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-003",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Trước khi khách hàng mở tài khoản giao dịch ký quỹ, nhân viên môi giới cần giải thích rõ rủi ro nào sau đây?",
+  "o": [
+   "Khách hàng có thể lỗ vượt số vốn ký quỹ ban đầu và vẫn phải trả đủ dư nợ, lãi vay",
+   "Khoản lỗ tối đa chỉ bằng vốn ký quỹ ban đầu, phần lỗ vượt quá do công ty chịu",
+   "Khi bị gọi ký quỹ, khách hàng được chờ giá phục hồi, công ty không được bán chứng khoán",
+   "Lãi vay ký quỹ chỉ phát sinh khi giá chứng khoán giảm xuống dưới giá mua"
+  ],
+  "a": 0,
+  "e": "Với đòn bẩy, tỷ lệ lỗ trên vốn tự có ≈ tỷ lệ giảm giá/tỷ lệ ký quỹ (ký quỹ 50%, giá giảm 60% ⇒ lỗ 120% vốn tự có). Nếu giá giảm sâu, liên tục (giảm sàn nhiều phiên, thiếu thanh khoản) trước khi công ty kịp bán giải chấp, tiền bán chứng khoán không đủ trả nợ: khách hàng mất hết vốn ký quỹ mà vẫn còn nợ công ty. Khi bị gọi ký quỹ, khách hàng phải bổ sung tài sản trong thời hạn theo hợp đồng; quá hạn, công ty được bán chứng khoán ký quỹ để thu hồi nợ mà không chờ giá phục hồi. Lãi vay tính trên dư nợ theo thời gian vay, không phụ thuộc giá tăng hay giảm.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Rủi ro của giao dịch ký quỹ cần giải thích cho khách hàng (lỗ vượt vốn ký quỹ, gọi ký quỹ, bán giải chấp)",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-004",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 1,
+  "q": "Theo Luật Chứng khoán, khi cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo các điều kiện cung cấp dịch vụ, bao gồm:",
+  "o": [
+   "Tỷ lệ ký quỹ, lãi suất vay và mức lợi nhuận tối thiểu cam kết cho khách hàng sử dụng dịch vụ",
+   "Tỷ lệ ký quỹ, lãi suất vay, danh sách khách hàng đang vay và dư nợ của từng khách hàng",
+   "Tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức gọi ký quỹ bổ sung, danh mục chứng khoán ký quỹ",
+   "Lãi suất vay, thời hạn vay và cam kết mua lại chứng khoán ký quỹ của khách hàng khi giá giảm"
+  ],
+  "a": 2,
+  "e": "Khoản 3 Điều 123 Luật Chứng khoán: trường hợp cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo điều kiện cung cấp dịch vụ gồm yêu cầu về tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức thực hiện lệnh gọi ký quỹ bổ sung, danh mục chứng khoán thực hiện giao dịch ký quỹ. Vì vậy khách hàng chỉ ký quỹ hoặc bổ sung ký quỹ bằng chứng khoán thuộc danh mục công ty chấp nhận. Công ty không được cam kết lợi nhuận, chia sẻ lỗ hay cam kết mua lại chứng khoán cho khách hàng, và phải bảo mật thông tin tài khoản của khách hàng khác.",
+  "basis": "Khoản 3 Điều 123 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH/2025); Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Điều kiện cung cấp dịch vụ giao dịch ký quỹ",
+  "quote": "Trường hợp cung cấp dịch vụ giao dịch ký quỹ, công ty chứng khoán phải thông báo các điều kiện cung cấp dịch vụ bao gồm yêu cầu về tỷ lệ ký quỹ, lãi suất vay, thời hạn vay, phương thức thực hiện lệnh gọi ký quỹ bổ sung, danh mục chứng khoán thực hiện giao dịch ký quỹ.",
+  "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-005",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Trong giao dịch ký quỹ (bảo chứng), lệnh gọi ký quỹ ban đầu và lệnh gọi ký quỹ duy trì khác nhau ở điểm nào?",
+  "o": [
+   "Gọi ban đầu phát sinh khi tỷ lệ ký quỹ thực tế giảm dưới tỷ lệ duy trì; gọi duy trì yêu cầu nộp đủ vốn tự có theo tỷ lệ ban đầu khi mua",
+   "Gọi ban đầu chỉ áp dụng cho vị thế bán khống; gọi duy trì chỉ áp dụng cho vị thế mua chứng khoán bằng tiền vay công ty chứng khoán",
+   "Gọi ban đầu yêu cầu nộp đủ vốn tự có theo tỷ lệ ký quỹ ban đầu khi mua; gọi duy trì phát sinh khi tỷ lệ ký quỹ thực tế giảm dưới tỷ lệ duy trì",
+   "Gọi ban đầu do Sở giao dịch chứng khoán gửi cho nhà đầu tư; gọi duy trì do công ty chứng khoán gửi cho khách hàng của mình"
+  ],
+  "a": 2,
+  "e": "Lệnh gọi ký quỹ ban đầu: khi khách hàng mua chứng khoán trên tài khoản ký quỹ, công ty yêu cầu nộp phần vốn tự có tối thiểu theo tỷ lệ ký quỹ ban đầu (mua 100 triệu đồng với tỷ lệ 50% phải có 50 triệu đồng). Lệnh gọi ký quỹ duy trì: sau khi mua, nếu giá giảm làm tỷ lệ ký quỹ thực tế = (giá trị chứng khoán − dư nợ)/giá trị chứng khoán thấp hơn tỷ lệ duy trì, công ty yêu cầu bổ sung tiền, chứng khoán hoặc bán bớt chứng khoán. Cả hai đều do công ty chứng khoán (bên cho vay) thực hiện với khách hàng và áp dụng cho cả vị thế mua ký quỹ lẫn bán khống (nơi được phép).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Các loại lệnh gọi ký quỹ: gọi ký quỹ ban đầu và gọi ký quỹ duy trì",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-006",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 2,
+  "q": "Mục đích chủ yếu của việc quy định tỷ lệ ký quỹ duy trì và thực hiện gọi ký quỹ duy trì trên tài khoản giao dịch ký quỹ là",
+  "o": [
+   "Bảo đảm nhà đầu tư không bị lỗ quá tỷ lệ ký quỹ duy trì tính trên vốn tự có ban đầu",
+   "Bảo vệ công ty chứng khoán cho vay trước rủi ro giá trị tài sản bảo đảm không đủ thu hồi nợ",
+   "Tăng doanh thu lãi vay cho công ty chứng khoán khi giá chứng khoán ký quỹ giảm",
+   "Giữ giá chứng khoán ký quỹ không giảm xuống dưới giá mua ban đầu của nhà đầu tư"
+  ],
+  "a": 1,
+  "e": "Tỷ lệ duy trì tạo vùng đệm vốn tự có của nhà đầu tư so với dư nợ: khi giá giảm làm vùng đệm mỏng tới mức duy trì, công ty gọi ký quỹ để khách hàng bổ sung tài sản hoặc bán bớt chứng khoán trả nợ trước khi giá trị chứng khoán xuống thấp hơn dư nợ. Mục đích là bảo vệ khoản cho vay của công ty chứng khoán; gọi ký quỹ không bảo đảm nhà đầu tư không lỗ (đòn bẩy vẫn khuếch đại lỗ), không làm tăng lãi vay và không giữ được giá chứng khoán.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Mục đích của ký quỹ duy trì và gọi ký quỹ duy trì",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-007",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
+  "level": 3,
+  "q": "Ngày giao dịch thứ nhất, khách hàng mua 2.000 cổ phiếu K trên tài khoản ký quỹ với tổng số tiền 60.000.000 đồng, cùng ngày thanh toán 42.000.000 đồng, phần còn lại vay công ty chứng khoán. Giá đóng cửa của K trong ba ngày giao dịch liên tiếp kể từ ngày mua lần lượt là 31.500; 29.000 và 27.500 đồng. Giả sử giá trị thị trường hiện hành của chứng khoán trên tài khoản trong mỗi ngày được xác định theo giá đóng cửa của ngày giao dịch liền trước (riêng ngày mua tính theo giá mua). Bỏ qua lãi vay và phí, giá trị chứng khoán thực có trên tài khoản vào ngày giao dịch thứ ba là",
+  "o": [
+   "37.000.000 đồng",
+   "45.000.000 đồng",
+   "58.000.000 đồng",
+   "40.000.000 đồng"
+  ],
+  "a": 3,
+  "e": "Dư nợ = 60.000.000 − 42.000.000 = 18.000.000 đồng. Ngày thứ ba dùng giá đóng cửa ngày thứ hai: giá trị thị trường hiện hành = 2.000 × 29.000 = 58.000.000 đồng ⇒ giá trị chứng khoán thực có = 58.000.000 − 18.000.000 = 40.000.000 đồng (chuỗi ba ngày: 42, 45, 40 triệu đồng). Lỗi thường gặp: dùng giá đóng cửa của chính ngày thứ ba (2.000 × 27.500 − 18.000.000 = 37.000.000), dùng giá đóng cửa ngày mua (45.000.000), quên trừ dư nợ (58.000.000).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị thị trường hiện hành, dư nợ và giá trị chứng khoán thực có trên tài khoản ký quỹ",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C11-008",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 3,
+  "q": "Công ty chứng khoán trả cho nhân viên môi giới lương cố định 6,3 triệu đồng/tháng (12 tháng/năm). Một năm có 252 ngày làm việc; mỗi ngày nhân viên dự kiến thực hiện 120 cuộc điện thoại tìm kiếm khách hàng (không tính cước điện thoại). Giá trị (chi phí lương) của một cuộc gọi tìm kiếm khách hàng là",
+  "o": [
+   "1.726 đồng",
+   "2.500 đồng",
+   "208 đồng",
+   "300.000 đồng"
+  ],
+  "a": 1,
+  "e": "Lương năm = 6,3 triệu × 12 = 75.600.000 đồng; số cuộc gọi/năm = 252 × 120 = 30.240 ⇒ giá trị một cuộc gọi = 75.600.000/30.240 = 2.500 đồng. Con số này giúp nhân viên môi giới ý thức chi phí thời gian, sàng lọc danh sách gọi và đo hiệu quả tìm kiếm khách hàng. Lỗi thường gặp: chia cho 365 ngày lịch (1.726), lấy lương một tháng chia số cuộc gọi cả năm (208), chỉ tính chi phí lương một ngày (300.000).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị một cuộc gọi trong kế hoạch tìm kiếm khách hàng",
+  "quote": "",
+  "src": "Giáo trình SRTC (khung chương trình)",
+  "as_of": "2026-11"
+ }
+]
