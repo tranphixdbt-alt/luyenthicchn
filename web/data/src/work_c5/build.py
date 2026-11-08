@@ -134,7 +134,7 @@ add(T1, 2,
     'Nguyên tắc ưu tiên giá – thời gian khi sửa lệnh (dữ kiện nêu trong đề)')
 add(T1, 2,
     'Giả định quy chế cho phép lệnh MOK. Trong phiên khớp lệnh liên tục, phía bán trên sổ lệnh chỉ có: 3.000 cổ phiếu giá 20.000 đồng và 1.000 cổ phiếu giá 20.050 đồng. Nhà đầu tư nhập lệnh MOK mua 5.000 cổ phiếu. Kết quả là:',
-    ['Lệnh bị hủy toàn bộ, không có cổ phiếu nào được khớp',
+    ['Lệnh bị hủy toàn bộ, không phát sinh giao dịch khớp lệnh',
      'Khớp 4.000 cổ phiếu, 1.000 cổ phiếu còn lại bị hủy ngay',
      'Khớp 4.000 cổ phiếu, phần còn lại chuyển thành lệnh LO',
      'Khớp 3.000 cổ phiếu giá 20.000 đồng, phần còn lại chờ khớp'],
@@ -182,24 +182,27 @@ addn(T1, 3,
      'Giá tham chiếu điều chỉnh = 38.500 − 2.000 = 36.500 đồng. Giá trần = 36.500 × 1,07 = 39.055 → làm tròn xuống theo bước giá 50 = 39.050 đồng. Lỗi thường gặp: không điều chỉnh giá tham chiếu (38.500 × 1,07 = 41.195 → 41.150); tính giá trần trước rồi mới trừ cổ tức (41.195 − 2.000 = 39.195 → 39.150); làm tròn lên (39.100).',
      'Giá tham chiếu điều chỉnh khi trả cổ tức tiền = Giá đóng cửa − Cổ tức; Giá trần = Giá tham chiếu × (1 + biên độ), làm tròn theo bước giá (dữ kiện nêu trong đề)')
 
-# S2 – khớp định kỳ mở cửa, tiêu chí phụ chọn giá
-prices = [51800, 51900, 52000, 52100, 52200, 52300]
-B2 = {52300: 2000, 52200: 2000, 52100: 1500, 52000: 1500, 51900: 2000, 51800: 1500}
-S2 = {51800: 500, 51900: 500, 52000: 2000, 52100: 1500, 52200: 3000, 52300: 2000}
-r = auction(1000, B2, 500, S2, prices)
-mx = max(x[3] for x in r)
-cand = [x for x in r if x[3] == mx]
-best = min(cand, key=lambda x: (abs(x[0] - 52000), -x[0]))
-assert [x[0] for x in cand] == [52100, 52200] and best[0] == 52100 and best[3] == 5000
-assert [x[3] for x in r] == [1000, 1500, 3500, 5000, 5000, 3000]
-assert r[3][1] == 6500 and r[2][3] == 3500
+# S2 – khớp định kỳ mở cửa, phần lệnh LO chưa khớp chuyển sang phiên liên tục
+prices = [59900, 60000, 60100, 60200, 60300]
+B2 = {60300: 1000, 60200: 2000, 60100: 3000, 60000: 2500, 59900: 1500}
+S2 = {59900: 1000, 60000: 1500, 60100: 2000, 60200: 3000, 60300: 2500}
+r = auction(2000, B2, 1500, S2, prices)
+assert [x[3] for x in r] == [2500, 4000, 6000, 5000, 3000]
+p2, _, _, v2 = max(r, key=lambda x: x[3])
+left = v2 - 2000                                   # ATO mua khớp trước
+rem = {}
+for pr in sorted(B2, reverse=True):                # rồi LO mua giá cao trước
+    m = min(B2[pr], left) if pr >= p2 else 0
+    left -= m; rem[pr] = B2[pr] - m
+bb = max(pr for pr in rem if rem[pr] > 0)
+assert (p2, v2, bb, rem[bb]) == (60100, 6000, 60100, 2000)
 pv = lambda p, v: f'{vn(p)} đồng; {cp(v)}'
 add(T1, 3,
-    'Cổ phiếu N có giá tham chiếu 52.000 đồng, bước giá 100 đồng. Sổ lệnh phiên khớp lệnh định kỳ mở cửa (đơn vị: cổ phiếu) – Mua: ATO 1.000; giá 52.300: 2.000; 52.200: 2.000; 52.100: 1.500; 52.000: 1.500; 51.900: 2.000; 51.800: 1.500. Bán: ATO 500; giá 51.800: 500; 51.900: 500; 52.000: 2.000; 52.100: 1.500; 52.200: 3.000; 52.300: 2.000. Giả định nguyên tắc xác định giá: (1) đạt khối lượng khớp lớn nhất; (2) nếu nhiều mức giá thỏa mãn (1), chọn mức giá trùng hoặc gần nhất với giá tham chiếu; (3) nếu vẫn còn nhiều mức giá, chọn mức giá cao hơn; lệnh ATO được ưu tiên trước lệnh LO. Giá mở cửa và khối lượng khớp là:',
-    [pv(52100, 5000), pv(52200, 5000), pv(52000, 3500), pv(52100, 6500)],
-    'KL mua cộng dồn (từ giá cao xuống, cộng ATO) / KL bán cộng dồn (từ giá thấp lên, cộng ATO): 51.800: 11.500/1.000 → 1.000; 51.900: 10.000/1.500 → 1.500; 52.000: 8.000/3.500 → 3.500; 52.100: 6.500/5.000 → 5.000; 52.200: 5.000/8.000 → 5.000; 52.300: 3.000/10.000 → 3.000. Khối lượng lớn nhất 5.000 đạt tại 52.100 và 52.200; theo tiêu chí (2), 52.100 gần giá tham chiếu hơn → giá mở cửa 52.100 đồng, khớp 5.000 cổ phiếu. Chọn 52.200 là áp dụng tiêu chí (3) khi chưa xét tiêu chí (2); 6.500 là KL mua cộng dồn chứ không phải KL khớp; 52.000 là giá tham chiếu, chỉ khớp được 3.500 cổ phiếu.',
-    'Khớp lệnh định kỳ: giá khớp đạt khối lượng lớn nhất, các tiêu chí phụ (dữ kiện nêu trong đề)',
-    key=[52100.05, 52200.05, 52000.035, 52100.065], val=52100)
+    'Cổ phiếu V, bước giá 100 đồng. Trong phiên khớp lệnh định kỳ mở cửa có lệnh ATO mua 2.000 và ATO bán 1.500 cổ phiếu; các lệnh LO tại mức giá 60.300 / 60.200 / 60.100 / 60.000 / 59.900 đồng có khối lượng đặt mua lần lượt 1.000 / 2.000 / 3.000 / 2.500 / 1.500 cổ phiếu và khối lượng đặt bán lần lượt 2.500 / 3.000 / 2.000 / 1.500 / 1.000 cổ phiếu. Giả định: giá mở cửa là mức giá đạt khối lượng khớp lớn nhất; lệnh ATO được ưu tiên trước lệnh LO; phần lệnh LO chưa khớp được chuyển sang phiên khớp lệnh liên tục. Khi bắt đầu phiên liên tục, mức giá mua tốt nhất trên sổ lệnh và khối lượng chờ mua tại mức giá đó là:',
+    [pv(bb, rem[bb]), pv(60300, 1000), pv(60100, 3000), pv(60000, 2500)],
+    'Cộng dồn (mua từ giá cao xuống, bán từ giá thấp lên, đều cộng ATO): 60.300: 3.000/11.500 → 3.000; 60.200: 5.000/9.000 → 5.000; 60.100: 8.000/6.000 → 6.000; 60.000: 10.500/4.000 → 4.000; 59.900: 12.000/2.500 → 2.500. Giá mở cửa 60.100 đồng, khớp 6.000 cổ phiếu. Phía mua: ATO 2.000, lệnh giá 60.300 (1.000) và 60.200 (2.000) khớp đủ; lệnh giá 60.100 chỉ khớp 1.000/3.000 → còn 2.000 cổ phiếu chờ mua tại 60.100 đồng, là mức giá mua tốt nhất khi vào phiên liên tục. "60.300 đồng; 1.000" là bỏ qua kết quả phiên mở cửa; "60.100 đồng; 3.000" là coi lệnh tại giá khớp không được thực hiện; "60.000 đồng; 2.500" là coi lệnh tại giá khớp được khớp đủ.',
+    'Khớp lệnh định kỳ: giá khớp đạt khối lượng lớn nhất, ưu tiên lệnh ATO; lệnh LO chưa khớp chuyển sang phiên sau (dữ kiện nêu trong đề)',
+    key=[60100.002, 60300.001, 60100.003, 60000.0025], val=60100)
 
 # S3 – khớp định kỳ đóng cửa, phân bổ theo thời gian
 pr3 = [41000, 41100, 41200]
@@ -304,7 +307,7 @@ ptc = (P9 + I_mua * PR) / (1 + I_th + I_mua)
 chk(ptc, 35769.230769, 1e-9)
 chk(13 * ptc, 10 * P9 + 1 * PR)  # bảo toàn giá trị: 10 cổ phiếu cũ + tiền mua 1 cổ phiếu = 13 cổ phiếu
 addn(T1, 3,
-     'Cổ phiếu T có giá đóng cửa ngày giao dịch liền trước ngày giao dịch không hưởng quyền là 45.000 đồng. Cùng ngày giao dịch không hưởng quyền, công ty thực hiện đồng thời: phát hành cổ phiếu thưởng tỷ lệ 10:2 (sở hữu 10 cổ phiếu được nhận thêm 2 cổ phiếu) và phát hành thêm cho cổ đông hiện hữu tỷ lệ 10:1 (sở hữu 10 cổ phiếu được mua 1 cổ phiếu mới) với giá 15.000 đồng/cổ phiếu. Giá tham chiếu điều chỉnh lý thuyết (làm tròn đến đồng) là:',
+     'Ngày mai là ngày giao dịch không hưởng quyền của cổ phiếu T cho hai đợt phát hành thực hiện cùng lúc: cổ phiếu thưởng tỷ lệ 10:2 (10 cổ phiếu cũ nhận thêm 2 cổ phiếu) và quyền mua tỷ lệ 10:1 (10 cổ phiếu cũ được mua 1 cổ phiếu mới) với giá 15.000 đồng. Hôm nay cổ phiếu T đóng cửa ở 45.000 đồng. Theo nguyên tắc bảo toàn tổng giá trị nắm giữ, giá tham chiếu điều chỉnh của ngày mai (làm tròn đến đồng) là:',
      [round(ptc), round(P9 / (1 + I_th)), round((P9 + I_mua * PR) / (1 + I_th)), round((P9 - I_mua * PR) / (1 + I_th + I_mua))], dong,
      'Ptc = (P + I_mua × Giá phát hành) / (1 + I_thưởng + I_mua) = (45.000 + 0,1 × 15.000) / (1 + 0,2 + 0,1) = 46.500 / 1,3 ≈ 35.769 đồng. Kiểm tra: 10 cổ phiếu cũ (450.000 đồng) cộng 15.000 đồng nộp mua thêm = 465.000 đồng cho 13 cổ phiếu → 35.769 đồng/cổ phiếu. Lỗi thường gặp: bỏ qua quyền mua (45.000 / 1,2 = 37.500); thiếu tỷ lệ quyền mua ở mẫu số (46.500 / 1,2 = 38.750); trừ thay vì cộng tiền mua ((45.000 − 1.500) / 1,3 ≈ 33.462).',
      'Ptc = (P + Σ Tỷ lệ quyền mua × Giá phát hành) / (1 + Σ Tỷ lệ phát hành thêm), tỷ lệ cổ phiếu thưởng có giá phát hành bằng 0')
@@ -475,7 +478,7 @@ nodisc = 4 * 3000 + 100000 / 1.04 ** 4
 swap = bond_price(100000, 0.08, 0.06, 2, 2)
 assert [round(p6b), round(ann), round(nodisc), round(swap)] == [96370, 96433, 97480, 103717]
 addn(T2, 3,
-     'Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 6%/năm, trả lãi 6 tháng một lần, còn đúng 2 năm đến ngày đáo hạn (vừa trả lãi). Lợi suất đáo hạn yêu cầu là 8%/năm, ghép lãi 6 tháng (4%/kỳ). Giá trái phiếu (làm tròn đến đồng) là:',
+     'Một trái phiếu kỳ hạn còn lại 2 năm, mệnh giá 100.000 đồng, trả coupon nửa năm một lần với lãi suất danh nghĩa 6%/năm; kỳ trả lãi gần nhất vừa kết thúc. Nhà đầu tư đòi hỏi lợi suất 8%/năm, tương đương 4% cho mỗi nửa năm. Mức giá tối đa nhà đầu tư nên trả cho mỗi trái phiếu (làm tròn đến đồng) là:',
      [round(p6b), round(ann), round(nodisc), round(swap)], dong,
      'Mỗi kỳ coupon 3.000 đồng, 4 kỳ, lợi suất 4%/kỳ: P = 3.000 × [1 − 1,04^−4]/0,04 + 100.000/1,04^4 = 10.889,69 + 85.480,42 ≈ 96.370 đồng. 96.433 là tính như trả lãi hằng năm (6.000 đồng, chiết khấu 8%, 2 kỳ); 97.480 là không chiết khấu các khoản coupon; 103.717 là đảo lãi suất coupon và lợi suất.',
      'P = Σ (C/m)/(1 + y/m)^t + F/(1 + y/m)^(n×m)')

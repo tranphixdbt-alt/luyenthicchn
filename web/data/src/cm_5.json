@@ -8,11 +8,11 @@
   "q": "Lệnh thị trường được thực hiện toàn bộ hoặc một phần ngay khi nhập vào hệ thống, phần khối lượng còn lại không thực hiện được bị hủy ngay sau khi so khớp, được gọi là lệnh:",
   "o": [
    "MOK (Match or Kill)",
+   "MAK (Match and Kill)",
    "ATC (At the Close)",
-   "LO (Limit Order)",
-   "MAK (Match and Kill)"
+   "LO (Limit Order)"
   ],
-  "a": 3,
+  "a": 1,
   "e": "Lệnh MAK có thể khớp toàn bộ hoặc một phần, phần chưa khớp bị hủy ngay. Lệnh MOK phải khớp toàn bộ ngay khi nhập, nếu không sẽ bị hủy toàn bộ. ATC là lệnh tại mức giá đóng cửa trong phiên định kỳ đóng cửa; LO là lệnh giới hạn, phần chưa khớp tiếp tục chờ trên sổ lệnh.",
   "basis": "Đặc điểm các loại lệnh thị trường MAK, MOK",
   "quote": "",
@@ -90,7 +90,7 @@
    "Ghi giá cụ thể; chỉ được khớp tại mức giá đã ghi hoặc tốt hơn và có hiệu lực đến hết ngày giao dịch",
    "Chỉ được nhập trong phiên khớp lệnh định kỳ và được khớp tại một mức giá duy nhất của phiên đó",
    "Chỉ được khớp sau khi toàn bộ lệnh giới hạn đang chờ trên sổ lệnh đã được thực hiện xong",
-   "Không ghi giá cụ thể; lệnh mua khớp tại giá bán thấp nhất, lệnh bán khớp tại giá mua cao nhất đang có"
+   "Không ghi giá cụ thể; lệnh mua khớp lần lượt từ giá bán thấp nhất, lệnh bán từ giá mua cao nhất"
   ],
   "a": 3,
   "e": "Lệnh thị trường không ghi giá, được thực hiện ngay tại mức giá tốt nhất của phía đối ứng (mua tại giá bán thấp nhất, bán tại giá mua cao nhất) và có thể quét qua nhiều mức giá; phần chưa khớp được xử lý theo quy chế (chuyển thành LO với MTL, hủy với MAK/MOK). Ghi giá cụ thể là đặc điểm của LO; khớp tại một mức giá duy nhất là đặc điểm của phiên định kỳ.",
@@ -105,7 +105,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 2,
-  "q": "Giả định quy chế: trong phiên khớp lệnh liên tục, nhà đầu tư được hủy phần khối lượng chưa khớp của lệnh LO. Lúc 9h20, khách hàng đặt lệnh LO mua 5.000 cổ phiếu và đến 9h40 đã khớp 2.000 cổ phiếu. Lúc 10h00 (vẫn trong phiên khớp lệnh liên tục), khách hàng yêu cầu hủy lệnh. Kết quả là:",
+  "q": "Giả định quy chế cho phép hủy lệnh LO trong phiên khớp lệnh liên tục. Lúc 9h20, khách hàng đặt lệnh LO mua 5.000 cổ phiếu và đến 9h40 đã khớp 2.000 cổ phiếu. Lúc 10h00 (vẫn trong phiên khớp lệnh liên tục), khách hàng yêu cầu hủy lệnh. Kết quả là:",
   "o": [
    "Toàn bộ 5.000 cổ phiếu bị hủy, kể cả 2.000 cổ phiếu đã được khớp",
    "Không được hủy vì lệnh đã được khớp một phần trên hệ thống giao dịch",
@@ -188,7 +188,7 @@
   "q": "Giả định quy chế cho phép lệnh MOK. Trong phiên khớp lệnh liên tục, phía bán trên sổ lệnh chỉ có: 3.000 cổ phiếu giá 20.000 đồng và 1.000 cổ phiếu giá 20.050 đồng. Nhà đầu tư nhập lệnh MOK mua 5.000 cổ phiếu. Kết quả là:",
   "o": [
    "Khớp 4.000 cổ phiếu, 1.000 cổ phiếu còn lại bị hủy ngay",
-   "Lệnh bị hủy toàn bộ, không có cổ phiếu nào được khớp",
+   "Lệnh bị hủy toàn bộ, không phát sinh giao dịch khớp lệnh",
    "Khớp 4.000 cổ phiếu, phần còn lại chuyển thành lệnh LO",
    "Khớp 3.000 cổ phiếu giá 20.000 đồng, phần còn lại chờ khớp"
   ],
@@ -227,12 +227,12 @@
   "level": 2,
   "q": "Trong giao dịch ký quỹ, khi tỷ lệ ký quỹ thực tế trên tài khoản của khách hàng giảm xuống dưới tỷ lệ ký quỹ duy trì, công ty chứng khoán sẽ:",
   "o": [
+   "Yêu cầu khách hàng bổ sung tài sản ký quỹ; quá hạn không bổ sung thì bán chứng khoán để thu hồi nợ",
    "Tự động nâng hạn mức cho vay để khách hàng tiếp tục mua thêm chứng khoán và bình quân giá vốn",
    "Ngừng tính lãi vay ký quỹ cho đến khi giá chứng khoán phục hồi lên trên mức giá lúc khách hàng mua",
-   "Yêu cầu khách hàng bổ sung tài sản ký quỹ; quá hạn không bổ sung thì bán chứng khoán để thu hồi nợ",
    "Chuyển quyền sở hữu chứng khoán ký quỹ sang công ty chứng khoán theo giá tham chiếu của ngày đó"
   ],
-  "a": 2,
+  "a": 0,
   "e": "Khi tỷ lệ ký quỹ thực tế thấp hơn tỷ lệ duy trì, CTCK gọi ký quỹ bổ sung (margin call): khách hàng nộp thêm tiền, chứng khoán ký quỹ hoặc bán bớt chứng khoán để trả nợ. Nếu khách hàng không đáp ứng trong thời hạn theo hợp đồng, CTCK được bán chứng khoán ký quỹ (bán giải chấp) để thu hồi nợ vay. Nâng hạn mức cho vay khi tài khoản đang thiếu ký quỹ là trái nguyên tắc quản trị rủi ro.",
   "basis": "Cơ chế gọi ký quỹ bổ sung và xử lý tài khoản giao dịch ký quỹ",
   "quote": "",
@@ -248,11 +248,11 @@
   "q": "Khách hàng đặt lệnh LO mua 10.000 cổ phiếu giá 15.000 đồng; trong ngày chỉ khớp được 3.000 cổ phiếu, phần còn lại hết hiệu lực vào cuối ngày. Biểu phí môi giới tính theo tỷ lệ % trên giá trị giao dịch. Phí môi giới khách hàng phải trả được tính trên:",
   "o": [
    "Giá trị 10.000 cổ phiếu ghi trên lệnh đã đặt",
+   "Giá trị 3.000 cổ phiếu đã được khớp lệnh",
    "Giá trị 7.000 cổ phiếu không được khớp lệnh",
-   "Số tiền khách hàng bị phong tỏa khi đặt lệnh",
-   "Giá trị 3.000 cổ phiếu đã được khớp lệnh"
+   "Số tiền khách hàng bị phong tỏa khi đặt lệnh"
   ],
-  "a": 3,
+  "a": 1,
   "e": "Phí môi giới chỉ phát sinh trên giá trị giao dịch được thực hiện: 3.000 × 15.000 = 45.000.000 đồng × tỷ lệ phí. Phần lệnh không khớp, hết hiệu lực không tạo ra giao dịch nên không bị thu phí; số tiền phong tỏa cho phần này được giải tỏa.",
   "basis": "Phí môi giới tính trên giá trị giao dịch được thực hiện",
   "quote": "",
@@ -265,7 +265,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Cổ phiếu M có giá đóng cửa ngày giao dịch liền trước ngày giao dịch không hưởng quyền là 38.500 đồng; công ty trả cổ tức bằng tiền 2.000 đồng/cổ phiếu. Giả định: biên độ dao động giá ±7% so với giá tham chiếu; bước giá 50 đồng; giá trần được làm tròn xuống theo bước giá. Giá trần của cổ phiếu M vào ngày giao dịch không hưởng quyền là:",
+  "q": "Cổ phiếu M có giá đóng cửa ngày giao dịch liền trước ngày giao dịch không hưởng quyền là 38.500 đồng; công ty trả cổ tức bằng tiền 2.000 đồng/cổ phiếu. Giả định: giá tham chiếu ngày giao dịch không hưởng quyền được điều chỉnh theo cổ tức bằng tiền; biên độ dao động giá ±7% so với giá tham chiếu; bước giá 50 đồng; giá trần được làm tròn xuống theo bước giá. Giá trần của cổ phiếu M vào ngày giao dịch không hưởng quyền là:",
   "o": [
    "39.050 đồng",
    "39.100 đồng",
@@ -285,16 +285,16 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Cổ phiếu N có giá tham chiếu 52.000 đồng, bước giá 100 đồng. Sổ lệnh phiên khớp lệnh định kỳ mở cửa (đơn vị: cổ phiếu) – Mua: ATO 1.000; giá 52.300: 2.000; 52.200: 2.000; 52.100: 1.500; 52.000: 1.500; 51.900: 2.000; 51.800: 1.500. Bán: ATO 500; giá 51.800: 500; 51.900: 500; 52.000: 2.000; 52.100: 1.500; 52.200: 3.000; 52.300: 2.000. Giả định nguyên tắc xác định giá: (1) đạt khối lượng khớp lớn nhất; (2) nếu nhiều mức giá thỏa mãn (1), chọn mức giá trùng hoặc gần nhất với giá tham chiếu; (3) nếu vẫn còn nhiều mức giá, chọn mức giá cao hơn; lệnh ATO được ưu tiên trước lệnh LO. Giá mở cửa và khối lượng khớp là:",
+  "q": "Cổ phiếu V có giá tham chiếu 60.000 đồng, bước giá 100 đồng. Trong phiên khớp lệnh định kỳ mở cửa có lệnh ATO mua 2.000 và ATO bán 1.500 cổ phiếu; các lệnh LO tại mức giá 60.300 / 60.200 / 60.100 / 60.000 / 59.900 đồng có khối lượng đặt mua lần lượt 1.000 / 2.000 / 3.000 / 2.500 / 1.500 cổ phiếu và khối lượng đặt bán lần lượt 2.500 / 3.000 / 2.000 / 1.500 / 1.000 cổ phiếu. Giả định: giá mở cửa là mức giá đạt khối lượng khớp lớn nhất (nếu nhiều mức giá cùng đạt thì chọn mức gần giá tham chiếu nhất); lệnh ATO được ưu tiên trước lệnh LO; phần lệnh LO chưa khớp được chuyển sang phiên khớp lệnh liên tục. Khi bắt đầu phiên liên tục, mức giá mua tốt nhất trên sổ lệnh và khối lượng chờ mua tại mức giá đó là:",
   "o": [
-   "52.000 đồng; 3.500 cổ phiếu",
-   "52.100 đồng; 5.000 cổ phiếu",
-   "52.100 đồng; 6.500 cổ phiếu",
-   "52.200 đồng; 5.000 cổ phiếu"
+   "60.000 đồng; 2.500 cổ phiếu",
+   "60.100 đồng; 2.000 cổ phiếu",
+   "60.100 đồng; 3.000 cổ phiếu",
+   "60.300 đồng; 1.000 cổ phiếu"
   ],
   "a": 1,
-  "e": "KL mua cộng dồn (từ giá cao xuống, cộng ATO) / KL bán cộng dồn (từ giá thấp lên, cộng ATO): 51.800: 11.500/1.000 → 1.000; 51.900: 10.000/1.500 → 1.500; 52.000: 8.000/3.500 → 3.500; 52.100: 6.500/5.000 → 5.000; 52.200: 5.000/8.000 → 5.000; 52.300: 3.000/10.000 → 3.000. Khối lượng lớn nhất 5.000 đạt tại 52.100 và 52.200; theo tiêu chí (2), 52.100 gần giá tham chiếu hơn → giá mở cửa 52.100 đồng, khớp 5.000 cổ phiếu. Chọn 52.200 là áp dụng tiêu chí (3) khi chưa xét tiêu chí (2); 6.500 là KL mua cộng dồn chứ không phải KL khớp; 52.000 là giá tham chiếu, chỉ khớp được 3.500 cổ phiếu.",
-  "basis": "Khớp lệnh định kỳ: giá khớp đạt khối lượng lớn nhất, các tiêu chí phụ (dữ kiện nêu trong đề)",
+  "e": "Cộng dồn (mua từ giá cao xuống, bán từ giá thấp lên, đều cộng ATO): 60.300: 3.000/11.500 → 3.000; 60.200: 5.000/9.000 → 5.000; 60.100: 8.000/6.000 → 6.000; 60.000: 10.500/4.000 → 4.000; 59.900: 12.000/2.500 → 2.500. Giá mở cửa 60.100 đồng, khớp 6.000 cổ phiếu. Phía mua: ATO 2.000, lệnh giá 60.300 (1.000) và 60.200 (2.000) khớp đủ; lệnh giá 60.100 chỉ khớp 1.000/3.000 → còn 2.000 cổ phiếu chờ mua tại 60.100 đồng, là mức giá mua tốt nhất khi vào phiên liên tục. \"60.300 đồng; 1.000\" là bỏ qua kết quả phiên mở cửa; \"60.100 đồng; 3.000\" là coi lệnh tại giá khớp không được thực hiện; \"60.000 đồng; 2.500\" là coi lệnh tại giá khớp được khớp đủ.",
+  "basis": "Khớp lệnh định kỳ: giá khớp đạt khối lượng lớn nhất, ưu tiên lệnh ATO; lệnh LO chưa khớp chuyển sang phiên sau (dữ kiện nêu trong đề)",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -305,7 +305,7 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Sổ lệnh phiên khớp lệnh định kỳ đóng cửa của cổ phiếu P (đơn vị: cổ phiếu) – Mua: ATC 1.500; giá 41.200: 2.500; giá 41.100: lệnh của nhà đầu tư H 2.500 (nhập lúc 14h32) và lệnh của nhà đầu tư K 1.500 (nhập lúc 14h35); giá 41.000: 3.000. Bán: ATC 1.000; giá 41.000: 4.000; 41.100: 2.000; 41.200: 2.000. Giả định giá đóng cửa là mức giá đạt khối lượng khớp lớn nhất; lệnh ATC được ưu tiên trước lệnh LO, sau đó ưu tiên về giá rồi về thời gian. Khối lượng cổ phiếu nhà đầu tư K được khớp là:",
+  "q": "Cổ phiếu P có giá tham chiếu 41.000 đồng. Sổ lệnh phiên khớp lệnh định kỳ đóng cửa (đơn vị: cổ phiếu) – Mua: ATC 1.500; giá 41.200: 2.500; giá 41.100: lệnh của nhà đầu tư H 2.500 (nhập lúc 14h32) và lệnh của nhà đầu tư K 1.500 (nhập lúc 14h35); giá 41.000: 3.000. Bán: ATC 1.000; giá 41.000: 4.000; 41.100: 2.000; 41.200: 2.000. Giả định giá đóng cửa là mức giá đạt khối lượng khớp lớn nhất (nếu nhiều mức giá cùng đạt thì chọn mức gần giá tham chiếu nhất); lệnh ATC được ưu tiên trước lệnh LO, sau đó ưu tiên về giá rồi về thời gian. Khối lượng cổ phiếu nhà đầu tư K được khớp là:",
   "o": [
    "0 cổ phiếu",
    "500 cổ phiếu",
@@ -365,16 +365,16 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Tài khoản của khách hàng có 200.000.000 đồng tiền mặt (không sử dụng giao dịch ký quỹ). Khách hàng muốn mua cổ phiếu S giá 39.950 đồng; phí môi giới 0,15% giá trị giao dịch, thu khi mua; đơn vị giao dịch lô chẵn 100 cổ phiếu. Khối lượng tối đa khách hàng có thể đặt mua bằng lệnh lô chẵn là:",
+  "q": "Tài khoản của khách hàng có 200.000.000 đồng tiền mặt (không sử dụng giao dịch ký quỹ). Khách hàng muốn dùng tối đa số tiền này để mua cổ phiếu S giá 39.950 đồng: trước hết đặt lệnh lô chẵn với khối lượng lớn nhất có thể, số tiền còn lại đặt thêm một lệnh lô lẻ cùng mức giá. Giả định: lô chẵn là bội số của 100 cổ phiếu, lô lẻ từ 01 đến 99 cổ phiếu; phí môi giới 0,15% giá trị giao dịch, thu khi mua, áp dụng cho cả hai lệnh; cả hai lệnh đều được khớp hết. Tổng số cổ phiếu tối đa khách hàng mua được là:",
   "o": [
    "4.900 cổ phiếu",
    "4.998 cổ phiếu",
    "5.000 cổ phiếu",
    "5.006 cổ phiếu"
   ],
-  "a": 0,
-  "e": "Chi phí mua 1 cổ phiếu = 39.950 × 1,0015 = 40.009,925 đồng. Số cổ phiếu tối đa = 200.000.000 / 40.009,925 ≈ 4.998,8 → làm tròn xuống bội số 100 = 4.900 cổ phiếu (cần 196.048.633 đồng). Mua 5.000 cổ phiếu (bỏ qua phí) cần 200.049.625 đồng, vượt số dư tiền; 4.998 và 5.006 không phải bội số của lô chẵn.",
-  "basis": "Sức mua = Tiền mặt / [Giá × (1 + tỷ lệ phí)], làm tròn xuống theo lô chẵn",
+  "a": 1,
+  "e": "Chi phí mua 1 cổ phiếu = 39.950 × 1,0015 = 40.009,925 đồng. Lô chẵn: 200.000.000 / 40.009,925 ≈ 4.998,8 → 4.900 cổ phiếu, hết 196.048.632,5 đồng; còn 3.951.367,5 đồng → lô lẻ 3.951.367,5 / 40.009,925 ≈ 98,8 → 98 cổ phiếu. Tổng 4.998 cổ phiếu (hết 199.969.605 đồng; thêm 1 cổ phiếu sẽ cần 200.009.615 đồng, vượt số dư). 4.900 là quên đặt lệnh lô lẻ; 5.000 và 5.006 là bỏ qua phí (200.000.000 / 39.950 ≈ 5.006,3), trong khi mua 5.000 cổ phiếu thực tế cần 199.750.000 + 299.625 phí = 200.049.625 đồng.",
+  "basis": "Sức mua = Tiền mặt / [Giá × (1 + tỷ lệ phí)], tách phần lô chẵn (bội số 100) và lô lẻ (dữ kiện nêu trong đề)",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -385,15 +385,15 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Nhà đầu tư mua cổ phiếu giá 24.000 đồng. Phí môi giới 0,2% giá trị giao dịch mỗi chiều; thuế thu nhập cá nhân 0,1% trên giá trị bán (giả định theo đề); bước giá 50 đồng. Giá bán thấp nhất (theo bước giá) để nhà đầu tư không bị lỗ là:",
+  "q": "Nhà đầu tư mua cổ phiếu giá 31.200 đồng. Phí môi giới 0,15% giá trị giao dịch mỗi chiều; thuế thu nhập cá nhân 0,1% trên giá trị bán (giả định theo đề); bước giá 50 đồng. Giá bán thấp nhất (theo bước giá) để nhà đầu tư không bị lỗ là:",
   "o": [
-   "24.050 đồng",
-   "24.100 đồng",
-   "24.120 đồng",
-   "24.150 đồng"
+   "31.250 đồng",
+   "31.300 đồng",
+   "31.350 đồng",
+   "31.400 đồng"
   ],
-  "a": 3,
-  "e": "Điều kiện hòa vốn: P × (1 − 0,2% − 0,1%) ≥ 24.000 × (1 + 0,2%) = 24.048 → P ≥ 24.048 / 0,997 = 24.120,36 đồng → làm tròn lên theo bước giá 50 = 24.150 đồng. 24.050 chỉ tính phí mua; 24.100 bỏ qua thuế (24.048 / 0,998 = 24.096,2); 24.120 chưa làm tròn theo bước giá và vẫn thấp hơn mức hòa vốn.",
+  "a": 2,
+  "e": "Điều kiện hòa vốn: P × (1 − 0,15% − 0,1%) ≥ 31.200 × (1 + 0,15%) = 31.246,8 → P ≥ 31.246,8 / 0,9975 ≈ 31.325,11 đồng → làm tròn lên theo bước giá 50 = 31.350 đồng (kiểm tra: 31.300 × 0,9975 = 31.221,75 < 31.246,8 nên vẫn lỗ). 31.250 là chỉ tính phí mua; 31.300 là bỏ qua thuế (31.246,8 / 0,9985 ≈ 31.293,7); 31.400 là tính nhầm thuế 0,1% cả ở chiều mua (31.200 × 1,0025 / 0,9975 ≈ 31.356,4).",
   "basis": "Giá hòa vốn = Giá mua × (1 + phí mua) / (1 − phí bán − thuế bán)",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -425,15 +425,15 @@
   "subject": "MG",
   "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Cổ phiếu T có giá đóng cửa ngày giao dịch liền trước ngày giao dịch không hưởng quyền là 45.000 đồng. Cùng ngày giao dịch không hưởng quyền, công ty thực hiện đồng thời: phát hành cổ phiếu thưởng tỷ lệ 10:2 (sở hữu 10 cổ phiếu được nhận thêm 2 cổ phiếu) và phát hành thêm cho cổ đông hiện hữu tỷ lệ 10:1 (sở hữu 10 cổ phiếu được mua 1 cổ phiếu mới) với giá 15.000 đồng/cổ phiếu. Giá tham chiếu điều chỉnh lý thuyết (làm tròn đến đồng) là:",
+  "q": "Ngày mai là ngày giao dịch không hưởng quyền của cổ phiếu T cho hai đợt phát hành thực hiện cùng lúc: cổ phiếu thưởng tỷ lệ 10:2 (10 cổ phiếu cũ nhận thêm 2 cổ phiếu) và quyền mua tỷ lệ 10:1 (10 cổ phiếu cũ được mua 1 cổ phiếu mới) với giá 15.000 đồng. Hôm nay cổ phiếu T đóng cửa ở 45.000 đồng. Theo nguyên tắc bảo toàn tổng giá trị nắm giữ, giá tham chiếu điều chỉnh của ngày mai (làm tròn đến đồng) là:",
   "o": [
    "33.462 đồng",
+   "34.615 đồng",
    "35.769 đồng",
-   "37.500 đồng",
-   "38.750 đồng"
+   "37.500 đồng"
   ],
-  "a": 1,
-  "e": "Ptc = (P + I_mua × Giá phát hành) / (1 + I_thưởng + I_mua) = (45.000 + 0,1 × 15.000) / (1 + 0,2 + 0,1) = 46.500 / 1,3 ≈ 35.769 đồng. Kiểm tra: 10 cổ phiếu cũ (450.000 đồng) cộng 15.000 đồng nộp mua thêm = 465.000 đồng cho 13 cổ phiếu → 35.769 đồng/cổ phiếu. Lỗi thường gặp: bỏ qua quyền mua (45.000 / 1,2 = 37.500); thiếu tỷ lệ quyền mua ở mẫu số (46.500 / 1,2 = 38.750); trừ thay vì cộng tiền mua ((45.000 − 1.500) / 1,3 ≈ 33.462).",
+  "a": 2,
+  "e": "Ptc = (P + I_mua × Giá phát hành) / (1 + I_thưởng + I_mua) = (45.000 + 0,1 × 15.000) / (1 + 0,2 + 0,1) = 46.500 / 1,3 ≈ 35.769 đồng. Kiểm tra: 10 cổ phiếu cũ (450.000 đồng) cộng 15.000 đồng nộp mua thêm = 465.000 đồng cho 13 cổ phiếu → 35.769 đồng/cổ phiếu. Lỗi thường gặp: bỏ qua quyền mua (45.000 / 1,2 = 37.500); bỏ qua tiền nộp khi thực hiện quyền mua (45.000 / 1,3 ≈ 34.615); trừ thay vì cộng tiền mua ((45.000 − 1.500) / 1,3 ≈ 33.462).",
   "basis": "Ptc = (P + Σ Tỷ lệ quyền mua × Giá phát hành) / (1 + Σ Tỷ lệ phát hành thêm), tỷ lệ cổ phiếu thưởng có giá phát hành bằng 0",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -469,11 +469,11 @@
   "o": [
    "4,00%",
    "8,00%",
-   "13,04%",
-   "16,00%"
+   "13,00%",
+   "13,04%"
   ],
-  "a": 2,
-  "e": "Lãi vốn = 400.000.000 × 8% = 32.000.000 đồng; lãi vay = 200.000.000 × 12% × 90/365 = 5.917.808 đồng; lợi nhuận ròng = 26.082.192 đồng → 26.082.192 / 200.000.000 = 13,04%. 16,00% là bỏ qua lãi vay; 8,00% là tỷ suất khi không dùng đòn bẩy; 4,00% là trừ lãi vay của cả năm (24.000.000 đồng).",
+  "a": 3,
+  "e": "Lãi vốn = 400.000.000 × 8% = 32.000.000 đồng; lãi vay = 200.000.000 × 12% × 90/365 = 5.917.808 đồng; lợi nhuận ròng = 26.082.192 đồng → 26.082.192 / 200.000.000 = 13,04%. 13,00% là tính lãi vay theo 90/360 (6.000.000 đồng) thay vì số ngày thực tế/365 như đề nêu; 8,00% là tỷ suất khi không dùng đòn bẩy; 4,00% là trừ lãi vay của cả năm (24.000.000 đồng). Nếu bỏ qua lãi vay sẽ được 16%.",
   "basis": "Tỷ suất lợi nhuận trên vốn tự có = (Lãi vốn − Lãi vay) / Vốn tự có",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -548,11 +548,11 @@
   "q": "Một trái phiếu trả lãi cố định hằng năm đang được giao dịch cao hơn mệnh giá (trái phiếu có phụ trội). Quan hệ đúng giữa lãi suất coupon (c), lợi suất hiện hành (CY) và lợi suất đáo hạn (YTM) là:",
   "o": [
    "YTM > CY > c",
-   "c = CY = YTM",
    "c > CY > YTM",
-   "CY > c > YTM"
+   "CY > c > YTM",
+   "c = CY = YTM"
   ],
-  "a": 2,
+  "a": 1,
   "e": "Giá > mệnh giá ⇒ CY = Coupon/Giá < Coupon/Mệnh giá = c. YTM còn tính khoản lỗ vốn (giá mua cao hơn mệnh giá nhận lại khi đáo hạn) nên thấp hơn CY: c > CY > YTM. Thứ tự YTM > CY > c đúng với trái phiếu chiết khấu; ba chỉ tiêu bằng nhau khi giá bằng mệnh giá.",
   "basis": "Quan hệ giữa lãi suất coupon, lợi suất hiện hành và lợi suất đáo hạn",
   "quote": "",
@@ -687,13 +687,13 @@
   "level": 3,
   "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 8%/năm, trả lãi hằng năm vào ngày 15/3. Nhà đầu tư mua trái phiếu với ngày thanh toán 21/7/2026, giá thanh toán (giá bẩn) 103.450 đồng/trái phiếu. Lãi cộng dồn tính theo quy ước 30/360 kể từ ngày trả lãi gần nhất 15/3/2026. Giá sạch của trái phiếu (làm tròn đến đồng) là:",
   "o": [
+   "100.606 đồng",
+   "100.628 đồng",
    "100.645 đồng",
-   "100.650 đồng",
-   "100.688 đồng",
-   "106.250 đồng"
+   "100.650 đồng"
   ],
-  "a": 1,
-  "e": "Theo 30/360: số ngày = 4 tháng × 30 + (21 − 15) = 126 ngày; lãi cộng dồn = 100.000 × 8% × 126/360 = 2.800 đồng; giá sạch = 103.450 − 2.800 = 100.650 đồng. Lỗi thường gặp: dùng số ngày thực tế/365 (128 ngày, lãi 2.805,48 → 100.645); dùng 126 ngày nhưng chia 365 (lãi 2.761,64 → 100.688); cộng thay vì trừ lãi cộng dồn (106.250).",
+  "a": 3,
+  "e": "Theo 30/360: số ngày = 4 tháng × 30 + (21 − 15) = 126 ngày; lãi cộng dồn = 100.000 × 8% × 126/360 = 2.800 đồng; giá sạch = 103.450 − 2.800 = 100.650 đồng. Lỗi thường gặp: dùng số ngày thực tế 128 ngày chia 365 (lãi 2.805,48 → 100.645) hoặc chia 360 (lãi 2.844,44 → 100.606); đếm cả ngày đầu và ngày cuối thành 127 ngày (lãi 2.822,22 → 100.628).",
   "basis": "Lãi cộng dồn = Mệnh giá × Lãi suất coupon × Số ngày (30/360) / 360; Giá sạch = Giá bẩn − Lãi cộng dồn",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -745,15 +745,15 @@
   "subject": "MG",
   "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 7%/năm trả hằng năm, còn 4 năm đến ngày đáo hạn, giá thị trường 94.000 đồng. Sử dụng công thức gần đúng YTM ≈ [C + (F − P)/n] / [(F + P)/2], lợi suất đáo hạn xấp xỉ là:",
+  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 7%/năm trả hằng năm, vừa trả lãi và còn đúng 4 năm đến ngày đáo hạn, giá thị trường 94.000 đồng. Sử dụng công thức gần đúng YTM ≈ [C + (F − P)/n] / [(F + P)/2], lợi suất đáo hạn xấp xỉ là:",
   "o": [
    "7,45%",
+   "8,50%",
    "8,76%",
-   "9,04%",
-   "13,40%"
+   "9,04%"
   ],
-  "a": 1,
-  "e": "YTM ≈ [7.000 + (100.000 − 94.000)/4] / [(100.000 + 94.000)/2] = 8.500 / 97.000 ≈ 8,76%. 7,45% là lợi suất hiện hành (7.000 / 94.000); 9,04% là chia cho giá 94.000 thay vì giá bình quân; 13,40% là cộng toàn bộ chênh lệch 6.000 đồng vào thu nhập một năm.",
+  "a": 2,
+  "e": "YTM ≈ [7.000 + (100.000 − 94.000)/4] / [(100.000 + 94.000)/2] = 8.500 / 97.000 ≈ 8,76%. 7,45% là lợi suất hiện hành (7.000 / 94.000); 9,04% là chia cho giá 94.000 thay vì giá bình quân; 8,50% là chia cho mệnh giá 100.000 thay vì giá bình quân 97.000.",
   "basis": "Công thức YTM gần đúng: [C + (F − P)/n] / [(F + P)/2]",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
@@ -765,7 +765,7 @@
   "subject": "MG",
   "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 6%/năm, trả lãi 6 tháng một lần, còn đúng 2 năm đến ngày đáo hạn (vừa trả lãi). Lợi suất đáo hạn yêu cầu là 8%/năm, ghép lãi 6 tháng (4%/kỳ). Giá trái phiếu (làm tròn đến đồng) là:",
+  "q": "Một trái phiếu kỳ hạn còn lại 2 năm, mệnh giá 100.000 đồng, trả coupon nửa năm một lần với lãi suất danh nghĩa 6%/năm; ngày thanh toán trùng ngày vừa trả lãi (không có lãi cộng dồn). Nhà đầu tư đòi hỏi lợi suất 8%/năm, tương đương 4% cho mỗi nửa năm. Mức giá tối đa nhà đầu tư nên trả cho mỗi trái phiếu (làm tròn đến đồng) là:",
   "o": [
    "96.370 đồng",
    "96.433 đồng",
@@ -785,15 +785,15 @@
   "subject": "MG",
   "topic": "Giao dịch trái phiếu trên thị trường chứng khoán",
   "level": 3,
-  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 7%/năm trả hằng năm, còn đúng 3 năm đến ngày đáo hạn, đang giao dịch bằng mệnh giá (YTM = 7%). Nếu lợi suất đáo hạn tăng lên 8%/năm ngay sau đó, giá trái phiếu thay đổi xấp xỉ:",
+  "q": "Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 7%/năm trả hằng năm, vừa trả lãi và còn đúng 3 năm đến ngày đáo hạn, đang giao dịch bằng mệnh giá (YTM = 7%). Nếu lợi suất đáo hạn tăng lên 8%/năm ngay sau đó, mức thay đổi giá trái phiếu tính theo giá trị hiện tại của dòng tiền (làm tròn 2 chữ số thập phân) là:",
   "o": [
    "−3,00%",
-   "−2,58%",
-   "−1,00%",
-   "+2,67%"
+   "−2,81%",
+   "−2,67%",
+   "−2,58%"
   ],
-  "a": 1,
-  "e": "Giá mới = 7.000/1,08 + 7.000/1,08² + 107.000/1,08³ ≈ 97.423 đồng → thay đổi = (97.423 − 100.000)/100.000 ≈ −2,58%. Lợi suất tăng thì giá giảm; +2,67% là mức thay đổi nếu lợi suất giảm xuống 6% (giá 102.673 đồng); −3,00% là nhân kỳ hạn với mức tăng lợi suất; −1,00% là coi giá giảm đúng bằng mức tăng lợi suất.",
+  "a": 3,
+  "e": "Giá mới = 7.000/1,08 + 7.000/1,08² + 107.000/1,08³ ≈ 97.422,90 đồng → thay đổi = (97.422,90 − 100.000)/100.000 ≈ −2,58%. −2,67% là lấy mức tăng giá khi lợi suất giảm xuống 6% (giá 102.673 đồng) rồi đổi dấu, bỏ qua tính bất đối xứng của giá; −2,81% là ước lượng bằng duration Macaulay (≈ 2,81 năm) × 1%, vừa không điều chỉnh duration vừa bỏ qua độ lồi; −3,00% là nhân kỳ hạn còn lại với mức tăng lợi suất.",
   "basis": "Giá trái phiếu là giá trị hiện tại của dòng tiền; giá và lợi suất biến động ngược chiều",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",

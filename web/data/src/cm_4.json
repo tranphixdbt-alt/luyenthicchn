@@ -34,7 +34,7 @@
   ],
   "a": 1,
   "e": "Môi giới độc lập (two-dollar broker) làm việc cho chính mình, nhận lệnh hộ các công ty môi giới khi họ quá tải và hưởng phí. Môi giới ủy nhiệm là nhân viên của công ty thành viên, thực hiện lệnh cho khách hàng của công ty; nhà môi giới chuyên môn (specialist) duy trì thị trường cho một số chứng khoán nhất định; môi giới chiết khấu chỉ thực hiện lệnh với mức phí thấp.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 1: các loại hình môi giới chứng khoán",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – các loại hình môi giới chứng khoán",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -54,7 +54,7 @@
   ],
   "a": 3,
   "e": "Theo mức độ ủy quyền: tư vấn gợi ý (người tư vấn chỉ khuyến nghị, khách hàng tự quyết định) và tư vấn ủy quyền (khách hàng ủy quyền cho người tư vấn quyết định trong phạm vi nhất định; với CTCK, việc này chỉ được thực hiện qua dịch vụ ủy thác quản lý tài khoản theo Điều 19 TT 121/2020). Trực tiếp/gián tiếp là phân loại theo hình thức; tổ chức phát hành/nhà đầu tư là phân loại theo đối tượng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 1: phân loại tư vấn đầu tư chứng khoán",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – phân loại tư vấn đầu tư chứng khoán",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -67,7 +67,7 @@
   "level": 2,
   "q": "Theo Thông tư 121/2020/TT-BTC, yêu cầu nào sau đây đúng đối với nội dung tư vấn và khuyến nghị đầu tư chứng khoán của công ty chứng khoán?",
   "o": [
-   "Có cơ sở hợp lý, dựa trên thông tin đáng tin cậy, ghi rõ nguồn số liệu và người chịu trách nhiệm",
+   "Có cơ sở hợp lý, ghi rõ nguồn trích dẫn số liệu và tên người chịu trách nhiệm nội dung",
    "Phải được Ủy ban Chứng khoán Nhà nước thẩm định trước khi công ty gửi tới khách hàng",
    "Phải nêu mức lợi nhuận tối thiểu khách hàng chắc chắn đạt được nếu làm theo khuyến nghị",
    "Chỉ cần ghi tên công ty chứng khoán, không cần nêu tên người chịu trách nhiệm nội dung"
@@ -114,7 +114,7 @@
   ],
   "a": 1,
   "e": "Tư vấn bắt đầu bằng thu thập thông tin về khách hàng (tình hình tài chính, kinh nghiệm, khẩu vị rủi ro), tiếp đến xác định mục tiêu và các ràng buộc (thời gian, thanh khoản, thuế, pháp lý), sau đó mới đề xuất phân bổ tài sản/danh mục để khách hàng quyết định, cuối cùng là theo dõi, đánh giá và điều chỉnh định kỳ.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 1: quy trình tư vấn đầu tư",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – quy trình tư vấn đầu tư",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -134,7 +134,7 @@
   ],
   "a": 0,
   "e": "Câu hỏi đóng có câu trả lời ngắn (có/không, một con số), thích hợp để xác nhận hoặc làm rõ thông tin khách hàng đã cung cấp. Câu hỏi mở (“Anh kỳ vọng gì từ khoản đầu tư này?”) dùng để khai thác nhu cầu, quan điểm của khách hàng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: kỹ năng đặt câu hỏi",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – kỹ năng đặt câu hỏi",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -194,7 +194,7 @@
   ],
   "a": 1,
   "e": "Giai đoạn tích lũy có thời gian đầu tư dài và thu nhập tăng nên khả năng chấp nhận rủi ro tương đối cao; định hướng thường là tăng trưởng vốn với tỷ trọng cổ phiếu lớn hơn. Bảo toàn vốn và ưu tiên thu nhập hiện tại phù hợp hơn với giai đoạn gần hoặc sau nghỉ hưu. Khuyến nghị cụ thể vẫn phải dựa trên thông tin thực tế của từng khách hàng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: vòng đời đầu tư và nhu cầu khách hàng",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – vòng đời đầu tư và nhu cầu khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -214,7 +214,7 @@
   ],
   "a": 0,
   "e": "Khả năng chấp nhận rủi ro (ability) dựa trên yếu tố khách quan – thu nhập, tài sản, thời gian đầu tư – của anh T là cao. Mức độ sẵn sàng chấp nhận rủi ro (willingness) thể hiện tâm lý – của anh T thấp (không chịu được mức giảm 5%). Khi hai yếu tố mâu thuẫn, thông thường chọn mức rủi ro theo yếu tố thấp hơn, đồng thời trao đổi, giúp khách hàng hiểu về biến động thị trường.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: đánh giá khẩu vị rủi ro khách hàng",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – đánh giá khẩu vị rủi ro khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -230,11 +230,11 @@
    "Cổ phiếu vốn hóa nhỏ có tiềm năng tăng trưởng mạnh trong năm tới",
    "Giao dịch ký quỹ cổ phiếu vốn hóa lớn để tăng quy mô vốn đầu tư",
    "Trái phiếu doanh nghiệp kỳ hạn 10 năm có lãi suất coupon cao",
-   "Tiền gửi có kỳ hạn hoặc quỹ thị trường tiền tệ khớp kỳ hạn 12 tháng"
+   "Tiền gửi kỳ hạn 12 tháng hoặc trái phiếu Chính phủ đáo hạn sau 1 năm"
   ],
   "a": 3,
-  "e": "Ràng buộc quan trọng nhất là thời gian ngắn (12 tháng), nhu cầu thanh khoản đúng hạn và không chấp nhận hụt vốn → cần tài sản rủi ro thấp, kỳ hạn khớp với thời điểm cần tiền. Cổ phiếu vốn hóa nhỏ và giao dịch ký quỹ có rủi ro giá cao; trái phiếu kỳ hạn 10 năm phải bán trước hạn nên chịu rủi ro lãi suất, rủi ro thanh khoản và rủi ro tín dụng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: xác định mục tiêu và ràng buộc đầu tư",
+  "e": "Ràng buộc quan trọng nhất là thời gian ngắn (12 tháng), nhu cầu thanh khoản đúng hạn và không chấp nhận hụt vốn → cần tài sản rủi ro thấp, đáo hạn khớp thời điểm cần tiền và nắm giữ đến đáo hạn. Cổ phiếu vốn hóa nhỏ và giao dịch ký quỹ có rủi ro giá cao; trái phiếu kỳ hạn 10 năm phải bán trước hạn nên chịu rủi ro lãi suất, rủi ro thanh khoản và rủi ro tín dụng.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – xác định mục tiêu và ràng buộc đầu tư",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -254,7 +254,7 @@
   ],
   "a": 2,
   "e": "Lắng nghe chủ động gồm tập trung, ghi nhận cảm xúc và diễn đạt lại (paraphrase) để xác nhận đã hiểu đúng mối quan tâm của khách hàng, làm cơ sở tìm hiểu tiếp mức chịu đựng rủi ro. Trấn an bằng khẳng định chắc chắn về giá là sai chuẩn mực; phán xét hoặc lảng tránh làm mất lòng tin của khách hàng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: kỹ năng lắng nghe",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – kỹ năng lắng nghe",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -274,7 +274,7 @@
   ],
   "a": 1,
   "e": "Tỷ trọng cổ phiếu mục tiêu = 100 − 45 = 55% → 55% × 1.500 = 825 triệu đồng. Hiện có 1.100 triệu đồng cổ phiếu (≈73,3%) → bán 1.100 − 825 = 275 triệu đồng, chuyển sang trái phiếu (trái phiếu tăng lên 675 triệu đồng = 45%). 425 triệu đồng là lỗi lấy tuổi làm tỷ trọng cổ phiếu (45% × 1.500 = 675); 495 triệu đồng là lỗi tính 45% × 1.100.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 2: phân bổ tài sản theo đặc điểm khách hàng",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – phân bổ tài sản theo đặc điểm khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -285,16 +285,16 @@
   "subject": "MG",
   "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
   "level": 1,
-  "q": "Nhân viên môi giới lập danh sách số điện thoại doanh nghiệp từ niên giám và chủ động gọi giới thiệu dịch vụ dù chưa từng quen biết người nghe. Kỹ thuật tìm kiếm khách hàng này được gọi là:",
+  "q": "Khi sàng lọc danh sách khách hàng tiềm năng, nhân viên môi giới nên ưu tiên tiếp cận trước những người đồng thời đáp ứng các tiêu chí nào sau đây?",
   "o": [
-   "Khai thác trung tâm ảnh hưởng",
-   "Khai thác khách hàng giới thiệu",
-   "Tổ chức hội thảo đầu tư",
-   "Gọi điện lạnh (cold calling)"
+   "Có quan hệ quen biết, có nhiều thời gian rảnh và sẵn lòng nghe giới thiệu",
+   "Sống gần chi nhánh, còn trẻ tuổi và thường xuyên sử dụng mạng xã hội",
+   "Có người giới thiệu, có học vấn cao và từng tham dự hội thảo đầu tư",
+   "Có nhu cầu đầu tư, có khả năng tài chính và có quyền tự quyết định đầu tư"
   ],
   "a": 3,
-  "e": "Gọi điện lạnh là liên hệ với người chưa có quan hệ và chưa được ai giới thiệu trước; chi phí thấp, tiếp cận được nhiều người nhưng tỷ lệ thành công thấp, đòi hỏi kịch bản tốt và tôn trọng quyền riêng tư của người nghe.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 3: các phương pháp tìm kiếm khách hàng",
+  "e": "Khách hàng tiềm năng đủ điều kiện (qualified prospect) là người có nhu cầu về sản phẩm, dịch vụ đầu tư, có khả năng tài chính (nguồn tiền để đầu tư) và có quyền ra quyết định đầu tư. Sàng lọc theo các tiêu chí này giúp nhân viên môi giới tập trung thời gian vào người có khả năng trở thành khách hàng thực sự; quen biết, địa bàn, độ tuổi, học vấn hay việc từng dự hội thảo chỉ là yếu tố hỗ trợ tiếp cận.",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – sàng lọc, đánh giá khách hàng tiềm năng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -314,7 +314,7 @@
   ],
   "a": 0,
   "e": "Trung tâm ảnh hưởng (centers of influence) là những cá nhân có uy tín, mạng lưới quan hệ rộng trong cộng đồng; quan hệ tốt với họ giúp nhân viên môi giới được giới thiệu tới nhiều khách hàng tiềm năng có chất lượng.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 3: các phương pháp tìm kiếm khách hàng",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – các phương pháp tìm kiếm khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -333,8 +333,8 @@
    "Loại bỏ nhóm khách hàng giao dịch ít để giảm chi phí phục vụ"
   ],
   "a": 2,
-  "e": "Phân đoạn khách hàng (theo giá trị tài sản, mức độ giao dịch, nhu cầu, khẩu vị rủi ro…) giúp phân bổ nguồn lực và thiết kế dịch vụ phù hợp. Phân nhóm không được làm sai lệch nguyên tắc thực hiện lệnh nhanh chóng, chính xác theo thời gian nhận lệnh (khoản 4, 5 Điều 16 TT 121/2020), và CTCK vẫn phải công bố mức phí giao dịch (khoản 5 Điều 14).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 3: phân loại, quản lý khách hàng; khoản 5 Điều 14, khoản 4, 5 Điều 16 Thông tư 121/2020/TT-BTC",
+  "e": "Phân đoạn khách hàng (theo giá trị tài sản, mức độ giao dịch, nhu cầu, khẩu vị rủi ro…) giúp phân bổ nguồn lực và thiết kế dịch vụ phù hợp. Phân nhóm không được làm sai lệch nguyên tắc thực hiện lệnh nhanh chóng, chính xác và ghi nhận đúng thời gian nhận lệnh (khoản 4, 5 Điều 16 TT 121/2020), và CTCK vẫn phải công bố mức phí giao dịch (khoản 5 Điều 14).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – phân loại, quản lý khách hàng; khoản 5 Điều 14, khoản 4, 5 Điều 16 Thông tư 121/2020/TT-BTC",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -354,7 +354,7 @@
   ],
   "a": 1,
   "e": "Quy trình xử lý phàn nàn, khiếu nại: lắng nghe – ghi nhận, thấu hiểu – thu thập thông tin, xác minh – đề xuất giải pháp theo quy định và hợp đồng – theo dõi kết quả. Bước đầu tiên là lắng nghe, tránh tranh cãi hay đổ lỗi; không hứa bồi thường vượt thẩm quyền; khiếu nại được chuyển cho bộ phận chuyên trách của công ty (khoản 6 Điều 14 TT 121/2020).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 3: xử lý phàn nàn, khiếu nại của khách hàng",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – xử lý phàn nàn, khiếu nại của khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -395,7 +395,7 @@
   "a": 3,
   "e": "Khoản 7 Điều 16 TT 121/2020 (sửa đổi bởi khoản 3 Điều 13 TT 08/2026): CTCK phải thông báo kết quả thực hiện lệnh cho khách hàng (hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện) ngay sau khi lệnh được khớp, theo phương thức do hai bên thỏa thuận trong hợp đồng.",
   "basis": "Khoản 7 Điều 16 Thông tư 121/2020/TT-BTC (sửa đổi bởi khoản 3 Điều 13 Thông tư 08/2026/TT-BTC)",
-  "quote": "sau khi lệnh được khớp theo phương thức do khách hàng hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện và công ty chứng khoán thỏa thuận trong hợp đồng.",
+  "quote": "Công ty chứng khoán phải thông báo kết quả thực hiện lệnh giao dịch cho khách hàng hoặc tổ chức kinh doanh chứng khoán nước ngoài đại diện ngay",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
   "as_of": "2026-11"
  },
@@ -413,8 +413,8 @@
    "Từ chối tiếp nhận khiếu nại vì A đã tự đặt lệnh qua hệ thống trực tuyến"
   ],
   "a": 2,
-  "e": "CTCK phải có bộ phận chuyên trách giải quyết thắc mắc, khiếu nại (khoản 6 Điều 14 TT 121/2020), nên phải tiếp nhận, xác minh và phản hồi bằng căn cứ. Khuyến nghị có cơ sở, đã cảnh báo rủi ro và khách hàng tự quyết định thì khoản lỗ do biến động giá là rủi ro của khách hàng. Bù lỗ hay cam kết gỡ lỗ là chia sẻ thua lỗ/bảo đảm lợi nhuận bị cấm (điểm b khoản 4 Điều 13 TT 121/2020; khoản 1 Điều 91 Luật Chứng khoán).",
-  "basis": "Khoản 6 Điều 14, điểm b khoản 4 Điều 13 Thông tư 121/2020/TT-BTC; khoản 1 Điều 91 Luật Chứng khoán",
+  "e": "CTCK phải có bộ phận chuyên trách giải quyết thắc mắc, khiếu nại (khoản 6 Điều 14 TT 121/2020), nên phải tiếp nhận, rà soát hồ sơ tư vấn và phản hồi có căn cứ. Khuyến nghị có cơ sở, đã cảnh báo rủi ro và khách hàng tự quyết định thì khoản lỗ do biến động giá là rủi ro của khách hàng. Bù lỗ hay cam kết gỡ lỗ là chia sẻ thua lỗ, bảo đảm khách hàng không bị thua lỗ – bị cấm (điểm b khoản 6 Điều 4 TT 121/2020; khoản 1 Điều 91 Luật Chứng khoán).",
+  "basis": "Khoản 6 Điều 14, điểm b khoản 6 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 1 Điều 91 Luật Chứng khoán 2019",
   "quote": "Công ty chứng khoán phải thiết lập một bộ phận chuyên trách chịu trách nhiệm thông tin liên lạc với khách hàng và giải quyết các thắc mắc, khiếu nại của khách hàng.",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
   "as_of": "2026-11"
@@ -433,8 +433,8 @@
    "57 khách hàng"
   ],
   "a": 1,
-  "e": "Số khách hàng cũ còn lại = 120 × (1 − 15%) = 102. Số khách hàng mới cần có = 150 − 102 = 48. 30 là lỗi bỏ qua tỷ lệ rời bỏ; 18 chỉ là số khách hàng rời bỏ; 57 là lỗi áp tỷ lệ rời bỏ cho cả khách hàng mới (150/0,85 − 120 ≈ 56,5).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 3: lập kế hoạch phát triển mạng lưới khách hàng",
+  "e": "Số khách hàng cũ còn lại = 120 × (1 − 15%) = 102. Số khách hàng mới cần có = 150 − 102 = 48. 30 là lỗi bỏ qua tỷ lệ rời bỏ; 18 chỉ là số khách hàng rời bỏ; 57 là lỗi áp tỷ lệ rời bỏ cho cả khách hàng mới (150/0,85 − 120 ≈ 56,5, làm tròn lên 57).",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – lập kế hoạch phát triển mạng lưới khách hàng",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -454,7 +454,7 @@
   ],
   "a": 0,
   "e": "Churning là giao dịch với tần suất, khối lượng không phù hợp mục tiêu và khẩu vị rủi ro của khách hàng, chủ yếu tạo phí cho người môi giới – xung đột lợi ích điển hình giữa thu nhập của môi giới và lợi ích của khách hàng. Dấu hiệu: vòng quay tài khoản cao, chi phí giao dịch lớn so với giá trị tài khoản.",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 6: các dạng xung đột lợi ích",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – các dạng xung đột lợi ích",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -488,12 +488,12 @@
   "q": "Chuyên viên tư vấn chuẩn bị gửi khuyến nghị mua cổ phiếu Y cho khách hàng, trong khi bản thân anh đang nắm giữ một lượng lớn cổ phiếu Y. Cách xử lý phù hợp với nguyên tắc quản lý xung đột lợi ích là:",
   "o": [
    "Vẫn khuyến nghị nhưng giữ kín việc sở hữu để khách hàng không nghi ngờ",
-   "Bán ngay cổ phiếu Y trước khi gửi khuyến nghị để tránh xung đột lợi ích",
+   "Mua thêm cổ phiếu Y trước khi gửi khuyến nghị vì tin vào nhận định của mình",
    "Chuyển cổ phiếu Y sang tài khoản người thân rồi mới đưa ra khuyến nghị",
-   "Báo bộ phận tuân thủ, công khai lợi ích liên quan, theo quy định giao dịch cá nhân"
+   "Báo bộ phận tuân thủ và công khai việc sở hữu cổ phiếu Y trong khuyến nghị"
   ],
   "a": 3,
-  "e": "Quản lý xung đột lợi ích: nhận diện – báo cáo – công khai – kiểm soát. Bộ phận kiểm soát nội bộ của CTCK giám sát các hoạt động tiềm ẩn xung đột lợi ích, đặc biệt là giao dịch cá nhân của nhân viên (điểm b khoản 2 Điều 12 TT 121/2020). Giấu lợi ích, giao dịch ngược chiều trước khuyến nghị hay chuyển sang người thân đều không loại bỏ xung đột mà còn có thể gây thiệt hại cho khách hàng.",
+  "e": "Quản lý xung đột lợi ích: nhận diện – báo cáo – công khai – kiểm soát. Bộ phận kiểm soát nội bộ của CTCK giám sát các hoạt động tiềm ẩn xung đột lợi ích, đặc biệt là giao dịch cá nhân của nhân viên (điểm b khoản 2 Điều 12 TT 121/2020). Giấu lợi ích, mua thêm trước khi phát hành khuyến nghị để hưởng lợi khi giá tăng hay chuyển cổ phiếu sang tài khoản người thân đều không loại bỏ xung đột mà còn đặt lợi ích cá nhân lên trên lợi ích của khách hàng.",
   "basis": "Điểm b khoản 2 Điều 12 Thông tư 121/2020/TT-BTC; khoản 1 Điều 89 Luật Chứng khoán",
   "quote": "Giám sát thực thi các quy định nội bộ, các hoạt động tiềm ẩn xung đột lợi ích trong nội bộ công ty, đặc biệt đối với các hoạt động kinh doanh của bản thân công ty và các giao dịch cá nhân của nhân viên công ty",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
@@ -508,7 +508,7 @@
   "q": "Công ty chứng khoán P đang nắm giữ 15% vốn điều lệ của Công ty cổ phần Q (đã niêm yết). Theo Thông tư 121/2020/TT-BTC, P KHÔNG được thực hiện hoạt động nào sau đây?",
   "o": [
    "Nhận lệnh mua, bán cổ phiếu Q của khách hàng môi giới",
-   "Ký hợp đồng cung cấp dịch vụ tư vấn đầu tư chứng khoán cho Q",
+   "Ký hợp đồng tư vấn đầu tư chứng khoán cho công ty Q",
    "Lưu ký cổ phiếu Q cho khách hàng có tài khoản tại P",
    "Thanh toán giao dịch cổ phiếu Q cho khách hàng của P"
   ],
@@ -527,7 +527,7 @@
   "level": 3,
   "q": "Để lôi kéo một khách hàng lớn mở tài khoản, chị D (nhân viên môi giới của công ty chứng khoán K) đề xuất thỏa thuận bằng văn bản: khách hàng được bảo đảm lãi 1,5%/tháng trên vốn, nếu thua lỗ thì phía công ty chia sẻ 50% khoản lỗ. Nhận định nào sau đây đúng?",
   "o": [
-   "Bị cấm: công ty môi giới không được đưa ra lãi suất cụ thể hay chia sẻ lãi, lỗ để lôi kéo khách hàng",
+   "Bị cấm, vì không được đưa ra lãi suất cụ thể hay chia sẻ lãi, lỗ để lôi kéo khách hàng",
    "Hợp lệ: thỏa thuận được lập thành văn bản có chữ ký của khách hàng nên có giá trị thực hiện",
    "Hợp lệ một phần: được chia sẻ lỗ với khách hàng nhưng không được cam kết mức lãi suất cụ thể",
    "Chỉ vi phạm khi khách hàng thực tế bị thua lỗ mà công ty không thực hiện phần chia sẻ đã hứa"
@@ -550,7 +550,7 @@
    "Thực hiện chuyển ngay vì đã có giấy ủy quyền hợp lệ của chủ tài khoản A",
    "Thực hiện nếu B ký cam kết hoàn trả số tiền cho A trong thời hạn 30 ngày",
    "Thực hiện, đồng thời báo cáo Ủy ban Chứng khoán Nhà nước trong 24 giờ",
-   "Từ chối, vì công ty không được nhận ủy quyền chuyển tiền nội bộ giữa khách hàng"
+   "Từ chối, vì không được nhận ủy quyền chuyển tiền nội bộ giữa các khách hàng"
   ],
   "a": 3,
   "e": "Điểm b khoản 4 Điều 17 TT 121/2020: CTCK không được nhận ủy quyền của khách hàng thực hiện chuyển tiền nội bộ giữa các tài khoản của các khách hàng; tài khoản chuyên dụng chỉ phục vụ các giao dịch của chính khách hàng (nộp, rút, thanh toán…). A có thể rút tiền về tài khoản ngân hàng của mình rồi tự chuyển cho B qua ngân hàng. Quy định nhằm bảo đảm tách bạch tiền của từng khách hàng, tránh lạm dụng tiền của khách hàng.",
@@ -594,7 +594,7 @@
   ],
   "a": 1,
   "e": "Vòng quay = 24 / 2 = 12 lần/năm. Tổng phí = 0,15% × (24 + 23,6) tỷ = 0,15% × 47,6 tỷ = 71,4 triệu đồng (≈3,57% giá trị tài khoản). 36 triệu đồng là chỉ tính chiều mua; 11,8 lần dùng giá trị bán; 23,8 lần cộng cả mua và bán. Vòng quay rất cao và chi phí lớn trên tài khoản của khách hàng thận trọng là dấu hiệu điển hình của giao dịch quá mức (churning).",
-  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – Chuyên đề 6: nhận diện giao dịch quá mức (churning)",
+  "basis": "Giáo trình Môi giới và tư vấn đầu tư chứng khoán – nhận diện giao dịch quá mức (churning)",
   "quote": "",
   "src": "Giáo trình SRTC (khung chương trình)",
   "as_of": "2026-11"
@@ -767,14 +767,14 @@
   "level": 3,
   "q": "Chị H, nhân viên môi giới của công ty chứng khoán A, được khách hàng M (bạn thân) đồng ý cho dùng tài khoản của M tại A để chị tự giao dịch bằng tiền của mình, nhằm tránh việc công ty giám sát giao dịch cá nhân của nhân viên. Nhận định nào sau đây đúng?",
   "o": [
-   "Được phép, vì khách hàng M là chủ tài khoản đã đồng ý bằng văn bản",
+   "Được phép, vì khách hàng M là chủ tài khoản và đã đồng ý cho sử dụng",
    "Được phép, vì tài khoản được mở tại chính công ty nơi chị H làm việc",
    "Được phép, nếu các giao dịch không gây ảnh hưởng tới giá chứng khoán",
    "Không được, vì dùng tên, tài khoản của khách hàng để giao dịch là bị cấm"
   ],
   "a": 3,
-  "e": "Điểm e khoản 4 Điều 13 TT 121/2020: trong nghiệp vụ môi giới, CTCK (qua nhân viên của mình) không được sử dụng tên hoặc tài khoản của khách hàng để đăng ký, giao dịch chứng khoán. Hành vi còn nhằm né tránh giám sát giao dịch cá nhân của bộ phận kiểm soát nội bộ (điểm b khoản 2 Điều 12) và có thể vi phạm khoản 6 Điều 12 Luật Chứng khoán nếu dẫn tới thao túng giá. Sự đồng ý của khách hàng không làm hành vi trở nên hợp pháp.",
-  "basis": "Điểm e khoản 4 Điều 13, điểm b khoản 2 Điều 12 Thông tư 121/2020/TT-BTC; khoản 4 Điều 98 Luật Chứng khoán",
+  "e": "Điểm e khoản 4 Điều 13 TT 121/2020: trong nghiệp vụ môi giới, CTCK (qua nhân viên của mình) không được sử dụng tên hoặc tài khoản của khách hàng để đăng ký, giao dịch chứng khoán. Hành vi còn nhằm né tránh giám sát giao dịch cá nhân của bộ phận kiểm soát nội bộ (điểm b khoản 2 Điều 12); CTCK chịu trách nhiệm về hoạt động nghiệp vụ của người hành nghề (khoản 4 Điều 98 Luật Chứng khoán), còn việc cho mượn tài khoản dẫn đến thao túng giá bị nghiêm cấm (khoản 6 Điều 12 Luật Chứng khoán). Sự đồng ý của khách hàng không làm hành vi trở nên hợp pháp.",
+  "basis": "Điểm e khoản 4 Điều 13, điểm b khoản 2 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 4 Điều 98, khoản 6 Điều 12 Luật Chứng khoán 2019",
   "quote": "Sử dụng tên hoặc tài khoản của khách hàng để đăng ký, giao dịch chứng khoán;",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
   "as_of": "2026-11"
@@ -790,7 +790,7 @@
    "Không vi phạm, vì đây chỉ là nhận định cá nhân trong nhóm chat riêng",
    "Chỉ vi phạm nếu sau 2 tuần giá cổ phiếu Z thực tế không tăng như dự báo",
    "Không vi phạm, nếu anh Q không trực tiếp giao dịch cổ phiếu Z cho mình",
-   "Vi phạm: không được nêu ý kiến tăng, giảm giá không căn cứ để lôi kéo giao dịch"
+   "Vi phạm, vì nêu ý kiến tăng giá không có căn cứ để lôi kéo giao dịch"
   ],
   "a": 3,
   "e": "Điểm a khoản 4 Điều 13 TT 121/2020: CTCK môi giới (qua nhân viên) không được đưa ra ý kiến về việc tăng hay giảm giá chứng khoán mà không có căn cứ để lôi kéo khách hàng giao dịch; khoản 3 Điều 91 Luật Chứng khoán cấm làm khách hàng hiểu nhầm về giá chứng khoán. Vi phạm phát sinh từ hành vi, không phụ thuộc diễn biến giá sau đó hay việc anh Q có giao dịch hay không. Nếu kèm tung tin sai sự thật để tác động giá, hành vi còn có thể bị xem xét theo Điều 12 Luật Chứng khoán.",
