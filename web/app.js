@@ -247,14 +247,37 @@ function pool(f) {
     (!f.topic || q.topic === f.topic) && (!f.level || String(q.level) === String(f.level)) &&
     (f.pool === 'all' || (f.pool === 'new' && !S.q[q.id]) || (f.pool === 'wrong' && S.q[q.id] && !S.q[q.id].lastOk) || (f.pool === 'star' && S.star[q.id])));
 }
+// Trộn đề thông minh: câu sai (khoảng 30%, sai lâu nhất trước) > câu chưa làm > câu đúng đã đến lịch ôn;
+// câu đã làm đúng chỉ được lấy khi không còn câu nào khác. Rải đều theo nhóm (chủ đề) và xen câu sai cách đều trong đề.
+const WRONG_SHARE = 0.3;
+const isWrong = id => !!S.q[id] && !S.q[id].lastOk;
+function smartPick(ids, n, group = () => '') {
+  const t = now(), tier = id => { const s = S.q[id]; return !s ? 1 : !s.lastOk ? 0 : s.due <= t ? 2 : 3; };
+  const order = shuffle(ids).sort((a, b) => tier(a) - tier(b) || (S.q[a]?.due || 0) - (S.q[b]?.due || 0));
+  const wrong = order.filter(id => tier(id) === 0), fresh = order.filter(id => tier(id) === 1 || tier(id) === 2);
+  const w = Math.min(wrong.length, Math.max(Math.ceil(n * WRONG_SHARE), n - fresh.length));
+  const out = [];
+  for (const phase of [wrong.slice(0, w), fresh, order.filter(id => tier(id) === 3)]) {
+    const by = new Map(); for (const id of phase) by.set(group(id), [...(by.get(group(id)) || []), id]);
+    const lists = shuffle([...by.values()]);
+    while (out.length < n && lists.some(l => l.length)) for (const l of lists) if (l.length && out.length < n) out.push(l.shift());
+  }
+  return out;
+}
+function spread(ids) {     // thứ tự làm bài: câu sai đặt cách đều nhau, xen giữa các câu khác
+  const ws = shuffle(ids.filter(isWrong)), rest = shuffle(ids.filter(id => !isWrong(id))), res = Array(ids.length).fill(null);
+  ws.forEach((id, k) => (res[Math.floor((k + 0.5) * ids.length / ws.length)] = id));
+  let j = 0; return res.map(x => x ?? rest[j++]);
+}
 VIEWS['on-luyen'] = () => {
   const f = practiceFilter;
   const subjects = Object.entries(SUBJ).filter(([c]) => (!f.part || (f.part === 'LUAT') === (c === 'LU')) && (!f.cert || c === 'LU' || CERTS[f.cert].blueprint[c]));
   if (f.subject && !subjects.some(([c]) => c === f.subject)) f.subject = '';
   const topics = [...new Set(D.q.filter(q => (!f.subject || q.subject === f.subject) && (!f.part || q.part === f.part)).map(q => q.topic))].sort((a, b) => a.localeCompare(b, 'vi'));
   if (f.topic && !topics.includes(f.topic)) f.topic = '';
-  const n = pool(f).length;
-  main(page('Ôn luyện', 'Ôn theo chủ đề', 'Trả lời xong là thấy ngay đáp án, giải thích và căn cứ pháp lý. Câu sai tự vào lịch ôn lặp lại.',
+  const ids = pool(f).map(q => q.id), n = ids.length;
+  const nWrong = ids.filter(isWrong).length, nNew = ids.filter(id => !S.q[id]).length, nOk = n - nWrong - nNew;
+  main(page('Ôn luyện', 'Ôn theo chủ đề', 'Trả lời xong là thấy ngay đáp án, giải thích và căn cứ pháp lý. Mỗi lượt trộn ưu tiên câu chưa làm, xen khoảng 30% câu bạn từng làm sai; câu đã làm đúng chỉ quay lại khi không còn câu nào khác.',
     `<div class="card stack">
       <div class="grid g3">
         <label class="f">Chứng chỉ<select id="f-cert">${opts([['', 'Tất cả môn'], ...Object.entries(CERTS).map(([k, c]) => [k, 'Chương trình ' + c.name])], f.cert)}</select></label>
@@ -266,13 +289,13 @@ VIEWS['on-luyen'] = () => {
         <label class="f">Số câu<select id="f-n">${opts([[10, '10 câu'], [20, '20 câu'], [30, '30 câu'], [50, '50 câu'], [999, 'Tất cả']], f.n)}</select></label>
       </div>
       <label class="check"><input type="checkbox" id="f-mix" ${f.mix ? 'checked' : ''}> Đảo thứ tự phương án mỗi lần làm</label>
-      <div class="row between"><span class="muted small" id="f-count">Có <b>${n}</b> câu phù hợp.</span>
+      <div class="row between"><span class="muted small" id="f-count">Có <b>${n}</b> câu phù hợp: ${nNew} chưa làm · ${nWrong} đang sai · ${nOk} đã đúng.</span>
         <div class="row"><a class="btn" href="#ngan-hang">Xem ngân hàng</a><button class="btn primary" id="f-start" ${n ? '' : 'disabled'}>Bắt đầu ${Math.min(n, f.n)} câu</button></div></div>
     </div>`));
   const bind = (id, key, num) => ($('#' + id).onchange = e => { f[key] = num ? +e.target.value : e.target.value; if (key === 'part') f.subject = ''; VIEWS['on-luyen'](); });
   bind('f-cert', 'cert'); bind('f-part', 'part'); bind('f-subject', 'subject'); bind('f-topic', 'topic'); bind('f-level', 'level'); bind('f-pool', 'pool'); bind('f-n', 'n', true);
   $('#f-mix').onchange = e => (f.mix = e.target.checked);
-  $('#f-start').onclick = () => startPractice(shuffle(pool(f).map(q => q.id)).slice(0, f.n), 'Ôn luyện', f.mix);
+  $('#f-start').onclick = () => startPractice(spread(smartPick(pool(f).map(q => q.id), f.n)), 'Ôn luyện', f.mix);
 };
 async function startPractice(ids, title, mix = true, kind = 'practice') {
   if (!ids.length) return toast('Không có câu nào để luyện.');
@@ -321,6 +344,7 @@ VIEWS['thi-thu'] = () => {
         <div class="card flat stack"><div class="row between"><h3>Phần 2 · Chuyên môn</h3><span class="chip acc num">${c.minutes} phút</span></div>
           <p class="small muted">Chỉ gồm các môn trong điều kiện cấp CCHN ${c.name}:</p><div class="row">${bp}</div></div>
       </div>
+      <p class="small muted">Đề được trộn theo tiến độ của bạn: ưu tiên câu chưa làm, xen khoảng 30% câu từng làm sai, câu đã làm đúng chỉ dùng khi thiếu câu.</p>
       <div class="note">Thời gian và mốc 60% mỗi phần theo thông báo của Hội đồng thi năm 2026. <b>Số câu mỗi phần chưa được công bố chính thức</b>, nên bạn tự chọn; tỷ trọng các môn chuyên môn là cấu hình mô phỏng.</div>
       <div class="row"><button class="btn primary" id="e-start">Vào phòng thi</button><span class="small muted">Phím tắt: <span class="kbd">1</span>–<span class="kbd">4</span> chọn đáp án, <span class="kbd">←</span> <span class="kbd">→</span> đổi câu, <span class="kbd">F</span> đánh dấu.</span></div>
     </div>`));
@@ -329,23 +353,21 @@ VIEWS['thi-thu'] = () => {
   $('#e-n').onchange = e => { p.n = +e.target.value; save(); };
   $('#e-start').onclick = startExam;
 };
+const topicOf = id => D.byId.get(id).topic;
 function pickLaw(n) {     // rải đều theo chủ đề
-  const byTopic = {}; for (const q of shuffle(D.q.filter(q => q.subject === 'LU'))) (byTopic[q.topic] ||= []).push(q.id);
-  const lists = shuffle(Object.values(byTopic)), out = [];
-  while (out.length < n && lists.some(l => l.length)) for (const l of lists) { if (l.length && out.length < n) out.push(l.pop()); }
-  return shuffle(out);
+  return spread(smartPick(D.q.filter(q => q.subject === 'LU').map(q => q.id), n, topicOf));
 }
 function pickSpec(cert, n) {
   const bp = Object.entries(CERTS[cert].blueprint), want = bp.map(([k, w]) => [k, Math.floor(w * n)]);
   let left = n - want.reduce((s, x) => s + x[1], 0);
   for (let i = 0; left > 0; i = (i + 1) % want.length, left--) want[i][1]++;
-  const out = [], used = new Set();
-  for (const [k, m] of want) for (const q of shuffle(D.q.filter(q => q.subject === k)).slice(0, m)) { out.push(q.id); used.add(q.id); }
+  const out = [];
+  for (const [k, m] of want) out.push(...smartPick(D.q.filter(q => q.subject === k).map(q => q.id), m, topicOf));
   if (out.length < n) {      // môn nào thiếu câu thì bù bằng môn khác trong cùng chương trình
-    const rest = shuffle(D.q.filter(q => CERTS[cert].blueprint[q.subject] && !used.has(q.id)));
-    out.push(...rest.slice(0, n - out.length).map(q => q.id));
+    const used = new Set(out);
+    out.push(...smartPick(D.q.filter(q => CERTS[cert].blueprint[q.subject] && !used.has(q.id)).map(q => q.id), n - out.length, topicOf));
   }
-  return shuffle(out);
+  return spread(out);
 }
 async function startExam() {
   const p = S.prefs, c = CERTS[p.cert], mode = p.mode || 'both';
@@ -567,7 +589,7 @@ VIEWS['ngan-hang'] = () => {
   $('#b-subject').onchange = e => { f.subject = e.target.value; f.limit = 30; VIEWS['ngan-hang'](); };
   $('#b-pool').onchange = e => { f.pool = e.target.value; f.limit = 30; VIEWS['ngan-hang'](); };
   $('#b-more') && ($('#b-more').onclick = () => { f.limit += 30; VIEWS['ngan-hang'](); });
-  $('#b-practice').onclick = () => startPractice(shuffle(list.map(q => q.id)).slice(0, 50), 'Luyện từ ngân hàng', true);
+  $('#b-practice').onclick = () => startPractice(spread(smartPick(list.map(q => q.id), 50)), 'Luyện từ ngân hàng', true);
   $$('[data-star]').forEach(b => (b.onclick = () => { const id = b.dataset.star; if (S.star[id]) delete S.star[id]; else S.star[id] = true; save(); b.textContent = S.star[id] ? '★ Bỏ đánh dấu' : '☆ Đánh dấu'; }));
   $$('[data-report]').forEach(b => (b.onclick = () => report(b.dataset.report)));
 };
