@@ -6965,7 +6965,7 @@
 "subject": "CB",
 "topic": "Tổng quan về thị trường chứng khoán",
 "level": 2,
-"q": "Giáo trình chia các chủ thể tham gia thị trường chứng khoán thành: tổ chức phát hành, nhà đầu tư, tổ chức kinh doanh chứng khoán và tổ chức có liên quan. Chủ thể nào sau đây thuộc nhóm tổ chức có liên quan?",
+"q": "Giáo trình chia các chủ thể tham gia thị trường chứng khoán thành: tổ chức phát hành, nhà đầu tư, tổ chức kinh doanh chứng khoán và các tổ chức có liên quan đến thị trường chứng khoán. Chủ thể nào sau đây thuộc nhóm các tổ chức có liên quan đến thị trường chứng khoán?",
 "o": [
 "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
 "Công ty chứng khoán thực hiện môi giới và tự doanh",
@@ -6973,7 +6973,7 @@
 "Doanh nghiệp phát hành trái phiếu ra công chúng"
 ],
 "a": 0,
-"e": "Tổ chức có liên quan gồm cơ quan quản lý nhà nước (UBCKNN), Sở giao dịch chứng khoán, tổ chức lưu ký và bù trừ, thanh toán (VSDC), hiệp hội nghề nghiệp, tổ chức xếp hạng tín nhiệm… Công ty chứng khoán, công ty quản lý quỹ là tổ chức kinh doanh chứng khoán; doanh nghiệp phát hành trái phiếu là tổ chức phát hành.",
+"e": "Tổ chức có liên quan gồm cơ quan quản lý nhà nước (UBCKNN), Sở giao dịch chứng khoán, tổ chức lưu ký và bù trừ, thanh toán (VSDC), hiệp hội nghề nghiệp, tổ chức xếp hạng tín nhiệm… Công ty chứng khoán, công ty quản lý quỹ là tổ chức kinh doanh chứng khoán; doanh nghiệp phát hành trái phiếu là tổ chức phát hành. Lưu ý: đây là cách phân nhóm chủ thể của giáo trình, không phải khái niệm “người có liên quan” tại khoản 46 Điều 4 Luật Chứng khoán (quan hệ sở hữu, kiểm soát, gia đình… giữa các tổ chức, cá nhân).",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Các chủ thể tham gia thị trường chứng khoán",
 "quote": "",
 "src": "",
@@ -7045,7 +7045,7 @@
 "subject": "CB",
 "topic": "Các công cụ tài chính trên thị trường chứng khoán",
 "level": 1,
-"q": "Theo giáo trình và Luật Doanh nghiệp, cổ đông sở hữu cổ phần ưu đãi cổ tức thông thường KHÔNG có quyền nào sau đây?",
+"q": "Theo Luật Doanh nghiệp 2020, trừ trường hợp Đại hội đồng cổ đông biểu quyết nghị quyết làm thay đổi bất lợi quyền của cổ đông ưu đãi, cổ đông sở hữu cổ phần ưu đãi cổ tức KHÔNG có quyền nào sau đây?",
 "o": [
 "Biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào Hội đồng quản trị",
 "Nhận cổ tức theo mức ưu đãi đã được xác định trong điều kiện phát hành",
@@ -7054,7 +7054,7 @@
 ],
 "a": 0,
 "e": "Cổ phần ưu đãi cổ tức được trả cổ tức ở mức cao hơn hoặc ổn định hằng năm, được nhận lại tài sản còn lại khi giải thể, phá sản và được chuyển nhượng; đổi lại, cổ đông ưu đãi cổ tức không có quyền biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào Hội đồng quản trị, Ban kiểm soát (trừ trường hợp nghị quyết làm thay đổi bất lợi quyền của họ).",
-"basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi; Điều 117 Luật Doanh nghiệp 2020",
+"basis": "Khoản 2, khoản 3 Điều 117 Luật Doanh nghiệp 2020; Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi",
 "quote": "",
 "src": "",
 "as_of": "2026-11"
@@ -7129,11 +7129,11 @@
 "o": [
 "8,00%/năm",
 "6,87%/năm",
-"7,66%/năm",
-"8,66%/năm"
+"7,41%/năm",
+"7,66%/năm"
 ],
 "a": 0,
-"e": "YTM = (100.000 / 79.383)^(1/3) − 1 ≈ 8,00%/năm. 8,66% là lãi đơn bình quân chia cho giá mua, 6,87% là lãi đơn chia cho mệnh giá, 7,66% là công thức gần đúng dùng giá bình quân – các cách này bỏ qua lãi kép.",
+"e": "YTM = (100.000 / 79.383)^(1/3) − 1 = 1,2597^(1/3) − 1 ≈ 1,0800 − 1 = 8,00%/năm. 7,41% là lấy 1 − (79.383 / 100.000)^(1/3) (tỷ suất chiết khấu, không phải lợi suất); 6,87% là lãi đơn bình quân (20.617 / 3) chia mệnh giá; 7,66% là công thức gần đúng chia cho giá bình quân 89.691,5 – các cách này đều không phải lợi suất kép hằng năm.",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chiết khấu (zero-coupon) và lợi suất đáo hạn",
 "quote": "",
 "src": "",
@@ -7153,7 +7153,7 @@
 "13,2 tỷ đồng"
 ],
 "a": 1,
-"e": "Cổ tức ưu đãi mỗi năm = 2.000.000 × 10.000 × 9% = 1,8 tỷ đồng. Cổ phiếu ưu đãi tích lũy phải được trả đủ phần nợ 2024, 2025 và năm 2026 trước cổ đông phổ thông: 3 × 1,8 = 5,4 tỷ đồng. Còn lại cho cổ đông phổ thông: 15 − 5,4 = 9,6 tỷ đồng. 13,2 tỷ là cách tính như cổ phiếu ưu đãi không tích lũy; 5,4 tỷ là phần trả cho cổ đông ưu đãi.",
+"e": "Cổ tức ưu đãi mỗi năm = 2.000.000 × 10.000 × 9% = 1,8 tỷ đồng. Cổ phiếu ưu đãi tích lũy phải được trả đủ phần nợ 2024, 2025 và năm 2026 trước cổ đông phổ thông: 3 × 1,8 = 5,4 tỷ đồng. Còn lại cho cổ đông phổ thông: 15 − 5,4 = 9,6 tỷ đồng. 13,2 tỷ là cách tính như cổ phiếu ưu đãi không tích lũy (chỉ trả 1,8 tỷ của năm 2026); 11,4 tỷ là chỉ trả phần nợ 2024, 2025 mà quên cổ tức ưu đãi năm 2026; 5,4 tỷ là phần trả cho cổ đông ưu đãi.",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi cổ tức tích lũy và không tích lũy",
 "quote": "",
 "src": "",
@@ -7167,13 +7167,13 @@
 "level": 3,
 "q": "Trái phiếu chuyển đổi mệnh giá 100.000 đồng, mỗi trái phiếu được chuyển đổi thành 5 cổ phiếu phổ thông. Giá thị trường hiện tại của trái phiếu là 115.000 đồng, của cổ phiếu là 21.000 đồng. Giá chuyển đổi ngang giá (mức giá cổ phiếu mà tại đó giá trị chuyển đổi bằng giá thị trường của trái phiếu) là:",
 "o": [
+"18.261 đồng",
 "20.000 đồng",
-"21.000 đồng",
 "23.000 đồng",
-"24.150 đồng"
+"21.000 đồng"
 ],
 "a": 2,
-"e": "Giá chuyển đổi ngang giá = giá thị trường trái phiếu / tỷ lệ chuyển đổi = 115.000 / 5 = 23.000 đồng. 20.000 đồng là giá chuyển đổi danh nghĩa (mệnh giá / tỷ lệ chuyển đổi). Giá trị chuyển đổi hiện tại = 5 × 21.000 = 105.000 đồng < 115.000 đồng, nên giá cổ phiếu phải tăng lên 23.000 đồng thì chuyển đổi mới hòa vốn.",
+"e": "Giá chuyển đổi ngang giá = giá thị trường trái phiếu / tỷ lệ chuyển đổi = 115.000 / 5 = 23.000 đồng. Giá trị chuyển đổi hiện tại = 5 × 21.000 = 105.000 đồng < 115.000 đồng, nên giá cổ phiếu phải tăng lên 23.000 đồng thì chuyển đổi mới hòa vốn. 20.000 đồng là giá chuyển đổi danh nghĩa (mệnh giá / tỷ lệ chuyển đổi); 21.000 đồng là giá cổ phiếu hiện tại; 18.261 đồng là nhân nhầm giá cổ phiếu với tỷ số mệnh giá/giá trái phiếu (21.000 × 100.000 / 115.000).",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chuyển đổi: tỷ lệ chuyển đổi, giá trị chuyển đổi, giá chuyển đổi ngang giá",
 "quote": "",
 "src": "",
@@ -7293,7 +7293,7 @@
 "80.000 cổ phiếu"
 ],
 "a": 0,
-"e": "Khoản 2 Điều 26: khi đăng ký mua vượt số được phép phát hành, phải phân phối hết cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua. Tỷ lệ phân phối = 6.000.000 / 9.600.000 = 62,5%; A được 80.000 × 62,5% = 50.000 cổ phiếu (30.000 cổ phiếu còn lại được hoàn tiền). 48.000 là dùng nhầm tỷ lệ 60%.",
+"e": "Khoản 2 Điều 26: khi đăng ký mua vượt số được phép phát hành, phải phân phối hết cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua. Tỷ lệ phân phối = 6.000.000 / 9.600.000 = 62,5%; A được 80.000 × 62,5% = 50.000 cổ phiếu (30.000 cổ phiếu còn lại được hoàn tiền). 48.000 là dùng nhầm tỷ lệ đăng ký vượt (9,6 − 6) / 6 = 60% làm tỷ lệ phân phối; 80.000 là bỏ qua việc phân phối theo tỷ lệ.",
 "basis": "Khoản 2 Điều 26 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)",
 "quote": "Trường hợp số lượng chứng khoán đăng ký mua vượt quá số lượng chứng khoán được phép phát hành thì tổ chức phát hành hoặc tổ chức bảo lãnh phát hành phải phân phối hết số chứng khoán được phép phát hành cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua của từng nhà đầu tư.",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -7313,7 +7313,7 @@
 "51,00 tỷ đồng"
 ],
 "a": 1,
-"e": "A trúng 600.000 × 25.500 = 15,3 tỷ; B trúng 800.000 × 25.200 = 20,16 tỷ; còn 600.000 cổ phần cho C ở giá 25.000 = 15,0 tỷ; D không trúng. Tổng = 50,46 tỷ đồng. 50,00 tỷ là tính theo một giá thống nhất 25.000 đồng (kiểu đấu giá Hà Lan), 49,00 tỷ là tính theo giá khởi điểm.",
+"e": "A trúng 600.000 × 25.500 = 15,3 tỷ; B trúng 800.000 × 25.200 = 20,16 tỷ; còn 600.000 cổ phần cho C ở giá 25.000 = 15,0 tỷ; D không trúng. Tổng = 50,46 tỷ đồng. 50,00 tỷ là tính theo một giá thống nhất 25.000 đồng (kiểu đấu giá Hà Lan), 49,00 tỷ là tính theo giá khởi điểm; 51,00 tỷ là tính toàn bộ 2.000.000 cổ phần theo giá đặt cao nhất 25.500 đồng.",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Phương thức đấu giá trong phát hành chứng khoán (đấu giá theo giá đặt mua và đấu giá theo giá thống nhất)",
 "quote": "",
 "src": "",
@@ -7567,9 +7567,9 @@
 "level": 2,
 "q": "Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), giao dịch nào sau đây của công ty chứng khoán KHÔNG được coi là tự doanh chứng khoán?",
 "o": [
-"Mua cổ phiếu niêm yết cho tài khoản của chính công ty",
-"Mua bán lại trái phiếu niêm yết trên tài khoản của công ty",
-"Mua, bán chứng khoán do sửa lỗi sau giao dịch",
+"Mua cổ phiếu niêm yết của doanh nghiệp khác cho chính công ty",
+"Bán trái phiếu Chính phủ thuộc danh mục đầu tư của công ty",
+"Mua, bán chứng khoán phát sinh do sửa lỗi sau giao dịch",
 "Bán chứng chỉ quỹ ETF trong danh mục đầu tư của công ty"
 ],
 "a": 2,
@@ -7585,16 +7585,16 @@
 "subject": "CB",
 "topic": "Công ty chứng khoán",
 "level": 2,
-"q": "Công ty chứng khoán P đang nắm giữ 12% vốn điều lệ của công ty cổ phần Q. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), P KHÔNG được cung cấp dịch vụ nào sau đây cho Q?",
+"q": "Công ty chứng khoán K nắm giữ đúng 10% vốn điều lệ của công ty cổ phần D; D chuẩn bị chào bán cổ phiếu lần đầu ra công chúng và niêm yết. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), K được cung cấp cho D dịch vụ nào sau đây?",
 "o": [
-"Mở tài khoản và môi giới giao dịch chứng khoán cho Q",
-"Lưu ký chứng khoán cho Q với tư cách thành viên lưu ký",
-"Cung cấp dịch vụ giao dịch chứng khoán trực tuyến cho Q",
-"Tư vấn hồ sơ chào bán và niêm yết chứng khoán của Q"
+"Tư vấn lập hồ sơ chào bán cổ phiếu lần đầu ra công chúng của D",
+"Tư vấn lập hồ sơ đăng ký niêm yết cổ phiếu của D",
+"Tư vấn xác định giá trị doanh nghiệp D trước đợt chào bán",
+"Mở tài khoản và môi giới giao dịch chứng khoán cho D"
 ],
 "a": 3,
-"e": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC: CTCK không được tư vấn chào bán, tư vấn niêm yết, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ (khoản 7 Điều 24 cũng cấm tư vấn đầu tư chứng khoán cho công ty này). Các dịch vụ môi giới, lưu ký, giao dịch trực tuyến không bị cấm.",
-"basis": "Khoản 2 Điều 25, khoản 7 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
+"e": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC: CTCK không được tư vấn chào bán, tư vấn niêm yết, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ – mức đúng 10% đã thuộc diện cấm, nên ba dịch vụ tư vấn đều bị cấm. Mở tài khoản, môi giới giao dịch cho D không bị hạn chế (khoản 7 Điều 24 còn cấm tư vấn đầu tư chứng khoán cho công ty này).",
+"basis": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
 "quote": "Công ty chứng khoán không được cung cấp dịch vụ tư vấn chào bán, tư vấn niêm yết chứng khoán, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ.",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
 "as_of": "2026-11"
@@ -7627,13 +7627,13 @@
 "level": 3,
 "q": "Công ty chứng khoán G có vốn chủ sở hữu 1.000 tỷ đồng, đang nắm giữ 500.000 cổ phiếu của công ty niêm yết X. X có 12.000.000 cổ phiếu đang lưu hành, giá thị trường 60.000 đồng/cổ phiếu (khoản đầu tư hiện tại vào X tính theo giá này). Giả định các hạn mức đầu tư khác của G chưa bị chạm tới. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), số cổ phiếu X tối đa G có thể mua thêm là:",
 "o": [
-"1.300.000 cổ phiếu",
-"1.900.000 cổ phiếu",
 "2.000.000 cổ phiếu",
-"2.400.000 cổ phiếu"
+"1.900.000 cổ phiếu",
+"2.400.000 cổ phiếu",
+"2.500.000 cổ phiếu"
 ],
 "a": 1,
-"e": "Hạn mức 1 (điểm c khoản 4 Điều 28): không quá 20% số cổ phiếu đang lưu hành của tổ chức niêm yết = 2.400.000 cổ phiếu → được mua thêm 1.900.000. Hạn mức 2 (điểm e): không quá 15% vốn chủ sở hữu vào một tổ chức = 150 tỷ đồng → (150 − 30) tỷ / 60.000 = 2.000.000 cổ phiếu. Lấy mức nhỏ hơn: 1.900.000 cổ phiếu. 1.300.000 là dùng nhầm hạn mức 15% áp dụng cho tổ chức chưa niêm yết.",
+"e": "Hạn mức 1 (điểm c khoản 4 Điều 28): không quá 20% số cổ phiếu đang lưu hành của tổ chức niêm yết = 2.400.000 cổ phiếu → được mua thêm 2.400.000 − 500.000 = 1.900.000. Hạn mức 2 (điểm e): không quá 15% vốn chủ sở hữu vào một tổ chức = 150 tỷ đồng; đang đầu tư 500.000 × 60.000 = 30 tỷ → (150 − 30) tỷ / 60.000 = 2.000.000 cổ phiếu. Lấy mức nhỏ hơn: 1.900.000 cổ phiếu. 2.400.000 và 2.500.000 là quên trừ 500.000 cổ phiếu đang nắm giữ ở từng hạn mức; 2.000.000 là chỉ xét hạn mức 15% vốn chủ sở hữu.",
 "basis": "Điểm c, điểm e khoản 4 Điều 28 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
 "quote": "Đầu tư quá 20% tổng số cổ phiếu, chứng chỉ quỹ đang lưu hành của một tổ chức niêm yết;",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
@@ -7653,8 +7653,8 @@
 "100 tỷ đồng"
 ],
 "a": 2,
-"e": "Tổng giá trị rủi ro = 150 + 60 + 50 = 260 tỷ đồng (tỷ lệ hiện tại ≈ 207,7%). Để tỷ lệ = vốn khả dụng / tổng giá trị rủi ro ≥ 180% thì tổng giá trị rủi ro ≤ 540 / 1,8 = 300 tỷ đồng → tăng thêm tối đa 40 tỷ đồng. 100 tỷ là dùng nhầm mốc 150%; 90 tỷ là quên rủi ro hoạt động; 72 tỷ là nhân chênh lệch tỷ lệ với tổng rủi ro hiện tại.",
-"basis": "Khoản 5, khoản 7 Điều 2 và khoản 1 Điều 11 Thông tư 91/2020/TT-BTC (các khoản này không bị Thông tư 102/2025/TT-BTC sửa đổi); mốc 180% là giả định của đề",
+"e": "Tổng giá trị rủi ro = 150 + 60 + 50 = 260 tỷ đồng (tỷ lệ hiện tại ≈ 207,7%). Để tỷ lệ = vốn khả dụng / tổng giá trị rủi ro ≥ 180% thì tổng giá trị rủi ro ≤ 540 / 1,8 = 300 tỷ đồng → tăng thêm tối đa 40 tỷ đồng. 100 tỷ là dùng nhầm mốc 150%; 90 tỷ là quên rủi ro hoạt động; 72 tỷ là nhân chênh lệch tỷ lệ với tổng rủi ro hiện tại. (180% cũng là ngưỡng mà dưới đó CTCK phải báo cáo bất thường theo khoản 2 Điều 12 Thông tư 91/2020/TT-BTC.)",
+"basis": "Khoản 5, khoản 7 Điều 2 và khoản 1 Điều 11 Thông tư 91/2020/TT-BTC (không bị Thông tư 102/2025/TT-BTC sửa đổi; Phụ lục V, VI thay thế bởi Thông tư 102/2025/TT-BTC vẫn tính Tổng giá trị rủi ro = 1+2+3 và Tỷ lệ vốn khả dụng = 5/4); mốc 180% là mục tiêu giả định của đề",
 "quote": "Tổng giá trị rủi ro là tổng các giá trị rủi ro thị trường, giá trị rủi ro thanh toán và giá trị rủi ro hoạt động.",
 "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
 "as_of": "2026-11"
@@ -7973,7 +7973,7 @@
 "P chỉ vi phạm khi mức phí hưởng theo lợi nhuận vượt mức phí tối đa của các quỹ đại chúng"
 ],
 "a": 2,
-"e": "Quản lý danh mục đầu tư chứng khoán theo ủy thác (khoản 35 Điều 4) là nghiệp vụ kinh doanh chứng khoán của công ty quản lý quỹ được UBCKNN cấp phép (Điều 73). Khoản 4 Điều 12 nghiêm cấm thực hiện hoạt động kinh doanh chứng khoán khi chưa được UBCKNN cấp giấy phép. Việc tài khoản đứng tên khách hàng, khách hàng là nhà đầu tư chuyên nghiệp hay mức phí đều không làm hoạt động này trở nên hợp pháp.",
+"e": "Quản lý danh mục đầu tư chứng khoán theo ủy thác (khoản 35 Điều 4) là nghiệp vụ kinh doanh chứng khoán của công ty quản lý quỹ được UBCKNN cấp phép (Điều 73). Khoản 4 Điều 12 nghiêm cấm thực hiện hoạt động kinh doanh chứng khoán khi chưa được UBCKNN cấp giấy phép. Việc tài khoản đứng tên khách hàng, khách hàng là nhà đầu tư chuyên nghiệp hay mức phí đều không làm hoạt động này trở nên hợp pháp. Công ty chứng khoán cũng chỉ được nhận ủy thác quản lý tài khoản của nhà đầu tư cá nhân theo Điều 19 TT 121/2020; P không phải công ty chứng khoán hay công ty quản lý quỹ.",
 "basis": "Khoản 4 Điều 12, khoản 35 Điều 4, Điều 73 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
 "quote": "Thực hiện hoạt động kinh doanh chứng khoán, cung cấp dịch vụ về chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp giấy phép, cấp giấy chứng nhận hoặc chấp thuận.",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -7985,17 +7985,17 @@
 "subject": "CB",
 "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
 "level": 1,
-"q": "Theo Thông tư 121/2020/TT-BTC, ngoài tình hình tài chính, mục tiêu đầu tư và khả năng chấp nhận rủi ro, công ty chứng khoán cung cấp dịch vụ tư vấn đầu tư phải thu thập và quản lý thông tin nào khác về khách hàng?",
+"q": "Theo Thông tư 121/2020/TT-BTC, thông tin mà công ty chứng khoán nhận được từ khách hàng trong quá trình cung ứng dịch vụ tư vấn đầu tư được cung cấp cho bên thứ ba trong trường hợp nào?",
 "o": [
-"Lịch sử quan hệ tín dụng của khách hàng tại các ngân hàng",
-"Danh mục chứng khoán của khách hàng tại công ty chứng khoán khác",
-"Nơi làm việc của người thân trong gia đình khách hàng",
-"Kinh nghiệm và hiểu biết về đầu tư của khách hàng"
+"Khi bên thứ ba là đối tác đã ký thỏa thuận bảo mật thông tin với công ty",
+"Khi thông tin được dùng làm số liệu cho báo cáo phân tích của công ty",
+"Khi hợp đồng tư vấn với khách hàng đã chấm dứt từ 12 tháng trở lên",
+"Khi được khách hàng đồng ý hoặc pháp luật có quy định khác"
 ],
 "a": 3,
-"e": "Khoản 2 Điều 24 TT 121/2020 yêu cầu thu thập, quản lý 04 nhóm thông tin: tình hình tài chính, mục tiêu đầu tư, khả năng chấp nhận rủi ro, kinh nghiệm và hiểu biết về đầu tư của khách hàng. Đây là cơ sở để tư vấn phù hợp (nguyên tắc “hiểu khách hàng”). Các thông tin còn lại không thuộc danh mục bắt buộc.",
-"basis": "Khoản 2 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
-"quote": "Công ty chứng khoán phải thu thập và quản lý thông tin về khách hàng, bao gồm: a) Tình hình tài chính của khách hàng; b) Mục tiêu đầu tư của khách hàng; c) Khả năng chấp nhận rủi ro của khách hàng; d) Kinh nghiệm và hiểu biết về đầu tư của khách hàng.",
+"e": "Khoản 5 Điều 24 TT 121/2020: công ty chứng khoán phải bảo mật các thông tin nhận được từ người sử dụng dịch vụ tư vấn trong quá trình cung ứng dịch vụ, trừ trường hợp được khách hàng đồng ý hoặc pháp luật có quy định khác (chẳng hạn yêu cầu của cơ quan có thẩm quyền). Thỏa thuận bảo mật với đối tác, mục đích làm báo cáo phân tích hay việc hợp đồng đã chấm dứt đều không phải ngoại lệ; bảo mật thông tin khách hàng cũng là chuẩn mực đạo đức nghề nghiệp cơ bản.",
+"basis": "Khoản 5 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
+"quote": "Công ty chứng khoán phải bảo mật các thông tin nhận được từ người sử dụng dịch vụ tư vấn trong quá trình cung ứng dịch vụ tư vấn trừ trường hợp được khách hàng đồng ý hoặc pháp luật có quy định khác.",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
 "as_of": "2026-11"
 },
@@ -8065,17 +8065,17 @@
 "subject": "CB",
 "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
 "level": 2,
-"q": "Bà H, 68 tuổi, đã nghỉ hưu, cho biết mục tiêu là bảo toàn vốn và có thu nhập đều đặn, không chấp nhận thua lỗ lớn. Nhân viên tư vấn khuyến nghị bà dùng toàn bộ tiền tiết kiệm mua chứng quyền có bảo đảm vì “tỷ suất sinh lời cao, phí giao dịch ưu đãi”. Theo Thông tư 121/2020/TT-BTC, khuyến nghị này:",
+"q": "Khách hàng Q đã nhiều năm đầu tư cổ phiếu, khẩu vị rủi ro cao, lần đầu muốn mua chứng quyền có bảo đảm. Nhân viên tư vấn chỉ giới thiệu mức lãi có thể đạt được nhờ đòn bẩy, không đề cập việc chứng quyền có thể mất toàn bộ giá trị khi đáo hạn; Q tự đặt lệnh mua. Theo Thông tư 121/2020/TT-BTC, nhận định nào đúng?",
 "o": [
-"Hợp lệ, nếu bà H ký xác nhận đã đọc tài liệu giới thiệu sản phẩm chứng quyền",
-"Hợp lệ, vì quyết định đầu tư cuối cùng vẫn do bà H tự đưa ra và tự chịu trách nhiệm",
-"Chỉ vi phạm khi chứng quyền được khuyến nghị đáo hạn với giá trị bằng 0",
-"Vi phạm, vì tư vấn phải phù hợp với mục tiêu đầu tư và tình hình tài chính của khách hàng"
+"Không vi phạm, vì sản phẩm phù hợp với kinh nghiệm và khẩu vị rủi ro cao của Q",
+"Không vi phạm, vì Q tự đặt lệnh và tự chịu trách nhiệm về quyết định đầu tư",
+"Chỉ vi phạm nếu chứng quyền Q đã mua đáo hạn ở trạng thái lỗ và Q bị thiệt hại",
+"Vi phạm, vì khách hàng phải được cung cấp đầy đủ cả nội dung và rủi ro của sản phẩm"
 ],
 "a": 3,
-"e": "Khoản 6 Điều 24 TT 121/2020: công ty chứng khoán phải tư vấn đầu tư phù hợp với mục tiêu đầu tư và tình hình tài chính của khách hàng. Chứng quyền có đòn bẩy, rủi ro mất toàn bộ khoản đầu tư, không phù hợp với khách hàng cần bảo toàn vốn. Chữ ký xác nhận đã đọc tài liệu hay việc khách hàng tự quyết định không miễn trừ nghĩa vụ tư vấn phù hợp.",
-"basis": "Khoản 6 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
-"quote": "Công ty chứng khoán phải tư vấn đầu tư phù hợp với mục tiêu đầu tư và tình hình tài chính của khách hàng và phải chịu trách nhiệm về kết quả phân tích và độ tin cậy của thông tin cung cấp cho khách hàng.",
+"e": "Khoản 4 Điều 24 TT 121/2020: công ty chứng khoán tư vấn đầu tư phải bảo đảm khách hàng đưa ra quyết định đầu tư trên cơ sở được cung cấp thông tin đầy đủ, bao gồm cả nội dung và rủi ro của sản phẩm, dịch vụ. Sản phẩm phù hợp với khẩu vị rủi ro (khoản 6) không miễn nghĩa vụ nêu rủi ro (chứng quyền có thể đáo hạn với giá trị bằng 0); việc khách hàng tự đặt lệnh hay kết quả lãi, lỗ sau đó không làm thay đổi việc tư vấn đã thiếu thông tin rủi ro.",
+"basis": "Khoản 4 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
+"quote": "Công ty chứng khoán tư vấn đầu tư cho khách hàng phải đảm bảo rằng khách hàng đưa ra quyết định đầu tư trên cơ sở được cung cấp thông tin đầy đủ bao gồm cả nội dung và rủi ro của sản phẩm, dịch vụ cung cấp.",
 "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
 "as_of": "2026-11"
 },
@@ -8113,8 +8113,8 @@
 "Chỉ vi phạm khi các nhà đầu tư đó đồng thời có tài khoản giao dịch tại công ty chứng khoán A"
 ],
 "a": 1,
-"e": "Khoản 1 Điều 98: người được cấp chứng chỉ hành nghề chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán; điểm c khoản 2 cấm vượt quá phạm vi ủy quyền của công ty. Chứng chỉ môi giới cho phép tư vấn đầu tư nhưng phải thực hiện nhân danh công ty; việc nộp thuế không thay đổi bản chất vi phạm.",
-"basis": "Khoản 1, điểm c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
+"e": "Khoản 1 Điều 98: người được cấp chứng chỉ hành nghề chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán; điểm c khoản 2 cấm vượt quá phạm vi ủy quyền của công ty. Theo điểm a, d khoản 2 Điều 216 NĐ 155/2020, chứng chỉ môi giới cho phép môi giới và tư vấn đầu tư nhưng chỉ có giá trị khi người được cấp làm việc tại công ty và hành nghề nhân danh công ty; việc nộp thuế không thay đổi bản chất vi phạm.",
+"basis": "Khoản 1, điểm c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); điểm a, d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP",
 "quote": "Người được cấp chứng chỉ hành nghề chứng khoán chỉ được hành nghề chứng khoán với tư cách đại diện cho công ty chứng khoán hoặc công ty quản lý quỹ đầu tư chứng khoán",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
 "as_of": "2026-11"
@@ -8125,7 +8125,7 @@
 "subject": "CB",
 "topic": "Đạo đức nghề nghiệp trong hoạt động kinh doanh chứng khoán",
 "level": 3,
-"q": "Chuyên viên phân tích D tổng hợp báo cáo tài chính đã công bố của công ty niêm yết Q, số liệu xuất khẩu ngành do cơ quan thống kê công bố và quan sát trực tiếp lượng xe tải ra vào nhà máy của Q từ đường công cộng; từ đó kết luận doanh thu quý tới của Q sẽ giảm mạnh và đưa ra khuyến nghị bán. Nhận định nào sau đây đúng?",
+"q": "Chuyên viên phân tích D tổng hợp báo cáo tài chính đã công bố của công ty niêm yết Q, số liệu xuất khẩu ngành do cơ quan thống kê công bố và quan sát trực tiếp lượng xe tải ra vào nhà máy của Q từ đường công cộng; D không tiếp xúc người nội bộ và không nhận thông tin chưa công bố nào của Q. Từ đó D kết luận doanh thu quý tới của Q sẽ giảm mạnh và đưa ra khuyến nghị bán. Theo Luật Chứng khoán và chuẩn mực đạo đức nghề nghiệp, nhận định nào sau đây đúng?",
 "o": [
 "Vi phạm, vì kết luận về doanh thu chưa công bố của Q là thông tin nội bộ bị cấm sử dụng",
 "Vi phạm, vì chuyên viên phải xin ý kiến của Q trước khi đưa ra khuyến nghị bán cổ phiếu",
@@ -8225,7 +8225,7 @@
 "subject": "CB",
 "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
 "level": 2,
-"q": "Một doanh nghiệp đề nghị Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC) cung cấp bản sao thông tin sở hữu chứng khoán của nhà đầu tư H để phục vụ việc đòi nợ, trong khi H không đồng ý. Theo Luật Chứng khoán, VSDC phải:",
+"q": "Một doanh nghiệp (không phải tổ chức phát hành chứng khoán mà H sở hữu) đề nghị Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC) cung cấp bản sao thông tin sở hữu chứng khoán của nhà đầu tư H để phục vụ việc đòi nợ, trong khi H không đồng ý. Theo Luật Chứng khoán, VSDC phải:",
 "o": [
 "Cung cấp, vì thông tin sở hữu chứng khoán đăng ký tập trung là thông tin công khai",
 "Cung cấp, nếu doanh nghiệp nộp đủ giá dịch vụ trích lục thông tin theo biểu phí",
@@ -8233,7 +8233,7 @@
 "Từ chối, vì không có sự đồng ý của H và không phải yêu cầu của cơ quan có thẩm quyền"
 ],
 "a": 3,
-"e": "Điểm g khoản 2 Điều 55: VSDC có trách nhiệm bảo mật thông tin sở hữu của khách hàng, từ chối phong tỏa, cầm giữ, trích chuyển tài sản, trích lục, sao chép thông tin sở hữu chứng khoán của khách hàng mà không có sự đồng ý của khách hàng, trừ trường hợp theo yêu cầu của cơ quan có thẩm quyền hoặc của kiểm toán viên kiểm toán báo cáo tài chính theo quy định. Thành viên lưu ký cũng có nghĩa vụ bảo mật tương tự (điểm a khoản 3 Điều 56).",
+"e": "Điểm g khoản 2 Điều 55: VSDC có trách nhiệm bảo mật thông tin sở hữu của khách hàng, từ chối phong tỏa, cầm giữ, trích chuyển tài sản, trích lục, sao chép thông tin sở hữu chứng khoán của khách hàng mà không có sự đồng ý của khách hàng, trừ trường hợp theo yêu cầu của cơ quan có thẩm quyền hoặc của kiểm toán viên kiểm toán báo cáo tài chính của VSDC, của thành viên lưu ký. VSDC chỉ cung cấp thông tin sở hữu theo yêu cầu của chính công ty đại chúng, tổ chức phát hành và cơ quan có thẩm quyền (điểm e), không phải của chủ nợ. Thông tin này không phải thông tin công khai, nộp phí không thay thế sự đồng ý của khách hàng; thành viên lưu ký cũng có nghĩa vụ bảo mật tương tự (điểm a khoản 3 Điều 56).",
 "basis": "Điểm g khoản 2 Điều 55 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
 "quote": "từ chối việc phong tỏa, cầm giữ, trích chuyển tài sản, trích lục, sao chép thông tin sở hữu chứng khoán của khách hàng mà không có sự đồng ý của khách hàng, trừ trường hợp theo yêu cầu của cơ quan có thẩm quyền",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -8250,10 +8250,10 @@
 "Quỹ hỗ trợ thanh toán do các thành viên lưu ký đóng góp, do VSDC quản lý",
 "Tiền gửi giao dịch chứng khoán của các khách hàng khác đang có tại Z",
 "Quỹ bảo vệ nhà đầu tư do Sở giao dịch chứng khoán Việt Nam quản lý",
-"Vốn tự có của ngân hàng thanh toán theo hợp đồng ký với VSDC"
+"Khoản tạm ứng từ ngân sách nhà nước do Bộ Tài chính cấp cho VSDC"
 ],
 "a": 0,
-"e": "Khoản 1, 2 Điều 66: quỹ hỗ trợ thanh toán hình thành từ đóng góp của các thành viên lưu ký để thanh toán thay khi thành viên lưu ký tạm thời mất khả năng thanh toán; quỹ do VSDC quản lý, tách biệt với tài sản của VSDC. Tiền của khách hàng là tài sản của khách hàng, không được dùng thanh toán nợ của thành viên (Điều 65); ngân hàng thanh toán chỉ cung cấp dịch vụ thanh toán tiền.",
+"e": "Khoản 1, 2 Điều 66: quỹ hỗ trợ thanh toán hình thành từ đóng góp của các thành viên lưu ký để thanh toán thay khi thành viên lưu ký tạm thời mất khả năng thanh toán; quỹ do VSDC quản lý, tách biệt với tài sản của VSDC. Tiền của khách hàng là tài sản của khách hàng, không được dùng thanh toán nợ của thành viên (Điều 65); Luật không quy định dùng ngân sách nhà nước để thanh toán thay cho thành viên lưu ký.",
 "basis": "Điều 66 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)",
 "quote": "Quỹ hỗ trợ thanh toán được hình thành từ sự đóng góp của các thành viên lưu ký để thanh toán thay cho thành viên lưu ký trong trường hợp thành viên lưu ký tạm thời mất khả năng thanh toán giao dịch chứng khoán.",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -8265,15 +8265,15 @@
 "subject": "CB",
 "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
 "level": 3,
-"q": "Giả định VSDC bù trừ đa phương ròng nghĩa vụ tiền theo từng thành viên trong cùng kỳ thanh toán (bỏ qua phí, thuế). Trong ngày T, khách hàng của thành viên P mua của khách hàng của Q 10 tỷ đồng; khách hàng của Q mua của khách hàng của R 8 tỷ đồng; khách hàng của R mua của khách hàng của P 6 tỷ đồng; khách hàng của P mua của khách hàng của R 3 tỷ đồng. So với thanh toán riêng từng giao dịch, tổng giá trị tiền phải chuyển giảm được nhờ bù trừ là:",
+"q": "Giả định VSDC bù trừ đa phương ròng nghĩa vụ tiền theo từng thành viên trong cùng kỳ thanh toán (bỏ qua phí, thuế). Trong ngày T, khách hàng của thành viên P mua của khách hàng của Q 10 tỷ đồng; khách hàng của Q mua của khách hàng của R 8 tỷ đồng; khách hàng của R mua của khách hàng của P 6 tỷ đồng; khách hàng của P mua của khách hàng của R 3 tỷ đồng. Chỉ tính số tiền do bên phải trả chuyển đi (không tính lại chiều nhận). So với thanh toán riêng từng giao dịch, tổng số tiền phải chuyển giảm được nhờ bù trừ là:",
 "o": [
 "7 tỷ đồng",
 "20 tỷ đồng",
-"13 tỷ đồng",
+"40 tỷ đồng",
 "14 tỷ đồng"
 ],
 "a": 1,
-"e": "Thanh toán gộp: 10 + 8 + 6 + 3 = 27 tỷ đồng. Vị thế ròng: P phải trả 13 − 6 = 7 tỷ; Q nhận 10 − 8 = 2 tỷ; R nhận 11 − 6 = 5 tỷ. Sau bù trừ chỉ P chuyển 7 tỷ (bằng tổng số Q và R nhận). Giảm được 27 − 7 = 20 tỷ đồng. Lỗi thường gặp: nhầm với số tiền còn phải chuyển (7 tỷ); cộng giá trị tuyệt đối các vị thế ròng (14 tỷ) hoặc lấy 27 − 14 = 13 tỷ (tính cả phía nhận như phía chuyển).",
+"e": "Thanh toán riêng từng giao dịch: bên mua chuyển 10 + 8 + 6 + 3 = 27 tỷ đồng. Vị thế ròng: P phải trả 13 − 6 = 7 tỷ; Q nhận 10 − 8 = 2 tỷ; R nhận 11 − 6 = 5 tỷ. Sau bù trừ chỉ P chuyển 7 tỷ (bằng tổng số Q và R nhận). Giảm được 27 − 7 = 20 tỷ đồng. Lỗi thường gặp: nhầm với số tiền còn phải chuyển (7 tỷ); cộng giá trị tuyệt đối các vị thế ròng (14 tỷ); tính cả chiều nhận tiền dù đề chỉ tính chiều chuyển (54 − 14 = 40 tỷ).",
 "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – bù trừ đa phương ròng trong thanh toán giao dịch chứng khoán",
 "quote": "",
 "src": "",
@@ -8327,10 +8327,10 @@
 "level": 1,
 "q": "Theo Luật Chứng khoán, đối tượng nào sau đây KHÔNG thuộc đối tượng công bố thông tin?",
 "o": [
-"Cá nhân sở hữu 3% cổ phiếu có quyền biểu quyết, không phải người nội bộ",
+"Cá nhân sở hữu 3% cổ phiếu có quyền biểu quyết, không là người nội bộ hay người có liên quan",
 "Cổ đông sáng lập trong thời gian bị hạn chế chuyển nhượng của công ty đại chúng",
-"Nhà đầu tư sở hữu từ 5% trở lên chứng chỉ quỹ của một quỹ đóng",
-"Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam"
+"Nhà đầu tư, nhóm người có liên quan sở hữu từ 5% trở lên chứng chỉ quỹ của quỹ đóng",
+"Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC)"
 ],
 "a": 0,
 "e": "Khoản 1 Điều 118 liệt kê đối tượng công bố thông tin: công ty đại chúng; tổ chức phát hành, niêm yết trái phiếu; công ty chứng khoán, công ty quản lý quỹ; Sở giao dịch chứng khoán, VSDC; cổ đông lớn (từ 5%), nhà đầu tư sở hữu từ 5% chứng chỉ quỹ đóng; cổ đông sáng lập trong thời gian bị hạn chế chuyển nhượng; người nội bộ và người có liên quan… Cá nhân sở hữu 3%, không phải người nội bộ hay người có liên quan, không thuộc diện này.",
@@ -8373,7 +8373,7 @@
 "Công ty đang đàm phán một hợp đồng lớn nhưng chưa ký kết chính thức"
 ],
 "a": 2,
-"e": "Khoản 1 Điều 8 TT 96/2020: chỉ được tạm hoãn vì lý do bất khả kháng như thiên tai, hỏa hoạn, chiến tranh, dịch bệnh; phải báo cáo UBCKNN, Sở giao dịch ngay khi xảy ra sự kiện, đồng thời công bố việc tạm hoãn, và công bố đầy đủ ngay sau khi khắc phục. Khi người đại diện theo pháp luật vắng mặt, người được ủy quyền hoặc thành viên giữ chức vụ cao nhất của Ban Điều hành thực hiện công bố (Điều 6).",
+"e": "Khoản 1 Điều 8 TT 96/2020: chỉ được tạm hoãn vì lý do bất khả kháng như thiên tai, hỏa hoạn, chiến tranh, dịch bệnh; phải báo cáo UBCKNN, Sở giao dịch ngay khi xảy ra sự kiện, đồng thời công bố việc tạm hoãn, và công bố đầy đủ ngay sau khi khắc phục (khoản 2). Lo ngại giá giảm hay hợp đồng chưa ký không phải lý do tạm hoãn. Người đại diện theo pháp luật vắng mặt thì người được ủy quyền công bố thông tin thực hiện; nếu cả hai đều vắng mặt, thành viên giữ chức vụ cao nhất của Ban Điều hành thay thế (điểm a khoản 1 Điều 6).",
 "basis": "Khoản 1 Điều 8 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)",
 "quote": "Đối tượng công bố thông tin được tạm hoãn công bố thông tin trong trường hợp vì những lý do bất khả kháng như: Thiên tai, hỏa hoạn, chiến tranh, dịch bệnh",
 "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
@@ -8494,7 +8494,7 @@
 ],
 "a": 0,
 "e": "Điểm n khoản 1 Điều 11: nhận quyết định khởi tố người nội bộ phải công bố bất thường trong 24 giờ. Khoản 7 Điều 7: nếu nghĩa vụ phát sinh vào ngày nghỉ, ngày lễ, tổ chức niêm yết (đối tượng tại khoản 4) công bố trên trang thông tin điện tử của mình (điểm a khoản 1) và thực hiện đầy đủ nghĩa vụ vào ngày làm việc liền sau. Ngày nghỉ không phải lý do bất khả kháng để tạm hoãn (Điều 8).",
-"basis": "Khoản 7 Điều 7, điểm n khoản 1 Điều 11 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)",
+"basis": "Khoản 7 Điều 7, điểm n khoản 1 Điều 11 Thông tư 96/2020/TT-BTC (hai quy định này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)",
 "quote": "đối tượng nêu tại khoản 3 và khoản 4 Điều này thực hiện công bố thông tin trên phương tiện quy định tại điểm a khoản 1 Điều này và thực hiện đầy đủ nghĩa vụ công bố thông tin theo quy định pháp luật vào ngày làm việc liền sau ngày nghỉ, ngày lễ.",
 "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
 "as_of": "2026-11"

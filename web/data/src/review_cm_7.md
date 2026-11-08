@@ -1,0 +1,17 @@
+# Review cm_7.json (second pass, 2026-11)
+
+42 questions reviewed. Every quote is verbatim in its src file, and the clause around it matches the basis (`work_review_c7/quotes.py`). All numbers and dates were recomputed independently (`work_review_c7/verify.py`). Near-duplicates were checked against questions.json and cm_6.json (`work_review_c7/dups.py`). The original file is backed up at `work_review_c7/cm_7.orig.json`; the edits are in `work_review_c7/edits.py`, plus a manual edit to C7-034.
+
+TT 96/2020 status: the TT 68/2024 text in the folder is empty (a scan), so it was checked on the web. Sources: Điều 4 TT 68/2024 on hethongphapluat.com; VBHN 10/VBHN-BTC/2026 on luatvietnam.vn; TT 08/2026 (English, in the folder) Điều 1–3. What changed: TT 68/2024 replaced Điều 5 (English disclosure roadmap) and amended Điều 25 khoản 8, Điều 33 khoản 1 điểm a, Điều 33 khoản 8 and two annexes. TT 18/2025 and TT 08/2026 amended only Điều 25 khoản 8, Điều 33 and Phụ lục XVII. The provisions C7 relies on (Điều 4, 6, 7, 8, 9, 11) are unamended. The circular that would replace TT 96 is still a draft (Sept 2026), so TT 96 as amended is current. All 42 original keys were correct.
+
+- C7-016: e did not explain why P falls outside the account-management exception → added that only CTCK may take discretionary individual accounts (Điều 19 TT 121) and P is neither a CTCK nor a fund manager.
+- C7-017: duplicated C1-047 (the four groups of client information under khoản 2 Điều 24 TT 121) → rewritten on the confidentiality duty, khoản 5 Điều 24 (exception only with client consent or as the law provides); quote, basis and e replaced.
+- C7-021: scenario duplicated C1-048 (retired Mrs H, capital preservation, covered warrants) → rewritten as a risk-disclosure case, khoản 4 Điều 24 TT 121: an experienced, risk-seeking client is told only the upside of a covered warrant; quote, basis and e replaced.
+- C7-023: e claimed the brokerage certificate covers advisory with no source → cites điểm a, d khoản 2 Điều 216 NĐ 155/2020 (not amended by NĐ 245/2025); basis extended.
+- C7-024 (mosaic): key could be argued if D had insider contact → stem now says D had no contact with insiders and no unpublished information from Q, and names the standard (Luật CK + professional ethics). Key kept.
+- C7-029: điểm e Điều 55 lets the issuer obtain ownership data, which made the key arguable → stem says the requester is not the issuer of H's securities; e corrected (the auditor exception covers audits of VSDC and member financial statements only).
+- C7-030: distractor "vốn của ngân hàng thanh toán theo hợp đồng với VSDC" could be argued from implementing rules not in the folder → replaced with an advance from the state budget; e adjusted.
+- C7-031: "tổng giá trị tiền phải chuyển" could be read as counting both directions (54 → 14) → stem now counts only the paying side; distractor 13 (a mixed error) → 40 (both directions counted), so the key 20 is no longer the largest value; e rewritten.
+- C7-034: a 3% holder could still be a related person of an insider (điểm h khoản 1 Điều 118) → option says the person is neither an insider nor a related person; two distractors lengthened (exact Điều 118 wording, "(VSDC)") so the key is no longer conspicuously long.
+- C7-036: e misstated điểm a khoản 1 Điều 6 (who stands in for the legal representative) → corrected order: authorised discloser first, then the most senior executive if both are absent.
+- C7-042: basis said "điều này" but cites two provisions → wording fixed.

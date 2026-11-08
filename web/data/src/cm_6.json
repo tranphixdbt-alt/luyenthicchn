@@ -105,7 +105,7 @@
   "subject": "CB",
   "topic": "Tổng quan về thị trường chứng khoán",
   "level": 2,
-  "q": "Giáo trình chia các chủ thể tham gia thị trường chứng khoán thành: tổ chức phát hành, nhà đầu tư, tổ chức kinh doanh chứng khoán và tổ chức có liên quan. Chủ thể nào sau đây thuộc nhóm tổ chức có liên quan?",
+  "q": "Giáo trình chia các chủ thể tham gia thị trường chứng khoán thành: tổ chức phát hành, nhà đầu tư, tổ chức kinh doanh chứng khoán và các tổ chức có liên quan đến thị trường chứng khoán. Chủ thể nào sau đây thuộc nhóm các tổ chức có liên quan đến thị trường chứng khoán?",
   "o": [
    "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
    "Công ty chứng khoán thực hiện môi giới và tự doanh",
@@ -113,7 +113,7 @@
    "Doanh nghiệp phát hành trái phiếu ra công chúng"
   ],
   "a": 0,
-  "e": "Tổ chức có liên quan gồm cơ quan quản lý nhà nước (UBCKNN), Sở giao dịch chứng khoán, tổ chức lưu ký và bù trừ, thanh toán (VSDC), hiệp hội nghề nghiệp, tổ chức xếp hạng tín nhiệm… Công ty chứng khoán, công ty quản lý quỹ là tổ chức kinh doanh chứng khoán; doanh nghiệp phát hành trái phiếu là tổ chức phát hành.",
+  "e": "Tổ chức có liên quan gồm cơ quan quản lý nhà nước (UBCKNN), Sở giao dịch chứng khoán, tổ chức lưu ký và bù trừ, thanh toán (VSDC), hiệp hội nghề nghiệp, tổ chức xếp hạng tín nhiệm… Công ty chứng khoán, công ty quản lý quỹ là tổ chức kinh doanh chứng khoán; doanh nghiệp phát hành trái phiếu là tổ chức phát hành. Lưu ý: đây là cách phân nhóm chủ thể của giáo trình, không phải khái niệm “người có liên quan” tại khoản 46 Điều 4 Luật Chứng khoán (quan hệ sở hữu, kiểm soát, gia đình… giữa các tổ chức, cá nhân).",
   "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Các chủ thể tham gia thị trường chứng khoán",
   "quote": "",
   "src": "",
@@ -185,7 +185,7 @@
   "subject": "CB",
   "topic": "Các công cụ tài chính trên thị trường chứng khoán",
   "level": 1,
-  "q": "Theo giáo trình và Luật Doanh nghiệp, cổ đông sở hữu cổ phần ưu đãi cổ tức thông thường KHÔNG có quyền nào sau đây?",
+  "q": "Theo Luật Doanh nghiệp 2020, trừ trường hợp Đại hội đồng cổ đông biểu quyết nghị quyết làm thay đổi bất lợi quyền của cổ đông ưu đãi, cổ đông sở hữu cổ phần ưu đãi cổ tức KHÔNG có quyền nào sau đây?",
   "o": [
    "Nhận cổ tức theo mức ưu đãi đã được xác định trong điều kiện phát hành",
    "Nhận lại phần tài sản còn lại tương ứng khi công ty giải thể, phá sản",
@@ -194,7 +194,7 @@
   ],
   "a": 3,
   "e": "Cổ phần ưu đãi cổ tức được trả cổ tức ở mức cao hơn hoặc ổn định hằng năm, được nhận lại tài sản còn lại khi giải thể, phá sản và được chuyển nhượng; đổi lại, cổ đông ưu đãi cổ tức không có quyền biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào Hội đồng quản trị, Ban kiểm soát (trừ trường hợp nghị quyết làm thay đổi bất lợi quyền của họ).",
-  "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi; Điều 117 Luật Doanh nghiệp 2020",
+  "basis": "Khoản 2, khoản 3 Điều 117 Luật Doanh nghiệp 2020; Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi",
   "quote": "",
   "src": "",
   "as_of": "2026-11"
@@ -268,12 +268,12 @@
   "q": "Trái phiếu chiết khấu (không trả lãi định kỳ), mệnh giá 100.000 đồng, còn đúng 3 năm đến ngày đáo hạn, đang được giao dịch với giá 79.383 đồng. Lợi suất đáo hạn của trái phiếu (lãi kép hằng năm) xấp xỉ:",
   "o": [
    "6,87%/năm",
+   "7,41%/năm",
    "7,66%/năm",
-   "8,00%/năm",
-   "8,66%/năm"
+   "8,00%/năm"
   ],
-  "a": 2,
-  "e": "YTM = (100.000 / 79.383)^(1/3) − 1 ≈ 8,00%/năm. 8,66% là lãi đơn bình quân chia cho giá mua, 6,87% là lãi đơn chia cho mệnh giá, 7,66% là công thức gần đúng dùng giá bình quân – các cách này bỏ qua lãi kép.",
+  "a": 3,
+  "e": "YTM = (100.000 / 79.383)^(1/3) − 1 = 1,2597^(1/3) − 1 ≈ 1,0800 − 1 = 8,00%/năm. 7,41% là lấy 1 − (79.383 / 100.000)^(1/3) (tỷ suất chiết khấu, không phải lợi suất); 6,87% là lãi đơn bình quân (20.617 / 3) chia mệnh giá; 7,66% là công thức gần đúng chia cho giá bình quân 89.691,5 – các cách này đều không phải lợi suất kép hằng năm.",
   "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chiết khấu (zero-coupon) và lợi suất đáo hạn",
   "quote": "",
   "src": "",
@@ -293,7 +293,7 @@
    "13,2 tỷ đồng"
   ],
   "a": 1,
-  "e": "Cổ tức ưu đãi mỗi năm = 2.000.000 × 10.000 × 9% = 1,8 tỷ đồng. Cổ phiếu ưu đãi tích lũy phải được trả đủ phần nợ 2024, 2025 và năm 2026 trước cổ đông phổ thông: 3 × 1,8 = 5,4 tỷ đồng. Còn lại cho cổ đông phổ thông: 15 − 5,4 = 9,6 tỷ đồng. 13,2 tỷ là cách tính như cổ phiếu ưu đãi không tích lũy; 5,4 tỷ là phần trả cho cổ đông ưu đãi.",
+  "e": "Cổ tức ưu đãi mỗi năm = 2.000.000 × 10.000 × 9% = 1,8 tỷ đồng. Cổ phiếu ưu đãi tích lũy phải được trả đủ phần nợ 2024, 2025 và năm 2026 trước cổ đông phổ thông: 3 × 1,8 = 5,4 tỷ đồng. Còn lại cho cổ đông phổ thông: 15 − 5,4 = 9,6 tỷ đồng. 13,2 tỷ là cách tính như cổ phiếu ưu đãi không tích lũy (chỉ trả 1,8 tỷ của năm 2026); 11,4 tỷ là chỉ trả phần nợ 2024, 2025 mà quên cổ tức ưu đãi năm 2026; 5,4 tỷ là phần trả cho cổ đông ưu đãi.",
   "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi cổ tức tích lũy và không tích lũy",
   "quote": "",
   "src": "",
@@ -307,13 +307,13 @@
   "level": 3,
   "q": "Trái phiếu chuyển đổi mệnh giá 100.000 đồng, mỗi trái phiếu được chuyển đổi thành 5 cổ phiếu phổ thông. Giá thị trường hiện tại của trái phiếu là 115.000 đồng, của cổ phiếu là 21.000 đồng. Giá chuyển đổi ngang giá (mức giá cổ phiếu mà tại đó giá trị chuyển đổi bằng giá thị trường của trái phiếu) là:",
   "o": [
+   "18.261 đồng",
    "20.000 đồng",
    "21.000 đồng",
-   "23.000 đồng",
-   "24.150 đồng"
+   "23.000 đồng"
   ],
-  "a": 2,
-  "e": "Giá chuyển đổi ngang giá = giá thị trường trái phiếu / tỷ lệ chuyển đổi = 115.000 / 5 = 23.000 đồng. 20.000 đồng là giá chuyển đổi danh nghĩa (mệnh giá / tỷ lệ chuyển đổi). Giá trị chuyển đổi hiện tại = 5 × 21.000 = 105.000 đồng < 115.000 đồng, nên giá cổ phiếu phải tăng lên 23.000 đồng thì chuyển đổi mới hòa vốn.",
+  "a": 3,
+  "e": "Giá chuyển đổi ngang giá = giá thị trường trái phiếu / tỷ lệ chuyển đổi = 115.000 / 5 = 23.000 đồng. Giá trị chuyển đổi hiện tại = 5 × 21.000 = 105.000 đồng < 115.000 đồng, nên giá cổ phiếu phải tăng lên 23.000 đồng thì chuyển đổi mới hòa vốn. 20.000 đồng là giá chuyển đổi danh nghĩa (mệnh giá / tỷ lệ chuyển đổi); 21.000 đồng là giá cổ phiếu hiện tại; 18.261 đồng là nhân nhầm giá cổ phiếu với tỷ số mệnh giá/giá trái phiếu (21.000 × 100.000 / 115.000).",
   "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chuyển đổi: tỷ lệ chuyển đổi, giá trị chuyển đổi, giá chuyển đổi ngang giá",
   "quote": "",
   "src": "",
@@ -433,7 +433,7 @@
    "80.000 cổ phiếu"
   ],
   "a": 2,
-  "e": "Khoản 2 Điều 26: khi đăng ký mua vượt số được phép phát hành, phải phân phối hết cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua. Tỷ lệ phân phối = 6.000.000 / 9.600.000 = 62,5%; A được 80.000 × 62,5% = 50.000 cổ phiếu (30.000 cổ phiếu còn lại được hoàn tiền). 48.000 là dùng nhầm tỷ lệ 60%.",
+  "e": "Khoản 2 Điều 26: khi đăng ký mua vượt số được phép phát hành, phải phân phối hết cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua. Tỷ lệ phân phối = 6.000.000 / 9.600.000 = 62,5%; A được 80.000 × 62,5% = 50.000 cổ phiếu (30.000 cổ phiếu còn lại được hoàn tiền). 48.000 là dùng nhầm tỷ lệ đăng ký vượt (9,6 − 6) / 6 = 60% làm tỷ lệ phân phối; 80.000 là bỏ qua việc phân phối theo tỷ lệ.",
   "basis": "Khoản 2 Điều 26 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)",
   "quote": "Trường hợp số lượng chứng khoán đăng ký mua vượt quá số lượng chứng khoán được phép phát hành thì tổ chức phát hành hoặc tổ chức bảo lãnh phát hành phải phân phối hết số chứng khoán được phép phát hành cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua của từng nhà đầu tư.",
   "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -453,7 +453,7 @@
    "51,00 tỷ đồng"
   ],
   "a": 2,
-  "e": "A trúng 600.000 × 25.500 = 15,3 tỷ; B trúng 800.000 × 25.200 = 20,16 tỷ; còn 600.000 cổ phần cho C ở giá 25.000 = 15,0 tỷ; D không trúng. Tổng = 50,46 tỷ đồng. 50,00 tỷ là tính theo một giá thống nhất 25.000 đồng (kiểu đấu giá Hà Lan), 49,00 tỷ là tính theo giá khởi điểm.",
+  "e": "A trúng 600.000 × 25.500 = 15,3 tỷ; B trúng 800.000 × 25.200 = 20,16 tỷ; còn 600.000 cổ phần cho C ở giá 25.000 = 15,0 tỷ; D không trúng. Tổng = 50,46 tỷ đồng. 50,00 tỷ là tính theo một giá thống nhất 25.000 đồng (kiểu đấu giá Hà Lan), 49,00 tỷ là tính theo giá khởi điểm; 51,00 tỷ là tính toàn bộ 2.000.000 cổ phần theo giá đặt cao nhất 25.500 đồng.",
   "basis": "Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Phương thức đấu giá trong phát hành chứng khoán (đấu giá theo giá đặt mua và đấu giá theo giá thống nhất)",
   "quote": "",
   "src": "",
@@ -707,10 +707,10 @@
   "level": 2,
   "q": "Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), giao dịch nào sau đây của công ty chứng khoán KHÔNG được coi là tự doanh chứng khoán?",
   "o": [
-   "Mua cổ phiếu niêm yết cho tài khoản của chính công ty",
-   "Mua bán lại trái phiếu niêm yết trên tài khoản của công ty",
+   "Mua cổ phiếu niêm yết của doanh nghiệp khác cho chính công ty",
+   "Bán trái phiếu Chính phủ thuộc danh mục đầu tư của công ty",
    "Bán chứng chỉ quỹ ETF trong danh mục đầu tư của công ty",
-   "Mua, bán chứng khoán do sửa lỗi sau giao dịch"
+   "Mua, bán chứng khoán phát sinh do sửa lỗi sau giao dịch"
   ],
   "a": 3,
   "e": "Khoản 3 Điều 22 Thông tư 121/2020/TT-BTC: mua, bán chứng khoán do sửa lỗi sau giao dịch và mua, bán cổ phiếu của chính mình không được coi là tự doanh. Các giao dịch mua, bán chứng khoán cho chính công ty còn lại là tự doanh (khoản 30 Điều 4 Luật Chứng khoán).",
@@ -725,16 +725,16 @@
   "subject": "CB",
   "topic": "Công ty chứng khoán",
   "level": 2,
-  "q": "Công ty chứng khoán P đang nắm giữ 12% vốn điều lệ của công ty cổ phần Q. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), P KHÔNG được cung cấp dịch vụ nào sau đây cho Q?",
+  "q": "Công ty chứng khoán K nắm giữ đúng 10% vốn điều lệ của công ty cổ phần D; D chuẩn bị chào bán cổ phiếu lần đầu ra công chúng và niêm yết. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), K được cung cấp cho D dịch vụ nào sau đây?",
   "o": [
-   "Tư vấn hồ sơ chào bán và niêm yết chứng khoán của Q",
-   "Mở tài khoản và môi giới giao dịch chứng khoán cho Q",
-   "Lưu ký chứng khoán cho Q với tư cách thành viên lưu ký",
-   "Cung cấp dịch vụ giao dịch chứng khoán trực tuyến cho Q"
+   "Mở tài khoản và môi giới giao dịch chứng khoán cho D",
+   "Tư vấn lập hồ sơ chào bán cổ phiếu lần đầu ra công chúng của D",
+   "Tư vấn lập hồ sơ đăng ký niêm yết cổ phiếu của D",
+   "Tư vấn xác định giá trị doanh nghiệp D trước đợt chào bán"
   ],
   "a": 0,
-  "e": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC: CTCK không được tư vấn chào bán, tư vấn niêm yết, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ (khoản 7 Điều 24 cũng cấm tư vấn đầu tư chứng khoán cho công ty này). Các dịch vụ môi giới, lưu ký, giao dịch trực tuyến không bị cấm.",
-  "basis": "Khoản 2 Điều 25, khoản 7 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
+  "e": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC: CTCK không được tư vấn chào bán, tư vấn niêm yết, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ – mức đúng 10% đã thuộc diện cấm, nên ba dịch vụ tư vấn đều bị cấm. Mở tài khoản, môi giới giao dịch cho D không bị hạn chế (khoản 7 Điều 24 còn cấm tư vấn đầu tư chứng khoán cho công ty này).",
+  "basis": "Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
   "quote": "Công ty chứng khoán không được cung cấp dịch vụ tư vấn chào bán, tư vấn niêm yết chứng khoán, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ.",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
   "as_of": "2026-11"
@@ -767,13 +767,13 @@
   "level": 3,
   "q": "Công ty chứng khoán G có vốn chủ sở hữu 1.000 tỷ đồng, đang nắm giữ 500.000 cổ phiếu của công ty niêm yết X. X có 12.000.000 cổ phiếu đang lưu hành, giá thị trường 60.000 đồng/cổ phiếu (khoản đầu tư hiện tại vào X tính theo giá này). Giả định các hạn mức đầu tư khác của G chưa bị chạm tới. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), số cổ phiếu X tối đa G có thể mua thêm là:",
   "o": [
-   "1.300.000 cổ phiếu",
    "1.900.000 cổ phiếu",
    "2.000.000 cổ phiếu",
-   "2.400.000 cổ phiếu"
+   "2.400.000 cổ phiếu",
+   "2.500.000 cổ phiếu"
   ],
-  "a": 1,
-  "e": "Hạn mức 1 (điểm c khoản 4 Điều 28): không quá 20% số cổ phiếu đang lưu hành của tổ chức niêm yết = 2.400.000 cổ phiếu → được mua thêm 1.900.000. Hạn mức 2 (điểm e): không quá 15% vốn chủ sở hữu vào một tổ chức = 150 tỷ đồng → (150 − 30) tỷ / 60.000 = 2.000.000 cổ phiếu. Lấy mức nhỏ hơn: 1.900.000 cổ phiếu. 1.300.000 là dùng nhầm hạn mức 15% áp dụng cho tổ chức chưa niêm yết.",
+  "a": 0,
+  "e": "Hạn mức 1 (điểm c khoản 4 Điều 28): không quá 20% số cổ phiếu đang lưu hành của tổ chức niêm yết = 2.400.000 cổ phiếu → được mua thêm 2.400.000 − 500.000 = 1.900.000. Hạn mức 2 (điểm e): không quá 15% vốn chủ sở hữu vào một tổ chức = 150 tỷ đồng; đang đầu tư 500.000 × 60.000 = 30 tỷ → (150 − 30) tỷ / 60.000 = 2.000.000 cổ phiếu. Lấy mức nhỏ hơn: 1.900.000 cổ phiếu. 2.400.000 và 2.500.000 là quên trừ 500.000 cổ phiếu đang nắm giữ ở từng hạn mức; 2.000.000 là chỉ xét hạn mức 15% vốn chủ sở hữu.",
   "basis": "Điểm c, điểm e khoản 4 Điều 28 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)",
   "quote": "Đầu tư quá 20% tổng số cổ phiếu, chứng chỉ quỹ đang lưu hành của một tổ chức niêm yết;",
   "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
@@ -793,8 +793,8 @@
    "100 tỷ đồng"
   ],
   "a": 0,
-  "e": "Tổng giá trị rủi ro = 150 + 60 + 50 = 260 tỷ đồng (tỷ lệ hiện tại ≈ 207,7%). Để tỷ lệ = vốn khả dụng / tổng giá trị rủi ro ≥ 180% thì tổng giá trị rủi ro ≤ 540 / 1,8 = 300 tỷ đồng → tăng thêm tối đa 40 tỷ đồng. 100 tỷ là dùng nhầm mốc 150%; 90 tỷ là quên rủi ro hoạt động; 72 tỷ là nhân chênh lệch tỷ lệ với tổng rủi ro hiện tại.",
-  "basis": "Khoản 5, khoản 7 Điều 2 và khoản 1 Điều 11 Thông tư 91/2020/TT-BTC (các khoản này không bị Thông tư 102/2025/TT-BTC sửa đổi); mốc 180% là giả định của đề",
+  "e": "Tổng giá trị rủi ro = 150 + 60 + 50 = 260 tỷ đồng (tỷ lệ hiện tại ≈ 207,7%). Để tỷ lệ = vốn khả dụng / tổng giá trị rủi ro ≥ 180% thì tổng giá trị rủi ro ≤ 540 / 1,8 = 300 tỷ đồng → tăng thêm tối đa 40 tỷ đồng. 100 tỷ là dùng nhầm mốc 150%; 90 tỷ là quên rủi ro hoạt động; 72 tỷ là nhân chênh lệch tỷ lệ với tổng rủi ro hiện tại. (180% cũng là ngưỡng mà dưới đó CTCK phải báo cáo bất thường theo khoản 2 Điều 12 Thông tư 91/2020/TT-BTC.)",
+  "basis": "Khoản 5, khoản 7 Điều 2 và khoản 1 Điều 11 Thông tư 91/2020/TT-BTC (không bị Thông tư 102/2025/TT-BTC sửa đổi; Phụ lục V, VI thay thế bởi Thông tư 102/2025/TT-BTC vẫn tính Tổng giá trị rủi ro = 1+2+3 và Tỷ lệ vốn khả dụng = 5/4); mốc 180% là mục tiêu giả định của đề",
   "quote": "Tổng giá trị rủi ro là tổng các giá trị rủi ro thị trường, giá trị rủi ro thanh toán và giá trị rủi ro hoạt động.",
   "src": "TT_91_2020_TT-BTC_Cong_bao.txt",
   "as_of": "2026-11"
