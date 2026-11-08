@@ -7688,7 +7688,7 @@
 "q": "Xét theo cơ cấu tổ chức, quỹ đầu tư có thể là một pháp nhân, nhà đầu tư góp vốn trở thành cổ đông và bầu ra Hội đồng quản trị để giám sát việc đầu tư. Theo Luật Chứng khoán, mô hình quỹ này ở Việt Nam là:",
 "o": [
 "Công ty đầu tư chứng khoán",
-"Quỹ mở dạng hợp đồng",
+"Quỹ mở tổ chức theo dạng hợp đồng",
 "Quỹ thành viên góp vốn theo hợp đồng",
 "Công ty quản lý quỹ đầu tư chứng khoán"
 ],
@@ -7907,7 +7907,7 @@
 "level": 2,
 "q": "Giả sử Sở giao dịch chứng khoán Việt Nam dự kiến đưa vào vận hành một hệ thống giao dịch mới, đồng thời áp dụng một phương thức giao dịch mới. Theo Luật Chứng khoán, chủ thể có thẩm quyền chấp thuận các nội dung này là:",
 "o": [
-"Hội đồng quản trị Sở giao dịch chứng khoán Việt Nam",
+"Hội đồng quản trị Sở giao dịch chứng khoán",
 "Thủ tướng Chính phủ",
 "Ngân hàng Nhà nước Việt Nam",
 "Ủy ban Chứng khoán Nhà nước"
@@ -7948,7 +7948,7 @@
 "q": "Trong 10 phiên liên tiếp, nhà đầu tư K dùng tài khoản của chính mình liên tục đặt mua cổ phiếu X với khối lượng chi phối vào thời điểm đóng cửa thị trường, làm giá đóng cửa của X luôn cao hơn hẳn mức giá giao dịch trong ngày; K không tung tin hay bình luận gì về X. Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), hành vi của K:",
 "o": [
 "Không vi phạm, vì K chỉ dùng tài khoản của chính mình và không đưa ra thông tin sai lệch",
-"Là thao túng thị trường chứng khoán, vì mua liên tục với khối lượng chi phối lúc đóng cửa để thao túng giá",
+"Là thao túng thị trường, do liên tục mua với khối lượng chi phối lúc đóng cửa để tác động giá",
 "Chỉ vi phạm nếu K đồng thời bán ra trong ngày mà không chuyển nhượng thực sự quyền sở hữu",
 "Là sử dụng thông tin nội bộ, vì K tác động đáng kể đến giá đóng cửa của cổ phiếu X"
 ],
@@ -8049,7 +8049,7 @@
 "o": [
 "Không vi phạm, vì báo cáo gốc đã công bố công khai nên không còn là thông tin cần bảo mật",
 "Không vi phạm, nếu khuyến nghị cuối cùng của A khác với khuyến nghị trong báo cáo gốc",
-"Vi phạm, vì báo cáo phân tích phải ghi rõ nguồn trích dẫn số liệu và người chịu trách nhiệm nội dung",
+"Vi phạm, vì báo cáo phải ghi rõ nguồn trích dẫn số liệu và người chịu trách nhiệm nội dung",
 "Chỉ vi phạm khi báo cáo được bán có thu phí, còn báo cáo gửi miễn phí thì được phép"
 ],
 "a": 2,
@@ -8087,7 +8087,7 @@
 "level": 2,
 "q": "Chuyên viên phân tích C đang hoàn thiện báo cáo khuyến nghị “Bán” cổ phiếu Z. Bộ phận tư vấn tài chính doanh nghiệp của công ty, đang đàm phán hợp đồng tư vấn phát hành với Z, đề nghị C nâng khuyến nghị lên “Mua”. Cách xử lý phù hợp với chuẩn mực độc lập, khách quan là:",
 "o": [
-"Giữ khuyến nghị theo kết quả phân tích và báo cáo việc bị gây áp lực cho bộ phận kiểm soát tuân thủ",
+"Giữ khuyến nghị theo kết quả phân tích, báo cáo việc bị gây áp lực cho bộ phận tuân thủ",
 "Nâng khuyến nghị lên “Mua” vì lợi ích chung của công ty quan trọng hơn ý kiến của cá nhân",
 "Trì hoãn phát hành báo cáo cho đến khi hợp đồng tư vấn với Z được ký kết xong",
 "Gửi bản nháp cho Z để Z quyết định nội dung khuyến nghị trước khi phát hành"
@@ -8129,7 +8129,7 @@
 "o": [
 "Vi phạm, vì kết luận về doanh thu chưa công bố của Q là thông tin nội bộ bị cấm sử dụng",
 "Vi phạm, vì chuyên viên phải xin ý kiến của Q trước khi đưa ra khuyến nghị bán cổ phiếu",
-"Được phép, vì kết luận được rút ra từ việc phân tích tổng hợp thông tin công khai và quan sát hợp pháp",
+"Được phép, vì kết luận rút ra từ phân tích tổng hợp thông tin công khai và quan sát hợp pháp",
 "Chỉ được phép nếu D chờ đến sau ngày Q công bố báo cáo tài chính quý tới mới khuyến nghị"
 ],
 "a": 2,
@@ -8390,7 +8390,7 @@
 "Công ty hoàn thành báo cáo tình hình quản trị công ty 06 tháng đầu năm",
 "Công ty hoàn thành báo cáo tài chính quý theo kỳ kế toán thông thường",
 "Công ty hoàn thành báo cáo thường niên của năm tài chính trước",
-"Hội đồng quản trị quyết định mức cổ tức, hình thức và thời gian trả cổ tức"
+"Công ty quyết định mức cổ tức, hình thức và thời gian trả cổ tức"
 ],
 "a": 3,
 "e": "Điểm đ khoản 1 Điều 11 TT 96/2020: quyết định về mức cổ tức, hình thức trả cổ tức, thời gian trả cổ tức là sự kiện công bố thông tin bất thường trong 24 giờ. Báo cáo tình hình quản trị (30 ngày từ khi kết thúc 06 tháng, Điều 10), báo cáo tài chính quý và báo cáo thường niên là thông tin định kỳ với thời hạn riêng.",
@@ -8449,7 +8449,7 @@
 "o": [
 "Trang thông tin điện tử của công ty và một tờ báo in phát hành toàn quốc trong 03 số liên tiếp",
 "Hệ thống công bố thông tin của UBCKNN và trang thông tin điện tử của VSDC",
-"Trang thông tin điện tử của công ty, hệ thống công bố thông tin của UBCKNN và phương tiện của Sở giao dịch",
+"Trang điện tử của công ty, hệ thống công bố thông tin của UBCKNN và của Sở giao dịch",
 "Chỉ trang thông tin điện tử của Sở giao dịch nơi niêm yết, không cần trang của công ty"
 ],
 "a": 2,
@@ -8465,7 +8465,7 @@
 "subject": "CB",
 "topic": "Công bố thông tin trên thị trường chứng khoán",
 "level": 3,
-"q": "Hội đồng quản trị công ty niêm yết S quyết định trả cổ tức bằng tiền, ngày đăng ký cuối cùng dự kiến là Thứ Năm, 26/11/2026 (không nhằm mục đích họp Đại hội đồng cổ đông). Coi thời hạn “tối thiểu n ngày trước” là ngày đăng ký cuối cùng trừ đi n ngày dương lịch. Theo Thông tư 96/2020/TT-BTC, ngày muộn nhất S phải công bố thông tin về ngày đăng ký cuối cùng dự kiến là:",
+"q": "Hội đồng quản trị công ty niêm yết S quyết định chi trả cổ tức bằng tiền theo nghị quyết Đại hội đồng cổ đông, ngày đăng ký cuối cùng dự kiến là Thứ Năm, 26/11/2026 (không nhằm mục đích họp Đại hội đồng cổ đông). Coi thời hạn “tối thiểu n ngày trước” là ngày đăng ký cuối cùng trừ đi n ngày dương lịch. Theo Thông tư 96/2020/TT-BTC, ngày muộn nhất S phải công bố thông tin về ngày đăng ký cuối cùng dự kiến là:",
 "o": [
 "Thứ Sáu, 06/11/2026",
 "Thứ Năm, 12/11/2026",
@@ -8487,7 +8487,7 @@
 "level": 3,
 "q": "Chủ nhật, 15/11/2026, công ty niêm yết V nhận được quyết định khởi tố đối với Tổng giám đốc của công ty (sự kiện phải công bố thông tin bất thường trong 24 giờ). Theo Thông tư 96/2020/TT-BTC, V phải thực hiện như thế nào?",
 "o": [
-"Công bố trên trang thông tin điện tử của công ty, rồi thực hiện đầy đủ nghĩa vụ công bố vào Thứ Hai, 16/11/2026",
+"Công bố trên trang điện tử của công ty, rồi thực hiện đầy đủ nghĩa vụ vào Thứ Hai, 16/11/2026",
 "Chưa phải công bố gì; chỉ công bố trên mọi phương tiện trong 24 giờ kể từ đầu giờ làm việc Thứ Hai",
 "Phải công bố đồng thời trên trang của công ty, UBCKNN và Sở giao dịch ngay trong ngày Chủ nhật",
 "Được tạm hoãn công bố vì sự kiện phát sinh vào ngày nghỉ, cho đến khi có kết luận điều tra"

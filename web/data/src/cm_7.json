@@ -28,7 +28,7 @@
   "q": "Xét theo cơ cấu tổ chức, quỹ đầu tư có thể là một pháp nhân, nhà đầu tư góp vốn trở thành cổ đông và bầu ra Hội đồng quản trị để giám sát việc đầu tư. Theo Luật Chứng khoán, mô hình quỹ này ở Việt Nam là:",
   "o": [
    "Công ty đầu tư chứng khoán",
-   "Quỹ mở dạng hợp đồng",
+   "Quỹ mở tổ chức theo dạng hợp đồng",
    "Quỹ thành viên góp vốn theo hợp đồng",
    "Công ty quản lý quỹ đầu tư chứng khoán"
   ],
@@ -247,7 +247,7 @@
   "level": 2,
   "q": "Giả sử Sở giao dịch chứng khoán Việt Nam dự kiến đưa vào vận hành một hệ thống giao dịch mới, đồng thời áp dụng một phương thức giao dịch mới. Theo Luật Chứng khoán, chủ thể có thẩm quyền chấp thuận các nội dung này là:",
   "o": [
-   "Hội đồng quản trị Sở giao dịch chứng khoán Việt Nam",
+   "Hội đồng quản trị Sở giao dịch chứng khoán",
    "Thủ tướng Chính phủ",
    "Ủy ban Chứng khoán Nhà nước",
    "Ngân hàng Nhà nước Việt Nam"
@@ -290,7 +290,7 @@
    "Không vi phạm, vì K chỉ dùng tài khoản của chính mình và không đưa ra thông tin sai lệch",
    "Chỉ vi phạm nếu K đồng thời bán ra trong ngày mà không chuyển nhượng thực sự quyền sở hữu",
    "Là sử dụng thông tin nội bộ, vì K tác động đáng kể đến giá đóng cửa của cổ phiếu X",
-   "Là thao túng thị trường chứng khoán, vì mua liên tục với khối lượng chi phối lúc đóng cửa để thao túng giá"
+   "Là thao túng thị trường, do liên tục mua với khối lượng chi phối lúc đóng cửa để tác động giá"
   ],
   "a": 3,
   "e": "Điểm c khoản 49 Điều 4 (bổ sung bởi Luật 56/2024/QH15) xác định thao túng thị trường gồm hành vi liên tục mua hoặc bán chứng khoán với khối lượng chi phối vào thời điểm mở cửa hoặc đóng cửa thị trường nhằm thao túng giá; khoản 3 Điều 12 cấm hành vi thao túng. Hành vi này không đòi hỏi dùng tài khoản người khác hay tung tin; giao dịch không chuyển nhượng thực sự quyền sở hữu là một dạng thao túng khác (điểm b); K không sử dụng thông tin nội bộ.",
@@ -387,7 +387,7 @@
   "level": 2,
   "q": "Chuyên viên phân tích A sao chép gần như nguyên văn số liệu và lập luận từ báo cáo của một công ty chứng khoán khác vào báo cáo phát hành dưới tên mình, không ghi nguồn. Theo Thông tư 121/2020/TT-BTC và chuẩn mực đạo đức nghề nghiệp, nhận định nào đúng?",
   "o": [
-   "Vi phạm, vì báo cáo phân tích phải ghi rõ nguồn trích dẫn số liệu và người chịu trách nhiệm nội dung",
+   "Vi phạm, vì báo cáo phải ghi rõ nguồn trích dẫn số liệu và người chịu trách nhiệm nội dung",
    "Không vi phạm, vì báo cáo gốc đã công bố công khai nên không còn là thông tin cần bảo mật",
    "Không vi phạm, nếu khuyến nghị cuối cùng của A khác với khuyến nghị trong báo cáo gốc",
    "Chỉ vi phạm khi báo cáo được bán có thu phí, còn báo cáo gửi miễn phí thì được phép"
@@ -429,7 +429,7 @@
   "o": [
    "Nâng khuyến nghị lên “Mua” vì lợi ích chung của công ty quan trọng hơn ý kiến của cá nhân",
    "Trì hoãn phát hành báo cáo cho đến khi hợp đồng tư vấn với Z được ký kết xong",
-   "Giữ khuyến nghị theo kết quả phân tích và báo cáo việc bị gây áp lực cho bộ phận kiểm soát tuân thủ",
+   "Giữ khuyến nghị theo kết quả phân tích, báo cáo việc bị gây áp lực cho bộ phận tuân thủ",
    "Gửi bản nháp cho Z để Z quyết định nội dung khuyến nghị trước khi phát hành"
   ],
   "a": 2,
@@ -467,7 +467,7 @@
   "level": 3,
   "q": "Chuyên viên phân tích D tổng hợp báo cáo tài chính đã công bố của công ty niêm yết Q, số liệu xuất khẩu ngành do cơ quan thống kê công bố và quan sát trực tiếp lượng xe tải ra vào nhà máy của Q từ đường công cộng; từ đó kết luận doanh thu quý tới của Q sẽ giảm mạnh và đưa ra khuyến nghị bán. Nhận định nào sau đây đúng?",
   "o": [
-   "Được phép, vì kết luận được rút ra từ việc phân tích tổng hợp thông tin công khai và quan sát hợp pháp",
+   "Được phép, vì kết luận rút ra từ phân tích tổng hợp thông tin công khai và quan sát hợp pháp",
    "Vi phạm, vì kết luận về doanh thu chưa công bố của Q là thông tin nội bộ bị cấm sử dụng",
    "Vi phạm, vì chuyên viên phải xin ý kiến của Q trước khi đưa ra khuyến nghị bán cổ phiếu",
    "Chỉ được phép nếu D chờ đến sau ngày Q công bố báo cáo tài chính quý tới mới khuyến nghị"
@@ -728,7 +728,7 @@
   "q": "Theo Thông tư 96/2020/TT-BTC, sự kiện nào sau đây công ty đại chúng phải công bố thông tin bất thường trong thời hạn 24 giờ?",
   "o": [
    "Công ty hoàn thành báo cáo tình hình quản trị công ty 06 tháng đầu năm",
-   "Hội đồng quản trị quyết định mức cổ tức, hình thức và thời gian trả cổ tức",
+   "Công ty quyết định mức cổ tức, hình thức và thời gian trả cổ tức",
    "Công ty hoàn thành báo cáo tài chính quý theo kỳ kế toán thông thường",
    "Công ty hoàn thành báo cáo thường niên của năm tài chính trước"
   ],
@@ -787,7 +787,7 @@
   "level": 2,
   "q": "Theo Thông tư 96/2020/TT-BTC, tổ chức niêm yết cổ phiếu phải thực hiện công bố thông tin, báo cáo trên những phương tiện nào?",
   "o": [
-   "Trang thông tin điện tử của công ty, hệ thống công bố thông tin của UBCKNN và phương tiện của Sở giao dịch",
+   "Trang điện tử của công ty, hệ thống công bố thông tin của UBCKNN và của Sở giao dịch",
    "Trang thông tin điện tử của công ty và một tờ báo in phát hành toàn quốc trong 03 số liên tiếp",
    "Hệ thống công bố thông tin của UBCKNN và trang thông tin điện tử của VSDC",
    "Chỉ trang thông tin điện tử của Sở giao dịch nơi niêm yết, không cần trang của công ty"
@@ -805,7 +805,7 @@
   "subject": "CB",
   "topic": "Công bố thông tin trên thị trường chứng khoán",
   "level": 3,
-  "q": "Hội đồng quản trị công ty niêm yết S quyết định trả cổ tức bằng tiền, ngày đăng ký cuối cùng dự kiến là Thứ Năm, 26/11/2026 (không nhằm mục đích họp Đại hội đồng cổ đông). Coi thời hạn “tối thiểu n ngày trước” là ngày đăng ký cuối cùng trừ đi n ngày dương lịch. Theo Thông tư 96/2020/TT-BTC, ngày muộn nhất S phải công bố thông tin về ngày đăng ký cuối cùng dự kiến là:",
+  "q": "Hội đồng quản trị công ty niêm yết S quyết định chi trả cổ tức bằng tiền theo nghị quyết Đại hội đồng cổ đông, ngày đăng ký cuối cùng dự kiến là Thứ Năm, 26/11/2026 (không nhằm mục đích họp Đại hội đồng cổ đông). Coi thời hạn “tối thiểu n ngày trước” là ngày đăng ký cuối cùng trừ đi n ngày dương lịch. Theo Thông tư 96/2020/TT-BTC, ngày muộn nhất S phải công bố thông tin về ngày đăng ký cuối cùng dự kiến là:",
   "o": [
    "Thứ Sáu, 06/11/2026",
    "Thứ Năm, 12/11/2026",
@@ -828,7 +828,7 @@
   "q": "Chủ nhật, 15/11/2026, công ty niêm yết V nhận được quyết định khởi tố đối với Tổng giám đốc của công ty (sự kiện phải công bố thông tin bất thường trong 24 giờ). Theo Thông tư 96/2020/TT-BTC, V phải thực hiện như thế nào?",
   "o": [
    "Chưa phải công bố gì; chỉ công bố trên mọi phương tiện trong 24 giờ kể từ đầu giờ làm việc Thứ Hai",
-   "Công bố trên trang thông tin điện tử của công ty, rồi thực hiện đầy đủ nghĩa vụ công bố vào Thứ Hai, 16/11/2026",
+   "Công bố trên trang điện tử của công ty, rồi thực hiện đầy đủ nghĩa vụ vào Thứ Hai, 16/11/2026",
    "Phải công bố đồng thời trên trang của công ty, UBCKNN và Sở giao dịch ngay trong ngày Chủ nhật",
    "Được tạm hoãn công bố vì sự kiện phát sinh vào ngày nghỉ, cho đến khi có kết luận điều tra"
   ],
