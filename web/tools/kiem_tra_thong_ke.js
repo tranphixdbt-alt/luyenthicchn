@@ -10,7 +10,7 @@ const call = (h, method, body, ip = '1.2.3.4') => new Promise(done => {
   const off = require(API);
   assert.strictEqual((await call(off, 'GET')).body.off, true, 'chưa có kho thì báo tắt');
   assert.strictEqual((await call(off, 'POST', { a: [['L1-001', 1]] })).code, 204, 'chưa có kho thì POST bỏ qua êm');
-  delete require.cache[require.resolve(API)];
+  for (const k of Object.keys(require.cache)) if (k.includes('/api/')) delete require.cache[k];   // nạp lại cả _db.js để đọc biến mới
   const srv = spawn('redis-server', ['--port', String(PORT), '--save', '', '--appendonly', 'no'], { stdio: 'ignore' });
   await new Promise(r => setTimeout(r, 400));
   process.env.STORAGE_REDIS_URL = 'redis://127.0.0.1:' + PORT;   // tiền tố tùy ý vẫn phải nhận

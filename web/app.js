@@ -59,7 +59,45 @@ let saveWarned = false;
 function save() {
   try { localStorage.setItem(KEY, JSON.stringify(S)); }
   catch { if (!saveWarned) { saveWarned = true; toast('Trình duyệt không cho lưu tiến độ. Hãy dùng Cài đặt → Sao lưu để giữ kết quả.'); } }
+  if (AUTH) { clearTimeout(save.t); save.t = setTimeout(syncNow, 4000); }   // có tài khoản: đẩy lên máy chủ sau 4 giây yên lặng
 }
+
+// ---------- tài khoản (không bắt buộc): đồng bộ tiến độ qua /api/tai-khoan ----------
+const AUTH_KEY = 'btinvest_auth';
+let AUTH = null, lastSync = 0;
+try { AUTH = JSON.parse(localStorage.getItem(AUTH_KEY)); } catch { /* không có bộ nhớ */ }
+const setAuth = a => { AUTH = a; try { a ? localStorage.setItem(AUTH_KEY, JSON.stringify(a)) : localStorage.removeItem(AUTH_KEY); } catch { /* bỏ qua */ } };
+const syncData = () => ({ q: S.q, star: S.star, hist: S.hist, cards: S.cards, prefs: S.prefs });
+function adopt(d) {   // nhận bản đã gộp từ máy chủ; ghi thẳng localStorage để không kích hoạt đồng bộ lần nữa
+  if (!d) return;
+  Object.assign(S, { q: d.q || {}, star: d.star || {}, hist: d.hist || [], cards: d.cards || {}, prefs: { ...S.prefs, ...(d.prefs || {}) } });
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch { /* bỏ qua */ }
+}
+async function api(a, body = {}, extra = {}) {
+  let r;
+  try {
+    r = await fetch('/api/tai-khoan', { method: 'POST', headers: { 'content-type': 'application/json', ...(AUTH ? { authorization: 'Bearer ' + AUTH.token } : {}), ...extra }, body: JSON.stringify({ a, ...body }) });
+  } catch { throw new Error('Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.'); }
+  const j = await r.json().catch(() => ({}));
+  if (r.status === 401 && AUTH && a !== 'xoa' && !extra['x-admin-key']) { setAuth(null); renderAcct(); }
+  if (!r.ok) throw new Error(j.error || 'Có lỗi, hãy thử lại.');
+  return j;
+}
+async function syncNow() {
+  if (!AUTH) return;
+  try { const j = await api('luu', { data: syncData() }); adopt(j.data); AUTH.user = j.user; setAuth(AUTH); lastSync = j.at; renderAcct(); }
+  catch { /* mất mạng: lần lưu sau sẽ đồng bộ lại */ }
+}
+addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && AUTH && save.t) { clearTimeout(save.t); save.t = 0; syncNow(); } });
+const acctBtn = compact => AUTH
+  ? `<a class="btn sm acct-me" href="#tai-khoan" title="Tài khoản của bạn"><span class="av">${esc((AUTH.user.name || AUTH.user.email)[0].toUpperCase())}</span>${compact ? '' : `<span class="nm">${esc(AUTH.user.name || 'Tài khoản')}</span>`}</a>`
+  : compact ? `<a class="btn sm primary" href="#tai-khoan">Đăng nhập</a>`
+  : `<span class="hint">Lưu tiến độ, học trên mọi thiết bị</span><a class="btn sm primary" href="#tai-khoan">Đăng nhập / Tạo tài khoản</a>`;
+function renderAcct() { const t = $('#acct-top'), d = $('#acct-desk'); if (t) t.innerHTML = acctBtn(true); if (d) d.innerHTML = acctBtn(false); }
+const acctNudge = () => AUTH || (S.prefs.hideAcc && now() - S.prefs.hideAcc < 7 * DAY) ? '' :
+  `<div class="note info row between acct-nudge"><span><b>Tạo tài khoản miễn phí</b> để lưu tiến độ, học tiếp trên điện thoại và máy tính, nhận gợi ý theo chứng chỉ bạn thi.</span>
+    <span class="row"><a class="btn sm primary" href="#tai-khoan">Tạo tài khoản</a><button class="btn sm ghost" data-hide-acc aria-label="Ẩn gợi ý tạo tài khoản">Để sau</button></span></div>`;
+document.addEventListener('click', e => { if (e.target.closest('[data-hide-acc]')) { S.prefs.hideAcc = now(); save(); e.target.closest('.acct-nudge')?.remove(); } });
 
 // ---------- dữ liệu ----------
 const D = { q: [], byId: new Map(), law: null, cards: [], changes: [], docs: [] };
@@ -150,7 +188,7 @@ const NAV = [
   ['Cá nhân', [['lich-su', 'Lịch sử & tiến độ', 'history'], ['cai-dat', 'Cài đặt & sao lưu', 'gear'], ['lien-he', 'Giới thiệu & liên hệ', 'phone']]],
 ];
 const TITLES = Object.fromEntries(NAV.flatMap(g => g[1].map(x => [x[0], x[1]])));
-Object.assign(TITLES, { 'lam-bai': 'Đang làm bài', 'ket-qua': 'Kết quả' });
+Object.assign(TITLES, { 'lam-bai': 'Đang làm bài', 'ket-qua': 'Kết quả', 'tai-khoan': 'Tài khoản', 'quan-tri': 'Quản trị' });
 const brandMark = () => `<span class="brand-mark" aria-hidden="true"><span>B<i>T</i></span><em><b style="height:3px;background:#E0505A"></b><b style="height:5px;background:#19B47A"></b><b style="height:7px;background:#E0B04A"></b></em></span>`;
 
 function renderNav(cur) {
@@ -165,6 +203,7 @@ function renderNav(cur) {
     `<a href="#menu" id="tab-more">${icon('menu')}Thêm</a>`;
   $('#tab-more').onclick = e => { e.preventDefault(); openNav(true); };
   $('#topbar-title').textContent = TITLES[cur] || '';
+  renderAcct();
 }
 function openNav(open) {
   $('#nav').classList.toggle('open', open);
@@ -206,6 +245,22 @@ function route() {
 const go = h => { if (location.hash === '#' + h) route(); else location.hash = h; };
 const main = html => { $('#main').innerHTML = html; };
 
+// Gợi ý hôm nay: trong các môn của chứng chỉ mục tiêu, chọn môn đúng ít nhất (môn chưa làm đủ 10 câu được ưu tiên trước)
+function todayTip(cert) {
+  const subs = ['LU', ...Object.keys(CERTS[cert].blueprint)].map(k => ({ k, ...subjStats(k) }));
+  const pickS = subs.find(x => x.seen < 10) || [...subs].sort((a, b) => a.acc - b.acc)[0];
+  if (!pickS) return '';
+  const why = pickS.seen < 10 ? `bạn mới làm ${pickS.seen}/${pickS.total} câu môn này` : `bạn đang đúng ${Math.round(pickS.acc * 100)}%, thấp nhất trong các môn của chứng chỉ`;
+  return `<div class="card row between tip-today"><div class="stack" style="gap:4px"><span class="eyebrow">Gợi ý hôm nay${AUTH?.user?.name ? ' cho ' + esc(AUTH.user.name) : ''}</span>
+    <b>Ôn môn ${esc(SUBJ[pickS.k].name)}</b><span class="small muted">Vì ${why}. Mục tiêu: chứng chỉ ${esc(CERTS[cert].name)}.</span></div>
+    <span class="row"><a class="btn sm primary" href="#trong-tam" data-tip="${pickS.k}">Xem trọng tâm</a><a class="btn sm" href="#thi-thu" data-tipx="${pickS.k}">Thi thử môn này</a></span></div>`;
+}
+document.addEventListener('click', e => {
+  const a = e.target.closest('[data-tip],[data-tipx]'); if (!a) return;
+  if (a.dataset.tip) S.prefs.focus = a.dataset.tip; else S.prefs.type = a.dataset.tipx;
+  save();
+});
+
 // ---------- TỔNG QUAN ----------
 VIEWS['tong-quan'] = () => {
   const cert = S.prefs.cert, rd = readiness(cert), due = dueIds().length;
@@ -236,7 +291,9 @@ VIEWS['tong-quan'] = () => {
       <div class="chart" aria-label="Phong độ thi thử"><div class="candles"><span class="line60"></span>${candles}</div>
         <span class="cap">${last8.length ? `Phong độ ${last8.length} lần thi thử gần nhất · nét đứt là mốc 60%` : 'Kết quả thi thử sẽ hiện ở đây'}</span></div>
     </section>
+    ${acctNudge()}
     ${resume}
+    ${todayTip(cert)}
     <div class="grid g4">
       <a class="card stat" href="#on-tap" style="text-decoration:none;color:inherit"><div class="k">Cần ôn hôm nay</div><div class="v">${due}</div><div class="d">${due ? 'Câu đến hạn theo lịch lặp lại' : 'Không có câu đến hạn'}</div></a>
       <div class="card stat"><div class="k">Đã luyện</div><div class="v">${fmt(seen)}</div><div class="d">${pct(seen, D.q.length)}% ngân hàng ${fmt(D.q.length)} câu</div></div>
@@ -709,7 +766,7 @@ VIEWS['ket-qua'] = () => {
   const multi = r.parts.length > 1, pa = r.passAt || PASS;
   main(page(exam ? 'Kết quả thi thử' : 'Kết quả ôn luyện', exam ? (r.pass ? (multi ? 'Đạt cả hai phần' : 'Đạt') : 'Chưa đạt') : `Đúng ${r.ok}/${r.n} câu`,
     exam ? (multi ? 'Đạt khi đúng từ 60% số câu ở mỗi phần; không cộng bù điểm giữa hai phần.' : `Đạt khi đúng từ ${Math.round(pa * 100)}% số câu.`) : '',
-    `<div class="card row" style="gap:22px">
+    `${acctNudge()}<div class="card row" style="gap:22px">
       <div class="ring" style="--p:${p};--c:var(--${r.pass ? 'up' : 'down'})"><div><span><b>${p}%</b><span class="tiny muted">đúng</span></span></div></div>
       <div class="stack" style="flex:1">${r.parts.map(x => `<div class="stack" style="gap:6px"><div class="row between"><b>${esc(x.label || 'Ôn luyện')}</b>
         <span class="row"><span class="num">${x.ok}/${x.n}</span>${exam ? `<span class="chip ${x.pass ? 'up' : 'down'}">${x.pass ? 'Đạt' : 'Chưa đạt'}</span>` : ''}</span></div>
@@ -1067,6 +1124,95 @@ VIEWS['cai-dat'] = () => {
 };
 
 
+// ---------- TÀI KHOẢN ----------
+const certOpts = v => opts(Object.entries(CERTS).map(([k, c]) => [k, 'Chứng chỉ ' + c.name]), v);
+VIEWS['tai-khoan'] = () => {
+  if (AUTH) {
+    const u = AUTH.user;
+    main(page('Tài khoản', 'Chào ' + esc(u.name || 'bạn'), 'Tiến độ học được lưu vào tài khoản và tự đồng bộ giữa các thiết bị bạn đăng nhập.',
+      `<div class="grid g2">
+        <div class="card stack"><h2>Thông tin</h2>
+          <label class="f">Tên gọi<input id="a-name" maxlength="60" value="${esc(u.name)}"></label>
+          <div class="small">Số điện thoại: <b>${esc(u.phone)}</b></div><div class="small">Email: <b>${esc(u.email)}</b></div>
+          <label class="f">Mục tiêu<select id="a-cert">${certOpts(u.cert)}</select></label>
+          <div class="row"><button class="btn primary" id="a-save">Lưu thông tin</button></div></div>
+        <div class="card stack"><h2>Đồng bộ</h2>
+          <p class="small">${lastSync ? 'Đã đồng bộ lúc ' + dt(lastSync) + '.' : 'Tiến độ sẽ được đồng bộ sau mỗi lần bạn trả lời.'} Đã lưu ${fmt(Object.keys(S.q).length)} câu đã làm, ${S.hist.filter(h => h.kind === 'exam').length} bài thi thử.</p>
+          <div class="row"><button class="btn" id="a-sync">Đồng bộ ngay</button><button class="btn" id="a-out">Đăng xuất</button></div>
+          <p class="tiny muted">Đăng xuất vẫn giữ tiến độ trên máy này. Muốn xóa hẳn tài khoản và dữ liệu trên máy chủ, bấm nút dưới.</p>
+          <div><button class="btn danger sm" id="a-del">Xóa tài khoản</button></div></div>
+      </div>`));
+    $('#a-save').onclick = async () => {
+      try { const j = await api('cap-nhat', { name: $('#a-name').value, cert: $('#a-cert').value }); AUTH.user = j.user; setAuth(AUTH); S.prefs.cert = j.user.cert; save(); toast('Đã lưu thông tin.'); VIEWS['tai-khoan'](); renderAcct(); }
+      catch (e) { toast(e.message); }
+    };
+    $('#a-sync').onclick = async () => { await syncNow(); toast(lastSync ? 'Đã đồng bộ.' : 'Chưa đồng bộ được, hãy kiểm tra mạng.'); VIEWS['tai-khoan'](); };
+    $('#a-out').onclick = async () => { await syncNow(); try { await api('dang-xuat'); } catch { /* vẫn đăng xuất trên máy này */ } setAuth(null); renderAcct(); toast('Đã đăng xuất.'); go('tong-quan'); };
+    $('#a-del').onclick = async () => {
+      const ok = await modal(`<h2>Xóa tài khoản?</h2><p class="muted">Thông tin và tiến độ trên máy chủ sẽ bị xóa vĩnh viễn. Nhập mật khẩu để xác nhận.</p><input type="password" autocomplete="current-password" aria-label="Mật khẩu">`, [['Hủy', '', false], ['Xóa tài khoản', 'danger', true]]);
+      if (!ok) return;
+      try { await api('xoa', { password: modal.text }); setAuth(null); renderAcct(); toast('Đã xóa tài khoản. Tiến độ trên máy này vẫn còn.'); go('tong-quan'); } catch (e) { toast(e.message); }
+    };
+    return;
+  }
+  main(page('Tài khoản', 'Tạo tài khoản hoặc đăng nhập', 'Không bắt buộc: bạn vẫn học bình thường khi không có tài khoản. Có tài khoản thì tiến độ được lưu trên máy chủ để học tiếp trên điện thoại, máy tính và nhận gợi ý theo chứng chỉ bạn thi.',
+    `<p class="small">Đã có tài khoản? <a href="#tai-khoan" id="to-login">Đăng nhập ở đây</a></p>
+    <div class="grid g2">
+      <form class="card stack" id="f-reg" novalidate><h2>Tạo tài khoản</h2>
+        <label class="f">Tên gọi (không bắt buộc)<input name="name" maxlength="60" autocomplete="name"></label>
+        <label class="f">Số điện thoại *<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="09xx xxx xxx"></label>
+        <label class="f">Email *<input name="email" type="email" autocomplete="email" required></label>
+        <label class="f">Mật khẩu * (từ 8 ký tự)<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <label class="f">Mục tiêu *<select name="cert">${certOpts(S.prefs.cert)}</select></label>
+        <label class="check"><input type="checkbox" name="consent"> Tôi đồng ý để BT-INVEST lưu số điện thoại, email, mục tiêu và tiến độ học để đồng bộ, gợi ý bài học và liên hệ tư vấn. Tôi có thể xóa tài khoản bất cứ lúc nào.</label>
+        <p class="tiny muted">Tiến độ bạn đã học trên máy này sẽ được chuyển vào tài khoản. Hiện chưa có chức năng lấy lại mật khẩu, hãy ghi nhớ mật khẩu.</p>
+        <div><button class="btn primary">Tạo tài khoản</button></div></form>
+      <form class="card stack" id="f-login" novalidate><h2>Đăng nhập</h2>
+        <label class="f">Số điện thoại hoặc email<input name="id" autocomplete="username" required></label>
+        <label class="f">Mật khẩu<input name="password" type="password" autocomplete="current-password" required></label>
+        <div><button class="btn primary">Đăng nhập</button></div>
+        <p class="tiny muted">Tiến độ trên máy này sẽ được gộp với tiến độ đã lưu trong tài khoản.</p></form>
+    </div>`));
+  $('#to-login').onclick = e => { e.preventDefault(); $('#f-login').scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth' }); $('#f-login [name=id]').focus({ preventScroll: true }); };
+  const done = (j, msg) => { setAuth({ token: j.token, user: j.user }); adopt(j.data); lastSync = now(); renderAcct(); toast(msg); go('tong-quan'); };
+  $('#f-reg').onsubmit = async e => {
+    e.preventDefault(); const f = e.target, v = Object.fromEntries(new FormData(f));
+    if (!f.consent.checked) return toast('Hãy đánh dấu ô đồng ý để tạo tài khoản.');
+    f.querySelector('button').disabled = true;
+    try { done(await api('dang-ky', { ...v, consent: true, data: syncData() }), 'Đã tạo tài khoản. Tiến độ sẽ tự đồng bộ.'); }
+    catch (err) { toast(err.message); f.querySelector('button').disabled = false; }
+  };
+  $('#f-login').onsubmit = async e => {
+    e.preventDefault(); const f = e.target, v = Object.fromEntries(new FormData(f));
+    f.querySelector('button').disabled = true;
+    try { done(await api('dang-nhap', { ...v, data: syncData() }), 'Đã đăng nhập.'); }
+    catch (err) { toast(err.message); f.querySelector('button').disabled = false; }
+  };
+};
+
+// ---------- QUẢN TRỊ (ẩn, vào bằng #quan-tri): danh sách người đăng ký ----------
+VIEWS['quan-tri'] = async () => {
+  let key = ''; try { key = sessionStorage.getItem('btinvest_admin') || ''; } catch { /* bỏ qua */ }
+  const form = msg => { main(page('Quản trị', 'Danh sách tài khoản', msg || 'Nhập mã quản trị (biến ADMIN_KEY đặt trên Vercel).',
+    `<form class="card stack" id="q-f"><label class="f">Mã quản trị<input type="password" name="k" autocomplete="off" required></label><div><button class="btn primary">Xem danh sách</button></div></form>`));
+    $('#q-f').onsubmit = e => { e.preventDefault(); try { sessionStorage.setItem('btinvest_admin', e.target.k.value); } catch { /* bỏ qua */ } VIEWS['quan-tri'](); }; };
+  if (!key) return form();
+  let users;
+  try { users = (await api('quan-tri', {}, { 'x-admin-key': key })).users; }
+  catch (e) { try { sessionStorage.removeItem('btinvest_admin'); } catch { /* bỏ qua */ } return form(e.message); }
+  if (current !== 'quan-tri') return;
+  const cert = c => CERTS[c]?.name || c;
+  const cell = v => { const t = String(v ?? ''); return '"' + (/^[=+\-@]/.test(t) ? "'" + t : t).replace(/"/g, '""') + '"'; };   // chặn công thức khi mở bằng Excel
+  const csv = '﻿' + [['Tên', 'SĐT', 'Email', 'Mục tiêu', 'Ngày tạo', 'Hoạt động gần nhất', 'Số câu đã làm', 'Đúng lần gần nhất', 'Bài thi thử'],
+    ...users.map(u => [u.name, u.phone, u.email, cert(u.cert), dt(u.created), dt(u.last), u.done, u.ok, u.exams])].map(r => r.map(cell).join(',')).join('\r\n');
+  main(page('Quản trị', `${fmt(users.length)} tài khoản`, 'Chỉ dùng để chăm sóc, tư vấn người học đã đồng ý. Không chia sẻ danh sách này.',
+    `<div class="card stack"><div class="row"><button class="btn primary" id="q-csv">Tải file CSV</button><button class="btn" id="q-out">Thoát quản trị</button></div>
+      <div class="tablewrap"><table><thead><tr><th>Tên</th><th>SĐT</th><th>Email</th><th>Mục tiêu</th><th>Ngày tạo</th><th>Gần nhất</th><th>Đã làm</th><th>Thi thử</th></tr></thead>
+      <tbody>${users.map(u => `<tr><td>${esc(u.name)}</td><td class="num">${esc(u.phone)}</td><td>${esc(u.email)}</td><td>${esc(cert(u.cert))}</td><td class="num small">${dt(u.created)}</td><td class="num small">${dt(u.last)}</td><td class="num">${u.done}</td><td class="num">${u.exams}</td></tr>`).join('') || '<tr><td colspan="8" class="muted">Chưa có tài khoản nào.</td></tr>'}</tbody></table></div></div>`));
+  $('#q-csv').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' })); a.download = 'tai-khoan-bt-invest.csv'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); };
+  $('#q-out').onclick = () => { try { sessionStorage.removeItem('btinvest_admin'); } catch { /* bỏ qua */ } go('tong-quan'); };
+};
+
 // ---------- GIỚI THIỆU & LIÊN HỆ ----------
 VIEWS['lien-he'] = () => {
   main(page('Giới thiệu & liên hệ', 'BT-INVEST', 'Đồng hành cùng người học và làm nghề chứng khoán: luyện thi chứng chỉ hành nghề bám sát luật hiện hành, kiến thức đầu tư dễ hiểu, áp dụng được.',
@@ -1109,6 +1255,7 @@ window.addEventListener('hashchange', route);
   if (!q.length) { main(`<div class="page"><div class="card empty">Không tải được ngân hàng câu hỏi. Nếu bạn mở file trực tiếp trên máy, hãy dùng bản <b>dist/index.html</b> hoặc chạy qua máy chủ web.</div></div>`); renderNav(''); return; }
   if (S.sess && S.sess.parts?.some(p => p.ids.some(id => !D.byId.has(id)))) S.sess.parts.forEach(p => (p.ids = p.ids.filter(id => D.byId.has(id))));
   route();
+  if (AUTH) syncNow().then(() => { if (current === 'tong-quan') route(); });
   if ('serviceWorker' in navigator && location.protocol === 'https:' && document.querySelector('link[rel="manifest"]')) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 })();
