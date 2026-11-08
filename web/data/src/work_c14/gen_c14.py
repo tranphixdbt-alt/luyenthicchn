@@ -1,0 +1,466 @@
+# Sinh cm_14.json (C14-xxx): giao dịch trái phiếu + xung đột lợi ích, từ slide SRTC chuyên đề 5 và 6.
+# Chạy: python3 -I web/data/src/work_c14/gen_c14.py  (tự tính lại số, kiểm tra trích dẫn rồi ghi ../cm_14.json)
+import datetime as dt, json, re, unicodedata
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+SRC = HERE.parent
+DOCS = SRC.parents[2] / "tai_lieu_phap_ly" / "van_ban_txt"
+TP = "Giao dịch trái phiếu trên thị trường chứng khoán"
+XD = "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán"
+GT = "Giáo trình Môi giới và tư vấn đầu tư chứng khoán (UBCKNN/SRTC) – "
+F_TT30 = "TT_30_2019_TT-BTC_Cong_bao_so_521-522_2019.txt"
+F_ND95 = "ND_95_2018_ND-CP_Cong_bao_so_783-784_2018.txt"
+F_ND83 = "ND_83_2023_ND-CP_Cong_bao_so_1291-1292_2023.txt"
+F_ND84 = "ND_84_2026_ND-CP_OCR.txt"
+F_ND200 = "ND_200_2026_ND-CP_trai_phieu_rieng_le_Cong_bao_so_342_2026.txt"
+F_TT121 = "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt"
+F_LUAT = "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt"
+
+
+def vnd(x, nd=0):
+    """Định dạng số kiểu Việt Nam: 1.234.567,89"""
+    s = f"{x:,.{nd}f}"
+    return s.replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+# ---------- C14-002: đấu thầu đơn giá, trần không cạnh tranh 30% ----------
+goi_thau, tran = 2000, 3.30                       # tỷ đồng, %/năm
+khong_ct = 800
+ct = [(3.05, 300), (3.10, 500), (3.15, 400), (3.20, 600), (3.35, 500)]
+
+
+def dau_thau(khong_ct_duoc):
+    con = goi_thau - khong_ct_duoc
+    trung = []
+    for ls, kl in sorted(ct):
+        if ls > tran or con <= 0:
+            break
+        lay = min(kl, con); trung.append((ls, lay)); con -= lay
+    return trung
+
+
+kct = min(khong_ct, goi_thau * 30 // 100)          # trần 30% khối lượng gọi thầu
+trung = dau_thau(kct)
+ls_don_gia, kl_bien = trung[-1]
+assert kct == 600 and ls_don_gia == 3.20 and kl_bien == 200
+trung_sai = dau_thau(khong_ct)                     # lỗi: không áp trần 30%
+assert trung_sai[-1] == (3.15, 400)
+da_gia = sum(l * k for l, k in trung) / sum(k for _, k in trung)
+assert round(da_gia, 2) == 3.12
+
+# ---------- C14-006: ký quỹ phát hành TPCP đảm bảo thanh khoản ----------
+kl6, gia6, h6 = 1_500_000, 102_400, 0.03
+ky_quy = kl6 * gia6 * (1 + h6)
+assert ky_quy == 158_208_000_000
+sai6 = {"khong_phong_ve": kl6 * gia6, "menh_gia": kl6 * 100_000 * (1 + h6), "tru": kl6 * gia6 * (1 - h6)}
+assert sai6 == {"khong_phong_ve": 153_600_000_000, "menh_gia": 154_500_000_000, "tru": 148_992_000_000}
+
+# ---------- C14-014: coupon phát sinh trong thời hạn repo ----------
+kl14, mg14, c14, ky14 = 200_000, 100_000, 0.042, 30
+d1 = dt.date(2027, 3, 10); d2 = d1 + dt.timedelta(days=ky14); ngay_lai = dt.date(2027, 3, 25)
+assert d1 < ngay_lai < d2 and d2 == dt.date(2027, 4, 9)
+coupon = kl14 * mg14 * c14
+assert coupon == 840_000_000
+coupon_30n = round(coupon * ky14 / 365)
+assert coupon_30n == 69_041_096
+
+# ---------- C14-018: hạn đăng ký giao dịch TPDN riêng lẻ (15 ngày làm việc) ----------
+nghi = {dt.date(2027, 1, 1)}
+
+
+def cong_ngay_lv(start, n, bo_qua_le=True, tinh_ca_ngay_dau=False):
+    d = start if tinh_ca_ngay_dau else start + dt.timedelta(days=1)
+    dem = 0
+    while True:
+        if d.weekday() < 5 and not (bo_qua_le and d in nghi):
+            dem += 1
+            if dem == n:
+                return d
+        d += dt.timedelta(days=1)
+
+
+cbtt = dt.date(2026, 12, 17)
+assert cbtt.weekday() == 3 and dt.date(2027, 1, 1).weekday() == 4      # thứ Năm; 01/01/2027 là thứ Sáu
+han = cong_ngay_lv(cbtt, 15)
+assert han == dt.date(2027, 1, 8)
+assert cong_ngay_lv(cbtt, 15, bo_qua_le=False) == dt.date(2027, 1, 7)
+assert cong_ngay_lv(cbtt, 15, tinh_ca_ngay_dau=True) == dt.date(2027, 1, 7)
+assert cong_ngay_lv(cbtt, 10) == dt.date(2026, 12, 31)
+assert cong_ngay_lv(cbtt, 5) == dt.date(2026, 12, 24)
+
+
+def dmy(d):
+    return d.strftime("%d/%m/%Y")
+
+
+Q = []
+
+
+def add(**k):
+    k.setdefault("part", "CM"); k.setdefault("subject", "MG"); k.setdefault("as_of", "2026-11")
+    Q.append(k)
+
+
+# ======================= GIAO DỊCH TRÁI PHIẾU =======================
+add(id="C14-001", topic=TP, level=2,
+    q="Theo Nghị định 95/2018/NĐ-CP (đã được sửa đổi, bổ sung), một công ty bảo hiểm không phải là nhà tạo lập thị trường muốn mua trái phiếu Chính phủ trong phiên đấu thầu phát hành do Kho bạc Nhà nước tổ chức. Công ty này tham gia bằng cách nào?",
+    o=["Tự nộp hồ sơ dự thầu trực tiếp, vì mọi tổ chức trong nước đều là đối tượng tham gia đấu thầu",
+       "Mua thông qua nhà tạo lập thị trường, vì chỉ nhà tạo lập thị trường được trực tiếp dự thầu",
+       "Chỉ được mua lại trên thị trường thứ cấp, vì không được mua trái phiếu phát hành qua đấu thầu",
+       "Đăng ký dự thầu không cạnh tranh lãi suất trực tiếp với Kho bạc Nhà nước, không qua trung gian"],
+    a=1,
+    e="Khoản 3 Điều 15 NĐ 95/2018: đối tượng tham gia đấu thầu là nhà tạo lập thị trường (ngân hàng thương mại, công ty chứng khoán được Bộ Tài chính công nhận theo Điều 26); các tổ chức, cá nhân khác thuộc khoản 1 Điều 6 mua trái phiếu theo phương thức đấu thầu thông qua nhà tạo lập thị trường. Họ vẫn được mua trái phiếu phát hành qua đấu thầu, chỉ là không trực tiếp dự thầu, kể cả phần không cạnh tranh lãi suất. Một số tài liệu ôn tập liệt kê các tổ chức, cá nhân, quỹ như đối tượng trực tiếp tham gia đấu thầu là chưa chính xác.",
+    basis="Khoản 3 Điều 15, điểm a khoản 1 Điều 26 Nghị định 95/2018/NĐ-CP (khoản 3 Điều 15 không bị NĐ 83/2023/NĐ-CP, NĐ 84/2026/NĐ-CP sửa đổi)",
+    quote="Đối tượng tham gia đấu thầu: Nhà tạo lập thị trường theo quy định tại Mục 4 Chương II Nghị định này. Các đối tượng khác quy định tại khoản 1 Điều 6 Nghị định này mua trái phiếu Chính phủ theo phương thức đấu thầu thông qua các nhà tạo lập thị trường.",
+    src=F_ND95)
+
+add(id="C14-002", topic=TP, level=3,
+    q=("Kho bạc Nhà nước gọi thầu 2.000 tỷ đồng trái phiếu Chính phủ kỳ hạn 10 năm theo hình thức kết hợp cạnh tranh và không cạnh tranh lãi suất; lãi suất tối đa Kho bạc chấp nhận là 3,30%/năm. Các nhà tạo lập thị trường đặt thầu không cạnh tranh tổng cộng 800 tỷ đồng và đặt thầu cạnh tranh: 300 tỷ đồng ở 3,05%; 500 tỷ đồng ở 3,10%; 400 tỷ đồng ở 3,15%; 600 tỷ đồng ở 3,20%; 500 tỷ đồng ở 3,35%. "
+       "Giả định: phần không cạnh tranh vượt mức tối đa theo quy định bị cắt giảm và được hưởng lãi suất phát hành; khối lượng còn lại xét cho thầu cạnh tranh từ lãi suất thấp đến cao, mức lãi suất cuối cùng chỉ được phân bổ phần còn thiếu. Theo Nghị định 95/2018/NĐ-CP (sửa đổi bởi Nghị định 83/2023/NĐ-CP), lãi suất phát hành và khối lượng trúng thầu ở mức lãi suất cuối cùng lần lượt là:"),
+    o=[f"{vnd(ls_don_gia, 2)}%/năm; {kl_bien} tỷ đồng",
+       f"{vnd(trung_sai[-1][0], 2)}%/năm; {trung_sai[-1][1]} tỷ đồng",
+       f"{vnd(ls_don_gia, 2)}%/năm; 600 tỷ đồng",
+       f"{vnd(da_gia, 2)}%/năm; {kl_bien} tỷ đồng"],
+    a=0,
+    e=(f"Phần không cạnh tranh tối đa 30% × 2.000 = {kct:.0f} tỷ đồng (đăng ký 800 tỷ bị cắt còn 600 tỷ). Còn {vnd(goi_thau - kct)} tỷ đồng cho thầu cạnh tranh: 3,05% (300) → 3,10% (lũy kế 800) → 3,15% (lũy kế 1.200) → 3,20% chỉ còn thiếu 200 tỷ trong 600 tỷ đặt thầu; mức 3,35% vượt lãi suất tối đa nên bị loại. "
+       f"Từ 15/01/2024 kết quả đấu thầu được xác định theo phương thức đơn giá: mọi thành viên trúng thầu, kể cả phần không cạnh tranh, hưởng chung mức lãi suất trúng thầu cao nhất là 3,20%/năm. Không áp trần 30% (để 800 tỷ không cạnh tranh) thì chỉ còn 1.200 tỷ, dừng ở 3,15% với 400 tỷ; tính bình quân gia quyền các mức trúng thầu ({vnd(da_gia, 4)}%) là cách nghĩ theo đa giá, không còn áp dụng; 600 tỷ là phân bổ đủ khối lượng đặt ở mức cuối, vượt khối lượng gọi thầu."),
+    basis="Điểm b khoản 4 Điều 15, khoản 2 Điều 3 Nghị định 95/2018/NĐ-CP; khoản 5 Điều 15 (sửa đổi bởi khoản 1 Điều 1 Nghị định 83/2023/NĐ-CP); cách phân bổ ở mức lãi suất cuối cùng là giả định nêu trong đề",
+    quote="“5. Việc xác định kết quả đấu thầu được thực hiện theo phương thức đấu thầu đơn giá.”",
+    src=F_ND83)
+
+add(id="C14-003", topic=TP, level=1,
+    q="Theo Nghị định 95/2018/NĐ-CP (sửa đổi bởi Nghị định 83/2023/NĐ-CP), kết quả đấu thầu phát hành trái phiếu Chính phủ hiện được xác định như thế nào?",
+    o=["Theo phương thức đa giá: mỗi thành viên trúng thầu hưởng đúng mức lãi suất mà mình dự thầu",
+       "Bộ Tài chính chọn đơn giá hoặc đa giá trong từng thời kỳ, tùy mức độ phát triển của thị trường",
+       "Theo phương thức đơn giá: mọi thành viên trúng thầu hưởng chung mức lãi suất trúng thầu cao nhất",
+       "Theo lãi suất bình quân gia quyền của các mức lãi suất dự thầu được Kho bạc Nhà nước chấp nhận"],
+    a=2,
+    e="Khoản 2 Điều 3 NĐ 95/2018 định nghĩa đấu thầu đơn giá: lãi suất phát hành là mức lãi suất trúng thầu cao nhất, áp dụng chung cho các thành viên trúng thầu; đấu thầu đa giá: mỗi thành viên trúng thầu hưởng đúng lãi suất dự thầu của mình. Trước đây khoản 5 Điều 15 cho Bộ Tài chính quyết định đơn giá hoặc đa giá trong từng thời kỳ; NĐ 83/2023 (hiệu lực 15/01/2024) sửa lại: chỉ áp dụng đấu thầu đơn giá.",
+    basis="Khoản 2 Điều 3 Nghị định 95/2018/NĐ-CP; khoản 5 Điều 15 (sửa đổi bởi khoản 1 Điều 1 Nghị định 83/2023/NĐ-CP)",
+    quote="“Đấu thầu đơn giá” là phương thức xác định kết quả đấu thầu mà mức lãi suất phát hành là mức lãi suất trúng thầu cao nhất và được áp dụng chung cho các thành viên trúng thầu.",
+    src=F_ND95)
+
+add(id="C14-004", topic=TP, level=2,
+    q="Theo Nghị định 95/2018/NĐ-CP (sửa đổi bởi Nghị định 83/2023/NĐ-CP), khi phát hành riêng lẻ trái phiếu Chính phủ, ngoài việc bán trực tiếp cho từng đối tượng mua, Kho bạc Nhà nước có thể lựa chọn tổ chức nào làm đại lý phân phối và thanh toán trái phiếu?",
+    o=["Công ty chứng khoán là thành viên giao dịch công cụ nợ tại Sở giao dịch chứng khoán",
+       "Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam theo chỉ định của Bộ Tài chính",
+       "Công ty quản lý quỹ đang quản lý quỹ trái phiếu có giá trị tài sản ròng lớn nhất",
+       "Ngân hàng thương mại, chi nhánh ngân hàng nước ngoài đáp ứng điều kiện làm đại lý"],
+    a=3,
+    e="Khoản 1 Điều 17 NĐ 95/2018 (sửa đổi bởi khoản 4 Điều 1 NĐ 83/2023): phát hành riêng lẻ là bán trực tiếp cho từng đối tượng mua hoặc lựa chọn ngân hàng thương mại, chi nhánh ngân hàng nước ngoài làm đại lý phân phối và thanh toán. Đại lý phải có chức năng đại lý phát hành trái phiếu, có mạng lưới và phương án phân phối phù hợp (khoản 5). Phương án phát hành riêng lẻ do Kho bạc xây dựng, Bộ Tài chính chấp thuận, nay có thêm nội dung dự kiến hình thức phát hành (trực tiếp hay qua đại lý). Tài liệu viết trước năm 2024 chỉ nêu cách bán trực tiếp là chưa cập nhật.",
+    basis="Khoản 1, 2, 5 Điều 17 Nghị định 95/2018/NĐ-CP (sửa đổi bởi khoản 4 Điều 1 Nghị định 83/2023/NĐ-CP, hiệu lực 15/01/2024)",
+    quote="Phát hành riêng lẻ là phương thức bán trực tiếp trái phiếu Chính phủ cho từng đối tượng mua hoặc lựa chọn ngân hàng thương mại, chi nhánh ngân hàng nước ngoài làm đại lý phân phối và thanh toán trái phiếu Chính phủ",
+    src=F_ND83)
+
+add(id="C14-005", topic=TP, level=2,
+    q=("Theo Nghị định 95/2018/NĐ-CP, xét các nhận định về trái phiếu Chính phủ phát hành để đảm bảo thanh khoản của thị trường:\n"
+       "I. Được phát hành khi nhà tạo lập thị trường thực hiện nghĩa vụ chào giá với cam kết chắc chắn nhưng không có đủ trái phiếu để giao dịch.\n"
+       "II. Nhà tạo lập thị trường phải ký quỹ bằng tiền tại Kho bạc Nhà nước trước khi được phát hành trái phiếu.\n"
+       "III. Thời hạn phát hành tối đa 28 ngày kể từ ngày phát hành, chưa tính thời gian gia hạn.\n"
+       "Các nhận định đúng là:"),
+    o=["I và II", "I và III", "II và III", "I, II và III"],
+    a=0,
+    e="Điều 20 NĐ 95/2018: điều kiện phát hành gồm nhà tạo lập thị trường thực hiện nghĩa vụ chào giá cam kết chắc chắn nhưng thiếu trái phiếu, khối lượng nằm trong hạn mức phát hành trái phiếu Chính phủ hằng năm và nhà tạo lập thị trường ký quỹ bắt buộc tại Kho bạc (I, II đúng). Kho bạc chỉ phát hành sau khi nhận đủ tiền ký quỹ; thời hạn không quá 28 ngày từ ngày phát hành, kể cả thời gian gia hạn (III sai). Hết hạn mà không hoàn trả được trái phiếu thì tiền ký quỹ chuyển thành khoản phát hành trái phiếu cho ngân sách.",
+    basis="Khoản 1, điểm b, c, đ khoản 2 Điều 20 Nghị định 95/2018/NĐ-CP (không bị NĐ 83/2023, NĐ 84/2026 sửa đổi)",
+    quote="Sau khi nhận đủ tiền ký quỹ, Kho bạc Nhà nước phát hành trái phiếu Chính phủ cho nhà tạo lập thị trường. Thời hạn phát hành trái phiếu để đảm bảo thanh khoản không quá 28 ngày từ ngày phát hành, kể cả thời gian gia hạn (nếu có)",
+    src=F_ND95)
+
+add(id="C14-006", topic=TP, level=3,
+    q=f"Nhà tạo lập thị trường M đề nghị Kho bạc Nhà nước phát hành {vnd(kl6)} trái phiếu Chính phủ mã X (mệnh giá 100.000 đồng) để đảm bảo thanh khoản. Giá thị trường của X là {vnd(gia6)} đồng/trái phiếu; giả định tỷ lệ phòng ngừa rủi ro là 3% tính trên giá trị trái phiếu phát hành theo giá thị trường. Theo Nghị định 95/2018/NĐ-CP, số tiền M phải ký quỹ tại Kho bạc Nhà nước là:",
+    o=[f"{vnd(sai6['khong_phong_ve'])} đồng", f"{vnd(sai6['menh_gia'])} đồng", f"{vnd(ky_quy)} đồng", f"{vnd(sai6['tru'])} đồng"],
+    a=2,
+    e=f"Điểm b khoản 2 Điều 20: số tiền ký quỹ tương ứng khối lượng trái phiếu dự kiến phát hành tính theo giá thị trường cộng thêm tỷ lệ phòng ngừa rủi ro. Giá trị theo giá thị trường = {vnd(kl6)} × {vnd(gia6)} = {vnd(kl6 * gia6)} đồng; ký quỹ = {vnd(kl6 * gia6)} × 1,03 = {vnd(ky_quy)} đồng. Lỗi thường gặp: bỏ tỷ lệ phòng ngừa rủi ro ({vnd(sai6['khong_phong_ve'])}), tính theo mệnh giá ({vnd(sai6['menh_gia'])}), trừ thay vì cộng tỷ lệ ({vnd(sai6['tru'])}).",
+    basis="Điểm b khoản 2 Điều 20 Nghị định 95/2018/NĐ-CP; tỷ lệ phòng ngừa rủi ro là giả định nêu trong đề (Bộ Tài chính quy định cụ thể)",
+    quote="Số tiền ký quỹ tương ứng với khối lượng trái phiếu dự kiến phát hành tính theo giá thị trường cộng thêm tỷ lệ phòng ngừa rủi ro tính trên giá trị trái phiếu phát hành",
+    src=F_ND95)
+
+add(id="C14-007", topic=TP, level=2,
+    q="Theo Nghị định 95/2018/NĐ-CP (đã được sửa đổi, bổ sung), loại trái phiếu Chính phủ phát hành tại thị trường trong nước nào sau đây KHÔNG niêm yết, giao dịch tại Sở giao dịch chứng khoán?",
+    o=["Trái phiếu Chính phủ xanh", "Trái phiếu ngoại tệ", "Trái phiếu Chính phủ phát hành riêng lẻ", "Trái phiếu phát hành để đảm bảo thanh khoản"],
+    a=1,
+    e="Điểm a khoản 2 Điều 18: trái phiếu Chính phủ được đăng ký, lưu ký tập trung tại VSDC và niêm yết, giao dịch tại Sở giao dịch chứng khoán, ngoại trừ trái phiếu ngoại tệ. Trái phiếu ngoại tệ (phát hành trong nước bằng ngoại tệ tự do chuyển đổi theo đề án được Thủ tướng phê duyệt) vẫn đăng ký, lưu ký tại VSDC nhưng giao dịch theo pháp luật ngoại hối (khoản 4 Điều 22). Trái phiếu xanh, trái phiếu phát hành riêng lẻ, trái phiếu đảm bảo thanh khoản đều là trái phiếu Chính phủ niêm yết. Xếp trái phiếu ngoại tệ vào nhóm trái phiếu giao dịch trên thị trường chứng khoán, hay ghi đề án trái phiếu ngoại tệ có nội dung niêm yết, là chưa chính xác.",
+    basis="Điểm a khoản 2 Điều 18, khoản 4 Điều 22 Nghị định 95/2018/NĐ-CP (cụm từ “Trung tâm Lưu ký Chứng khoán Việt Nam” được thay bằng “Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam” bởi khoản 2 Điều 2 NĐ 83/2023/NĐ-CP)",
+    quote="Trái phiếu Chính phủ được đăng ký, lưu ký tập trung tại Trung tâm Lưu ký Chứng khoán Việt Nam và niêm yết, giao dịch tại Sở Giao dịch chứng khoán ngoại trừ trái phiếu ngoại tệ",
+    src=F_ND95)
+
+add(id="C14-008", topic=TP, level=1,
+    q="Theo Nghị định 95/2018/NĐ-CP, phương án phát hành công trái xây dựng Tổ quốc do Bộ Tài chính xây dựng được cơ quan nào xem xét quyết định?",
+    o=["Thủ tướng Chính phủ, trên cơ sở đề nghị của Bộ Tài chính",
+       "Ủy ban Thường vụ Quốc hội, trên cơ sở báo cáo của Chính phủ",
+       "Bộ trưởng Bộ Tài chính, sau khi lấy ý kiến Ngân hàng Nhà nước",
+       "Kho bạc Nhà nước, căn cứ hạn mức phát hành trái phiếu hằng năm"],
+    a=1,
+    e="Khoản 2, 3 Điều 23: Bộ Tài chính xây dựng phương án phát hành công trái xây dựng Tổ quốc trình Chính phủ để báo cáo Ủy ban Thường vụ Quốc hội xem xét quyết định; căn cứ phương án được Ủy ban Thường vụ Quốc hội chấp thuận, Bộ Tài chính tổ chức phát hành. Để so sánh: đề án trái phiếu xanh và đề án trái phiếu ngoại tệ do Thủ tướng phê duyệt; phương án phát hành riêng lẻ trái phiếu Chính phủ do Bộ Tài chính chấp thuận.",
+    basis="Khoản 2, 3 Điều 23 Nghị định 95/2018/NĐ-CP",
+    quote="Bộ Tài chính xây dựng phương án phát hành công trái xây dựng Tổ quốc trình Chính phủ để báo cáo Ủy ban Thường vụ Quốc hội xem xét quyết định.",
+    src=F_ND95)
+
+add(id="C14-009", topic=TP, level=2,
+    q="Theo Nghị định 95/2018/NĐ-CP (sửa đổi bởi Nghị định 84/2026/NĐ-CP), đề án phát hành trái phiếu Chính phủ xanh được xây dựng và phê duyệt như thế nào?",
+    o=["Bộ Tài chính phối hợp với Bộ Nông nghiệp và Môi trường xây dựng, báo cáo Thủ tướng Chính phủ phê duyệt",
+       "Bộ Tài chính phối hợp với Bộ Kế hoạch và Đầu tư, Bộ Tài nguyên và Môi trường xây dựng, trình Chính phủ",
+       "Kho bạc Nhà nước xây dựng, Bộ Tài chính chấp thuận như đối với phương án phát hành riêng lẻ",
+       "Bộ Nông nghiệp và Môi trường xây dựng, trình Ủy ban Thường vụ Quốc hội xem xét quyết định"],
+    a=0,
+    e="Khoản 2 Điều 21 NĐ 95/2018 (sửa đổi bởi khoản 1 Điều 4 NĐ 84/2026, hiệu lực 25/3/2026): Bộ Tài chính phối hợp với Bộ Nông nghiệp và Môi trường xây dựng đề án phát hành trái phiếu Chính phủ xanh, báo cáo Thủ tướng Chính phủ phê duyệt trước khi triển khai. Đề án gồm mục đích, khối lượng, điều kiện điều khoản, đối tượng mua, phương thức phát hành, việc đăng ký, lưu ký, niêm yết, giao dịch và danh mục dự án sử dụng vốn. Tài liệu cũ ghi Bộ Kế hoạch và Đầu tư, Bộ Tài nguyên và Môi trường, báo cáo Chính phủ là đã lỗi thời (hai bộ này đã được hợp nhất vào bộ khác năm 2025) và chưa đúng cấp phê duyệt.",
+    basis="Khoản 2 Điều 21 Nghị định 95/2018/NĐ-CP (sửa đổi bởi khoản 1 Điều 4 Nghị định 84/2026/NĐ-CP)",
+    quote="Bộ Tài chính phối hợp với Bộ Nông nghiệp và Môi trường xây dựng đề án phát hành trái phiếu Chính phủ xanh báo cáo Thủ tướng Chính phủ phê duyệt trước khi triển khai thực hiện.",
+    src=F_ND84)
+
+add(id="C14-010", topic=TP, level=2,
+    q=("Theo Thông tư 30/2019/TT-BTC, xét các nhận định về thành viên giao dịch trên thị trường giao dịch công cụ nợ tại Sở giao dịch chứng khoán:\n"
+       "I. Thành viên giao dịch thông thường là công ty chứng khoán, được thực hiện nghiệp vụ môi giới và tự doanh công cụ nợ.\n"
+       "II. Thành viên giao dịch đặc biệt là ngân hàng thương mại, chi nhánh ngân hàng thương mại, chỉ được mua, bán công cụ nợ cho chính mình.\n"
+       "III. Nhà đầu tư cá nhân có thể đặt lệnh mua trái phiếu Chính phủ qua thành viên giao dịch đặc biệt.\n"
+       "Các nhận định đúng là:"),
+    o=["I và III", "II và III", "I và II", "I, II và III"],
+    a=2,
+    e="Khoản 1 Điều 5 TT 30/2019 có hai loại thành viên: thành viên giao dịch thông thường là công ty chứng khoán, được môi giới và tự doanh công cụ nợ (I đúng); thành viên giao dịch đặc biệt là ngân hàng thương mại, chi nhánh ngân hàng, chỉ được mua, bán cho chính mình (II đúng), nên không nhận lệnh môi giới của nhà đầu tư (III sai). NĐ 155/2020 (Điều 97, 99) cũng yêu cầu công ty chứng khoán làm thành viên giao dịch công cụ nợ phải là thành viên lưu ký, có đủ các nghiệp vụ kinh doanh chứng khoán, và thành viên giao dịch đặc biệt, Kho bạc Nhà nước chỉ giao dịch công cụ nợ cho chính mình.",
+    basis="Khoản 1 Điều 5 Thông tư 30/2019/TT-BTC; khoản 1 Điều 97, khoản 3 Điều 99 Nghị định 155/2020/NĐ-CP",
+    quote="Thành viên giao dịch thông thường là các công ty chứng khoán được Sở Giao dịch Chứng khoán chấp thuận làm thành viên giao dịch. Thành viên giao dịch thông thường được phép thực hiện nghiệp vụ môi giới và tự doanh công cụ nợ tại Sở Giao dịch Chứng khoán.",
+    src=F_TT30)
+
+add(id="C14-011", topic=TP, level=2,
+    q="Theo Thông tư 30/2019/TT-BTC, đặc điểm nào sau đây phân biệt giao dịch bán kết hợp mua lại với giao dịch mua bán lại (repo) công cụ nợ?",
+    o=["Bên bán ở lần 1 cam kết mua lại chính công cụ nợ đó vào một thời điểm xác định trong tương lai",
+       "Giá, khối lượng và thời điểm thực hiện của lần 2 được xác định ngay khi các bên giao kết giao dịch",
+       "Được cấu thành từ hai giao dịch mua bán thông thường giao kết cùng lúc với cùng một đối tác",
+       "Chỉ nhà tạo lập thị trường được tham gia với tư cách bên nhận công cụ nợ trong giao dịch lần 1"],
+    a=2,
+    e="Điều 13 TT 30/2019: giao dịch mua bán lại là một giao dịch, trong đó bên bán chuyển giao công cụ nợ và cam kết mua lại sau một thời gian xác định với giá xác định (gồm giao dịch lần 1 và lần 2). Giao dịch bán kết hợp mua lại là kết hợp hai giao dịch mua bán thông thường tại cùng một thời điểm với cùng một đối tác; giá, khối lượng, thời điểm của lần 2 xác định trước. Cam kết mua lại và việc xác định trước điều kiện lần 2 là điểm chung của cả hai loại. Quy định quyền hưởng lãi danh nghĩa thuộc bên bán (Điều 22) chỉ nêu cho giao dịch mua bán lại và giao dịch vay, cho vay. Không có quy định chỉ nhà tạo lập thị trường được nhận công cụ nợ ở lần 1.",
+    basis="Điểm b, c khoản 1 Điều 13 Thông tư 30/2019/TT-BTC",
+    quote="Giao dịch bán kết hợp mua lại là giao dịch trên hệ thống giao dịch kết hợp hai giao dịch mua bán thông thường tại cùng một thời điểm với cùng một đối tác giao dịch",
+    src=F_TT30)
+
+add(id="C14-012", topic=TP, level=1,
+    q="Theo Thông tư 30/2019/TT-BTC, trong giao dịch vay và cho vay công cụ nợ, đối tượng nào được thực hiện vay?",
+    o=["Chỉ công ty chứng khoán là thành viên giao dịch thông thường của Sở giao dịch",
+       "Mọi thành viên giao dịch, kể cả thành viên đặc biệt, nếu có tài sản bảo đảm",
+       "Tổ chức có tài khoản lưu ký trực tiếp tại Tổng công ty lưu ký và bù trừ",
+       "Chỉ nhà tạo lập thị trường được Bộ Tài chính công nhận theo quy định"],
+    a=3,
+    e="Khoản 3 Điều 13 TT 30/2019: chỉ nhà tạo lập thị trường được thực hiện vay trong giao dịch vay và cho vay; nhà tạo lập thị trường cũng được bán công cụ nợ khi chưa có đủ công cụ nợ để thực hiện nghĩa vụ chào giá, nhưng phải có đủ để chuyển giao vào ngày thanh toán (khoản 2). Nhà tạo lập thị trường có thể là ngân hàng thương mại hoặc công ty chứng khoán (điểm a khoản 1 Điều 26 NĐ 95/2018), nên cách hiểu “chỉ công ty chứng khoán là nhà tạo lập thị trường mới được vay” là chưa chính xác. Thời hạn vay cụ thể do quy chế của Sở giao dịch, VSDC quy định.",
+    basis="Khoản 2, 3 Điều 13 Thông tư 30/2019/TT-BTC; điểm a khoản 1 Điều 26 Nghị định 95/2018/NĐ-CP",
+    quote="Chỉ nhà tạo lập thị trường được thực hiện vay trong giao dịch vay và cho vay.",
+    src=F_TT30)
+
+add(id="C14-013", topic=TP, level=2,
+    q="Theo Thông tư 30/2019/TT-BTC, giao dịch công cụ nợ theo hình thức thỏa thuận điện tử có đặc điểm nào sau đây?",
+    o=["Lệnh được chào với cam kết chắc chắn và thực hiện ngay khi có đối tác chọn, không cần xác nhận lại",
+       "Các bên tự thỏa thuận qua tin nhắn hoặc điện thoại rồi báo cáo kết quả vào hệ thống để xác lập",
+       "Hệ thống tự so khớp các lệnh mua, bán theo nguyên tắc ưu tiên về giá rồi đến thời gian nhập lệnh",
+       "Giao dịch chỉ có hiệu lực sau khi bên đối ứng xác nhận lệnh do bên kia nhập vào hệ thống giao dịch"],
+    a=0,
+    e="Điều 16, 17 TT 30/2019: giao dịch công cụ nợ áp dụng phương thức thỏa thuận, gồm hai hình thức. Thỏa thuận điện tử: lệnh được chào với cam kết chắc chắn và thực hiện ngay khi có đối tác lựa chọn, không cần xác nhận lại (toàn thị trường hoặc có tính chất lựa chọn theo yêu cầu chào giá). Thỏa thuận thông thường: các bên tự thỏa thuận qua tin nhắn trên hệ thống hoặc phương tiện khác, rồi một bên nhập và bên đối ứng xác nhận lệnh để xác lập giao dịch. So khớp theo giá, thời gian là phương thức khớp lệnh, không áp dụng cho công cụ nợ của Chính phủ.",
+    basis="Điều 16, khoản 1, 2, 3 Điều 17 Thông tư 30/2019/TT-BTC",
+    quote="Thỏa thuận điện tử là hình thức giao dịch trong đó các lệnh giao dịch được chào với cam kết chắc chắn và thực hiện ngay khi có đối tác lựa chọn mà không cần có sự xác nhận lại.",
+    src=F_TT30)
+
+add(id="C14-014", topic=TP, level=3,
+    q=f"Ngày {dmy(d1)}, ngân hàng A bán {vnd(kl14)} trái phiếu Chính phủ (mệnh giá 100.000 đồng, lãi suất coupon 4,2%/năm, trả lãi hằng năm vào ngày 25/3) cho công ty bảo hiểm B trong giao dịch mua bán lại kỳ hạn {ky14} ngày trên hệ thống giao dịch của Sở giao dịch chứng khoán. Ngày 25/3/2027, B có tên trong danh sách và nhận tiền lãi trái phiếu; hai bên thỏa thuận hoàn trả lãi bên ngoài hệ thống giao dịch. Theo Thông tư 30/2019/TT-BTC, cách xử lý nào sau đây đúng?",
+    o=[f"B được giữ {vnd(coupon)} đồng vì là người có tên trong danh sách nhận lãi",
+       f"B trả lại A {vnd(coupon_30n)} đồng, tương ứng tiền lãi của {ky14} ngày giao dịch",
+       f"B trả lại A {vnd(coupon)} đồng vào ngày thanh toán giao dịch lần 2 ({dmy(d2)})",
+       f"B trả lại A {vnd(coupon)} đồng, chậm nhất 05 ngày làm việc kể từ ngày nhận lãi"],
+    a=3,
+    e=f"Khoản 1 Điều 22 TT 30/2019: quyền hưởng lãi danh nghĩa từ công cụ nợ trong giao dịch mua bán lại thuộc bên bán (A). Bên mua (B) nhận lãi trong thời hạn giao dịch phải trả lại toàn bộ số lãi đã nhận: {vnd(kl14)} × 100.000 × 4,2% = {vnd(coupon)} đồng. Hoàn trả bên ngoài hệ thống thì thời điểm do hai bên thống nhất nhưng không muộn hơn 05 ngày làm việc kể từ ngày thực thanh toán lãi; ngày {dmy(d2)} đã quá hạn này. Chỉ khi hoàn trả qua hệ thống thì thời điểm hoàn trả là khi giao dịch kết thúc. Phân bổ lãi theo {ky14} ngày ({vnd(coupon_30n)} đồng) là nhầm với cách tính lãi cộng dồn khi mua bán đứt.",
+    basis="Khoản 1, 2 Điều 22 Thông tư 30/2019/TT-BTC",
+    quote="Nếu việc hoàn trả lãi danh nghĩa phát sinh thực hiện bên ngoài hệ thống giao dịch, thời điểm hoàn trả lãi danh nghĩa sẽ do hai bên tự thống nhất nhưng không được muộn hơn năm (05) ngày làm việc kể từ ngày thực thanh toán lãi trái phiếu.",
+    src=F_TT30)
+
+add(id="C14-015", topic=TP, level=2,
+    q=("Theo Thông tư 30/2019/TT-BTC, xét các nhận định về giao dịch mua bán lại công cụ nợ trên Sở giao dịch chứng khoán:\n"
+       "I. Giá yết là giá không gộp lãi danh nghĩa; giá thực hiện được tính dựa trên giá yết, lãi danh nghĩa tích gộp và tỷ lệ phòng vệ rủi ro.\n"
+       "II. Tỷ lệ phòng vệ rủi ro do hai bên tự thỏa thuận cho từng mã và cố định suốt thời hạn giao dịch.\n"
+       "III. Lãi suất trong giao dịch mua bán lại được tính trên cơ sở 30 ngày/360 ngày.\n"
+       "Các nhận định đúng là:"),
+    o=["I và III", "I và II", "II và III", "I, II và III"],
+    a=1,
+    e="Khoản 3 Điều 2 TT 30/2019: giá yết là giá không gộp lãi danh nghĩa (giá sạch); Điều 20: giá thực hiện tính dựa trên giá yết, lãi danh nghĩa tích gộp và tỷ lệ phòng vệ rủi ro (I đúng). Điều 21: tỷ lệ phòng vệ rủi ro (haircut) là tỷ lệ chiết giảm hoặc bổ sung trên giá gộp lãi tại thời điểm bắt đầu giao dịch, do hai bên thỏa thuận cho từng mã (Sở có thể quy định mức trần) và cố định suốt thời hạn (II đúng). Điều 19: lãi suất mua bán lại, vay và cho vay tính trên cơ sở ngày thực tế/ngày thực tế (III sai).",
+    basis="Khoản 3 Điều 2, Điều 19, 20, 21 Thông tư 30/2019/TT-BTC",
+    quote="Tỷ lệ phòng vệ rủi ro áp dụng đối với từng mã công cụ nợ sử dụng trong giao dịch mua bán lại do hai bên đối tác tự thỏa thuận.",
+    src=F_TT30)
+
+add(id="C14-016", topic=TP, level=2,
+    q="Doanh nghiệp bảo hiểm K mở tài khoản lưu ký trái phiếu Chính phủ tại ngân hàng H; H là thành viên lưu ký nhưng không phải thành viên giao dịch thông thường. Theo Thông tư 30/2019/TT-BTC, K thực hiện giao dịch trái phiếu Chính phủ trên Sở giao dịch chứng khoán như thế nào?",
+    o=["Đặt lệnh trực tiếp qua H vì H là thành viên lưu ký; công ty chứng khoán chỉ làm thanh toán",
+       "Đặt lệnh qua công ty chứng khoán là thành viên giao dịch thông thường; H thực hiện thanh toán",
+       "Phải chuyển lưu ký sang công ty chứng khoán là thành viên giao dịch rồi mới được đặt lệnh",
+       "Tự nhập lệnh vào hệ thống của Sở vì K là tổ chức có tài khoản lưu ký tại thành viên lưu ký"],
+    a=1,
+    e="Khoản 5 Điều 29 TT 30/2019: khách hàng mở tài khoản lưu ký tại thành viên lưu ký không phải là thành viên giao dịch thông thường thì đặt lệnh qua công ty chứng khoán là thành viên giao dịch thông thường, còn thanh toán do thành viên lưu ký thực hiện. Giao dịch công cụ nợ niêm yết được thanh toán theo từng giao dịch (khoản 1): VSDC xác định nghĩa vụ và chuyển giao công cụ nợ, tiền được thanh toán qua Ngân hàng Nhà nước; tại ngày thanh toán bên bán phải có đủ công cụ nợ, bên mua đủ tiền. Không cần chuyển lưu ký trước khi đặt lệnh.",
+    basis="Khoản 1, 3, 5 Điều 29 Thông tư 30/2019/TT-BTC",
+    quote="Trường hợp khách hàng mở tài khoản lưu ký tại thành viên lưu ký không phải là thành viên giao dịch thông thường, việc đặt lệnh giao dịch được thực hiện thông qua công ty chứng khoán là thành viên giao dịch thông thường và việc thanh toán giao dịch được thực hiện bởi thành viên lưu ký.",
+    src=F_TT30)
+
+add(id="C14-017", topic=TP, level=2,
+    q=("Công ty cổ phần T (không phải công ty đại chúng) hoàn thành đợt chào bán trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền và đã công bố thông tin về kết quả đợt chào bán. Theo Nghị định 200/2026/NĐ-CP, xét các nhận định:\n"
+       "I. T phải đăng ký giao dịch trái phiếu tại Sở giao dịch chứng khoán trong thời hạn 15 ngày làm việc kể từ ngày công bố thông tin về kết quả đợt chào bán.\n"
+       "II. Trong 05 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ, hợp lệ và trái phiếu đã đăng ký tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam, Sở giao dịch chứng khoán ra thông báo trái phiếu đã đăng ký giao dịch.\n"
+       "III. T có tối đa 30 ngày làm việc kể từ ngày Sở giao dịch chứng khoán ra thông báo để đưa trái phiếu vào giao dịch.\n"
+       "Các nhận định đúng là:"),
+    o=["I và III", "II và III", "I, II và III", "I và II"],
+    a=3,
+    e="Điểm b khoản 2 Điều 21 NĐ 200/2026: doanh nghiệp không thuộc điểm a (trái phiếu chuyển đổi, kèm chứng quyền riêng lẻ của công ty đại chúng, CTCK, CTQLQ) đăng ký giao dịch trong 15 ngày làm việc kể từ ngày công bố thông tin kết quả đợt chào bán (I đúng). Điểm c khoản 4: Sở ra thông báo trong 05 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ, hợp lệ và trái phiếu đã đăng ký tại VSDC (II đúng). Điểm d khoản 4: doanh nghiệp đưa trái phiếu vào giao dịch trong 10 ngày làm việc kể từ ngày Sở thông báo (III sai). Cách tính 15 ngày làm việc từ ngày VSDC cấp giấy chứng nhận đăng ký trái phiếu trong tài liệu cũ là theo quy định trước NĐ 200/2026.",
+    basis="Điểm b khoản 2, điểm c, d khoản 4 Điều 21 Nghị định 200/2026/NĐ-CP",
+    quote="b) 15 ngày làm việc kể từ ngày doanh nghiệp phát hành công bố thông tin về kết quả đợt chào bán theo quy định tại Điều 30 Nghị định này đối với các trường hợp không thuộc quy định tại điểm a khoản này.",
+    src=F_ND200)
+
+add(id="C14-018", topic=TP, level=3,
+    q=f"Doanh nghiệp D (không phải công ty đại chúng) công bố thông tin về kết quả đợt chào bán trái phiếu riêng lẻ không chuyển đổi, không kèm chứng quyền vào thứ Năm, ngày {dmy(cbtt)}. Giả sử từ ngày đó đến hết tháng 01/2027 chỉ có các ngày nghỉ là thứ Bảy, Chủ nhật và Tết Dương lịch 01/01/2027 (thứ Sáu); thời hạn tính từ ngày tiếp theo ngày công bố thông tin. Theo Nghị định 200/2026/NĐ-CP, ngày cuối cùng D phải đăng ký giao dịch trái phiếu tại Sở giao dịch chứng khoán là:",
+    o=[dmy(dt.date(2026, 12, 24)), dmy(dt.date(2026, 12, 31)), dmy(dt.date(2027, 1, 7)), dmy(han)],
+    a=3,
+    e=f"Thời hạn là 15 ngày làm việc kể từ ngày công bố thông tin về kết quả đợt chào bán (điểm b khoản 2 Điều 21), không tính ngày bắt đầu (Điều 147 Bộ luật Dân sự). Đếm: 18/12 (1); 21–25/12 (2–6); 28–31/12 (7–10); 01/01/2027 nghỉ; 04–08/01/2027 (11–15) → hạn cuối {dmy(han)}. 07/01/2027 là do coi 01/01 là ngày làm việc hoặc tính cả ngày công bố; 31/12/2026 là mốc 10 ngày làm việc (thời hạn đưa trái phiếu vào giao dịch sau thông báo của Sở); 24/12/2026 là mốc 05 ngày làm việc (thời hạn đăng ký trái phiếu tại VSDC theo khoản 1 Điều 20).",
+    basis="Điểm b khoản 2 Điều 21, điểm b khoản 1 Điều 20 Nghị định 200/2026/NĐ-CP; Điều 147 Bộ luật Dân sự 2015; ngày nghỉ là giả định nêu trong đề",
+    quote="b) 15 ngày làm việc kể từ ngày doanh nghiệp phát hành công bố thông tin về kết quả đợt chào bán theo quy định tại Điều 30 Nghị định này",
+    src=F_ND200)
+
+add(id="C14-019", topic=TP, level=2,
+    q="Theo Nghị định 200/2026/NĐ-CP, thành viên trên hệ thống giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại Sở giao dịch chứng khoán gồm:",
+    o=["Chỉ công ty chứng khoán được cấp phép đủ các nghiệp vụ môi giới, tự doanh, bảo lãnh phát hành, tư vấn đầu tư",
+       "Công ty chứng khoán, ngân hàng thương mại và công ty quản lý quỹ, đều là thành viên giao dịch thông thường",
+       "Công ty chứng khoán là thành viên giao dịch; ngân hàng thương mại, chi nhánh ngân hàng nước ngoài là thành viên đặc biệt",
+       "Tổ chức tư vấn hồ sơ chào bán trái phiếu và tổ chức đại lý đăng ký, lưu ký, thanh toán trái phiếu"],
+    a=2,
+    e="Khoản 8 Điều 21 NĐ 200/2026: thành viên gồm thành viên giao dịch là công ty chứng khoán và thành viên giao dịch đặc biệt là ngân hàng thương mại, chi nhánh ngân hàng nước ngoài được Sở chấp thuận; điều kiện, thủ tục đối với thành viên giao dịch đặc biệt áp dụng như thành viên giao dịch đặc biệt công cụ nợ của Chính phủ theo NĐ 155/2020. Việc giao dịch phải thực hiện qua thành viên giao dịch (khoản 9); trái phiếu phải lưu ký tập trung tại VSDC trước khi giao dịch (khoản 4 Điều 20).",
+    basis="Khoản 8, 9 Điều 21, khoản 4 Điều 20 Nghị định 200/2026/NĐ-CP",
+    quote="a) Thành viên giao dịch là công ty chứng khoán; b) Thành viên giao dịch đặc biệt là các ngân hàng thương mại, chi nhánh ngân hàng nước ngoài;",
+    src=F_ND200)
+
+add(id="C14-020", topic=TP, level=2,
+    q="Trái phiếu doanh nghiệp chào bán riêng lẻ chỉ được giao dịch giữa các nhà đầu tư thuộc đối tượng quy định tại khoản 1 Điều 9 Nghị định 200/2026/NĐ-CP. Theo Nghị định này, giới hạn đó không áp dụng trong các trường hợp sau, NGOẠI TRỪ:",
+    o=["Thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật",
+       "Thực hiện theo quyết định của Trọng tài giải quyết tranh chấp",
+       "Nhận thừa kế trái phiếu theo quy định của pháp luật",
+       "Bán theo thỏa thuận cho người thân không phải nhà đầu tư chuyên nghiệp"],
+    a=3,
+    e="Điểm a khoản 9 Điều 21 NĐ 200/2026: trái phiếu chỉ được giao dịch giữa các đối tượng nhà đầu tư theo khoản 1 Điều 9 (chủ yếu là nhà đầu tư chứng khoán chuyên nghiệp; với trái phiếu chuyển đổi, kèm chứng quyền còn có nhà đầu tư chiến lược), trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực, quyết định của Trọng tài hoặc thừa kế. Bán cho người thân không đủ điều kiện vẫn là giao dịch mua bán nên không được phép, dù là người thân.",
+    basis="Điểm a khoản 9 Điều 21, khoản 1 Điều 9 Nghị định 200/2026/NĐ-CP",
+    quote="Trái phiếu chỉ được phép giao dịch giữa các đối tượng nhà đầu tư theo quy định tại khoản 1 Điều 9 Nghị định này, trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật;",
+    src=F_ND200)
+
+# ======================= XUNG ĐỘT LỢI ÍCH =======================
+add(id="C14-021", topic=XD, level=2,
+    q="Công ty chứng khoán A giao chỉ tiêu doanh số rất cao và yêu cầu nhân viên môi giới phải bán kèm hợp đồng bảo hiểm, trái phiếu doanh nghiệp cho mỗi khách hàng mở tài khoản. Một số nhân viên phản ứng bằng cách nhận làm cộng tác viên cho công ty chứng khoán khác. Theo cách phân nhóm xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư, tình huống trên chủ yếu thuộc nhóm:",
+    o=["Xung đột giữa các nhân viên với nhau trong công ty chứng khoán",
+       "Xung đột giữa nhân viên và công ty chứng khoán nơi mình làm việc",
+       "Xung đột giữa công ty chứng khoán và thị trường chứng khoán",
+       "Xung đột giữa khách hàng với nhau khi cùng dùng một dịch vụ"],
+    a=1,
+    e="Bài giảng chia xung đột lợi ích thành bốn nhóm: giữa các nhân viên (tranh giành, chèo kéo khách, chia khách, chia thưởng không công bằng…); giữa nhân viên và công ty (công ty ép chỉ tiêu, ép bán sản phẩm đi kèm; nhân viên làm cộng tác viên cho công ty khác, che giấu thông tin, làm lộ thông tin cho đối thủ…); giữa công ty và khách hàng; giữa công ty và thị trường. Tình huống nêu đúng các biểu hiện của nhóm nhân viên – công ty. Riêng việc làm cho công ty chứng khoán khác còn vi phạm điểm a khoản 2 Điều 98 Luật Chứng khoán (không đồng thời làm việc cho từ 02 công ty trở lên).",
+    basis=GT + "Các nhóm xung đột lợi ích (giữa các nhân viên; nhân viên – công ty chứng khoán; công ty chứng khoán – khách hàng; công ty chứng khoán – thị trường); điểm a khoản 2 Điều 98 Luật Chứng khoán 2019")
+
+add(id="C14-022", topic=XD, level=2,
+    q=("Xét các tình huống sau tại một công ty chứng khoán:\n"
+       "I. Công ty dùng chính sách phí để thúc ép khách hàng giao dịch nhiều nhằm tăng doanh số.\n"
+       "II. Nhân viên môi giới chèo kéo, tranh giành khách hàng của đồng nghiệp.\n"
+       "III. Công ty thông qua nhân viên ép khách hàng vay giao dịch ký quỹ dù khách hàng không có nhu cầu.\n"
+       "IV. Công ty giao chỉ tiêu doanh số quá cao cho nhân viên môi giới.\n"
+       "Theo cách phân nhóm xung đột lợi ích, các tình huống thuộc nhóm xung đột giữa công ty chứng khoán và khách hàng là:"),
+    o=["I, III và IV", "I và III", "II và IV", "I, II và III"],
+    a=1,
+    e="Nhóm xung đột giữa công ty và khách hàng gồm: không cung cấp đủ thông tin hoặc cung cấp có chủ ý, không đối xử bình đẳng giữa khách hàng, vi phạm nguyên tắc đầu tư phù hợp, ép vay ký quỹ, dùng phí gây sức ép giao dịch để tăng doanh số, đầu tư vì doanh số hơn là lợi nhuận của khách hàng, mượn tiền và chứng khoán của khách hàng, ép bán sản phẩm kém chất lượng… (I, III). Tranh giành khách của đồng nghiệp là xung đột giữa các nhân viên (II); giao chỉ tiêu quá cao là xung đột giữa công ty và nhân viên (IV).",
+    basis=GT + "Xung đột lợi ích giữa công ty chứng khoán và khách hàng; khoản 6 Điều 89 Luật Chứng khoán 2019 (nguyên tắc phù hợp)")
+
+add(id="C14-023", topic=XD, level=2,
+    q="Công ty chứng khoán P cần vay vốn ngân hàng. Giám đốc khối môi giới đề xuất dùng trái phiếu Chính phủ của khách hàng đang lưu ký tại P làm tài sản bảo đảm cho khoản vay, cam kết giải chấp trước khi khách hàng bán. Theo Thông tư 121/2020/TT-BTC, đề xuất này:",
+    o=["Được thực hiện nếu tổng nợ của P sau khi vay không vượt quá 05 lần vốn chủ sở hữu",
+       "Được thực hiện nếu P thông báo cho khách hàng trong 24 giờ sau khi ký hợp đồng",
+       "Không được thực hiện, vì P phải tách biệt và không được xâm phạm tài sản của khách hàng",
+       "Được thực hiện vì trái phiếu Chính phủ an toàn, khách hàng không chịu thêm rủi ro"],
+    a=2,
+    e="Khoản 4 Điều 4 TT 121: công ty chứng khoán không được xâm phạm tài sản, quyền và lợi ích hợp pháp của khách hàng; phải quản lý tách biệt tài sản của từng khách hàng và với tài sản của công ty. Điều 18 yêu cầu quản lý tách biệt chứng khoán của khách hàng; khoản 2 Điều 27 cấm dùng tiền, tài sản của công ty hoặc của khách hàng để bảo đảm nghĩa vụ thanh toán cho bên thứ ba. “Mượn” tiền, chứng khoán của khách hàng là một dạng xung đột lợi ích giữa công ty và khách hàng; thông báo sau hay giới hạn nợ 05 lần vốn chủ sở hữu (Điều 26) không làm việc này hợp pháp.",
+    basis="Khoản 4 Điều 4, điểm a khoản 1 Điều 18, khoản 2 Điều 27 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026); khoản 3 Điều 89 Luật Chứng khoán 2019",
+    quote="Có trách nhiệm trung thực với khách hàng, không được xâm phạm tài sản, các quyền và lợi ích hợp pháp khác của khách hàng. Thực hiện quản lý tách biệt tài sản của từng khách hàng, tách biệt tài sản của khách hàng với tài sản của công ty chứng khoán.",
+    src=F_TT121)
+
+add(id="C14-024", topic=XD, level=2,
+    q=("Theo Thông tư 121/2020/TT-BTC, bộ phận kiểm soát nội bộ của công ty chứng khoán có những nhiệm vụ nào sau đây?\n"
+       "I. Giám sát các hoạt động tiềm ẩn xung đột lợi ích trong nội bộ công ty, đặc biệt là hoạt động kinh doanh của bản thân công ty và giao dịch cá nhân của nhân viên.\n"
+       "II. Kiểm soát việc tuân thủ quy định của pháp luật về phòng, chống rửa tiền.\n"
+       "III. Trực tiếp phê duyệt từng lệnh tự doanh trước khi nhập vào hệ thống giao dịch.\n"
+       "Các nhiệm vụ đúng là:"),
+    o=["I và III", "II và III", "I và II", "I, II và III"],
+    a=2,
+    e="Khoản 2 Điều 12 TT 121: bộ phận kiểm soát nội bộ (trực thuộc Ban Giám đốc, nhân sự độc lập, chuyên trách) kiểm soát việc tuân thủ, gồm giám sát các hoạt động tiềm ẩn xung đột lợi ích, đặc biệt hoạt động kinh doanh của công ty và giao dịch cá nhân của nhân viên (điểm b), kiểm tra việc thực hiện quy tắc đạo đức nghề nghiệp (điểm c), tách biệt và bảo quản tài sản khách hàng (điểm đ, e), kiểm soát tuân thủ phòng, chống rửa tiền (điểm g). Bộ phận này giám sát, không trực tiếp tham gia nghiệp vụ như duyệt lệnh tự doanh (III sai); trưởng bộ phận không được kiêm nhiệm công việc khác trong công ty.",
+    basis="Khoản 1, 2, 4 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026); khoản 1 Điều 89 Luật Chứng khoán 2019",
+    quote="Giám sát thực thi các quy định nội bộ, các hoạt động tiềm ẩn xung đột lợi ích trong nội bộ công ty, đặc biệt đối với các hoạt động kinh doanh của bản thân công ty và các giao dịch cá nhân của nhân viên công ty;",
+    src=F_TT121)
+
+add(id="C14-025", topic=XD, level=2,
+    q=("Xét các phát biểu của nhân viên tư vấn công ty chứng khoán với khách hàng:\n"
+       "I. “Cổ phiếu X chắc chắn mang lại lợi nhuận 15% trong năm nay, anh không lo bị lỗ.”\n"
+       "II. “Nếu nắm giữ trái phiếu Chính phủ này đến ngày đáo hạn, chị nhận lãi coupon cố định 3,2%/năm theo điều kiện phát hành.”\n"
+       "III. “Chứng chỉ quỹ cổ phiếu Y được bảo đảm không thua lỗ trong 12 tháng tới.”\n"
+       "Theo Luật Chứng khoán, phát biểu nào KHÔNG vi phạm quy định cấm đưa ra nhận định hoặc bảo đảm về thu nhập, lợi nhuận cho khách hàng?"),
+    o=["Chỉ I", "Chỉ II", "I và II", "II và III"],
+    a=1,
+    e="Khoản 1 Điều 91 Luật Chứng khoán: công ty chứng khoán không được đưa ra nhận định hoặc bảo đảm với khách hàng về mức thu nhập, lợi nhuận hoặc bảo đảm khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định. Lãi coupon cố định của trái phiếu Chính phủ nắm giữ đến đáo hạn là điều kiện phát hành nên nêu ra không vi phạm (II), tuy vẫn phải giải thích rủi ro giá nếu bán trước hạn. Cam kết lợi nhuận cổ phiếu (I) và bảo đảm không lỗ với chứng chỉ quỹ cổ phiếu (III) đều bị cấm; đây là dạng xung đột lợi ích khi nhân viên chạy theo doanh số.",
+    basis="Khoản 1 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH năm 2026); điểm b khoản 4 Điều 13 Thông tư 121/2020/TT-BTC",
+    quote="Không được đưa ra nhận định hoặc bảo đảm với khách hàng về mức thu nhập hoặc lợi nhuận đạt được trên khoản đầu tư của mình hoặc bảo đảm khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định.",
+    src=F_LUAT)
+
+add(id="C14-026", topic=XD, level=2,
+    q="Công ty chứng khoán K là thành viên giao dịch thông thường trên thị trường trái phiếu Chính phủ. Khách hàng đặt lệnh mua 50.000 trái phiếu mã Z với giá tối đa 101.500 đồng/trái phiếu; cùng lúc bộ phận tự doanh của K cũng muốn mua Z. Trên hệ thống đang có lệnh chào bán 50.000 trái phiếu Z giá 101.300 đồng. Theo Thông tư 30/2019/TT-BTC, K phải:",
+    o=["Mua 50.000 trái phiếu giá 101.300 đồng cho tự doanh, rồi bán lại cho khách hàng giá 101.500 đồng",
+       "Chia đều khối lượng chào bán giá 101.300 đồng cho khách hàng và tự doanh vì hai nhu cầu cùng lúc",
+       "Mua cho khách hàng ở giá 101.500 đồng vì đó là mức giá khách hàng đã đồng ý chấp nhận",
+       "Ưu tiên thực hiện lệnh của khách hàng, mua cho khách hàng ở mức 101.300 đồng đang được chào"],
+    a=3,
+    e="Điểm d khoản 3 Điều 10 TT 30/2019: thành viên giao dịch phải ưu tiên thực hiện lệnh môi giới cho khách hàng trước lệnh tự doanh với mức giá thực hiện tốt nhất có thể; mức giá tốt nhất có thể là mức giá theo yêu cầu của khách hàng hoặc tốt hơn. Có chào bán 101.300 đồng (tốt hơn giá tối đa 101.500 đồng) thì phải mua cho khách hàng ở giá này. Tự doanh mua trước rồi bán lại cho khách hàng giá cao hơn là đặt lợi ích công ty lên trên khách hàng (xung đột lợi ích), trái với khoản 5 Điều 89 Luật Chứng khoán.",
+    basis="Điểm d khoản 3 Điều 10 Thông tư 30/2019/TT-BTC; khoản 5 Điều 89 Luật Chứng khoán 2019",
+    quote="Mức giá thực hiện tốt nhất có thể là mức giá theo yêu cầu khách hàng hoặc tốt hơn mức giá theo yêu cầu của khách hàng;",
+    src=F_TT30)
+
+add(id="C14-027", topic=XD, level=2,
+    q="Một khách hàng lớn đề nghị nhân viên môi giới (chuyên về cổ phiếu) tư vấn chiến lược phòng ngừa rủi ro bằng hợp đồng tương lai trái phiếu Chính phủ, sản phẩm mà nhân viên này chưa được đào tạo và chưa nắm vững. Theo chuẩn mực đạo đức nghề nghiệp, cách xử lý phù hợp nhất là:",
+    o=["Tự tìm hiểu nhanh trên mạng rồi tư vấn ngay để không mất khách hàng lớn vào tay công ty khác",
+       "Nói rõ giới hạn chuyên môn, không tự tư vấn và kết nối khách hàng với chuyên viên có năng lực",
+       "Khuyên khách hàng không dùng phái sinh để giữ khách hàng tiếp tục giao dịch cổ phiếu với mình",
+       "Đồng ý tư vấn nhưng yêu cầu khách hàng ký cam kết tự chịu mọi rủi ro phát sinh từ lời khuyên"],
+    a=1,
+    e="Trong tám chuẩn mực đạo đức nghề nghiệp của người môi giới, tư vấn có: hành động trung thực, công bằng, đặt lợi ích khách hàng lên hàng đầu; hạn chế xung đột lợi ích; từ chối hành động vượt quá năng lực chuyên môn và tìm sự hỗ trợ chuyên nghiệp; không ngừng học hỏi nâng cao kiến thức, kỹ năng. Tư vấn khi chưa nắm vững sản phẩm, hoặc khuyên sai lệch để giữ khách cho mình, là đặt lợi ích cá nhân lên trên khách hàng; bắt khách hàng cam kết tự chịu rủi ro không thay thế được trách nhiệm tư vấn đúng năng lực.",
+    basis=GT + "Chuẩn mực đạo đức nghề nghiệp: từ chối hành động vượt quá năng lực chuyên môn, tìm sự hỗ trợ; đặt lợi ích khách hàng lên hàng đầu")
+
+
+# ---------- kiểm tra ----------
+def norm_ws(s):
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFC", s)).strip()
+
+
+def loose(s):
+    s = unicodedata.normalize("NFC", s).lower()
+    s = re.sub(r"(?<=[^\W\d_])\d{1,3}(?=\W|$)", "", s)
+    return re.sub(r"[\W_]+", "", s)
+
+
+def doc(name):
+    raw = (DOCS / name).read_text(encoding="utf-8")
+    clean = "\n".join(l for l in raw.splitlines() if not re.search(r"CÔNG BÁO/Số|^\s*\d{1,4}\s*$", l))
+    return norm_ws(clean) + " \x00 " + norm_ws(raw)
+
+
+ids = [q["id"] for q in Q]
+assert ids == [f"C14-{i:03d}" for i in range(1, len(Q) + 1)], ids
+for q in Q:
+    assert len(q["o"]) == 4 and len(set(q["o"])) == 4, q["id"]
+    assert 0 <= q["a"] < 4 and q["level"] in (1, 2, 3) and q["topic"] in (TP, XD), q["id"]
+    lens = [len(x) for x in q["o"]]
+    assert max(lens) <= 2.2 * min(lens) or max(lens) - min(lens) <= 25, (q["id"], lens)
+    if q.get("quote"):
+        assert len(q["quote"]) <= 300, (q["id"], len(q["quote"]))
+        t = doc(q["src"])
+        assert norm_ws(q["quote"]) in t or loose(q["quote"]) in loose(t), ("trích dẫn không khớp", q["id"])
+    else:
+        assert q["basis"].startswith(GT), q["id"]
+    if re.search(r"\bKHÔNG\b|NGOẠI TRỪ", q["q"]) is None:
+        assert not re.search(r"\b(không|ngoại trừ)\b[^.]*\?$", q["q"]), q["id"]
+
+out = [{k: q.get(k, "") for k in ["id", "part", "subject", "topic", "level", "q", "o", "a", "e", "basis", "quote", "src", "as_of"]} for q in Q]
+for q in out:
+    if not q["quote"]:
+        del q["quote"], q["src"]
+(SRC / "cm_14.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+from collections import Counter
+print(len(out), "câu; đáp án:", dict(sorted(Counter(q["a"] for q in out).items())), "; chủ đề:", dict(Counter(q["topic"][:20] for q in out)))
