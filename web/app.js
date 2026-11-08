@@ -159,7 +159,7 @@ function renderNav(cur) {
       `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}<span>${t}</span>${h === 'on-tap' && due ? `<span class="badge-due">${due}</span>` : ''}</a>`).join('')).join('') +
     `<div class="nav-foot"><a class="hotline" href="#lien-he"><span>Hotline / Zalo</span><b>${BRAND.phoneShow}</b></a>${socialIcons()}
       <span>${fmt(D.q.length)} câu hỏi, luật cập nhật đến 11/2026. Không phải trang chính thức của UBCKNN.</span></div>`;
-  const tabs = [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['thi-thu', 'Thi thử', 'exam'], ['thu-vien', 'Thư viện', 'law']];
+  const tabs = [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['trong-tam', 'Trọng tâm', 'target'], ['thi-thu', 'Thi thử', 'exam']];
   $('#tabbar').innerHTML = tabs.map(([h, t, i]) => `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}${t}</a>`).join('') +
     `<a href="#menu" id="tab-more">${icon('menu')}Thêm</a>`;
   $('#tab-more').onclick = e => { e.preventDefault(); openNav(true); };
@@ -247,17 +247,20 @@ VIEWS['tong-quan'] = () => {
       <div class="card stack"><div class="row between"><h2>Phần Chuyên môn</h2><span class="chip">cần ≥ 60%</span></div>${ready('CM')}</div>
     </div>
     <div class="card stack">
-      <div class="row between"><h2>Mức nắm vững theo môn</h2><span class="tiny muted">Bấm vào ô để luyện môn đó</span></div>
+      <div class="row between"><h2>Từng chứng chỉ chuyên môn</h2><span class="tiny muted">Bấm vào môn để xem phần hay sai, luyện và thi thử riêng môn đó</span></div>
       <div class="board">${tiles}</div>
       <div class="legend"><span><i style="background:var(--floor)"></i>Sàn &lt;40%</span><span><i style="background:var(--down)"></i>Giảm 40–59%</span>
         <span><i style="background:var(--ref)"></i>Tham chiếu 60–69%</span><span><i style="background:var(--up)"></i>Tăng 70–84%</span><span><i style="background:var(--ceil)"></i>Trần ≥85%</span></div>
     </div>
     <div class="grid g3">
+      <a class="card stack" href="#trong-tam" style="text-decoration:none;color:inherit"><h3>Trọng tâm từng môn</h3><p class="small muted">Chủ đề và câu bạn hay sai, câu nhiều người sai của đúng môn bạn sắp thi.</p></a>
+      <a class="card stack" href="#thi-thu" data-type="LU" style="text-decoration:none;color:inherit"><h3>Thi thử từng chứng chỉ chuyên môn</h3><p class="small muted">Thi riêng một môn (Pháp luật, Môi giới…): tính giờ, chỉ có câu của môn đó.</p></a>
       <a class="card stack" href="#on-luyen" style="text-decoration:none;color:inherit"><h3>Ôn luyện theo chủ đề</h3><p class="small muted">Chọn môn, chủ đề, mức độ; xem đáp án, giải thích và điều luật ngay sau mỗi câu.</p></a>
-      <a class="card stack" href="#thi-thu" style="text-decoration:none;color:inherit"><h3>Thi thử đúng cấu trúc</h3><p class="small muted">Hai phần tính giờ riêng, chỉ lấy câu thuộc chương trình của chứng chỉ bạn thi.</p></a>
+      <a class="card stack" href="#thi-thu" data-type="" style="text-decoration:none;color:inherit"><h3>Thi thử sát hạch CCHN</h3><p class="small muted">Hai phần tính giờ riêng, chỉ lấy câu thuộc chương trình của chứng chỉ bạn thi.</p></a>
       <a class="card stack" href="#thay-doi" style="text-decoration:none;color:inherit"><h3>Luật mới 2025–2026</h3><p class="small muted">Những quy định đã đổi theo Luật 56/2024, NĐ 245/2025, TT 135/2025… hay bị hỏi.</p></a>
     </div></div>`);
-  $$('[data-subj]').forEach(b => (b.onclick = () => { practiceFilter = { ...practiceFilter, subject: b.dataset.subj, part: b.dataset.subj === 'LU' ? 'LUAT' : 'CM', topic: '' }; go('on-luyen'); }));
+  $$('[data-subj]').forEach(b => (b.onclick = () => { S.prefs.focus = b.dataset.subj; save(); go('trong-tam'); }));
+  $$('a[data-type]').forEach(a => (a.onclick = () => { S.prefs.type = a.dataset.type === 'LU' ? (S.prefs.type || 'LU') : ''; save(); }));
 };
 
 // ---------- ÔN LUYỆN ----------
@@ -269,7 +272,7 @@ function pool(f) {
     (f.pool === 'all' || (f.pool === 'new' && !S.q[q.id]) || (f.pool === 'wrong' && S.q[q.id] && !S.q[q.id].lastOk) || (f.pool === 'star' && S.star[q.id])));
 }
 // Trộn đề thông minh: câu sai (khoảng 30%, sai lâu nhất trước) > câu chưa làm > câu đúng đã đến lịch ôn;
-// câu đã làm đúng chỉ được lấy khi không còn câu nào khác. Rải đều theo nhóm (chủ đề) và xen câu sai cách đều trong đề.
+// câu đã làm đúng chỉ được lấy khi không còn câu nào khác. Rải theo tỷ trọng từng chủ đề và xen câu sai cách đều trong đề.
 const WRONG_SHARE = 0.3;
 const isWrong = id => !!S.q[id] && !S.q[id].lastOk;
 function smartPick(ids, n, group = () => '') {
@@ -279,9 +282,10 @@ function smartPick(ids, n, group = () => '') {
   const w = Math.min(wrong.length, Math.max(Math.ceil(n * WRONG_SHARE), n - fresh.length));
   const out = [];
   for (const phase of [wrong.slice(0, w), fresh, order.filter(id => tier(id) === 3)]) {
+    // lấy mẫu phân tầng: mỗi chủ đề góp số câu theo tỷ trọng của nó (câu thứ i của nhóm cỡ s có khóa (i + ngẫu nhiên)/s)
     const by = new Map(); for (const id of phase) by.set(group(id), [...(by.get(group(id)) || []), id]);
-    const lists = shuffle([...by.values()]);
-    while (out.length < n && lists.some(l => l.length)) for (const l of lists) if (l.length && out.length < n) out.push(l.shift());
+    const keyed = [...by.values()].flatMap(l => l.map((id, i) => [(i + Math.random()) / l.length, id]));
+    out.push(...keyed.sort((a, b) => a[0] - b[0]).slice(0, n - out.length).map(x => x[1]));
   }
   return out;
 }
@@ -363,9 +367,9 @@ VIEWS['trong-tam'] = () => {
   for (const q of qs) { const s = S.q[q.id]; if (s) { const t = (mine[q.topic] ||= [q.topic, 0, 0]); t[1] += s.n - s.ok; t[2] += s.n; } }
   const myTopics = Object.values(mine).filter(t => t[1]).sort((a, b) => b[1] / b[2] - a[1] / a[2]);
   const myFocus = ids.filter(id => errOf(id) > 0).sort((a, b) => (S.q[a].lastOk - S.q[b].lastOk) || errOf(b) - errOf(a));
-  main(page('Trọng tâm từng môn', 'Ôn đúng phần hay sai của môn sắp thi', 'Chọn môn bạn sắp thi. Trang chỉ hiện chủ đề và câu của môn đó mà bạn hoặc nhiều người ôn hay làm sai, để tập trung đúng phần cần nhớ.',
+  main(page('Trọng tâm từng môn', 'Ôn đúng phần hay sai của môn sắp thi', 'Chọn chứng chỉ chuyên môn (môn) bạn sắp thi. Trang chỉ hiện chủ đề và câu của môn đó mà bạn hoặc nhiều người ôn hay làm sai, để tập trung đúng phần cần nhớ.',
     `<div class="card stack"><div class="row">${Object.entries(SUBJ).map(([c, s]) => `<button class="btn sm ${c === k ? 'primary' : ''}" data-focus="${c}" aria-pressed="${c === k}">${esc(s.short)}</button>`).join('')}</div>
-      <div class="row between"><span class="small muted">Môn <b>${esc(name)}</b>: ${fmt(ids.length)} câu, bạn đã làm ${ids.filter(id => S.q[id]).length}.</span><button class="btn sm" id="tt-exam">Thi thử riêng môn này</button></div></div>
+      <div class="row between"><span class="small muted">Môn <b>${esc(name)}</b>: ${fmt(ids.length)} câu, bạn đã làm ${ids.filter(id => S.q[id]).length}.</span><span class="row"><button class="btn sm" id="tt-all">Luyện 20 câu môn này</button><button class="btn sm primary" id="tt-exam">Thi thử riêng môn này</button></span></div></div>
     <div class="grid g2">
       <div class="card stack"><h2>Bạn hay sai</h2>
         ${myTopics.length ? `<p class="small muted">Chủ đề sai nhiều nhất trước (tính trên mọi lượt bạn đã làm).</p>${topicBars(myTopics.slice(0, 8), 'mytopic')}
@@ -379,6 +383,7 @@ VIEWS['trong-tam'] = () => {
   $$('[data-mytopic]').forEach(b => (b.onclick = () => practiceTopic(b.dataset.mytopic)));
   $('#tt-mine') && ($('#tt-mine').onclick = () => startPractice(spread(myFocus.slice(0, 20)), 'Câu bạn hay sai · ' + SUBJ[k].short, true));
   $('#tt-exam').onclick = () => { S.prefs.type = k; save(); go('thi-thu'); };
+  $('#tt-all').onclick = () => startPractice(spread(smartPick(ids, 20, topicOf)), 'Ôn luyện · ' + SUBJ[k].short, true);
   loadComm().then(C => {
     const el = $('#tt-comm'); if (!el || el.dataset.k !== k) return;   // đã chuyển sang môn/trang khác
     const cn = id => C?.n?.[id] || 0, cw = id => C?.w?.[id] || 0;
@@ -397,15 +402,18 @@ VIEWS['trong-tam'] = () => {
 // ---------- THI THỬ ----------
 VIEWS['thi-thu'] = () => {
   const p = S.prefs, c = CERTS[p.cert], k = SUBJ[p.type] ? p.type : '';
-  const typeSel = `<label class="f">Loại đề<select id="e-type">${opts([['', 'Sát hạch CCHN (2 phần)'], ...Object.entries(SUBJ).map(([x, s]) => [x, 'Từng môn: ' + s.name])], k)}</select></label>`;
+  const typeSel = `<div class="stack" style="gap:8px"><div class="small"><b>Loại đề</b></div>
+    <div class="row"><button class="btn sm ${k ? '' : 'primary'}" data-etype="" aria-pressed="${!k}">Sát hạch CCHN (Pháp luật + Chuyên môn)</button></div>
+    <div class="small muted">Hoặc thi riêng từng chứng chỉ chuyên môn (chứng chỉ nhỏ):</div>
+    <div class="row">${Object.entries(SUBJ).map(([x, s]) => `<button class="btn sm ${x === k ? 'primary' : ''}" data-etype="${x}" aria-pressed="${x === k}">${esc(s.short)}</button>`).join('')}</div></div>`;
   const nSel = label => `<label class="f">${label}<select id="e-n">${opts([[25, '25 câu'], [35, '35 câu'], [50, '50 câu'], [60, '60 câu']], p.n)}</select></label>`;
-  const bindCommon = () => { $('#e-type').onchange = e => { p.type = e.target.value; save(); VIEWS['thi-thu'](); }; $('#e-n').onchange = e => { p.n = +e.target.value; save(); }; $('#e-start').onclick = startExam; };
+  const bindCommon = () => { $$('[data-etype]').forEach(b => (b.onclick = () => { p.type = b.dataset.etype; save(); VIEWS['thi-thu'](); })); $('#e-n').onchange = e => { p.n = +e.target.value; save(); }; $('#e-start').onclick = startExam; };
   if (k) {
-    main(page('Thi thử', 'Thi thử từng môn', 'Mô phỏng bài thi cuối khóa của một chứng chỉ chuyên môn: một phần, tính giờ, chỉ có câu của môn đó. Không xem đáp án cho tới khi nộp.',
+    main(page('Thi thử từng chứng chỉ chuyên môn', esc(SUBJ[k].name), 'Mô phỏng bài thi cuối khóa của một chứng chỉ chuyên môn: một phần, tính giờ, chỉ có câu của môn đó. Không xem đáp án cho tới khi nộp.',
       `<div class="card stack">
-        <div class="grid g3">${typeSel}${nSel('Số câu')}
+        ${typeSel}<div class="grid g3">${nSel('Số câu')}
           <label class="f">Thời gian<select id="e-min">${opts([[30, '30 phút'], [45, '45 phút'], [60, '60 phút'], [90, '90 phút']], p.min || 60)}</select></label></div>
-        <p class="small muted">Lấy từ ${D.q.filter(q => q.subject === k).length} câu môn ${esc(SUBJ[k].name)}, rải đều các chủ đề; ưu tiên câu chưa làm, xen khoảng 30% câu bạn từng làm sai. Đạt khi đúng từ 60% số câu.</p>
+        <p class="small muted">Lấy từ ${D.q.filter(q => q.subject === k).length} câu môn này, rải theo tỷ trọng từng chủ đề; ưu tiên câu chưa làm, xen khoảng 30% câu bạn từng làm sai. Đạt khi đúng từ 60% số câu.</p>
         <div class="note">Số câu, thời gian và mốc đạt của bài thi cuối khóa từng chứng chỉ chuyên môn do đơn vị đào tạo (SRTC) quy định; ở đây bạn tự chọn để luyện, mốc 60% là mức mô phỏng.</div>
         <div class="row"><button class="btn primary" id="e-start">Vào phòng thi</button><a class="btn" href="#trong-tam">Xem trọng tâm môn này</a></div>
       </div>`));
@@ -416,14 +424,14 @@ VIEWS['thi-thu'] = () => {
   const bp = Object.entries(c.blueprint).map(([k, w]) => `<span class="chip">${SUBJ[k].short} ${Math.round(w * 100)}%</span>`).join(' ');
   main(page('Thi thử', 'Thi sát hạch mô phỏng', 'Phần Pháp luật trước, phần Chuyên môn sau. Mỗi phần tính giờ riêng và phải đúng từ 60% số câu. Không xem đáp án cho tới khi nộp.',
     `<div class="card stack">
-      <div class="grid g3">${typeSel}
+      ${typeSel}<div class="grid g3">
         <label class="f">Chứng chỉ<select id="e-cert">${opts(Object.entries(CERTS).map(([k, x]) => [k, `${x.name} · ${x.minutes}′ + ${x.minutes}′`]), p.cert)}</select></label>
         <label class="f">Phần thi<select id="e-mode">${opts([['both', 'Thi đủ 2 phần'], ['LUAT', 'Thi lại riêng phần Pháp luật'], ['CM', 'Thi lại riêng phần Chuyên môn']], p.mode || 'both')}</select></label>
         ${nSel('Số câu mỗi phần')}
       </div>
       <div class="grid g2">
         <div class="card flat stack"><div class="row between"><h3>Phần 1 · Pháp luật CK & TTCK</h3><span class="chip acc num">${c.minutes} phút</span></div>
-          <p class="small muted">Lấy đều các chủ đề từ ${D.q.filter(q => q.subject === 'LU').length} câu Luật đã soát theo văn bản hiện hành.</p></div>
+          <p class="small muted">Rải theo tỷ trọng các chủ đề từ ${D.q.filter(q => q.subject === 'LU').length} câu Luật đã soát theo văn bản hiện hành.</p></div>
         <div class="card flat stack"><div class="row between"><h3>Phần 2 · Chuyên môn</h3><span class="chip acc num">${c.minutes} phút</span></div>
           <p class="small muted">Chỉ gồm các môn trong điều kiện cấp CCHN ${c.name}:</p><div class="row">${bp}</div></div>
       </div>

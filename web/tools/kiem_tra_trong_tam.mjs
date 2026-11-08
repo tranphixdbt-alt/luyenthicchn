@@ -12,6 +12,7 @@ await p.route("**/api/thong-ke", async r => {
 });
 await p.goto(url + "#tong-quan");
 const Q = await p.evaluate(() => JSON.parse(document.getElementById('data-questions').textContent));
+const byIdT = id => Q.find(x => x.id === id).topic;
 const mg = Q.filter(q => q.subject === 'MG'), HARD = mg.slice(0, 12).map(q => q.id), EASY = mg.slice(12, 40).map(q => q.id);
 const t = Date.now(), q = {};
 mg.slice(50, 60).forEach((x, k) => q[x.id] = { n: 2, ok: k % 2, box: 1, due: t, lastOk: k % 3 === 0 });
@@ -51,5 +52,16 @@ const h1 = (await p.textContent('h1')).trim(); A(h1 === 'Đạt' || h1 === 'Chư
 // 6) Quay lại thi CCHN 2 phần vẫn bình thường
 await setState({ ...base, prefs: { ...base.prefs, type: '' } }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('#e-cert');
 await p.click('#e-start'); await p.waitForSelector('#qcard'); s = await sess(); A(s.parts.length === 2, 'thi CCHN vẫn 2 phần');
+// 7) Người mới thi riêng môn Môi giới 35 câu: chọn bằng nút trên trang; mỗi chủ đề góp số câu theo tỷ trọng (lệch tối đa 1 câu)
+await setState({ ...base, q: {}, prefs: { ...base.prefs, type: '', n: 35 } }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('[data-etype="MG"]');
+await p.click('[data-etype="MG"]'); await p.waitForSelector('#e-min'); await p.click('#e-start'); await p.waitForSelector('#qcard');
+s = await sess(); const got = {}, size = {};
+for (const id of s.parts[0].ids) { const t = byIdT(id); got[t] = (got[t] || 0) + 1; }
+for (const x of mg) size[x.topic] = (size[x.topic] || 0) + 1;
+for (const t of Object.keys(size)) { const exp = 35 * size[t] / mg.length; A(Math.abs((got[t] || 0) - exp) <= 1, `chủ đề ${t}: ${got[t] || 0} câu, kỳ vọng ${exp.toFixed(1)}`); }
+// 8) Bấm môn ở Tổng quan mở đúng trang Trọng tâm của môn đó
+await p.goto(url + "#tong-quan"); await p.waitForSelector('[data-subj="LU"]'); await p.click('[data-subj="LU"]');
+await p.waitForSelector('#tt-all'); A((await p.textContent('#tt-comm').catch(() => '')) !== null && /Pháp luật/.test(await p.textContent('.page')), 'bấm môn ở Tổng quan phải mở Trọng tâm môn đó');
+A(await p.$('#tabbar a[href="#trong-tam"]'), 'thanh dưới phải có nút Trọng tâm');
 A(!errs.length, 'lỗi trang: ' + errs.join(' | '));
 await b.close(); console.log("TRONG TAM OK");
