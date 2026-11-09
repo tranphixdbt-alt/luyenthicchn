@@ -51,9 +51,9 @@
   "id": "PS-07",
   "subject": "PS",
   "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
-  "front": "Điều kiện vốn để CTCK được cấp Giấy chứng nhận đủ điều kiện môi giới chứng khoán phái sinh",
-  "back": "Vốn điều lệ và vốn chủ sở hữu đều từ 800 tỷ đồng trở lên; đăng ký cả môi giới, tự doanh và tư vấn đầu tư CKPS cũng chỉ cần 800 tỷ đồng",
-  "basis": "Điểm b khoản 2 Điều 4 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+  "front": "Thành viên giao dịch đặc biệt trên thị trường CKPS là ai, được giao dịch gì?",
+  "back": "Ngân hàng thương mại, chi nhánh ngân hàng nước ngoài được SGDCK chấp thuận; chỉ được đầu tư CKPS có tài sản cơ sở là trái phiếu Chính phủ cho chính mình",
+  "basis": "Khoản 8 Điều 3; điểm a khoản 2 Điều 25 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
  },
  {
   "id": "PS-08",
@@ -107,15 +107,15 @@
   "id": "PS-14",
   "subject": "PS",
   "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
-  "front": "Ký quỹ ban đầu và ký quỹ duy trì",
-  "back": "Ký quỹ ban đầu: số phải nộp khi mở vị thế. Ký quỹ duy trì: mức tối thiểu phải giữ; số dư tài khoản ký quỹ xuống dưới mức này → bị yêu cầu bổ sung ký quỹ (margin call) để đưa về mức ký quỹ ban đầu",
-  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ ban đầu, ký quỹ duy trì; khoản 3 Điều 34 NĐ 158/2020/NĐ-CP (nhà đầu tư bổ sung ký quỹ theo yêu cầu của thành viên bù trừ)"
+  "front": "Ký quỹ ban đầu và ký quỹ duy trì của vị thế hợp đồng tương lai",
+  "back": "Ban đầu: mức phải nộp khi mở vị thế. Duy trì: mức tối thiểu phải giữ; tài sản ký quỹ xuống dưới mức này thì bị gọi bổ sung ký quỹ; không bổ sung đủ, kịp thời thì thành viên bù trừ được đóng vị thế bắt buộc",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ ban đầu, ký quỹ duy trì; khoản 3 Điều 34, điểm b khoản 1 Điều 31 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
  },
  {
   "id": "PS-15",
   "subject": "PS",
   "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
-  "front": "Vị thế HĐTL mở ở giá F0: giá thanh toán vượt ngưỡng nào thì bắt đầu bị gọi ký quỹ bổ sung?",
+  "front": "Mô hình giáo trình (gọi ký quỹ khi số dư ký quỹ < ký quỹ duy trì): vị thế HĐTL mở ở giá F0 bị gọi ký quỹ khi giá thanh toán vượt ngưỡng nào?",
   "back": "Vị thế mua: F < F0 − (Ký quỹ ban đầu − Ký quỹ duy trì) / Hệ số nhân. Vị thế bán: F > F0 + (Ký quỹ ban đầu − Ký quỹ duy trì) / Hệ số nhân (tính cho 1 HĐ, chưa nộp/rút thêm)",
   "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ duy trì và yêu cầu bổ sung ký quỹ"
  },
@@ -164,7 +164,7 @@
   "subject": "PS",
   "topic": "Định giá và sử dụng hợp đồng tương lai",
   "front": "Basis (cơ sở) của hợp đồng tương lai và diễn biến khi tới ngày đáo hạn",
-  "back": "Basis = Giá giao ngay − Giá tương lai (b = S − F). Gần đáo hạn, giá HĐTL hội tụ về giá giao ngay nên basis tiến về 0; biến động không lường trước của basis gọi là rủi ro cơ sở",
+  "back": "Quy ước giáo trình: Basis = Giá giao ngay − Giá tương lai (S − F); có tài liệu dùng F − S. Gần đáo hạn F hội tụ về S nên basis tiến về 0; biến động không lường trước của basis là rủi ro cơ sở",
   "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Basis, sự hội tụ giá và rủi ro cơ sở"
  },
  {
@@ -172,7 +172,7 @@
   "subject": "PS",
   "topic": "Định giá và sử dụng hợp đồng tương lai",
   "front": "Contango và backwardation",
-  "back": "Contango: giá tương lai cao hơn giá giao ngay (F > S, basis âm), thường khi chi phí lưu giữ lớn hơn thu nhập từ tài sản. Backwardation: giá tương lai thấp hơn giá giao ngay (F < S, basis dương)",
+  "back": "Contango: giá tương lai cao hơn giá giao ngay (F > S; basis âm theo quy ước S − F), thường khi chi phí lưu giữ lớn hơn thu nhập từ tài sản. Backwardation: F < S (basis dương)",
   "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Contango và backwardation"
  },
  {
@@ -323,9 +323,9 @@
   "id": "PS-41",
   "subject": "PS",
   "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
-  "front": "Cách tính giá trị ký quỹ ban đầu cho 1 hợp đồng tương lai chỉ số",
-  "back": "Ký quỹ ban đầu = Giá HĐTL × Hệ số nhân × Tỷ lệ ký quỹ ban đầu. Mức ký quỹ và danh mục tài sản ký quỹ do VSDC xác định, điều chỉnh từng thời kỳ; thành viên bù trừ có thể yêu cầu cao hơn",
-  "basis": "Điểm c khoản 4 Điều 28; điểm a khoản 1 Điều 31; điểm a khoản 1 Điều 35 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ"
+  "front": "Thành viên giao dịch CKPS chỉ được thực hiện lệnh của nhà đầu tư khi nào?",
+  "back": "Sau khi bảo đảm nhà đầu tư đã có tài khoản giao dịch, tài khoản ký quỹ và đã ký quỹ đầy đủ theo yêu cầu của thành viên bù trừ",
+  "basis": "Điểm a khoản 1 Điều 25 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
  },
  {
   "id": "PS-42",
@@ -356,8 +356,8 @@
   "subject": "PS",
   "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
   "front": "Thành viên bù trừ trực tiếp khác thành viên bù trừ chung thế nào?",
-  "back": "Trực tiếp: chỉ bù trừ, thanh toán giao dịch CKPS của mình và khách hàng của mình (CTCK: vốn ≥ 900 tỷ đồng). Chung: thêm dịch vụ cho thành viên không bù trừ và khách hàng của họ (CTCK: vốn ≥ 1.200 tỷ đồng)",
-  "basis": "Khoản 11, 12 Điều 3; điểm c khoản 2 Điều 9 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+  "back": "Trực tiếp: chỉ bù trừ, thanh toán giao dịch CKPS của chính mình hoặc của mình và khách hàng của mình. Chung: thêm dịch vụ cho thành viên không bù trừ và khách hàng của họ (qua hợp đồng ủy thác bù trừ, thanh toán)",
+  "basis": "Khoản 11, 12, 13, 15 Điều 3 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
  },
  {
   "id": "PS-46",

@@ -68,7 +68,7 @@
   "subject": "QU",
   "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
   "front": "Quỹ mở được chỉ đáp ứng một phần lệnh khi giá trị lệnh bán ròng (bán − mua) tại ngày giao dịch đạt mức nào?",
-  "back": "Từ 5% NAV của quỹ trở lên (TT 136/2025; trước đây trên 10%); hoặc khi thực hiện hết lệnh làm NAV quỹ thấp hơn 50 tỷ đồng",
+  "back": "Tổng lệnh bán − tổng lệnh mua (kể cả chuyển đổi) tại ngày giao dịch ≥ 5% NAV (từ 12/02/2026; trước là trên 10%); hoặc thực hiện hết lệnh làm NAV quỹ < 50 tỷ đồng.",
   "basis": "Điểm a, b khoản 1 Điều 33 TT 98/2020 (điểm a sửa đổi bởi TT 136/2025)"
  },
  {
@@ -101,15 +101,15 @@
   "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
   "front": "Quỹ đại chúng vượt hạn mức đầu tư: thời hạn điều chỉnh khi do nguyên nhân khách quan / do CTQLQ vi phạm",
   "back": "03 tháng kể từ ngày phát sinh (biến động giá, thanh toán, sáp nhập tổ chức phát hành, quỹ mới dưới 06 tháng) / 15 ngày kể từ ngày phát hiện, CTQLQ bồi thường và chịu chi phí",
-  "basis": "Khoản 4 Điều 110 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 6, 7 Điều 24 TT 98/2020/TT-BTC"
+  "basis": "Khoản 3, 4 Điều 110 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 6, 7 Điều 24 TT 98/2020/TT-BTC (quỹ mở: khoản 5, 6 Điều 35 dẫn chiếu)"
  },
  {
   "id": "QU-14",
   "subject": "QU",
   "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
   "front": "Quỹ đại chúng: giá trị giao dịch chứng khoán trong năm qua một CTCK / qua CTCK là người có liên quan của CTQLQ tối đa",
-  "back": "50% / 20% tổng giá trị giao dịch chứng khoán trong năm của quỹ (trừ quỹ hoạt động dưới 06 tháng, quỹ mở có giá trị giao dịch năm dưới 300 tỷ đồng)",
-  "basis": "Điểm a khoản 7 Điều 10 TT 99/2020/TT-BTC"
+  "back": "50% / 20% tổng giá trị giao dịch chứng khoán trong năm của quỹ (không áp dụng: quỹ hoạt động chưa đủ 06 tháng, tính đến hết năm thành lập; quỹ mở trái phiếu có giá trị giao dịch năm dưới 300 tỷ đồng)",
+  "basis": "Điểm a khoản 7 Điều 10 TT 99/2020/TT-BTC (bản tiếng Việt; TT 88/2025/TT-BTC chỉ sửa khoản 4 Điều 29)"
  },
  {
   "id": "QU-15",
@@ -362,10 +362,10 @@
  {
   "id": "QU-46",
   "subject": "QU",
-  "topic": "Đánh giá hiệu quả danh mục đầu tư",
-  "front": "Hệ số Sortino khác hệ số Sharpe thế nào?",
-  "back": "Sortino = (Rp − MAR)/Độ lệch chuẩn phía dưới (chỉ tính lợi suất thấp hơn mức tối thiểu chấp nhận MAR): chỉ phạt biến động bất lợi, Sharpe phạt cả biến động tăng",
-  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Hệ số Sortino"
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Cơ cấu phí “2 và 20” của quỹ phòng hộ tính thế nào?",
+  "back": "Phí quản lý 2%/năm trên tài sản quản lý (thu cả khi lỗ) + phí thưởng 20% lợi nhuận (thường sau phí quản lý). VD tài sản 100, lãi gộp 18: phí = 2 + 20% × 16 = 5,2 ⇒ NĐT còn 12,8%.",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Quỹ phòng hộ – cơ cấu phí"
  },
  {
   "id": "QU-47",

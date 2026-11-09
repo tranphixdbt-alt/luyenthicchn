@@ -1,0 +1,402 @@
+[
+ {
+  "id": "PS-01",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "front": "Chứng khoán phái sinh là gì theo Luật Chứng khoán?",
+  "back": "Công cụ tài chính dạng hợp đồng (quyền chọn, tương lai, kỳ hạn) xác nhận quyền, nghĩa vụ thanh toán tiền hoặc chuyển giao tài sản cơ sở theo giá đã định, vào thời gian/ngày xác định trong tương lai",
+  "basis": "Khoản 9 Điều 4 Luật Chứng khoán 54/2019/QH14 (VBHN 102/VBHN-VPQH năm 2026; không bị sửa đổi bởi Luật 56/2024/QH15)"
+ },
+ {
+  "id": "PS-02",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "front": "Ba nhóm chủ thể trên thị trường phái sinh phân theo mục đích giao dịch",
+  "back": "Người phòng ngừa rủi ro (hedger): giảm rủi ro giá; nhà đầu cơ (speculator): nhận rủi ro để kiếm lời từ dự đoán giá; người kinh doanh chênh lệch giá (arbitrageur): khai thác định giá sai để có lãi phi rủi ro",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Các chủ thể tham gia thị trường phái sinh"
+ },
+ {
+  "id": "PS-03",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "front": "Chức năng kinh tế chủ yếu của thị trường chứng khoán phái sinh",
+  "back": "Phòng ngừa, phân tán rủi ro; khám phá giá (giá phái sinh phản ánh kỳ vọng giá tương lai); tăng thanh khoản, hiệu quả cho thị trường cơ sở. Không huy động vốn trực tiếp cho tổ chức phát hành",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Chức năng của thị trường chứng khoán phái sinh"
+ },
+ {
+  "id": "PS-04",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "front": "Thị trường phái sinh tập trung khác thị trường phái sinh OTC ở điểm cốt lõi nào?",
+  "back": "Tập trung: hợp đồng chuẩn hóa, giao dịch qua sở, ký quỹ và bù trừ qua đối tác bù trừ trung tâm → rủi ro đối tác rất thấp. OTC: hợp đồng tự thỏa thuận, linh hoạt nhưng rủi ro đối tác cao, thanh khoản thấp",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Thị trường phái sinh tập trung và thị trường OTC"
+ },
+ {
+  "id": "PS-05",
+  "subject": "PS",
+  "topic": "Tổng quan về chứng khoán phái sinh và thị trường chứng khoán phái sinh",
+  "front": "Hiệu ứng đòn bẩy của hợp đồng tương lai: tỷ suất lãi/lỗ trên tiền ký quỹ",
+  "back": "% lãi/lỗ trên ký quỹ ≈ % biến động giá hợp đồng × (Giá trị hợp đồng / Ký quỹ ban đầu). Giả sử ký quỹ 20% (đòn bẩy 5 lần): giá biến động 2% → lãi/lỗ 10% tiền ký quỹ",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Đòn bẩy tài chính của chứng khoán phái sinh"
+ },
+ {
+  "id": "PS-06",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "front": "NĐ 158: những loại chứng khoán phái sinh nào giao dịch trên thị trường CKPS?",
+  "back": "HĐ tương lai, HĐ quyền chọn niêm yết (tài sản cơ sở: chứng khoán, chỉ số CK, tài sản khác theo quy định của Chính phủ); HĐ kỳ hạn, HĐ quyền chọn giao dịch thỏa thuận trên chứng khoán, chỉ số CK trên SGDCK",
+  "basis": "Khoản 1 Điều 14 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-07",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "front": "Điều kiện vốn để CTCK được cấp Giấy chứng nhận đủ điều kiện môi giới chứng khoán phái sinh",
+  "back": "Vốn điều lệ và vốn chủ sở hữu đều từ 800 tỷ đồng trở lên; đăng ký cả môi giới, tự doanh và tư vấn đầu tư CKPS cũng chỉ cần 800 tỷ đồng",
+  "basis": "Điểm b khoản 2 Điều 4 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-08",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "front": "Ngoài vốn, CTCK cần điều kiện gì để được kinh doanh CKPS (NĐ 158 hợp nhất 2026)?",
+  "back": "Được cấp phép đủ các nghiệp vụ kinh doanh CK; GĐ/PGĐ phụ trách và ≥ 05 nhân viên/hoạt động có CCHN + chứng chỉ CKPS; không lỗ 02 năm gần nhất; BCTC kiểm toán chấp nhận toàn phần. Yêu cầu vốn khả dụng ≥ 220% đã bãi bỏ",
+  "basis": "Điểm a, d, e, g khoản 2 Điều 4 NĐ 158/2020/NĐ-CP (điểm c, đ, h bị bãi bỏ bởi khoản 10 Điều 2 NĐ 306/2025/NĐ-CP, hiệu lực 09/01/2026)"
+ },
+ {
+  "id": "PS-09",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "front": "Công ty quản lý quỹ được kinh doanh CKPS ở phạm vi nào, vốn tối thiểu bao nhiêu?",
+  "back": "Chỉ được tư vấn đầu tư CKPS; vốn điều lệ và vốn chủ sở hữu từ 25 tỷ đồng trở lên (kèm điều kiện nhân sự, không lỗ 02 năm gần nhất, BCTC kiểm toán chấp nhận toàn phần)",
+  "basis": "Điểm b khoản 1, khoản 3 Điều 4 NĐ 158/2020/NĐ-CP (điểm c khoản 3 sửa đổi bởi khoản 1 Điều 2 NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-10",
+  "subject": "PS",
+  "topic": "Giới thiệu khung pháp lý cho thị trường chứng khoán phái sinh",
+  "front": "Giới hạn vị thế (NĐ 158) là gì và tổ chức nào xác định, điều chỉnh?",
+  "back": "Vị thế tối đa của một CKPS (hoặc của CKPS đó và các CKPS khác cùng tài sản cơ sở) mà nhà đầu tư được nắm giữ tại một thời điểm; do VSDC xác định, điều chỉnh và giám sát việc tuân thủ",
+  "basis": "Khoản 5 Điều 3; điểm d khoản 4 Điều 28; điểm c khoản 1 Điều 35; điểm b khoản 1 Điều 41 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-11",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Hợp đồng tương lai theo Luật Chứng khoán",
+  "back": "CKPS niêm yết, xác nhận cam kết giữa các bên mua/bán số lượng tài sản cơ sở nhất định theo giá đã định vào ngày xác định trong tương lai, hoặc thanh toán khoản chênh lệch giá trị tài sản cơ sở",
+  "basis": "Khoản 12 Điều 4 Luật Chứng khoán 54/2019/QH14 (VBHN 102/VBHN-VPQH năm 2026; không bị sửa đổi bởi Luật 56/2024/QH15)"
+ },
+ {
+  "id": "PS-12",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Hợp đồng tương lai chỉ số: giá trị một hợp đồng và cách tất toán khi đáo hạn",
+  "back": "Giá trị HĐ = Giá HĐTL (điểm chỉ số) × Hệ số nhân (đồng/điểm). Chỉ số không giao nhận được nên tất toán bằng tiền theo chênh lệch giữa giá hợp đồng và giá thanh toán cuối cùng",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Hợp đồng tương lai chỉ số chứng khoán"
+ },
+ {
+  "id": "PS-13",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Thanh toán lãi lỗ hằng ngày (mark-to-market) của vị thế hợp đồng tương lai",
+  "back": "Cuối mỗi ngày: Lãi/lỗ = (Giá thanh toán hôm nay − Giá thanh toán hôm trước; ngày mở dùng giá mở) × Hệ số nhân × Số HĐ. Vị thế mua có lãi khi giá tăng, vị thế bán có lãi khi giá giảm",
+  "basis": "Điểm d khoản 2 Điều 31, khoản 2 Điều 34 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Thanh toán lãi lỗ hằng ngày"
+ },
+ {
+  "id": "PS-14",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Ký quỹ ban đầu và ký quỹ duy trì",
+  "back": "Ký quỹ ban đầu: số phải nộp khi mở vị thế. Ký quỹ duy trì: mức tối thiểu phải giữ; số dư tài khoản ký quỹ xuống dưới mức này → bị yêu cầu bổ sung ký quỹ (margin call) để đưa về mức ký quỹ ban đầu",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ ban đầu, ký quỹ duy trì; khoản 3 Điều 34 NĐ 158/2020/NĐ-CP (nhà đầu tư bổ sung ký quỹ theo yêu cầu của thành viên bù trừ)"
+ },
+ {
+  "id": "PS-15",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Vị thế HĐTL mở ở giá F0: giá thanh toán vượt ngưỡng nào thì bắt đầu bị gọi ký quỹ bổ sung?",
+  "back": "Vị thế mua: F < F0 − (Ký quỹ ban đầu − Ký quỹ duy trì) / Hệ số nhân. Vị thế bán: F > F0 + (Ký quỹ ban đầu − Ký quỹ duy trì) / Hệ số nhân (tính cho 1 HĐ, chưa nộp/rút thêm)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ duy trì và yêu cầu bổ sung ký quỹ"
+ },
+ {
+  "id": "PS-16",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Khối lượng hợp đồng mở (open interest)",
+  "back": "Tổng số hợp đồng còn hiệu lực (chưa đóng, chưa đáo hạn) tại một thời điểm; mỗi hợp đồng gồm 1 vị thế mua và 1 vị thế bán nhưng chỉ tính 1. Tăng khi hai bên cùng mở mới, giảm khi hai bên cùng đóng",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Khối lượng hợp đồng mở; khoản 3 Điều 3 NĐ 158/2020/NĐ-CP (vị thế mở)"
+ },
+ {
+  "id": "PS-17",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng tương lai",
+  "front": "Giá thanh toán cuối ngày và giá thanh toán cuối cùng của hợp đồng tương lai",
+  "back": "Giá thanh toán cuối ngày: xác định cuối mỗi ngày giao dịch để tính lãi/lỗ vị thế và ký quỹ. Giá thanh toán cuối cùng: xác định tại ngày đáo hạn để tất toán vị thế (HĐTL chỉ số: dựa trên giá trị chỉ số cơ sở)",
+  "basis": "Điểm b khoản 2 Điều 14, khoản 4 Điều 36 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Giá thanh toán"
+ },
+ {
+  "id": "PS-18",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Giá lý thuyết hợp đồng tương lai theo mô hình chi phí lưu giữ (tài sản không sinh thu nhập)",
+  "back": "F0 = S0 × (1 + r)^T (lãi kép năm) hoặc F0 = S0 × e^(rT) (lãi kép liên tục); S0: giá giao ngay, r: lãi suất phi rủi ro, T: thời gian đến đáo hạn (năm)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Định giá hợp đồng tương lai theo mô hình chi phí lưu giữ"
+ },
+ {
+  "id": "PS-19",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Giá lý thuyết HĐTL chỉ số khi các cổ phiếu trong rổ trả cổ tức",
+  "back": "F0 = (S0 − D) × (1 + r)^T, D: giá trị hiện tại của cổ tức nhận trước đáo hạn; nếu tỷ suất cổ tức liên tục q: F0 = S0 × e^((r − q)T). Cổ tức càng cao, F0 càng thấp",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Định giá hợp đồng tương lai chỉ số"
+ },
+ {
+  "id": "PS-20",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Kinh doanh chênh lệch giá HĐTL: làm gì khi F thị trường cao hơn và khi thấp hơn F lý thuyết?",
+  "back": "F thị trường > F lý thuyết: vay tiền mua tài sản cơ sở, bán HĐTL (cash and carry). F thị trường < F lý thuyết: bán khống tài sản cơ sở, cho vay số tiền thu được, mua HĐTL (reverse cash and carry)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Kinh doanh chênh lệch giá hợp đồng tương lai"
+ },
+ {
+  "id": "PS-21",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Basis (cơ sở) của hợp đồng tương lai và diễn biến khi tới ngày đáo hạn",
+  "back": "Basis = Giá giao ngay − Giá tương lai (b = S − F). Gần đáo hạn, giá HĐTL hội tụ về giá giao ngay nên basis tiến về 0; biến động không lường trước của basis gọi là rủi ro cơ sở",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Basis, sự hội tụ giá và rủi ro cơ sở"
+ },
+ {
+  "id": "PS-22",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Contango và backwardation",
+  "back": "Contango: giá tương lai cao hơn giá giao ngay (F > S, basis âm), thường khi chi phí lưu giữ lớn hơn thu nhập từ tài sản. Backwardation: giá tương lai thấp hơn giá giao ngay (F < S, basis dương)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Contango và backwardation"
+ },
+ {
+  "id": "PS-23",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Số HĐTL chỉ số cần bán để phòng ngừa rủi ro thị trường của danh mục cổ phiếu",
+  "back": "N = β × V / (F × Hệ số nhân); β: beta danh mục so với chỉ số, V: giá trị danh mục, F: giá HĐTL (điểm). Đổi beta từ β sang β*: N = (β* − β) × V / (F × Hệ số nhân), N âm là bán",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Phòng ngừa rủi ro danh mục bằng hợp đồng tương lai chỉ số"
+ },
+ {
+  "id": "PS-24",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng tương lai",
+  "front": "Phòng ngừa vị thế bán (short hedge) và phòng ngừa vị thế mua (long hedge)",
+  "back": "Short hedge: đang nắm giữ hoặc sẽ bán tài sản → bán HĐTL để chống giá giảm. Long hedge: sẽ mua tài sản trong tương lai (hoặc đang bán khống) → mua HĐTL để khóa giá mua, chống giá tăng",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Phòng ngừa rủi ro bằng hợp đồng tương lai"
+ },
+ {
+  "id": "PS-25",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Hợp đồng quyền chọn theo Luật Chứng khoán",
+  "back": "CKPS xác nhận quyền của người mua và nghĩa vụ của người bán để mua/bán số lượng tài sản cơ sở theo giá thực hiện, trước hoặc vào ngày xác định, hoặc thanh toán khoản chênh lệch giá trị tài sản cơ sở",
+  "basis": "Khoản 11 Điều 4 Luật Chứng khoán 54/2019/QH14 (VBHN 102/VBHN-VPQH năm 2026; không bị sửa đổi bởi Luật 56/2024/QH15)"
+ },
+ {
+  "id": "PS-26",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Quyền chọn kiểu châu Âu và kiểu Mỹ khác nhau thế nào?",
+  "back": "Kiểu châu Âu: chỉ được thực hiện quyền tại ngày đáo hạn. Kiểu Mỹ: được thực hiện bất kỳ lúc nào trước hoặc tại ngày đáo hạn, nên giá không thấp hơn quyền chọn châu Âu cùng điều khoản",
+  "basis": "Điểm c khoản 2 Điều 14 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Kiểu quyền chọn"
+ },
+ {
+  "id": "PS-27",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Trạng thái cao giá / ngang giá / kiệt giá của quyền chọn mua và quyền chọn bán",
+  "back": "Quyền chọn mua: S > K cao giá (ITM), S = K ngang giá (ATM), S < K kiệt giá (OTM). Quyền chọn bán ngược lại: S < K cao giá, S > K kiệt giá (S: giá tài sản cơ sở, K: giá thực hiện)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Trạng thái quyền chọn"
+ },
+ {
+  "id": "PS-28",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Giá trị nội tại và giá trị thời gian của quyền chọn",
+  "back": "Giá trị nội tại: quyền chọn mua = max(S − K, 0); quyền chọn bán = max(K − S, 0). Giá trị thời gian = Phí quyền chọn − Giá trị nội tại, giảm dần về 0 khi tới ngày đáo hạn",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Giá trị nội tại và giá trị thời gian"
+ },
+ {
+  "id": "PS-29",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Lãi/lỗ tại đáo hạn của vị thế mua quyền chọn mua (long call)",
+  "back": "Lãi/lỗ = max(S_T − K, 0) − c (c: phí quyền chọn, S_T: giá tài sản cơ sở khi đáo hạn). Lỗ tối đa = c; hòa vốn tại S_T = K + c; lãi không giới hạn khi giá tăng",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Lãi/lỗ của vị thế quyền chọn"
+ },
+ {
+  "id": "PS-30",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Lãi/lỗ tại đáo hạn của vị thế bán quyền chọn mua (short call)",
+  "back": "Lãi/lỗ = c − max(S_T − K, 0). Lãi tối đa = phí c đã nhận; hòa vốn tại S_T = K + c; lỗ không giới hạn khi giá tài sản cơ sở tăng mạnh (nếu không nắm giữ tài sản cơ sở)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Lãi/lỗ của vị thế quyền chọn"
+ },
+ {
+  "id": "PS-31",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Lãi/lỗ tại đáo hạn của vị thế mua quyền chọn bán (long put)",
+  "back": "Lãi/lỗ = max(K − S_T, 0) − p (p: phí quyền chọn). Lỗ tối đa = p; hòa vốn tại S_T = K − p; lãi tối đa = K − p (khi giá tài sản cơ sở về 0)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Lãi/lỗ của vị thế quyền chọn"
+ },
+ {
+  "id": "PS-32",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Lãi/lỗ tại đáo hạn của vị thế bán quyền chọn bán (short put)",
+  "back": "Lãi/lỗ = p − max(K − S_T, 0). Lãi tối đa = phí p đã nhận; hòa vốn tại S_T = K − p; lỗ tối đa = K − p (khi giá tài sản cơ sở về 0)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Lãi/lỗ của vị thế quyền chọn"
+ },
+ {
+  "id": "PS-33",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Chứng quyền có bảo đảm theo Luật Chứng khoán",
+  "back": "Chứng khoán có tài sản bảo đảm do CTCK phát hành, cho người sở hữu quyền mua (chứng quyền mua) hoặc bán (chứng quyền bán) chứng khoán cơ sở với tổ chức phát hành theo giá định trước, hoặc nhận tiền chênh lệch",
+  "basis": "Khoản 6 Điều 4 Luật Chứng khoán 54/2019/QH14 (VBHN 102/VBHN-VPQH năm 2026; không bị sửa đổi bởi Luật 56/2024/QH15)"
+ },
+ {
+  "id": "PS-34",
+  "subject": "PS",
+  "topic": "Những vấn đề cơ bản về hợp đồng quyền chọn",
+  "front": "Chứng quyền có bảo đảm thanh toán bằng tiền: số tiền nhận khi đáo hạn cho mỗi chứng quyền",
+  "back": "Chứng quyền mua: (Giá thanh toán − Giá thực hiện) / Tỷ lệ chuyển đổi; chứng quyền bán: (Giá thực hiện − Giá thanh toán) / Tỷ lệ chuyển đổi; âm thì bằng 0. Tỷ lệ n:1 = n chứng quyền ứng 1 CK cơ sở",
+  "basis": "Khoản 6 Điều 4 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Chứng quyền có bảo đảm"
+ },
+ {
+  "id": "PS-35",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Ngang giá quyền chọn mua – bán (put-call parity), quyền chọn châu Âu trên cổ phiếu không trả cổ tức",
+  "back": "C + K/(1 + r)^T = P + S, tức C − P = S − K/(1 + r)^T; C, P: giá quyền chọn mua, bán cùng K và T; S: giá cổ phiếu; r: lãi suất phi rủi ro. Lãi liên tục: thay K/(1 + r)^T bằng K × e^(−rT)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ngang giá quyền chọn mua – bán"
+ },
+ {
+  "id": "PS-36",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Cận dưới và cận trên của giá quyền chọn châu Âu (cổ phiếu không trả cổ tức)",
+  "back": "Quyền chọn mua: max(S − K/(1 + r)^T, 0) ≤ C ≤ S. Quyền chọn bán: max(K/(1 + r)^T − S, 0) ≤ P ≤ K/(1 + r)^T",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Giới hạn giá quyền chọn"
+ },
+ {
+  "id": "PS-37",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Khi một yếu tố tăng (các yếu tố khác không đổi), giá quyền chọn mua và bán thay đổi thế nào?",
+  "back": "Giá tài sản cơ sở S: mua ↑, bán ↓. Giá thực hiện K: mua ↓, bán ↑. Độ biến động σ: cả hai ↑. Lãi suất r: mua ↑, bán ↓. Cổ tức: mua ↓, bán ↑. Thời gian đáo hạn: thường cả hai ↑ (luôn đúng với kiểu Mỹ)",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Các yếu tố ảnh hưởng đến giá quyền chọn"
+ },
+ {
+  "id": "PS-38",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Hệ số delta của quyền chọn và phòng ngừa delta",
+  "back": "Delta = mức thay đổi giá quyền chọn khi giá tài sản cơ sở tăng 1 đơn vị (quyền chọn mua: 0 đến 1; quyền chọn bán: −1 đến 0). Bên bán quyền chọn mua trên Q đơn vị tài sản phòng ngừa bằng cách nắm giữ Delta × Q đơn vị",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Hệ số delta và phòng ngừa delta"
+ },
+ {
+  "id": "PS-39",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Chiến lược quyền chọn bán bảo vệ (protective put)",
+  "back": "Nắm giữ tài sản cơ sở + mua quyền chọn bán: giá trị khi đáo hạn ≥ K, lỗ tối đa = S0 + p − K, vẫn hưởng lợi khi giá tăng (trừ phí p). Tương đương mua quyền chọn mua + trái phiếu không rủi ro",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Chiến lược quyền chọn bán bảo vệ"
+ },
+ {
+  "id": "PS-40",
+  "subject": "PS",
+  "topic": "Định giá và sử dụng hợp đồng quyền chọn",
+  "front": "Chiến lược bán quyền chọn mua có phòng ngừa (covered call)",
+  "back": "Nắm giữ tài sản cơ sở + bán quyền chọn mua: thu thêm phí c nhưng lãi tối đa bị giới hạn = K − S0 + c; phù hợp khi dự báo giá đi ngang hoặc tăng nhẹ; lãi/lỗ có dạng như bán quyền chọn bán",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Chiến lược bán quyền chọn mua có phòng ngừa"
+ },
+ {
+  "id": "PS-41",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "front": "Cách tính giá trị ký quỹ ban đầu cho 1 hợp đồng tương lai chỉ số",
+  "back": "Ký quỹ ban đầu = Giá HĐTL × Hệ số nhân × Tỷ lệ ký quỹ ban đầu. Mức ký quỹ và danh mục tài sản ký quỹ do VSDC xác định, điều chỉnh từng thời kỳ; thành viên bù trừ có thể yêu cầu cao hơn",
+  "basis": "Điểm c khoản 4 Điều 28; điểm a khoản 1 Điều 31; điểm a khoản 1 Điều 35 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Ký quỹ"
+ },
+ {
+  "id": "PS-42",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "front": "Đóng vị thế HĐTL trước ngày đáo hạn và lãi/lỗ khi đóng",
+  "back": "Đặt giao dịch đối ứng: cùng hợp đồng (cùng tài sản cơ sở, tháng đáo hạn), cùng số lượng, ngược chiều. Lãi/lỗ vị thế mua = (Giá đóng − Giá mở) × Hệ số nhân × Số HĐ − phí; vị thế bán đổi dấu",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Mở và đóng vị thế hợp đồng tương lai"
+ },
+ {
+  "id": "PS-43",
+  "subject": "PS",
+  "topic": "Sở Giao dịch CKPS và giao dịch CKPS trên sở giao dịch",
+  "front": "Thành viên tạo lập thị trường CKPS: ai được đăng ký, nghĩa vụ chính là gì?",
+  "back": "Thành viên giao dịch/giao dịch đặc biệt đồng thời là thành viên bù trừ, ký hợp đồng tạo lập thị trường với SGDCK; phải mở tài khoản tạo lập thị trường tách biệt và báo giá theo quy chế để tạo thanh khoản",
+  "basis": "Khoản 9, 14 Điều 3; khoản 1 Điều 24; khoản 3 Điều 25 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-44",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "front": "Cơ chế đối tác bù trừ trung tâm (CCP) và thế vị",
+  "back": "VSDC qua thế vị trở thành đối tác của giao dịch CKPS, thành viên bù trừ là đối tác còn lại. Thế vị: thay một bên của hợp đồng/giao dịch bằng bên khác, bên thay thế kế thừa toàn bộ quyền và nghĩa vụ",
+  "basis": "Khoản 19, 20 Điều 3; khoản 1 Điều 27 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-45",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "front": "Thành viên bù trừ trực tiếp khác thành viên bù trừ chung thế nào?",
+  "back": "Trực tiếp: chỉ bù trừ, thanh toán giao dịch CKPS của mình và khách hàng của mình (CTCK: vốn ≥ 900 tỷ đồng). Chung: thêm dịch vụ cho thành viên không bù trừ và khách hàng của họ (CTCK: vốn ≥ 1.200 tỷ đồng)",
+  "basis": "Khoản 11, 12 Điều 3; điểm c khoản 2 Điều 9 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-46",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "front": "Thành viên bù trừ phá sản: tài sản ký quỹ của nhà đầu tư được xử lý thế nào?",
+  "back": "Không phải tài sản của thành viên bù trừ, không dùng để xử lý phá sản hay chia cho chủ nợ, cổ đông; chỉ dùng thanh toán nghĩa vụ từ vị thế mở của chính nhà đầu tư, phần còn lại hoàn trả ngay",
+  "basis": "Khoản 5 Điều 34 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-47",
+  "subject": "PS",
+  "topic": "Hoạt động bù trừ và thanh toán trong giao dịch CKPS",
+  "front": "Các biện pháp phòng ngừa rủi ro VSDC được áp dụng cho hệ thống bù trừ, thanh toán CKPS",
+  "back": "Xác định, điều chỉnh mức ký quỹ; yêu cầu thành viên bù trừ đóng góp quỹ bù trừ; xác định, điều chỉnh giới hạn vị thế; đóng vị thế của nhà đầu tư, thành viên bù trừ mất khả năng thanh toán; sử dụng quỹ bù trừ",
+  "basis": "Khoản 1 Điều 35 NĐ 158/2020/NĐ-CP (VBHN 16/VBHN-BTC năm 2026; không bị sửa đổi bởi NĐ 306/2025/NĐ-CP)"
+ },
+ {
+  "id": "PS-48",
+  "subject": "PS",
+  "topic": "Một số công cụ phái sinh giao dịch trên thị trường OTC",
+  "front": "Hợp đồng kỳ hạn theo Luật Chứng khoán và rủi ro chủ yếu",
+  "back": "CKPS giao dịch thỏa thuận: cam kết mua/bán số lượng tài sản cơ sở nhất định theo giá đã định vào ngày xác định trong tương lai. Không chuẩn hóa, chỉ thanh toán khi đáo hạn nên chịu rủi ro đối tác",
+  "basis": "Khoản 13 Điều 4 Luật Chứng khoán 54/2019/QH14 (VBHN 102/VBHN-VPQH năm 2026); Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Hợp đồng kỳ hạn"
+ },
+ {
+  "id": "PS-49",
+  "subject": "PS",
+  "topic": "Một số công cụ phái sinh giao dịch trên thị trường OTC",
+  "front": "Hợp đồng hoán đổi (swap) là gì?",
+  "back": "Thỏa thuận (chủ yếu trên OTC) giữa hai bên trao đổi các chuỗi dòng tiền trong tương lai theo công thức định trước (lãi suất, tiền tệ…); có thể xem như một danh mục các hợp đồng kỳ hạn",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Hợp đồng hoán đổi"
+ },
+ {
+  "id": "PS-50",
+  "subject": "PS",
+  "topic": "Một số công cụ phái sinh giao dịch trên thị trường OTC",
+  "front": "Hoán đổi lãi suất cố định – thả nổi: khoản thanh toán ròng mỗi kỳ",
+  "back": "Không trao đổi gốc; thanh toán ròng = (Lãi suất cố định − Lãi suất thả nổi) × Vốn danh nghĩa × Độ dài kỳ (năm). Dương: bên trả cố định trả phần chênh; âm: bên trả cố định nhận phần chênh",
+  "basis": "Giáo trình Chứng khoán phái sinh và TTCK phái sinh (UBCKNN/SRTC) – Hoán đổi lãi suất"
+ }
+]

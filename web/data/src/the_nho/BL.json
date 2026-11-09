@@ -51,9 +51,9 @@
   "id": "BL-07",
   "subject": "BL",
   "topic": "Bảo lãnh phát hành chứng khoán",
-  "front": "Hạn mức “≤ VCSH và ≤ 15 lần (TSNH − nợ ngắn hạn)” áp dụng cho phương thức bảo lãnh nào; số liệu lấy từ BCTC nào?",
-  "back": "Phương thức nhận mua một phần hoặc toàn bộ chứng khoán (không áp dụng cho cố gắng tối đa); báo cáo tài chính quý gần nhất",
-  "basis": "Khoản 2 Điều 17 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 1 Điều 23 TT 121/2020/TT-BTC"
+  "front": "Chào bán cổ phiếu lần đầu ra công chúng (IPO): cổ đông lớn trước đợt chào bán phải cam kết nắm giữ thế nào?",
+  "back": "Cùng nhau nắm giữ ít nhất 20% vốn điều lệ của tổ chức phát hành, tối thiểu 01 năm kể từ ngày kết thúc đợt chào bán.",
+  "basis": "Điểm đ khoản 1 Điều 15 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
  },
  {
   "id": "BL-08",
@@ -61,7 +61,7 @@
   "topic": "Bảo lãnh phát hành chứng khoán",
   "front": "CTCK (cùng công ty con, người có liên quan) sở hữu bao nhiêu % vốn điều lệ tổ chức phát hành thì không được bảo lãnh cam kết chắc chắn/làm bảo lãnh chính?",
   "back": "Từ 10% trở lên (hoặc có quyền kiểm soát, quyền bổ nhiệm Tổng Giám đốc của tổ chức phát hành)",
-  "basis": "Điểm a khoản 2 Điều 23 TT 121/2020/TT-BTC"
+  "basis": "Điểm a khoản 2 Điều 23 TT 121/2020/TT-BTC (VBHN 09/VBHN-BTC 2026)"
  },
  {
   "id": "BL-09",
@@ -69,7 +69,7 @@
   "topic": "Bảo lãnh phát hành chứng khoán",
   "front": "Tổ chức phát hành sở hữu bao nhiêu % vốn điều lệ CTCK thì CTCK không được bảo lãnh cam kết chắc chắn/làm bảo lãnh chính cho tổ chức đó?",
   "back": "Từ 20% trở lên (độc lập hoặc cùng công ty con, người có liên quan; hoặc có quyền kiểm soát, bổ nhiệm Tổng Giám đốc CTCK)",
-  "basis": "Điểm c khoản 2 Điều 23 TT 121/2020/TT-BTC"
+  "basis": "Điểm c khoản 2 Điều 23 TT 121/2020/TT-BTC (VBHN 09/VBHN-BTC 2026)"
  },
  {
   "id": "BL-10",
@@ -77,7 +77,7 @@
   "topic": "Bảo lãnh phát hành chứng khoán",
   "front": "Cấm bảo lãnh cam kết chắc chắn/bảo lãnh chính khi cùng một cá nhân/tổ chức nắm vốn điều lệ cả CTCK và tổ chức phát hành ở mức nào?",
   "back": "Tối thiểu 30% vốn điều lệ CTCK và tối thiểu 30% vốn điều lệ tổ chức phát hành",
-  "basis": "Điểm b khoản 2 Điều 23 TT 121/2020/TT-BTC"
+  "basis": "Điểm b khoản 2 Điều 23 TT 121/2020/TT-BTC (VBHN 09/VBHN-BTC 2026)"
  },
  {
   "id": "BL-11",
@@ -85,7 +85,7 @@
   "topic": "Bảo lãnh phát hành chứng khoán",
   "front": "CTCK nhận bảo lãnh phát hành phải nhận tiền đặt mua chứng khoán của nhà đầu tư vào đâu?",
   "back": "Tài khoản riêng biệt mở tại ngân hàng thương mại",
-  "basis": "Khoản 3 Điều 23 TT 121/2020/TT-BTC"
+  "basis": "Khoản 3 Điều 23 TT 121/2020/TT-BTC (VBHN 09/VBHN-BTC 2026)"
  },
  {
   "id": "BL-12",
@@ -101,7 +101,7 @@
   "topic": "Bảo lãnh phát hành chứng khoán",
   "front": "Cổ phiếu chào bán ra công chúng còn thừa do tổ chức bảo lãnh mua theo hợp đồng bảo lãnh: có bị hạn chế chuyển nhượng 01 năm không?",
   "back": "Không. Hạn chế chuyển nhượng tối thiểu 01 năm chỉ áp dụng với nhà đầu tư được phân phối lại số cổ phiếu thừa; miễn cho tổ chức bảo lãnh và xử lý cổ phiếu lẻ",
-  "basis": "Khoản 2, 4 Điều 42 NĐ 155/2020/NĐ-CP"
+  "basis": "Khoản 2, 4 Điều 42 NĐ 155/2020/NĐ-CP (không bị NĐ 245/2025/NĐ-CP sửa đổi)"
  },
  {
   "id": "BL-14",
@@ -140,7 +140,7 @@
   "subject": "BL",
   "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
   "front": "Chi phí đại diện (agency cost) giữa cổ đông và ban điều hành gồm những gì?",
-  "back": "Chi phí giám sát (kiểm toán, HĐQT độc lập), chi phí ràng buộc (hợp đồng, thưởng cổ phiếu) và tổn thất còn lại khi người quản lý không hành động vì lợi ích cổ đông",
+  "back": "Chi phí giám sát của cổ đông (kiểm toán, HĐQT độc lập), chi phí ràng buộc người quản lý tự chịu để cam kết hành động vì cổ đông, và tổn thất còn lại khi lợi ích hai bên vẫn lệch nhau.",
   "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lý thuyết đại diện"
  },
  {
@@ -157,7 +157,7 @@
   "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
   "front": "CTCK không được tư vấn chào bán, niêm yết, cổ phần hóa, xác định giá trị DN cho công ty mà CTCK nắm giữ bao nhiêu % vốn điều lệ?",
   "back": "Từ 10% vốn điều lệ trở lên",
-  "basis": "Khoản 2 Điều 25 TT 121/2020/TT-BTC"
+  "basis": "Khoản 2 Điều 25 TT 121/2020/TT-BTC (VBHN 09/VBHN-BTC 2026)"
  },
  {
   "id": "BL-21",
@@ -267,9 +267,9 @@
   "id": "BL-34",
   "subject": "BL",
   "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
-  "front": "Phát hành quyền mua cổ phần: giá lý thuyết sau pha loãng (TERP) và giá trị một quyền",
-  "back": "TERP = (N × P0 + S)/(N + 1); giá trị quyền = (P0 − S)/(N + 1) (N: số quyền để mua 1 cổ phiếu mới; P0: giá trước ngày không hưởng quyền; S: giá phát hành)",
-  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phát hành quyền mua cổ phần"
+  "front": "Giá trị lý thuyết của một quyền mua cổ phần",
+  "back": "= (P₀ − S)/(N + 1) = (Pₓ − S)/N (N: số quyền để mua 1 CP mới; P₀, Pₓ: giá trước, sau ngày không hưởng quyền; S: giá phát hành). VD 5 quyền mua 2 CP (N = 2,5), P₀ = 25.000, S = 18.000 ⇒ 2.000 đ.",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phát hành quyền mua cổ phần: giá trị quyền"
  },
  {
   "id": "BL-35",
@@ -299,8 +299,8 @@
   "id": "BL-38",
   "subject": "BL",
   "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
-  "front": "Trả cổ tức bằng cổ phiếu tỷ lệ k: ảnh hưởng tới VCSH, số cổ phiếu và giá",
-  "back": "Tổng VCSH không đổi (chỉ chuyển LNST chưa phân phối sang vốn góp); số cổ phiếu tăng (1 + k) lần; giá lý thuyết điều chỉnh = P/(1 + k)",
+  "front": "Trả cổ tức bằng cổ phiếu tỷ lệ k: ảnh hưởng tới VCSH, số cổ phiếu và tỷ lệ sở hữu",
+  "back": "Tổng VCSH không đổi (chỉ chuyển LNST chưa phân phối sang vốn góp của chủ sở hữu); số cổ phiếu tăng (1 + k) lần; tỷ lệ sở hữu không đổi; EPS, giá trị sổ sách mỗi CP giảm còn 1/(1 + k).",
   "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Cổ tức bằng cổ phiếu"
  },
  {
@@ -355,8 +355,8 @@
   "id": "BL-45",
   "subject": "BL",
   "topic": "Tư vấn cổ phần hóa doanh nghiệp",
-  "front": "Phương pháp tài sản: giá trị thực tế phần vốn chủ sở hữu khi cổ phần hóa",
-  "back": "= Giá trị thực tế DN (tài sản đánh giá lại theo giá thị trường) − Nợ thực tế phải trả; không phản ánh khả năng sinh lời tương lai",
+  "front": "Định giá DN theo phương pháp tài sản: cách tính giá trị vốn chủ sở hữu và hạn chế",
+  "back": "= Giá trị thực tế tài sản (đánh giá lại theo giá thị trường) − Nợ thực tế phải trả. Dễ kiểm chứng, nhưng không phản ánh khả năng sinh lời tương lai và lợi thế kinh doanh của DN.",
   "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương pháp tài sản"
  },
  {

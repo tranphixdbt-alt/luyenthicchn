@@ -34,8 +34,8 @@
  {
   "id": "PT-05",
   "subject": "PT",
-  "front": "Giá trị hiện tại của niên kim vĩnh viễn (đều và tăng trưởng đều)",
-  "back": "Dòng tiền đều C từ cuối kỳ 1: PV = C/r. Tăng đều g mỗi kỳ, khoản đầu C₁: PV = C₁/(r − g), cần r > g. Khoản đầu ở cuối kỳ k + 1: chiết khấu C/r thêm k kỳ.",
+  "front": "Giá trị hiện tại của niên kim vĩnh viễn (dòng tiền đều mãi mãi)",
+  "back": "Nhận C cuối mỗi kỳ, mãi mãi: PV = C/r (r: lãi suất mỗi kỳ). Khoản đầu tiên ở cuối kỳ k + 1: PV = (C/r)/(1 + r)^k. VD cổ tức ưu đãi cố định 1.200 đ/năm, r = 10% ⇒ PV = 12.000 đ.",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị hiện tại của niên kim vĩnh viễn",
   "topic": "Tổng quan về phân tích và đầu tư"
  },
@@ -83,7 +83,7 @@
   "id": "PT-11",
   "subject": "PT",
   "front": "Hiệp phương sai lợi suất của hai chứng khoán A, B",
-  "back": "Cov(A,B) = Σ pᵢ[R_Ai − E(R_A)][R_Bi − E(R_B)] = ρ × σA × σB. Cov > 0: lợi suất biến động cùng chiều; Cov < 0: ngược chiều.",
+  "back": "Cov(A,B) = Σ pᵢ[R_Ai − E(R_A)][R_Bi − E(R_B)] (pᵢ: xác suất kịch bản i). Cov > 0: lợi suất biến động cùng chiều; Cov < 0: ngược chiều; Cov = 0: không có quan hệ tuyến tính.",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hiệp phương sai",
   "topic": "Mức sinh lời và rủi ro"
  },
@@ -290,8 +290,8 @@
  {
   "id": "PT-37",
   "subject": "PT",
-  "front": "Định giá theo P/B: công thức và nhóm doanh nghiệp phù hợp",
-  "back": "P/B = giá thị trường/giá trị sổ sách mỗi cổ phiếu. Phù hợp ngân hàng, CTCK (tài sản chủ yếu là tài sản tài chính); kém ý nghĩa khi VCSH âm hoặc nhiều tài sản vô hình chưa ghi nhận.",
+  "front": "P/B hợp lý theo mô hình tăng trưởng cổ tức đều (justified P/B)",
+  "back": "P₀/B₀ = (ROE − g)/(r − g) (B₀: giá trị sổ sách mỗi cổ phiếu, r: lợi suất yêu cầu, g = ROE × b). ROE > r ⇒ P/B > 1; ROE = r ⇒ P/B = 1. Hay dùng cho ngân hàng, CTCK.",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá theo hệ số P/B",
   "topic": "Phân tích và định giá cổ phiếu"
  },
@@ -307,7 +307,7 @@
   "id": "PT-39",
   "subject": "PT",
   "front": "Công thức dòng tiền tự do doanh nghiệp (FCFF) và tỷ suất dùng để chiết khấu",
-  "back": "FCFF = EBIT × (1 − t) + khấu hao − CAPEX − tăng vốn lưu động. Chiết khấu bằng WACC ⇒ giá trị DN; giá trị vốn chủ = giá trị DN − nợ vay. Hợp với DN đòn bẩy cao, cơ cấu vốn biến động.",
+  "back": "FCFF = EBIT × (1 − t) + khấu hao − CAPEX − tăng vốn lưu động (= FCFE + lãi vay × (1 − t) − vay ròng). Chiết khấu bằng WACC ⇒ giá trị DN; giá trị vốn chủ = giá trị DN − giá trị nợ vay.",
   "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình chiết khấu FCFF",
   "topic": "Phân tích và định giá cổ phiếu"
  },

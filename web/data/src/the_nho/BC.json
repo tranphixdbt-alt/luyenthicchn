@@ -34,9 +34,9 @@
  {
   "id": "BC-05",
   "subject": "BC",
-  "front": "Bộ báo cáo tài chính năm của doanh nghiệp gồm những báo cáo nào?",
-  "back": "Báo cáo tình hình tài chính (bảng cân đối kế toán, mẫu B01-DN), báo cáo kết quả hoạt động kinh doanh (B02-DN), báo cáo lưu chuyển tiền tệ (B03-DN), thuyết minh BCTC (B09-DN).",
-  "basis": "VAS 21 – Trình bày báo cáo tài chính; Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ thống BCTC doanh nghiệp",
+  "front": "Bộ báo cáo tài chính năm của doanh nghiệp gồm những báo cáo nào (chế độ kế toán áp dụng từ năm 2026)?",
+  "back": "Báo cáo tình hình tài chính (trước đây gọi là Bảng cân đối kế toán), Báo cáo kết quả hoạt động kinh doanh, Báo cáo lưu chuyển tiền tệ, Thuyết minh báo cáo tài chính.",
+  "basis": "Điều 17 TT 99/2025/TT-BTC hướng dẫn Chế độ kế toán doanh nghiệp (hiệu lực 01/01/2026, thay TT 200/2014/TT-BTC); VAS 21 – Trình bày báo cáo tài chính",
   "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
  },
  {
@@ -58,16 +58,16 @@
  {
   "id": "BC-08",
   "subject": "BC",
-  "front": "Lãi vay đã trả, lãi và cổ tức nhận được, cổ tức đã trả thuộc luồng tiền nào (mẫu B03-DN)?",
+  "front": "Doanh nghiệp (không phải ngân hàng, tổ chức tài chính): lãi vay đã trả, lãi và cổ tức nhận được, cổ tức đã trả thuộc luồng tiền nào?",
   "back": "Tiền lãi vay đã trả: HĐ kinh doanh. Tiền thu lãi cho vay, cổ tức, lợi nhuận được chia: HĐ đầu tư. Cổ tức, lợi nhuận đã trả cho chủ sở hữu: HĐ tài chính.",
-  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ; mẫu B03-DN",
+  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ, đoạn 22 (đoạn 23: quy định riêng cho ngân hàng, TCTD, tổ chức tài chính)",
   "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
  },
  {
   "id": "BC-09",
   "subject": "BC",
   "front": "Luồng tiền HĐKD theo phương pháp gián tiếp: điều chỉnh từ lợi nhuận thế nào?",
-  "back": "LN + chi phí không bằng tiền (khấu hao, dự phòng) − lãi (+ lỗ) từ HĐ đầu tư − tăng (+ giảm) phải thu, hàng tồn kho + tăng (− giảm) phải trả HĐKD. Mẫu B03-DN bắt đầu từ LN trước thuế.",
+  "back": "LN + chi phí không bằng tiền (khấu hao, dự phòng) − lãi (+ lỗ) từ HĐ đầu tư − tăng (+ giảm) phải thu, hàng tồn kho + tăng (− giảm) phải trả HĐKD. Ở Việt Nam, điểm xuất phát là LN trước thuế.",
   "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ: phương pháp gián tiếp",
   "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
  },
@@ -210,8 +210,8 @@
  {
   "id": "BC-27",
   "subject": "BC",
-  "front": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE): công thức và ý nghĩa",
-  "back": "ROE = LNST/VCSH bình quân: mỗi đồng vốn chủ tạo ra bao nhiêu đồng lợi nhuận sau thuế. ROE = ROA × hệ số nhân vốn chủ.",
+  "front": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE): công thức và lưu ý khi dùng",
+  "back": "ROE = LNST/VCSH bình quân (BCTC hợp nhất: phần của cổ đông công ty mẹ): mỗi đồng vốn chủ tạo ra bao nhiêu đồng LNST. VCSH âm hoặc quá nhỏ thì ROE mất ý nghĩa.",
   "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Tỷ suất sinh lời trên vốn chủ sở hữu (ROE)",
   "topic": "Phân tích các chỉ tiêu tài chính"
  },
@@ -251,7 +251,7 @@
   "id": "BC-32",
   "subject": "BC",
   "front": "Hệ số giá trên thu nhập (P/E) trong phân tích BCTC: công thức và diễn giải",
-  "back": "P/E = giá thị trường mỗi cổ phiếu/EPS: số đồng nhà đầu tư trả cho một đồng lợi nhuận. P/E cao: thị trường kỳ vọng tăng trưởng cao, rủi ro thấp, hoặc cổ phiếu đang đắt.",
+  "back": "P/E = giá thị trường mỗi cổ phiếu/EPS: số đồng nhà đầu tư trả cho một đồng lợi nhuận. P/E trượt dùng EPS 4 quý gần nhất, P/E dự phóng dùng EPS kỳ tới; EPS âm thì P/E không có ý nghĩa.",
   "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nhóm chỉ tiêu giá thị trường: P/E",
   "topic": "Phân tích các chỉ tiêu tài chính"
  },
