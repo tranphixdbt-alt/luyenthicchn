@@ -1,0 +1,15 @@
+import { chromium } from "playwright-core";
+const url = process.argv[2];
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const p = await b.newPage(); const errs = []; p.on('pageerror', e => errs.push(e.message));
+const A = (c, m) => { if (!c) throw new Error(m); };
+await p.goto(url + '#tong-quan');
+await p.evaluate(() => localStorage.setItem('docchn_v1', JSON.stringify({ v: 1, q: {}, star: {}, hist: [], sess: null, last: null, theme: '', reports: [], cards: { '0': { ok: true, at: 1 }, '2': { ok: false, at: 2 } }, prefs: { cert: 'moi-gioi', n: 35 } })));
+await p.goto(url + '#the-nho'); await p.reload(); await p.waitForSelector('#c-subj');
+const st = await p.evaluate(() => JSON.parse(localStorage.getItem('docchn_v1')).cards);
+A(st['LU-01']?.ok === true && st['LU-03']?.ok === false && !('0' in st), 'chuyển tiến độ cũ sang mã thẻ: ' + JSON.stringify(st));
+A(/Đã nhớ 1\//.test(await p.textContent('.page')), 'đếm thẻ đã nhớ theo mã');
+await p.click('#c-card'); await p.click('#c-yes');
+const n = Object.keys(await p.evaluate(() => JSON.parse(localStorage.getItem('docchn_v1')).cards)).filter(k => /^LU-\d+$/.test(k)).length;
+A(n >= 2, 'đánh dấu đã nhớ lưu theo mã thẻ');
+A(!errs.length, errs.join('|')); await b.close(); console.log('THE NHO OK');
