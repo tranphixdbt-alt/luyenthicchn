@@ -10804,16 +10804,16 @@
 "part": "LUAT",
 "subject": "LU",
 "topic": "Công bố thông tin",
-"level": 3,
-"q": "Công ty đại chúng K dự kiến họp Đại hội đồng cổ đông bất thường; ngày đăng ký cuối cùng để lập danh sách cổ đông có quyền dự họp dự kiến là 30/12/2026. Theo Thông tư 96/2020/TT-BTC, K phải công bố thông tin về ngày đăng ký cuối cùng dự kiến này chậm nhất vào ngày nào? (Tính lùi đủ số ngày dương lịch, không xét ngày nghỉ.)",
+"level": 1,
+"q": "Theo Thông tư 96/2020/TT-BTC, công ty đại chúng phải công bố thông tin về ngày đăng ký cuối cùng dự kiến để cổ đông hiện hữu tham dự họp Đại hội đồng cổ đông tối thiểu bao nhiêu ngày trước ngày đăng ký cuối cùng dự kiến?",
 "o": [
-"10/12/2026",
-"20/12/2026",
-"09/12/2026",
-"15/12/2026"
+"20 ngày",
+"10 ngày",
+"21 ngày",
+"15 ngày"
 ],
 "a": 0,
-"e": "Điểm b khoản 4 Điều 11 TT 96/2020: công ty đại chúng công bố thông tin về ngày đăng ký cuối cùng dự kiến để cổ đông hiện hữu tham dự họp ĐHĐCĐ tối thiểu 20 ngày trước ngày đăng ký cuối cùng dự kiến: 30/12/2026 − 20 ngày = 10/12/2026. Mốc 10 ngày (20/12/2026) áp dụng cho các trường hợp thực hiện quyền khác như trả cổ tức (điểm a); 21 ngày là thời hạn đăng tài liệu họp ĐHĐCĐ thường niên trước ngày khai mạc, không phải mốc tính theo ngày đăng ký cuối cùng.",
+"e": "Điểm b khoản 4 Điều 11 TT 96/2020: tối thiểu 20 ngày trước ngày đăng ký cuối cùng dự kiến khi thực hiện quyền tham dự họp ĐHĐCĐ. Mốc 10 ngày áp dụng cho các quyền khác như nhận cổ tức (điểm a); 21 ngày là thời hạn đăng tài liệu họp ĐHĐCĐ thường niên trước ngày khai mạc, không tính theo ngày đăng ký cuối cùng.",
 "basis": "Điểm b khoản 4 Điều 11 Thông tư 96/2020/TT-BTC (không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026; đối chiếu VBHN 10/VBHN-BTC năm 2026)",
 "quote": "Công ty đại chúng công bố thông tin về ngày đăng ký cuối cùng dự kiến thực hiện quyền cho cổ đông hiện hữu để tham dự họp Đại hội đồng cổ đông tối thiểu 20 ngày trước ngày đăng ký cuối cùng dự kiến.",
 "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
@@ -10844,16 +10844,16 @@
 "part": "LUAT",
 "subject": "LU",
 "topic": "Công ty đại chúng",
-"level": 3,
-"q": "Ngày 02/11/2026, UBCKNN xác nhận hoàn tất việc đăng ký công ty đại chúng cho công ty cổ phần V (trở thành công ty đại chúng do đáp ứng điều kiện vốn và cơ cấu cổ đông, chưa qua chào bán lần đầu ra công chúng). Theo Nghị định 155/2020/NĐ-CP, V phải hoàn thành việc đăng ký cổ phiếu tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam chậm nhất vào ngày nào? (Thời hạn n ngày kể từ ngày X tính đến hết ngày X + n.)",
+"level": 1,
+"q": "Theo Nghị định 155/2020/NĐ-CP, công ty đại chúng phải đăng ký cổ phiếu tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam trong thời hạn nào?",
 "o": [
-"02/12/2026",
-"09/11/2026",
-"17/11/2026",
-"02/11/2027"
+"30 ngày kể từ ngày UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng",
+"15 ngày kể từ ngày nộp hồ sơ đăng ký công ty đại chúng cho UBCKNN",
+"15 ngày kể từ ngày UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng",
+"01 năm kể từ ngày trở thành công ty đại chúng"
 ],
 "a": 2,
-"e": "Khoản 4 Điều 149 NĐ 155/2020 (NĐ 245/2025 chỉ bổ sung khoản 3a, 3b, 4a, không sửa khoản 4): công ty đại chúng phải đăng ký cổ phiếu tại VSDC trong 15 ngày kể từ ngày UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng → 17/11/2026. Mốc 30 ngày (02/12/2026) là thời hạn đăng ký giao dịch cổ phiếu trên hệ thống giao dịch chứng khoán chưa niêm yết (điểm d khoản 1 Điều 34 Luật Chứng khoán); 01 năm là căn cứ hủy tư cách công ty đại chúng nếu không đăng ký tại VSDC (Điều 38 Luật, sửa đổi bởi Luật 56/2024). Khoản 3a (bổ sung bởi NĐ 245): phải hoàn tất đăng ký tại VSDC trước khi đưa chứng khoán vào giao dịch.",
+"e": "Khoản 4 Điều 149 NĐ 155/2020 (NĐ 245/2025 chỉ bổ sung khoản 3a, 3b, 4a, không sửa khoản 4): 15 ngày kể từ ngày UBCKNN xác nhận hoàn tất việc đăng ký công ty đại chúng. 30 ngày là thời hạn đăng ký giao dịch cổ phiếu trên hệ thống giao dịch chứng khoán chưa niêm yết (điểm d khoản 1 Điều 34 Luật Chứng khoán); 01 năm không đăng ký tại VSDC là căn cứ hủy tư cách công ty đại chúng (Điều 38 Luật Chứng khoán).",
 "basis": "Khoản 4 Điều 149 Nghị định 155/2020/NĐ-CP (không bị sửa đổi bởi Nghị định 245/2025/NĐ-CP); điểm d khoản 1 Điều 34 Luật Chứng khoán",
 "quote": "Công ty đại chúng phải thực hiện đăng ký cổ phiếu tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam trong thời hạn 15 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước xác nhận hoàn tất việc đăng ký công ty đại chúng.",
 "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
@@ -12641,9 +12641,9 @@
 },
 {
 "id": "L1-026",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào bán ra công chúng",
+"part": "CM",
+"subject": "BL",
+"topic": "Bảo lãnh phát hành chứng khoán",
 "level": 3,
 "q": "Công ty chứng khoán E (không phải người có liên quan của tổ chức phát hành) có số liệu theo báo cáo tài chính quý gần nhất: vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 1.500 tỷ đồng, nợ ngắn hạn 1.450 tỷ đồng. Tổng giá trị chứng khoán tối đa E được bảo lãnh phát hành ra công chúng theo hình thức nhận mua là:",
 "o": [
@@ -13721,9 +13721,9 @@
 },
 {
 "id": "L1-080",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Quỹ đầu tư",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
 "level": 3,
 "q": "Quỹ đóng ABC có tổng giá trị tài sản 500 tỷ đồng. Công ty XYZ có tổng giá trị chứng khoán đang lưu hành 800 tỷ đồng (không có trái phiếu Chính phủ). Giá trị tối đa quỹ ABC được đầu tư vào chứng khoán của XYZ là:",
 "o": [
@@ -14004,16 +14004,16 @@
 "part": "LUAT",
 "subject": "LU",
 "topic": "Thanh tra & xử lý vi phạm",
-"level": 3,
-"q": "Cá nhân K thực hiện hành vi thao túng thị trường chứng khoán, thu lợi bất hợp pháp 800 triệu đồng. Mức phạt tiền tối đa có thể áp dụng đối với K theo Luật Chứng khoán là:",
+"level": 2,
+"q": "Theo Điều 132 Luật Chứng khoán, cá nhân thực hiện hành vi thao túng thị trường chứng khoán có khoản thu trái pháp luật (mức phạt tính theo khoản thu cao hơn 1,5 tỷ đồng) thì mức phạt tiền tối đa là:",
 "o": [
-"04 tỷ đồng",
-"08 tỷ đồng",
-"1,5 tỷ đồng",
-"03 tỷ đồng"
+"05 lần khoản thu trái pháp luật",
+"10 lần khoản thu trái pháp luật",
+"02 lần khoản thu trái pháp luật",
+"1,5 tỷ đồng"
 ],
 "a": 0,
-"e": "Khoản 3 Điều 132: với hành vi tại khoản 2, 3 Điều 12, mức phạt tối đa (cho tổ chức) là 10 lần khoản thu trái pháp luật = 10 × 0,8 = 8 tỷ đồng (cao hơn 03 tỷ nên áp dụng 8 tỷ). Khoản 5: cá nhân tối đa bằng 1/2 mức của tổ chức = 8 : 2 = 4 tỷ đồng. 8 tỷ là quên chia đôi; 1,5 tỷ và 3 tỷ là áp nhầm khoản 4.",
+"e": "Khoản 3 Điều 132: với hành vi tại khoản 2, 3 Điều 12 (sử dụng thông tin nội bộ, thao túng) mức phạt tối đa là 10 lần khoản thu trái pháp luật; không có khoản thu hoặc mức tính theo khoản thu thấp hơn mức tại khoản 4 (03 tỷ đồng) thì áp dụng 03 tỷ đồng. Khoản 5: các mức này áp dụng cho tổ chức, cá nhân tối đa bằng một phần hai, tức 05 lần khoản thu trái pháp luật (hoặc 1,5 tỷ đồng). 10 lần là mức của tổ chức.",
 "basis": "Khoản 3, 4, 5 Điều 132 Luật Chứng khoán 2019",
 "quote": "cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền tối đa đối với tổ chức",
 "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
@@ -14081,9 +14081,9 @@
 },
 {
 "id": "L2-003",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào bán trái phiếu",
+"part": "CM",
+"subject": "BL",
+"topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
 "level": 3,
 "q": "Công ty cổ phần X (sản xuất hàng tiêu dùng, không thuộc diện loại trừ) có vốn chủ sở hữu 400 tỷ đồng, nợ phải trả 1.500 tỷ đồng theo BCTC kiểm toán gần nhất. X dự kiến chào bán trái phiếu ra công chúng một đợt, không nhằm cơ cấu nợ và không có bảo lãnh thanh toán. Giá trị trái phiếu tối đa X có thể chào bán để đáp ứng điều kiện về nợ phải trả là:",
 "o": [
@@ -14121,9 +14121,9 @@
 },
 {
 "id": "L2-005",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào bán trái phiếu",
+"part": "CM",
+"subject": "BL",
+"topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
 "level": 3,
 "q": "Công ty đại chúng Y chào bán ra công chúng 2.000.000 trái phiếu chuyển đổi cho nhà đầu tư (không phải chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu) nhằm huy động vốn thực hiện dự án. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), số trái phiếu tối thiểu phải bán được là:",
 "o": [
@@ -14281,9 +14281,9 @@
 },
 {
 "id": "L2-013",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào bán riêng lẻ & phát hành khác",
+"part": "CM",
+"subject": "BL",
+"topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
 "level": 3,
 "q": "Công ty đại chúng B có 80 triệu cổ phiếu đang lưu hành và chưa phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) trong 12 tháng qua. Số cổ phiếu ESOP tối đa B được phát hành trong 12 tháng tới là:",
 "o": [
@@ -14421,9 +14421,9 @@
 },
 {
 "id": "L2-020",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Niêm yết & hủy niêm yết",
+"part": "CM",
+"subject": "CB",
+"topic": "Thị trường chứng khoán thứ cấp",
 "level": 3,
 "q": "Công ty cổ phần C (không phải doanh nghiệp cổ phần hóa) có vốn điều lệ 1.200 tỷ đồng, tương ứng 120 triệu cổ phiếu có quyền biểu quyết, đăng ký niêm yết. Yêu cầu tối thiểu về cơ cấu cổ đông là:",
 "o": [
@@ -14621,9 +14621,9 @@
 },
 {
 "id": "L2-030",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Vốn điều lệ CTCK",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty chứng khoán",
 "level": 3,
 "q": "Một tổ chức đề nghị cấp Giấy phép thành lập và hoạt động công ty chứng khoán với ba nghiệp vụ: môi giới, tự doanh và tư vấn đầu tư chứng khoán. Vốn điều lệ tối thiểu là:",
 "o": [
@@ -15021,9 +15021,9 @@
 },
 {
 "id": "L2-050",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Hạn chế tài chính CTCK",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty chứng khoán",
 "level": 3,
 "q": "CTCK E có vốn chủ sở hữu 1.000 tỷ đồng; tổng nợ phải trả trên BCTC là 6.500 tỷ đồng, trong đó tiền gửi giao dịch chứng khoán của khách hàng 1.800 tỷ đồng, quỹ khen thưởng phúc lợi 50 tỷ đồng, phần còn lại là vay và phải trả khác. Tỷ lệ tổng nợ/VCSH theo Thông tư 121/2020/TT-BTC và kết luận là:",
 "o": [
@@ -15041,9 +15041,9 @@
 },
 {
 "id": "L2-052",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Hạn chế tài chính CTCK",
+"part": "CM",
+"subject": "BL",
+"topic": "Bảo lãnh phát hành chứng khoán",
 "level": 3,
 "q": "Theo BCTC quý gần nhất, CTCK G có vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 2.000 tỷ đồng, nợ ngắn hạn 1.950 tỷ đồng. Tổng giá trị tối đa G được bảo lãnh phát hành chứng khoán ra công chúng (nhận mua một phần hoặc toàn bộ) là:",
 "o": [
@@ -15101,9 +15101,9 @@
 },
 {
 "id": "L2-055",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Hạn chế tài chính CTCK",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty chứng khoán",
 "level": 3,
 "q": "CTCK K có vốn chủ sở hữu 2.000 tỷ đồng, đang nắm cổ phiếu niêm yết trị giá 900 tỷ đồng và cổ phiếu chưa niêm yết trị giá 350 tỷ đồng (không có phần vốn góp, dự án kinh doanh). Giá trị tối đa K được đầu tư thêm vào cổ phiếu chưa niêm yết là:",
 "o": [
@@ -15221,9 +15221,9 @@
 },
 {
 "id": "L2-061",
-"part": "LUAT",
-"subject": "LU",
-"topic": "An toàn tài chính CTCK",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty chứng khoán",
 "level": 3,
 "q": "CTCK T có vốn khả dụng 360 tỷ đồng, tổng giá trị rủi ro 250 tỷ đồng theo báo cáo tỷ lệ an toàn tài chính đã được kiểm toán. Theo Thông tư 91/2020/TT-BTC, T:",
 "o": [
@@ -15301,9 +15301,9 @@
 },
 {
 "id": "L2-065",
-"part": "LUAT",
-"subject": "LU",
-"topic": "An toàn tài chính CTCK",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty chứng khoán",
 "level": 3,
 "q": "CTCK V (không kinh doanh chứng khoán phái sinh) có ba nghiệp vụ môi giới, tự doanh và bảo lãnh phát hành chứng khoán. Chi phí để tính rủi ro hoạt động trong 12 tháng liền kề (sau giảm trừ) là 160 tỷ đồng. Giá trị rủi ro hoạt động của V là:",
 "o": [
@@ -15464,16 +15464,16 @@
 "part": "LUAT",
 "subject": "LU",
 "topic": "Công bố thông tin",
-"level": 3,
-"q": "Công ty niêm yết W là công ty mẹ, không thực hiện soát xét BCTC quý. Hạn chót W phải công bố BCTC quý III/2026 (quý kết thúc ngày 30/9/2026) là:",
+"level": 1,
+"q": "Theo Thông tư 96/2020/TT-BTC, tổ chức niêm yết cổ phiếu là công ty mẹ của tổ chức khác, không thực hiện soát xét báo cáo tài chính quý, phải công bố báo cáo tài chính quý trong thời hạn nào?",
 "o": [
-"Ngày 20/10/2026",
-"Ngày 30/10/2026",
-"Ngày 14/11/2026",
-"Ngày 29/11/2026"
+"20 ngày kể từ ngày kết thúc quý",
+"30 ngày kể từ ngày kết thúc quý",
+"45 ngày kể từ ngày kết thúc quý",
+"05 ngày kể từ ngày ký báo cáo, tối đa 45 ngày"
 ],
 "a": 1,
-"e": "Điểm c khoản 3 Điều 14: BCTC quý công bố trong 20 ngày kể từ ngày kết thúc quý; công ty mẹ (hoặc đơn vị kế toán cấp trên có đơn vị trực thuộc) trong 30 ngày → 30/9 + 30 ngày = 30/10/2026. 20/10 là thời hạn của công ty không phải công ty mẹ.",
+"e": "Điểm c khoản 3 Điều 14 TT 96/2020: báo cáo tài chính quý công bố trong 20 ngày kể từ ngày kết thúc quý; công ty mẹ hoặc đơn vị kế toán cấp trên có đơn vị kế toán trực thuộc tổ chức bộ máy kế toán riêng được 30 ngày. Mốc 05 ngày kể từ ngày tổ chức kiểm toán ký báo cáo soát xét, tối đa 45 ngày kể từ ngày kết thúc quý, chỉ áp dụng cho báo cáo tài chính quý đã được soát xét.",
 "basis": "Điểm c khoản 3 Điều 14 Thông tư 96/2020/TT-BTC",
 "quote": "thì phải công bố báo cáo tài chính quý trong thời hạn 30 ngày, kể từ ngày kết thúc quý.",
 "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
@@ -15601,9 +15601,9 @@
 },
 {
 "id": "L2-080",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Quỹ đầu tư",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
 "level": 3,
 "q": "Quỹ mở M có tổng giá trị tài sản 500 tỷ đồng. Tổng giá trị tối đa quỹ được đầu tư vào chứng khoán đang lưu hành và tiền gửi, công cụ thị trường tiền tệ của cùng một tổ chức phát hành (không phải công cụ nợ Chính phủ) là:",
 "o": [
@@ -16101,9 +16101,9 @@
 },
 {
 "id": "L3-010",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Giao dịch chứng khoán",
+"part": "CM",
+"subject": "MG",
+"topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
 "level": 3,
 "q": "Công ty đại chúng Z đã báo cáo UBCKNN và công bố thông tin mua lại 2.000.000 cổ phiếu của chính mình qua phương thức khớp lệnh. Giả định ngày giao dịch có giá tham chiếu 40.000 đồng/cổ phiếu và biên độ dao động giá ±7%. Theo Thông tư 120/2020/TT-BTC, giá đặt mua cao nhất và tổng khối lượng đặt mua tối đa của Z trong ngày đó là:",
 "o": [
@@ -16501,9 +16501,9 @@
 },
 {
 "id": "L3-030",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Đăng ký, lưu ký, bù trừ & thanh toán",
+"part": "CM",
+"subject": "CB",
+"topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
 "level": 3,
 "q": "Giao dịch thiếu chứng khoán của thành viên lưu ký M bị VSDC lùi thời hạn thanh toán; giá trị giao dịch lùi thanh toán là 2 tỷ đồng. Sau 02 ngày làm việc lùi thanh toán, M có đủ chứng khoán và hoàn tất thanh toán. Theo Thông tư 119/2020/TT-BTC (sửa đổi bởi Thông tư 18/2025/TT-BTC), khoản bồi thường M phải trả cho bên đối ứng là:",
 "o": [
@@ -16701,9 +16701,9 @@
 },
 {
 "id": "L4-005",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Quỹ đầu tư",
+"part": "CM",
+"subject": "CB",
+"topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
 "level": 3,
 "q": "Quỹ đóng V có tổng giá trị tài sản 800 tỷ đồng, đang nắm cổ phiếu của công ty mẹ P trị giá 110 tỷ đồng và trái phiếu niêm yết của công ty S (công ty con của P) trị giá 90 tỷ đồng. Giả định giới hạn 10% chứng khoán đang lưu hành của từng tổ chức phát hành không bị vượt. Theo Luật Chứng khoán, giá trị tối đa V còn được đầu tư thêm vào cổ phiếu niêm yết của công ty T (một công ty con khác của P) là:",
 "o": [
@@ -17444,16 +17444,16 @@
 "part": "LUAT",
 "subject": "LU",
 "topic": "Chào bán riêng lẻ",
-"level": 3,
-"q": "Ngày 01/7/2026, công ty đại chúng X nhận được văn bản chấp thuận của UBCKNN về hồ sơ đăng ký chào bán cổ phiếu riêng lẻ. Theo Nghị định 155/2020/NĐ-CP, X phải hoàn thành đợt chào bán chậm nhất vào ngày nào? (Thời hạn n ngày kể từ ngày D tính đến hết ngày D + n.)",
+"level": 1,
+"q": "Theo Nghị định 155/2020/NĐ-CP, tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong thời hạn nào kể từ ngày UBCKNN có văn bản chấp thuận?",
 "o": [
-"29/9/2026",
-"30/8/2026",
-"29/10/2026",
-"11/7/2026"
+"90 ngày",
+"60 ngày",
+"90 ngày, được gia hạn thêm tối đa 30 ngày",
+"30 ngày"
 ],
 "a": 0,
-"e": "Khoản 3 Điều 48 NĐ 155 (NĐ 245/2025 không sửa điều này): tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong 90 ngày kể từ ngày UBCKNN có văn bản chấp thuận: 01/7/2026 + 90 ngày = 29/9/2026. Điều 48 không có cơ chế gia hạn 30 ngày như khoản 4 Điều 26 Luật CK đối với chào bán ra công chúng (29/10/2026 là lỗi cộng thêm 30 ngày). Trong 10 ngày kể từ ngày kết thúc đợt chào bán, X gửi báo cáo kết quả kèm xác nhận của ngân hàng nơi mở tài khoản phong tỏa (khoản 4).",
+"e": "Khoản 3 Điều 48 NĐ 155/2020 (NĐ 245/2025 không sửa điều này): hoàn thành đợt chào bán cổ phiếu riêng lẻ trong 90 ngày kể từ ngày UBCKNN có văn bản chấp thuận; Điều 48 không có cơ chế gia hạn 30 ngày như chào bán ra công chúng (khoản 4 Điều 26 Luật Chứng khoán). Trong 10 ngày kể từ ngày kết thúc đợt chào bán, tổ chức phát hành gửi báo cáo kết quả kèm xác nhận của ngân hàng nơi mở tài khoản phong tỏa.",
 "basis": "Khoản 3, 4 Điều 48 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
 "quote": "Tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong thời gian 90 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận.",
 "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
@@ -17661,9 +17661,9 @@
 },
 {
 "id": "L5-013",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào bán riêng lẻ & phát hành khác",
+"part": "CM",
+"subject": "BL",
+"topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
 "level": 3,
 "q": "Tháng 11/2026, công ty đại chúng H (không phải công ty mẹ) dự kiến phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu. BCTC năm 2025 của H được tổ chức kiểm toán được chấp thuận kiểm toán có: thặng dư vốn cổ phần 40 tỷ đồng, quỹ đầu tư phát triển 25 tỷ đồng, lợi nhuận sau thuế chưa phân phối 30 tỷ đồng. BCTC bán niên 2026 của H (cũng được kiểm toán) có lợi nhuận sau thuế chưa phân phối 50 tỷ đồng, hai khoản còn lại không đổi. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), giá trị vốn cổ phần (theo mệnh giá) H được tăng thêm tối đa là:",
 "o": [
@@ -17901,9 +17901,9 @@
 },
 {
 "id": "L5-025",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào mua công khai",
+"part": "CM",
+"subject": "BL",
+"topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
 "level": 3,
 "q": "Ngày 02/11/2026, tổ chức H gửi giấy đăng ký chào mua công khai cổ phiếu công ty đại chúng V, thanh toán bằng tiền. Trong 60 ngày giao dịch liền trước ngày này: bình quân giá tham chiếu cổ phiếu V là 24.000 đồng; tổ chức G đã thực hiện một đợt chào mua công khai cổ phiếu V với giá 26.500 đồng; H đã mua cổ phiếu V qua khớp lệnh với giá cao nhất 25.000 đồng. Theo Nghị định 155/2020/NĐ-CP, giá chào mua tối thiểu của H là:",
 "o": [
@@ -17921,9 +17921,9 @@
 },
 {
 "id": "L5-026",
-"part": "LUAT",
-"subject": "LU",
-"topic": "Chào mua công khai",
+"part": "CM",
+"subject": "BL",
+"topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
 "level": 3,
 "q": "Tổ chức X chào mua công khai 3.000.000 cổ phiếu của công ty đại chúng Y (thanh toán bằng tiền). Kết thúc thời gian nhận đăng ký, các cổ đông đăng ký bán hợp lệ tổng cộng 4.800.000 cổ phiếu, trong đó bà Z đăng ký bán 40.000 cổ phiếu. Theo Nghị định 155/2020/NĐ-CP, số cổ phiếu X mua của bà Z là:",
 "o": [

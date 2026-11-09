@@ -1,6 +1,6 @@
 # 20 câu môn Pháp luật dễ ra và dễ sai
 
-Chọn từ 326 câu Luật của trang BT-INVEST, theo ba tiêu chí: chuyên đề có nhiều câu trong đề (Công ty đại chúng học 2 buổi nên nhiều nhất), câu hỏi về **con số và thời hạn** dễ nhầm, và điểm **vừa sửa** theo Luật 56/2024, NĐ 245/2025, NĐ 200/2026, NĐ 306/2025. Có tham khảo nhẹ số liệu câu người học trên trang hay sai (8 câu đánh dấu ⚠).
+Chọn từ các câu Luật của trang BT-INVEST, theo ba tiêu chí: chuyên đề có nhiều câu trong đề (Công ty đại chúng học 2 buổi nên nhiều nhất), câu hỏi về **con số và thời hạn** dễ nhầm, và điểm **vừa sửa** theo Luật 56/2024, NĐ 245/2025, NĐ 200/2026, NĐ 306/2025. Có tham khảo nhẹ số liệu câu người học trên trang hay sai (8 câu đánh dấu ⚠).
 
 Mã câu ở cuối mỗi câu để tìm lại trên trang (Ngân hàng câu hỏi → ô tìm kiếm).
 
@@ -126,14 +126,14 @@ IV. T đang nắm 56%, mua thêm để nắm 64%
 
 ## D. Công ty chứng khoán (2 câu)
 
-**13. ⚠ CTCK E có vốn chủ sở hữu 1.000 tỷ; tổng nợ phải trả 6.500 tỷ, trong đó tiền gửi giao dịch của khách hàng 1.800 tỷ, quỹ khen thưởng phúc lợi 50 tỷ. Tỷ lệ tổng nợ/VCSH và kết luận:**
-- A. 6,50 lần – vi phạm hạn chế vay nợ
-- B. 4,70 lần – đáp ứng hạn chế vay nợ
-- C. 6,45 lần – vi phạm hạn chế vay nợ
-- D. 4,65 lần – đáp ứng hạn chế vay nợ
+**13. Theo Thông tư 121/2020/TT-BTC, tỷ lệ tổng nợ trên vốn chủ sở hữu của công ty chứng khoán không được vượt quá:**
+- A. 03 lần
+- B. 06 lần
+- C. 05 lần
+- D. 10 lần
 
-**Đáp án: D.** (6.500 − 1.800 − 50) / 1.000 = **4,65 lần ≤ 5 lần**. Nhớ: trừ **cả** tiền gửi của khách hàng **và** quỹ khen thưởng phúc lợi; giới hạn là **5 lần** (slide cũ ghi 6 lần là sai).
-*Căn cứ: khoản 1 Điều 26 TT 121/2020 (hợp nhất 2026). Mã L2-050.*
+**Đáp án: C.** Tối đa **5 lần** (slide cũ ghi 6 lần là sai). Tổng nợ **không tính** tiền gửi giao dịch của khách hàng, quỹ khen thưởng phúc lợi, dự phòng trợ cấp mất việc, dự phòng bồi thường nhà đầu tư.
+*Căn cứ: khoản 1 Điều 26 TT 121/2020 (hợp nhất 2026). Mã L2-049. (Câu tính tỷ lệ nợ trước đây, mã L2-050, đã chuyển sang môn Cơ bản vì đề Luật không có bài tính.)*
 
 **14. Căn cứ để UBCKNN đặt tổ chức kinh doanh chứng khoán vào tình trạng cảnh báo:**
 - A. Vốn khả dụng từ 120% đến dưới 150% tại một kỳ báo cáo bất kỳ
@@ -175,14 +175,14 @@ IV. T đang nắm 56%, mua thêm để nắm 64%
 **Đáp án: B.** "Mua trước – nói lên giá – bán ra" là **thao túng** (Luật 56/2024 bổ sung định nghĩa). Tin bịa đặt **không** phải thông tin nội bộ.
 *Căn cứ: điểm đ khoản 49 Điều 4, khoản 3 Điều 12 Luật CK. Mã L1-015.*
 
-**18. Cá nhân K thao túng thị trường, thu lợi bất hợp pháp 800 triệu đồng. Mức phạt tiền tối đa theo Luật Chứng khoán:**
-- A. 04 tỷ đồng
-- B. 08 tỷ đồng
-- C. 1,5 tỷ đồng
-- D. 03 tỷ đồng
+**18. Cá nhân thao túng thị trường chứng khoán có khoản thu trái pháp luật (mức tính theo khoản thu cao hơn 1,5 tỷ đồng). Mức phạt tiền tối đa theo Luật Chứng khoán:**
+- A. 05 lần khoản thu trái pháp luật
+- B. 10 lần khoản thu trái pháp luật
+- C. 02 lần khoản thu trái pháp luật
+- D. 1,5 tỷ đồng
 
-**Đáp án: A.** Thao túng, nội gián: tối đa **10 lần khoản thu trái pháp luật** (mức cho **tổ chức**) = 8 tỷ; **cá nhân = 1/2 tổ chức** → 4 tỷ. Bẫy B: quên chia đôi.
-*Căn cứ: khoản 3, 5 Điều 132 Luật CK. Mã L1-094.*
+**Đáp án: A.** Thao túng, nội gián: tổ chức tối đa **10 lần** khoản thu trái pháp luật (không có khoản thu thì 3 tỷ); **cá nhân = 1/2 tổ chức** → **5 lần** (hoặc 1,5 tỷ). Bẫy B: quên chia đôi.
+*Căn cứ: khoản 3, 4, 5 Điều 132 Luật CK. Mã L1-094.*
 
 **19. ⚠ Chức danh nào KHÔNG có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực chứng khoán?**
 - A. Giám đốc Sở Tài chính tỉnh, thành phố
@@ -218,7 +218,7 @@ IV. T đang nắm 56%, mua thêm để nắm 64%
 | Hạn chế chuyển nhượng riêng lẻ | nhà đầu tư chuyên nghiệp 1 năm · nhà đầu tư chiến lược 3 năm |
 | Nhà đầu tư chuyên nghiệp cá nhân (trái phiếu riêng lẻ) | 2 tỷ bình quân 180 ngày, không tính vay ký quỹ |
 | Công bố thông tin | cổ đông lớn qua ngưỡng 1%: 5 ngày làm việc · BCTC quý 20 ngày (công ty mẹ 30) · bất thường 24 giờ |
-| Công ty chứng khoán | nợ/VCSH ≤ 5 lần · vốn khả dụng < 180% (3 tháng) cảnh báo, < 150% kiểm soát |
+| Công ty chứng khoán | nợ/VCSH ≤ 5 lần (không tính tiền gửi của khách hàng, quỹ khen thưởng phúc lợi) · vốn khả dụng < 180% (3 tháng) cảnh báo, < 150% kiểm soát |
 | Quỹ | Ban đại diện 3–11, ≥ 2/3 độc lập · quỹ mở ≤ 20% tài sản vào một tổ chức phát hành |
 | Phạt tiền | thao túng/nội gián tối đa 10 lần khoản thu (tổ chức), cá nhân 1/2 · thường tối đa 3 tỷ (tổ chức) / 1,5 tỷ (cá nhân) |
 | Thi sát hạch CCHN | đúng từ 60% mỗi phần, không bù |

@@ -501,9 +501,9 @@
  },
  {
   "id": "L1-026",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào bán ra công chúng",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
   "level": 3,
   "q": "Công ty chứng khoán E (không phải người có liên quan của tổ chức phát hành) có số liệu theo báo cáo tài chính quý gần nhất: vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 1.500 tỷ đồng, nợ ngắn hạn 1.450 tỷ đồng. Tổng giá trị chứng khoán tối đa E được bảo lãnh phát hành ra công chúng theo hình thức nhận mua là:",
   "o": [
@@ -1581,9 +1581,9 @@
  },
  {
   "id": "L1-080",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Quỹ đầu tư",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
   "level": 3,
   "q": "Quỹ đóng ABC có tổng giá trị tài sản 500 tỷ đồng. Công ty XYZ có tổng giá trị chứng khoán đang lưu hành 800 tỷ đồng (không có trái phiếu Chính phủ). Giá trị tối đa quỹ ABC được đầu tư vào chứng khoán của XYZ là:",
   "o": [
@@ -1864,16 +1864,16 @@
   "part": "LUAT",
   "subject": "LU",
   "topic": "Thanh tra & xử lý vi phạm",
-  "level": 3,
-  "q": "Cá nhân K thực hiện hành vi thao túng thị trường chứng khoán, thu lợi bất hợp pháp 800 triệu đồng. Mức phạt tiền tối đa có thể áp dụng đối với K theo Luật Chứng khoán là:",
+  "level": 2,
+  "q": "Theo Điều 132 Luật Chứng khoán, cá nhân thực hiện hành vi thao túng thị trường chứng khoán có khoản thu trái pháp luật (mức phạt tính theo khoản thu cao hơn 1,5 tỷ đồng) thì mức phạt tiền tối đa là:",
   "o": [
-   "04 tỷ đồng",
-   "08 tỷ đồng",
-   "1,5 tỷ đồng",
-   "03 tỷ đồng"
+   "05 lần khoản thu trái pháp luật",
+   "10 lần khoản thu trái pháp luật",
+   "02 lần khoản thu trái pháp luật",
+   "1,5 tỷ đồng"
   ],
   "a": 0,
-  "e": "Khoản 3 Điều 132: với hành vi tại khoản 2, 3 Điều 12, mức phạt tối đa (cho tổ chức) là 10 lần khoản thu trái pháp luật = 10 × 0,8 = 8 tỷ đồng (cao hơn 03 tỷ nên áp dụng 8 tỷ). Khoản 5: cá nhân tối đa bằng 1/2 mức của tổ chức = 8 : 2 = 4 tỷ đồng. 8 tỷ là quên chia đôi; 1,5 tỷ và 3 tỷ là áp nhầm khoản 4.",
+  "e": "Khoản 3 Điều 132: với hành vi tại khoản 2, 3 Điều 12 (sử dụng thông tin nội bộ, thao túng) mức phạt tối đa là 10 lần khoản thu trái pháp luật; không có khoản thu hoặc mức tính theo khoản thu thấp hơn mức tại khoản 4 (03 tỷ đồng) thì áp dụng 03 tỷ đồng. Khoản 5: các mức này áp dụng cho tổ chức, cá nhân tối đa bằng một phần hai, tức 05 lần khoản thu trái pháp luật (hoặc 1,5 tỷ đồng). 10 lần là mức của tổ chức.",
   "basis": "Khoản 3, 4, 5 Điều 132 Luật Chứng khoán 2019",
   "quote": "cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền tối đa đối với tổ chức",
   "src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",

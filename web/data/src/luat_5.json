@@ -24,16 +24,16 @@
   "part": "LUAT",
   "subject": "LU",
   "topic": "Chào bán riêng lẻ",
-  "level": 3,
-  "q": "Ngày 01/7/2026, công ty đại chúng X nhận được văn bản chấp thuận của UBCKNN về hồ sơ đăng ký chào bán cổ phiếu riêng lẻ. Theo Nghị định 155/2020/NĐ-CP, X phải hoàn thành đợt chào bán chậm nhất vào ngày nào? (Thời hạn n ngày kể từ ngày D tính đến hết ngày D + n.)",
+  "level": 1,
+  "q": "Theo Nghị định 155/2020/NĐ-CP, tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong thời hạn nào kể từ ngày UBCKNN có văn bản chấp thuận?",
   "o": [
-   "30/8/2026",
-   "29/9/2026",
-   "29/10/2026",
-   "11/7/2026"
+   "90 ngày",
+   "60 ngày",
+   "90 ngày, được gia hạn thêm tối đa 30 ngày",
+   "30 ngày"
   ],
-  "a": 1,
-  "e": "Khoản 3 Điều 48 NĐ 155 (NĐ 245/2025 không sửa điều này): tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong 90 ngày kể từ ngày UBCKNN có văn bản chấp thuận: 01/7/2026 + 90 ngày = 29/9/2026. Điều 48 không có cơ chế gia hạn 30 ngày như khoản 4 Điều 26 Luật CK đối với chào bán ra công chúng (29/10/2026 là lỗi cộng thêm 30 ngày). Trong 10 ngày kể từ ngày kết thúc đợt chào bán, X gửi báo cáo kết quả kèm xác nhận của ngân hàng nơi mở tài khoản phong tỏa (khoản 4).",
+  "a": 0,
+  "e": "Khoản 3 Điều 48 NĐ 155/2020 (NĐ 245/2025 không sửa điều này): hoàn thành đợt chào bán cổ phiếu riêng lẻ trong 90 ngày kể từ ngày UBCKNN có văn bản chấp thuận; Điều 48 không có cơ chế gia hạn 30 ngày như chào bán ra công chúng (khoản 4 Điều 26 Luật Chứng khoán). Trong 10 ngày kể từ ngày kết thúc đợt chào bán, tổ chức phát hành gửi báo cáo kết quả kèm xác nhận của ngân hàng nơi mở tài khoản phong tỏa.",
   "basis": "Khoản 3, 4 Điều 48 Nghị định 155/2020/NĐ-CP (không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
   "quote": "Tổ chức phát hành phải hoàn thành đợt chào bán cổ phiếu riêng lẻ trong thời gian 90 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận.",
   "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
@@ -241,9 +241,9 @@
  },
  {
   "id": "L5-013",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào bán riêng lẻ & phát hành khác",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
   "level": 3,
   "q": "Tháng 11/2026, công ty đại chúng H (không phải công ty mẹ) dự kiến phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu. BCTC năm 2025 của H được tổ chức kiểm toán được chấp thuận kiểm toán có: thặng dư vốn cổ phần 40 tỷ đồng, quỹ đầu tư phát triển 25 tỷ đồng, lợi nhuận sau thuế chưa phân phối 30 tỷ đồng. BCTC bán niên 2026 của H (cũng được kiểm toán) có lợi nhuận sau thuế chưa phân phối 50 tỷ đồng, hai khoản còn lại không đổi. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), giá trị vốn cổ phần (theo mệnh giá) H được tăng thêm tối đa là:",
   "o": [
@@ -481,9 +481,9 @@
  },
  {
   "id": "L5-025",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào mua công khai",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
   "level": 3,
   "q": "Ngày 02/11/2026, tổ chức H gửi giấy đăng ký chào mua công khai cổ phiếu công ty đại chúng V, thanh toán bằng tiền. Trong 60 ngày giao dịch liền trước ngày này: bình quân giá tham chiếu cổ phiếu V là 24.000 đồng; tổ chức G đã thực hiện một đợt chào mua công khai cổ phiếu V với giá 26.500 đồng; H đã mua cổ phiếu V qua khớp lệnh với giá cao nhất 25.000 đồng. Theo Nghị định 155/2020/NĐ-CP, giá chào mua tối thiểu của H là:",
   "o": [
@@ -501,9 +501,9 @@
  },
  {
   "id": "L5-026",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào mua công khai",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
   "level": 3,
   "q": "Tổ chức X chào mua công khai 3.000.000 cổ phiếu của công ty đại chúng Y (thanh toán bằng tiền). Kết thúc thời gian nhận đăng ký, các cổ đông đăng ký bán hợp lệ tổng cộng 4.800.000 cổ phiếu, trong đó bà Z đăng ký bán 40.000 cổ phiếu. Theo Nghị định 155/2020/NĐ-CP, số cổ phiếu X mua của bà Z là:",
   "o": [

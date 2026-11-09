@@ -41,9 +41,9 @@
  },
  {
   "id": "L2-003",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào bán trái phiếu",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
   "level": 3,
   "q": "Công ty cổ phần X (sản xuất hàng tiêu dùng, không thuộc diện loại trừ) có vốn chủ sở hữu 400 tỷ đồng, nợ phải trả 1.500 tỷ đồng theo BCTC kiểm toán gần nhất. X dự kiến chào bán trái phiếu ra công chúng một đợt, không nhằm cơ cấu nợ và không có bảo lãnh thanh toán. Giá trị trái phiếu tối đa X có thể chào bán để đáp ứng điều kiện về nợ phải trả là:",
   "o": [
@@ -81,9 +81,9 @@
  },
  {
   "id": "L2-005",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào bán trái phiếu",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
   "level": 3,
   "q": "Công ty đại chúng Y chào bán ra công chúng 2.000.000 trái phiếu chuyển đổi cho nhà đầu tư (không phải chào bán cho cổ đông hiện hữu theo tỷ lệ sở hữu) nhằm huy động vốn thực hiện dự án. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), số trái phiếu tối thiểu phải bán được là:",
   "o": [
@@ -241,9 +241,9 @@
  },
  {
   "id": "L2-013",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Chào bán riêng lẻ & phát hành khác",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
   "level": 3,
   "q": "Công ty đại chúng B có 80 triệu cổ phiếu đang lưu hành và chưa phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) trong 12 tháng qua. Số cổ phiếu ESOP tối đa B được phát hành trong 12 tháng tới là:",
   "o": [
@@ -381,9 +381,9 @@
  },
  {
   "id": "L2-020",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Niêm yết & hủy niêm yết",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Thị trường chứng khoán thứ cấp",
   "level": 3,
   "q": "Công ty cổ phần C (không phải doanh nghiệp cổ phần hóa) có vốn điều lệ 1.200 tỷ đồng, tương ứng 120 triệu cổ phiếu có quyền biểu quyết, đăng ký niêm yết. Yêu cầu tối thiểu về cơ cấu cổ đông là:",
   "o": [
@@ -581,9 +581,9 @@
  },
  {
   "id": "L2-030",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Vốn điều lệ CTCK",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
   "level": 3,
   "q": "Một tổ chức đề nghị cấp Giấy phép thành lập và hoạt động công ty chứng khoán với ba nghiệp vụ: môi giới, tự doanh và tư vấn đầu tư chứng khoán. Vốn điều lệ tối thiểu là:",
   "o": [
@@ -981,9 +981,9 @@
  },
  {
   "id": "L2-050",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Hạn chế tài chính CTCK",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
   "level": 3,
   "q": "CTCK E có vốn chủ sở hữu 1.000 tỷ đồng; tổng nợ phải trả trên BCTC là 6.500 tỷ đồng, trong đó tiền gửi giao dịch chứng khoán của khách hàng 1.800 tỷ đồng, quỹ khen thưởng phúc lợi 50 tỷ đồng, phần còn lại là vay và phải trả khác. Tỷ lệ tổng nợ/VCSH theo Thông tư 121/2020/TT-BTC và kết luận là:",
   "o": [
@@ -1001,9 +1001,9 @@
  },
  {
   "id": "L2-052",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Hạn chế tài chính CTCK",
+  "part": "CM",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
   "level": 3,
   "q": "Theo BCTC quý gần nhất, CTCK G có vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 2.000 tỷ đồng, nợ ngắn hạn 1.950 tỷ đồng. Tổng giá trị tối đa G được bảo lãnh phát hành chứng khoán ra công chúng (nhận mua một phần hoặc toàn bộ) là:",
   "o": [
@@ -1061,9 +1061,9 @@
  },
  {
   "id": "L2-055",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Hạn chế tài chính CTCK",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
   "level": 3,
   "q": "CTCK K có vốn chủ sở hữu 2.000 tỷ đồng, đang nắm cổ phiếu niêm yết trị giá 900 tỷ đồng và cổ phiếu chưa niêm yết trị giá 350 tỷ đồng (không có phần vốn góp, dự án kinh doanh). Giá trị tối đa K được đầu tư thêm vào cổ phiếu chưa niêm yết là:",
   "o": [
@@ -1181,9 +1181,9 @@
  },
  {
   "id": "L2-061",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "An toàn tài chính CTCK",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
   "level": 3,
   "q": "CTCK T có vốn khả dụng 360 tỷ đồng, tổng giá trị rủi ro 250 tỷ đồng theo báo cáo tỷ lệ an toàn tài chính đã được kiểm toán. Theo Thông tư 91/2020/TT-BTC, T:",
   "o": [
@@ -1261,9 +1261,9 @@
  },
  {
   "id": "L2-065",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "An toàn tài chính CTCK",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty chứng khoán",
   "level": 3,
   "q": "CTCK V (không kinh doanh chứng khoán phái sinh) có ba nghiệp vụ môi giới, tự doanh và bảo lãnh phát hành chứng khoán. Chi phí để tính rủi ro hoạt động trong 12 tháng liền kề (sau giảm trừ) là 160 tỷ đồng. Giá trị rủi ro hoạt động của V là:",
   "o": [
@@ -1424,16 +1424,16 @@
   "part": "LUAT",
   "subject": "LU",
   "topic": "Công bố thông tin",
-  "level": 3,
-  "q": "Công ty niêm yết W là công ty mẹ, không thực hiện soát xét BCTC quý. Hạn chót W phải công bố BCTC quý III/2026 (quý kết thúc ngày 30/9/2026) là:",
+  "level": 1,
+  "q": "Theo Thông tư 96/2020/TT-BTC, tổ chức niêm yết cổ phiếu là công ty mẹ của tổ chức khác, không thực hiện soát xét báo cáo tài chính quý, phải công bố báo cáo tài chính quý trong thời hạn nào?",
   "o": [
-   "Ngày 20/10/2026",
-   "Ngày 30/10/2026",
-   "Ngày 14/11/2026",
-   "Ngày 29/11/2026"
+   "30 ngày kể từ ngày kết thúc quý",
+   "20 ngày kể từ ngày kết thúc quý",
+   "45 ngày kể từ ngày kết thúc quý",
+   "05 ngày kể từ ngày ký báo cáo, tối đa 45 ngày"
   ],
-  "a": 1,
-  "e": "Điểm c khoản 3 Điều 14: BCTC quý công bố trong 20 ngày kể từ ngày kết thúc quý; công ty mẹ (hoặc đơn vị kế toán cấp trên có đơn vị trực thuộc) trong 30 ngày → 30/9 + 30 ngày = 30/10/2026. 20/10 là thời hạn của công ty không phải công ty mẹ.",
+  "a": 0,
+  "e": "Điểm c khoản 3 Điều 14 TT 96/2020: báo cáo tài chính quý công bố trong 20 ngày kể từ ngày kết thúc quý; công ty mẹ hoặc đơn vị kế toán cấp trên có đơn vị kế toán trực thuộc tổ chức bộ máy kế toán riêng được 30 ngày. Mốc 05 ngày kể từ ngày tổ chức kiểm toán ký báo cáo soát xét, tối đa 45 ngày kể từ ngày kết thúc quý, chỉ áp dụng cho báo cáo tài chính quý đã được soát xét.",
   "basis": "Điểm c khoản 3 Điều 14 Thông tư 96/2020/TT-BTC",
   "quote": "thì phải công bố báo cáo tài chính quý trong thời hạn 30 ngày, kể từ ngày kết thúc quý.",
   "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
@@ -1561,9 +1561,9 @@
  },
  {
   "id": "L2-080",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Quỹ đầu tư",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Công ty quản lý quỹ và quỹ đầu tư chứng khoán",
   "level": 3,
   "q": "Quỹ mở M có tổng giá trị tài sản 500 tỷ đồng. Tổng giá trị tối đa quỹ được đầu tư vào chứng khoán đang lưu hành và tiền gửi, công cụ thị trường tiền tệ của cùng một tổ chức phát hành (không phải công cụ nợ Chính phủ) là:",
   "o": [

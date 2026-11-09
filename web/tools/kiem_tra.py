@@ -94,6 +94,9 @@ def main():
     print(f"OK: {len(out)} câu → data/questions.json")
     print("theo môn:", dict(sorted(Counter(q['subject'] for q in out).items())))
     print("vị trí đáp án:", dict(sorted(cnt.items())), "| mức độ:", dict(sorted(Counter(q['level'] for q in out).items())))
+    # đề thi môn Pháp luật không có bài tính (người dùng xác nhận sau khi thi 11/2026): câu Luật mà giải thích có phép nhân/chia, min/max là dấu hiệu bài tập
+    for q in out:
+        if q["subject"] == "LU" and re.search(r"\d\s*[×÷]\s*\d|min\(|max\(", q["e"]): warns.append(f"câu Luật dạng bài tính (nên chuyển sang môn chuyên môn): {q['id']}")
     # chủ đề Luật/Môi giới phải được gán vào một chuyên đề SRTC trong app.js (SYL), nếu không đề thi thử từng môn sẽ bỏ sót
     js = (ROOT / "app.js").read_text(encoding="utf-8"); syl = js[js.index("const SYL = {"):js.index("\n};", js.index("const SYL = {"))]
     for t in sorted({q["topic"] for q in out if q["subject"] in ("LU", "MG")}):

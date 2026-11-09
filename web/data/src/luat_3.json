@@ -181,9 +181,9 @@
  },
  {
   "id": "L3-010",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Giao dịch chứng khoán",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Giao dịch cổ phiếu trên thị trường chứng khoán",
   "level": 3,
   "q": "Công ty đại chúng Z đã báo cáo UBCKNN và công bố thông tin mua lại 2.000.000 cổ phiếu của chính mình qua phương thức khớp lệnh. Giả định ngày giao dịch có giá tham chiếu 40.000 đồng/cổ phiếu và biên độ dao động giá ±7%. Theo Thông tư 120/2020/TT-BTC, giá đặt mua cao nhất và tổng khối lượng đặt mua tối đa của Z trong ngày đó là:",
   "o": [
@@ -581,9 +581,9 @@
  },
  {
   "id": "L3-030",
-  "part": "LUAT",
-  "subject": "LU",
-  "topic": "Đăng ký, lưu ký, bù trừ & thanh toán",
+  "part": "CM",
+  "subject": "CB",
+  "topic": "Hệ thống đăng ký, lưu ký, bù trừ và thanh toán chứng khoán",
   "level": 3,
   "q": "Giao dịch thiếu chứng khoán của thành viên lưu ký M bị VSDC lùi thời hạn thanh toán; giá trị giao dịch lùi thanh toán là 2 tỷ đồng. Sau 02 ngày làm việc lùi thanh toán, M có đủ chứng khoán và hoàn tất thanh toán. Theo Thông tư 119/2020/TT-BTC (sửa đổi bởi Thông tư 18/2025/TT-BTC), khoản bồi thường M phải trả cho bên đối ứng là:",
   "o": [
