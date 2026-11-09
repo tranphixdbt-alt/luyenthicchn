@@ -1,0 +1,532 @@
+[C1-005] (Các công cụ tài chính trên thị) Theo Luật Chứng khoán, chứng quyền có bảo đảm là loại chứng khoán có tài sản bảo đảm do tổ chức nào phát hành?
+  A: Công ty chứng khoán
+  E: Khoản 6 Điều 4: chứng quyền có bảo đảm do công ty chứng khoán phát hành, cho phép người sở hữu được quyền mua (hoặc bán) chứng khoán cơ sở với tổ chức phát hành chứng quyền theo giá xác định trước, hoặc nhận khoản tiền chênh lệch.
+  B: Khoản 6 Điều 4 Luật Chứng khoán 2019
+[C1-006] (Các công cụ tài chính trên thị) So với cổ phiếu phổ thông của cùng một công ty cổ phần, trái phiếu do công ty đó phát hành có đặc điểm nào sau đây?
+  A: Người sở hữu được thanh toán trước cổ đông khi công ty giải thể, phá sản
+  E: Trái phiếu xác nhận quyền chủ nợ đối với một phần nợ của tổ chức phát hành: có thời hạn, lãi theo cam kết, không có quyền biểu quyết và được thanh toán trước cổ đông khi thanh lý tài sản. Quyền biểu quyết, cổ tức phụ thuộc kết quả kinh doanh và không có thời hạn là đặc điểm của cổ phiếu phổ thông.
+  B: Khoản 2, 3 Điều 4 Luật Chứng khoán 2019; đặc điểm cổ phiếu và trái phiếu
+[C1-007] (Các công cụ tài chính trên thị) Trái phiếu chuyển đổi có mệnh giá 100.000 đồng, giá chuyển đổi 25.000 đồng/cổ phiếu. Giá thị trường hiện tại của cổ phiếu cơ sở là 28.500 đồng. Giá trị chuyển đổi của một trái phiếu là:
+  A: 114.000 đồng
+  E: Tỷ lệ chuyển đổi = 100.000 / 25.000 = 4 cổ phiếu. Giá trị chuyển đổi = 4 × 28.500 = 114.000 đồng.
+  B: Giá trị chuyển đổi = (Mệnh giá / Giá chuyển đổi) × Giá thị trường của cổ phiếu
+[C1-008] (Các công cụ tài chính trên thị) Nhà đầu tư nắm giữ 10.000 chứng quyền có bảo đảm loại mua (kiểu châu Âu, thanh toán bằng tiền), giá thực hiện 30.000 đồng, tỷ lệ chuyển đổi 5:1 (5 chứng quyền tương ứng 1 cổ phiếu cơ sở). Tại ngày đáo hạn, giá thanh toán của cổ phiếu cơ sở là 36.500 đồng. Bỏ qua thuế, phí, số tiền nhà đầu tư nhận được là:
+  A: 13.000.000 đồng
+  E: Khoản thanh toán = (36.500 − 30.000) × 10.000 / 5 = 13.000.000 đồng. Nếu quên chia cho tỷ lệ chuyển đổi sẽ ra 65.000.000 đồng.
+  B: Khoản 6 Điều 4 Luật Chứng khoán 2019; tiền thanh toán chứng quyền mua = (Giá thanh toán − Giá thực hiện) × Số chứng quyền / Tỷ lệ chuyển đổi
+[C12-001] (Các công cụ tài chính trên thị) Điều lệ của công ty niêm yết K cho phép phát hành tối đa 10.000.000 cổ phiếu phổ thông. K đã phát hành 6.000.000 cổ phiếu, trong đó có 1.500.000 cổ phiếu quỹ do K mua lại trước năm 2021, đến ngày đăng ký cuối cùng vẫn chưa bán ra; K không có cổ phiếu ưu đãi. Năm N, K có lợi nhuận sau thuế 12 tỷ đồng và Đại hội đồng cổ đông quyết định dùng 9 tỷ đồng trả cổ tức bằng tiền. Cổ tức mỗi cổ phiếu cổ đông nhận được là:
+  A: 2.000 đồng
+  E: Cổ phiếu quỹ là cổ phiếu đã phát hành được chính tổ chức phát hành mua lại; không được nhận cổ tức, không có quyền biểu quyết. Cổ phiếu đang lưu hành = 6.000.000 − 1.500.000 = 4.500.000 cổ phiếu (10.000.000 chỉ là số được phép phát hành theo điều lệ). Cổ tức mỗi cổ phiếu = 9.000.000.000 / 4.500.000 = 2.000 đồng. Chia cho số đã phát hành (gồm cả cổ phiếu quỹ) ra 1.500 đồng; chia cho số được phép phát hành ra 900 đồng; dùng lợi nhuận sau thuế thay cho tổng cổ tức ra 2.667 đồng (12.000.000.000 / 4.500.000, tức EPS khi số cổ phiếu lưu hành không đổi trong năm). Lưu ý: từ năm 2021, công ty đại chúng mua lại cổ phiếu theo khoản 1, điểm a khoản 2 Điều 36 Luật Chứng khoán phải làm thủ tục giảm vốn điều lệ tương ứng (khoản 5 Điều 36), nên cổ phiếu quỹ chủ yếu còn ở các đợt mua lại trước năm 2021.
+  B: Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Cổ phiếu được phép phát hành, đã phát hành, đang lưu hành, cổ phiếu quỹ; cổ tức mỗi cổ phiếu; khoản 5 Điều 36 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026)
+[C12-004] (Các công cụ tài chính trên thị) Nhà đầu tư trả phí để mua một quyền chọn mua kiểu Mỹ trên 2.000 cổ phiếu Q, giá thực hiện 30.000 đồng/cổ phiếu, thời hạn 3 tháng. Quyền và nghĩa vụ của nhà đầu tư theo hợp đồng này là:
+  A: Có quyền mua 2.000 cổ phiếu Q giá 30.000 đồng vào bất kỳ ngày nào đến hết ngày đáo hạn
+  E: Quyền chọn kiểu Mỹ cho phép người mua thực hiện quyền vào bất kỳ thời điểm nào từ khi mua đến hết ngày đáo hạn; kiểu châu Âu chỉ được thực hiện vào ngày đáo hạn. Khoản 11 Điều 4 Luật Chứng khoán: hợp đồng quyền chọn xác nhận quyền của người mua và nghĩa vụ của người bán, giao dịch theo giá thực hiện "tại thời điểm trước hoặc vào ngày đã xác định trong tương lai". Người mua quyền không có nghĩa vụ phải mua (cam kết bắt buộc là đặc điểm của hợp đồng kỳ hạn, tương lai); quyền bán theo giá thực hiện là quyền chọn bán.
+  B: Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Hợp đồng quyền chọn kiểu Mỹ và kiểu châu Âu; khoản 11 Điều 4 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026)
+[C6-009] (Các công cụ tài chính trên thị) Theo Luật Chứng khoán, loại chứng khoán do công ty cổ phần phát hành nhằm mang lại cho cổ đông hiện hữu quyền được mua cổ phần mới theo điều kiện đã được xác định là:
+  A: Quyền mua cổ phần
+  E: Khoản 7 Điều 4 Luật Chứng khoán định nghĩa quyền mua cổ phần. Chứng quyền có bảo đảm do công ty chứng khoán phát hành; chứng chỉ lưu ký phát hành trên cơ sở chứng khoán của tổ chức Việt Nam; cổ phiếu ưu đãi hoàn lại là một loại cổ phần.
+  B: Khoản 7 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-010] (Các công cụ tài chính trên thị) Theo Luật Doanh nghiệp 2020, trừ trường hợp Đại hội đồng cổ đông biểu quyết nghị quyết làm thay đổi bất lợi quyền của cổ đông ưu đãi, cổ đông sở hữu cổ phần ưu đãi cổ tức KHÔNG có quyền nào sau đây?
+  A: Biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào Hội đồng quản trị
+  E: Cổ phần ưu đãi cổ tức được trả cổ tức ở mức cao hơn hoặc ổn định hằng năm, được nhận lại tài sản còn lại khi giải thể, phá sản và được chuyển nhượng; đổi lại, cổ đông ưu đãi cổ tức không có quyền biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào Hội đồng quản trị, Ban kiểm soát (trừ trường hợp nghị quyết làm thay đổi bất lợi quyền của họ).
+  B: Khoản 2, khoản 3 Điều 117 Luật Doanh nghiệp 2020; Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi
+[C6-011] (Các công cụ tài chính trên thị) Theo Luật Chứng khoán, điểm khác biệt của chứng quyền (không phải chứng quyền có bảo đảm) so với chứng quyền có bảo đảm là chứng quyền:
+  A: Được phát hành cùng với trái phiếu hoặc cổ phiếu ưu đãi, cho quyền mua cổ phiếu phổ thông
+  E: Khoản 5 Điều 4: chứng quyền được phát hành cùng với trái phiếu hoặc cổ phiếu ưu đãi, cho người sở hữu quyền mua một số cổ phiếu phổ thông theo giá xác định trước trong thời gian xác định. Khoản 6 Điều 4: chứng quyền có bảo đảm do công ty chứng khoán phát hành, có tài sản bảo đảm, có thể là quyền mua, quyền bán hoặc nhận tiền chênh lệch.
+  B: Khoản 5, khoản 6 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-012] (Các công cụ tài chính trên thị) Nhà đầu tư nắm giữ chứng chỉ quỹ mở F do công ty quản lý quỹ M quản lý. Theo Luật Chứng khoán, chứng chỉ quỹ này xác nhận:
+  A: Quyền sở hữu của nhà đầu tư đối với một phần vốn góp của quỹ F
+  E: Khoản 4 Điều 4: chứng chỉ quỹ xác nhận quyền sở hữu của nhà đầu tư đối với một phần vốn góp của quỹ đầu tư chứng khoán – không phải cổ phần của công ty quản lý quỹ, cũng không phải trái quyền. Khoản 37 Điều 4 nêu rõ nhà đầu tư không có quyền kiểm soát hằng ngày đối với việc ra quyết định đầu tư của quỹ.
+  B: Khoản 4, khoản 37 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-013] (Các công cụ tài chính trên thị) Nhà đầu tư A mua của B một hợp đồng quyền chọn mua cổ phiếu X với giá thực hiện 50.000 đồng. Đến ngày đáo hạn, giá thị trường của X là 45.000 đồng. Theo Luật Chứng khoán và bản chất của hợp đồng quyền chọn, nhận định nào sau đây đúng?
+  A: A có quyền không thực hiện; nếu A yêu cầu thực hiện thì B có nghĩa vụ đáp ứng
+  E: Khoản 11 Điều 4: hợp đồng quyền chọn xác nhận quyền của người mua và nghĩa vụ của người bán. Giá X (45.000) thấp hơn giá thực hiện (50.000) nên quyền chọn mua không có lợi; A (người mua quyền) có thể không thực hiện và chỉ mất phí quyền chọn; B (người bán quyền) chỉ có nghĩa vụ khi A thực hiện quyền.
+  B: Khoản 11 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-014] (Các công cụ tài chính trên thị) Trái phiếu chiết khấu (không trả lãi định kỳ), mệnh giá 100.000 đồng, còn đúng 3 năm đến ngày đáo hạn, đang được giao dịch với giá 79.383 đồng. Lợi suất đáo hạn của trái phiếu (lãi kép hằng năm) xấp xỉ:
+  A: 8,00%/năm
+  E: YTM = (100.000 / 79.383)^(1/3) − 1 = 1,2597^(1/3) − 1 ≈ 1,0800 − 1 = 8,00%/năm. 7,41% là lấy 1 − (79.383 / 100.000)^(1/3) (tỷ suất chiết khấu, không phải lợi suất); 6,87% là lãi đơn bình quân (20.617 / 3) chia mệnh giá; 7,66% là công thức gần đúng chia cho giá bình quân 89.691,5 – các cách này đều không phải lợi suất kép hằng năm.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chiết khấu (zero-coupon) và lợi suất đáo hạn
+[C6-015] (Các công cụ tài chính trên thị) Công ty cổ phần Q có 2.000.000 cổ phiếu ưu đãi cổ tức loại tích lũy (cổ tức ưu đãi chưa trả được cộng dồn sang các năm sau), mệnh giá 10.000 đồng, cổ tức ưu đãi 9%/năm tính trên mệnh giá. Q không trả cổ tức ưu đãi trong các năm 2024 và 2025. Năm 2026, Q dành 15 tỷ đồng để chia cổ tức. Số tiền tối đa còn lại để chia cho cổ đông phổ thông năm 2026 là:
+  A: 9,6 tỷ đồng
+  E: Cổ tức ưu đãi mỗi năm = 2.000.000 × 10.000 × 9% = 1,8 tỷ đồng. Cổ phiếu ưu đãi tích lũy phải được trả đủ phần nợ 2024, 2025 và năm 2026 trước cổ đông phổ thông: 3 × 1,8 = 5,4 tỷ đồng. Còn lại cho cổ đông phổ thông: 15 − 5,4 = 9,6 tỷ đồng. 13,2 tỷ là cách tính như cổ phiếu ưu đãi không tích lũy (chỉ trả 1,8 tỷ của năm 2026); 11,4 tỷ là chỉ trả phần nợ 2024, 2025 mà quên cổ tức ưu đãi năm 2026; 5,4 tỷ là phần trả cho cổ đông ưu đãi.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Cổ phiếu ưu đãi cổ tức tích lũy và không tích lũy
+[C6-016] (Các công cụ tài chính trên thị) Trái phiếu chuyển đổi mệnh giá 100.000 đồng, mỗi trái phiếu được chuyển đổi thành 5 cổ phiếu phổ thông. Giá thị trường hiện tại của trái phiếu là 115.000 đồng, của cổ phiếu là 21.000 đồng. Giá chuyển đổi ngang giá (mức giá cổ phiếu mà tại đó giá trị chuyển đổi bằng giá thị trường của trái phiếu) là:
+  A: 23.000 đồng
+  E: Giá chuyển đổi ngang giá = giá thị trường trái phiếu / tỷ lệ chuyển đổi = 115.000 / 5 = 23.000 đồng. Giá trị chuyển đổi hiện tại = 5 × 21.000 = 105.000 đồng < 115.000 đồng, nên giá cổ phiếu phải tăng lên 23.000 đồng thì chuyển đổi mới hòa vốn. 20.000 đồng là giá chuyển đổi danh nghĩa (mệnh giá / tỷ lệ chuyển đổi); 21.000 đồng là giá cổ phiếu hiện tại; 18.261 đồng là nhân nhầm giá cổ phiếu với tỷ số mệnh giá/giá trái phiếu (21.000 × 100.000 / 115.000).
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Trái phiếu chuyển đổi: tỷ lệ chuyển đổi, giá trị chuyển đổi, giá chuyển đổi ngang giá
+[C1-030] (Công bố thông tin trên thị trư) Công ty đại chúng M có năm tài chính kết thúc ngày 31/12/2025; tổ chức kiểm toán ký báo cáo kiểm toán báo cáo tài chính năm vào ngày 25/3/2026. Theo Thông tư 96/2020/TT-BTC, hạn chót M phải công bố báo cáo tài chính năm đã kiểm toán là ngày:
+  A: 31/3/2026
+  E: Thời hạn là 10 ngày kể từ ngày ký báo cáo kiểm toán (đến 04/4/2026) nhưng không vượt quá 90 ngày kể từ ngày kết thúc năm tài chính (31/3/2026). Áp dụng mốc sớm hơn: 31/3/2026.
+  B: Điểm c khoản 1 Điều 10 Thông tư 96/2020/TT-BTC
+[C1-031] (Công bố thông tin trên thị trư) Nhà đầu tư A (không phải người nội bộ) sở hữu 2.300.000 cổ phiếu có quyền biểu quyết của công ty đại chúng X; X có 50.000.000 cổ phiếu có quyền biểu quyết đang lưu hành. Ngày T, A mua thêm 300.000 cổ phiếu X và giao dịch hoàn tất theo quy định. Nghĩa vụ công bố thông tin của A là:
+  A: Công bố việc trở thành cổ đông lớn trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch
+  E: Tỷ lệ sở hữu tăng từ 2.300.000/50.000.000 = 4,6% lên 2.600.000/50.000.000 = 5,2%: A trở thành cổ đông lớn (từ 5% trở lên). Theo khoản 1 Điều 31 TT 96/2020, A phải công bố thông tin và báo cáo trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch. Nghĩa vụ công bố trước giao dịch áp dụng cho người nội bộ và người có liên quan.
+  B: Khoản 18 Điều 4, khoản 1 Điều 127 Luật Chứng khoán 2019; khoản 1, 3 Điều 31 Thông tư 96/2020/TT-BTC
+[C1-032] (Công bố thông tin trên thị trư) Thành viên Hội đồng quản trị của công ty niêm yết Y dự kiến bán 30.000 cổ phiếu Y (mệnh giá 10.000 đồng, thị giá 45.000 đồng) qua hệ thống giao dịch. Theo Thông tư 96/2020/TT-BTC, nhận định nào sau đây đúng?
+  A: Phải công bố thông tin tối thiểu 03 ngày làm việc trước ngày dự kiến giao dịch; thời hạn giao dịch không quá 30 ngày
+  E: Giá trị dự kiến theo mệnh giá = 30.000 × 10.000 = 300 triệu đồng, vượt ngưỡng 50 triệu đồng/ngày hoặc 200 triệu đồng/tháng. Người nội bộ phải công bố tối thiểu 03 ngày làm việc trước ngày dự kiến giao dịch, thời hạn giao dịch không quá 30 ngày và báo cáo kết quả trong 05 ngày làm việc sau khi hoàn tất.
+  B: Phần mở đầu, điểm a (sửa đổi, bổ sung bởi khoản 1 Điều 2 Thông tư 08/2026/TT-BTC), điểm b, điểm đ khoản 1 Điều 33 Thông tư 96/2020/TT-BTC
+[C7-034] (Công bố thông tin trên thị trư) Theo Luật Chứng khoán, đối tượng nào sau đây KHÔNG thuộc đối tượng công bố thông tin?
+  A: Cá nhân sở hữu 3% cổ phiếu có quyền biểu quyết, không là người nội bộ hay người có liên quan
+  E: Khoản 1 Điều 118 liệt kê đối tượng công bố thông tin: công ty đại chúng; tổ chức phát hành, niêm yết trái phiếu; công ty chứng khoán, công ty quản lý quỹ; Sở giao dịch chứng khoán, VSDC; cổ đông lớn (từ 5%), nhà đầu tư sở hữu từ 5% chứng chỉ quỹ đóng; cổ đông sáng lập trong thời gian bị hạn chế chuyển nhượng; người nội bộ và người có liên quan… Cá nhân sở hữu 3%, không phải người nội bộ hay người có liên quan, không thuộc diện này.
+  B: Khoản 1 Điều 118 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-035] (Công bố thông tin trên thị trư) Theo Thông tư 96/2020/TT-BTC, trong thời hạn bao lâu kể từ ngày UBCKNN xác nhận hoàn tất việc đăng ký công ty đại chúng, công ty phải công bố về việc trở thành công ty đại chúng?
+  A: 07 ngày
+  E: Điều 9 TT 96/2020: trong thời hạn 07 ngày kể từ ngày UBCKNN xác nhận hoàn tất việc đăng ký công ty đại chúng, công ty phải công bố về việc trở thành công ty đại chúng kèm bản công bố thông tin trên trang thông tin điện tử của công ty và hệ thống công bố thông tin của UBCKNN.
+  B: Điều 9 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-036] (Công bố thông tin trên thị trư) Theo Thông tư 96/2020/TT-BTC, đối tượng công bố thông tin được tạm hoãn công bố thông tin trong trường hợp nào?
+  A: Có lý do bất khả kháng như thiên tai, hỏa hoạn, chiến tranh, dịch bệnh
+  E: Khoản 1 Điều 8 TT 96/2020: chỉ được tạm hoãn vì lý do bất khả kháng như thiên tai, hỏa hoạn, chiến tranh, dịch bệnh; phải báo cáo UBCKNN, Sở giao dịch ngay khi xảy ra sự kiện, đồng thời công bố việc tạm hoãn, và công bố đầy đủ ngay sau khi khắc phục (khoản 2). Lo ngại giá giảm hay hợp đồng chưa ký không phải lý do tạm hoãn. Người đại diện theo pháp luật vắng mặt thì người được ủy quyền công bố thông tin thực hiện; nếu cả hai đều vắng mặt, thành viên giữ chức vụ cao nhất của Ban Điều hành thay thế (điểm a khoản 1 Điều 6).
+  B: Khoản 1 Điều 8 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-037] (Công bố thông tin trên thị trư) Theo Thông tư 96/2020/TT-BTC, sự kiện nào sau đây công ty đại chúng phải công bố thông tin bất thường trong thời hạn 24 giờ?
+  A: Công ty quyết định mức cổ tức, hình thức và thời gian trả cổ tức
+  E: Điểm đ khoản 1 Điều 11 TT 96/2020: quyết định về mức cổ tức, hình thức trả cổ tức, thời gian trả cổ tức là sự kiện công bố thông tin bất thường trong 24 giờ. Báo cáo tình hình quản trị (30 ngày từ khi kết thúc 06 tháng, Điều 10), báo cáo tài chính quý và báo cáo thường niên là thông tin định kỳ với thời hạn riêng.
+  B: Điểm đ khoản 1 Điều 11 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-038] (Công bố thông tin trên thị trư) Theo Thông tư 96/2020/TT-BTC, thông tin công bố định kỳ của công ty đại chúng phải được lưu giữ dưới dạng văn bản (nếu có) và dữ liệu điện tử tối thiểu bao lâu, và phải truy cập được trên trang thông tin điện tử của công ty tối thiểu bao lâu?
+  A: 10 năm và 05 năm
+  E: Điểm a khoản 5 Điều 4 TT 96/2020: thông tin định kỳ, thông tin về việc đăng ký công ty đại chúng lưu giữ dạng văn bản (nếu có) và dữ liệu điện tử tối thiểu 10 năm, đồng thời lưu giữ và truy cập được trên trang thông tin điện tử tối thiểu 05 năm. Thông tin bất thường, theo yêu cầu: truy cập được trên trang thông tin điện tử tối thiểu 05 năm (điểm b).
+  B: Điểm a khoản 5 Điều 4 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-039] (Công bố thông tin trên thị trư) Ngày 02/11/2026, công ty niêm yết R thay đổi người được ủy quyền công bố thông tin, việc ủy quyền mới có hiệu lực ngay trong ngày. Theo Thông tư 96/2020/TT-BTC, R phải báo cáo thông tin về người thực hiện công bố thông tin cho UBCKNN và Sở giao dịch chứng khoán trong thời hạn:
+  A: 24 giờ kể từ khi việc ủy quyền có hiệu lực
+  E: Điểm b khoản 1 Điều 6 TT 96/2020: tổ chức phải báo cáo, báo cáo lại thông tin về người thực hiện công bố thông tin (kèm Giấy ủy quyền, Bản cung cấp thông tin) trong 24 giờ kể từ khi việc chỉ định, ủy quyền hoặc thay đổi người thực hiện công bố thông tin có hiệu lực.
+  B: Điểm b khoản 1 Điều 6 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-040] (Công bố thông tin trên thị trư) Theo Thông tư 96/2020/TT-BTC, tổ chức niêm yết cổ phiếu phải thực hiện công bố thông tin, báo cáo trên những phương tiện nào?
+  A: Trang điện tử của công ty, hệ thống công bố thông tin của UBCKNN và của Sở giao dịch
+  E: Khoản 4 Điều 7 TT 96/2020: tổ chức niêm yết cổ phiếu công bố thông tin trên các phương tiện tại điểm a, b, c khoản 1, tức trang thông tin điện tử của tổ chức, hệ thống công bố thông tin của UBCKNN và trang thông tin điện tử (phương tiện công bố thông tin) của Sở giao dịch chứng khoán. Trang của VSDC dành cho VSDC tự công bố (khoản 6); báo in chỉ là phương tiện thông tin đại chúng khác (điểm đ khoản 1), không bắt buộc.
+  B: Khoản 1, khoản 4 Điều 7 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-041] (Công bố thông tin trên thị trư) Hội đồng quản trị công ty niêm yết S quyết định chi trả cổ tức bằng tiền theo nghị quyết Đại hội đồng cổ đông, ngày đăng ký cuối cùng dự kiến là Thứ Năm, 26/11/2026 (không nhằm mục đích họp Đại hội đồng cổ đông). Coi thời hạn “tối thiểu n ngày trước” là ngày đăng ký cuối cùng trừ đi n ngày dương lịch. Theo Thông tư 96/2020/TT-BTC, ngày muộn nhất S phải công bố thông tin về ngày đăng ký cuối cùng dự kiến là:
+  A: Thứ Hai, 16/11/2026
+  E: Điểm a khoản 4 Điều 11 TT 96/2020: công bố ngày đăng ký cuối cùng dự kiến thực hiện quyền cho cổ đông hiện hữu tối thiểu 10 ngày trước ngày đăng ký cuối cùng dự kiến → 26/11 − 10 ngày = 16/11/2026. Mốc 20 ngày (06/11) chỉ áp dụng khi ngày đăng ký cuối cùng để tham dự họp Đại hội đồng cổ đông (điểm b). Tính theo ngày làm việc là sai (10 ngày làm việc → 12/11; 05 ngày làm việc → 19/11).
+  B: Điểm a khoản 4 Điều 11 Thông tư 96/2020/TT-BTC (điều này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C7-042] (Công bố thông tin trên thị trư) Chủ nhật, 15/11/2026, công ty niêm yết V nhận được quyết định khởi tố đối với Tổng giám đốc của công ty (sự kiện phải công bố thông tin bất thường trong 24 giờ). Theo Thông tư 96/2020/TT-BTC, V phải thực hiện như thế nào?
+  A: Công bố trên trang điện tử của công ty, rồi thực hiện đầy đủ nghĩa vụ vào Thứ Hai, 16/11/2026
+  E: Điểm n khoản 1 Điều 11: nhận quyết định khởi tố người nội bộ phải công bố bất thường trong 24 giờ. Khoản 7 Điều 7: nếu nghĩa vụ phát sinh vào ngày nghỉ, ngày lễ, tổ chức niêm yết (đối tượng tại khoản 4) công bố trên trang thông tin điện tử của mình (điểm a khoản 1) và thực hiện đầy đủ nghĩa vụ vào ngày làm việc liền sau. Ngày nghỉ không phải lý do bất khả kháng để tạm hoãn (Điều 8).
+  B: Khoản 7 Điều 7, điểm n khoản 1 Điều 11 Thông tư 96/2020/TT-BTC (hai quy định này không bị sửa đổi bởi TT 68/2024, TT 18/2025, TT 08/2026)
+[C1-017] (Công ty chứng khoán) Theo Luật Chứng khoán, công ty chứng khoán chỉ được cấp phép thực hiện nghiệp vụ bảo lãnh phát hành chứng khoán khi đã được cấp phép thực hiện nghiệp vụ:
+  A: Tự doanh chứng khoán
+  E: Khoản 2, 3 Điều 72: nghiệp vụ tự doanh chỉ được cấp khi có nghiệp vụ môi giới; nghiệp vụ bảo lãnh phát hành chỉ được cấp khi có nghiệp vụ tự doanh.
+  B: Khoản 3 Điều 72 Luật Chứng khoán 2019
+[C1-018] (Công ty chứng khoán) Nội dung nào sau đây phù hợp với quy định về dịch vụ nhận ủy thác quản lý tài khoản giao dịch chứng khoán của nhà đầu tư cá nhân tại công ty chứng khoán?
+  A: Thời hạn hợp đồng ủy thác không quá 01 năm kể từ thời điểm ký kết
+  E: Điều 19 TT 121/2020: không nhận ủy thác quyết định toàn bộ giao dịch; chỉ ủy thác cổ phiếu, chứng chỉ quỹ niêm yết (không gồm UPCoM); người quản lý phải có CCHN phân tích tài chính hoặc quản lý quỹ; thời hạn hợp đồng không quá 01 năm.
+  B: Điểm c, d, đ khoản 1 và điểm a khoản 4 Điều 19 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C1-019] (Công ty chứng khoán) Theo báo cáo tài chính quý gần nhất, công ty chứng khoán K có vốn chủ sở hữu 800 tỷ đồng, tài sản ngắn hạn 1.250 tỷ đồng, nợ ngắn hạn 1.200 tỷ đồng. Khi bảo lãnh phát hành chứng khoán ra công chúng theo phương thức nhận mua một phần hoặc toàn bộ, tổng giá trị chứng khoán K được bảo lãnh tối đa là:
+  A: 750 tỷ đồng
+  E: Giới hạn: không lớn hơn vốn chủ sở hữu (800 tỷ) và không quá 15 lần hiệu số tài sản ngắn hạn − nợ ngắn hạn: 15 × (1.250 − 1.200) = 750 tỷ. Lấy mức nhỏ hơn: 750 tỷ đồng.
+  B: Khoản 2 Điều 17 Luật Chứng khoán 2019; khoản 1 Điều 23 Thông tư 121/2020/TT-BTC
+[C1-020] (Công ty chứng khoán) Khi công ty chứng khoán bị phá sản, tiền gửi giao dịch chứng khoán và chứng khoán lưu ký của khách hàng tại công ty được xử lý như thế nào?
+  A: Được hoàn trả cho khách hàng sau khi trừ nghĩa vụ nợ của khách hàng với công ty
+  E: Điều 88: tài sản của khách hàng do công ty chứng khoán tiếp nhận, quản lý thuộc sở hữu của khách hàng, không phải tài sản của công ty; khi công ty giải thể, phá sản, tài sản này được hoàn trả cho khách hàng sau khi trừ nghĩa vụ nợ phải trả của khách hàng đối với công ty.
+  B: Khoản 1, 3 Điều 88 Luật Chứng khoán 2019
+[C6-033] (Công ty chứng khoán) Theo Luật Chứng khoán, công ty chứng khoán phải chính thức hoạt động trong thời hạn bao lâu kể từ ngày được cấp Giấy phép thành lập và hoạt động kinh doanh chứng khoán?
+  A: 12 tháng
+  E: Khoản 1 Điều 84 Luật Chứng khoán: công ty chứng khoán phải chính thức hoạt động trong thời hạn 12 tháng kể từ ngày được cấp phép; không được kinh doanh chứng khoán trước ngày chính thức hoạt động và phải công bố thông tin hoạt động ít nhất 30 ngày trước ngày dự kiến chính thức hoạt động (Điều 83).
+  B: Khoản 1 Điều 84 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-034] (Công ty chứng khoán) Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), bộ phận kiểm soát nội bộ của công ty chứng khoán được thiết lập trực thuộc:
+  A: Ban Tổng giám đốc (Ban Giám đốc)
+  E: Khoản 1 Điều 12 Thông tư 121/2020/TT-BTC: bộ phận kiểm soát nội bộ trực thuộc Ban Tổng giám đốc (Ban Giám đốc), gồm bộ máy, nhân sự độc lập, chuyên trách và quy trình; bố trí tối thiểu 01 nhân viên kiểm soát tuân thủ. Kiểm toán nội bộ thì đánh giá độc lập hệ thống kiểm soát nội bộ này.
+  B: Khoản 1 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C6-035] (Công ty chứng khoán) Một tổ chức đề nghị cấp phép thành lập công ty chứng khoán với đúng hai nghiệp vụ kinh doanh. Theo Luật Chứng khoán, tổ hợp nghiệp vụ nào sau đây có thể được cấp phép?
+  A: Môi giới chứng khoán và tư vấn đầu tư chứng khoán
+  E: Khoản 2 Điều 72: chỉ được cấp phép tự doanh khi được cấp phép môi giới; khoản 3: chỉ được cấp phép bảo lãnh phát hành khi được cấp phép tự doanh. Vì vậy tự doanh phải đi kèm môi giới, bảo lãnh phải đi kèm cả tự doanh và môi giới; chỉ tổ hợp môi giới + tư vấn đầu tư hợp lệ.
+  B: Khoản 2, khoản 3 Điều 72 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-036] (Công ty chứng khoán) Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), giao dịch nào sau đây của công ty chứng khoán KHÔNG được coi là tự doanh chứng khoán?
+  A: Mua, bán chứng khoán phát sinh do sửa lỗi sau giao dịch
+  E: Khoản 3 Điều 22 Thông tư 121/2020/TT-BTC: mua, bán chứng khoán do sửa lỗi sau giao dịch và mua, bán cổ phiếu của chính mình không được coi là tự doanh. Các giao dịch mua, bán chứng khoán cho chính công ty còn lại là tự doanh (khoản 30 Điều 4 Luật Chứng khoán).
+  B: Khoản 3 Điều 22 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C6-037] (Công ty chứng khoán) Công ty chứng khoán K nắm giữ đúng 10% vốn điều lệ của công ty cổ phần D; D chuẩn bị chào bán cổ phiếu lần đầu ra công chúng và niêm yết. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), K được cung cấp cho D dịch vụ nào sau đây?
+  A: Mở tài khoản và môi giới giao dịch chứng khoán cho D
+  E: Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC: CTCK không được tư vấn chào bán, tư vấn niêm yết, tư vấn cổ phần hóa, tư vấn xác định giá trị doanh nghiệp cho công ty mà mình nắm giữ từ 10% trở lên vốn điều lệ – mức đúng 10% đã thuộc diện cấm, nên ba dịch vụ tư vấn đều bị cấm. Mở tài khoản, môi giới giao dịch cho D không bị hạn chế (khoản 7 Điều 24 còn cấm tư vấn đầu tư chứng khoán cho công ty này).
+  B: Khoản 2 Điều 25 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C6-038] (Công ty chứng khoán) Công ty chứng khoán H đang được cấp phép nghiệp vụ môi giới và tư vấn đầu tư chứng khoán, vốn điều lệ hiện tại 40 tỷ đồng. H muốn bổ sung đồng thời nghiệp vụ tự doanh và bảo lãnh phát hành chứng khoán. Theo Nghị định 155/2020/NĐ-CP, H phải tăng vốn điều lệ thêm tối thiểu:
+  A: 210 tỷ đồng
+  E: Vốn điều lệ tối thiểu cho 4 nghiệp vụ = 25 + 50 + 165 + 10 = 250 tỷ đồng (khoản 4 Điều 175: tổng vốn tương ứng từng nghiệp vụ). H cần tăng thêm 250 − 40 = 210 tỷ đồng. 175 tỷ là chỉ cộng hai nghiệp vụ mới rồi trừ vốn hiện có; 200 tỷ là quên nghiệp vụ tư vấn; 165 tỷ chỉ là mức của nghiệp vụ bảo lãnh.
+  B: Khoản 1, khoản 4 Điều 175 Nghị định 155/2020/NĐ-CP (điều này không bị Nghị định 245/2025/NĐ-CP sửa đổi)
+[C6-039] (Công ty chứng khoán) Công ty chứng khoán G có vốn chủ sở hữu 1.000 tỷ đồng, đang nắm giữ 500.000 cổ phiếu của công ty niêm yết X. X có 12.000.000 cổ phiếu đang lưu hành, giá thị trường 60.000 đồng/cổ phiếu (khoản đầu tư hiện tại vào X tính theo giá này). Giả định các hạn mức đầu tư khác của G chưa bị chạm tới. Theo Thông tư 121/2020/TT-BTC (văn bản hợp nhất năm 2026), số cổ phiếu X tối đa G có thể mua thêm là:
+  A: 1.900.000 cổ phiếu
+  E: Hạn mức 1 (điểm c khoản 4 Điều 28): không quá 20% số cổ phiếu đang lưu hành của tổ chức niêm yết = 2.400.000 cổ phiếu → được mua thêm 2.400.000 − 500.000 = 1.900.000. Hạn mức 2 (điểm e): không quá 15% vốn chủ sở hữu vào một tổ chức = 150 tỷ đồng; đang đầu tư 500.000 × 60.000 = 30 tỷ → (150 − 30) tỷ / 60.000 = 2.000.000 cổ phiếu. Lấy mức nhỏ hơn: 1.900.000 cổ phiếu. 2.400.000 và 2.500.000 là quên trừ 500.000 cổ phiếu đang nắm giữ ở từng hạn mức; 2.000.000 là chỉ xét hạn mức 15% vốn chủ sở hữu.
+  B: Điểm c, điểm e khoản 4 Điều 28 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C6-040] (Công ty chứng khoán) Công ty chứng khoán N có vốn khả dụng 540 tỷ đồng; giá trị rủi ro thị trường 150 tỷ đồng, giá trị rủi ro thanh toán 60 tỷ đồng, giá trị rủi ro hoạt động 50 tỷ đồng. Nếu N muốn duy trì tỷ lệ vốn khả dụng không thấp hơn 180% (vốn khả dụng không đổi), tổng giá trị rủi ro của N có thể tăng thêm tối đa là:
+  A: 40 tỷ đồng
+  E: Tổng giá trị rủi ro = 150 + 60 + 50 = 260 tỷ đồng (tỷ lệ hiện tại ≈ 207,7%). Để tỷ lệ = vốn khả dụng / tổng giá trị rủi ro ≥ 180% thì tổng giá trị rủi ro ≤ 540 / 1,8 = 300 tỷ đồng → tăng thêm tối đa 40 tỷ đồng. 100 tỷ là dùng nhầm mốc 150%; 90 tỷ là quên rủi ro hoạt động; 72 tỷ là nhân chênh lệch tỷ lệ với tổng rủi ro hiện tại. (180% cũng là ngưỡng mà dưới đó CTCK phải báo cáo bất thường theo khoản 2 Điều 12 Thông tư 91/2020/TT-BTC.)
+  B: Khoản 5, khoản 7 Điều 2 và khoản 1 Điều 11 Thông tư 91/2020/TT-BTC (không bị Thông tư 102/2025/TT-BTC sửa đổi; Phụ lục V, VI thay thế bởi Thông tư 102/2025/TT-BTC vẫn tính Tổng giá trị rủi ro = 1+2+3 và Tỷ lệ vốn khả dụng = 5/4); mốc 180% là mục tiêu giả định của đề
+[C8-016] (Công ty chứng khoán) Năm tài chính 2026, công ty chứng khoán X (vốn điều lệ 1.000 tỷ đồng) có lợi nhuận sau thuế 120 tỷ đồng. Đại hội đồng cổ đông quyết định không trích lập quỹ dự trữ bổ sung vốn điều lệ và quỹ dự phòng tài chính, rủi ro nghiệp vụ từ lợi nhuận năm này. Theo quy định hiện hành (tháng 11/2026), nhận định nào đúng?
+  A: Không trái quy định; từ năm tài chính 2022 việc lập các quỹ này do công ty quyết định
+  E: Mức trích bắt buộc 5% lợi nhuận sau thuế cho mỗi quỹ đến khi số dư bằng 10% vốn điều lệ thuộc Thông tư 146/2014/TT-BTC. Điều 1 Thông tư 114/2021/TT-BTC bãi bỏ toàn bộ TT 146/2014; TT 114 có hiệu lực từ 01/02/2022, áp dụng từ năm tài chính 2022. Từ đó công ty chứng khoán tổ chức hoạt động, quản lý tài chính theo Luật Chứng khoán, Luật Doanh nghiệp và các văn bản hướng dẫn (NĐ 155/2020, TT 121/2020, TT 91/2020…), không còn tỷ lệ trích lập bắt buộc; việc lập quỹ do Điều lệ và ĐHĐCĐ quyết định. Số dư quỹ đã trích theo TT 146 được xử lý theo Điều 2 TT 114: quỹ dự trữ bổ sung vốn điều lệ dùng để bổ sung vốn điều lệ; quỹ dự phòng tài chính, rủi ro nghiệp vụ bổ sung vốn điều lệ hoặc sử dụng theo quyết định của công ty, bảo đảm chỉ tiêu an toàn tài chính.
+  B: Điều 1, Điều 2, khoản 1 Điều 3 Thông tư 114/2021/TT-BTC ngày 17/12/2021 (bãi bỏ Thông tư 146/2014/TT-BTC; hiệu lực 01/02/2022); Phụ lục Thông tư 102/2025/TT-BTC sửa đổi Thông tư 91/2020/TT-BTC ("Quỹ dự trữ bổ sung vốn điều lệ (nếu có)")
+[C1-021] (Công ty quản lý quỹ và quỹ đầu) Theo Luật Chứng khoán, quỹ đại chúng mà chứng chỉ quỹ đã chào bán ra công chúng phải được mua lại theo yêu cầu của nhà đầu tư là:
+  A: Quỹ mở
+  E: Khoản 39 Điều 4: quỹ mở là quỹ đại chúng mà chứng chỉ quỹ đã chào bán ra công chúng phải được mua lại theo yêu cầu của nhà đầu tư; quỹ đóng thì không được mua lại theo yêu cầu.
+  B: Khoản 39, 40 Điều 4 Luật Chứng khoán 2019
+[C1-022] (Công ty quản lý quỹ và quỹ đầu) Theo Luật Chứng khoán, giá trị tài sản ròng trên một đơn vị quỹ đại chúng do chủ thể nào xác định và chủ thể nào xác nhận?
+  A: Công ty quản lý quỹ xác định, ngân hàng giám sát xác nhận
+  E: Khoản 1 Điều 106: việc xác định giá trị tài sản ròng trên một đơn vị quỹ do công ty quản lý quỹ thực hiện và được ngân hàng giám sát xác nhận.
+  B: Khoản 1 Điều 106 Luật Chứng khoán 2019
+[C1-023] (Công ty quản lý quỹ và quỹ đầu) Tại ngày định giá, quỹ mở F có: tiền gửi ngân hàng 8,6 tỷ đồng; cổ phiếu niêm yết theo giá đóng cửa 120 tỷ đồng; trái phiếu 25 tỷ đồng; cổ tức phải thu 0,4 tỷ đồng; phải trả tiền mua chứng khoán 3 tỷ đồng; phí quản lý và phí giám sát phải trả 1 tỷ đồng. Số đơn vị quỹ đang lưu hành là 10.000.000. Giá trị tài sản ròng trên một đơn vị quỹ là:
+  A: 15.000 đồng
+  E: Tổng tài sản = 8,6 + 120 + 25 + 0,4 = 154 tỷ; nợ phải trả = 3 + 1 = 4 tỷ; NAV = 150 tỷ đồng; NAV/đơn vị = 150 tỷ / 10.000.000 = 15.000 đồng.
+  B: NAV/đơn vị quỹ = (Tổng giá trị tài sản − Tổng nợ phải trả) / Số đơn vị quỹ đang lưu hành; Điều 106 Luật Chứng khoán 2019
+[C1-024] (Công ty quản lý quỹ và quỹ đầu) Quỹ đóng G có tổng giá trị tài sản 650 tỷ đồng, đang nắm giữ 2.000.000 cổ phiếu công ty X (thị giá 30.000 đồng/cổ phiếu). Công ty X có 50.000.000 cổ phiếu đang lưu hành. Theo các hạn chế đầu tư của quỹ đại chúng trong Luật Chứng khoán, giá trị cổ phiếu X mà G có thể mua thêm tối đa (theo thị giá hiện tại, thanh toán bằng tiền của quỹ) là:
+  A: 70 tỷ đồng
+  E: Hạn mức 20% tổng tài sản: 20% × 650 = 130 tỷ; đã nắm 2.000.000 × 30.000 = 60 tỷ → còn 70 tỷ. Hạn mức 10% chứng khoán đang lưu hành: tối đa 5.000.000 cổ phiếu, còn mua được 3.000.000 cổ phiếu (90 tỷ) nên không ràng buộc. Mua bằng tiền không làm đổi tổng tài sản, vậy tối đa 70 tỷ đồng.
+  B: Điểm b, c khoản 1 Điều 110 Luật Chứng khoán 2019
+[C7-001] (Công ty quản lý quỹ và quỹ đầu) Theo Luật Chứng khoán, quỹ mở hình thành từ việc tiếp nhận, hoán đổi danh mục chứng khoán cơ cấu lấy chứng chỉ quỹ, có chứng chỉ quỹ được niêm yết và giao dịch trên hệ thống giao dịch chứng khoán niêm yết, được gọi là:
+  A: Quỹ hoán đổi danh mục (quỹ ETF)
+  E: Khoản 42 Điều 4 Luật Chứng khoán định nghĩa quỹ hoán đổi danh mục là quỹ mở hình thành từ việc hoán đổi danh mục chứng khoán cơ cấu lấy chứng chỉ quỹ, chứng chỉ quỹ được niêm yết. Quỹ đóng huy động vốn bằng tiền và không mua lại chứng chỉ quỹ theo yêu cầu; quỹ thành viên chỉ gồm 02–99 nhà đầu tư chuyên nghiệp, không chào bán ra công chúng; quỹ bất động sản đầu tư chủ yếu vào bất động sản.
+  B: Khoản 42 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-002] (Công ty quản lý quỹ và quỹ đầu) Xét theo cơ cấu tổ chức, quỹ đầu tư có thể là một pháp nhân, nhà đầu tư góp vốn trở thành cổ đông và bầu ra Hội đồng quản trị để giám sát việc đầu tư. Theo Luật Chứng khoán, mô hình quỹ này ở Việt Nam là:
+  A: Công ty đầu tư chứng khoán
+  E: Giáo trình phân loại quỹ theo cơ cấu tổ chức thành quỹ dạng công ty (quỹ là pháp nhân, nhà đầu tư là cổ đông) và quỹ dạng hợp đồng (quỹ không có tư cách pháp nhân, do công ty quản lý quỹ quản lý theo Điều lệ quỹ). Khoản 1 Điều 114 Luật Chứng khoán: công ty đầu tư chứng khoán là quỹ đầu tư chứng khoán tổ chức theo loại hình công ty cổ phần. Quỹ mở và quỹ thành viên (thành lập trên cơ sở hợp đồng góp vốn, Điều 113) là quỹ dạng hợp đồng; công ty quản lý quỹ là doanh nghiệp đi quản lý quỹ, không phải bản thân quỹ.
+  B: Khoản 1 Điều 114 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – phân loại quỹ theo cơ cấu tổ chức
+[C7-003] (Công ty quản lý quỹ và quỹ đầu) Theo Luật Chứng khoán, ngân hàng giám sát của quỹ đại chúng có các nghĩa vụ sau đây, NGOẠI TRỪ:
+  A: Quyết định danh mục và thời điểm mua, bán tài sản cho quỹ đại chúng
+  E: Khoản 2 Điều 116: ngân hàng giám sát lưu ký và quản lý tách biệt tài sản quỹ; giám sát công ty quản lý quỹ; thu, chi, thanh toán, chuyển giao tài sản theo yêu cầu hợp pháp của công ty quản lý quỹ; xác nhận báo cáo; báo cáo UBCKNN khi phát hiện vi phạm. Quyết định đầu tư thuộc về công ty quản lý quỹ; ngân hàng giám sát chỉ thực hiện thanh toán, chuyển giao tài sản theo yêu cầu hợp pháp của công ty quản lý quỹ.
+  B: Khoản 2 Điều 116 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-004] (Công ty quản lý quỹ và quỹ đầu) Ngân hàng thương mại H đang là ngân hàng giám sát của quỹ mở F do công ty quản lý quỹ M quản lý. Theo Luật Chứng khoán, việc nào sau đây H KHÔNG được thực hiện?
+  A: Mua lại từ quỹ F lô trái phiếu Chính phủ mà M quyết định bán
+  E: Khoản 2 Điều 117: ngân hàng giám sát (và thành viên HĐQT, người điều hành, nhân viên làm nhiệm vụ giám sát, bảo quản tài sản quỹ) không được là đối tác mua, bán trong giao dịch tài sản của quỹ đại chúng. Thu phí dịch vụ theo hợp đồng, xác nhận NAV (khoản 1 Điều 106) và thanh toán theo yêu cầu hợp pháp của công ty quản lý quỹ (điểm d khoản 2 Điều 116) là hoạt động bình thường của ngân hàng giám sát.
+  B: Khoản 2 Điều 117 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-005] (Công ty quản lý quỹ và quỹ đầu) Vào ngày định giá mua lại của quỹ mở Q, một cổ phiếu chiếm tỷ trọng lớn trong danh mục của quỹ bị đình chỉ giao dịch nên không thể xác định giá trị tài sản ròng của quỹ. Theo Luật Chứng khoán, công ty quản lý quỹ xử lý như thế nào?
+  A: Không phải mua lại chứng chỉ quỹ, báo cáo UBCKNN trong 24 giờ và tiếp tục mua lại khi sự kiện chấm dứt
+  E: Điểm b khoản 2 Điều 111: công ty quản lý quỹ không phải mua lại chứng chỉ quỹ mở khi không thể xác định NAV vào ngày định giá mua lại do có quyết định đình chỉ giao dịch chứng khoán trong danh mục. Khoản 3 Điều 111: phải báo cáo UBCKNN trong 24 giờ kể từ khi xảy ra sự kiện và tiếp tục mua lại sau khi sự kiện chấm dứt. Luật không cho dùng NAV kỳ trước, không cho ngừng đến Đại hội nhà đầu tư và sự kiện này không phải căn cứ giải thể quỹ.
+  B: Điểm b khoản 2, khoản 3 Điều 111 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-006] (Công ty quản lý quỹ và quỹ đầu) Nhà đầu tư nộp 200.000.000 đồng để mua chứng chỉ quỹ mở P. Giá trị tài sản ròng trên một đơn vị quỹ tại ngày giao dịch là 15.625 đồng; giá dịch vụ phát hành bằng 1,5% giá trị tài sản ròng trên một đơn vị quỹ và được cộng vào giá bán. Số đơn vị quỹ nhà đầu tư nhận được (làm tròn xuống đến 2 chữ số thập phân) là:
+  A: 12.610,83 đơn vị
+  E: Theo khoản 2 Điều 34 TT 98/2020, giá bán = NAV/đơn vị + giá dịch vụ phát hành = 15.625 × (1 + 1,5%) = 15.859,375 đồng. Số đơn vị = 200.000.000 / 15.859,375 = 12.610,83. Lỗi thường gặp: bỏ qua giá dịch vụ (200.000.000 / 15.625 = 12.800,00); trừ phí vào số tiền rồi chia cho NAV (197.000.000 / 15.625 = 12.608,00 – sai cách tính đề cho); trừ phí hai lần (197.000.000 / 15.859,375 = 12.421,67).
+  B: Khoản 2 Điều 34 Thông tư 98/2020/TT-BTC (VBHN 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025/TT-BTC)
+[C7-007] (Công ty quản lý quỹ và quỹ đầu) Quỹ đóng V có 80.000.000 chứng chỉ quỹ đang lưu hành. Kỳ định giá trước, quỹ công bố giá trị tài sản ròng 1.150 tỷ đồng. Tại ngày định giá gần nhất, quỹ có tổng giá trị tài sản 1.260 tỷ đồng và tổng nợ phải trả 60 tỷ đồng; giá đóng cửa chứng chỉ quỹ V trên Sở giao dịch cùng ngày là 12.600 đồng. Mức chiết khấu của giá thị trường so với NAV/chứng chỉ quỹ tại ngày định giá gần nhất là:
+  A: 16,00%
+  E: NAV/chứng chỉ quỹ = (1.260 − 60) tỷ / 80 triệu = 15.000 đồng. Chiết khấu = (15.000 − 12.600) / 15.000 = 16,00%. Lỗi thường gặp: dùng NAV kỳ trước (1.150 tỷ / 80 triệu = 14.375 đồng → 12,35%); chia cho giá thị trường thay vì NAV (2.400 / 12.600 = 19,05%); quên trừ nợ phải trả (15.750 đồng → 20,00%). Giá chứng chỉ quỹ đóng do cung cầu trên thị trường quyết định nên có thể thấp hơn (chiết khấu) hoặc cao hơn (thặng dư) NAV.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – NAV và chiết khấu/thặng dư của chứng chỉ quỹ đóng
+[C7-008] (Công ty quản lý quỹ và quỹ đầu) Quỹ ETF E quy định 01 lô chứng chỉ quỹ gồm 100.000 chứng chỉ quỹ. Tại ngày giao dịch hoán đổi, NAV trên một chứng chỉ quỹ là 18.350 đồng, giá đóng cửa chứng chỉ quỹ E trên Sở giao dịch là 18.420 đồng. Thành viên lập quỹ nộp danh mục chứng khoán cơ cấu trị giá 9.120.000.000 đồng để nhận 05 lô chứng chỉ quỹ. Phần chênh lệch được xử lý như sau:
+  A: Thành viên lập quỹ nộp thêm 55.000.000 đồng bằng tiền cho quỹ
+  E: Giao dịch hoán đổi tính theo NAV, không theo giá thị trường. Giá trị 05 lô = 18.350 × 100.000 × 5 = 9.175.000.000 đồng, cao hơn giá trị danh mục nộp 55.000.000 đồng, nên theo điểm a khoản 4 Điều 43 TT 98/2020 (sửa đổi bởi TT 136/2025) thành viên lập quỹ thanh toán bổ sung phần chênh lệch bằng tiền. Lỗi thường gặp: dùng giá thị trường 18.420 (90 triệu); chỉ tính cho 01 lô (11 triệu); nhầm chiều thanh toán.
+  B: Điểm a khoản 4 Điều 43 Thông tư 98/2020/TT-BTC (VBHN 04/VBHN-BTC năm 2026, hợp nhất TT 136/2025/TT-BTC)
+[C1-026] (Hệ thống đăng ký, lưu ký, bù t) Hoạt động nào sau đây KHÔNG thuộc quyền và nghĩa vụ của Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam?
+  A: Chấp thuận niêm yết và giám sát việc duy trì điều kiện niêm yết chứng khoán
+  E: Theo Điều 55 và khoản 5 Điều 61, VSDC cấp mã chứng khoán và mã ISIN, giám sát tỷ lệ sở hữu nước ngoài, lập danh sách và phân bổ quyền. Chấp thuận niêm yết, giám sát duy trì điều kiện niêm yết là quyền của Sở giao dịch chứng khoán Việt Nam (điểm đ khoản 1 Điều 46).
+  B: Điều 55, khoản 5 Điều 61, điểm đ khoản 1 Điều 46 Luật Chứng khoán 2019
+[C1-027] (Hệ thống đăng ký, lưu ký, bù t) Cổ phiếu niêm yết có chu kỳ thanh toán T+2. Tổ chức phát hành thông báo ngày đăng ký cuối cùng để chi trả cổ tức là thứ Năm, ngày 12/11/2026 (giả định không có ngày nghỉ lễ). Ngày giao dịch không hưởng quyền là:
+  A: Thứ Tư, ngày 11/11/2026
+  E: Với T+2, người mua ngày T chỉ có tên trên sổ đăng ký vào T+2. Mua ngày 10/11 thì thanh toán ngày 12/11, vẫn được hưởng quyền; mua từ ngày 11/11 thì thanh toán sau ngày đăng ký cuối cùng nên không được hưởng. Vì vậy ngày giao dịch không hưởng quyền là ngày làm việc liền trước ngày đăng ký cuối cùng: 11/11/2026.
+  B: Khoản 5 Điều 61 Luật Chứng khoán 2019; chu kỳ thanh toán T+2 đối với cổ phiếu
+[C1-028] (Hệ thống đăng ký, lưu ký, bù t) Trong ngày giao dịch T, khách hàng của thành viên lưu ký A mua cổ phiếu với tổng giá trị 12 tỷ đồng và bán cổ phiếu với tổng giá trị 9,5 tỷ đồng (cùng kỳ thanh toán, bỏ qua phí và thuế). Theo phương thức bù trừ đa phương, nghĩa vụ thanh toán tiền ròng của A là:
+  A: Phải trả 2,5 tỷ đồng
+  E: Bù trừ đa phương xác định nghĩa vụ ròng của từng thành viên với hệ thống: 12 − 9,5 = 2,5 tỷ đồng phải trả. Thanh toán riêng rẽ từng giao dịch là thanh toán theo giá trị tổng, không phải bù trừ đa phương.
+  B: Khoản 1 Điều 63 Luật Chứng khoán 2019 (sửa đổi bởi Luật 56/2024/QH15); nguyên tắc bù trừ đa phương
+[C7-025] (Hệ thống đăng ký, lưu ký, bù t) Theo Luật Chứng khoán, chứng khoán của công ty đại chúng phải được lưu ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam vào thời điểm nào?
+  A: Trước khi thực hiện giao dịch, trừ trường hợp khác theo quy định của Bộ trưởng Bộ Tài chính
+  E: Khoản 1 Điều 62: chứng khoán của công ty đại chúng và chứng khoán niêm yết, đăng ký giao dịch phải được lưu ký tập trung tại VSDC trước khi thực hiện giao dịch, trừ trường hợp khác theo quy định của Bộ trưởng Bộ Tài chính. Đây là điều kiện để thanh toán chứng khoán bằng bút toán ghi sổ trên tài khoản lưu ký.
+  B: Khoản 1 Điều 62 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-026] (Hệ thống đăng ký, lưu ký, bù t) Theo Luật Chứng khoán, công ty chứng khoán được đăng ký hoạt động lưu ký chứng khoán khi:
+  A: Được cấp phép thực hiện nghiệp vụ môi giới chứng khoán
+  E: Khoản 2 Điều 57: công ty chứng khoán được đăng ký hoạt động lưu ký chứng khoán khi được cấp phép nghiệp vụ môi giới chứng khoán. Điều kiện về tỷ lệ an toàn vốn, kinh doanh có lãi năm gần nhất áp dụng cho ngân hàng thương mại, chi nhánh ngân hàng nước ngoài (khoản 1 Điều 57).
+  B: Khoản 2 Điều 57 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-027] (Hệ thống đăng ký, lưu ký, bù t) Luật Chứng khoán quy định thanh toán giao dịch chứng khoán phải tuân thủ nguyên tắc chuyển giao chứng khoán đồng thời với thanh toán tiền (DVP). Nguyên tắc này chủ yếu nhằm loại trừ rủi ro nào?
+  A: Một bên đã giao chứng khoán hoặc đã trả tiền nhưng không nhận được phần đối ứng
+  E: Khoản 2 Điều 63: thanh toán chứng khoán thực hiện trên tài khoản lưu ký tại VSDC, thanh toán tiền qua ngân hàng thanh toán và phải chuyển giao chứng khoán đồng thời với thanh toán tiền. Theo giáo trình, DVP loại trừ rủi ro tiền gốc (một bên đã thực hiện nghĩa vụ mà không nhận được phần đối ứng); rủi ro biến động giá, rủi ro tín dụng của tổ chức phát hành và rủi ro sự cố hệ thống giao dịch không được loại trừ bởi DVP.
+  B: Khoản 2 Điều 63 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – nguyên tắc DVP và rủi ro thanh toán
+[C7-028] (Hệ thống đăng ký, lưu ký, bù t) Thành viên lưu ký L thường xuyên vi phạm nghĩa vụ của thành viên lưu ký theo quy chế của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC). Theo Luật Chứng khoán, biện pháp nào sau đây được áp dụng?
+  A: VSDC đình chỉ hoạt động lưu ký chứng khoán của L tối đa 90 ngày
+  E: Điểm a khoản 1 Điều 60: VSDC đình chỉ hoạt động lưu ký của thành viên lưu ký tối đa 90 ngày khi thường xuyên vi phạm nghĩa vụ thành viên lưu ký. Giấy chứng nhận đăng ký hoạt động lưu ký do UBCKNN cấp và thu hồi (khoản 2 Điều 60), chẳng hạn khi hết thời hạn đình chỉ mà không khắc phục được vi phạm. Sở giao dịch không quản lý thành viên lưu ký.
+  B: Điểm a khoản 1 Điều 60 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-029] (Hệ thống đăng ký, lưu ký, bù t) Một doanh nghiệp (không phải tổ chức phát hành chứng khoán mà H sở hữu) đề nghị Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC) cung cấp bản sao thông tin sở hữu chứng khoán của nhà đầu tư H để phục vụ việc đòi nợ, trong khi H không đồng ý. Theo Luật Chứng khoán, VSDC phải:
+  A: Từ chối, vì không có sự đồng ý của H và không phải yêu cầu của cơ quan có thẩm quyền
+  E: Điểm g khoản 2 Điều 55: VSDC có trách nhiệm bảo mật thông tin sở hữu của khách hàng, từ chối phong tỏa, cầm giữ, trích chuyển tài sản, trích lục, sao chép thông tin sở hữu chứng khoán của khách hàng mà không có sự đồng ý của khách hàng, trừ trường hợp theo yêu cầu của cơ quan có thẩm quyền hoặc của kiểm toán viên kiểm toán báo cáo tài chính của VSDC, của thành viên lưu ký. VSDC chỉ cung cấp thông tin sở hữu theo yêu cầu của chính công ty đại chúng, tổ chức phát hành và cơ quan có thẩm quyền (điểm e), không phải của chủ nợ. Thông tin này không phải thông tin công khai, nộp phí không thay thế sự đồng ý của khách hàng; thành viên lưu ký cũng có nghĩa vụ bảo mật tương tự (điểm a khoản 3 Điều 56).
+  B: Điểm g khoản 2 Điều 55 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-030] (Hệ thống đăng ký, lưu ký, bù t) Vào ngày thanh toán, thành viên lưu ký Z tạm thời mất khả năng thanh toán tiền cho các giao dịch mua chứng khoán của khách hàng. Theo Luật Chứng khoán, nguồn được sử dụng để thanh toán thay cho Z là:
+  A: Quỹ hỗ trợ thanh toán do các thành viên lưu ký đóng góp, do VSDC quản lý
+  E: Khoản 1, 2 Điều 66: quỹ hỗ trợ thanh toán hình thành từ đóng góp của các thành viên lưu ký để thanh toán thay khi thành viên lưu ký tạm thời mất khả năng thanh toán; quỹ do VSDC quản lý, tách biệt với tài sản của VSDC. Tiền của khách hàng là tài sản của khách hàng, không được dùng thanh toán nợ của thành viên (Điều 65); Luật không quy định dùng ngân sách nhà nước để thanh toán thay cho thành viên lưu ký.
+  B: Điều 66 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-031] (Hệ thống đăng ký, lưu ký, bù t) Giả định VSDC bù trừ đa phương ròng nghĩa vụ tiền theo từng thành viên trong cùng kỳ thanh toán (bỏ qua phí, thuế). Trong ngày T, khách hàng của thành viên P mua của khách hàng của Q 10 tỷ đồng; khách hàng của Q mua của khách hàng của R 8 tỷ đồng; khách hàng của R mua của khách hàng của P 6 tỷ đồng; khách hàng của P mua của khách hàng của R 3 tỷ đồng. Chỉ tính số tiền do bên phải trả chuyển đi (không tính lại chiều nhận). So với thanh toán riêng từng giao dịch, tổng số tiền phải chuyển giảm được nhờ bù trừ là:
+  A: 20 tỷ đồng
+  E: Thanh toán riêng từng giao dịch: bên mua chuyển 10 + 8 + 6 + 3 = 27 tỷ đồng. Vị thế ròng: P phải trả 13 − 6 = 7 tỷ; Q nhận 10 − 8 = 2 tỷ; R nhận 11 − 6 = 5 tỷ. Sau bù trừ chỉ P chuyển 7 tỷ (bằng tổng số Q và R nhận). Giảm được 27 − 7 = 20 tỷ đồng. Lỗi thường gặp: nhầm với số tiền còn phải chuyển (7 tỷ); cộng giá trị tuyệt đối các vị thế ròng (14 tỷ); tính cả chiều nhận tiền dù đề chỉ tính chiều chuyển (54 − 14 = 40 tỷ).
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – bù trừ đa phương ròng trong thanh toán giao dịch chứng khoán
+[C7-032] (Hệ thống đăng ký, lưu ký, bù t) Giả định VSDC bù trừ đa phương ròng nghĩa vụ chứng khoán theo từng mã và nghĩa vụ tiền theo từng thành viên (bỏ qua phí, thuế). Trong ngày T, khách hàng của thành viên lưu ký X mua 120.000 cổ phiếu AAA và bán 85.000 cổ phiếu AAA ở giá 25.000 đồng; mua 15.000 cổ phiếu BBB và bán 40.000 cổ phiếu BBB ở giá 40.000 đồng. Nghĩa vụ thanh toán ròng của X là:
+  A: Nhận 35.000 cổ phiếu AAA, giao 25.000 cổ phiếu BBB; nhận ròng 125 triệu đồng
+  E: Chứng khoán bù trừ theo từng mã: AAA 120.000 − 85.000 = nhận 35.000; BBB 15.000 − 40.000 = giao 25.000 (không bù trừ chéo giữa hai mã). Tiền: phải trả 120.000 × 25.000 + 15.000 × 40.000 = 3.600 triệu; được nhận 85.000 × 25.000 + 40.000 × 40.000 = 3.725 triệu → nhận ròng 125 triệu đồng. Lỗi thường gặp: nhầm chiều tiền; chỉ tính tiền của mã AAA (trả 875 triệu); cộng chung số lượng hai mã.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – bù trừ đa phương ròng chứng khoán và tiền
+[C7-033] (Hệ thống đăng ký, lưu ký, bù t) Ngày 15/01/2026, ngân hàng thương mại G được UBCKNN cấp Giấy chứng nhận đăng ký hoạt động lưu ký chứng khoán. Đến tháng 11/2026, G vẫn chưa làm thủ tục đăng ký thành viên lưu ký tại VSDC. Theo Luật Chứng khoán, nhận định nào đúng?
+  A: G còn hạn đến 15/01/2027 để đăng ký thành viên và hoạt động lưu ký; quá hạn sẽ bị UBCKNN thu hồi Giấy chứng nhận
+  E: Khoản 2 Điều 59: trong 12 tháng kể từ ngày được cấp Giấy chứng nhận, tổ chức phải đăng ký thành viên lưu ký tại VSDC và tiến hành hoạt động lưu ký; hạn của G là 15/01/2027. Điểm b khoản 2 Điều 60: UBCKNN thu hồi Giấy chứng nhận nếu không tiến hành hoạt động lưu ký trong thời hạn này. Biện pháp đình chỉ 90 ngày của VSDC chỉ áp dụng với thành viên lưu ký vi phạm nghĩa vụ.
+  B: Khoản 2 Điều 59, điểm b khoản 2 Điều 60 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C1-033] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, Ủy ban Chứng khoán Nhà nước là:
+  A: Cơ quan thuộc Bộ Tài chính, tham mưu, giúp Bộ trưởng quản lý nhà nước về chứng khoán
+  E: Khoản 1 Điều 9: UBCKNN là cơ quan thuộc Bộ Tài chính, thực hiện chức năng tham mưu, giúp Bộ trưởng Bộ Tài chính quản lý nhà nước về chứng khoán và TTCK, tổ chức thực thi pháp luật theo phân cấp, ủy quyền.
+  B: Khoản 1 Điều 9 Luật Chứng khoán 2019
+[C1-034] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), hành vi nào sau đây là thao túng thị trường chứng khoán?
+  A: Đặt lệnh mua và bán cùng loại chứng khoán trong ngày, không chuyển quyền sở hữu thực sự, để tạo cung cầu giả tạo
+  E: Điểm b khoản 49 Điều 4: đặt lệnh mua và bán cùng loại chứng khoán trong cùng ngày giao dịch mà không dẫn đến chuyển nhượng thực sự quyền sở hữu nhằm tạo giá, cung cầu giả tạo là thao túng; hành vi này bị nghiêm cấm theo khoản 3 Điều 12.
+  B: Khoản 49 Điều 4, khoản 3 Điều 12 Luật Chứng khoán 2019 (bổ sung, sửa đổi bởi Luật 56/2024/QH15)
+[C1-035] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, chủ thể nào có nghĩa vụ giám sát hoạt động giao dịch chứng khoán, việc tuân thủ nghĩa vụ của thành viên và hoạt động công bố thông tin của tổ chức niêm yết, tổ chức đăng ký giao dịch?
+  A: Sở giao dịch chứng khoán Việt Nam
+  E: Điểm c khoản 2 Điều 46: Sở giao dịch chứng khoán Việt Nam giám sát hoạt động giao dịch, việc tuân thủ nghĩa vụ của thành viên, hoạt động công bố thông tin của tổ chức niêm yết, tổ chức đăng ký giao dịch và nhà đầu tư thuộc đối tượng công bố thông tin.
+  B: Điểm c khoản 2 Điều 46 Luật Chứng khoán 2019
+[C1-036] (Quản lý, giám sát thị trường c) Ông B là kế toán trưởng của công ty niêm yết X. Biết trước kết quả kinh doanh quý của X lỗ lớn (chưa công bố), ông B khuyên em trai bán hết cổ phiếu X trước ngày công bố. Hành vi của ông B là:
+  A: Tư vấn cho người khác giao dịch trên cơ sở thông tin nội bộ, thuộc hành vi bị nghiêm cấm
+  E: Kế toán trưởng là người nội bộ (khoản 45 Điều 4); kết quả lỗ chưa công bố là thông tin nội bộ (khoản 44 Điều 4). Khoản 2 Điều 12 nghiêm cấm sử dụng thông tin nội bộ để mua, bán cho mình hoặc người khác, tiết lộ, cung cấp hoặc tư vấn cho người khác mua, bán trên cơ sở thông tin nội bộ.
+  B: Khoản 44, 45 Điều 4; khoản 2 Điều 12 Luật Chứng khoán 2019
+[C7-009] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, cơ quan nào chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về chứng khoán và thị trường chứng khoán?
+  A: Bộ Tài chính
+  E: Khoản 1, 2 Điều 8: Chính phủ thống nhất quản lý nhà nước; Bộ Tài chính chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về chứng khoán và TTCK. UBCKNN là cơ quan thuộc Bộ Tài chính, tham mưu, giúp Bộ trưởng (Điều 9); các bộ, ngành khác như Ngân hàng Nhà nước chỉ phối hợp trong phạm vi nhiệm vụ; Sở giao dịch chứng khoán là doanh nghiệp tổ chức thị trường giao dịch.
+  B: Khoản 2 Điều 8 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-010] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, Tổng giám đốc (Giám đốc) Sở giao dịch chứng khoán Việt Nam do ai phê chuẩn hoặc bổ nhiệm, miễn nhiệm?
+  A: Bộ trưởng Bộ Tài chính
+  E: Khoản 2 Điều 44: Chủ tịch Hội đồng thành viên hoặc Chủ tịch Hội đồng quản trị, Tổng giám đốc (Giám đốc) Sở giao dịch chứng khoán Việt Nam do Bộ trưởng Bộ Tài chính phê chuẩn hoặc bổ nhiệm, miễn nhiệm theo đề nghị của Hội đồng thành viên/Hội đồng quản trị Sở và ý kiến của Chủ tịch UBCKNN. Thủ tướng Chính phủ quyết định thành lập, mô hình hoạt động và cơ cấu tổ chức quản lý của Sở (Điều 43, khoản 1 Điều 44); Chủ tịch UBCKNN chỉ cho ý kiến.
+  B: Khoản 2 Điều 44 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-011] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, tổ chức, cá nhân có hành vi vi phạm pháp luật về chứng khoán và thị trường chứng khoán bị xử lý như thế nào?
+  A: Tùy tính chất, mức độ mà bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự; gây thiệt hại thì phải bồi thường
+  E: Khoản 1 Điều 132: tùy theo tính chất, mức độ vi phạm mà bị xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật. Sở giao dịch chỉ kiểm tra, xử lý vi phạm đối với thành viên, tổ chức niêm yết theo quy chế của Sở (điểm i khoản 1 Điều 46), không thay thế xử phạt hành chính hay hình sự.
+  B: Khoản 1 Điều 132 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-012] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, quy chế niêm yết chứng khoán và quy chế giao dịch chứng khoán của Sở giao dịch chứng khoán Việt Nam được ban hành như thế nào?
+  A: Sở giao dịch chứng khoán ban hành sau khi được Ủy ban Chứng khoán Nhà nước chấp thuận
+  E: Điểm a khoản 1 Điều 46: Sở giao dịch chứng khoán có quyền ban hành các quy chế về niêm yết, giao dịch, công bố thông tin, thành viên… sau khi được UBCKNN chấp thuận. Điểm d khoản 1 Điều 9 (sửa đổi bởi Luật 56/2024/QH15) giao UBCKNN chấp thuận các quy chế nghiệp vụ và có quyền yêu cầu Sở sửa đổi quy chế.
+  B: Điểm a khoản 1 Điều 46 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-013] (Quản lý, giám sát thị trường c) Giả sử Sở giao dịch chứng khoán Việt Nam dự kiến đưa vào vận hành một hệ thống giao dịch mới, đồng thời áp dụng một phương thức giao dịch mới. Theo Luật Chứng khoán, chủ thể có thẩm quyền chấp thuận các nội dung này là:
+  A: Ủy ban Chứng khoán Nhà nước
+  E: Điểm đ khoản 1 Điều 9: UBCKNN chấp thuận việc đưa vào giao dịch các loại chứng khoán mới, thay đổi và áp dụng phương thức giao dịch mới, chấp thuận hệ thống giao dịch chứng khoán và đưa vào vận hành hệ thống giao dịch mới. Thủ tướng Chính phủ quyết định thành lập, mô hình hoạt động của Sở (khoản 2 Điều 43), không chấp thuận từng phương thức giao dịch; Hội đồng quản trị Sở không tự chấp thuận.
+  B: Điểm đ khoản 1 Điều 9 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-014] (Quản lý, giám sát thị trường c) Theo Luật Chứng khoán, biện pháp nào sau đây KHÔNG thuộc các biện pháp bảo đảm an ninh, an toàn thị trường chứng khoán?
+  A: Yêu cầu công ty chứng khoán dùng vốn tự doanh mua vào cổ phiếu để giữ giá
+  E: Khoản 1 Điều 7 liệt kê các biện pháp: giám sát an ninh, an toàn thị trường; ứng phó sự cố; tạm ngừng, đình chỉ giao dịch một hoặc một số chứng khoán; tạm ngừng, đình chỉ hoạt động của Sở giao dịch, VSDC; cấm đảm nhiệm chức vụ, cấm hoạt động chứng khoán; phong tỏa tài khoản chứng khoán, yêu cầu phong tỏa tài khoản tiền liên quan đến vi phạm. Luật không có biện pháp buộc công ty chứng khoán mua vào để giữ giá.
+  B: Khoản 1 Điều 7 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C7-015] (Quản lý, giám sát thị trường c) Trong 10 phiên liên tiếp, nhà đầu tư K dùng tài khoản của chính mình liên tục đặt mua cổ phiếu X với khối lượng chi phối vào thời điểm đóng cửa thị trường, làm giá đóng cửa của X luôn cao hơn hẳn mức giá giao dịch trong ngày; K không tung tin hay bình luận gì về X. Theo Luật Chứng khoán (sửa đổi bởi Luật 56/2024/QH15), hành vi của K:
+  A: Là thao túng thị trường, do liên tục mua với khối lượng chi phối lúc đóng cửa để tác động giá
+  E: Điểm c khoản 49 Điều 4 (bổ sung bởi Luật 56/2024/QH15) xác định thao túng thị trường gồm hành vi liên tục mua hoặc bán chứng khoán với khối lượng chi phối vào thời điểm mở cửa hoặc đóng cửa thị trường nhằm thao túng giá; khoản 3 Điều 12 cấm hành vi thao túng. Hành vi này không đòi hỏi dùng tài khoản người khác hay tung tin; giao dịch không chuyển nhượng thực sự quyền sở hữu là một dạng thao túng khác (điểm b); K không sử dụng thông tin nội bộ.
+  B: Điểm c khoản 49 Điều 4 và khoản 3 Điều 12 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH) (bổ sung, sửa đổi bởi Luật 56/2024/QH15)
+[C7-016] (Quản lý, giám sát thị trường c) Công ty TNHH tư vấn tài chính P không có giấy phép của UBCKNN, ký hợp đồng nhận tiền của nhiều cá nhân để trực tiếp quyết định mua, bán cổ phiếu niêm yết trên tài khoản do chính các cá nhân này đứng tên, hưởng phí bằng 20% lợi nhuận. Nhận định nào sau đây đúng theo Luật Chứng khoán?
+  A: P vi phạm điều cấm vì kinh doanh chứng khoán khi chưa được UBCKNN cấp giấy phép
+  E: Quản lý danh mục đầu tư chứng khoán theo ủy thác (khoản 35 Điều 4) là nghiệp vụ kinh doanh chứng khoán của công ty quản lý quỹ được UBCKNN cấp phép (Điều 73). Khoản 4 Điều 12 nghiêm cấm thực hiện hoạt động kinh doanh chứng khoán khi chưa được UBCKNN cấp giấy phép. Việc tài khoản đứng tên khách hàng, khách hàng là nhà đầu tư chuyên nghiệp hay mức phí đều không làm hoạt động này trở nên hợp pháp. Công ty chứng khoán cũng chỉ được nhận ủy thác quản lý tài khoản của nhà đầu tư cá nhân theo Điều 19 TT 121/2020; P không phải công ty chứng khoán hay công ty quản lý quỹ.
+  B: Khoản 4 Điều 12, khoản 35 Điều 4, Điều 73 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH)
+[C8-010] (Quản lý, giám sát thị trường c) Bà M không sở hữu cổ phần và chưa từng làm việc tại công ty niêm yết P; em gái ruột của bà M sở hữu 6% cổ phiếu có quyền biểu quyết của P. Bà M được đề cử làm thành viên Hội đồng quản trị độc lập của P. Theo Luật Doanh nghiệp 2020 (Nghị định 155/2020/NĐ-CP dẫn chiếu), nhận định nào đúng?
+  A: Không đủ tiêu chuẩn, vì em ruột của bà M là cổ đông lớn của P
+  E: Khoản 1 Điều 275 NĐ 155/2020: thành viên HĐQT công ty đại chúng phải đáp ứng tiêu chuẩn tại khoản 1, 2 Điều 155 Luật Doanh nghiệp. Điểm c khoản 2 Điều 155 Luật Doanh nghiệp 2020: thành viên độc lập không phải là người có vợ hoặc chồng, bố đẻ, bố nuôi, mẹ đẻ, mẹ nuôi, con đẻ, con nuôi, anh ruột, chị ruột, em ruột là cổ đông lớn của công ty. Sở hữu 6% cổ phiếu có quyền biểu quyết là cổ đông lớn (từ 5% trở lên, khoản 18 Điều 4 Luật Chứng khoán), nên bà M không đủ tiêu chuẩn thành viên độc lập dù bản thân không có cổ phần; việc HĐQT giới thiệu ứng viên không thay đổi tiêu chuẩn.
+  B: Điểm c khoản 2 Điều 155 Luật Doanh nghiệp 2020 (VBHN 67/VBHN-VPQH năm 2025; Luật 76/2025/QH15 không sửa Điều 155); khoản 1 Điều 275 Nghị định 155/2020/NĐ-CP; khoản 18 Điều 4 Luật Chứng khoán
+[C8-012] (Quản lý, giám sát thị trường c) Theo Điều 76 Bộ luật Hình sự 2015 (sửa đổi, bổ sung năm 2017 và năm 2025), pháp nhân thương mại KHÔNG phải chịu trách nhiệm hình sự về tội nào sau đây?
+  A: Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán
+  E: Điều 76 BLHS quy định pháp nhân thương mại chỉ chịu trách nhiệm hình sự về các tội được liệt kê. Trong nhóm tội về chứng khoán, danh mục có Điều 209 (cố ý công bố thông tin sai lệch hoặc che giấu thông tin trong hoạt động chứng khoán), Điều 210 (sử dụng thông tin nội bộ để mua bán chứng khoán), Điều 211 (thao túng thị trường chứng khoán), nhưng không có Điều 212 (làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán): tội này chỉ truy cứu cá nhân. Ví dụ: công ty dùng thông tin nội bộ mua cổ phiếu trước khi tin được công bố có thể bị truy cứu theo Điều 210 nếu hành vi nhân danh, vì lợi ích, có sự chỉ đạo, điều hành hoặc chấp thuận của pháp nhân và chưa hết thời hiệu (khoản 1 Điều 75); trách nhiệm của pháp nhân không loại trừ trách nhiệm hình sự của cá nhân (khoản 2 Điều 75). Lần sửa năm 2025 không thay đổi danh mục này.
+  B: Điều 75, Điều 76, Điều 209–212 Bộ luật Hình sự 2015 (VBHN 135/VBHN-VPQH ngày 05/9/2025, hợp nhất Luật 12/2017/QH14 và Luật 86/2025/QH15); Điều 132 Luật Chứng khoán 2019
+[C8-013] (Quản lý, giám sát thị trường c) Ngày 14/10/2026, ông T nhận được quyết định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và muốn khiếu nại lần đầu. Không có trở ngại khách quan; coi thời hạn n ngày kể từ ngày X kết thúc vào cuối ngày X + n, không xét ngày nghỉ. Theo Luật Khiếu nại, ngày cuối cùng ông T còn trong thời hiệu khiếu nại là:
+  A: 12/01/2027
+  E: Quyết định xử phạt vi phạm hành chính là quyết định hành chính, bị khiếu nại theo pháp luật về khiếu nại. Điều 9 Luật Khiếu nại 2011: thời hiệu khiếu nại là 90 ngày kể từ ngày nhận được hoặc biết được quyết định hành chính (Luật 136/2025/QH15, hiệu lực 01/07/2026, không sửa điều này). 14/10/2026 + 90 ngày = 12/01/2027. 14/01/2027 là nhầm 90 ngày thành 3 tháng; 13/11/2026 và 13/12/2026 ứng với 30 và 60 ngày (30 ngày là thời hạn giải quyết khiếu nại lần đầu tại Điều 28, không phải thời hiệu). Thời gian ốm đau, thiên tai… (trở ngại khách quan) không tính vào thời hiệu.
+  B: Điều 9 Luật Khiếu nại 2011 (hợp nhất các lần sửa đổi đến Luật 136/2025/QH15, hiệu lực 01/07/2026; Điều 9 không bị sửa); Điều 28 Luật Khiếu nại
+[C1-009] (Thị trường chứng khoán sơ cấp) Theo Luật Chứng khoán, khi phân phối chứng khoán chào bán ra công chúng (trừ chứng quyền có bảo đảm), thời hạn đăng ký mua dành cho nhà đầu tư tối thiểu là:
+  A: 20 ngày
+  E: Khoản 2 Điều 26: tổ chức phát hành, tổ chức bảo lãnh hoặc đại lý phải bảo đảm thời hạn đăng ký mua cho nhà đầu tư tối thiểu là 20 ngày (trừ chứng quyền có bảo đảm).
+  B: Khoản 2 Điều 26 Luật Chứng khoán 2019
+[C1-010] (Thị trường chứng khoán sơ cấp) Tổ chức bảo lãnh phát hành chỉ cam kết nỗ lực tối đa để phân phối chứng khoán; số chứng khoán không phân phối hết được trả lại cho tổ chức phát hành. Đây là phương thức bảo lãnh:
+  A: Cố gắng tối đa
+  E: Bảo lãnh cố gắng tối đa: tổ chức bảo lãnh đóng vai trò đại lý phân phối, không cam kết mua số còn lại. Cam kết chắc chắn: nhận mua toàn bộ hoặc số còn lại để bán lại. Bảo lãnh dự phòng: cam kết mua phần cổ phiếu mà cổ đông hiện hữu không thực hiện quyền mua.
+  B: Khoản 31 Điều 4 Luật Chứng khoán 2019; các phương thức bảo lãnh phát hành
+[C1-011] (Thị trường chứng khoán sơ cấp) Theo Luật Chứng khoán, trường hợp nào sau đây là chào bán chứng khoán ra công chúng?
+  A: Chào bán cổ phiếu cho 120 nhà đầu tư, trong đó có 10 nhà đầu tư chứng khoán chuyên nghiệp
+  E: Chào bán ra công chúng gồm: qua phương tiện thông tin đại chúng; cho từ 100 nhà đầu tư trở lên, không kể NĐT chứng khoán chuyên nghiệp; hoặc cho nhà đầu tư không xác định. 120 − 10 = 110 NĐT không chuyên nghiệp (≥ 100) nên là chào bán ra công chúng; các trường hợp còn lại là chào bán riêng lẻ.
+  B: Khoản 19, 20 Điều 4 Luật Chứng khoán 2019
+[C1-012] (Thị trường chứng khoán sơ cấp) Công ty X chào bán ra công chúng 5.000.000 cổ phiếu, giá 18.000 đồng/cổ phiếu. Công ty chứng khoán Y bảo lãnh theo phương thức cam kết chắc chắn cho toàn bộ đợt chào bán, phí bảo lãnh 1,5% tổng giá trị chào bán. Kết thúc đợt chào bán, nhà đầu tư đăng ký và thanh toán 4.200.000 cổ phiếu. Số tiền Y phải bỏ ra để mua số cổ phiếu còn lại là:
+  A: 14.400.000.000 đồng
+  E: Số cổ phiếu còn lại = 5.000.000 − 4.200.000 = 800.000; số tiền Y phải mua = 800.000 × 18.000 = 14,4 tỷ đồng. Phí bảo lãnh (1,5% × 90 tỷ = 1,35 tỷ đồng) là khoản Y được nhận, không làm thay đổi số tiền phải mua.
+  B: Khoản 31 Điều 4 Luật Chứng khoán 2019; bảo lãnh cam kết chắc chắn
+[C12-005] (Thị trường chứng khoán sơ cấp) Trong hồ sơ đăng ký chào bán cổ phiếu ra công chúng, tài liệu công khai thông tin chính xác, trung thực, khách quan về tổ chức phát hành và đợt chào bán, là căn cứ chính để nhà đầu tư quyết định đăng ký mua, là:
+  A: Bản cáo bạch của tổ chức phát hành
+  E: Khoản 23 Điều 4 Luật Chứng khoán: bản cáo bạch là tài liệu hoặc dữ liệu điện tử công khai những thông tin chính xác, trung thực, khách quan liên quan đến việc chào bán hoặc niêm yết chứng khoán của tổ chức phát hành. Theo Điều 19, bản cáo bạch tổng hợp thông tin về tổ chức phát hành, đợt chào bán (rủi ro, phương án phát hành và sử dụng vốn) và báo cáo tài chính 02 năm gần nhất, nên quan trọng nhất với nhà đầu tư. Giấy đăng ký chào bán và quyết định của Đại hội đồng cổ đông thông qua phương án phát hành, phương án sử dụng vốn là các tài liệu khác trong hồ sơ (khoản 1 Điều 18); báo cáo tài chính 02 năm gần nhất là một phần nội dung của bản cáo bạch (điểm c khoản 1 Điều 19).
+  B: Khoản 23 Điều 4, Điều 18, Điều 19 Luật Chứng khoán (VBHN 102/VBHN-VPQH năm 2026); Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Bản cáo bạch
+[C6-017] (Thị trường chứng khoán sơ cấp) Khi công ty cổ phần chào bán cổ phiếu ra công chúng tại Việt Nam, mệnh giá mỗi cổ phiếu theo Luật Chứng khoán là:
+  A: 10 nghìn đồng
+  E: Khoản 2 Điều 13 Luật Chứng khoán: mệnh giá cổ phiếu, chứng chỉ quỹ chào bán ra công chúng là 10 nghìn đồng; mệnh giá trái phiếu chào bán ra công chúng là 100 nghìn đồng và bội số của 100 nghìn đồng.
+  B: Khoản 2 Điều 13 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-018] (Thị trường chứng khoán sơ cấp) Theo Luật Chứng khoán, tổ chức phát hành, tổ chức bảo lãnh phát hành hoặc tổ chức đại lý phải chuyển giao chứng khoán hoặc giấy chứng nhận quyền sở hữu chứng khoán cho người mua trong thời hạn bao lâu kể từ ngày kết thúc đợt chào bán ra công chúng?
+  A: 30 ngày
+  E: Khoản 6 Điều 26 Luật Chứng khoán quy định thời hạn 30 ngày kể từ ngày kết thúc đợt chào bán. 10 ngày là thời hạn báo cáo kết quả đợt chào bán cho UBCKNN (khoản 5); 90 ngày là thời hạn hoàn thành phân phối kể từ ngày Giấy chứng nhận đăng ký chào bán có hiệu lực (khoản 4).
+  B: Khoản 6 Điều 26 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-019] (Thị trường chứng khoán sơ cấp) Công ty cổ phần M (chưa là công ty đại chúng) không phát hành thêm cổ phiếu; các cổ đông hiện hữu của M chào bán một phần cổ phiếu đang sở hữu ra công chúng lần đầu để M trở thành công ty đại chúng. Theo Nghị định 155/2020/NĐ-CP, đây là hình thức:
+  A: Chào bán lần đầu ra công chúng thông qua thay đổi cơ cấu sở hữu, không tăng vốn điều lệ
+  E: Điểm b khoản 1 Điều 10 Nghị định 155/2020/NĐ-CP: chào bán cổ phiếu lần đầu ra công chúng để trở thành công ty đại chúng thông qua thay đổi cơ cấu sở hữu, không làm tăng vốn điều lệ. Tiền thu được thuộc về cổ đông bán, không về M. Nếu M đồng thời phát hành cổ phiếu mới thì là hình thức kết hợp (điểm c).
+  B: Điểm b khoản 1 Điều 10 Nghị định 155/2020/NĐ-CP (điều này không bị Nghị định 245/2025/NĐ-CP sửa đổi)
+[C6-020] (Thị trường chứng khoán sơ cấp) Công ty chứng khoán K bảo lãnh phát hành cổ phiếu cho công ty X theo phương thức “tối thiểu – tối đa”, với mức tối thiểu 60% và mức tối đa 100% số cổ phiếu chào bán. Kết thúc thời hạn phân phối, K bán được 75% số cổ phiếu. Kết quả đợt phát hành là:
+  A: Đợt phát hành có hiệu lực với 75% số cổ phiếu; K không phải mua số còn lại
+  E: Bảo lãnh “tối thiểu – tối đa” là biến thể của bảo lãnh cố gắng tối đa: tổ chức bảo lãnh không cam kết mua số còn lại. Nếu số bán được dưới mức tối thiểu, đợt phát hành bị hủy; nếu đạt từ mức tối thiểu trở lên (75% ≥ 60%), đợt phát hành có hiệu lực với số đã bán. Cam kết mua phần còn lại là đặc điểm của bảo lãnh cam kết chắc chắn.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Các phương thức bảo lãnh phát hành (cam kết chắc chắn, cố gắng tối đa, tất cả hoặc không, tối thiểu – tối đa)
+[C6-021] (Thị trường chứng khoán sơ cấp) Trong thời gian phân phối cổ phiếu chào bán ra công chúng, Hội đồng quản trị công ty Y muốn dùng ngay số tiền nhà đầu tư đã nộp mua cổ phiếu để thanh toán một khoản nợ đến hạn. Theo Luật Chứng khoán, việc này:
+  A: Không được; tiền mua phải nằm trong tài khoản phong tỏa đến khi hoàn tất đợt chào bán và báo cáo UBCKNN
+  E: Khoản 3 Điều 26 Luật Chứng khoán: tiền mua chứng khoán phải được chuyển vào tài khoản phong tỏa mở tại ngân hàng, chi nhánh ngân hàng nước ngoài cho đến khi hoàn tất đợt chào bán và báo cáo UBCKNN. Vì vậy Y không được sử dụng số tiền này trong thời gian phân phối.
+  B: Khoản 3 Điều 26 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-022] (Thị trường chứng khoán sơ cấp) Công ty Z chào bán ra công chúng 6.000.000 cổ phiếu. Tổng số cổ phiếu nhà đầu tư đăng ký mua hợp lệ (đã nộp đủ tiền) là 9.600.000 cổ phiếu, trong đó nhà đầu tư A đăng ký mua 80.000 cổ phiếu. Phân phối theo quy định của Luật Chứng khoán (bỏ qua làm tròn), số cổ phiếu A được mua là:
+  A: 50.000 cổ phiếu
+  E: Khoản 2 Điều 26: khi đăng ký mua vượt số được phép phát hành, phải phân phối hết cho nhà đầu tư tương ứng với tỷ lệ đăng ký mua. Tỷ lệ phân phối = 6.000.000 / 9.600.000 = 62,5%; A được 80.000 × 62,5% = 50.000 cổ phiếu (30.000 cổ phiếu còn lại được hoàn tiền). 48.000 là dùng nhầm tỷ lệ đăng ký vượt (9,6 − 6) / 6 = 60% làm tỷ lệ phân phối; 80.000 là bỏ qua việc phân phối theo tỷ lệ.
+  B: Khoản 2 Điều 26 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-023] (Thị trường chứng khoán sơ cấp) Giả định quy chế đấu giá bán cổ phần lần đầu: xét lần lượt từ mức giá đặt mua cao nhất trở xuống; nhà đầu tư trúng giá thanh toán theo đúng mức giá mình đặt; tại mức giá cuối cùng nếu khối lượng đặt mua vượt số cổ phần còn lại thì phân bổ theo tỷ lệ. Số cổ phần chào bán là 2.000.000, giá khởi điểm 24.500 đồng. Các lệnh đặt mua hợp lệ: A 600.000 cổ phần giá 25.500 đồng; B 800.000 cổ phần giá 25.200 đồng; C 900.000 cổ phần giá 25.000 đồng; D 500.000 cổ phần giá 24.800 đồng. Tổng số tiền thu được từ đợt đấu giá là:
+  A: 50,46 tỷ đồng
+  E: A trúng 600.000 × 25.500 = 15,3 tỷ; B trúng 800.000 × 25.200 = 20,16 tỷ; còn 600.000 cổ phần cho C ở giá 25.000 = 15,0 tỷ; D không trúng. Tổng = 50,46 tỷ đồng. 50,00 tỷ là tính theo một giá thống nhất 25.000 đồng (kiểu đấu giá Hà Lan), 49,00 tỷ là tính theo giá khởi điểm; 51,00 tỷ là tính toàn bộ 2.000.000 cổ phần theo giá đặt cao nhất 25.500 đồng.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Phương thức đấu giá trong phát hành chứng khoán (đấu giá theo giá đặt mua và đấu giá theo giá thống nhất)
+[C6-024] (Thị trường chứng khoán sơ cấp) Trước khi IPO, công ty cổ phần B có 50.000.000 cổ phiếu, trong đó cổ đông sáng lập S nắm 40.000.000 cổ phiếu. Trong đợt chào bán cổ phiếu lần đầu ra công chúng theo hình thức kết hợp, B phát hành mới 12.500.000 cổ phiếu và S chào bán 7.500.000 cổ phiếu đang sở hữu; toàn bộ được bán hết cho các nhà đầu tư khác. Tỷ lệ sở hữu của S sau đợt chào bán là:
+  A: 52,00%
+  E: Sau IPO, tổng số cổ phiếu = 50 + 12,5 = 62,5 triệu (cổ phiếu S bán là cổ phiếu cũ nên không làm tăng tổng số); S còn 40 − 7,5 = 32,5 triệu. Tỷ lệ = 32,5 / 62,5 = 52%. 65% là quên cổ phiếu phát hành mới; 64% là quên phần S đã bán; 46,43% là cộng nhầm cổ phiếu S bán vào tổng số cổ phiếu.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Các hình thức chào bán lần đầu ra công chúng; điểm c khoản 1 Điều 10 Nghị định 155/2020/NĐ-CP (hình thức kết hợp)
+[C1-013] (Thị trường chứng khoán thứ cấp) Thị trường trong đó giá chứng khoán được xác định trên cơ sở so khớp lệnh mua, bán của nhà đầu tư, không có nhà tạo lập thị trường đưa ra giá chào mua, chào bán, được gọi là:
+  A: Thị trường khớp lệnh (định giá theo lệnh)
+  E: Thị trường khớp lệnh (order-driven) hình thành giá từ việc so khớp lệnh của nhà đầu tư; thị trường định giá theo giá yết (quote-driven) dựa vào giá chào mua, chào bán của nhà tạo lập thị trường.
+  B: Các phương thức giao dịch trên thị trường thứ cấp
+[C1-014] (Thị trường chứng khoán thứ cấp) Trong phiên khớp lệnh liên tục, sổ lệnh mua cổ phiếu Z đang có các lệnh LO: A mua 2.000 cổ phiếu giá 25.000 đồng (nhập lúc 10:01); B mua 5.000 cổ phiếu giá 25.000 đồng (nhập lúc 10:03); C mua 1.000 cổ phiếu giá 25.050 đồng (nhập lúc 10:05). Lúc 10:06, một lệnh LO bán 2.500 cổ phiếu giá 25.000 đồng được nhập vào. Kết quả khớp lệnh là:
+  A: C khớp 1.000 cổ phiếu giá 25.050 đồng; A khớp 1.500 cổ phiếu giá 25.000 đồng
+  E: Ưu tiên giá: lệnh mua giá cao hơn (C, 25.050) khớp trước; cùng giá thì ưu tiên thời gian (A nhập trước B). Trong khớp lệnh liên tục, giá thực hiện là giá của lệnh đối ứng đang chờ trên sổ lệnh: C khớp 1.000 cổ phiếu tại 25.050 đồng, A khớp 1.500 cổ phiếu còn lại tại 25.000 đồng.
+  B: Nguyên tắc khớp lệnh liên tục: ưu tiên giá, ưu tiên thời gian; giá khớp là giá của lệnh đối ứng đang chờ
+[C1-015] (Thị trường chứng khoán thứ cấp) Cổ phiếu Q có giá tham chiếu 25.000 đồng. Sổ lệnh phiên khớp lệnh định kỳ mở cửa (đơn vị: cổ phiếu) – Mua: ATO 2.000; giá 25.200: 3.000; 25.100: 3.000; 25.000: 3.000; 24.900: 3.000; 24.800: 1.000. Bán: ATO 1.000; giá 24.800: 1.000; 24.900: 1.000; 25.000: 1.000; 25.100: 1.000; 25.200: 2.000. Nguyên tắc xác định giá: (i) mức giá có khối lượng khớp lớn nhất; (ii) nếu nhiều mức giá thỏa mãn (i), chọn mức giá trùng hoặc gần giá tham chiếu nhất; (iii) nếu vẫn còn nhiều mức giá, chọn mức giá cao hơn. Lệnh ATO được ưu tiên trước lệnh LO. Giá và khối lượng khớp lệnh mở cửa là:
+  A: 25.100 đồng; 5.000 cổ phiếu
+  E: Cộng dồn mua (ATO + lệnh giá ≥ P) và bán (ATO + lệnh giá ≤ P): 25.200: 5.000/7.000 → khớp 5.000; 25.100: 8.000/5.000 → 5.000; 25.000: 11.000/4.000 → 4.000; 24.900: 14.000/3.000 → 3.000; 24.800: 15.000/2.000 → 2.000. Hai mức 25.100 và 25.200 cùng đạt 5.000; theo nguyên tắc (ii), 25.100 gần giá tham chiếu hơn nên được chọn.
+  B: Nguyên tắc xác định giá khớp lệnh định kỳ (dữ kiện nêu trong đề)
+[C1-016] (Thị trường chứng khoán thứ cấp) Cổ phiếu niêm yết trên HOSE có giá tham chiếu 25.350 đồng, biên độ dao động giá ±7%, bước giá 50 đồng; giá trần được làm tròn xuống, giá sàn được làm tròn lên theo bước giá. Giá trần và giá sàn lần lượt là:
+  A: 27.100 đồng và 23.600 đồng
+  E: 25.350 × 1,07 = 27.124,5 → làm tròn xuống theo bước 50 đồng được 27.100 đồng; 25.350 × 0,93 = 23.575,5 → làm tròn lên được 23.600 đồng.
+  B: Giá trần/giá sàn = Giá tham chiếu × (1 ± biên độ), làm tròn theo bước giá (biên độ, bước giá và quy tắc làm tròn là dữ kiện nêu trong đề)
+[C12-002] (Thị trường chứng khoán thứ cấp) Giả sử thị trường cho phép bán khống và công ty chứng khoán nhận lệnh dừng (stop order). Nhà đầu tư vừa bán khống 2.000 cổ phiếu Z ở giá 60.000 đồng và muốn tự động đóng vị thế nếu mức lỗ lên tới 15% giá bán. Lệnh nên đặt ngay là:
+  A: Lệnh dừng để mua 2.000 cổ phiếu, giá dừng 69.000 đồng
+  E: Người bán khống lỗ khi giá tăng, nên phải mua lại cổ phiếu để đóng vị thế khi giá tăng tới ngưỡng chịu lỗ: 60.000 × (1 + 15%) = 69.000 đồng. Lệnh dừng để mua đặt cao hơn giá thị trường, chỉ được kích hoạt thành lệnh mua khi giá tăng chạm 69.000 đồng; lỗ dự kiến (69.000 − 60.000) × 2.000 = 18.000.000 đồng, chưa tính trượt giá. Lệnh giới hạn mua giá 69.000 có hiệu lực ngay chứ không chờ giá tăng: nếu hợp lệ sẽ khớp ngay với lệnh bán quanh 60.000 (đóng vị thế luôn), nếu vượt giá trần thì bị từ chối. Lệnh dừng để bán dùng bảo vệ vị thế mua. 51.000 = 60.000 × (1 − 15%) là mức giá có lãi của vị thế bán khống; lệnh dừng mua đặt thấp hơn giá thị trường sẽ bị kích hoạt ngay. Ở Việt Nam nhà đầu tư chỉ được bán chứng khoán đã có trên tài khoản, trừ các trường hợp khoản 3 Điều 7 Thông tư 120/2020/TT-BTC; các loại lệnh do quy chế giao dịch của Sở giao dịch chứng khoán Việt Nam quy định (khoản 3 Điều 3) và có thể thay đổi theo hệ thống giao dịch mới; trên thực tế lệnh dừng thường là lệnh điều kiện do công ty chứng khoán cung cấp, nên đề nêu dưới dạng giả sử.
+  B: Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Lệnh dừng (stop order) và bán khống; khoản 3 Điều 3, khoản 3 Điều 7, Điều 11 Thông tư 120/2020/TT-BTC (VBHN 08/VBHN-BTC năm 2026)
+[C12-003] (Thị trường chứng khoán thứ cấp) Giả sử công ty chứng khoán nhận lệnh dừng (stop order). Nhà đầu tư đang nắm giữ cổ phiếu Y mua giá 40.000 đồng, giá thị trường hiện là 48.000 đồng. Nhà đầu tư chưa muốn bán ngay nhưng muốn tự động bán để giữ phần lớn khoản lãi nếu giá đảo chiều giảm. Cách đặt lệnh phù hợp là:
+  A: Lệnh dừng để bán, giá dừng 45.000 đồng, thấp hơn giá thị trường
+  E: Lệnh dừng để bán được đặt dưới giá thị trường hiện hành; khi giá giảm chạm giá dừng 45.000 đồng, lệnh được kích hoạt thành lệnh bán, giữ lại khoảng 45.000 − 40.000 = 5.000 đồng lãi mỗi cổ phiếu (chưa tính trượt giá). Giá dừng bán cao hơn giá thị trường sẽ bị kích hoạt ngay (bán luôn) hoặc bị từ chối, không chờ giá giảm; lệnh giới hạn bán giá 45.000 đồng khớp ngay với lệnh mua tốt nhất quanh 48.000 đồng; lệnh dừng để mua dùng để bảo vệ vị thế bán khống, được đặt cao hơn giá thị trường.
+  B: Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Lệnh dừng (stop order): lệnh dừng để bán đặt thấp hơn, lệnh dừng để mua đặt cao hơn giá thị trường
+[C12-007] (Thị trường chứng khoán thứ cấp) Giả sử trong phiên khớp lệnh liên tục: lệnh được so khớp ngay khi nhập theo ưu tiên giá rồi thời gian, giá thực hiện là giá của lệnh đối ứng đang chờ trên sổ lệnh; lệnh MP khớp lần lượt với các mức giá tốt nhất của phía đối ứng. Cổ phiếu G có giá tham chiếu 45.000 đồng, biên độ ±7%, bước giá 50 đồng; sổ lệnh ban đầu trống, ngoài các lệnh dưới đây không có lệnh nào khác và không lệnh nào bị sửa, hủy; các lệnh được nhập lần lượt: (1) P mua LO 2.000 cổ phiếu giá 44.800 đồng; (2) Q bán LO 1.500 cổ phiếu giá 45.300 đồng; (3) R mua LO 1.000 cổ phiếu giá 45.000 đồng; (4) S mua MP 500 cổ phiếu; (5) T bán MP 2.500 cổ phiếu; (6) U mua LO 1.200 cổ phiếu giá 45.500 đồng. Kết quả của U là:
+  A: Khớp 1.000 cổ phiếu giá 45.300 đồng; 200 cổ phiếu chờ mua giá 45.500 đồng
+  E: Giá trần/sàn 48.150/41.850 đồng, mọi giá đặt đều hợp lệ (bội số 50 đồng, trong biên độ). Xử lý theo thứ tự nhập: (1) P chờ mua 44.800. (2) Q chờ bán 45.300 vì giá mua tốt nhất chỉ 44.800. (3) R chờ mua 45.000. (4) S mua MP khớp 500 cổ phiếu với Q tại 45.300, Q còn 1.000. (5) T bán MP khớp 1.000 với R tại 45.000 rồi 1.500 với P tại 44.800, P còn 500 chờ mua. (6) U mua 45.500 ≥ giá bán tốt nhất 45.300 nên khớp 1.000 cổ phiếu còn lại của Q tại giá lệnh chờ 45.300; 200 cổ phiếu còn lại chờ mua tại 45.500. Bỏ qua lệnh của S cho kết quả 1.200 cổ phiếu; lấy giá đặt của U (45.500) là sai vì giá khớp là giá của lệnh đối ứng đã chờ trên sổ.
+  B: Giáo trình Những vấn đề cơ bản về chứng khoán và TTCK (UBCKNN/SRTC) – Khớp lệnh liên tục: ưu tiên giá, thời gian; giá thực hiện là giá lệnh đối ứng đang chờ; lệnh thị trường (quy tắc giao dịch là giả định nêu trong đề)
+[C6-025] (Thị trường chứng khoán thứ cấp) Theo Luật Chứng khoán, chứng khoán niêm yết, đăng ký giao dịch được tổ chức giao dịch theo các phương thức nào?
+  A: Khớp lệnh tập trung, giao dịch thỏa thuận và phương thức khác theo Quy chế giao dịch của Sở giao dịch
+  E: Khoản 1 Điều 50 Luật Chứng khoán: chứng khoán niêm yết, đăng ký giao dịch được giao dịch theo phương thức khớp lệnh tập trung, phương thức giao dịch thỏa thuận và phương thức khác quy định tại Quy chế giao dịch chứng khoán của Sở giao dịch chứng khoán Việt Nam (lệnh vẫn qua thành viên giao dịch).
+  B: Khoản 1 Điều 50 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-026] (Thị trường chứng khoán thứ cấp) Theo Luật Chứng khoán, việc đưa chứng khoán vào giao dịch trên hệ thống giao dịch cho chứng khoán chưa niêm yết được gọi là:
+  A: Đăng ký giao dịch
+  E: Khoản 25 Điều 4: đăng ký giao dịch là việc đưa chứng khoán vào giao dịch trên hệ thống giao dịch cho chứng khoán chưa niêm yết (hệ thống Upcom). Niêm yết là đưa chứng khoán đủ điều kiện vào hệ thống giao dịch cho chứng khoán niêm yết; đăng ký chứng khoán là ghi nhận thông tin về tổ chức phát hành, chứng khoán và người sở hữu tại VSDC.
+  B: Khoản 24, 25, 33 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-027] (Thị trường chứng khoán thứ cấp) Cổ phiếu của công ty T bị hủy bỏ niêm yết bắt buộc trên Sở giao dịch chứng khoán, nhưng T vẫn là công ty đại chúng. Theo Nghị định 155/2020/NĐ-CP (sửa đổi bởi Nghị định 245/2025/NĐ-CP), cổ phiếu T được xử lý như thế nào?
+  A: SGDCK phối hợp với VSDC đăng ký giao dịch cổ phiếu T trên Upcom trong 07 ngày làm việc kể từ ngày hủy niêm yết có hiệu lực
+  E: Điểm b khoản 1 Điều 133 (sửa đổi bởi Nghị định 245/2025/NĐ-CP): công ty bị hủy bỏ niêm yết bắt buộc hoặc tự nguyện nhưng vẫn là công ty đại chúng thuộc đối tượng đăng ký giao dịch. Điểm b khoản 2 Điều 133: trong 07 ngày làm việc kể từ ngày hủy niêm yết có hiệu lực, SGDCK phối hợp VSDC đăng ký giao dịch cổ phiếu này trên Upcom.
+  B: Điểm b khoản 1 (sửa đổi bởi khoản 52 Điều 1 Nghị định 245/2025/NĐ-CP) và điểm b khoản 2 Điều 133 Nghị định 155/2020/NĐ-CP
+[C6-028] (Thị trường chứng khoán thứ cấp) Công ty cổ phần V chưa từng chào bán cổ phiếu ra công chúng (không phải doanh nghiệp cổ phần hóa); cổ phiếu V đã giao dịch trên hệ thống Upcom được 15 tháng và V đáp ứng các điều kiện tài chính để niêm yết. Theo Nghị định 155/2020/NĐ-CP, V đã đủ điều kiện về thời gian giao dịch trên Upcom để đăng ký niêm yết cổ phiếu chưa?
+  A: Chưa, vì phải giao dịch trên Upcom tối thiểu 02 năm
+  E: Điểm b khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP: tổ chức đăng ký niêm yết phải đã giao dịch trên hệ thống Upcom tối thiểu 02 năm, trừ trường hợp đã chào bán cổ phiếu ra công chúng hoặc là doanh nghiệp cổ phần hóa. V chưa thuộc trường hợp loại trừ và mới giao dịch 15 tháng nên chưa đủ.
+  B: Điểm b khoản 1 Điều 109 Nghị định 155/2020/NĐ-CP (điểm này không bị Nghị định 245/2025/NĐ-CP sửa đổi)
+[C6-029] (Thị trường chứng khoán thứ cấp) Theo Nghị định 155/2020/NĐ-CP (Điều 111a bổ sung bởi Nghị định 245/2025/NĐ-CP), khi công ty cổ phần đăng ký niêm yết cổ phiếu đồng thời với chào bán cổ phiếu lần đầu ra công chúng, Sở giao dịch chứng khoán ra quyết định chấp thuận niêm yết sau đợt chào bán khi tổ chức đăng ký niêm yết đáp ứng nhóm điều kiện nào?
+  A: Giá trị vốn hóa, cơ cấu cổ đông không phải cổ đông lớn và cam kết nắm giữ cổ phiếu
+  E: Theo Điều 111a: trong 30 ngày kể từ khi nhận hồ sơ hợp lệ, SGDCK thông báo việc đáp ứng điều kiện vốn điều lệ từ 30 tỷ đồng và các điểm c, e, g khoản 1 Điều 109 (ROE, lãi, không vi phạm, có CTCK tư vấn). Sau khi có kết quả chào bán và tài liệu bổ sung, SGDCK chấp thuận niêm yết nếu đáp ứng giá trị vốn hóa (điểm a), cơ cấu cổ đông không phải cổ đông lớn (điểm d) và cam kết nắm giữ (điểm đ) – những điều kiện chỉ xác định được sau đợt IPO.
+  B: Khoản 2, khoản 5 Điều 111a Nghị định 155/2020/NĐ-CP (bổ sung bởi khoản 38 Điều 1 Nghị định 245/2025/NĐ-CP)
+[C6-030] (Thị trường chứng khoán thứ cấp) Một chỉ số giá cổ phiếu tính theo phương pháp giá trị vốn hóa điều chỉnh theo tỷ lệ cổ phiếu tự do chuyển nhượng (free-float), giá trị ngày gốc là 100 điểm. Rổ chỉ số gồm 3 cổ phiếu (số cổ phiếu lưu hành và tỷ lệ free-float không đổi từ ngày gốc): A – 200 triệu cổ phiếu, free-float 30%, giá ngày gốc 50.000 đồng, giá hiện tại 54.000 đồng; B – 80 triệu cổ phiếu, free-float 50%, giá ngày gốc 40.000 đồng, giá hiện tại 36.800 đồng; C – 40 triệu cổ phiếu, free-float 90%, giá ngày gốc 25.000 đồng, giá hiện tại 29.000 đồng. Giá trị hiện tại của chỉ số là:
+  A: 104,65 điểm
+  E: Vốn hóa free-float ngày gốc = 60tr × 50.000 + 40tr × 40.000 + 36tr × 25.000 = 5.500 tỷ; hiện tại = 60tr × 54.000 + 40tr × 36.800 + 36tr × 29.000 = 5.756 tỷ. Chỉ số = 100 × 5.756 / 5.500 ≈ 104,65 điểm. 104,96 là dùng toàn bộ vốn hóa (bỏ qua free-float); 105,33 là bình quân giản đơn mức tăng giá; 104,17 là chỉ số bình quân giá.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Chỉ số giá chứng khoán: phương pháp tính theo giá trị vốn hóa (có điều chỉnh free-float)
+[C6-031] (Thị trường chứng khoán thứ cấp) Cuối ngày T, một chỉ số tính theo giá trị vốn hóa đạt 1.200 điểm, tổng giá trị vốn hóa của rổ là 2.400.000 tỷ đồng. Đầu ngày T+1, một cổ phiếu mới có giá trị vốn hóa 120.000 tỷ đồng được đưa vào rổ; hệ số chia được điều chỉnh để việc thêm cổ phiếu không làm thay đổi giá trị chỉ số. Cuối ngày T+1, tổng giá trị vốn hóa của rổ (gồm cả cổ phiếu mới, khi đó có vốn hóa 126.000 tỷ đồng) là 2.583.000 tỷ đồng. Giá trị chỉ số cuối ngày T+1 là:
+  A: 1.230,00 điểm
+  E: Hệ số chia cũ = 2.400.000 / 1.200 = 2.000. Hệ số chia mới = 2.000 × (2.400.000 + 120.000) / 2.400.000 = 2.100. Chỉ số cuối T+1 = 2.583.000 / 2.100 = 1.230,00 điểm. 1.291,50 là không điều chỉnh hệ số chia; 1.228,50 là loại cổ phiếu mới và giữ hệ số chia cũ; 1.170,00 là loại cổ phiếu mới nhưng dùng hệ số chia mới.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Chỉ số giá chứng khoán: điều chỉnh hệ số chia khi thay đổi cổ phiếu trong rổ
+[C6-032] (Thị trường chứng khoán thứ cấp) Một chỉ số bình quân giá (price-weighted) gồm 3 cổ phiếu X, Y, Z có giá lần lượt 30.000; 45.000 và 75.000 đồng; hệ số chia là 3, chỉ số được tính bằng tổng giá (đơn vị nghìn đồng) chia hệ số chia, hiện bằng 50,00 điểm. Z tách mỗi cổ phiếu thành 3 cổ phiếu; hệ số chia được điều chỉnh để việc tách không làm thay đổi chỉ số. Phiên tiếp theo, giá X, Y, Z lần lượt là 33.000; 47.000 và 23.000 đồng. Giá trị chỉ số là:
+  A: 51,50 điểm
+  E: Sau tách, giá Z = 25 nghìn đồng; hệ số chia mới = (30 + 45 + 25) / 50 = 2. Chỉ số phiên sau = (33 + 47 + 23) / 2 = 51,50 điểm. 34,33 là không điều chỉnh hệ số chia; 49,67 là quy giá Z về trước khi tách và giữ hệ số chia cũ (sai vì phương pháp bình quân giá điều chỉnh hệ số chia, làm giảm tỷ trọng của Z); 51,07 là bình quân giản đơn tỷ lệ thay đổi giá.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Chỉ số giá chứng khoán: phương pháp bình quân giá giản đơn và điều chỉnh hệ số chia khi tách cổ phiếu
+[C8-014] (Thị trường chứng khoán thứ cấp) Giả định quy chế: giá tham chiếu của cổ phiếu đăng ký giao dịch trên UPCoM là bình quân gia quyền của các giá giao dịch thực hiện theo phương thức khớp lệnh liên tục của ngày giao dịch liền trước (không tính giao dịch thỏa thuận; kết quả đã là bội số bước giá). Ngày T, cổ phiếu U có các giao dịch theo thứ tự thời gian: khớp lệnh 4.000 cp giá 24.600 đ; khớp lệnh 1.000 cp giá 25.100 đ; thỏa thuận 20.000 cp giá 26.000 đ; khớp lệnh 5.000 cp giá 24.300 đ. Giá tham chiếu của U ngày T+1 là:
+  A: 24.500 đồng
+  E: Chỉ tính các giao dịch khớp lệnh liên tục: (4.000 × 24.600 + 1.000 × 25.100 + 5.000 × 24.300) / 10.000 = 245.000.000 / 10.000 = 24.500 đồng. Lấy giá khớp cuối cùng ra 24.300 đồng (cách xác định của HOSE/HNX là giá đóng cửa); gộp cả giao dịch thỏa thuận ra 25.500 đồng; lấy bình quân giản đơn ba mức giá ra xấp xỉ 24.700 đồng.
+  B: Giả định quy chế nêu trong đề (cách xác định giá tham chiếu cổ phiếu UPCoM theo quy chế giao dịch của SGDCK; quy chế có thể thay đổi khi vận hành hệ thống giao dịch mới)
+[C1-001] (Tổng quan về thị trường chứng ) Căn cứ vào quá trình luân chuyển vốn, thị trường chứng khoán được chia thành:
+  A: Thị trường sơ cấp và thị trường thứ cấp
+  E: Theo luân chuyển vốn: thị trường sơ cấp là nơi phát hành, vốn chảy về tổ chức phát hành; thị trường thứ cấp là nơi mua bán lại chứng khoán đã phát hành, vốn chuyển giữa các nhà đầu tư. Các cách chia khác dựa vào loại hàng hóa, hình thức tổ chức hoặc thời điểm chuyển giao.
+  B: Phân loại thị trường chứng khoán theo quá trình luân chuyển vốn
+[C1-002] (Tổng quan về thị trường chứng ) Chức năng nào sau đây KHÔNG phải là chức năng của thị trường chứng khoán?
+  A: Ấn định lãi suất điều hành cho hệ thống ngân hàng
+  E: TTCK có các chức năng huy động vốn, cung cấp môi trường đầu tư cho công chúng, tạo tính thanh khoản, đánh giá giá trị doanh nghiệp và hỗ trợ thực thi chính sách kinh tế vĩ mô. Ấn định lãi suất điều hành là chức năng của Ngân hàng Nhà nước.
+  B: Chức năng của thị trường chứng khoán
+[C1-003] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán, nội dung nào sau đây là một nguyên tắc hoạt động về chứng khoán và thị trường chứng khoán?
+  A: Công bằng, công khai, minh bạch
+  E: Điều 5 Luật Chứng khoán quy định 4 nguyên tắc: tôn trọng quyền sở hữu và quyền tự do giao dịch, đầu tư, kinh doanh; công bằng, công khai, minh bạch; bảo vệ quyền và lợi ích hợp pháp của nhà đầu tư; tự chịu trách nhiệm về rủi ro.
+  B: Điều 5 Luật Chứng khoán 2019
+[C1-004] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán (đã sửa đổi, bổ sung), cá nhân nào sau đây được xác định là nhà đầu tư chứng khoán chuyên nghiệp?
+  A: Cá nhân có chứng chỉ hành nghề chứng khoán
+  E: Khoản 1 Điều 11: cá nhân là NĐT chứng khoán chuyên nghiệp gồm người có chứng chỉ hành nghề chứng khoán; người nắm giữ danh mục chứng khoán niêm yết, đăng ký giao dịch tối thiểu 02 tỷ đồng; người có thu nhập chịu thuế năm gần nhất tối thiểu 01 tỷ đồng; cá nhân nước ngoài theo điểm e (bổ sung bởi Luật 56/2024). Bằng cấp chuyên ngành không phải là tiêu chí.
+  B: Khoản 1 Điều 11 Luật Chứng khoán 2019 (sửa đổi, bổ sung bởi Luật 56/2024/QH15)
+[C6-001] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán, “thị trường giao dịch chứng khoán” được hiểu là:
+  A: Địa điểm hoặc hình thức trao đổi thông tin để tập hợp lệnh mua, bán và giao dịch chứng khoán
+  E: Khoản 27 Điều 4 Luật Chứng khoán: thị trường giao dịch chứng khoán là địa điểm hoặc hình thức trao đổi thông tin để tập hợp lệnh mua, bán và giao dịch chứng khoán. Hệ thống giao dịch do Sở giao dịch chứng khoán Việt Nam và công ty con vận hành (không phải UBCKNN); nơi chào bán lần đầu là thị trường sơ cấp.
+  B: Khoản 27 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-002] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán, tổ chức nào được phép tổ chức và vận hành thị trường giao dịch chứng khoán tại Việt Nam?
+  A: Chỉ Sở giao dịch chứng khoán Việt Nam và công ty con
+  E: Khoản 2 Điều 42: ngoài Sở giao dịch chứng khoán Việt Nam và công ty con, không tổ chức, cá nhân nào được tổ chức và vận hành thị trường giao dịch chứng khoán. UBCKNN quản lý, giám sát; VSDC đăng ký, lưu ký, bù trừ, thanh toán; công ty chứng khoán chỉ là thành viên giao dịch.
+  B: Khoản 2 Điều 42 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-003] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán, chính sách khuyến khích tổ chức, cá nhân trong nước, nước ngoài tham gia đầu tư và hoạt động trên thị trường chứng khoán nhằm mục tiêu nào?
+  A: Huy động các nguồn vốn trung hạn và dài hạn cho đầu tư phát triển
+  E: Khoản 1 Điều 6 Luật Chứng khoán: Nhà nước khuyến khích, tạo điều kiện để tổ chức, cá nhân trong nước, nước ngoài tham gia thị trường chứng khoán nhằm huy động các nguồn vốn trung hạn và dài hạn cho đầu tư phát triển. Vốn ngắn hạn và điều hành tỷ giá, lạm phát thuộc thị trường tiền tệ và chính sách tiền tệ.
+  B: Khoản 1 Điều 6 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-004] (Tổng quan về thị trường chứng ) Theo Luật Chứng khoán, hoạt động về chứng khoán và thị trường chứng khoán bao gồm các hoạt động sau, NGOẠI TRỪ:
+  A: Nhận tiền gửi tiết kiệm và cấp tín dụng tiêu dùng cho cá nhân
+  E: Khoản 14 Điều 4 Luật Chứng khoán liệt kê: chào bán, niêm yết, giao dịch, kinh doanh, đầu tư chứng khoán, cung cấp dịch vụ về chứng khoán, công bố thông tin, quản trị công ty đại chúng và hoạt động khác theo Luật. Nhận tiền gửi, cấp tín dụng là hoạt động ngân hàng.
+  B: Khoản 14 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH năm 2025)
+[C6-005] (Tổng quan về thị trường chứng ) Theo cách phân chia thị trường tài chính dựa vào thời hạn luân chuyển vốn, công cụ nào sau đây thuộc thị trường tiền tệ?
+  A: Tín phiếu Kho bạc kỳ hạn 91 ngày
+  E: Thị trường tiền tệ giao dịch công cụ nợ ngắn hạn (thường dưới 1 năm) như tín phiếu kho bạc, thương phiếu, chứng chỉ tiền gửi ngắn hạn. Thị trường vốn, trong đó có thị trường chứng khoán, giao dịch công cụ trung và dài hạn: cổ phiếu, trái phiếu trung, dài hạn, chứng chỉ quỹ.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Vị trí của thị trường chứng khoán trong thị trường tài chính (thị trường tiền tệ và thị trường vốn)
+[C6-006] (Tổng quan về thị trường chứng ) Giáo trình chia các chủ thể tham gia thị trường chứng khoán thành: tổ chức phát hành, nhà đầu tư, tổ chức kinh doanh chứng khoán và các tổ chức có liên quan đến thị trường chứng khoán. Chủ thể nào sau đây thuộc nhóm các tổ chức có liên quan đến thị trường chứng khoán?
+  A: Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam
+  E: Tổ chức có liên quan gồm cơ quan quản lý nhà nước (UBCKNN), Sở giao dịch chứng khoán, tổ chức lưu ký và bù trừ, thanh toán (VSDC), hiệp hội nghề nghiệp, tổ chức xếp hạng tín nhiệm… Công ty chứng khoán, công ty quản lý quỹ là tổ chức kinh doanh chứng khoán; doanh nghiệp phát hành trái phiếu là tổ chức phát hành. Lưu ý: đây là cách phân nhóm chủ thể của giáo trình, không phải khái niệm “người có liên quan” tại khoản 46 Điều 4 Luật Chứng khoán (quan hệ sở hữu, kiểm soát, gia đình… giữa các tổ chức, cá nhân).
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Các chủ thể tham gia thị trường chứng khoán
+[C6-007] (Tổng quan về thị trường chứng ) Tại Sở giao dịch chứng khoán, nhà đầu tư không trực tiếp mua bán với nhau mà phải đặt lệnh thông qua công ty chứng khoán thành viên. Đặc điểm này thể hiện nguyên tắc hoạt động nào của thị trường chứng khoán?
+  A: Nguyên tắc trung gian
+  E: Giáo trình nêu các nguyên tắc hoạt động cơ bản của thị trường chứng khoán: công khai, trung gian, đấu giá. Nguyên tắc trung gian: giao dịch được thực hiện qua các trung gian là công ty chứng khoán thành viên. Nguyên tắc đấu giá nói về cách hình thành giá qua cạnh tranh giữa các lệnh; nguyên tắc công khai nói về thông tin.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Nguyên tắc hoạt động của thị trường chứng khoán (công khai, trung gian, đấu giá)
+[C6-008] (Tổng quan về thị trường chứng ) Giao dịch nào sau đây làm tăng nguồn vốn của chính công ty cổ phần X (tổ chức phát hành)?
+  A: X phát hành thêm cổ phiếu cho cổ đông hiện hữu thực hiện quyền mua
+  E: Chỉ giao dịch trên thị trường sơ cấp (X phát hành chứng khoán mới) mới đem lại vốn cho X. Ba giao dịch còn lại diễn ra trên thị trường thứ cấp giữa các nhà đầu tư: tiền chuyển từ người mua sang người bán, không chảy vào X.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Phân loại thị trường theo quá trình luân chuyển vốn: thị trường sơ cấp và thứ cấp
+[C8-015] (Tổng quan về thị trường chứng ) Theo giáo trình, trường hợp nào sau đây là luân chuyển vốn qua kênh tài chính GIÁN TIẾP?
+  A: Hộ gia đình gửi tiết kiệm ngân hàng, ngân hàng dùng tiền đó cho doanh nghiệp vay
+  E: Kênh tài chính gián tiếp: vốn đi từ người thừa vốn đến người thiếu vốn qua trung gian tài chính (ngân hàng huy động tiền gửi rồi cho vay, người gửi tiền không có quyền đòi trực tiếp đối với doanh nghiệp vay). Kênh trực tiếp: người thiếu vốn phát hành chứng khoán (cổ phiếu, trái phiếu, thương phiếu) bán thẳng cho người có vốn; thị trường chứng khoán, kể cả Sở giao dịch chứng khoán và thị trường sơ cấp, thuộc kênh tài chính trực tiếp.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Thị trường tài chính: kênh dẫn vốn trực tiếp và gián tiếp
+[C8-017] (Tổng quan về thị trường chứng ) Trình tự nào sau đây phản ánh đúng quá trình chuẩn bị và hình thành thị trường chứng khoán tập trung ở Việt Nam?
+  A: Thành lập UBCKNN (1996) → ban hành nghị định về chứng khoán (1998) → TTGDCK TP.HCM vận hành (2000)
+  E: Việt Nam xây dựng khung pháp lý và cơ quan quản lý trước khi mở thị trường: UBCKNN thành lập theo Nghị định 75/CP ngày 28/11/1996; Nghị định 48/1998/NĐ-CP về chứng khoán và thị trường chứng khoán và quyết định thành lập hai Trung tâm giao dịch chứng khoán năm 1998; Trung tâm GDCK TP.HCM khai trương tháng 7/2000 (phiên giao dịch đầu tiên 28/7/2000); Trung tâm GDCK Hà Nội khai trương năm 2005; Luật Chứng khoán đầu tiên ban hành năm 2006 (hiệu lực 01/01/2007).
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – Lịch sử hình thành thị trường chứng khoán Việt Nam
+[C1-037] (Đạo đức nghề nghiệp trong hoạt) Nguyên tắc nào sau đây thuộc chuẩn mực đạo đức nghề nghiệp của người hành nghề chứng khoán?
+  A: Trung thực, công bằng, đặt lợi ích hợp pháp của khách hàng lên trên lợi ích bản thân
+  E: Chuẩn mực đạo đức đòi hỏi trung thực, công bằng, cẩn trọng, bảo mật và ưu tiên lợi ích khách hàng. Giao dịch trước lệnh khách hàng, cam kết lợi nhuận (khoản 1 Điều 91 Luật CK) và tiết lộ lệnh của khách hàng đều bị cấm.
+  B: Chuẩn mực đạo đức nghề nghiệp; khoản 1, 2 Điều 91 Luật Chứng khoán 2019
+[C1-038] (Đạo đức nghề nghiệp trong hoạt) Nhân viên môi giới biết một khách hàng tổ chức sắp đặt lệnh mua khối lượng lớn cổ phiếu Y, có thể làm giá Y tăng mạnh, nên đã mua trước Y cho tài khoản của mình. Hành vi này là:
+  A: Giao dịch đón đầu (front running), vi phạm đạo đức nghề nghiệp
+  E: Lợi dụng thông tin về lệnh của khách hàng để giao dịch trước cho mình là front running, xâm phạm lợi ích khách hàng. TT 121/2020 cấm CTCK mua, bán trước cùng loại chứng khoán khi lệnh của khách hàng có thể ảnh hưởng lớn tới giá và cấm tiết lộ nội dung đặt lệnh của khách hàng.
+  B: Khoản 6 Điều 22, điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC; chuẩn mực đạo đức nghề nghiệp
+[C1-039] (Đạo đức nghề nghiệp trong hoạt) Một nhà đầu tư lớn tặng nhân viên môi giới chuyến du lịch có giá trị cao, kèm đề nghị được ưu tiên phân bổ nhiều cổ phiếu trong đợt chào bán ra công chúng mà công ty chứng khoán làm đại lý phân phối và đang có lượng đăng ký mua vượt số lượng chào bán. Cách xử lý phù hợp là:
+  A: Từ chối quà, báo cáo bộ phận kiểm soát tuân thủ và phân phối theo tỷ lệ đăng ký mua
+  E: Nhận quà để đổi lấy ưu đãi tạo xung đột lợi ích, trái chuẩn mực đạo đức. Khoản 2 Điều 26 Luật CK yêu cầu phân phối công bằng, công khai; khi đăng ký mua vượt số lượng được phép phát hành phải phân phối tương ứng tỷ lệ đăng ký mua của từng nhà đầu tư.
+  B: Khoản 2 Điều 26 Luật Chứng khoán 2019; chuẩn mực đạo đức về quà tặng và xung đột lợi ích
+[C1-040] (Đạo đức nghề nghiệp trong hoạt) Một người quen đề nghị nhân viên môi giới cho biết danh mục và số dư tài khoản của một khách hàng nổi tiếng. Theo quy định và chuẩn mực đạo đức, thông tin này chỉ được cung cấp khi:
+  A: Được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền
+  E: Khoản 2 Điều 91: công ty chứng khoán không được tiết lộ thông tin về khách hàng, trừ trường hợp được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền; nghĩa vụ bảo mật là chuẩn mực đạo đức cơ bản của người hành nghề.
+  B: Khoản 2 Điều 91 Luật Chứng khoán 2019
+[C7-017] (Đạo đức nghề nghiệp trong hoạt) Theo Thông tư 121/2020/TT-BTC, thông tin mà công ty chứng khoán nhận được từ khách hàng trong quá trình cung ứng dịch vụ tư vấn đầu tư được cung cấp cho bên thứ ba trong trường hợp nào?
+  A: Khi được khách hàng đồng ý hoặc pháp luật có quy định khác
+  E: Khoản 5 Điều 24 TT 121/2020: công ty chứng khoán phải bảo mật các thông tin nhận được từ người sử dụng dịch vụ tư vấn trong quá trình cung ứng dịch vụ, trừ trường hợp được khách hàng đồng ý hoặc pháp luật có quy định khác (chẳng hạn yêu cầu của cơ quan có thẩm quyền). Thỏa thuận bảo mật với đối tác, mục đích làm báo cáo phân tích hay việc hợp đồng đã chấm dứt đều không phải ngoại lệ; bảo mật thông tin khách hàng cũng là chuẩn mực đạo đức nghề nghiệp cơ bản.
+  B: Khoản 5 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C7-018] (Đạo đức nghề nghiệp trong hoạt) Bộ phận phân tích của công ty chứng khoán vừa hạ khuyến nghị đối với cổ phiếu Y từ “Mua” xuống “Bán”. Theo chuẩn mực đối xử công bằng với khách hàng, nhân viên môi giới nên làm gì?
+  A: Chờ công ty công bố chính thức, rồi chuyển khuyến nghị đồng thời cho mọi khách hàng phù hợp
+  E: Chuẩn mực đối xử công bằng yêu cầu khi phổ biến khuyến nghị hoặc thay đổi khuyến nghị, người hành nghề phải chuyển thông tin cùng lúc tới mọi khách hàng phù hợp, không ưu tiên nhóm khách hàng lớn hay quen biết. Giao dịch cho tài khoản cá nhân trước khách hàng là đặt lợi ích bản thân lên trên lợi ích khách hàng (giao dịch trước khách hàng).
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – chuẩn mực đạo đức nghề nghiệp: đối xử công bằng với khách hàng
+[C7-019] (Đạo đức nghề nghiệp trong hoạt) Tại hội thảo thu hút khách hàng, nhân viên của công ty chứng khoán K tuyên bố: “Phương pháp phân tích của K chính xác và hiệu quả hơn hẳn mọi công ty chứng khoán khác”. Theo Thông tư 121/2020/TT-BTC, tuyên bố này:
+  A: Bị cấm, vì không được tuyên bố phương pháp phân tích của mình có giá trị cao hơn công ty khác
+  E: Điểm c khoản 6 Điều 4 TT 121/2020: khi cung cấp dịch vụ cho khách hàng, công ty chứng khoán không được trực tiếp hoặc gián tiếp quảng cáo, tuyên bố rằng nội dung, hiệu quả hoặc phương pháp phân tích của mình có giá trị cao hơn của công ty chứng khoán khác. Quy định không phân biệt hình thức, địa điểm tuyên bố hay việc công ty tự có số liệu so sánh.
+  B: Điểm c khoản 6 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C7-020] (Đạo đức nghề nghiệp trong hoạt) Chuyên viên phân tích A sao chép gần như nguyên văn số liệu và lập luận từ báo cáo của một công ty chứng khoán khác vào báo cáo phát hành dưới tên mình, không ghi nguồn. Theo Thông tư 121/2020/TT-BTC và chuẩn mực đạo đức nghề nghiệp, nhận định nào đúng?
+  A: Vi phạm, vì báo cáo phải ghi rõ nguồn trích dẫn số liệu và người chịu trách nhiệm nội dung
+  E: Khoản 3 Điều 24 TT 121/2020: báo cáo phân tích, khuyến nghị đầu tư phải ghi rõ nguồn trích dẫn số liệu và tên người chịu trách nhiệm về nội dung. Về đạo đức, sử dụng sản phẩm trí tuệ của người khác như của mình là thiếu trung thực, gây hiểu nhầm cho khách hàng về nguồn gốc phân tích, bất kể báo cáo có thu phí hay không.
+  B: Khoản 3 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026); Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – chuẩn mực trung thực
+[C7-021] (Đạo đức nghề nghiệp trong hoạt) Khách hàng Q đã nhiều năm đầu tư cổ phiếu, khẩu vị rủi ro cao, lần đầu muốn mua chứng quyền có bảo đảm. Nhân viên tư vấn chỉ giới thiệu mức lãi có thể đạt được nhờ đòn bẩy, không đề cập việc chứng quyền có thể mất toàn bộ giá trị khi đáo hạn; Q tự đặt lệnh mua. Theo Thông tư 121/2020/TT-BTC, nhận định nào đúng?
+  A: Vi phạm, vì khách hàng phải được cung cấp đầy đủ cả nội dung và rủi ro của sản phẩm
+  E: Khoản 4 Điều 24 TT 121/2020: công ty chứng khoán tư vấn đầu tư phải bảo đảm khách hàng đưa ra quyết định đầu tư trên cơ sở được cung cấp thông tin đầy đủ, bao gồm cả nội dung và rủi ro của sản phẩm, dịch vụ. Sản phẩm phù hợp với khẩu vị rủi ro (khoản 6) không miễn nghĩa vụ nêu rủi ro (chứng quyền có thể đáo hạn với giá trị bằng 0); việc khách hàng tự đặt lệnh hay kết quả lãi, lỗ sau đó không làm thay đổi việc tư vấn đã thiếu thông tin rủi ro.
+  B: Khoản 4 Điều 24 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC năm 2026)
+[C7-022] (Đạo đức nghề nghiệp trong hoạt) Chuyên viên phân tích C đang hoàn thiện báo cáo khuyến nghị “Bán” cổ phiếu Z. Bộ phận tư vấn tài chính doanh nghiệp của công ty, đang đàm phán hợp đồng tư vấn phát hành với Z, đề nghị C nâng khuyến nghị lên “Mua”. Cách xử lý phù hợp với chuẩn mực độc lập, khách quan là:
+  A: Giữ khuyến nghị theo kết quả phân tích, báo cáo việc bị gây áp lực cho bộ phận tuân thủ
+  E: Chuẩn mực độc lập, khách quan yêu cầu khuyến nghị phải phản ánh đúng kết quả phân tích, không bị chi phối bởi lợi ích của bộ phận tư vấn tài chính doanh nghiệp, bảo lãnh phát hành hay của tổ chức phát hành. Áp lực từ bộ phận khác là xung đột lợi ích cần được báo cáo cho bộ phận kiểm soát tuân thủ; trì hoãn báo cáo vì hợp đồng hoặc để tổ chức phát hành quyết định khuyến nghị đều làm mất tính khách quan.
+  B: Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – chuẩn mực độc lập, khách quan trong phân tích và tư vấn đầu tư
+[C7-023] (Đạo đức nghề nghiệp trong hoạt) Anh T có chứng chỉ hành nghề môi giới chứng khoán, đang làm việc tại công ty chứng khoán A. Ngoài giờ, anh nhận tư vấn đầu tư chứng khoán cho một số nhà đầu tư theo hợp đồng do anh tự ký với tư cách cá nhân, thu phí trực tiếp vào tài khoản của mình, không thông qua A. Theo Luật Chứng khoán, nhận định nào đúng?
+  A: Vi phạm, vì người hành nghề chỉ được hành nghề với tư cách đại diện cho công ty nơi mình làm việc
+  E: Khoản 1 Điều 98: người được cấp chứng chỉ hành nghề chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán; điểm c khoản 2 cấm vượt quá phạm vi ủy quyền của công ty. Theo điểm a, d khoản 2 Điều 216 NĐ 155/2020, chứng chỉ môi giới cho phép môi giới và tư vấn đầu tư nhưng chỉ có giá trị khi người được cấp làm việc tại công ty và hành nghề nhân danh công ty; việc nộp thuế không thay đổi bản chất vi phạm.
+  B: Khoản 1, điểm c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); điểm a, d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP
+[C7-024] (Đạo đức nghề nghiệp trong hoạt) Chuyên viên phân tích D tổng hợp báo cáo tài chính đã công bố của công ty niêm yết Q, số liệu xuất khẩu ngành do cơ quan thống kê công bố và quan sát trực tiếp lượng xe tải ra vào nhà máy của Q từ đường công cộng; D không tiếp xúc người nội bộ và không nhận thông tin chưa công bố nào của Q. Từ đó D kết luận doanh thu quý tới của Q sẽ giảm mạnh và đưa ra khuyến nghị bán. Theo Luật Chứng khoán và chuẩn mực đạo đức nghề nghiệp, nhận định nào sau đây đúng?
+  A: Được phép, vì kết luận rút ra từ phân tích tổng hợp thông tin công khai và quan sát hợp pháp
+  E: Khoản 44 Điều 4: thông tin nội bộ là thông tin liên quan đến tổ chức chưa được công bố mà nếu công bố có thể ảnh hưởng lớn đến giá. D không nhận thông tin chưa công bố nào từ Q hay người nội bộ; kết luận là sản phẩm phân tích của D dựa trên các mảnh thông tin công khai và quan sát hợp pháp, nên được sử dụng để khuyến nghị (cách tiếp cận “ghép mảnh thông tin” trong giáo trình đạo đức nghề nghiệp). Không có quy định buộc xin ý kiến tổ chức phát hành hay chờ báo cáo tài chính.
+  B: Khoản 44 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – sử dụng thông tin trong phân tích, phân biệt với thông tin nội bộ

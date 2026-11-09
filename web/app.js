@@ -842,18 +842,23 @@ async function report(id) {
 }
 
 // ---------- THẺ GHI NHỚ ----------
-let cardF = { topic: '', onlyNew: false, i: 0, flip: false, order: null };
+let cardF = { subject: '', topic: '', onlyNew: false, i: 0, flip: false, order: null };
 VIEWS['the-nho'] = () => {
-  const f = cardF, cards = D.cards.map((c, i) => ({ ...c, i }));
+  const f = cardF;
+  if (!f.subject) f.subject = SUBJ[S.prefs.focus] ? S.prefs.focus : 'LU';
+  const byId = new Map(D.cards.map(c => [c.id, c])), cards = D.cards.filter(c => c.subject === f.subject);
   const topics = [...new Set(cards.map(c => c.topic))].sort((a, b) => a.localeCompare(b, 'vi'));
-  let list = cards.filter(c => (!f.topic || c.topic === f.topic) && (!f.onlyNew || !S.cards[c.i]?.ok));
-  if (!f.order || f.order.length !== list.length) f.order = shuffle(list.map(c => c.i));
-  list = f.order.map(i => cards[i]).filter(Boolean);
-  const known = cards.filter(c => S.cards[c.i]?.ok).length;
+  if (f.topic && !topics.includes(f.topic)) f.topic = '';
+  let list = cards.filter(c => (!f.topic || c.topic === f.topic) && (!f.onlyNew || !S.cards[c.id]?.ok));
+  if (!f.order || f.order.length !== list.length || f.order.some(id => byId.get(id)?.subject !== f.subject)) f.order = shuffle(list.map(c => c.id));
+  list = f.order.map(id => byId.get(id)).filter(Boolean);
+  const known = cards.filter(c => S.cards[c.id]?.ok).length;
   f.i = Math.min(f.i, Math.max(list.length - 1, 0));
   const c = list[f.i];
-  main(page('Thẻ ghi nhớ', 'Những con số hay bị hỏi', `Mức vốn, tỷ lệ, thời hạn… lấy từ văn bản hiện hành. Đã nhớ ${known}/${cards.length} thẻ.`,
+  const count = k => D.cards.filter(x => x.subject === k).length;
+  main(page('Thẻ ghi nhớ', 'Thẻ ghi nhớ từng môn', `Con số, khái niệm, công thức hay bị hỏi của môn ${esc(SUBJ[f.subject].name)}. Đã nhớ ${known}/${cards.length} thẻ.`,
     `<div class="card stack"><div class="grid g3">
+        <label class="f">Môn<select id="c-subj">${opts(Object.entries(SUBJ).filter(([k]) => count(k)).map(([k, x]) => [k, `${x.name} (${count(k)} thẻ)`]), f.subject)}</select></label>
         <label class="f">Chủ đề<select id="c-topic">${opts([['', 'Tất cả chủ đề'], ...topics.map(t => [t, t])], f.topic)}</select></label>
         <label class="check" style="align-self:end"><input type="checkbox" id="c-new" ${f.onlyNew ? 'checked' : ''}> Chỉ thẻ chưa nhớ</label>
       </div></div>
@@ -862,13 +867,14 @@ VIEWS['the-nho'] = () => {
       <div class="row" style="justify-content:center"><button class="btn" id="c-prev" ${f.i ? '' : 'disabled'}>← Trước</button>
         <button class="btn danger" id="c-no">Chưa nhớ</button><button class="btn primary" id="c-yes">Đã nhớ</button><button class="btn" id="c-next">Sau →</button></div>`
       : '<div class="card empty">Không còn thẻ nào trong bộ lọc này.</div>'}`));
+  $('#c-subj').onchange = e => { f.subject = e.target.value; f.topic = ''; f.i = 0; f.order = null; f.flip = false; VIEWS['the-nho'](); };
   $('#c-topic').onchange = e => { f.topic = e.target.value; f.i = 0; f.order = null; f.flip = false; VIEWS['the-nho'](); };
   $('#c-new').onchange = e => { f.onlyNew = e.target.checked; f.i = 0; f.order = null; f.flip = false; VIEWS['the-nho'](); };
   if (!c) return;
   const step = d => { f.i = Math.max(0, Math.min(list.length - 1, f.i + d)); f.flip = false; VIEWS['the-nho'](); };
   $('#c-card').onclick = () => { f.flip = !f.flip; VIEWS['the-nho'](); };
   $('#c-prev').onclick = () => step(-1); $('#c-next').onclick = () => step(1);
-  const mark = ok => { S.cards[c.i] = { ok, at: now() }; save(); if (f.onlyNew && ok) { f.order = null; f.flip = false; VIEWS['the-nho'](); } else step(1); };
+  const mark = ok => { S.cards[c.id] = { ok, at: now() }; save(); if (f.onlyNew && ok) { f.order = null; f.flip = false; VIEWS['the-nho'](); } else step(1); };
   $('#c-yes').onclick = () => mark(true); $('#c-no').onclick = () => mark(false);
 };
 
@@ -1291,6 +1297,8 @@ window.addEventListener('hashchange', route);
   applyTheme();
   const [q, law, cards, changes, docs] = await Promise.all([loadJSON('questions', []), loadJSON('luat_ck', null), loadJSON('so_lieu', []), loadJSON('thay_doi', []), loadJSON('van_ban', [])]);
   Object.assign(D, { q, law, cards, changes, docs }); D.byId = new Map(q.map(x => [x.id, x]));
+  // tiến độ thẻ trước 11/2026 lưu theo số thứ tự (thẻ Luật đứng đầu, giữ nguyên thứ tự) → đổi sang mã thẻ
+  if (Object.keys(S.cards).some(k => /^\d+$/.test(k))) { for (const k of Object.keys(S.cards)) if (/^\d+$/.test(k)) { if (cards[+k]) S.cards[cards[+k].id] = S.cards[k]; delete S.cards[k]; } save(); }
   if (!q.length) { main(`<div class="page"><div class="card empty">Không tải được ngân hàng câu hỏi. Nếu bạn mở file trực tiếp trên máy, hãy dùng bản <b>dist/index.html</b> hoặc chạy qua máy chủ web.</div></div>`); renderNav(''); return; }
   if (S.sess && S.sess.parts?.some(p => p.ids.some(id => !D.byId.has(id)))) S.sess.parts.forEach(p => (p.ids = p.ids.filter(id => D.byId.has(id))));
   route();

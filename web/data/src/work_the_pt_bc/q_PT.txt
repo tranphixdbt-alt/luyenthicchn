@@ -1,0 +1,336 @@
+[C2-006] (Mức sinh lời và rủi ro) Nhà đầu tư mua cổ phiếu ABC giá 40.000 đồng/cp, trong thời gian nắm giữ nhận cổ tức tiền mặt 2.000 đồng/cp và bán ra với giá 46.000 đồng/cp. Bỏ qua thuế, phí. Mức sinh lời trong thời gian nắm giữ (HPR) là bao nhiêu?
+  -> 20,00%
+  e: HPR = (P1 − P0 + D)/P0 = (46.000 − 40.000 + 2.000)/40.000 = 20,00%. Lỗi thường gặp: bỏ cổ tức (15%), chia cho giá bán (17,39%), chỉ tính cổ tức (5%).
+  b: HPR = (P1 − P0 + D)/P0
+[C2-007] (Mức sinh lời và rủi ro) Dự báo mức sinh lời của cổ phiếu XYZ trong năm tới: kịch bản tăng trưởng (xác suất 30%) 25%; kịch bản bình thường (xác suất 50%) 10%; kịch bản suy thoái (xác suất 20%) −10%. Độ lệch chuẩn của mức sinh lời là bao nhiêu?
+  -> 12,13%
+  e: E(R) = 0,3×25% + 0,5×10% + 0,2×(−10%) = 10,50%. σ² = 0,3×(14,5%)² + 0,5×(−0,5%)² + 0,2×(−20,5%)² = 0,014725; σ = 12,13%. Lỗi thường gặp: bỏ xác suất (14,34%), không bình phương độ lệch (8,70%), nhầm với lợi suất kỳ vọng.
+  b: σ = √Σ pᵢ[Rᵢ − E(R)]²
+[C2-008] (Mức sinh lời và rủi ro) Danh mục gồm 60% cổ phiếu A (độ lệch chuẩn 20%) và 40% cổ phiếu B (độ lệch chuẩn 30%); hệ số tương quan giữa A và B là 0,2. Độ lệch chuẩn của danh mục là bao nhiêu?
+  -> 18,59%
+  e: σp² = 0,6²×0,2² + 0,4²×0,3² + 2×0,6×0,4×0,2×0,2×0,3 = 0,0144 + 0,0144 + 0,00576 = 0,03456; σp = 18,59%. Thấp hơn bình quân gia quyền 24% vì ρ < 1. Lỗi thường gặp: bình quân gia quyền (24%), bỏ hiệp phương sai (16,97%), lấy phương sai làm độ lệch chuẩn (3,46%).
+  b: σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂
+[C2-009] (Mức sinh lời và rủi ro) Danh mục gồm hai cổ phiếu có rủi ro với tỷ trọng đều dương. Độ lệch chuẩn của danh mục nhỏ hơn bình quân gia quyền độ lệch chuẩn của hai cổ phiếu (có lợi ích đa dạng hóa) trong trường hợp nào?
+  -> Khi hệ số tương quan giữa hai cổ phiếu nhỏ hơn +1
+  e: σp = w₁σ₁ + w₂σ₂ chỉ khi ρ = +1; với mọi ρ < +1 thì σp nhỏ hơn bình quân gia quyền, nên đa dạng hóa có tác dụng (ρ càng thấp, tác dụng càng lớn; ρ = −1 có thể triệt tiêu rủi ro).
+  b: Đa dạng hóa danh mục: mọi ρ < +1 đều làm giảm rủi ro danh mục
+[C2-010] (Mức sinh lời và rủi ro) Theo mô hình CAPM, lãi suất phi rủi ro (dương) và mức bù rủi ro thị trường không đổi. Nếu hệ số beta của một cổ phiếu tăng từ 0,8 lên 1,6 thì
+  -> Mức bù rủi ro của cổ phiếu tăng gấp đôi, lợi suất yêu cầu tăng chưa tới gấp đôi
+  e: E(Ri) = Rf + β[E(Rm) − Rf]. Mức bù rủi ro của cổ phiếu β[E(Rm) − Rf] tỷ lệ thuận với β nên tăng gấp đôi; do có thành phần Rf > 0 không đổi nên lợi suất yêu cầu tăng ít hơn gấp đôi.
+  b: CAPM: E(Ri) = Rf + βi[E(Rm) − Rf]
+[C2-011] (Mức sinh lời và rủi ro) Lãi suất phi rủi ro 4%, lợi suất kỳ vọng của danh mục thị trường 11%. Cổ phiếu DEF có beta 0,8; nhà phân tích dự báo lợi suất kỳ vọng của DEF là 13%. Theo CAPM, nhận định nào đúng?
+  -> Lợi suất yêu cầu 9,6%; DEF nằm phía trên đường SML, đang bị định giá thấp
+  e: Lợi suất yêu cầu = 4% + 0,8×(11% − 4%) = 9,6%. Lợi suất kỳ vọng 13% > 9,6% (alpha = 3,4%) nên DEF nằm phía trên đường SML, bị định giá thấp – tín hiệu mua. Lỗi thường gặp: nhân beta với cả lợi suất thị trường (12,8%).
+  b: CAPM/SML: E(Ri) = Rf + βi[E(Rm) − Rf]; alpha > 0 ⇒ nằm phía trên đường SML
+[C2-012] (Mức sinh lời và rủi ro) Loại rủi ro nào sau đây KHÔNG thể loại bỏ bằng cách đa dạng hóa danh mục đầu tư?
+  -> Rủi ro do lãi suất và lạm phát của nền kinh tế thay đổi
+  e: Rủi ro lãi suất, lạm phát là rủi ro hệ thống (rủi ro thị trường), tác động lên mọi chứng khoán nên không loại bỏ được bằng đa dạng hóa; các rủi ro riêng của từng công ty là rủi ro phi hệ thống.
+  b: Phân loại rủi ro: rủi ro hệ thống và rủi ro phi hệ thống
+[C2-013] (Mức sinh lời và rủi ro) Hiệp phương sai giữa lợi suất cổ phiếu GHI và lợi suất danh mục thị trường là 0,018; độ lệch chuẩn lợi suất của danh mục thị trường là 12%. Hệ số beta của cổ phiếu GHI là bao nhiêu?
+  -> 1,25
+  e: β = Cov(Ri, Rm)/σm² = 0,018/0,12² = 0,018/0,0144 = 1,25. Lỗi thường gặp: chia cho σm thay vì σm² (0,15) hoặc đảo ngược tỷ số (0,80).
+  b: β = Cov(Ri, Rm)/σm²
+[C2-014] (Mức sinh lời và rủi ro) Chỉ số Sharpe đo lường điều gì?
+  -> Mức sinh lời vượt lãi suất phi rủi ro trên mỗi đơn vị tổng rủi ro (độ lệch chuẩn)
+  e: Sharpe = (Rp − Rf)/σp. Chia cho beta là chỉ số Treynor; chênh lệch so với CAPM là alpha Jensen; chênh lệch so với chỉ số tham chiếu là tracking error.
+  b: Chỉ số Sharpe = (Rp − Rf)/σp
+[C8-022] (Mức sinh lời và rủi ro) Danh mục cổ phiếu P có lợi suất kỳ vọng 14%/năm, độ lệch chuẩn 25%; tín phiếu kho bạc có lãi suất phi rủi ro 5%/năm. Hai nhà đầu tư dùng hàm hữu dụng U = E(r) − 0,5 × A × σ², với hệ số e ngại rủi ro A lần lượt là 2 và 4. Nhận định nào đúng?
+  -> U = 7,75% với A = 2 và 1,50% với A = 4; chỉ người có A = 2 chọn P
+  e: U(A = 2) = 14% − 0,5 × 2 × 0,25² = 14% − 6,25% = 7,75% > 5% nên chọn P; U(A = 4) = 14% − 12,5% = 1,50% < 5% nên chọn tín phiếu (tín phiếu không rủi ro có U = 5%). Hệ số e ngại rủi ro càng cao thì mức bù rủi ro đòi hỏi càng lớn, cùng một danh mục rủi ro trở nên kém hấp dẫn hơn. Quên hệ số 0,5 ra 1,50% và −11,00%; bỏ qua phần trừ rủi ro (chỉ so 14% với 5%) là không xét mức e ngại rủi ro.
+  b: Hàm hữu dụng U = E(r) − ½Aσ²; mức độ e ngại rủi ro và mức bù rủi ro yêu cầu
+[C8-027] (Mức sinh lời và rủi ro) Khoản đầu tư X chắc chắn đem lại lợi suất 7%/năm. Khoản đầu tư Y có lợi suất 7% hoặc 11% với xác suất bằng nhau và không bao giờ bị lỗ. Theo cách hiểu rủi ro trong lý thuyết danh mục hiện đại, nhận định nào đúng?
+  -> Y rủi ro hơn X, vì lợi suất của Y phân tán quanh giá trị kỳ vọng
+  e: Rủi ro là sự không chắc chắn của lợi suất thực tế so với lợi suất kỳ vọng, đo bằng phương sai, độ lệch chuẩn; không chỉ là khả năng thua lỗ. X có độ lệch chuẩn 0. Y có lợi suất kỳ vọng 9% và độ lệch chuẩn 2% (lệch ±2% quanh 9%) nên rủi ro hơn X, dù không bao giờ lỗ. Lợi suất kỳ vọng cao hơn là phần bù cho rủi ro cao hơn, không phải thước đo rủi ro.
+  b: Khái niệm rủi ro: mức độ phân tán của lợi suất thực tế so với lợi suất kỳ vọng (phương sai, độ lệch chuẩn)
+[C8-028] (Mức sinh lời và rủi ro) Nhà đầu tư ưa mạo hiểm dự báo thị trường tăng nên chọn danh mục cổ phiếu beta 1,4 thay vì danh mục beta 0,7. Theo mô hình thị trường (bỏ qua alpha và rủi ro riêng), nếu dự báo sai và chỉ số thị trường giảm 10% thì:
+  -> Danh mục beta 1,4 giảm khoảng 14%, danh mục beta 0,7 giảm khoảng 7%
+  e: Beta đo độ nhạy của lợi suất chứng khoán với lợi suất thị trường, theo cả hai chiều: 1,4 × (−10%) = −14%; 0,7 × (−10%) = −7%. Cổ phiếu beta > 1 (cổ phiếu “tấn công”) hợp với nhà đầu tư ưa mạo hiểm vì tăng mạnh hơn thị trường khi thị trường lên, nhưng cũng giảm mạnh hơn khi thị trường xuống; beta < 1 là cổ phiếu phòng thủ. Chia 10% cho beta ra 7,1% và 14,3%; lấy (beta − 1) × (−10%) ra −4% và +3%, tức chỉ là phần chênh so với thị trường.
+  b: Hệ số beta và rủi ro hệ thống; cổ phiếu tấn công, phòng thủ (CAPM)
+[C9-006] (Mức sinh lời và rủi ro) Lãi suất phi rủi ro là 5%/năm, mức bù rủi ro thị trường [E(Rm) − Rf] là 6%/năm. Theo CAPM, lợi suất yêu cầu của cổ phiếu có hệ số beta 1,3 là bao nhiêu?
+  -> 12,80%
+  e: E(Ri) = Rf + β × [E(Rm) − Rf] = 5% + 1,3 × 6% = 12,80%. Lỗi thường gặp: quên cộng Rf (1,3 × 6% = 7,80%), coi 6% là lợi suất thị trường rồi trừ Rf (5% + 1,3 × 1% = 6,30%), bỏ qua beta (5% + 6% = 11,00%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình CAPM: E(Ri) = Rf + βi × [E(Rm) − Rf]
+[C9-007] (Mức sinh lời và rủi ro) Theo mô hình CAPM, một chứng khoán có hệ số beta bằng 1 sẽ có lợi suất yêu cầu bằng
+  -> Lợi suất kỳ vọng của danh mục thị trường
+  e: Với β = 1: E(Ri) = Rf + 1 × [E(Rm) − Rf] = E(Rm). Chứng khoán có beta bằng 0 mới có lợi suất yêu cầu bằng lãi suất phi rủi ro.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình CAPM và ý nghĩa hệ số beta
+[C9-008] (Mức sinh lời và rủi ro) Theo CAPM, hai cổ phiếu A và B đều đang được định giá hợp lý (nằm đúng trên đường SML). Cổ phiếu A có beta 0,8 và lợi suất kỳ vọng 10,0%; cổ phiếu B có beta 1,4 và lợi suất kỳ vọng 14,2%. Lợi suất kỳ vọng của danh mục thị trường là bao nhiêu?
+  -> 11,40%
+  e: Hai cổ phiếu cùng nằm trên SML nên độ dốc SML (mức bù rủi ro thị trường) = (14,2% − 10,0%)/(1,4 − 0,8) = 7,00%; Rf = 10,0% − 0,8 × 7,00% = 4,40%. Danh mục thị trường có beta bằng 1 ⇒ E(Rm) = 4,40% + 7,00% = 11,40%. Lỗi thường gặp: coi độ dốc SML là lợi suất thị trường (7,00%), lấy bình quân giản đơn lợi suất hai cổ phiếu (12,10%), lấy lợi suất chia beta (10,0%/0,8 = 12,50%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đường thị trường chứng khoán (SML): tung độ gốc Rf, độ dốc E(Rm) − Rf
+[C9-009] (Mức sinh lời và rủi ro) Cổ phiếu A có lợi suất kỳ vọng 14%, độ lệch chuẩn 30%; cổ phiếu B có lợi suất kỳ vọng 8%, độ lệch chuẩn 20%; hệ số tương quan giữa A và B là −1. Lợi suất kỳ vọng của danh mục gồm A và B có độ lệch chuẩn bằng 0 là bao nhiêu?
+  -> 10,40%
+  e: Với ρ = −1: σp = |wA × 30% − wB × 20%| = 0 ⇒ wA = 20/(30 + 20) = 40%, wB = 60%. E(Rp) = 0,4 × 14% + 0,6 × 8% = 10,40%. Lỗi thường gặp: đảo tỷ trọng (60% A cho 11,60%), chia đều 50/50 (11,00%), dùng tỷ trọng theo phương sai như khi ρ = 0 (9,85%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất và rủi ro danh mục hai tài sản; trường hợp tương quan hoàn hảo âm
+[C9-010] (Mức sinh lời và rủi ro) Danh mục gồm 25 cổ phiếu với tỷ trọng bằng nhau. Mỗi cổ phiếu có độ lệch chuẩn lợi suất 40%; hiệp phương sai giữa lợi suất của hai cổ phiếu bất kỳ đều bằng 0,04. Độ lệch chuẩn của danh mục là bao nhiêu?
+  -> 21,17%
+  e: Với N cổ phiếu tỷ trọng 1/N: σp² = σ²/N + (1 − 1/N) × Cov = 0,16/25 + 0,96 × 0,04 = 0,0064 + 0,0384 = 0,0448 ⇒ σp = 21,17%. Phần σ²/N (rủi ro riêng) giảm dần khi N tăng; phần hiệp phương sai là rủi ro hệ thống không đa dạng hóa được, nên σp chỉ tiến về √0,04 = 20,00%. Lỗi thường gặp: chỉ giữ phần hiệp phương sai (20,00%), bỏ qua hiệp phương sai (√0,0064 = 8,00%), coi như không có lợi ích đa dạng hóa (40,00%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đa dạng hóa danh mục N tài sản tỷ trọng bằng nhau: σp² = σ²/N + (1 − 1/N) × Cov
+[C9-011] (Mức sinh lời và rủi ro) Danh mục 1.000 triệu đồng gồm: 300 triệu đồng cổ phiếu P (beta 1,4), 200 triệu đồng cổ phiếu Q (beta 0,9) và 500 triệu đồng tín phiếu Kho bạc (coi là tài sản phi rủi ro). Hệ số beta của danh mục là bao nhiêu?
+  -> 0,60
+  e: Beta tài sản phi rủi ro bằng 0. βp = 0,3 × 1,4 + 0,2 × 0,9 + 0,5 × 0 = 0,42 + 0,18 = 0,60. Lỗi thường gặp: chỉ tính trên phần cổ phiếu 500 triệu đồng ((0,42 + 0,18)/0,5 = 1,20), bình quân giản đơn ba tài sản (0,77) hoặc hai cổ phiếu (1,15).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số beta của danh mục: βp = Σ wi × βi
+[C9-012] (Mức sinh lời và rủi ro) Lãi suất phi rủi ro 4%. Quỹ X: lợi suất 14%, độ lệch chuẩn 18%, beta 1,2. Quỹ Y: lợi suất 12%, độ lệch chuẩn 20%, beta 0,8. Kết luận nào đúng khi so sánh hai quỹ theo chỉ số Sharpe và chỉ số Treynor?
+  -> Theo Sharpe quỹ X tốt hơn, theo Treynor quỹ Y tốt hơn
+  e: Sharpe = (R − Rf)/σ: X = 10%/18% = 0,56; Y = 8%/20% = 0,40 ⇒ X tốt hơn. Treynor = (R − Rf)/β: X = 10%/1,2 = 8,33%; Y = 8%/0,8 = 10,00% ⇒ Y tốt hơn. Hai chỉ số cho kết quả khác nhau vì Sharpe dùng tổng rủi ro, Treynor chỉ dùng rủi ro hệ thống.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đánh giá hiệu quả danh mục: chỉ số Sharpe và chỉ số Treynor
+[C9-013] (Mức sinh lời và rủi ro) Trong năm, quỹ Z đạt lợi suất 10% với beta 0,6, trong khi danh mục thị trường đạt 12% và lãi suất phi rủi ro là 4%. Theo chỉ số alpha của Jensen, nhận định nào đúng?
+  -> Alpha = +1,20%; quỹ vượt mức lợi suất yêu cầu tương ứng rủi ro hệ thống
+  e: Lợi suất yêu cầu theo CAPM = 4% + 0,6 × (12% − 4%) = 8,8%. Alpha Jensen = 10% − 8,8% = +1,20% > 0: quỹ hoạt động tốt so với rủi ro hệ thống dù lợi suất thấp hơn thị trường. Lỗi thường gặp: so trực tiếp với thị trường (−2,00%), chỉ trừ Rf (+6,00%), nhầm dấu (−1,20%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đánh giá hiệu quả danh mục: alpha Jensen = Rp − [Rf + βp(Rm − Rf)]
+[C9-014] (Mức sinh lời và rủi ro) Quỹ nắm giữ danh mục cổ phiếu trị giá 20 tỷ đồng, beta 1,1 so với chỉ số VN30, đã bán 169 hợp đồng tương lai chỉ số VN30 ở mức 1.300 điểm (hệ số nhân 100.000 đồng/điểm) để phòng ngừa rủi ro thị trường. Sau đó chỉ số VN30 giảm 5%, giá hợp đồng tương lai cũng giảm 5% về 1.235 điểm và danh mục biến động đúng theo beta. Quỹ đóng vị thế hợp đồng tương lai; bỏ qua cổ tức, phí và chi phí ký quỹ. Kết quả ròng của danh mục cộng vị thế hợp đồng tương lai xấp xỉ là
+  -> Lỗ 1,5 triệu đồng
+  e: Danh mục: 20 tỷ × 1,1 × (−5%) = −1.100 triệu đồng. Vị thế bán hợp đồng tương lai: 169 × (1.300 − 1.235) × 100.000 = +1.098,5 triệu đồng. Kết quả ròng = −1.100 + 1.098,5 = −1,5 triệu đồng ≈ 0: phòng ngừa đưa beta về xấp xỉ 0 nên lãi/lỗ do thị trường gần như được bù trừ (phần lệch nhỏ do làm tròn số hợp đồng 1,1 × 20 tỷ/130 triệu = 169,2). Lỗi thường gặp: chỉ tính danh mục (lỗ 1.100,0 triệu), bỏ qua beta khi tính lỗ danh mục (−1.000 + 1.098,5 = lãi 98,5 triệu), nhầm chiều vị thế như khi mua hợp đồng tương lai (lỗ 2.198,5 triệu).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phòng ngừa rủi ro hệ thống bằng hợp đồng tương lai chỉ số: kết quả của danh mục đã phòng ngừa
+[C2-020] (Phân tích kinh tế trong đầu tư chứng khoán) Khi mặt bằng lãi suất thị trường tăng mạnh và các yếu tố khác không đổi, tác động nào sau đây là hợp lý nhất đối với thị trường cổ phiếu?
+  -> Tỷ suất chiết khấu yêu cầu tăng làm giá trị nội tại của cổ phiếu giảm
+  e: Lãi suất tăng làm tăng lãi suất phi rủi ro và tỷ suất chiết khấu, tăng chi phí vốn, làm giảm giá trị hiện tại của dòng tiền tương lai và P/E hợp lý; kênh tiền gửi hấp dẫn hơn.
+  b: Tác động của lãi suất đến định giá: P0 = Σ CFt/(1 + r)^t
+[C2-021] (Phân tích kinh tế trong đầu tư chứng khoán) Lãi suất danh nghĩa của trái phiếu Chính phủ kỳ hạn 1 năm là 9%/năm, tỷ lệ lạm phát dự kiến 4%/năm. Theo phương trình Fisher dạng chính xác, lãi suất thực là bao nhiêu?
+  -> 4,81%
+  e: (1 + i) = (1 + r)(1 + π) ⇒ r = 1,09/1,04 − 1 = 4,81%. 5,00% là kết quả xấp xỉ i − π; 13,36% là nhân thay vì chia.
+  b: Phương trình Fisher: (1 + i) = (1 + r)(1 + π)
+[C2-022] (Phân tích kinh tế trong đầu tư chứng khoán) Chỉ báo nào sau đây thường được xếp vào nhóm chỉ báo dẫn dắt (chỉ báo sớm) của chu kỳ kinh tế?
+  -> Chỉ số giá cổ phiếu (như VN-Index)
+  e: Chỉ số giá cổ phiếu thường biến động trước chu kỳ kinh tế (chỉ báo dẫn dắt); sản xuất công nghiệp là chỉ báo trùng hợp; thời gian thất nghiệp bình quân, lãi suất cho vay bình quân là chỉ báo trễ.
+  b: Phân tích vĩ mô: chỉ báo dẫn dắt, trùng hợp, trễ
+[C2-023] (Phân tích kinh tế trong đầu tư chứng khoán) Khi nền kinh tế bước vào giai đoạn suy thoái, nhóm ngành nào thường có lợi nhuận ít biến động nhất (ngành phòng thủ)?
+  -> Hàng tiêu dùng thiết yếu và dược phẩm
+  e: Nhu cầu hàng thiết yếu, thuốc (tương tự điện, nước) ít co giãn theo thu nhập nên lợi nhuận ổn định (ngành phòng thủ); các ngành còn lại là ngành chu kỳ.
+  b: Phân tích ngành: ngành chu kỳ và ngành phòng thủ
+[C2-024] (Phân tích kinh tế trong đầu tư chứng khoán) Một ngành có doanh thu tăng trưởng nhanh, lợi nhuận tăng mạnh, nhu cầu vốn đầu tư mở rộng lớn nên doanh nghiệp thường trả cổ tức tiền mặt thấp. Ngành này đang ở giai đoạn nào của vòng đời?
+  -> Giai đoạn tăng trưởng
+  e: Giai đoạn tăng trưởng: doanh thu và lợi nhuận tăng nhanh, cần nhiều vốn tái đầu tư nên chi trả cổ tức thấp. Khởi sự thường chưa có lãi; bão hòa tăng trưởng chậm, cổ tức cao; suy thoái doanh thu giảm.
+  b: Phân tích ngành: vòng đời ngành
+[C2-025] (Phân tích kinh tế trong đầu tư chứng khoán) Yếu tố nào sau đây KHÔNG thuộc mô hình năm áp lực cạnh tranh của Michael Porter?
+  -> Chính sách tiền tệ của ngân hàng trung ương
+  e: Năm áp lực: cạnh tranh nội bộ ngành, đe dọa gia nhập, sản phẩm thay thế, quyền thương lượng của người mua và của nhà cung cấp. Chính sách tiền tệ là yếu tố vĩ mô.
+  b: Mô hình năm áp lực cạnh tranh của Porter
+[C2-026] (Phân tích kinh tế trong đầu tư chứng khoán) Khi VND mất giá so với USD và các yếu tố khác không đổi, nhóm doanh nghiệp nào hưởng lợi trực tiếp nhất?
+  -> Doanh nghiệp xuất khẩu có doanh thu bằng USD, chi phí chủ yếu bằng VND
+  e: VND mất giá làm doanh thu USD quy đổi tăng trong khi chi phí VND không đổi; các doanh nghiệp nhập khẩu hoặc vay nợ USD bị tăng chi phí, tăng nghĩa vụ nợ quy đổi.
+  b: Phân tích vĩ mô: tác động của tỷ giá
+[C2-045] (Phân tích kỹ thuật) Trên đồ thị giá ngày, đường trung bình động ngắn hạn MA20 cắt đường trung bình động dài hạn MA50 từ dưới lên trên. Theo phân tích kỹ thuật truyền thống, đây là
+  -> Tín hiệu mua (giao cắt vàng – golden cross)
+  e: MA ngắn hạn cắt MA dài hạn từ dưới lên cho thấy giá gần đây tăng nhanh hơn mặt bằng dài hạn – tín hiệu mua (golden cross). Cắt từ trên xuống là tín hiệu bán (death cross).
+  b: Đường trung bình động: giao cắt MA ngắn hạn và dài hạn
+[C2-046] (Phân tích kỹ thuật) Theo cách diễn giải thông thường, chỉ báo RSI(14) vượt lên trên mức 70 cho thấy
+  -> Cổ phiếu ở vùng quá mua, có khả năng điều chỉnh giảm
+  e: RSI > 70: vùng quá mua; RSI < 30: vùng quá bán. RSI đo động lượng giá, không đo khối lượng.
+  b: Chỉ báo RSI: ngưỡng 70 (quá mua) và 30 (quá bán)
+[C2-047] (Phân tích kỹ thuật) Trong 14 phiên gần nhất, mức tăng giá bình quân là 1.500 đồng và mức giảm giá bình quân là 500 đồng (cả hai tính bình quân trên 14 phiên). Giá trị RSI(14) và cách diễn giải phù hợp là
+  -> RSI = 75; cổ phiếu ở vùng quá mua
+  e: RS = 1.500/500 = 3; RSI = 100 − 100/(1 + RS) = 100 − 25 = 75 > 70 ⇒ vùng quá mua. Lỗi thường gặp: đảo tỷ số RS (25), dùng 100 − 100/RS (66,67).
+  b: RSI = 100 − 100/(1 + RS), RS = mức tăng bình quân/mức giảm bình quân
+[C2-048] (Phân tích kỹ thuật) Phiên hôm qua, đường MACD của cổ phiếu nằm phía trên đường tín hiệu. Phiên hôm nay: EMA12 = 25,4; EMA26 = 24,6 (nghìn đồng); đường tín hiệu (EMA9 của MACD) = 0,95. Giá trị MACD hôm nay và tín hiệu tương ứng là
+  -> MACD = 0,80; cắt đường tín hiệu từ trên xuống – tín hiệu bán
+  e: MACD = EMA12 − EMA26 = 25,4 − 24,6 = 0,80. Hôm qua MACD nằm phía trên đường tín hiệu, hôm nay 0,80 < 0,95 ⇒ MACD cắt đường tín hiệu từ trên xuống – tín hiệu bán.
+  b: MACD = EMA12 − EMA26; đường tín hiệu = EMA9 của MACD
+[C2-049] (Phân tích kỹ thuật) Giá cổ phiếu vượt dứt khoát ngưỡng kháng cự 30.000 đồng với khối lượng giao dịch lớn. Theo phân tích kỹ thuật truyền thống, ngưỡng 30.000 đồng sau đó thường
+  -> Đóng vai trò ngưỡng hỗ trợ mới khi giá điều chỉnh
+  e: Khi kháng cự bị phá vỡ dứt khoát (có khối lượng xác nhận), vùng giá này thường đảo vai trò thành hỗ trợ (nguyên lý đổi vai hỗ trợ – kháng cự).
+  b: Ngưỡng hỗ trợ và kháng cự: nguyên lý đổi vai
+[C2-050] (Phân tích kỹ thuật) Giả định nào sau đây là nền tảng của phân tích kỹ thuật?
+  -> Giá phản ánh mọi yếu tố, vận động theo xu hướng và lịch sử có xu hướng lặp lại
+  e: Ba giả định của phân tích kỹ thuật (lý thuyết Dow): thị trường phản ánh tất cả, giá vận động theo xu hướng, lịch sử lặp lại. Các phương án khác là quan điểm của phân tích cơ bản hoặc bước ngẫu nhiên.
+  b: Giả định cơ bản của phân tích kỹ thuật
+[C8-029] (Phân tích kỹ thuật) Chuyên viên H làm bốn việc dưới đây khi đánh giá cổ phiếu Z. Việc nào thuộc phân tích kỹ thuật?
+  -> Xác định vùng hỗ trợ từ các đáy giá cũ và theo dõi khối lượng khi giá chạm vùng này
+  e: Phân tích kỹ thuật dựa trên dữ liệu thị trường – giá và khối lượng giao dịch quá khứ – để xác định xu hướng, ngưỡng hỗ trợ, kháng cự và thời điểm mua bán, với giả định giá phản ánh mọi thông tin và lịch sử có xu hướng lặp lại. Chiết khấu dòng tiền, so sánh P/E, ROE với ngành và đánh giá tác động vĩ mô đều là phân tích cơ bản, nhằm ước tính giá trị nội tại từ yếu tố kinh tế, ngành và doanh nghiệp.
+  b: Phân biệt phân tích cơ bản và phân tích kỹ thuật
+[C2-027] (Phân tích và định giá cổ phiếu) Công ty vừa trả cổ tức D0 = 2.000 đồng/cp. Cổ tức được kỳ vọng tăng trưởng đều 6%/năm mãi mãi; tỷ suất sinh lời yêu cầu của nhà đầu tư là 14%/năm. Giá trị nội tại của cổ phiếu theo mô hình Gordon là
+  -> 26.500 đồng
+  e: D1 = 2.000 × 1,06 = 2.120 đồng; P0 = D1/(r − g) = 2.120/(14% − 6%) = 26.500 đồng. Lỗi thường gặp: dùng D0 (25.000), bỏ g ở mẫu số (15.143), cộng g vào mẫu số (10.600).
+  b: Mô hình Gordon: P0 = D1/(r − g)
+[C2-028] (Phân tích và định giá cổ phiếu) Công ty vừa trả cổ tức D0 = 1.000 đồng/cp. Cổ tức dự kiến tăng 20%/năm trong 2 năm tới, sau đó tăng đều 5%/năm mãi mãi. Tỷ suất sinh lời yêu cầu là 12%/năm. Giá trị nội tại hiện tại của cổ phiếu (làm tròn đến đồng) là
+  -> 19.439 đồng
+  e: D1 = 1.200; D2 = 1.440; D3 = 1.440 × 1,05 = 1.512. P2 = D3/(12% − 5%) = 21.600. P0 = 1.200/1,12 + (1.440 + 21.600)/1,12² = 1.071,43 + 18.367,35 = 19.439 đồng. Lỗi thường gặp: tính P2 bằng D2 thay vì D3 (18.619), chiết khấu P2 một kỳ (21.505), dùng Gordon một giai đoạn (15.000).
+  b: Mô hình chiết khấu cổ tức hai giai đoạn: P0 = Σ Dt/(1 + r)^t + Pn/(1 + r)^n, Pn = Dn+1/(r − g)
+[C2-029] (Phân tích và định giá cổ phiếu) Cổ phiếu A có P/E cao hơn đáng kể so với P/E bình quân của các doanh nghiệp cùng ngành. Nếu thị trường định giá hợp lý, điều này phù hợp nhất với giả thiết nào?
+  -> Kỳ vọng tăng trưởng lợi nhuận của A cao hơn hoặc rủi ro của A thấp hơn
+  e: P/E hợp lý = tỷ lệ chi trả/(r − g): P/E cao tương ứng g cao hơn và/hoặc r thấp hơn (rủi ro thấp hơn). EPS cao bản thân nó không làm P/E cao.
+  b: P/E hợp lý = (D1/E1)/(r − g)
+[C2-030] (Phân tích và định giá cổ phiếu) Công ty có ROE ổn định 15%, tỷ lệ chi trả cổ tức 40%, tỷ suất sinh lời yêu cầu 12%. Giả định công ty tăng trưởng ổn định mãi mãi với g = ROE × tỷ lệ lợi nhuận giữ lại. Hệ số P/E kỳ vọng hợp lý (P0/E1) là
+  -> 13,33 lần
+  e: g = 15% × (1 − 40%) = 9%; P0/E1 = tỷ lệ chi trả/(r − g) = 0,4/(12% − 9%) = 13,33 lần. Lỗi thường gặp: tính P/E hiện hành P0/E0 = 0,4×1,09/0,03 (14,53), dùng tỷ lệ giữ lại ở tử số (20,00), tính g = ROE × tỷ lệ chi trả (6,67).
+  b: P/E kỳ vọng hợp lý: P0/E1 = (1 − b)/(r − g), g = ROE × b
+[C2-031] (Phân tích và định giá cổ phiếu) Phương pháp định giá dựa trên hệ số P/B thường được ưu tiên áp dụng cho nhóm doanh nghiệp nào?
+  -> Ngân hàng, công ty chứng khoán có tài sản chủ yếu là tài sản tài chính
+  e: Giá trị sổ sách của tổ chức tài chính phản ánh khá sát giá trị thị trường của tài sản tài chính, nên P/B phù hợp; với doanh nghiệp có nhiều tài sản vô hình không ghi nhận hoặc vốn chủ âm, P/B kém ý nghĩa.
+  b: Định giá theo P/B = giá thị trường/giá trị sổ sách mỗi cổ phần
+[C2-032] (Phân tích và định giá cổ phiếu) Công ty XYZ có EBITDA dự phóng 500 tỷ đồng; hệ số EV/EBITDA bình quân của các doanh nghiệp so sánh là 8 lần. XYZ có tổng nợ vay 1.200 tỷ đồng, tiền và tương đương tiền 200 tỷ đồng, 100 triệu cổ phiếu đang lưu hành, không có cổ phần ưu đãi và lợi ích cổ đông không kiểm soát. Giá trị hợp lý mỗi cổ phiếu là
+  -> 30.000 đồng
+  e: EV = 8 × 500 = 4.000 tỷ; giá trị vốn chủ = EV − nợ vay + tiền = 4.000 − 1.200 + 200 = 3.000 tỷ; mỗi cổ phiếu = 3.000 tỷ/100 triệu = 30.000 đồng. Lỗi thường gặp: không cộng tiền (28.000), trừ cả tiền (26.000), coi EV là giá trị vốn chủ (40.000).
+  b: EV/EBITDA: giá trị vốn chủ = EV − nợ vay + tiền và tương đương tiền
+[C2-033] (Phân tích và định giá cổ phiếu) Năm tới, công ty dự kiến (tỷ đồng): lợi nhuận sau thuế 200; khấu hao 50; chi đầu tư TSCĐ 120; vốn lưu động (không kể tiền) tăng 30; vay nợ mới 70 và trả nợ gốc 30. Dòng tiền tự do vốn chủ sở hữu (FCFE) là
+  -> 140 tỷ đồng
+  e: FCFE = LNST + khấu hao − chi đầu tư TSCĐ − tăng vốn lưu động + vay ròng = 200 + 50 − 120 − 30 + (70 − 30) = 140 tỷ đồng. Lỗi thường gặp: bỏ vay ròng (100), cộng vay mới gộp (170), cộng thay vì trừ tăng vốn lưu động (200).
+  b: FCFE = LNST + khấu hao − CAPEX − ΔVLĐ + vay ròng
+[C2-034] (Phân tích và định giá cổ phiếu) Năm tới, công ty dự kiến (tỷ đồng): EBIT 300; thuế suất thuế TNDN 20%; khấu hao 60; chi đầu tư TSCĐ 100; vốn lưu động (không kể tiền) tăng 20. Dòng tiền tự do doanh nghiệp (FCFF) là
+  -> 180 tỷ đồng
+  e: FCFF = EBIT(1 − t) + khấu hao − CAPEX − ΔVLĐ = 300 × 0,8 + 60 − 100 − 20 = 180 tỷ đồng. Lỗi thường gặp: không trừ thuế (240), bỏ khấu hao (120), cộng ΔVLĐ (220).
+  b: FCFF = EBIT(1 − t) + khấu hao − CAPEX − ΔVLĐ
+[C2-035] (Phân tích và định giá cổ phiếu) Trong trường hợp nào định giá bằng mô hình chiết khấu FCFF thường phù hợp hơn mô hình FCFE?
+  -> Doanh nghiệp có đòn bẩy cao hoặc cơ cấu vốn dự kiến thay đổi đáng kể
+  e: Khi nợ vay lớn hoặc cơ cấu vốn biến động, FCFE khó dự báo (phụ thuộc vay ròng) nên dùng FCFF chiết khấu bằng WACC rồi trừ nợ. Cổ tức ổn định phù hợp DDM; ngân hàng thường dùng P/B hoặc thu nhập thặng dư.
+  b: Lựa chọn mô hình FCFF (chiết khấu bằng WACC) và FCFE (chiết khấu bằng chi phí vốn chủ)
+[C2-036] (Phân tích và định giá cổ phiếu) Mô hình tăng trưởng cổ tức không đổi (Gordon) chỉ cho kết quả có ý nghĩa khi
+  -> Tỷ suất sinh lời yêu cầu lớn hơn tốc độ tăng trưởng cổ tức và g không đổi mãi mãi
+  e: P0 = D1/(r − g) chỉ xác định khi r > g và g ổn định vĩnh viễn; nếu g thay đổi qua các giai đoạn cần dùng mô hình nhiều giai đoạn.
+  b: Mô hình Gordon: P0 = D1/(r − g), điều kiện r > g
+[C2-037] (Phân tích và định giá cổ phiếu) Cơ cấu vốn mục tiêu của công ty: 60% vốn chủ sở hữu, 40% nợ vay. Chi phí vốn chủ sở hữu 15%, lãi suất vay trước thuế 10%, thuế suất thuế TNDN 20%. Chi phí vốn bình quân gia quyền (WACC) là
+  -> 12,2%
+  e: WACC = 60% × 15% + 40% × 10% × (1 − 20%) = 9% + 3,2% = 12,2%. Lỗi thường gặp: bỏ lá chắn thuế (13,0%), đảo tỷ trọng (10,8%), lấy bình quân giản đơn (11,5%).
+  b: WACC = wE × rE + wD × rD × (1 − t)
+[C9-015] (Phân tích và định giá cổ phiếu) Cổ phiếu không trả cổ tức, giá hiện tại 30.000 đồng. Quyền chọn mua và quyền chọn bán kiểu châu Âu trên cổ phiếu này cùng giá thực hiện 32.000 đồng, cùng kỳ hạn 3 tháng, có giá lần lượt 2.000 đồng và 2.800 đồng. Lãi suất phi rủi ro 8%/năm (lãi đơn). Theo quan hệ ngang giá quyền chọn mua – bán, nhà đầu tư có thể kinh doanh chênh lệch giá như thế nào?
+  -> Bán quyền chọn mua, vay PV(K), mua quyền chọn bán và mua cổ phiếu; lãi ≈ 573 đồng/cp
+  e: PV(K) = 32.000/(1 + 8% × 3/12) = 31.372,55 đồng. C + PV(K) = 33.372,55 > P + S = 32.800 nên vế quyền chọn mua bị định giá cao: bán vế đắt (bán quyền chọn mua, vay PV(K)), mua vế rẻ (mua quyền chọn bán và cổ phiếu), thu ngay 572,55 ≈ 573 đồng/cp; khi đáo hạn các vị thế triệt tiêu. Lỗi thường gặp: làm ngược chiều, hoặc không chiết khấu giá thực hiện (1.200 đồng).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Ngang giá quyền chọn mua – bán: C + K/(1 + r × T) = P + S
+[C9-016] (Phân tích và định giá cổ phiếu) Cổ phiếu đang giao dịch ở giá 50.000 đồng, công ty vừa trả cổ tức D0 = 2.000 đồng/cp. Nhà đầu tư yêu cầu tỷ suất sinh lời 12%/năm. Giả định giá thị trường bằng giá trị theo mô hình Gordon, tốc độ tăng trưởng cổ tức đều mà thị trường đang kỳ vọng là bao nhiêu?
+  -> 7,69%
+  e: P0 = D0(1 + g)/(r − g) ⇒ 50.000 × (0,12 − g) = 2.000 × (1 + g) ⇒ 6.000 − 2.000 = 52.000g ⇒ g = 7,69%. Lỗi thường gặp: coi D0 là D1 (g = 12% − 4% = 8,00%), cộng thay vì trừ tỷ suất cổ tức (16,00%), lấy tỷ suất cổ tức làm tốc độ tăng trưởng (4,00%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình Gordon: suy ra tốc độ tăng trưởng hàm ý từ giá thị trường
+[C9-017] (Phân tích và định giá cổ phiếu) Cổ tức dự kiến năm 1 là 1.000 đồng/cp, năm 2 là 1.200 đồng/cp. Cuối năm 2, cổ phiếu dự kiến được bán với P/E bằng 12 lần EPS năm 2 (EPS năm 2 dự kiến 3.000 đồng). Tỷ suất sinh lời yêu cầu 14%/năm. Giá trị nội tại hiện tại của cổ phiếu xấp xỉ bao nhiêu?
+  -> 29.501 đồng
+  e: Giá dự kiến cuối năm 2: P2 = 12 × 3.000 = 36.000 đồng. P0 = 1.000/1,14 + (1.200 + 36.000)/1,14² = 877,19 + 28.624,19 = 29.501 đồng. Lỗi thường gặp: chiết khấu P2 chỉ 1 năm (33.380), không chiết khấu P2 (37.801), cộng thẳng các khoản không chiết khấu (38.200).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Chiết khấu cổ tức với giá bán cuối kỳ ước tính theo P/E
+[C9-018] (Phân tích và định giá cổ phiếu) Công ty có tỷ lệ chi trả cổ tức ổn định 60%, tốc độ tăng trưởng đều 6%/năm, tỷ suất sinh lời yêu cầu 11%/năm. Theo mô hình Gordon, hệ số P/E hợp lý tính trên EPS năm vừa qua (P0/E0) là bao nhiêu?
+  -> 12,72 lần
+  e: P0 = D0(1 + g)/(r − g) ⇒ P0/E0 = tỷ lệ chi trả × (1 + g)/(r − g) = 0,6 × 1,06/0,05 = 12,72 lần. 12,00 lần là P/E tính trên EPS năm tới (P0/E1 = 0,6/0,05); 5,78 lần là quên trừ g ở mẫu số (0,6 × 1,06/0,11); 8,48 lần là dùng nhầm tỷ lệ giữ lại 40% (0,4 × 1,06/0,05).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số P/E theo mô hình tăng trưởng cổ tức đều
+[C9-019] (Phân tích và định giá cổ phiếu) Công ty có ROE ổn định 8%, thấp hơn tỷ suất sinh lời yêu cầu của cổ đông là 12%. Theo mô hình tăng trưởng cổ tức với g = ROE × tỷ lệ lợi nhuận giữ lại, nếu công ty tăng tỷ lệ giữ lại để tái đầu tư (các yếu tố khác không đổi), giá trị nội tại của cổ phiếu sẽ
+  -> Giảm, vì lợi nhuận tái đầu tư sinh lời thấp hơn mức cổ đông yêu cầu
+  e: Khi ROE < r, mỗi đồng giữ lại tái đầu tư tạo giá trị hiện tại nhỏ hơn một đồng (giá trị cơ hội tăng trưởng âm). Ví dụ EPS năm tới 1.000 đồng: giữ lại 0% ⇒ P = 8.333; giữ lại 40% (g = 3,2%) ⇒ P = 6.818; giữ lại 60% (g = 4,8%) ⇒ P = 5.556 đồng. Tăng trưởng chỉ tạo giá trị khi ROE > r.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Tăng trưởng, chính sách cổ tức và giá trị cổ phiếu (ROE so với r)
+[C2-038] (Phân tích và định giá trái phiếu) Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 8%/năm, trả lãi mỗi năm một lần, còn đúng 3 năm đến hạn (vừa trả coupon). Nếu lợi suất đáo hạn yêu cầu là 10%/năm, giá trái phiếu (làm tròn đến đồng) là
+  -> 95.026 đồng
+  e: P = 8.000/1,1 + 8.000/1,1² + 108.000/1,1³ = 7.272,73 + 6.611,57 + 81.142,00 = 95.026 đồng. Lỗi thường gặp: đảo coupon và lợi suất (105.154), tính như trả lãi nửa năm (94.924), không chiết khấu coupon (99.131).
+  b: Giá trái phiếu: P = Σ C/(1 + y)^t + F/(1 + y)^n
+[C2-039] (Phân tích và định giá trái phiếu) Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 6%/năm trả hằng năm, còn đúng 2 năm đến hạn (vừa trả coupon), đang giao dịch ở giá 96.433 đồng. Lợi suất đáo hạn (YTM) của trái phiếu xấp xỉ bằng
+  -> 8,00%
+  e: YTM là y thỏa mãn 96.433 = 6.000/(1 + y) + 106.000/(1 + y)². Thử y = 8%: 5.555,56 + 90.877,89 = 96.433 ⇒ YTM ≈ 8,00%. 6,00% là lãi suất coupon; 6,22% là lợi suất hiện hành; 9,92% là gộp toàn bộ chênh lệch giá vào một năm.
+  b: Lợi suất đáo hạn: P = Σ C/(1 + YTM)^t + F/(1 + YTM)^n
+[C2-040] (Phân tích và định giá trái phiếu) Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 9%/năm (trả hằng năm), đang giao dịch ở giá 95.000 đồng. Lợi suất hiện hành của trái phiếu là
+  -> 9,47%
+  e: Lợi suất hiện hành = coupon năm/giá thị trường = 9.000/95.000 = 9,47%. 9,00% là lãi suất coupon; 14,74% là cộng cả chênh lệch giá 5.000 vào tử số.
+  b: Lợi suất hiện hành = coupon hằng năm/giá thị trường
+[C2-041] (Phân tích và định giá trái phiếu) Trái phiếu mệnh giá 100.000 đồng, kỳ hạn còn lại 3 năm, coupon 10%/năm trả hằng năm, lợi suất đáo hạn 10%/năm. Thời gian đáo hạn bình quân Macaulay (Macaulay duration) của trái phiếu là
+  -> 2,74 năm
+  e: PV dòng tiền: 9.090,91; 8.264,46; 82.644,63 (tổng 100.000). D = (1×9.090,91 + 2×8.264,46 + 3×82.644,63)/100.000 = 2,7355 ≈ 2,74 năm. 3,00 là kỳ hạn; 2,49 là duration điều chỉnh D/(1 + y).
+  b: Duration Macaulay: D = Σ t × PV(CFt)/P
+[C2-042] (Phân tích và định giá trái phiếu) Trái phiếu có duration điều chỉnh (modified duration) 6,5 và độ lồi (convexity) 60, theo quy ước %ΔP ≈ −MD × Δy + ½ × C × (Δy)². Nếu lợi suất đáo hạn tăng 100 điểm cơ bản, giá trái phiếu thay đổi xấp xỉ
+  -> −6,20%
+  e: %ΔP ≈ −6,5 × 0,01 + ½ × 60 × 0,01² = −6,50% + 0,30% = −6,20%. Độ lồi luôn cộng thêm (với độ lồi dương) bất kể lãi suất tăng hay giảm. Lỗi thường gặp: trừ phần độ lồi (−6,80%), bỏ độ lồi (−6,50%), quên hệ số ½ (−5,90%).
+  b: %ΔP ≈ −MD × Δy + ½ × Convexity × (Δy)²
+[C2-043] (Phân tích và định giá trái phiếu) Đối với trái phiếu thông thường (không có quyền chọn), các yếu tố khác không đổi, thay đổi nào sau đây làm duration của trái phiếu tăng lên?
+  -> Lãi suất coupon của trái phiếu thấp hơn
+  e: Coupon thấp làm tỷ trọng giá trị dòng tiền cuối kỳ lớn hơn nên duration dài hơn. Lợi suất cao hơn, kỳ hạn ngắn hơn hoặc trả gốc dần đều làm duration ngắn lại.
+  b: Các nhân tố ảnh hưởng đến duration: coupon, kỳ hạn, lợi suất đáo hạn
+[C2-044] (Phân tích và định giá trái phiếu) Một trái phiếu được giao dịch dưới mệnh giá (trái phiếu chiết khấu) khi
+  -> Lãi suất coupon thấp hơn lợi suất đáo hạn yêu cầu của thị trường
+  e: Coupon < YTM ⇒ P < mệnh giá; coupon > YTM ⇒ P > mệnh giá; bằng nhau ⇒ P = mệnh giá. Với trái phiếu chiết khấu, lợi suất hiện hành lớn hơn lãi suất coupon.
+  b: Quan hệ giữa giá trái phiếu, lãi suất coupon và lợi suất đáo hạn
+[C8-025] (Phân tích và định giá trái phiếu) Cùng kỳ hạn 5 năm: trái phiếu Chính phủ có lợi suất đáo hạn 3,2%/năm; trái phiếu của doanh nghiệp X (xếp hạng AAA) 4,1%/năm; trái phiếu của doanh nghiệp Y (xếp hạng BBB) 6,0%/năm. Nhận định nào đúng về mức bù rủi ro tín dụng?
+  -> Mức bù của Y là 280 điểm cơ bản, cao hơn của X 190 điểm cơ bản
+  e: Mức bù rủi ro tín dụng = lợi suất trái phiếu doanh nghiệp − lợi suất trái phiếu Chính phủ cùng kỳ hạn. X: 4,1% − 3,2% = 90 điểm cơ bản; Y: 6,0% − 3,2% = 280 điểm cơ bản; chênh lệch 190 điểm cơ bản. Xếp hạng tín nhiệm thấp hơn (BBB) nghĩa là rủi ro vỡ nợ cao hơn nên nhà đầu tư đòi hỏi mức bù cao hơn. 410 điểm là lấy cả lợi suất của X; 190 điểm cho Y là lấy chênh lệch giữa hai doanh nghiệp.
+  b: Mức bù rủi ro tín dụng (credit spread) so với trái phiếu Chính phủ cùng kỳ hạn; xếp hạng tín nhiệm
+[C9-020] (Phân tích và định giá trái phiếu) Trái phiếu mệnh giá 100.000 đồng, lãi suất coupon 10%/năm, trả lãi 6 tháng một lần, còn đúng 2 năm đến hạn (vừa trả lãi). Lợi suất đáo hạn yêu cầu là 8%/năm (danh nghĩa, ghép lãi 6 tháng). Giá trái phiếu (làm tròn đến đồng) là
+  -> 103.630 đồng
+  e: Mỗi kỳ 6 tháng: coupon = 5.000 đồng, lợi suất = 4%, số kỳ = 4. P = 5.000 × [1 − 1,04^(−4)]/0,04 + 100.000/1,04^4 = 18.149 + 85.480 = 103.630 đồng (> mệnh giá vì coupon > YTM). Lỗi thường gặp: tính như trả lãi năm (103.567), đảo coupon và lợi suất (96.454), quên chia đôi lợi suất (90.064 – thấp hơn mệnh giá là vô lý).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá trái phiếu trả lãi nửa năm
+[C9-021] (Phân tích và định giá trái phiếu) Nhà đầu tư mua trái phiếu mệnh giá 100.000 đồng, coupon 10%/năm trả cuối mỗi năm, còn đúng 2 năm đến hạn, với giá bằng mệnh giá (YTM = 10%/năm) và nắm giữ đến ngày đáo hạn. Coupon năm thứ nhất chỉ tái đầu tư được với lãi suất 6%/năm cho đến ngày đáo hạn. Lợi suất bình quân năm thực tế đạt được (lãi kép) của khoản đầu tư là
+  -> 9,82%
+  e: Giá trị cuối năm 2 = 10.000 × 1,06 + 110.000 = 120.600 đồng. Lợi suất thực tế = (120.600/100.000)^(1/2) − 1 = 9,82%, thấp hơn YTM vì coupon được tái đầu tư ở lãi suất thấp hơn YTM (rủi ro tái đầu tư). YTM chỉ đạt được khi nắm giữ đến hạn và mọi coupon được tái đầu tư đúng bằng YTM. Lỗi thường gặp: cho rằng luôn đạt YTM (10,00%), lấy lãi đơn bình quân 20.600/2/100.000 (10,30%), bỏ qua tiền lãi tái đầu tư ((120.000/100.000)^(1/2) − 1 = 9,54%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất đáo hạn, giả định tái đầu tư coupon và rủi ro tái đầu tư
+[C9-022] (Phân tích và định giá trái phiếu) Trái phiếu không trả lãi định kỳ (zero-coupon), mệnh giá 100.000 đồng, còn đúng 5 năm đến hạn. Với lợi suất đáo hạn yêu cầu 7%/năm (ghép lãi hằng năm), giá trái phiếu (làm tròn đến đồng) là
+  -> 71.299 đồng
+  e: P = 100.000/1,07^5 = 100.000/1,40255 = 71.299 đồng. Lỗi thường gặp: trừ lãi đơn trên mệnh giá (100.000 × (1 − 5 × 7%) = 65.000), chiết khấu lãi đơn (100.000/1,35 = 74.074), ghép lãi nửa năm (100.000/1,035^10 = 70.892).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá trái phiếu không trả lãi định kỳ
+[C9-023] (Phân tích và định giá trái phiếu) Trái phiếu trả lãi hằng năm đang có giá 98.000 đồng, lợi suất đáo hạn 8%/năm, thời gian đáo hạn bình quân Macaulay 5,4 năm. Nếu lợi suất đáo hạn tăng thêm 50 điểm cơ bản, theo xấp xỉ duration (bỏ qua độ lồi), giá trái phiếu ước tính là
+  -> 95.550 đồng
+  e: Duration điều chỉnh MD = 5,4/1,08 = 5,00. %ΔP ≈ −MD × Δy = −5 × 0,5% = −2,50% ⇒ P ≈ 98.000 × (1 − 0,025) = 95.550 đồng. Lỗi thường gặp: dùng thẳng duration Macaulay (95.354), sai dấu (100.450), đổi 50 điểm cơ bản thành 0,05% (97.755).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Duration Macaulay, duration điều chỉnh và độ nhạy giá trái phiếu
+[C9-024] (Phân tích và định giá trái phiếu) Thời gian đáo hạn bình quân Macaulay (Macaulay duration) của trái phiếu không trả lãi định kỳ (zero-coupon) bằng
+  -> Đúng thời gian còn lại đến ngày đáo hạn của trái phiếu
+  e: Duration Macaulay là bình quân gia quyền các thời điểm nhận tiền theo tỷ trọng giá trị hiện tại; zero-coupon chỉ có một dòng tiền khi đáo hạn nên duration bằng đúng thời gian đáo hạn còn lại. Chia cho (1 + YTM) là duration điều chỉnh.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Duration Macaulay của trái phiếu zero-coupon
+[C2-015] (Thị trường hiệu quả và tài chính hành vi) Theo giả thuyết thị trường hiệu quả dạng yếu, giá chứng khoán đã phản ánh đầy đủ
+  -> Toàn bộ thông tin về giá và khối lượng giao dịch trong quá khứ
+  e: Dạng yếu: giá phản ánh thông tin giá, khối lượng quá khứ (nên phân tích kỹ thuật không tạo lợi suất vượt trội). Dạng trung bình: thêm mọi thông tin công khai. Dạng mạnh: mọi thông tin kể cả nội bộ.
+  b: Giả thuyết thị trường hiệu quả (EMH) – dạng yếu
+[C2-016] (Thị trường hiệu quả và tài chính hành vi) Nếu thị trường hiệu quả ở dạng trung bình (bán mạnh) nhưng chưa đạt dạng mạnh, nhà đầu tư nào có khả năng đạt lợi suất vượt trội (sau điều chỉnh rủi ro) một cách nhất quán?
+  -> Người giao dịch dựa trên thông tin nội bộ chưa được công bố
+  e: Ở dạng trung bình, mọi thông tin công khai (BCTC, công bố cổ tức, dữ liệu giá) đã phản ánh vào giá; chỉ thông tin nội bộ chưa công bố mới có thể tạo lợi suất vượt trội vì thị trường chưa đạt dạng mạnh.
+  b: Giả thuyết thị trường hiệu quả (EMH) – dạng trung bình và dạng mạnh
+[C2-017] (Thị trường hiệu quả và tài chính hành vi) Dạng hiệu quả nào của thị trường cho rằng giá chứng khoán phản ánh mọi thông tin, bao gồm cả thông tin nội bộ?
+  -> Dạng mạnh
+  e: Dạng mạnh: giá phản ánh mọi thông tin (quá khứ, công khai và nội bộ), nên không ai đạt lợi suất vượt trội một cách nhất quán.
+  b: Giả thuyết thị trường hiệu quả (EMH) – dạng mạnh
+[C2-018] (Thị trường hiệu quả và tài chính hành vi) Nhà đầu tư thường bán sớm cổ phiếu đang có lãi để “chốt lời” nhưng lại tiếp tục nắm giữ cổ phiếu đang thua lỗ với hy vọng giá sẽ hồi phục. Theo tài chính hành vi, đây là biểu hiện của
+  -> Hiệu ứng bán lời, giữ lỗ (disposition effect)
+  e: Disposition effect xuất phát từ tâm lý né tránh thua lỗ: nhà đầu tư ngại hiện thực hóa khoản lỗ nên giữ cổ phiếu lỗ quá lâu và bán cổ phiếu lãi quá sớm.
+  b: Tài chính hành vi: né tránh thua lỗ, hiệu ứng bán lời giữ lỗ
+[C2-019] (Thị trường hiệu quả và tài chính hành vi) Một chuyên viên phân tích đưa ra dự báo EPS ban đầu là 5.000 đồng; khi có thông tin mới bất lợi, anh ta chỉ điều chỉnh dự báo rất ít so với con số ban đầu. Đây là biểu hiện của thiên lệch hành vi nào?
+  -> Hiệu ứng mỏ neo (anchoring)
+  e: Hiệu ứng mỏ neo: bám vào một con số ban đầu (điểm neo) và điều chỉnh không đủ khi có thông tin mới.
+  b: Tài chính hành vi: hiệu ứng mỏ neo
+[C8-024] (Thị trường hiệu quả và tài chính hành vi) Nhiều nghiên cứu thực nghiệm ghi nhận cổ phiếu có hệ số P/E thấp thường đạt lợi suất đã điều chỉnh theo rủi ro cao hơn cổ phiếu P/E cao trong dài hạn. Cách giải thích nào sau đây là cách giải thích theo tài chính hành vi?
+  -> Nhà đầu tư phản ứng thái quá với tin xấu, đẩy giá cổ phiếu kém khả quan xuống quá thấp
+  e: Hiệu ứng P/E thấp là một hiện tượng bất thường (anomaly) so với giả thuyết thị trường hiệu quả dạng trung bình, vì P/E tính từ thông tin công khai. Tài chính hành vi giải thích bằng tâm lý nhà đầu tư: phản ứng thái quá, ngoại suy quá mức kết quả xấu (hoặc tốt) gần đây, làm cổ phiếu “kém khả quan” bị định giá quá thấp rồi tăng trở lại khi giá điều chỉnh. Ba cách còn lại là lập luận bảo vệ thị trường hiệu quả: rủi ro chưa được đo hết (vấn đề mô hình định giá), chi phí giao dịch làm mất lợi nhuận vượt trội, hoặc kết quả thống kê do khai thác dữ liệu.
+  b: Các hiện tượng bất thường của thị trường (hiệu ứng P/E thấp); giải thích theo tài chính hành vi (phản ứng thái quá) và theo thị trường hiệu quả
+[C9-025] (Thị trường hiệu quả và tài chính hành vi) Nhiều nghiên cứu cho thấy sau khi doanh nghiệp công bố lợi nhuận cao hơn kỳ vọng, giá cổ phiếu tiếp tục tăng dần trong nhiều tuần. Hiện tượng này mâu thuẫn trực tiếp nhất với dạng nào của giả thuyết thị trường hiệu quả?
+  -> Dạng trung bình, vì giá không phản ánh ngay và đầy đủ thông tin công khai
+  e: Theo dạng trung bình (bán mạnh), giá phải điều chỉnh ngay và đầy đủ khi thông tin công khai được công bố; giá còn trôi dần nhiều tuần sau công bố (post-earnings announcement drift) cho phép kiếm lợi suất vượt trội từ thông tin công khai nên mâu thuẫn với dạng này.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giả thuyết thị trường hiệu quả dạng trung bình và các bất thường thị trường
+[C9-026] (Thị trường hiệu quả và tài chính hành vi) Nếu thị trường hiệu quả ở dạng yếu, phương pháp nào sau đây KHÔNG thể giúp nhà đầu tư đạt lợi suất vượt trội một cách ổn định (sau điều chỉnh rủi ro)?
+  -> Phân tích kỹ thuật dựa trên diễn biến giá và khối lượng giao dịch quá khứ
+  e: Dạng yếu: giá đã phản ánh toàn bộ thông tin giá và khối lượng quá khứ nên phân tích kỹ thuật không tạo lợi suất vượt trội ổn định. Dạng yếu chưa loại trừ khả năng phân tích cơ bản, khai thác thông tin công khai hay thông tin nội bộ mang lại lợi suất vượt trội.
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giả thuyết thị trường hiệu quả dạng yếu và phân tích kỹ thuật
+[C2-001] (Tổng quan về phân tích và đầu tư) Một khoản vay kỳ hạn 1 năm, số tiền 500 triệu đồng, lãi suất danh nghĩa 10%/năm, tiền lãi được khấu trừ trả trước ngay khi giải ngân (người vay thực nhận 450 triệu đồng và cuối năm trả 500 triệu đồng). Lãi suất thực tế người vay phải chịu là bao nhiêu?
+  -> 11,11%
+  e: Lãi trả trước = 500 × 10% = 50 triệu đồng; số tiền thực nhận = 500 − 50 = 450 triệu đồng. Lãi suất thực tế = 50/450 = 11,11%/năm (tức 10/90). Lỗi thường gặp: giữ nguyên 10% hoặc chia cho 550 (9,09%).
+  b: Lãi suất thực tế khi trả lãi trước: r = i/(1 − i) = 10/90
+[C2-002] (Tổng quan về phân tích và đầu tư) Với cùng một mức lãi suất danh nghĩa năm, khi tần suất ghép lãi trong năm tăng lên (ví dụ từ ghép lãi năm sang ghép lãi tháng), lãi suất thực tế năm (EAR) thay đổi như thế nào?
+  -> Tăng lên, vì tiền lãi được nhập vào gốc sớm hơn và tiếp tục sinh lãi
+  e: EAR = (1 + i/m)^m − 1 tăng khi số lần ghép lãi m tăng, vì lãi được nhập gốc sớm hơn (ví dụ 12%/năm: ghép năm 12,00%, ghép tháng 12,68%).
+  b: Lãi suất thực tế năm: EAR = (1 + i/m)^m − 1
+[C2-003] (Tổng quan về phân tích và đầu tư) Nhà đầu tư sẽ nhận 20 triệu đồng vào cuối mỗi năm trong 5 năm liên tiếp. Với lãi suất chiết khấu 10%/năm (ghép lãi hằng năm), giá trị hiện tại của dòng tiền này là bao nhiêu?
+  -> 75,82 triệu đồng
+  e: PV = 20 × [1 − 1,1^(−5)]/0,1 = 20 × 3,7908 = 75,82 triệu đồng. Lỗi thường gặp: không chiết khấu (100), coi là niên kim đầu kỳ (83,40), chiết khấu tổng 100 một lần (62,09).
+  b: Giá trị hiện tại của niên kim cuối kỳ: PV = A × [1 − (1 + r)^(−n)]/r
+[C2-004] (Tổng quan về phân tích và đầu tư) Trong quy trình đầu tư, bước nào cần được thực hiện đầu tiên?
+  -> Xác định mục tiêu và các ràng buộc của nhà đầu tư (chính sách đầu tư)
+  e: Quy trình đầu tư bắt đầu bằng xây dựng chính sách đầu tư (mục tiêu sinh lời – rủi ro và các ràng buộc), sau đó mới phân tích, xây dựng danh mục, theo dõi và đánh giá.
+  b: Quy trình đầu tư: chính sách đầu tư → phân tích → xây dựng danh mục → đánh giá, điều chỉnh
+[C2-005] (Tổng quan về phân tích và đầu tư) Yếu tố nào sau đây thuộc nhóm ràng buộc trong chính sách đầu tư, thay vì nhóm mục tiêu sinh lời – rủi ro?
+  -> Nhu cầu thanh khoản và thời hạn đầu tư của nhà đầu tư
+  e: Mục tiêu gồm sinh lời và rủi ro (mức sẵn sàng, khả năng chấp nhận rủi ro); ràng buộc gồm thanh khoản, thời hạn, thuế, pháp lý và các yếu tố đặc thù.
+  b: Chính sách đầu tư: mục tiêu (sinh lời, rủi ro) và ràng buộc (thanh khoản, thời hạn, thuế, pháp lý, đặc thù)
+[C8-023] (Tổng quan về phân tích và đầu tư) Bà L gửi 400 triệu đồng kỳ hạn 1 năm và được chọn: (1) lãi 7,5%/năm, trả cuối kỳ; (2) lãi 7,0%/năm, trả toàn bộ ngay khi gửi. Giả sử tiền lãi nhận trước được gửi tiếp đến cuối năm với lãi suất 7,5%/năm; bỏ qua thuế, phí. Nhận định nào đúng?
+  -> Phương án (2) lợi hơn, vì 7,5% trả sau chỉ tương đương khoảng 6,98% trả trước
+  e: Lãi suất trả trước tương đương của 7,5% trả sau: d = r/(1 + r) = 0,075/1,075 = 6,98% < 7,0%, nên (2) lợi hơn. Kiểm tra bằng tiền: (1) cuối năm nhận lãi 400 × 7,5% = 30,0 triệu đồng; (2) nhận ngay 400 × 7,0% = 28,0 triệu đồng, gửi tiếp đến cuối năm được 28,0 × 1,075 = 30,1 triệu đồng. So thẳng 7,5% với 7,0% là bỏ qua giá trị thời gian của tiền lãi nhận sớm; 8,11% là dùng nhầm công thức r/(1 − r).
+  b: Lãi suất trả trước tương đương: d = r / (1 + r); giá trị tương lai của tiền lãi nhận trước
+[C8-026] (Tổng quan về phân tích và đầu tư) Trong bảng hệ số tài chính, giá trị 5,8666 ứng với lãi suất 8%/kỳ và n = 5 kỳ là hệ số nào sau đây?
+  -> Hệ số giá trị tương lai của dòng tiền đều 1 đồng mỗi kỳ (FVIFA)
+  e: Với r = 8%, n = 5: FVIFA = (1,08⁵ − 1)/0,08 = 5,8666; PVIFA = (1 − 1,08⁻⁵)/0,08 = 3,9927; FVIF = 1,08⁵ = 1,4693; PVIF = 1,08⁻⁵ = 0,6806. Có thể nhận ra mà không cần tính: FVIFA = 1 + (1 + r) + … + (1 + r)^(n−1) là tổng n số hạng, từ số hạng thứ hai đều lớn hơn 1, nên luôn lớn hơn n (r > 0, n ≥ 2); PVIFA là tổng n số hạng nhỏ hơn 1 nên luôn nhỏ hơn n; PVIF < 1; FVIF chỉ là lũy thừa của (1 + r), ở đây 1,47 < 5.
+  b: Hệ số giá trị tương lai, hiện tại của khoản tiền đơn và dòng tiền đều (FVIF, PVIF, FVIFA, PVIFA)
+[C9-001] (Tổng quan về phân tích và đầu tư) Một khoản tiền gửi có lãi suất danh nghĩa 10%/năm, tiền lãi được ghép vào gốc theo quý. Lãi suất thực tế năm (EAR) của khoản tiền gửi này là bao nhiêu?
+  -> 10,38%
+  e: Lãi suất mỗi quý = 10%/4 = 2,5%. EAR = (1 + 0,025)^4 − 1 = 10,38%. Lỗi thường gặp: coi lãi suất danh nghĩa là lãi suất thực tế (10,00%), ghép lãi theo tháng thay vì theo quý (10,47%), lấy lãi suất một quý mà quên quy ra năm (2,50%).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lãi suất danh nghĩa (APR) và lãi suất thực tế năm: EAR = (1 + APR/m)^m − 1
+[C9-002] (Tổng quan về phân tích và đầu tư) Giá trị hiện tại của một dòng tiền đều C nhận vào cuối mỗi năm, kéo dài vĩnh viễn (niên kim vĩnh viễn), với lãi suất chiết khấu r > 0, được tính bằng công thức nào?
+  -> PV = C/r
+  e: Niên kim vĩnh viễn cuối kỳ: PV = C/(1 + r) + C/(1 + r)² + … = C/r. C/(1 + r) chỉ là giá trị hiện tại của khoản tiền đầu tiên; C × (1 + r)/r là niên kim vĩnh viễn đầu kỳ (khoản đầu tiên nhận ngay).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị hiện tại của niên kim vĩnh viễn
+[C9-003] (Tổng quan về phân tích và đầu tư) Nhà đầu tư gửi 10 triệu đồng vào cuối mỗi năm, liên tục trong 4 năm, lãi suất 8%/năm, ghép lãi hằng năm. Số tiền nhà đầu tư có ngay sau lần gửi cuối cùng là bao nhiêu?
+  -> 45,06 triệu đồng
+  e: FV niên kim cuối kỳ = 10 × [(1,08^4 − 1)/0,08] = 10 × 4,5061 = 45,06 triệu đồng. Lỗi thường gặp: không tính lãi (40,00), tính lãi đơn (44,80), coi là niên kim đầu kỳ (48,67).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị tương lai của niên kim cuối kỳ: FV = A × [(1 + r)^n − 1]/r
+[C9-004] (Tổng quan về phân tích và đầu tư) Khách hàng vay 500 triệu đồng, lãi suất 12%/năm (tương đương 1%/tháng), trả góp đều vào cuối mỗi tháng trong 24 tháng, mỗi kỳ gồm cả gốc và lãi trên dư nợ còn lại. Số tiền phải trả mỗi tháng xấp xỉ bao nhiêu?
+  -> 23,54 triệu đồng
+  e: PMT = PV × r/[1 − (1 + r)^(−n)] = 500 × 0,01/(1 − 1,01^(−24)) = 23,54 triệu đồng. Lỗi thường gặp: tính lãi trên gốc ban đầu cho cả 24 tháng (500/24 + 5 = 25,83), tính niên kim năm rồi chia 12 (24,65), bỏ qua lãi (500/24 = 20,83).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Khoản trả góp đều (niên kim): PMT = PV × r/[1 − (1 + r)^(−n)]
+[C9-005] (Tổng quan về phân tích và đầu tư) Một khoản đầu tư mang lại 50 triệu đồng mỗi năm mãi mãi, khoản tiền đầu tiên nhận vào cuối năm thứ 4. Với lãi suất chiết khấu 10%/năm, giá trị hiện tại của khoản đầu tư là bao nhiêu?
+  -> 375,66 triệu đồng
+  e: Giá trị niên kim vĩnh viễn tại cuối năm 3 (một năm trước khoản đầu tiên) = 50/0,1 = 500 triệu đồng; chiết khấu về hiện tại: 500/1,1³ = 375,66 triệu đồng. Lỗi thường gặp: không chiết khấu (500,00), chiết khấu 4 năm (341,51), chiết khấu 2 năm (413,22).
+  b: Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị hiện tại của niên kim vĩnh viễn trả chậm

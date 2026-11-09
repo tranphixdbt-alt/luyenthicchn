@@ -100,5 +100,30 @@ def main():
         if f"'{t}'" not in syl: warns.append(f"chủ đề chưa gán chuyên đề SRTC (SYL trong app.js): {t}")
     if warns: print("CẢNH BÁO:", len(warns)); print("\n".join(warns[:30]))
 
+CARD_SUBJ = ["LU", "CB", "PT", "MG", "BC", "BL", "QU", "PS"]
+def gop_the():
+    """Gộp thẻ ghi nhớ data/src/the_nho/<MÔN>.json → data/so_lieu.json (thẻ Luật đứng đầu để giữ thứ tự cũ)."""
+    errs, cards, seen = [], [], {}
+    topics = {}
+    for q in json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8")): topics.setdefault(q["subject"], set()).add(q["topic"])
+    for sj in CARD_SUBJ:
+        p = SRC / "the_nho" / f"{sj}.json"
+        if not p.exists(): continue
+        for c in json.loads(p.read_text(encoding="utf-8")):
+            i = c.get("id", "?")
+            for k in ["id", "subject", "topic", "front", "back", "basis"]:
+                if not str(c.get(k, "")).strip(): errs.append(f"thẻ {i}: thiếu {k}")
+            if c.get("subject") != sj or not str(i).startswith(sj + "-"): errs.append(f"thẻ {i}: sai môn (file {sj})")
+            if len(c.get("front", "")) > 160 or len(c.get("back", "")) > 220: errs.append(f"thẻ {i}: mặt thẻ quá dài")
+            if c.get("topic") not in topics.get(sj, set()): errs.append(f"thẻ {i}: chủ đề '{c.get('topic')}' không có trong môn {sj}")
+            key = loose(c.get("front", ""))
+            if i in seen.values() or key in seen: errs.append(f"thẻ {i}: trùng mã hoặc trùng mặt trước với {seen.get(key, i)}")
+            seen[key] = i; cards.append({k: c[k] for k in ["id", "subject", "topic", "front", "back", "basis"] if k in c})
+    if errs:
+        print("LỖI THẺ:", len(errs)); print("\n".join(errs[:60])); sys.exit(1)
+    (ROOT / "data" / "so_lieu.json").write_text(json.dumps(cards, ensure_ascii=False, indent=0), encoding="utf-8")
+    print("thẻ ghi nhớ:", dict(sorted(Counter(c["subject"] for c in cards).items())))
+
 if __name__ == "__main__":
     main()
+    gop_the()
