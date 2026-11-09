@@ -291,8 +291,8 @@
   "id": "LU-37",
   "subject": "LU",
   "front": "TT 91: ngưỡng cảnh báo / kiểm soát / kiểm soát đặc biệt theo tỷ lệ vốn khả dụng",
-  "back": "150% đến < 180% / 120% đến < 150% / < 120%",
-  "basis": "Điều 13, 14, 16 TT 91/2020/TT-BTC",
+  "back": "150% đến < 180% / 120% đến < 150% (trong mọi kỳ báo cáo 03 tháng liên tục, hoặc số đã soát xét/kiểm toán) / < 120% (kể cả số công ty tự tính)",
+  "basis": "Điểm a, b khoản 1 Điều 13, 14; điểm a khoản 1 Điều 16 TT 91/2020/TT-BTC (các điều này không bị sửa đổi bởi TT 102/2025/TT-BTC)",
   "topic": "An toàn tài chính CTCK"
  },
  {

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "BL-01",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Bảo lãnh phát hành chứng khoán (Luật CK) gồm những dạng cam kết nào với tổ chức phát hành?",
+  "back": "Nhận mua một phần/toàn bộ chứng khoán để bán lại; mua số còn lại chưa phân phối hết; hoặc cố gắng tối đa để phân phối số chứng khoán cần phát hành",
+  "basis": "Khoản 31 Điều 4 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-02",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Bảo lãnh cố gắng tối đa (best efforts): ai chịu rủi ro phần chứng khoán không bán hết?",
+  "back": "Tổ chức phát hành. Tổ chức bảo lãnh chỉ làm đại lý phân phối hưởng hoa hồng, không cam kết mua phần còn lại",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương thức bảo lãnh cố gắng tối đa"
+ },
+ {
+  "id": "BL-03",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Bảo lãnh “tất cả hoặc không” (all-or-none): hệ quả khi không bán hết số chứng khoán dự kiến",
+  "back": "Hủy toàn bộ đợt phát hành, hoàn trả tiền đặt mua cho nhà đầu tư (là một dạng của cố gắng tối đa)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương thức bảo lãnh tất cả hoặc không"
+ },
+ {
+  "id": "BL-04",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Bảo lãnh “tối thiểu – tối đa” (min–max) vận hành thế nào?",
+  "back": "Đợt phát hành chỉ có hiệu lực khi bán được mức tối thiểu (sàn); đạt sàn thì tiếp tục bán đến mức tối đa (trần); không đạt sàn thì hủy, hoàn tiền",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương thức bảo lãnh tối thiểu – tối đa"
+ },
+ {
+  "id": "BL-05",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Chênh lệch bảo lãnh (gross spread) trong bảo lãnh cam kết chắc chắn",
+  "back": "= Giá chào bán ra công chúng − giá tổ chức bảo lãnh mua của tổ chức phát hành; là thù lao chính, đổi lại tổ chức bảo lãnh chịu rủi ro không bán hết và rủi ro giá",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Chênh lệch bảo lãnh"
+ },
+ {
+  "id": "BL-06",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Điều kiện để tổ chức được bảo lãnh phát hành chứng khoán ra công chúng (Luật CK)",
+  "back": "Được UBCKNN cấp phép nghiệp vụ bảo lãnh phát hành; đáp ứng chỉ tiêu an toàn tài chính; không phải người có liên quan với tổ chức phát hành",
+  "basis": "Khoản 1 Điều 17 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-07",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Hạn mức “≤ VCSH và ≤ 15 lần (TSNH − nợ ngắn hạn)” áp dụng cho phương thức bảo lãnh nào; số liệu lấy từ BCTC nào?",
+  "back": "Phương thức nhận mua một phần hoặc toàn bộ chứng khoán (không áp dụng cho cố gắng tối đa); báo cáo tài chính quý gần nhất",
+  "basis": "Khoản 2 Điều 17 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 1 Điều 23 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-08",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "CTCK (cùng công ty con, người có liên quan) sở hữu bao nhiêu % vốn điều lệ tổ chức phát hành thì không được bảo lãnh cam kết chắc chắn/làm bảo lãnh chính?",
+  "back": "Từ 10% trở lên (hoặc có quyền kiểm soát, quyền bổ nhiệm Tổng Giám đốc của tổ chức phát hành)",
+  "basis": "Điểm a khoản 2 Điều 23 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-09",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Tổ chức phát hành sở hữu bao nhiêu % vốn điều lệ CTCK thì CTCK không được bảo lãnh cam kết chắc chắn/làm bảo lãnh chính cho tổ chức đó?",
+  "back": "Từ 20% trở lên (độc lập hoặc cùng công ty con, người có liên quan; hoặc có quyền kiểm soát, bổ nhiệm Tổng Giám đốc CTCK)",
+  "basis": "Điểm c khoản 2 Điều 23 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-10",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Cấm bảo lãnh cam kết chắc chắn/bảo lãnh chính khi cùng một cá nhân/tổ chức nắm vốn điều lệ cả CTCK và tổ chức phát hành ở mức nào?",
+  "back": "Tối thiểu 30% vốn điều lệ CTCK và tối thiểu 30% vốn điều lệ tổ chức phát hành",
+  "basis": "Điểm b khoản 2 Điều 23 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-11",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "CTCK nhận bảo lãnh phát hành phải nhận tiền đặt mua chứng khoán của nhà đầu tư vào đâu?",
+  "back": "Tài khoản riêng biệt mở tại ngân hàng thương mại",
+  "basis": "Khoản 3 Điều 23 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-12",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "CTCK chỉ được cấp phép nghiệp vụ bảo lãnh phát hành khi đã được cấp phép nghiệp vụ nào?",
+  "back": "Tự doanh chứng khoán (tự doanh lại chỉ được cấp khi có môi giới chứng khoán)",
+  "basis": "Khoản 2, 3 Điều 72 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-13",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Cổ phiếu chào bán ra công chúng còn thừa do tổ chức bảo lãnh mua theo hợp đồng bảo lãnh: có bị hạn chế chuyển nhượng 01 năm không?",
+  "back": "Không. Hạn chế chuyển nhượng tối thiểu 01 năm chỉ áp dụng với nhà đầu tư được phân phối lại số cổ phiếu thừa; miễn cho tổ chức bảo lãnh và xử lý cổ phiếu lẻ",
+  "basis": "Khoản 2, 4 Điều 42 NĐ 155/2020/NĐ-CP"
+ },
+ {
+  "id": "BL-14",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Tổ hợp bảo lãnh phát hành: vai trò của tổ chức bảo lãnh phát hành chính",
+  "back": "Chịu trách nhiệm chung cho hoạt động bảo lãnh của tổ hợp; hợp đồng đồng bảo lãnh xác định quyền, trách nhiệm của từng thành viên",
+  "basis": "Khoản 20 Điều 3 NĐ 155/2020/NĐ-CP"
+ },
+ {
+  "id": "BL-15",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Chào bán thêm cổ phiếu ra công chúng: được vượt tổng giá trị cổ phiếu đang lưu hành (theo mệnh giá) khi nào?",
+  "back": "Khi có bảo lãnh cam kết nhận mua toàn bộ để bán lại hoặc mua hết phần chưa phân phối; hoặc phát hành từ nguồn VCSH, để hoán đổi, hợp nhất, sáp nhập",
+  "basis": "Điểm c khoản 2 Điều 15 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-16",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Chào bán ra công chúng: thời hạn đăng ký mua tối thiểu cho nhà đầu tư; xử lý khi đăng ký vượt số được phép phát hành",
+  "back": "Tối thiểu 20 ngày (trừ chứng quyền có bảo đảm); đăng ký vượt thì phân phối hết theo tỷ lệ đăng ký mua của từng nhà đầu tư",
+  "basis": "Khoản 2 Điều 26 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-17",
+  "subject": "BL",
+  "topic": "Bảo lãnh phát hành chứng khoán",
+  "front": "Thời hạn hoàn thành phân phối chứng khoán chào bán ra công chúng; gia hạn tối đa",
+  "back": "90 ngày kể từ ngày Giấy chứng nhận đăng ký chào bán có hiệu lực; UBCKNN có thể gia hạn tối đa 30 ngày",
+  "basis": "Khoản 4 Điều 26 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-18",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "front": "Chi phí đại diện (agency cost) giữa cổ đông và ban điều hành gồm những gì?",
+  "back": "Chi phí giám sát (kiểm toán, HĐQT độc lập), chi phí ràng buộc (hợp đồng, thưởng cổ phiếu) và tổn thất còn lại khi người quản lý không hành động vì lợi ích cổ đông",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lý thuyết đại diện"
+ },
+ {
+  "id": "BL-19",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "front": "CTCK có nghiệp vụ bảo lãnh phát hành được cung cấp những dịch vụ tư vấn tài chính doanh nghiệp nào?",
+  "back": "Tư vấn hồ sơ chào bán; tái cơ cấu, hợp nhất, sáp nhập, mua bán DN; quản trị, chiến lược DN; chào bán, niêm yết, đăng ký giao dịch; cổ phần hóa",
+  "basis": "Khoản 3 Điều 86 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-20",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "front": "CTCK không được tư vấn chào bán, niêm yết, cổ phần hóa, xác định giá trị DN cho công ty mà CTCK nắm giữ bao nhiêu % vốn điều lệ?",
+  "back": "Từ 10% vốn điều lệ trở lên",
+  "basis": "Khoản 2 Điều 25 TT 121/2020/TT-BTC"
+ },
+ {
+  "id": "BL-21",
+  "subject": "BL",
+  "topic": "Tổng quan về tư vấn tài chính doanh nghiệp",
+  "front": "Chào bán cổ phiếu lần đầu ra công chúng: bắt buộc tổ chức nào tư vấn hồ sơ đăng ký chào bán?",
+  "back": "Công ty chứng khoán (trừ khi tổ chức phát hành chính là công ty chứng khoán)",
+  "basis": "Điểm g khoản 1 Điều 15 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-22",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "Công thức NPV và quy tắc chấp nhận dự án độc lập",
+  "back": "NPV = Σ CFt/(1 + r)^t − I0 (CFt: dòng tiền ròng năm t; r: chi phí vốn; I0: vốn đầu tư ban đầu). Chấp nhận khi NPV > 0",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Giá trị hiện tại ròng (NPV)"
+ },
+ {
+  "id": "BL-23",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "IRR: định nghĩa, quy tắc chấp nhận và giả định tái đầu tư",
+  "back": "Suất chiết khấu làm NPV = 0; chấp nhận khi IRR > chi phí vốn; ngầm giả định dòng tiền tái đầu tư ở chính IRR (NPV giả định ở chi phí vốn)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Tỷ suất hoàn vốn nội bộ (IRR)"
+ },
+ {
+  "id": "BL-24",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "Khi nào một dự án có thể có nhiều IRR (hoặc không có IRR)?",
+  "back": "Khi dòng tiền không thông thường – đổi dấu nhiều lần (vd: − + + −). Khi đó dùng NPV hoặc MIRR để quyết định",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Hạn chế của IRR"
+ },
+ {
+  "id": "BL-25",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "Chỉ số sinh lời (PI): công thức, quy tắc và ứng dụng khi vốn bị hạn chế",
+  "back": "PI = PV dòng tiền tương lai / I0 = 1 + NPV/I0; chấp nhận khi PI > 1; khi hạn chế vốn, xếp hạng dự án theo PI giảm dần",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Chỉ số sinh lời (PI)"
+ },
+ {
+  "id": "BL-26",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "Nhược điểm chính của tiêu chuẩn thời gian hoàn vốn (kể cả có chiết khấu)",
+  "back": "Bỏ qua dòng tiền sau thời điểm hoàn vốn; ngưỡng chấp nhận chủ quan; bản giản đơn còn bỏ qua giá trị thời gian của tiền",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Thời gian hoàn vốn"
+ },
+ {
+  "id": "BL-27",
+  "subject": "BL",
+  "topic": "Lập dự toán ngân sách vốn đầu tư",
+  "front": "Dòng tiền hoạt động thuần hằng năm của dự án có khấu hao (OCF)",
+  "back": "OCF = (Doanh thu − Chi phí bằng tiền) × (1 − t) + Khấu hao × t = EBIT × (1 − t) + Khấu hao (t: thuế suất TNDN; Khấu hao × t: lá chắn thuế khấu hao)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Dòng tiền hoạt động của dự án"
+ },
+ {
+  "id": "BL-28",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Điểm bàng quan EPS (EBIT*) giữa phương án tài trợ bằng nợ và bằng cổ phần",
+  "back": "(EBIT* − I1)(1 − t)/N1 = (EBIT* − I2)(1 − t)/N2 (I: lãi vay, N: số cổ phiếu mỗi phương án); EBIT dự kiến > EBIT* thì vay nợ cho EPS cao hơn",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phân tích EBIT – EPS"
+ },
+ {
+  "id": "BL-29",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Chi phí sử dụng vốn cổ phiếu ưu đãi",
+  "back": "rP = DP / [PP × (1 − f)] (DP: cổ tức ưu đãi; PP: giá phát hành; f: tỷ lệ chi phí phát hành); không nhân (1 − t) vì cổ tức không được trừ khi tính thuế",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Chi phí vốn cổ phiếu ưu đãi"
+ },
+ {
+  "id": "BL-30",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Công thức Hamada điều chỉnh beta theo đòn bẩy tài chính",
+  "back": "βL = βU × [1 + (1 − t) × D/E] (βL: beta có vay nợ; βU: beta không vay nợ; D/E: nợ/VCSH theo giá thị trường; t: thuế suất TNDN)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Beta và đòn bẩy tài chính (Hamada)"
+ },
+ {
+  "id": "BL-31",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "M&M có thuế – mệnh đề II: chi phí VCSH thay đổi theo đòn bẩy thế nào?",
+  "back": "rE = rU + (rU − rD) × (1 − t) × D/E: rE tăng tuyến tính theo D/E nhưng chậm hơn trường hợp không thuế; WACC giảm khi tăng nợ",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lý thuyết Modigliani – Miller có thuế"
+ },
+ {
+  "id": "BL-32",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Lý thuyết đánh đổi (trade-off) xác định cơ cấu vốn tối ưu thế nào?",
+  "back": "Tăng nợ đến khi lợi ích biên của lá chắn thuế lãi vay bằng chi phí biên của kiệt quệ tài chính; tại đó WACC thấp nhất, giá trị DN cao nhất",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lý thuyết đánh đổi cơ cấu vốn"
+ },
+ {
+  "id": "BL-33",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Đòn bẩy tài chính (DFL) và đòn bẩy tổng hợp (DTL)",
+  "back": "DFL = %ΔEPS/%ΔEBIT = EBIT/(EBIT − I); DTL = DOL × DFL = %ΔEPS/%Δsản lượng (I: lãi vay; DOL: đòn bẩy hoạt động)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Đòn bẩy tài chính và đòn bẩy tổng hợp"
+ },
+ {
+  "id": "BL-34",
+  "subject": "BL",
+  "topic": "Tài trợ vốn cho hoạt động của doanh nghiệp",
+  "front": "Phát hành quyền mua cổ phần: giá lý thuyết sau pha loãng (TERP) và giá trị một quyền",
+  "back": "TERP = (N × P0 + S)/(N + 1); giá trị quyền = (P0 − S)/(N + 1) (N: số quyền để mua 1 cổ phiếu mới; P0: giá trước ngày không hưởng quyền; S: giá phát hành)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phát hành quyền mua cổ phần"
+ },
+ {
+  "id": "BL-35",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Quan điểm M&M về chính sách cổ tức",
+  "back": "Trong thị trường vốn hoàn hảo (không thuế, không chi phí giao dịch, thông tin cân xứng), chính sách cổ tức không ảnh hưởng giá trị DN; giá trị do chính sách đầu tư quyết định",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lý thuyết cổ tức không liên quan (M&M)"
+ },
+ {
+  "id": "BL-36",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Mô hình Lintner mô tả hành vi chi trả cổ tức thế nào?",
+  "back": "DN có tỷ lệ chi trả mục tiêu dài hạn, điều chỉnh cổ tức từ từ theo lợi nhuận bền vững; ngại cắt giảm cổ tức nên cổ tức ổn định hơn lợi nhuận",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Mô hình Lintner"
+ },
+ {
+  "id": "BL-37",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Chính sách cổ tức thặng dư (residual dividend): công thức cổ tức",
+  "back": "Cổ tức = LNST − Tỷ trọng VCSH mục tiêu × Ngân sách vốn đầu tư (kết quả âm thì không trả cổ tức)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Chính sách cổ tức thặng dư"
+ },
+ {
+  "id": "BL-38",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Trả cổ tức bằng cổ phiếu tỷ lệ k: ảnh hưởng tới VCSH, số cổ phiếu và giá",
+  "back": "Tổng VCSH không đổi (chỉ chuyển LNST chưa phân phối sang vốn góp); số cổ phiếu tăng (1 + k) lần; giá lý thuyết điều chỉnh = P/(1 + k)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Cổ tức bằng cổ phiếu"
+ },
+ {
+  "id": "BL-39",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Công ty đại chúng mua lại cổ phiếu của chính mình theo nghị quyết ĐHĐCĐ: nghĩa vụ sau khi mua",
+  "back": "Làm thủ tục giảm vốn điều lệ tương ứng tổng mệnh giá cổ phiếu đã mua lại trong 10 ngày kể từ ngày hoàn thành thanh toán",
+  "basis": "Điểm a khoản 1, khoản 5 Điều 36 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-40",
+  "subject": "BL",
+  "topic": "Chính sách cổ tức và mua lại cổ phiếu của doanh nghiệp",
+  "front": "Công ty đại chúng: khoảng cách tối thiểu giữa hai đợt mua lại cổ phiếu; sau đợt phát hành tăng vốn",
+  "back": "06 tháng kể từ ngày báo cáo kết quả đợt mua lại trước; 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành tăng vốn (trừ trường hợp được miễn)",
+  "basis": "Điểm d khoản 3 Điều 36 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-41",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "front": "NPV của thương vụ mua lại đối với cổ đông bên mua",
+  "back": "NPV = Giá trị cộng hưởng − Phần bù thâu tóm; cộng hưởng = VAB − (VA + VB); phần bù = Giá trả − VB (VB: giá trị độc lập của DN mục tiêu)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Định giá thương vụ M&A"
+ },
+ {
+  "id": "BL-42",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "front": "Mua lại bằng vốn vay (LBO) là gì?",
+  "back": "Thâu tóm DN chủ yếu bằng nợ vay, dùng tài sản và dòng tiền của chính DN mục tiêu để bảo đảm và trả nợ; do ban điều hành thực hiện gọi là MBO",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Mua lại bằng vốn vay (LBO)"
+ },
+ {
+  "id": "BL-43",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "front": "Ngưỡng sở hữu phải chào mua công khai cổ phiếu có quyền biểu quyết của công ty đại chúng",
+  "back": "Mua dẫn đến sở hữu từ 25% trở lên; người đã nắm từ 25% mua tiếp đạt hoặc vượt 35%, 45%, 55%, 65%, 75%",
+  "basis": "Điểm a, b khoản 1 Điều 35 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-44",
+  "subject": "BL",
+  "topic": "Tái cấu trúc doanh nghiệp, sáp nhập và mua lại doanh nghiệp",
+  "front": "Sau chào mua công khai, bên chào mua nắm từ 80% cổ phiếu có quyền biểu quyết thì phải làm gì?",
+  "back": "Mua tiếp số cổ phiếu các cổ đông còn lại nắm giữ trong 30 ngày, cùng điều kiện giá và phương thức thanh toán như đợt chào mua",
+  "basis": "Điểm c khoản 1 Điều 35 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "BL-45",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Phương pháp tài sản: giá trị thực tế phần vốn chủ sở hữu khi cổ phần hóa",
+  "back": "= Giá trị thực tế DN (tài sản đánh giá lại theo giá thị trường) − Nợ thực tế phải trả; không phản ánh khả năng sinh lời tương lai",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương pháp tài sản"
+ },
+ {
+  "id": "BL-46",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Định giá DCF: khi nào nên dùng FCFF thay cho FCFE?",
+  "back": "Khi cơ cấu vốn dự kiến thay đổi nhiều hoặc FCFE âm, khó dự báo do đòn bẩy cao; cơ cấu vốn ổn định thì FCFE (chiết khấu theo rE) thuận tiện hơn",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Lựa chọn mô hình chiết khấu dòng tiền"
+ },
+ {
+  "id": "BL-47",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Phần bù kiểm soát (control premium) và chiết khấu cổ đông thiểu số",
+  "back": "Lô cổ phần chi phối được định giá cao hơn lô thiểu số; Chiết khấu thiểu số = 1 − 1/(1 + Phần bù kiểm soát) (vd: phần bù 25% ⇔ chiết khấu 20%)",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phần bù kiểm soát"
+ },
+ {
+  "id": "BL-48",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Bội số từ các thương vụ M&A tương tự so với bội số của DN niêm yết tương đồng",
+  "back": "Bội số thương vụ thường cao hơn vì giá đã gồm phần bù kiểm soát; bội số DN niêm yết phản ánh giá giao dịch lô nhỏ (thiểu số) trên thị trường",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương pháp so sánh giao dịch"
+ },
+ {
+  "id": "BL-49",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Định giá so sánh theo EV/EBITDA: từ bội số đến giá trị VCSH",
+  "back": "EV mục tiêu = EV/EBITDA bình quân DN tương đồng × EBITDA mục tiêu; VCSH = EV − Nợ vay + Tiền (EV = Vốn hóa + Nợ vay − Tiền); ít chịu ảnh hưởng cơ cấu vốn, khấu hao",
+  "basis": "Giáo trình Tư vấn tài chính & bảo lãnh phát hành (UBCKNN/SRTC) – Phương pháp so sánh (bội số)"
+ },
+ {
+  "id": "BL-50",
+  "subject": "BL",
+  "topic": "Tư vấn cổ phần hóa doanh nghiệp",
+  "front": "Chào bán cổ phiếu ra công chúng để chuyển DNNN thành công ty cổ phần có phải đăng ký chào bán với UBCKNN?",
+  "back": "Không (thuộc trường hợp không phải đăng ký chào bán chứng khoán ra công chúng)",
+  "basis": "Điểm c khoản 2 Điều 16 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ }
+]

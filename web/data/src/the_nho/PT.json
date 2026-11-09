@@ -1,0 +1,402 @@
+[
+ {
+  "id": "PT-01",
+  "subject": "PT",
+  "front": "Giá trị tương lai (FV) và giá trị hiện tại (PV) của một khoản tiền đơn",
+  "back": "FV = PV × (1 + r)^n; PV = FV/(1 + r)^n (r: lãi suất mỗi kỳ, n: số kỳ ghép lãi). Lãi kép: tiền lãi mỗi kỳ được nhập vào gốc và tiếp tục sinh lãi.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị thời gian của tiền: khoản tiền đơn",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-02",
+  "subject": "PT",
+  "front": "Giá trị hiện tại của niên kim cuối kỳ (khoản tiền đều A nhận cuối mỗi kỳ, trong n kỳ)",
+  "back": "PV = A × [1 − (1 + r)^(−n)]/r. Suy ra khoản trả góp đều của khoản vay PV: A = PV × r/[1 − (1 + r)^(−n)].",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị hiện tại của niên kim cuối kỳ",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-03",
+  "subject": "PT",
+  "front": "Giá trị tương lai của niên kim cuối kỳ (gửi đều A vào cuối mỗi kỳ, trong n kỳ)",
+  "back": "FV = A × [(1 + r)^n − 1]/r, tính tại thời điểm khoản gửi cuối cùng. VD A = 10 triệu, r = 8%, n = 4 ⇒ FV = 45,06 triệu.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị tương lai của niên kim cuối kỳ",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-04",
+  "subject": "PT",
+  "front": "Niên kim đầu kỳ (khoản đầu tiên nhận ngay) so với niên kim cuối kỳ: PV, FV khác nhau thế nào?",
+  "back": "PV và FV của niên kim đầu kỳ = giá trị tương ứng của niên kim cuối kỳ × (1 + r), vì mỗi khoản đến sớm hơn một kỳ.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Niên kim đầu kỳ và niên kim cuối kỳ",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-05",
+  "subject": "PT",
+  "front": "Giá trị hiện tại của niên kim vĩnh viễn (đều và tăng trưởng đều)",
+  "back": "Dòng tiền đều C từ cuối kỳ 1: PV = C/r. Tăng đều g mỗi kỳ, khoản đầu C₁: PV = C₁/(r − g), cần r > g. Khoản đầu ở cuối kỳ k + 1: chiết khấu C/r thêm k kỳ.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giá trị hiện tại của niên kim vĩnh viễn",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-06",
+  "subject": "PT",
+  "front": "Lãi suất thực tế năm (EAR) từ lãi suất danh nghĩa năm (APR) ghép lãi m lần/năm",
+  "back": "EAR = (1 + APR/m)^m − 1; ghép lãi liên tục: EAR = e^APR − 1. Cùng APR, ghép lãi càng nhiều lần thì EAR càng cao (VD 10% ghép quý ⇒ 10,38%).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lãi suất danh nghĩa (APR) và lãi suất thực tế năm (EAR)",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-07",
+  "subject": "PT",
+  "front": "Khoản vay lãi suất d trả trước (khấu trừ ngay khi giải ngân): lãi suất thực tế người vay chịu",
+  "back": "r = d/(1 − d), VD 10% trả trước ⇔ 11,11% trả sau. Chiều ngược lại: lãi suất r trả sau tương đương d = r/(1 + r) trả trước.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lãi suất trả trước và lãi suất trả sau",
+  "topic": "Tổng quan về phân tích và đầu tư"
+ },
+ {
+  "id": "PT-08",
+  "subject": "PT",
+  "front": "Công thức lợi suất thời kỳ nắm giữ (HPR) của một khoản đầu tư cổ phiếu",
+  "back": "HPR = (P₁ − P₀ + D)/P₀ (P₀: giá mua, P₁: giá bán hoặc giá cuối kỳ, D: cổ tức, tiền lãi nhận trong kỳ). Lỗi hay gặp: bỏ cổ tức hoặc chia cho giá bán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất thời kỳ nắm giữ (HPR)",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-09",
+  "subject": "PT",
+  "front": "Lợi suất bình quân số học và bình quân hình học của n kỳ",
+  "back": "Số học = (R₁ + … + Rₙ)/n; hình học = [(1 + R₁)(1 + R₂)…(1 + Rₙ)]^(1/n) − 1. Hình học ≤ số học (bằng khi các Rᵢ như nhau) và phản ánh tốc độ tăng trưởng kép thực tế.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất bình quân số học và bình quân hình học",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-10",
+  "subject": "PT",
+  "front": "Lợi suất kỳ vọng và độ lệch chuẩn theo các kịch bản có xác suất pᵢ",
+  "back": "E(R) = Σ pᵢRᵢ; phương sai σ² = Σ pᵢ[Rᵢ − E(R)]²; độ lệch chuẩn σ = √σ². σ đo mức phân tán của lợi suất quanh giá trị kỳ vọng (rủi ro).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất kỳ vọng, phương sai và độ lệch chuẩn",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-11",
+  "subject": "PT",
+  "front": "Hiệp phương sai lợi suất của hai chứng khoán A, B",
+  "back": "Cov(A,B) = Σ pᵢ[R_Ai − E(R_A)][R_Bi − E(R_B)] = ρ × σA × σB. Cov > 0: lợi suất biến động cùng chiều; Cov < 0: ngược chiều.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hiệp phương sai",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-12",
+  "subject": "PT",
+  "front": "Hệ số tương quan giữa lợi suất hai chứng khoán: công thức và miền giá trị",
+  "back": "ρ = Cov(A,B)/(σA × σB), −1 ≤ ρ ≤ +1. ρ = +1: kết hợp không giảm được rủi ro; ρ càng thấp, đa dạng hóa càng hiệu quả; ρ = −1: có thể triệt tiêu rủi ro.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số tương quan",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-13",
+  "subject": "PT",
+  "front": "Phương sai (rủi ro) của danh mục hai tài sản",
+  "back": "σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂ (w: tỷ trọng, w₁ + w₂ = 1). Với ρ < +1, σp nhỏ hơn bình quân gia quyền của σ₁, σ₂ (lợi ích đa dạng hóa).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Rủi ro danh mục hai tài sản",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-14",
+  "subject": "PT",
+  "front": "Hai tài sản có hệ số tương quan ρ = −1: tỷ trọng tạo danh mục có độ lệch chuẩn bằng 0",
+  "back": "w_A = σB/(σA + σB); w_B = σA/(σA + σB). VD σA = 30%, σB = 20% ⇒ w_A = 40%, w_B = 60%.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Danh mục hai tài sản tương quan hoàn hảo âm",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-15",
+  "subject": "PT",
+  "front": "Hệ số beta của cổ phiếu: công thức tính và cách diễn giải",
+  "back": "β = Cov(Ri, Rm)/σm² = ρ(i,m) × σi/σm. β đo rủi ro hệ thống: β = 1 biến động như thị trường; β > 1 cổ phiếu tấn công; β < 1 phòng thủ; tài sản phi rủi ro β = 0.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số beta",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-16",
+  "subject": "PT",
+  "front": "Hệ số beta của danh mục nhiều tài sản (kể cả tài sản phi rủi ro)",
+  "back": "βp = Σ wᵢβᵢ (wᵢ: tỷ trọng giá trị trong toàn danh mục, kể cả tài sản phi rủi ro có β = 0). VD 30% cổ phiếu β 1,4 + 20% β 0,9 + 50% tín phiếu ⇒ βp = 0,60.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số beta của danh mục",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-17",
+  "subject": "PT",
+  "front": "Rủi ro hệ thống và rủi ro phi hệ thống: loại nào đa dạng hóa loại bỏ được?",
+  "back": "Tổng rủi ro = rủi ro hệ thống (lãi suất, lạm phát, chu kỳ kinh tế… tác động mọi chứng khoán, đo bằng β) + rủi ro phi hệ thống (riêng doanh nghiệp, ngành). Đa dạng hóa chỉ loại bỏ được phần phi hệ thống.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Rủi ro hệ thống và rủi ro phi hệ thống",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-18",
+  "subject": "PT",
+  "front": "Lợi suất yêu cầu theo mô hình định giá tài sản vốn (CAPM)",
+  "back": "E(Ri) = Rf + βi × [E(Rm) − Rf] (Rf: lãi suất phi rủi ro; E(Rm) − Rf: mức bù rủi ro thị trường). β = 1 ⇒ E(Ri) = E(Rm); β = 0 ⇒ E(Ri) = Rf.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình CAPM",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-19",
+  "subject": "PT",
+  "front": "Đường thị trường chứng khoán (SML): cách vẽ và cách dùng để nhận biết định giá cao, thấp",
+  "back": "Trục hoành β, trục tung lợi suất; cắt trục tung tại Rf, độ dốc E(Rm) − Rf. Lợi suất kỳ vọng nằm trên SML (alpha > 0): định giá thấp – mua; nằm dưới: định giá cao – bán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đường thị trường chứng khoán (SML)",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-20",
+  "subject": "PT",
+  "front": "Chỉ số Sharpe: công thức, ý nghĩa và khi nào nên dùng",
+  "back": "Sharpe = (Rp − Rf)/σp: lợi suất vượt lãi suất phi rủi ro trên một đơn vị tổng rủi ro; càng cao càng tốt. Phù hợp khi danh mục là toàn bộ tài sản đầu tư của nhà đầu tư.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đánh giá hiệu quả danh mục: chỉ số Sharpe",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-21",
+  "subject": "PT",
+  "front": "Chỉ số Treynor: công thức, ý nghĩa và khi nào nên dùng",
+  "back": "Treynor = (Rp − Rf)/βp: lợi suất vượt lãi suất phi rủi ro trên một đơn vị rủi ro hệ thống; phù hợp khi danh mục chỉ là một phần của danh mục lớn đã đa dạng hóa tốt.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đánh giá hiệu quả danh mục: chỉ số Treynor",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-22",
+  "subject": "PT",
+  "front": "Alpha Jensen của danh mục: công thức và cách diễn giải",
+  "back": "αp = Rp − [Rf + βp × (Rm − Rf)]: lợi suất thực tế trừ lợi suất yêu cầu theo CAPM. α > 0: danh mục đạt kết quả tốt hơn mức tương ứng với rủi ro hệ thống.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đánh giá hiệu quả danh mục: alpha Jensen",
+  "topic": "Mức sinh lời và rủi ro"
+ },
+ {
+  "id": "PT-23",
+  "subject": "PT",
+  "front": "Công thức giá trái phiếu trả coupon định kỳ (hằng năm hoặc m lần/năm)",
+  "back": "P = Σ C/(1 + y)^t + F/(1 + y)^n (C: coupon mỗi kỳ, F: mệnh giá, y: lợi suất yêu cầu mỗi kỳ, n: số kỳ). Trả lãi m lần/năm: coupon năm/m, lợi suất năm/m, số năm × m kỳ.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá trái phiếu",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-24",
+  "subject": "PT",
+  "front": "Giá trái phiếu không trả lãi định kỳ (zero-coupon)",
+  "back": "P = F/(1 + y)^n (F: mệnh giá, y: lợi suất đáo hạn, n: số năm còn lại). Luôn giao dịch dưới mệnh giá khi y > 0; thu nhập của nhà đầu tư là chênh lệch F − P.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá trái phiếu không trả lãi định kỳ",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-25",
+  "subject": "PT",
+  "front": "Lợi suất hiện hành của trái phiếu: công thức và hạn chế",
+  "back": "Lợi suất hiện hành = coupon hằng năm/giá thị trường hiện tại. Không tính lãi, lỗ vốn khi giá hội tụ về mệnh giá và không tính giá trị thời gian của tiền.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất hiện hành",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-26",
+  "subject": "PT",
+  "front": "Lợi suất đáo hạn (YTM): định nghĩa và giả định",
+  "back": "YTM là lãi suất chiết khấu làm tổng PV các khoản coupon và gốc bằng giá hiện tại. Chỉ đạt được khi giữ đến hạn, không vỡ nợ và mọi coupon được tái đầu tư đúng bằng YTM.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Lợi suất đáo hạn và giả định tái đầu tư",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-27",
+  "subject": "PT",
+  "front": "Quan hệ giữa lãi suất coupon, lợi suất hiện hành, YTM và giá trái phiếu",
+  "back": "Coupon < YTM ⇒ giá < mệnh giá (chiết khấu): coupon < LS hiện hành < YTM. Coupon > YTM ⇒ giá > mệnh giá (phụ trội): coupon > LS hiện hành > YTM. Bằng nhau ⇒ giá = mệnh giá.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Quan hệ giữa giá trái phiếu, lãi suất coupon và lợi suất",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-28",
+  "subject": "PT",
+  "front": "Thời gian đáo hạn bình quân Macaulay (Macaulay duration)",
+  "back": "D = Σ t × PV(CFₜ)/P: bình quân gia quyền các thời điểm nhận tiền, trọng số là tỷ trọng PV của từng dòng tiền trong giá. Zero-coupon: D = đúng thời gian còn lại đến hạn.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Duration Macaulay",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-29",
+  "subject": "PT",
+  "front": "Duration điều chỉnh (modified duration) và ước tính thay đổi giá trái phiếu",
+  "back": "MD = D/(1 + y) (trả lãi m lần/năm: D/(1 + y/m)); %ΔP ≈ −MD × Δy. VD MD = 5, lợi suất tăng 50 điểm cơ bản ⇒ giá giảm khoảng 2,5%.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Duration điều chỉnh và độ nhạy giá trái phiếu",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-30",
+  "subject": "PT",
+  "front": "Điều chỉnh độ lồi (convexity) khi ước tính thay đổi giá trái phiếu",
+  "back": "%ΔP ≈ −MD × Δy + ½ × C × (Δy)² (C: độ lồi). Với độ lồi dương, phần điều chỉnh luôn cộng thêm: giá tăng nhiều hơn khi lãi suất giảm, giảm ít hơn khi lãi suất tăng.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Độ lồi của trái phiếu",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-31",
+  "subject": "PT",
+  "front": "Những yếu tố làm duration của trái phiếu thường (không kèm quyền chọn) dài hơn",
+  "back": "Kỳ hạn còn lại dài hơn, lãi suất coupon thấp hơn, lợi suất đáo hạn thấp hơn. Duration càng dài, giá trái phiếu càng nhạy với thay đổi lãi suất.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Các nhân tố ảnh hưởng đến duration",
+  "topic": "Phân tích và định giá trái phiếu"
+ },
+ {
+  "id": "PT-32",
+  "subject": "PT",
+  "front": "Giá trị nội tại cổ phiếu theo mô hình Gordon (tăng trưởng cổ tức đều)",
+  "back": "P₀ = D₁/(r − g) = D₀(1 + g)/(r − g) (D₁: cổ tức năm tới, r: tỷ suất sinh lời yêu cầu, g: tăng trưởng đều mãi mãi). Điều kiện r > g. Lỗi hay gặp: dùng D₀ thay D₁.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình Gordon",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-33",
+  "subject": "PT",
+  "front": "Suy ra tỷ suất sinh lời yêu cầu (hàm ý) từ giá cổ phiếu theo mô hình Gordon",
+  "back": "r = D₁/P₀ + g: tỷ suất cổ tức kỳ vọng cộng tốc độ tăng trưởng cổ tức (g cũng là tốc độ tăng giá kỳ vọng của cổ phiếu).",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình Gordon: tỷ suất sinh lời hàm ý",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-34",
+  "subject": "PT",
+  "front": "Tốc độ tăng trưởng cổ tức (g) tính từ ROE và chính sách cổ tức",
+  "back": "g = ROE × b (b: tỷ lệ lợi nhuận giữ lại = 1 − tỷ lệ chi trả cổ tức). Tăng b chỉ làm tăng giá trị cổ phiếu khi ROE > r; nếu ROE < r, giá trị giảm.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Tăng trưởng, chính sách cổ tức và giá trị cổ phiếu",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-35",
+  "subject": "PT",
+  "front": "Mô hình chiết khấu cổ tức hai giai đoạn",
+  "back": "P₀ = Σ Dₜ/(1 + r)^t (t = 1…n) + Pₙ/(1 + r)^n, với Pₙ = Dₙ₊₁/(r − g) (g: tăng trưởng ổn định từ năm n + 1). Lưu ý: Pₙ dùng Dₙ₊₁ và chiết khấu n năm.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình chiết khấu cổ tức hai giai đoạn",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-36",
+  "subject": "PT",
+  "front": "Hệ số P/E hợp lý theo mô hình tăng trưởng cổ tức đều",
+  "back": "P₀/E₁ = (1 − b)/(r − g); P₀/E₀ = (1 − b)(1 + g)/(r − g) (1 − b: tỷ lệ chi trả cổ tức). P/E cao khi tăng trưởng g cao hoặc rủi ro (r) thấp.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Hệ số P/E theo mô hình tăng trưởng cổ tức",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-37",
+  "subject": "PT",
+  "front": "Định giá theo P/B: công thức và nhóm doanh nghiệp phù hợp",
+  "back": "P/B = giá thị trường/giá trị sổ sách mỗi cổ phiếu. Phù hợp ngân hàng, CTCK (tài sản chủ yếu là tài sản tài chính); kém ý nghĩa khi VCSH âm hoặc nhiều tài sản vô hình chưa ghi nhận.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Định giá theo hệ số P/B",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-38",
+  "subject": "PT",
+  "front": "Công thức dòng tiền tự do vốn chủ sở hữu (FCFE) và tỷ suất dùng để chiết khấu",
+  "back": "FCFE = LNST + khấu hao − chi đầu tư TSCĐ (CAPEX) − tăng vốn lưu động + vay ròng (vay mới − trả nợ gốc). Chiết khấu bằng chi phí vốn chủ sở hữu ⇒ giá trị vốn chủ.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình chiết khấu FCFE",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-39",
+  "subject": "PT",
+  "front": "Công thức dòng tiền tự do doanh nghiệp (FCFF) và tỷ suất dùng để chiết khấu",
+  "back": "FCFF = EBIT × (1 − t) + khấu hao − CAPEX − tăng vốn lưu động. Chiết khấu bằng WACC ⇒ giá trị DN; giá trị vốn chủ = giá trị DN − nợ vay. Hợp với DN đòn bẩy cao, cơ cấu vốn biến động.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Mô hình chiết khấu FCFF",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-40",
+  "subject": "PT",
+  "front": "Chi phí vốn bình quân gia quyền (WACC) dùng chiết khấu FCFF",
+  "back": "WACC = wE × rE + wD × rD × (1 − t) (w: tỷ trọng vốn chủ, nợ vay; rD: lãi suất vay trước thuế; t: thuế suất TNDN). Hệ số (1 − t) phản ánh lá chắn thuế của lãi vay.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Chi phí vốn bình quân gia quyền (WACC)",
+  "topic": "Phân tích và định giá cổ phiếu"
+ },
+ {
+  "id": "PT-41",
+  "subject": "PT",
+  "front": "Thị trường hiệu quả dạng yếu: giá phản ánh thông tin gì, phương pháp nào mất tác dụng?",
+  "back": "Giá đã phản ánh toàn bộ thông tin về giá, khối lượng giao dịch quá khứ ⇒ phân tích kỹ thuật không tạo lợi suất vượt trội ổn định; phân tích cơ bản vẫn có thể.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giả thuyết thị trường hiệu quả dạng yếu",
+  "topic": "Thị trường hiệu quả và tài chính hành vi"
+ },
+ {
+  "id": "PT-42",
+  "subject": "PT",
+  "front": "Thị trường hiệu quả dạng trung bình (bán mạnh): giá phản ánh thông tin gì?",
+  "back": "Mọi thông tin công khai (giá quá khứ, BCTC, công bố cổ tức…), phản ánh ngay khi công bố ⇒ cả phân tích kỹ thuật và cơ bản không tạo lợi suất vượt trội; chỉ thông tin nội bộ có thể.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giả thuyết thị trường hiệu quả dạng trung bình",
+  "topic": "Thị trường hiệu quả và tài chính hành vi"
+ },
+ {
+  "id": "PT-43",
+  "subject": "PT",
+  "front": "Thị trường hiệu quả dạng mạnh: giá phản ánh thông tin gì?",
+  "back": "Mọi thông tin: quá khứ, công khai và cả thông tin nội bộ ⇒ không nhà đầu tư nào, kể cả người nắm thông tin nội bộ, đạt lợi suất vượt trội một cách nhất quán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Giả thuyết thị trường hiệu quả dạng mạnh",
+  "topic": "Thị trường hiệu quả và tài chính hành vi"
+ },
+ {
+  "id": "PT-44",
+  "subject": "PT",
+  "front": "Đường trung bình động (MA): tín hiệu khi MA ngắn hạn cắt MA dài hạn",
+  "back": "MA n phiên = trung bình giá đóng cửa n phiên gần nhất. MA ngắn cắt MA dài từ dưới lên: giao cắt vàng – tín hiệu mua; cắt từ trên xuống: giao cắt tử thần – tín hiệu bán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Đường trung bình động",
+  "topic": "Phân tích kỹ thuật"
+ },
+ {
+  "id": "PT-45",
+  "subject": "PT",
+  "front": "Chỉ báo sức mạnh tương đối (RSI): công thức và ngưỡng diễn giải",
+  "back": "RSI = 100 − 100/(1 + RS), RS = mức tăng bình quân/mức giảm bình quân trong n phiên (thường 14). RSI > 70: vùng quá mua; RSI < 30: vùng quá bán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Chỉ báo RSI",
+  "topic": "Phân tích kỹ thuật"
+ },
+ {
+  "id": "PT-46",
+  "subject": "PT",
+  "front": "Chỉ báo MACD: cách tính và tín hiệu giao dịch",
+  "back": "MACD = EMA12 − EMA26; đường tín hiệu = EMA9 của MACD. MACD cắt lên trên đường tín hiệu: tín hiệu mua; cắt xuống dưới: tín hiệu bán.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Chỉ báo MACD",
+  "topic": "Phân tích kỹ thuật"
+ },
+ {
+  "id": "PT-47",
+  "subject": "PT",
+  "front": "Ngưỡng hỗ trợ, kháng cự và điều xảy ra khi bị phá vỡ dứt khoát",
+  "back": "Hỗ trợ: vùng giá lực mua đủ mạnh chặn đà giảm; kháng cự: vùng lực bán chặn đà tăng. Bị phá vỡ dứt khoát (khối lượng lớn) thì đổi vai: kháng cự cũ thành hỗ trợ mới và ngược lại.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Ngưỡng hỗ trợ và kháng cự",
+  "topic": "Phân tích kỹ thuật"
+ },
+ {
+  "id": "PT-48",
+  "subject": "PT",
+  "front": "Phương trình Fisher: quan hệ lãi suất danh nghĩa, lãi suất thực và lạm phát",
+  "back": "(1 + i) = (1 + r)(1 + π) ⇒ r = (1 + i)/(1 + π) − 1 ≈ i − π (i: danh nghĩa, r: thực, π: lạm phát kỳ vọng). VD i = 9%, π = 4% ⇒ r = 4,81%.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phương trình Fisher",
+  "topic": "Phân tích kinh tế trong đầu tư chứng khoán"
+ },
+ {
+  "id": "PT-49",
+  "subject": "PT",
+  "front": "Chỉ báo dẫn dắt, trùng hợp và trễ của chu kỳ kinh tế: ví dụ mỗi nhóm",
+  "back": "Dẫn dắt (đi trước): chỉ số giá cổ phiếu, đơn đặt hàng mới, giấy phép xây dựng. Trùng hợp: sản xuất công nghiệp, thu nhập cá nhân. Trễ: thời gian thất nghiệp bình quân, lãi suất cho vay bình quân.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phân tích vĩ mô: chỉ báo dẫn dắt, trùng hợp, trễ",
+  "topic": "Phân tích kinh tế trong đầu tư chứng khoán"
+ },
+ {
+  "id": "PT-50",
+  "subject": "PT",
+  "front": "Ngành chu kỳ và ngành phòng thủ khác nhau thế nào khi kinh tế suy thoái?",
+  "back": "Ngành chu kỳ (thép, xây dựng, ô tô, hàng xa xỉ): lợi nhuận biến động mạnh theo chu kỳ. Ngành phòng thủ (thực phẩm thiết yếu, dược phẩm, điện, nước): nhu cầu ít co giãn, lợi nhuận ổn định.",
+  "basis": "Giáo trình Phân tích và đầu tư chứng khoán (UBCKNN/SRTC) – Phân tích ngành: ngành chu kỳ và ngành phòng thủ",
+  "topic": "Phân tích kinh tế trong đầu tư chứng khoán"
+ }
+]

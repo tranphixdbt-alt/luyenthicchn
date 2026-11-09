@@ -1,0 +1,402 @@
+[
+ {
+  "id": "QU-01",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "IPS: khả năng chấp nhận rủi ro (ability) và mức sẵn lòng chấp nhận rủi ro (willingness) mâu thuẫn thì chọn thế nào?",
+  "back": "Chọn mức chấp nhận rủi ro thấp hơn trong hai mức (có thể tư vấn để khách hàng điều chỉnh mức sẵn lòng)",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Bản chính sách đầu tư (IPS)"
+ },
+ {
+  "id": "QU-02",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "Điều kiện để quỹ đại chúng được thành lập sau đợt huy động vốn",
+  "back": "Trong 90 ngày từ khi GCN chào bán có hiệu lực: ít nhất 100 nhà đầu tư (không kể NĐT chứng khoán chuyên nghiệp; trừ quỹ ETF) và bán được ≥ 50 tỷ đồng chứng chỉ quỹ",
+  "basis": "Khoản 1 Điều 108 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-03",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "Ban đại diện quỹ đại chúng: số thành viên và tỷ lệ thành viên độc lập",
+  "back": "Từ 03 đến 11 thành viên; ít nhất 2/3 là thành viên độc lập (không phải người có liên quan của CTQLQ, ngân hàng giám sát)",
+  "basis": "Khoản 3 Điều 109 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-04",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "Hạn chế đối với ngân hàng giám sát quỹ đại chúng",
+  "back": "Không được là người có liên quan, có quan hệ sở hữu, vay/cho vay với CTQLQ; không được là đối tác mua, bán tài sản của quỹ mình giám sát",
+  "basis": "Điều 117 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-05",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "Quỹ đầu tư chứng khoán phải giải thể do quy mô nhỏ khi nào?",
+  "back": "Giá trị tài sản ròng xuống dưới 10 tỷ đồng liên tục trong 06 tháng",
+  "basis": "Điểm đ khoản 1 Điều 104 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-06",
+  "subject": "QU",
+  "topic": "Tổng quan về ngành quản lý tài sản và hoạt động quản lý danh mục đầu tư",
+  "front": "Điều kiện tăng vốn của quỹ đóng (ngoài chấp thuận của UBCKNN)",
+  "back": "Điều lệ quỹ cho phép; lợi nhuận năm liền trước dương; CTQLQ không bị xử phạt VPHC về chứng khoán trong 02 năm; phương án được Đại hội NĐT thông qua; phát hành qua quyền mua cho NĐT hiện hữu",
+  "basis": "Khoản 1, 2 Điều 112 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-07",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Giá bán và giá mua lại một đơn vị quỹ mở",
+  "back": "Giá bán = NAV/đơn vị tại ngày giao dịch + giá dịch vụ phát hành; giá mua lại = NAV/đơn vị − giá dịch vụ mua lại (− mức phòng vệ thanh khoản nếu áp dụng)",
+  "basis": "Khoản 2, 3 Điều 34 TT 98/2020 (khoản 3 sửa đổi bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-08",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Tần suất tối thiểu xác định NAV: quỹ đóng / quỹ mở / quỹ ETF",
+  "back": "Quỹ đóng: 1 lần/tuần; quỹ mở: theo ngày giao dịch, tối thiểu 1 lần/tuần; quỹ ETF: hàng ngày",
+  "basis": "Khoản 4 Điều 20 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-09",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Quỹ mở được chỉ đáp ứng một phần lệnh khi giá trị lệnh bán ròng (bán − mua) tại ngày giao dịch đạt mức nào?",
+  "back": "Từ 5% NAV của quỹ trở lên (TT 136/2025; trước đây trên 10%); hoặc khi thực hiện hết lệnh làm NAV quỹ thấp hơn 50 tỷ đồng",
+  "basis": "Điểm a, b khoản 1 Điều 33 TT 98/2020 (điểm a sửa đổi bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-10",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Thời hạn tạm dừng giao dịch chứng chỉ quỹ mở tối đa",
+  "back": "90 ngày (bất khả kháng, không xác định được NAV, sự kiện khác); 30 ngày nếu quỹ chỉ số tạm dừng để cơ cấu lại danh mục giảm sai lệch so với chỉ số",
+  "basis": "Khoản 4, 6 Điều 33 TT 98/2020 (sửa đổi, bổ sung bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-11",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Định giá sai NAV quỹ mở: mức sai lệch phải đền bù cho quỹ, nhà đầu tư",
+  "back": "Từ 0,75% NAV trở lên với quỹ trái phiếu; từ 1% NAV trở lên với các quỹ khác",
+  "basis": "Khoản 1 Điều 36 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-12",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Quỹ đại chúng được vay ngắn hạn tối đa bao nhiêu, bao lâu, cho mục đích gì?",
+  "back": "Dư nợ ≤ 5% NAV tại mọi thời điểm, thời hạn tối đa 30 ngày; chỉ để trang trải chi phí cần thiết hoặc thanh toán giao dịch chứng chỉ quỹ với NĐT",
+  "basis": "Khoản 2 Điều 110 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 2 Điều 25 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-13",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Quỹ đại chúng vượt hạn mức đầu tư: thời hạn điều chỉnh khi do nguyên nhân khách quan / do CTQLQ vi phạm",
+  "back": "03 tháng kể từ ngày phát sinh (biến động giá, thanh toán, sáp nhập tổ chức phát hành, quỹ mới dưới 06 tháng) / 15 ngày kể từ ngày phát hiện, CTQLQ bồi thường và chịu chi phí",
+  "basis": "Khoản 4 Điều 110 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026); khoản 6, 7 Điều 24 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-14",
+  "subject": "QU",
+  "topic": "Thực tiễn công tác quản lý danh mục đầu tư",
+  "front": "Quỹ đại chúng: giá trị giao dịch chứng khoán trong năm qua một CTCK / qua CTCK là người có liên quan của CTQLQ tối đa",
+  "back": "50% / 20% tổng giá trị giao dịch chứng khoán trong năm của quỹ (trừ quỹ hoạt động dưới 06 tháng, quỹ mở có giá trị giao dịch năm dưới 300 tỷ đồng)",
+  "basis": "Điểm a khoản 7 Điều 10 TT 99/2020/TT-BTC"
+ },
+ {
+  "id": "QU-15",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Quỹ đầu tư bất động sản: tỷ lệ tối thiểu phải đầu tư vào bất động sản và chứng khoán tổ chức kinh doanh BĐS",
+  "back": "Tối thiểu 65% NAV; nếu chỉ đầu tư chứng khoán của tổ chức kinh doanh BĐS thì phải đầu tư vào ít nhất 03 tổ chức phát hành",
+  "basis": "Điểm a khoản 3 Điều 51 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-16",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Quỹ đầu tư bất động sản phải dùng tối thiểu bao nhiêu lợi nhuận để chi trả lợi tức?",
+  "back": "Tối thiểu 90% lợi nhuận thực hiện trong năm",
+  "basis": "Khoản 1 Điều 55 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-17",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Thời gian nắm giữ tối thiểu một bất động sản của quỹ đầu tư BĐS",
+  "back": "02 năm kể từ ngày mua (trừ trường hợp buộc phải bán theo pháp luật hoặc theo quyết định của Đại hội NĐT/Ban đại diện quỹ)",
+  "basis": "Khoản 1 Điều 52 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-18",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Giới hạn đầu tư vào bất động sản của quỹ đóng và quỹ mở (không phải quỹ BĐS)",
+  "back": "Quỹ đóng: không quá 10% tổng giá trị tài sản; quỹ mở: không được đầu tư vào bất động sản",
+  "basis": "Điểm d khoản 1 Điều 110 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH 2026)"
+ },
+ {
+  "id": "QU-19",
+  "subject": "QU",
+  "topic": "Một số sản phẩm đầu tư thay thế",
+  "front": "Mức đỉnh (high-water mark) trong tính phí thưởng của quỹ phòng hộ",
+  "back": "Chỉ thu phí thưởng trên phần NAV vượt mức cao nhất đã đạt trước đó; sau khi lỗ, quỹ phải bù lại khoản lỗ rồi mới được thu phí thưởng",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Quỹ phòng hộ – cơ cấu phí"
+ },
+ {
+  "id": "QU-20",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "front": "Phân bổ tài sản chiến lược (SAA) là gì?",
+  "back": "Xác định tỷ trọng mục tiêu dài hạn giữa các lớp tài sản theo mục tiêu, ràng buộc trong IPS và kỳ vọng dài hạn; quyết định phần lớn biến động lợi suất danh mục",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Phân bổ tài sản chiến lược"
+ },
+ {
+  "id": "QU-21",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "front": "Phân bổ tài sản chiến thuật (TAA) là gì?",
+  "back": "Chủ động lệch tạm thời khỏi tỷ trọng SAA để khai thác cơ hội ngắn hạn (lớp tài sản bị định giá sai), sau đó quay về tỷ trọng chiến lược",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Phân bổ tài sản chiến thuật"
+ },
+ {
+  "id": "QU-22",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "front": "Chiến lược CPPI: công thức phân bổ vào tài sản rủi ro",
+  "back": "Đầu tư cổ phiếu = m × (Giá trị danh mục − Giá trị sàn), m > 1 là hệ số nhân; phần còn lại vào tài sản phi rủi ro; mua thêm khi giá tăng, bán khi giá giảm",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Bảo hiểm danh mục theo tỷ lệ cố định (CPPI)"
+ },
+ {
+  "id": "QU-23",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "front": "Chiến lược mua và nắm giữ (buy-and-hold) trong phân bổ tài sản",
+  "back": "Không tái cân bằng; tỷ trọng cổ phiếu tăng khi cổ phiếu tăng giá; giá trị danh mục biến động tuyến tính theo giá cổ phiếu, không thấp hơn phần tài sản phi rủi ro",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Chiến lược mua và nắm giữ"
+ },
+ {
+  "id": "QU-24",
+  "subject": "QU",
+  "topic": "Phân bổ tài sản",
+  "front": "Constant-mix và CPPI: chiến lược nào vượt trội khi thị trường đi ngang dao động / có xu hướng mạnh?",
+  "back": "Đi ngang, đảo chiều: constant-mix (mua thấp bán cao, đồ thị lợi nhuận lõm); xu hướng mạnh tăng hoặc giảm: CPPI (đồ thị lồi); buy-and-hold ở giữa",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – So sánh chiến lược tái cân bằng"
+ },
+ {
+  "id": "QU-25",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "front": "APT khác CAPM ở điểm nào?",
+  "back": "APT: lợi suất kỳ vọng phụ thuộc tuyến tính nhiều nhân tố, E(R) = rf + Σ bk·λk (bk: độ nhạy, λk: phần bù nhân tố k), dựa trên không có kinh doanh chênh lệch giá; không cần danh mục thị trường",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Lý thuyết kinh doanh chênh lệch giá (APT)"
+ },
+ {
+  "id": "QU-26",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "front": "Tỷ trọng tối ưu vào danh mục rủi ro P của NĐT có hệ số ngại rủi ro A",
+  "back": "y* = [E(Rp) − rf]/(A × σp²), từ hàm hữu dụng U = E(r) − ½ × A × σ²; A càng lớn (càng ngại rủi ro) thì y* càng nhỏ, phần còn lại vào tài sản phi rủi ro",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Hàm hữu dụng và phân bổ vốn"
+ },
+ {
+  "id": "QU-27",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "front": "Định lý tách biệt (Tobin) khi có tài sản phi rủi ro",
+  "back": "Mọi NĐT nắm cùng một danh mục rủi ro tối ưu (danh mục tiếp tuyến/thị trường); khẩu vị rủi ro chỉ quyết định tỷ lệ chia giữa danh mục này và tài sản phi rủi ro",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Định lý tách biệt"
+ },
+ {
+  "id": "QU-28",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "front": "Danh mục tối ưu của một nhà đầu tư nằm ở đâu?",
+  "back": "Tại tiếp điểm giữa đường bàng quan cao nhất của NĐT và đường biên hiệu quả (hoặc đường CML khi có tài sản phi rủi ro)",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Danh mục tối ưu"
+ },
+ {
+  "id": "QU-29",
+  "subject": "QU",
+  "topic": "Các lý thuyết về danh mục đầu tư",
+  "front": "Độ dốc của đường thị trường vốn (CML)",
+  "back": "(E(Rm) − rf)/σm: mức bù cho một đơn vị rủi ro tổng thể, bằng hệ số Sharpe của danh mục thị trường",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Đường thị trường vốn (CML)"
+ },
+ {
+  "id": "QU-30",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "front": "Mô phỏng chỉ số bằng sao chép toàn bộ (full replication): ưu, nhược điểm",
+  "back": "Mua tất cả mã trong chỉ số đúng tỷ trọng: sai lệch theo dõi thấp nhất nhưng chi phí giao dịch, tái cân bằng cao; hợp với chỉ số ít mã, thanh khoản tốt",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Quản lý thụ động – sao chép toàn bộ"
+ },
+ {
+  "id": "QU-31",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "front": "Mô phỏng chỉ số bằng phương pháp tối ưu hóa",
+  "back": "Dùng mô hình đa nhân tố chọn một tập nhỏ cổ phiếu sao cho sai lệch theo dõi kỳ vọng nhỏ nhất; chi phí thấp nhưng phụ thuộc độ chính xác của mô hình, dữ liệu quá khứ",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Quản lý thụ động – tối ưu hóa"
+ },
+ {
+  "id": "QU-32",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "front": "Chiến lược lõi – vệ tinh (core–satellite)",
+  "back": "Phần lõi lớn đầu tư thụ động theo chỉ số tham chiếu; các phần vệ tinh nhỏ quản lý chủ động để tìm alpha; kiểm soát sai lệch theo dõi và chi phí toàn danh mục",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Kết hợp quản lý chủ động và thụ động"
+ },
+ {
+  "id": "QU-33",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "front": "Quỹ ETF/quỹ chỉ số: mức sai lệch so với chỉ số tham chiếu vượt 80% mức sai lệch tối đa thì CTQLQ phải làm gì?",
+  "back": "Báo cáo UBCKNN trong 24 giờ (ETF: báo cáo cả SGDCK và công bố thông tin); điều chỉnh danh mục trong 03 tháng để sai lệch không quá 80% mức tối đa",
+  "basis": "Khoản 2 Điều 41; khoản 12 Điều 35a TT 98/2020 (Điều 35a bổ sung bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-34",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư cổ phiếu",
+  "front": "Một lô chứng chỉ quỹ ETF trong giao dịch hoán đổi gồm tối thiểu bao nhiêu chứng chỉ quỹ?",
+  "back": "100.000 chứng chỉ quỹ ETF (lô là đơn vị giao dịch hoán đổi danh mục giữa quỹ ETF với thành viên lập quỹ, nhà đầu tư)",
+  "basis": "Khoản 9 Điều 2 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-35",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Chiến lược khớp dòng tiền (cash-flow matching) cho danh mục trái phiếu",
+  "back": "Chọn trái phiếu để coupon và gốc đáo hạn khớp đúng thời điểm, số tiền từng khoản nợ phải trả; loại bỏ rủi ro lãi suất, tái đầu tư nhưng chi phí cao, kém linh hoạt",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Chiến lược khớp dòng tiền"
+ },
+ {
+  "id": "QU-36",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Điều kiện phòng vệ (immunization) một khoản nợ đơn",
+  "back": "PV tài sản ≥ PV nợ; duration danh mục tài sản = duration khoản nợ (thời hạn đầu tư); tái cân bằng định kỳ vì duration thay đổi theo thời gian và lãi suất",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Chiến lược phòng vệ (immunization)"
+ },
+ {
+  "id": "QU-37",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Phòng vệ có điều kiện (contingent immunization)",
+  "back": "Quản lý chủ động khi giá trị danh mục còn cao hơn mức an toàn (PV của giá trị cuối kỳ tối thiểu chấp nhận); chạm mức này thì chuyển sang phòng vệ để khóa lợi suất tối thiểu",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Phòng vệ có điều kiện"
+ },
+ {
+  "id": "QU-38",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Cùng duration, danh mục quả tạ (barbell) so với danh mục tập trung (bullet) về độ lồi",
+  "back": "Barbell có độ lồi cao hơn nên có lợi hơn bullet khi lãi suất biến động mạnh theo dịch chuyển song song của đường cong lợi suất",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Cấu trúc danh mục trái phiếu: bullet, barbell"
+ },
+ {
+  "id": "QU-39",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Quỹ trái phiếu theo TT 98 phải có tỷ trọng tối thiểu nào vào trái phiếu, công cụ thu nhập cố định?",
+  "back": "Từ 80% NAV trở lên vào trái phiếu, công cụ thị trường tiền tệ, tiền gửi có kỳ hạn và công cụ có thu nhập cố định khác",
+  "basis": "Khoản 14 Điều 2 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-40",
+  "subject": "QU",
+  "topic": "Quản lý danh mục đầu tư trái phiếu",
+  "front": "Quỹ đầu tư công cụ thị trường tiền tệ: giới hạn tuổi nợ bình quân gia quyền và thời gian đáo hạn bình quân gia quyền",
+  "back": "Tuổi nợ bình quân gia quyền tối đa 240 ngày; thời gian đáo hạn bình quân gia quyền tối đa 120 ngày; công bố hằng tuần",
+  "basis": "Khoản 10 Điều 35b TT 98/2020 (bổ sung bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-41",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "front": "Ba phương pháp ước tính VaR",
+  "back": "Phương sai – hiệp phương sai (tham số, giả định phân phối chuẩn); mô phỏng lịch sử (dùng chuỗi lợi suất quá khứ); mô phỏng Monte Carlo (sinh ngẫu nhiên kịch bản)",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Giá trị chịu rủi ro (VaR)"
+ },
+ {
+  "id": "QU-42",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "front": "CVaR (Expected Shortfall) đo lường gì?",
+  "back": "Tổn thất bình quân trong các trường hợp tổn thất vượt ngưỡng VaR; khắc phục việc VaR không cho biết mức tổn thất ở vùng đuôi",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – CVaR (tổn thất kỳ vọng vượt ngưỡng)"
+ },
+ {
+  "id": "QU-43",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "front": "Quỹ mở: tại mọi thời điểm, tổng giá trị cam kết phái sinh, dư nợ vay và các khoản phải trả không được vượt quá?",
+  "back": "Giá trị tài sản ròng (NAV) của quỹ",
+  "basis": "Điểm g khoản 4 Điều 35 TT 98/2020/TT-BTC"
+ },
+ {
+  "id": "QU-44",
+  "subject": "QU",
+  "topic": "Quản lý rủi ro danh mục đầu tư",
+  "front": "Quỹ mở dùng chứng khoán phái sinh để phòng ngừa rủi ro: điều kiện về tài sản cơ sở",
+  "back": "Nắm giữ tối thiểu 50% số mã chứng khoán thuộc tài sản cơ sở; giá trị cam kết của hợp đồng phái sinh không quá 50% giá trị danh mục chứng khoán cơ sở của quỹ",
+  "basis": "Khoản 3b Điều 35 TT 98/2020 (bổ sung bởi TT 136/2025)"
+ },
+ {
+  "id": "QU-45",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Thước đo M² (Modigliani): công thức và ý nghĩa",
+  "back": "M² = rf + [(Rp − rf)/σp] × σm: lợi suất của danh mục khi điều chỉnh (pha tài sản phi rủi ro/đòn bẩy) về cùng độ lệch chuẩn thị trường; so trực tiếp với Rm theo %",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Thước đo M²"
+ },
+ {
+  "id": "QU-46",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Hệ số Sortino khác hệ số Sharpe thế nào?",
+  "back": "Sortino = (Rp − MAR)/Độ lệch chuẩn phía dưới (chỉ tính lợi suất thấp hơn mức tối thiểu chấp nhận MAR): chỉ phạt biến động bất lợi, Sharpe phạt cả biến động tăng",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Hệ số Sortino"
+ },
+ {
+  "id": "QU-47",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Danh mục tham chiếu (benchmark) hợp lệ để đánh giá nhà quản lý cần đặc điểm gì?",
+  "back": "Rõ ràng, minh bạch; đầu tư được; đo lường được; phù hợp phong cách đầu tư của nhà quản lý; được xác định trước kỳ đánh giá và được nhà quản lý chấp nhận",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Lựa chọn danh mục tham chiếu"
+ },
+ {
+  "id": "QU-48",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Tỷ số thông tin (IR) và sai lệch theo dõi (TE)",
+  "back": "IR = (Rp − Rb)/TE; TE = độ lệch chuẩn của (Rp − Rb) (Rb: lợi suất danh mục tham chiếu); IR đo lợi suất chủ động trên một đơn vị rủi ro chủ động",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Tỷ số thông tin"
+ },
+ {
+  "id": "QU-49",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Lợi suất theo thời gian (TWR) khác lợi suất theo tiền (MWR) thế nào; dùng cái nào đánh giá nhà quản lý?",
+  "back": "TWR nhân chuỗi lợi suất các kỳ con giữa các lần tiền vào/ra, loại ảnh hưởng dòng tiền của khách hàng → dùng đánh giá nhà quản lý; MWR là IRR, chịu ảnh hưởng dòng tiền",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Đo lường lợi suất danh mục"
+ },
+ {
+  "id": "QU-50",
+  "subject": "QU",
+  "topic": "Đánh giá hiệu quả danh mục đầu tư",
+  "front": "Phân tích quy thuộc (Brinson): hiệu ứng phân bổ, lựa chọn, tương tác",
+  "back": "Phân bổ = Σ(wp,i − wb,i)·Rb,i; Lựa chọn = Σ wb,i·(Rp,i − Rb,i); Tương tác = Σ(wp,i − wb,i)·(Rp,i − Rb,i) (w: tỷ trọng, R: lợi suất nhóm i; p: danh mục; b: tham chiếu)",
+  "basis": "Giáo trình Quản lý quỹ & tài sản (UBCKNN/SRTC) – Phân tích quy thuộc hiệu quả"
+ }
+]

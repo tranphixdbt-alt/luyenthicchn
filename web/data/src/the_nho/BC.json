@@ -1,0 +1,402 @@
+[
+ {
+  "id": "BC-01",
+  "subject": "BC",
+  "front": "Phân tích BCTC theo chiều ngang (phân tích xu hướng)",
+  "back": "So sánh cùng một chỉ tiêu qua nhiều kỳ: mức thay đổi = kỳ phân tích − kỳ gốc; tỷ lệ thay đổi = mức thay đổi/kỳ gốc × 100%. Cho thấy xu hướng biến động.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phân tích theo chiều ngang",
+  "topic": "Tổng quan về phân tích báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-02",
+  "subject": "BC",
+  "front": "Phân tích BCTC theo chiều dọc (báo cáo quy mô chung): chỉ tiêu nào làm gốc 100%?",
+  "back": "Mỗi khoản mục tính bằng % so với chỉ tiêu gốc cùng kỳ: báo cáo tình hình tài chính lấy tổng tài sản (= tổng nguồn vốn); báo cáo kết quả kinh doanh lấy doanh thu thuần.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phân tích theo chiều dọc (quy mô chung)",
+  "topic": "Tổng quan về phân tích báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-03",
+  "subject": "BC",
+  "front": "Mỗi đối tượng sử dụng BCTC thường ưu tiên nhóm chỉ tiêu nào?",
+  "back": "Chủ nợ ngắn hạn: khả năng thanh toán, dòng tiền HĐKD. Chủ nợ dài hạn: cơ cấu vốn, khả năng trả lãi. Cổ đông, nhà đầu tư: khả năng sinh lời, tăng trưởng, chỉ số giá thị trường.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Đối tượng sử dụng và mục tiêu phân tích BCTC",
+  "topic": "Tổng quan về phân tích báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-04",
+  "subject": "BC",
+  "front": "Một tỷ số tài chính cần được so sánh với gì để có ý nghĩa?",
+  "back": "Với chính doanh nghiệp qua các kỳ (xu hướng), với bình quân ngành hoặc doanh nghiệp tương đồng (so sánh chéo), và với kế hoạch, mục tiêu. Đứng riêng, một tỷ số ít ý nghĩa.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phương pháp so sánh trong phân tích BCTC",
+  "topic": "Tổng quan về phân tích báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-05",
+  "subject": "BC",
+  "front": "Bộ báo cáo tài chính năm của doanh nghiệp gồm những báo cáo nào?",
+  "back": "Báo cáo tình hình tài chính (bảng cân đối kế toán, mẫu B01-DN), báo cáo kết quả hoạt động kinh doanh (B02-DN), báo cáo lưu chuyển tiền tệ (B03-DN), thuyết minh BCTC (B09-DN).",
+  "basis": "VAS 21 – Trình bày báo cáo tài chính; Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ thống BCTC doanh nghiệp",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-06",
+  "subject": "BC",
+  "front": "Phương trình kế toán cơ bản trên báo cáo tình hình tài chính",
+  "back": "Tổng tài sản = Nợ phải trả + Vốn chủ sở hữu (tổng tài sản = tổng nguồn vốn). Suy ra VCSH = Tài sản − Nợ phải trả (giá trị tài sản thuần).",
+  "basis": "VAS 01 – Chuẩn mực chung: các yếu tố của BCTC",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-07",
+  "subject": "BC",
+  "front": "Theo VAS 24, ba loại hoạt động tạo luồng tiền được hiểu thế nào?",
+  "back": "HĐ kinh doanh: hoạt động tạo doanh thu chủ yếu của DN. HĐ đầu tư: mua sắm, xây dựng, thanh lý tài sản dài hạn và đầu tư khác (trừ tương đương tiền). HĐ tài chính: thay đổi quy mô, kết cấu vốn chủ và vốn vay.",
+  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ: phân loại luồng tiền",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-08",
+  "subject": "BC",
+  "front": "Lãi vay đã trả, lãi và cổ tức nhận được, cổ tức đã trả thuộc luồng tiền nào (mẫu B03-DN)?",
+  "back": "Tiền lãi vay đã trả: HĐ kinh doanh. Tiền thu lãi cho vay, cổ tức, lợi nhuận được chia: HĐ đầu tư. Cổ tức, lợi nhuận đã trả cho chủ sở hữu: HĐ tài chính.",
+  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ; mẫu B03-DN",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-09",
+  "subject": "BC",
+  "front": "Luồng tiền HĐKD theo phương pháp gián tiếp: điều chỉnh từ lợi nhuận thế nào?",
+  "back": "LN + chi phí không bằng tiền (khấu hao, dự phòng) − lãi (+ lỗ) từ HĐ đầu tư − tăng (+ giảm) phải thu, hàng tồn kho + tăng (− giảm) phải trả HĐKD. Mẫu B03-DN bắt đầu từ LN trước thuế.",
+  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ: phương pháp gián tiếp",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-10",
+  "subject": "BC",
+  "front": "Phương pháp trực tiếp và gián tiếp lập báo cáo lưu chuyển tiền tệ khác nhau ở đâu?",
+  "back": "Chỉ khác ở cách trình bày luồng tiền HĐKD (trực tiếp: từng khoản thu, chi; gián tiếp: điều chỉnh từ lợi nhuận), số CFO như nhau. Luồng đầu tư, tài chính luôn trình bày theo tổng thu, tổng chi.",
+  "basis": "VAS 24 – Báo cáo lưu chuyển tiền tệ: phương pháp trực tiếp và gián tiếp",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-11",
+  "subject": "BC",
+  "front": "Các bậc lợi nhuận trên báo cáo kết quả hoạt động kinh doanh",
+  "back": "LN gộp = DT thuần − giá vốn; LN thuần từ HĐKD = LN gộp + DT tài chính − CP tài chính − CP bán hàng − CP QLDN; LNTT = LN thuần HĐKD + LN khác; LNST = LNTT − CP thuế TNDN.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Cấu trúc báo cáo kết quả hoạt động kinh doanh",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-12",
+  "subject": "BC",
+  "front": "Nguyên tắc cơ sở dồn tích trong lập BCTC",
+  "back": "Nghiệp vụ được ghi nhận vào thời điểm phát sinh, không căn cứ thời điểm thực thu, thực chi tiền. Đi cùng nguyên tắc phù hợp: doanh thu và chi phí tương ứng được ghi nhận trong cùng kỳ.",
+  "basis": "VAS 01 – Chuẩn mực chung: cơ sở dồn tích, phù hợp",
+  "topic": "Hệ thống báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-13",
+  "subject": "BC",
+  "front": "Hệ số khả năng thanh toán hiện hành: công thức và diễn giải",
+  "back": "= Tài sản ngắn hạn/Nợ ngắn hạn. < 1: TSNH không đủ trang trải nợ ngắn hạn; quá cao có thể do tồn kho, phải thu ứ đọng, vốn sử dụng kém hiệu quả.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số khả năng thanh toán hiện hành",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-14",
+  "subject": "BC",
+  "front": "Hệ số khả năng thanh toán nhanh: công thức và lý do loại hàng tồn kho",
+  "back": "= (TSNH − hàng tồn kho)/Nợ ngắn hạn, hoặc chặt hơn: (tiền + đầu tư tài chính ngắn hạn + phải thu ngắn hạn)/Nợ ngắn hạn. Loại HTK vì khó chuyển thành tiền nhất.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số khả năng thanh toán nhanh",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-15",
+  "subject": "BC",
+  "front": "Hệ số khả năng thanh toán tức thời (bằng tiền): công thức",
+  "back": "= (Tiền + các khoản tương đương tiền)/Nợ ngắn hạn: khả năng trả ngay nợ ngắn hạn bằng tiền sẵn có; là hệ số thanh khoản khắt khe nhất.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số khả năng thanh toán tức thời",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-16",
+  "subject": "BC",
+  "front": "Vòng quay hàng tồn kho và số ngày tồn kho bình quân",
+  "back": "Vòng quay HTK = giá vốn hàng bán/HTK bình quân; số ngày tồn kho = 365/vòng quay. Số ngày tăng khi doanh thu đi ngang: dấu hiệu ứ đọng, tăng nhu cầu vốn lưu động.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Vòng quay hàng tồn kho",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-17",
+  "subject": "BC",
+  "front": "Vòng quay khoản phải thu và kỳ thu tiền bình quân",
+  "back": "Vòng quay phải thu = doanh thu thuần/phải thu khách hàng bình quân; kỳ thu tiền bình quân = 365/vòng quay (= phải thu bình quân × 365/doanh thu thuần).",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Vòng quay khoản phải thu, kỳ thu tiền bình quân",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-18",
+  "subject": "BC",
+  "front": "Kỳ trả tiền bình quân cho người bán",
+  "back": "= Phải trả người bán bình quân × 365/giá vốn hàng bán (hoặc giá trị hàng mua chịu) = 365/vòng quay phải trả. Kỳ trả tiền dài: DN tận dụng được tín dụng thương mại.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Kỳ trả tiền bình quân",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-19",
+  "subject": "BC",
+  "front": "Chu kỳ chuyển đổi tiền mặt (CCC): công thức và ý nghĩa",
+  "back": "CCC = số ngày tồn kho + kỳ thu tiền bình quân − kỳ trả tiền bình quân; chu kỳ kinh doanh = số ngày tồn kho + kỳ thu tiền. CCC càng dài, nhu cầu vốn lưu động càng lớn.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chu kỳ chuyển đổi tiền mặt",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-20",
+  "subject": "BC",
+  "front": "Vòng quay tổng tài sản: công thức và diễn giải",
+  "back": "= Doanh thu thuần/Tổng tài sản bình quân: mỗi đồng tài sản tạo ra bao nhiêu đồng doanh thu. Doanh thu không đổi mà vòng quay giảm ⇒ tài sản tăng, hiệu quả sử dụng giảm.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Vòng quay tổng tài sản",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-21",
+  "subject": "BC",
+  "front": "Hệ số nợ trên tổng tài sản và nợ trên vốn chủ sở hữu",
+  "back": "Nợ/TTS = Nợ phải trả/Tổng tài sản; Nợ/VCSH = Nợ phải trả/VCSH = (Nợ/TTS)/(1 − Nợ/TTS). Càng cao, đòn bẩy và rủi ro tài chính càng lớn.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nhóm chỉ tiêu cơ cấu vốn",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-22",
+  "subject": "BC",
+  "front": "Hệ số nhân vốn chủ sở hữu (đòn bẩy tài chính trong mô hình DuPont)",
+  "back": "= Tổng tài sản/VCSH = 1 + Nợ/VCSH = 1/(1 − Nợ/TTS). VD Nợ/TTS = 60% ⇒ hệ số nhân vốn chủ = 2,5.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số nhân vốn chủ sở hữu",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-23",
+  "subject": "BC",
+  "front": "Hệ số khả năng thanh toán lãi vay: công thức và ngưỡng cảnh báo",
+  "back": "= EBIT/chi phí lãi vay, với EBIT = LNTT + chi phí lãi vay. < 1: lợi nhuận hoạt động không đủ trả lãi; càng cao, rủi ro không trả được lãi càng thấp.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số khả năng thanh toán lãi vay",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-24",
+  "subject": "BC",
+  "front": "Tăng nợ vay tác động đến ROE thế nào (đòn bẩy tài chính dương, âm)?",
+  "back": "Tỷ suất sinh lời tài sản (EBIT/TTS) > lãi suất vay: tăng nợ làm ROE tăng (đòn bẩy dương); thấp hơn lãi suất vay: ROE giảm (đòn bẩy âm). Cả hai trường hợp rủi ro tài chính đều tăng.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Đòn bẩy tài chính và ROE",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-25",
+  "subject": "BC",
+  "front": "Biên lợi nhuận gộp, biên lợi nhuận hoạt động và biên lợi nhuận ròng",
+  "back": "Biên LN gộp = LN gộp/DT thuần; biên LN hoạt động = EBIT/DT thuần; biên LN ròng (ROS) = LNST/DT thuần. Biên gộp phản ánh giá vốn; biên ròng phản ánh mọi chi phí và thuế.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nhóm chỉ tiêu khả năng sinh lời: biên lợi nhuận",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-26",
+  "subject": "BC",
+  "front": "Tỷ suất sinh lời trên tổng tài sản (ROA): công thức và cách phân tách",
+  "back": "ROA = LNST/Tổng tài sản bình quân = biên lợi nhuận ròng × vòng quay tổng tài sản: mỗi đồng tài sản tạo ra bao nhiêu đồng lợi nhuận sau thuế.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Tỷ suất sinh lời trên tổng tài sản (ROA)",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-27",
+  "subject": "BC",
+  "front": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE): công thức và ý nghĩa",
+  "back": "ROE = LNST/VCSH bình quân: mỗi đồng vốn chủ tạo ra bao nhiêu đồng lợi nhuận sau thuế. ROE = ROA × hệ số nhân vốn chủ.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Tỷ suất sinh lời trên vốn chủ sở hữu (ROE)",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-28",
+  "subject": "BC",
+  "front": "Mô hình DuPont 3 nhân tố phân tích ROE",
+  "back": "ROE = (LNST/DT) × (DT/TTS) × (TTS/VCSH) = biên LN ròng × vòng quay tổng tài sản × hệ số nhân vốn chủ, tức hiệu quả chi phí × hiệu quả sử dụng tài sản × đòn bẩy tài chính.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Mô hình DuPont 3 nhân tố",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-29",
+  "subject": "BC",
+  "front": "Mô hình DuPont 5 nhân tố phân tích ROE",
+  "back": "ROE = (LNST/LNTT) × (LNTT/EBIT) × (EBIT/DT) × (DT/TTS) × (TTS/VCSH) = gánh nặng thuế × gánh nặng lãi vay × biên EBIT × vòng quay tài sản × hệ số nhân vốn chủ.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Mô hình DuPont 5 nhân tố",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-30",
+  "subject": "BC",
+  "front": "Lãi cơ bản trên cổ phiếu (EPS cơ bản) theo VAS 30: tử số và mẫu số",
+  "back": "EPS = LN sau thuế phân bổ cho cổ đông sở hữu cổ phiếu phổ thông (đã trừ cổ tức ưu đãi)/số cổ phiếu phổ thông đang lưu hành bình quân gia quyền trong kỳ.",
+  "basis": "VAS 30 – Lãi trên cổ phiếu",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-31",
+  "subject": "BC",
+  "front": "Số cổ phiếu phổ thông lưu hành bình quân gia quyền để tính EPS",
+  "back": "= Σ (số CP lưu hành × số ngày lưu hành)/số ngày trong kỳ. CP phát hành thêm tính từ ngày phát hành; CP quỹ loại ra từ ngày mua lại; CP thưởng, chia tách điều chỉnh như có từ đầu kỳ.",
+  "basis": "VAS 30 – Lãi trên cổ phiếu: số cổ phiếu bình quân gia quyền",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-32",
+  "subject": "BC",
+  "front": "Hệ số giá trên thu nhập (P/E) trong phân tích BCTC: công thức và diễn giải",
+  "back": "P/E = giá thị trường mỗi cổ phiếu/EPS: số đồng nhà đầu tư trả cho một đồng lợi nhuận. P/E cao: thị trường kỳ vọng tăng trưởng cao, rủi ro thấp, hoặc cổ phiếu đang đắt.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nhóm chỉ tiêu giá thị trường: P/E",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-33",
+  "subject": "BC",
+  "front": "Giá trị sổ sách mỗi cổ phiếu (BVPS) dùng tính P/B",
+  "back": "BVPS = VCSH của cổ đông phổ thông/số cổ phiếu phổ thông đang lưu hành (không tính cổ phiếu quỹ); P/B = giá thị trường/BVPS.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Giá trị sổ sách mỗi cổ phiếu và P/B",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-34",
+  "subject": "BC",
+  "front": "Tỷ lệ chi trả cổ tức, tỷ lệ lợi nhuận giữ lại và tỷ suất cổ tức",
+  "back": "Tỷ lệ chi trả = cổ tức mỗi cổ phiếu (DPS)/EPS; tỷ lệ giữ lại = 1 − tỷ lệ chi trả; tỷ suất cổ tức = DPS/giá thị trường mỗi cổ phiếu.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chỉ tiêu cổ tức",
+  "topic": "Phân tích các chỉ tiêu tài chính"
+ },
+ {
+  "id": "BC-35",
+  "subject": "BC",
+  "front": "So sánh lợi nhuận với lưu chuyển tiền thuần HĐKD để đánh giá chất lượng lợi nhuận",
+  "back": "CFO/LNST ổn định quanh hoặc trên 1: lợi nhuận chuyển thành tiền, chất lượng tốt. LN tăng mà CFO âm kéo dài: LN dựa vào dồn tích (phải thu, tồn kho) – dấu hiệu chất lượng thấp.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chất lượng lợi nhuận: lợi nhuận và dòng tiền HĐKD",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-36",
+  "subject": "BC",
+  "front": "Tỷ lệ dồn tích (accrual ratio) dựa trên dòng tiền",
+  "back": "= (LNST − CFO)/Tổng tài sản bình quân. Tỷ lệ càng cao (lợi nhuận phần lớn là dồn tích, chưa thu thành tiền) thì chất lượng lợi nhuận càng thấp.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chất lượng lợi nhuận: tỷ lệ dồn tích",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-37",
+  "subject": "BC",
+  "front": "Phải thu khách hàng tăng nhanh hơn nhiều so với doanh thu là dấu hiệu gì?",
+  "back": "Kỳ thu tiền kéo dài: có thể ghi nhận doanh thu sớm hoặc không có thực, nới lỏng tín dụng để đẩy doanh số, hoặc trích lập dự phòng nợ khó đòi chưa đủ – cảnh báo chất lượng lợi nhuận.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Dấu hiệu cảnh báo chất lượng BCTC",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-38",
+  "subject": "BC",
+  "front": "Vốn hóa sai một khoản chi phí (lẽ ra ghi vào chi phí trong kỳ) tác động BCTC thế nào?",
+  "back": "Chi phí giảm ⇒ lợi nhuận, tài sản cao hơn; khoản chi bị chuyển từ luồng HĐKD sang HĐ đầu tư ⇒ CFO cao hơn, luồng đầu tư thấp hơn; tổng lưu chuyển tiền không đổi.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chất lượng BCTC: vốn hóa chi phí",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-39",
+  "subject": "BC",
+  "front": "Kéo dài thời gian khấu hao TSCĐ (thay đổi ước tính) tác động thế nào đến lợi nhuận và dòng tiền?",
+  "back": "Khấu hao mỗi năm giảm ⇒ lợi nhuận kế toán tăng, giá trị còn lại TSCĐ cao hơn, nhưng dòng tiền không đổi (khấu hao không bằng tiền; bỏ qua thuế). Dấu hiệu điều chỉnh lợi nhuận.",
+  "basis": "VAS 03, VAS 29; Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Chất lượng lợi nhuận",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-40",
+  "subject": "BC",
+  "front": "Các loại ý kiến kiểm toán về báo cáo tài chính",
+  "back": "Chấp nhận toàn phần; ngoại trừ (sai sót hoặc hạn chế trọng yếu nhưng không lan tỏa); trái ngược (sai sót trọng yếu và lan tỏa); từ chối đưa ra ý kiến (thiếu bằng chứng, ảnh hưởng có thể trọng yếu và lan tỏa).",
+  "basis": "VSA 700, VSA 705 – Ý kiến kiểm toán trên BCTC",
+  "topic": "Chất lượng báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-41",
+  "subject": "BC",
+  "front": "Chỉ tiêu được dự báo đầu tiên khi lập BCTC dự phóng",
+  "back": "Doanh thu thuần: chi phí, tài sản, nợ phải trả và lợi nhuận đều được dự báo dựa trên doanh thu (phương pháp tỷ lệ phần trăm trên doanh thu).",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Quy trình dự báo BCTC",
+  "topic": "Dự báo báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-42",
+  "subject": "BC",
+  "front": "Nhu cầu vốn bổ sung từ bên ngoài (AFN) theo phương pháp tỷ lệ % trên doanh thu",
+  "back": "AFN = ΔTài sản − ΔNợ tự phát − LN giữ lại = (A/S₀)ΔS − (L/S₀)ΔS − S₁ × biên LN ròng × (1 − tỷ lệ chi trả) (A, L: tài sản, nợ tự phát tăng theo doanh thu; S: doanh thu).",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nhu cầu vốn bổ sung từ bên ngoài (AFN)",
+  "topic": "Dự báo báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-43",
+  "subject": "BC",
+  "front": "Dự báo BCTC: khoản mục nào biến động theo doanh thu, khoản mục nào phụ thuộc quyết định tài trợ?",
+  "back": "Phải thu, tồn kho, phải trả người bán, chi phí phải trả thường tăng theo doanh thu (nợ tự phát). Vay ngân hàng, phát hành cổ phiếu là nguồn tài trợ chủ động, dùng cân đối nhu cầu vốn.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phương pháp tỷ lệ phần trăm trên doanh thu",
+  "topic": "Dự báo báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-44",
+  "subject": "BC",
+  "front": "Dự báo nhu cầu tài sản khi doanh nghiệp chưa dùng hết công suất",
+  "back": "TSCĐ chưa cần tăng cho đến khi doanh thu vượt mức công suất tối đa = DT hiện tại/% công suất đang sử dụng; tài sản ngắn hạn vẫn tăng theo DT ⇒ AFN nhỏ hơn khi hết công suất.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Dự báo khi còn dư công suất",
+  "topic": "Dự báo báo cáo tài chính doanh nghiệp"
+ },
+ {
+  "id": "BC-45",
+  "subject": "BC",
+  "front": "Hệ số thanh toán hiện hành cao nhưng hệ số thanh toán nhanh thấp cho thấy điều gì?",
+  "back": "Tài sản ngắn hạn chủ yếu là hàng tồn kho (VD hiện hành 2,5, nhanh 0,4 ⇒ HTK và TSNH khác ≈ 84% TSNH): thanh khoản thực tế yếu, phụ thuộc khả năng bán được hàng.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phân tích khả năng thanh toán",
+  "topic": "Nghiên cứu tình huống"
+ },
+ {
+  "id": "BC-46",
+  "subject": "BC",
+  "front": "ROE tăng trong khi biên lợi nhuận giảm, vòng quay tài sản không đổi: đánh giá thế nào?",
+  "back": "ROE tăng hoàn toàn nhờ hệ số nhân vốn chủ (nợ vay) tăng, không nhờ hiệu quả kinh doanh ⇒ rủi ro tài chính cao hơn, mức ROE kém bền vững.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phân tích DuPont theo thời gian",
+  "topic": "Nghiên cứu tình huống"
+ },
+ {
+  "id": "BC-47",
+  "subject": "BC",
+  "front": "Chỉ tiêu kết hợp báo cáo KQKD với báo cáo tình hình tài chính: dùng số đầu kỳ, cuối kỳ hay bình quân?",
+  "back": "Dùng số bình quân (đầu kỳ + cuối kỳ)/2 cho mẫu số lấy từ báo cáo tình hình tài chính (số thời điểm) để khớp với tử số cả kỳ từ báo cáo KQKD (VD ROE, ROA, vòng quay).",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Nguyên tắc tính chỉ tiêu trên số bình quân",
+  "topic": "Nghiên cứu tình huống"
+ },
+ {
+  "id": "BC-48",
+  "subject": "BC",
+  "front": "Đặc điểm ba luồng tiền theo giai đoạn phát triển của doanh nghiệp",
+  "back": "Khởi sự, tăng trưởng nhanh: CFO âm hoặc thấp, đầu tư âm lớn, tài chính dương (huy động vốn). Trưởng thành: CFO dương lớn, đầu tư âm vừa, tài chính âm (trả nợ, cổ tức). Suy thoái: đầu tư có thể dương.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Phân tích báo cáo lưu chuyển tiền tệ",
+  "topic": "Nghiên cứu tình huống"
+ },
+ {
+  "id": "BC-49",
+  "subject": "BC",
+  "front": "Dùng tiền trả bớt nợ ngắn hạn tác động thế nào đến hệ số thanh toán hiện hành?",
+  "back": "Tử và mẫu cùng giảm một lượng: hệ số > 1 thì tăng (VD 400/200 = 2,00 → 350/150 = 2,33); hệ số < 1 thì giảm; bằng 1 thì không đổi.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Hệ số khả năng thanh toán hiện hành",
+  "topic": "Nghiên cứu tình huống"
+ },
+ {
+  "id": "BC-50",
+  "subject": "BC",
+  "front": "Dòng tiền tự do (FCF) tính từ báo cáo lưu chuyển tiền tệ",
+  "back": "FCF = lưu chuyển tiền thuần HĐKD − chi đầu tư TSCĐ thuần (chi mua sắm − thu thanh lý TSCĐ). Cổ tức, tiền vay là luồng tài chính, không đưa vào. FCF dương ổn định: DN tự tài trợ được.",
+  "basis": "Giáo trình Phân tích báo cáo tài chính doanh nghiệp (UBCKNN/SRTC) – Dòng tiền tự do",
+  "topic": "Nghiên cứu tình huống"
+ }
+]
