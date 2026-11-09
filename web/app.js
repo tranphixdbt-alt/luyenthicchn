@@ -464,6 +464,8 @@ VIEWS['trong-tam'] = () => {
   });
 };
 
+// Học phí khóa chứng chỉ chuyên môn theo trang giới thiệu 08 chương trình của SRTC (truy cập 11/2026)
+const SRTC_FEE = { CB: 3200000, LU: 3200000, PT: 4000000, MG: 2700000, BC: 2400000, BL: 2900000, QU: 4300000, PS: 4000000 };
 // Mẹo riêng từng môn (hiện ở trang Thi thử từng chứng chỉ chuyên môn)
 const TIPS = {
   LU: ['Môn Luật hỏi nhiều con số: tỷ lệ sở hữu, vốn, số nhà đầu tư, thời hạn (24 giờ, 10 ngày, 15 ngày…). Học bằng trang <a href="#the-nho">Thẻ ghi nhớ số liệu</a>.',
@@ -505,6 +507,7 @@ VIEWS['thi-thu'] = () => {
         <ul class="small stack" style="gap:6px;margin:0;padding-left:18px">
           <li><b>Hình thức:</b> trắc nghiệm trên máy tính tại SRTC, mỗi môn một ca thi <b>60 phút</b> (theo các thông báo lịch thi cuối khóa của SRTC).</li>
           <li><b>Mang theo:</b> giấy tờ tùy thân, máy tính cầm tay, có mặt trước giờ thi 15 phút.</li>
+          <li><b>Chi phí:</b> học phí khóa ${esc(SUBJ[k].name)} tại SRTC ${SRTC_FEE[k] ? fmt(SRTC_FEE[k]) + ' đồng/khóa' : 'theo thông báo từng khóa'}; <b>thi lại 500.000 đồng/lượt/môn</b>. Người được miễn học hoặc đã bỏ thi trước đó nộp 1.000.000 đồng/lượt/môn. Mức theo thông báo của SRTC, có thể đổi theo từng đợt. Không nhầm với tiền thi sát hạch CCHN của UBCKNN (1.000.000 đồng/loại chứng chỉ).</li>
           <li><b>Điểm đạt:</b> thang 100, đạt từ <b>50 điểm</b> mỗi môn, tức khoảng <b>50% số câu</b>. Mức này lấy từ các nguồn tổng hợp; chưa thấy quy chế gốc công khai, hãy hỏi lại cán bộ lớp.</li>
           <li><b>Số câu:</b> SRTC chưa công bố công khai số câu từng môn. Nên luyện <b>50 câu trong 60 phút</b> (khoảng 1 phút 10 giây mỗi câu) để quen nhịp; với ${n} câu bạn cần đúng ít nhất <b>${need} câu</b>.</li>
           <li><b>Mục tiêu an toàn:</b> thi thử đạt từ <b>65%</b> trở lên 3 lần liên tiếp thì đi thi, vì đề thật có thể khó hơn đề luyện.</li>
@@ -1063,7 +1066,7 @@ VIEWS['quy-che'] = () => {
         <p class="small muted">Điều 213 NĐ 155/2020, sửa bởi khoản 73 Điều 1 NĐ 245/2025.</p></div>
       <div class="card stack"><h2>Phúc khảo</h2><p>Hội đồng thi <b>không tổ chức phúc khảo</b> bài thi trắc nghiệm trên máy tính.</p></div>
       <div class="card stack"><h2>Sau khi đạt</h2><p>UBCKNN ra quyết định cấp CCHN trong <b>30 ngày</b> kể từ ngày kết quả thi được thông báo. Nộp Phiếu lý lịch tư pháp trong 20 ngày sau khi có kết quả nếu chưa nộp.</p>
-        <p class="small muted">Lệ phí dự thi 1.000.000 đồng cho mỗi loại chứng chỉ.</p></div>
+        <p class="small muted">Tiền dự thi sát hạch: 1.000.000 đồng/thí sinh/loại chứng chỉ, áp dụng cho cả thi mới và thi lại (mục 5.1 Thông báo 01/TB-HĐTSH năm 2026). Đây là kỳ thi của UBCKNN, khác với thi cuối khóa chứng chỉ chuyên môn tại SRTC (thi lại 500.000 đồng/lượt/môn).</p></div>
     </div>
     <div class="card stack"><h2>Môn chuyên môn bắt buộc theo chứng chỉ</h2>
       <div class="tablewrap"><table><thead><tr><th>Chứng chỉ</th><th>Chứng chỉ chuyên môn cần có</th></tr></thead><tbody>
