@@ -33,3 +33,18 @@
 6. Tổng giám đốc công ty chứng khoán cần loại CCHN nào? → **Phân tích tài chính hoặc quản lý quỹ** (CCHN môi giới là **chưa đủ**).
 7. Kinh nghiệm tối thiểu của Tổng giám đốc: công ty chứng khoán / công ty quản lý quỹ? → **2 năm / 4 năm**.
 8. Trưởng bộ phận kiểm soát nội bộ có được kiêm trưởng phòng môi giới không? → **Không** (không kiêm nhiệm, không là người có liên quan).
+
+## Cụm 2. Nhà đầu tư nước ngoài: ký quỹ và mua không cần đủ tiền
+
+Căn cứ: Thông tư 120/2020 hợp nhất (VBHN 08/VBHN-BTC năm 2026, gồm TT 68/2024, TT 18/2025, TT 08/2026).
+
+| Câu hỏi | Trả lời |
+|---|---|
+| Nhà đầu tư nước ngoài (tổ chức hoặc cá nhân) có được **giao dịch ký quỹ** (vay tiền công ty chứng khoán mua cổ phiếu) không? | **Không.** "Nhà đầu tư nước ngoài không được thực hiện giao dịch ký quỹ" (k2 Đ9) |
+| Vậy tổ chức nước ngoài được gì? | Được **mua cổ phiếu không yêu cầu có đủ tiền khi đặt lệnh** (non-prefunding, Đ9a, bổ sung bởi TT 68/2024) |
+| Ai được hưởng cơ chế này? | Chỉ **nhà đầu tư nước ngoài là tổ chức**, chỉ khi **mua cổ phiếu**. Cá nhân nước ngoài vẫn phải đủ tiền |
+| Mức tiền phải có khi đặt lệnh do ai quyết định? | **Công ty chứng khoán** đánh giá rủi ro thanh toán và **thỏa thuận** với nhà đầu tư (k1 Đ9a) |
+| Khác giao dịch ký quỹ ở đâu? | **Không có khoản vay**, không cầm cố cổ phiếu: nhà đầu tư vẫn phải trả đủ tiền khi thanh toán, chỉ không phải có sẵn tiền lúc đặt lệnh |
+| Không thanh toán đúng hạn thì sao? | Bị cấm đặt lệnh mua không cần đủ tiền **07 ngày giao dịch liên tục**. Vi phạm **lần thứ 3 trong 30 ngày giao dịch** thì bị cấm **180 ngày liên tục**; Sở giao dịch thông báo cho các công ty chứng khoán thành viên (k1a Đ9a) |
+| Nguyên tắc chung khi mua chứng khoán? | Phải **có đủ tiền khi đặt lệnh**, trừ 2 ngoại lệ: **giao dịch ký quỹ** (nhà đầu tư trong nước) và **tổ chức nước ngoài mua cổ phiếu không cần đủ tiền** |
+| Mỗi công ty chứng khoán, nhà đầu tư được mở bao nhiêu tài khoản giao dịch ký quỹ? | **01 tài khoản** (k3 Đ9) |
