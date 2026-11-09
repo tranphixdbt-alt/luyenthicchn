@@ -866,7 +866,7 @@ VIEWS['the-nho'] = () => {
         <label class="check" style="align-self:end"><input type="checkbox" id="c-new" ${f.onlyNew ? 'checked' : ''}> Chỉ thẻ chưa nhớ</label>
       </div></div>
     ${c ? `<button class="card flash" id="c-card" aria-live="polite"><span class="tiny muted">${esc(c.topic)} · thẻ ${f.i + 1}/${list.length}</span>
-        <span class="front">${esc(c.front)}</span>${f.flip ? `<span class="back">${esc(c.back)}</span><span class="tiny muted">${esc(c.basis)}</span>` : '<span class="small muted">Bấm để lật thẻ (phím cách)</span>'}</button>
+        <span class="front">${esc(c.front)}</span>${f.flip ? `<span class="back${c.back.length > 40 ? ' long' : ''}">${esc(c.back)}</span><span class="tiny muted">${esc(c.basis)}</span>` : '<span class="small muted">Bấm để lật thẻ (phím cách)</span>'}</button>
       <div class="row" style="justify-content:center"><button class="btn" id="c-prev" ${f.i ? '' : 'disabled'}>← Trước</button>
         <button class="btn danger" id="c-no">Chưa nhớ</button><button class="btn primary" id="c-yes">Đã nhớ</button><button class="btn" id="c-next">Sau →</button></div>`
       : '<div class="card empty">Không còn thẻ nào trong bộ lọc này.</div>'}`));
