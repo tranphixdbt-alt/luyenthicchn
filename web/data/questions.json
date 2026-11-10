@@ -4185,7 +4185,7 @@
 "subject": "MG",
 "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
 "level": 3,
-"q": "Theo Luật Chứng khoán, người hành nghề chứng khoán bị thu hồi chứng chỉ hành nghề trong những trường hợp nào sau đây?\nI. Cho người khác mượn chứng chỉ hành nghề chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự)\nII. Đồng thời làm việc cho hai công ty chứng khoán\nIII. Thực hiện hành vi vượt quá phạm vi ủy quyền của công ty chứng khoán nơi mình làm việc\nIV. Sử dụng tài khoản, tài sản của khách hàng khi không được khách hàng ủy thác\nCác trường hợp đúng là:",
+"q": "Theo Luật Chứng khoán, người hành nghề chứng khoán bị thu hồi chứng chỉ hành nghề trong những trường hợp nào sau đây?\nI. Không báo cáo Ủy ban Chứng khoán Nhà nước đúng thời hạn sau khi mở tài khoản giao dịch chứng khoán\nII. Đồng thời làm việc cho hai công ty chứng khoán\nIII. Thực hiện hành vi vượt quá phạm vi ủy quyền của công ty chứng khoán nơi mình làm việc\nIV. Sử dụng tài khoản, tài sản của khách hàng khi không được khách hàng ủy thác\nCác trường hợp đúng là:",
 "o": [
 "I, II, III và IV",
 "II, III và IV",
@@ -4193,8 +4193,8 @@
 "II và IV"
 ],
 "a": 1,
-"e": "Khoản 3 Điều 97: chứng chỉ hành nghề bị thu hồi khi người được cấp không còn đáp ứng điều kiện cấp, vi phạm Điều 12 hoặc khoản 2 Điều 98, hoặc không hành nghề chứng khoán 03 năm liên tục. II và III vi phạm điểm a, c khoản 2 Điều 98; IV là hành vi bị nghiêm cấm tại khoản 5 Điều 12; ba trường hợp này còn không được cấp lại chứng chỉ (khoản 4 Điều 97). I sai: cho mượn chứng chỉ hành nghề không thuộc các căn cứ thu hồi tại khoản 3 Điều 97; hành vi này bị xử phạt theo điểm a khoản 4 Điều 32 Nghị định 156/2020/NĐ-CP (cá nhân bị phạt 100–150 triệu đồng, bằng 1/2 khung 200–300 triệu đồng của tổ chức sau khi Nghị định 306/2025/NĐ-CP sửa đổi), tước quyền sử dụng chứng chỉ có thời hạn 01–03 tháng (điểm a khoản 7) và buộc nộp lại số lợi bất hợp pháp nếu cho thuê (điểm a khoản 8).",
-"basis": "Khoản 5 Điều 12; khoản 3, 4 Điều 97; điểm a, c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm a khoản 4, khoản 7, khoản 8 Điều 32 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP)",
+"e": "Khoản 3 Điều 97: chứng chỉ hành nghề bị thu hồi khi người được cấp không còn đáp ứng điều kiện cấp, vi phạm Điều 12 hoặc khoản 2 Điều 98, hoặc không hành nghề chứng khoán 03 năm liên tục. II và III vi phạm điểm a, c khoản 2 Điều 98; IV là hành vi bị nghiêm cấm tại khoản 5 Điều 12; ba trường hợp này còn không được cấp lại chứng chỉ (khoản 4 Điều 97). I sai: nghĩa vụ báo cáo trong 05 ngày làm việc kể từ ngày mở tài khoản giao dịch thuộc khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP, không thuộc Điều 12 hay khoản 2 Điều 98 Luật Chứng khoán, nên vi phạm nghĩa vụ này không phải là căn cứ thu hồi chứng chỉ hành nghề.",
+"basis": "Khoản 5 Điều 12; khoản 3, 4 Điều 97; khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP",
 "quote": "Cá nhân được cấp chứng chỉ hành nghề chứng khoán bị thu hồi chứng chỉ hành nghề chứng khoán trong các trường hợp sau đây:",
 "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
 "as_of": "2026-11"
