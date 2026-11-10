@@ -53,7 +53,7 @@ async function siteStats(r) {
   const days = [...Array(30)].map((_, i) => vnDay(new Date(vnNow() - (29 - i) * 86400e3)));
   const m = r.multi().hGetAll('st:pv').pfCount('st:uv:all').pfCount(days.slice(-7).map(d => 'st:uv:' + d)).pfCount(days.map(d => 'st:uv:' + d));
   for (const d of days) m.pfCount('st:uv:' + d);
-  const KINDS = ['h', 'pg', 'dev', 'geo'];
+  const KINDS = ['h', 'pg', 'dev', 'geo', 'src'];
   for (const k of KINDS) for (const d of days) m.hGetAll(`st:${k}:${d}`);
   m.lRange('st:log', 0, 99);
   const out = await m.exec();
@@ -61,7 +61,7 @@ async function siteStats(r) {
   KINDS.forEach((k, i) => { sums[k] = {}; for (const h of out.slice(34 + i * 30, 64 + i * 30)) for (const [x, n] of Object.entries(h || {})) sums[k][x] = (sums[k][x] || 0) + +n; });
   return {
     days: days.map((d, i) => ({ d, pv: +(pv[d] || 0), uv: uvDay[i] })), pvAll: Object.values(pv).reduce((a, n) => a + +n, 0), uvAll, uv7, uv30,
-    hours: [...Array(24)].map((_, h) => sums.h[h] || 0), pages: sums.pg, devs: sums.dev, geo: sums.geo,
+    hours: [...Array(24)].map((_, h) => sums.h[h] || 0), pages: sums.pg, devs: sums.dev, geo: sums.geo, srcs: sums.src,
     log: out[34 + KINDS.length * 30].map(x => JSON.parse(x)),
   };
 }

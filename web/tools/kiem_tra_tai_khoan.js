@@ -49,7 +49,7 @@ const call = (h, b, headers = {}, ip = '1.2.3.4') => new Promise(done => {
 
     // truy cập: 3 lượt xem của 2 người; bot bị bỏ qua; mã người truy cập sai bị từ chối
     const v1 = '11111111-1111-4111-8111-111111111111', v2 = '22222222-2222-4222-8222-222222222222';
-    for (const [v, p] of [[v1, 'tong-quan'], [v1, 'thi-thu'], [v2, 'tong-quan']]) assert.strictEqual((await call(tc, { v, p }, {}, '113.161.5.9')).code, 204);
+    for (const [v, p, s] of [[v1, 'tong-quan', 'tiktok'], [v1, 'thi-thu'], [v2, 'tong-quan', 'Bad Src!']]) assert.strictEqual((await call(tc, s ? { v, p, s } : { v, p }, {}, '113.161.5.9')).code, 204);
     assert.strictEqual((await call(tc, { v: v1, p: 'tong-quan' }, { 'user-agent': 'Googlebot/2.1' })).code, 204);
     assert.strictEqual((await call(tc, { v: 'abc', p: 'x' })).code, 400);
 
@@ -63,6 +63,7 @@ const call = (h, b, headers = {}, ip = '1.2.3.4') => new Promise(done => {
     assert.deepStrictEqual([today.pv, today.uv, st.uvAll, st.pvAll], [3, 2, 2, 3], 'đếm lượt xem và người truy cập (bỏ bot)');
     assert.strictEqual(st.pages['tong-quan'], 2); assert.strictEqual(st.devs['Điện thoại'], 3); assert.strictEqual(st.geo['Ho Chi Minh City, VN'], 3);
     assert.strictEqual(st.hours.reduce((a, n) => a + n, 0), 3);
+    assert.deepStrictEqual(st.srcs, { tiktok: 1 }, 'nguồn: chỉ nhận mã hợp lệ');
     assert.strictEqual(st.log[0].ip, '113.161.x.x', 'khách: IP chỉ lưu dạng che bớt');
     assert.ok(!JSON.stringify(st).includes('113.161.5.9'), 'không lưu IP đầy đủ của khách');
     assert.strictEqual(ad.body.logins.length, 2, 'đăng ký + đăng nhập = 2 lần');

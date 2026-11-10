@@ -246,9 +246,19 @@ function route() {
 const go = h => { if (location.hash === '#' + h) route(); else location.hash = h; };
 // Lượt truy cập cho trang quản trị: mã ngẫu nhiên của trình duyệt + tên trang (máy chủ tự thêm giờ, thiết bị, khu vực). Tắt được trong Cài đặt.
 let VID = ''; try { VID = localStorage.getItem('btinvest_vid') || ''; if (!VID && crypto.randomUUID) localStorage.setItem('btinvest_vid', (VID = crypto.randomUUID())); } catch { /* không có bộ nhớ */ }
+// Nguồn của lượt vào: ?src=… trên link (link kênh tự gắn), không có thì đoán theo trang trước đó; chỉ gửi ở lượt đầu mỗi phiên
+function source() {
+  const q = new URLSearchParams(location.search), s = (q.get('src') || q.get('utm_source') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 16);
+  if (s) return s;
+  let h = ''; try { h = new URL(document.referrer).hostname; } catch { return 'truc-tiep'; }
+  if (h === location.hostname) return '';
+  const M = [[/facebook|fb\.|messenger/, 'fb'], [/tiktok/, 'tiktok'], [/youtube|youtu\.be/, 'yt'], [/zalo/, 'zalo'], [/google\./, 'google']];
+  return (M.find(([re]) => re.test(h)) || [, 'khac'])[1];
+}
 function track(p) {
   if (!VID || p === 'quan-tri' || S.prefs.share === false || !location.protocol.startsWith('http')) return;
-  try { navigator.sendBeacon?.('/api/truy-cap', new Blob([JSON.stringify({ v: VID, p })], { type: 'application/json' })); } catch { /* bỏ qua */ }
+  let s = ''; try { if (!sessionStorage.getItem('btinvest_src')) { s = source(); sessionStorage.setItem('btinvest_src', s || '-'); } } catch { /* không có bộ nhớ */ }
+  try { navigator.sendBeacon?.('/api/truy-cap', new Blob([JSON.stringify(s ? { v: VID, p, s } : { v: VID, p })], { type: 'application/json' })); } catch { /* bỏ qua */ }
 }
 const main = html => { $('#main').innerHTML = html; };
 
@@ -1267,6 +1277,7 @@ VIEWS['quan-tri'] = async () => {
       <div class="card stack"><h2>Thiết bị</h2>${hbars(st.devs)}</div>
       <div class="card stack"><h2>Khu vực</h2>${hbars(st.geo)}<p class="tiny muted">Ước tính theo địa chỉ IP, có thể lệch tỉnh/thành.</p></div>
     </div>
+    <div class="card stack"><h2>Nguồn lượt vào (30 ngày)</h2>${hbars(st.srcs || {})}<p class="tiny muted">tiktok, fb, fbnhom, yt: link có ?src= gắn ở từng kênh. truc-tiep: gõ địa chỉ hoặc mở từ app. khac: trang khác.</p></div>
     <div class="card stack"><h2>Đăng nhập gần đây</h2><div class="tablewrap"><table><thead><tr><th>Thời gian</th><th>Tài khoản</th><th>Địa chỉ IP</th><th>Khu vực</th><th>Thiết bị</th></tr></thead><tbody>
       ${logins.map(e => `<tr><td class="num small">${dt(e.at)}</td><td>${esc(e.who)}</td><td class="num">${esc(e.ip)}</td><td>${esc(e.where)}</td><td>${esc(e.dev)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Chưa có lượt đăng nhập.</td></tr>'}</tbody></table></div></div>
     <div class="card stack"><h2>Lượt truy cập gần đây</h2><p class="tiny muted">Khách không đăng nhập: IP chỉ lưu dạng che bớt để bảo vệ dữ liệu cá nhân.</p><div class="tablewrap"><table><thead><tr><th>Thời gian</th><th>Trang</th><th>Khu vực</th><th>Thiết bị</th><th>IP</th></tr></thead><tbody>
