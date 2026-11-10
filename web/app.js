@@ -197,7 +197,7 @@ function renderNav(cur) {
     NAV.map(([g, items]) => `<div class="nav-group">${g}</div>` + items.map(([h, t, i]) =>
       `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}<span>${t}</span>${h === 'on-tap' && due ? `<span class="badge-due">${due}</span>` : ''}</a>`).join('')).join('') +
     `<div class="nav-foot"><a class="hotline" href="#lien-he"><span>Hotline / Zalo</span><b>${BRAND.phoneShow}</b></a>${socialIcons()}
-      <span>${fmt(D.q.length)} câu hỏi, luật cập nhật đến 11/2026. Không phải trang chính thức của UBCKNN.</span></div>`;
+      <a href="/on-thi/">Đề mẫu theo môn</a><span>${fmt(D.q.length)} câu hỏi, luật cập nhật đến 11/2026. Không phải trang chính thức của UBCKNN.</span></div>`;
   const tabs = [['tong-quan', 'Tổng quan', 'home'], ['on-luyen', 'Ôn luyện', 'practice'], ['trong-tam', 'Trọng tâm', 'target'], ['thi-thu', 'Thi thử', 'exam']];
   $('#tabbar').innerHTML = tabs.map(([h, t, i]) => `<a href="#${h}" class="${cur === h ? 'on' : ''}">${icon(i)}${t}</a>`).join('') +
     `<a href="#menu" id="tab-more">${icon('menu')}Thêm</a>`;
@@ -815,7 +815,8 @@ VIEWS['ket-qua'] = () => {
       <div class="card stack"><h2>Việc nên làm tiếp</h2>
         <p class="small muted">${wrongIds.length ? `Có ${wrongIds.length} câu sai hoặc bỏ trống. Ôn lại ngay giúp nhớ lâu hơn; các câu này cũng đã vào lịch ôn lặp lại.` : 'Không có câu sai. Hãy thử một đề mới hoặc tăng số câu.'}</p>
         <div class="row"><button class="btn primary" id="r-wrong" ${wrongIds.length ? '' : 'disabled'}>Ôn lại ${wrongIds.length} câu sai</button>
-          ${exam ? '<a class="btn" href="#thi-thu">Thi đề khác</a>' : '<a class="btn" href="#on-luyen">Luyện tiếp</a>'}<a class="btn" href="#trong-tam">Trọng tâm từng môn</a></div></div>
+          ${exam ? '<a class="btn" href="#thi-thu">Thi đề khác</a>' : '<a class="btn" href="#on-luyen">Luyện tiếp</a>'}<a class="btn" href="#trong-tam">Trọng tâm từng môn</a>
+          ${exam && location.protocol.startsWith('http') ? '<button class="btn" id="r-share">Chia sẻ kết quả</button>' : ''}</div></div>
     </div>
     <div class="card stack"><div class="row between"><h2>Xem lại từng câu</h2><button class="btn sm" id="r-filter">${onlyWrong ? 'Hiện tất cả' : 'Chỉ câu sai'}</button></div>
       ${items.map((it, k) => {
@@ -828,6 +829,11 @@ VIEWS['ket-qua'] = () => {
   $('#r-filter').onclick = () => { onlyWrong = !onlyWrong; VIEWS['ket-qua'](); };
   if (exam && r.pass && !r.celebrated && window.confetti) { r.celebrated = true; save(); window.confetti({ particleCount: 140, spread: 80, origin: { y: .3 }, colors: ['#0C2A63', '#E0B04A', '#19B47A', '#FFFFFF'], disableForReducedMotion: true }); }
   $('#r-wrong').onclick = () => startPractice(shuffle(wrongIds), 'Ôn câu sai', true);
+  if ($('#r-share')) $('#r-share').onclick = async () => {
+    const text = `Mình vừa làm "${r.title}" trên BT-INVEST: đúng ${r.ok}/${r.n} câu (${p}%). Thi thử CCHN chứng khoán miễn phí, có đáp án và giải thích:`, url = location.origin + '/';
+    try { if (navigator.share) return await navigator.share({ text, url }); await navigator.clipboard.writeText(text + ' ' + url); toast('Đã chép nội dung, dán vào Facebook/Zalo để chia sẻ.'); }
+    catch { /* người dùng hủy chia sẻ */ }
+  };
   $$('.explain [data-report]').forEach(b => (b.onclick = () => report(b.dataset.report)));
 };
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://luyenthicchn-dist.vercel.app/sitemap.xml
