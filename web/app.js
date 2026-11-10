@@ -345,14 +345,21 @@ function smartPick(ids, n, group = () => '') {
   const order = shuffle(ids).sort((a, b) => tier(a) - tier(b) || (S.q[a]?.due || 0) - (S.q[b]?.due || 0));
   const wrong = order.filter(id => tier(id) === 0), fresh = order.filter(id => tier(id) === 1 || tier(id) === 2);
   const w = Math.min(wrong.length, Math.max(Math.ceil(n * WRONG_SHARE), n - fresh.length));
-  const out = [];
+  const out = [], cov = seenShare(group);
   for (const phase of [wrong.slice(0, w), fresh, order.filter(id => tier(id) === 3)]) {
-    // lấy mẫu phân tầng: mỗi chủ đề góp số câu theo tỷ trọng của nó (câu thứ i của nhóm cỡ s có khóa (i + ngẫu nhiên)/s)
+    // lấy mẫu phân tầng: trước hết mỗi chủ đề 1 câu (chủ đề bạn làm ít nhất đi trước), phần còn lại theo tỷ trọng
+    // (câu thứ i ≥ 1 của nhóm cỡ s có khóa (i + ngẫu nhiên)/s)
     const by = new Map(); for (const id of phase) by.set(group(id), [...(by.get(group(id)) || []), id]);
-    const keyed = [...by.values()].flatMap(l => l.map((id, i) => [(i + Math.random()) / l.length, id]));
+    const keyed = [...by.entries()].flatMap(([g, l]) => l.map((id, i) => [i ? (i + Math.random()) / l.length : cov(g) - 2 + Math.random() * 0.01, id]));
     out.push(...keyed.sort((a, b) => a[0] - b[0]).slice(0, n - out.length).map(x => x[1]));
   }
   return out;
+}
+// Tỷ lệ câu đã làm của từng nhóm (chủ đề): để các lượt trộn đề lần lượt phủ hết mọi chủ đề
+function seenShare(group) {
+  const c = new Map();
+  for (const q of D.q) { const g = group(q.id), x = c.get(g) || [0, 0]; x[0] += S.q[q.id] ? 1 : 0; x[1]++; c.set(g, x); }
+  return g => { const x = c.get(g); return x ? x[0] / x[1] : 0; };
 }
 function spread(ids) {     // thứ tự làm bài: câu sai đặt cách đều nhau, xen giữa các câu khác
   const ws = shuffle(ids.filter(isWrong)), rest = shuffle(ids.filter(id => !isWrong(id))), res = Array(ids.length).fill(null);
@@ -385,7 +392,7 @@ VIEWS['on-luyen'] = () => {
   const bind = (id, key, num) => ($('#' + id).onchange = e => { f[key] = num ? +e.target.value : e.target.value; if (key === 'part') f.subject = ''; VIEWS['on-luyen'](); });
   bind('f-cert', 'cert'); bind('f-part', 'part'); bind('f-subject', 'subject'); bind('f-topic', 'topic'); bind('f-level', 'level'); bind('f-pool', 'pool'); bind('f-n', 'n', true);
   $('#f-mix').onchange = e => (f.mix = e.target.checked);
-  $('#f-start').onclick = () => startPractice(spread(smartPick(pool(f).map(q => q.id), f.n)), 'Ôn luyện', f.mix);
+  $('#f-start').onclick = () => startPractice(spread(smartPick(pool(f).map(q => q.id), f.n, topicOf)), 'Ôn luyện', f.mix);
 };
 async function startPractice(ids, title, mix = true, kind = 'practice') {
   if (!ids.length) return toast('Không có câu nào để luyện.');
@@ -590,8 +597,18 @@ function quotas(ch, n) {   // chia n câu theo trọng số, phần dư cho chuy
   return q;
 }
 function pickSubj(k, n) {
-  const ids = D.q.filter(q => q.subject === k).map(q => q.id), ch = chapters(k), q = quotas(ch, n), out = [];
-  ch.forEach((c, i) => out.push(...smartPick(ids.filter(id => c[2].includes(topicOf(id))), q[i], topicOf)));
+  const all = D.q.filter(q => q.subject === k).map(q => q.id), out = [];
+  // chủ đề bạn chưa gặp lần nào được 1 câu trước, để vài đề đầu đã đi qua đủ mọi chủ đề của môn; phần còn lại chia theo tỷ trọng
+  const met = new Set(all.filter(id => S.q[id]).map(topicOf));
+  for (const t of shuffle([...new Set(all.map(topicOf))].filter(t => !met.has(t))).slice(0, n)) out.push(...smartPick(all.filter(id => topicOf(id) === t), 1));
+  const used = new Set(out), ids = all.filter(id => !used.has(id)), m = n - out.length;
+  if (!m) return out;
+  const ch = chapters(k).map(c => [...c, ids.filter(id => c[2].includes(topicOf(id)))]).filter(c => c[3].length), q = quotas(ch, m);
+  // đủ mặt mọi chuyên đề: đề dài hơn số chuyên đề thì mỗi chuyên đề ít nhất 1 câu; đề ngắn hơn thì nhường chỗ cho chuyên đề bạn làm ít nhất
+  const seen = c => c[3].filter(id => S.q[id]).length / c[3].length + Math.random() * 0.01;
+  if (m < ch.length) { q.fill(0); ch.map((c, i) => [seen(c), i]).sort((a, b) => a[0] - b[0]).slice(0, m).forEach(([, i]) => q[i] = 1); }
+  else q.forEach((x, i) => { if (!x) { q[q.indexOf(Math.max(...q))]--; q[i] = 1; } });
+  ch.forEach((c, i) => out.push(...smartPick(c[3], q[i], topicOf)));
   if (out.length < n) { const used = new Set(out); out.push(...smartPick(ids.filter(id => !used.has(id)), n - out.length, topicOf)); }
   return out;
 }

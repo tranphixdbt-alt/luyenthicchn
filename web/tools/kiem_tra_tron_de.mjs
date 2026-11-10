@@ -54,6 +54,20 @@ a = (await sess()).parts[0].ids; A(a.length === 10 && a.filter(id => !q4[id].las
 await setState({ ...base, q: {} }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('#e-start');
 await p.click('#e-start'); await p.waitForSelector('#qcard');
 A((await sess()).parts.every(x => x.ids.length === 35), 'người mới vẫn ra đủ đề');
+// 6) Phủ chủ đề: người mới thi liên tiếp đề 25 câu từng môn (làm sai ~30%); sau 2 đề (50 câu) phải gặp đủ mọi chủ đề của môn
+out.cover = {};
+for (const k of [...new Set(Q.map(x => x.subject))]) {
+  const all = new Set(Q.filter(x => x.subject === k).map(x => x.topic)), met = new Set(), qk = {}; let n = 0, first = '';
+  while (met.size < all.size && n < 200) {
+    await setState({ ...base, q: qk, prefs: { ...base.prefs, type: k, n: 25 } }); await p.goto(url + "#thi-thu"); await p.reload(); await p.waitForSelector('#e-start');
+    await p.click('#e-start'); await p.waitForSelector('#qcard');
+    const ids = (await sess()).parts[0].ids; n += ids.length;
+    ids.forEach(id => { met.add(byId.get(id).topic); const ok = Math.random() > 0.3; qk[id] = { n: 1, ok: +ok, box: 1, due: t + (ok ? DAY : 0), lastOk: ok }; });
+    if (!first) first = met.size + '/' + all.size;
+  }
+  out.cover[k] = `${n} câu (đề đầu ${first})`;
+  A(n <= 50, `môn ${k}: phải gặp đủ ${all.size} chủ đề sau 2 đề 25 câu, cần ${n} câu`);
+}
 A(!errs.length, 'lỗi trang: ' + errs.join(' | '));
 console.log(JSON.stringify(out));
 await b.close(); console.log("SMART OK");
