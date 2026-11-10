@@ -1,0 +1,902 @@
+[
+ {
+  "id": "C17-001",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Anh H có chứng chỉ hành nghề môi giới chứng khoán, làm việc tại công ty chứng khoán A. Theo Luật Chứng khoán và Nghị định 155/2020/NĐ-CP, xét các nhận định sau về quan hệ giữa anh H và công ty A:\nI. Anh H chỉ được hành nghề chứng khoán với tư cách đại diện cho công ty A\nII. Công ty A chịu trách nhiệm về hoạt động nghiệp vụ của anh H\nIII. Chứng chỉ hành nghề của anh H có giá trị sử dụng kể từ ngày được cấp, không phụ thuộc vào việc công ty A có thông báo với Ủy ban Chứng khoán Nhà nước hay không\nIV. Anh H được làm vượt phạm vi công ty A ủy quyền nếu việc đó có lợi cho khách hàng và anh báo cáo lại ngay sau đó\nCác nhận định đúng là:",
+  "o": [
+   "I và II",
+   "I, II và III",
+   "II và IV",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 1 Điều 98 Luật Chứng khoán, người được cấp chứng chỉ hành nghề (CCHN) chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán. II đúng: khoản 4 Điều 98, công ty chịu trách nhiệm về hoạt động nghiệp vụ của người hành nghề. III sai: điểm d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP, CCHN chỉ có giá trị sử dụng khi người được cấp làm việc tại một trong các tổ chức nêu trên và được tổ chức đó thông báo với UBCKNN. IV sai: điểm c khoản 2 Điều 98 cấm người hành nghề thực hiện hành vi vượt quá phạm vi ủy quyền của công ty nơi mình làm việc; lý do vì lợi ích khách hàng không phải là ngoại lệ.",
+  "basis": "Khoản 1, điểm c khoản 2, khoản 4 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP (điểm này không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
+  "quote": "Người được cấp chứng chỉ hành nghề chứng khoán chỉ được hành nghề chứng khoán với tư cách đại diện cho công ty chứng khoán hoặc công ty quản lý quỹ đầu tư chứng khoán hoặc chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-002",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Chị P có chứng chỉ hành nghề môi giới chứng khoán, đang làm việc tại công ty chứng khoán X (X có nghiệp vụ môi giới và tư vấn đầu tư chứng khoán, không có nghiệp vụ tự doanh). Theo Luật Chứng khoán, xét các việc sau:\nI. Ký hợp đồng cộng tác viên môi giới với công ty chứng khoán Y và làm việc cho Y ngoài giờ hành chính\nII. Mở tài khoản giao dịch chứng khoán đứng tên mình tại chính công ty X\nIII. Mở tài khoản giao dịch chứng khoán tại công ty chứng khoán Z, với lý do X không có nghiệp vụ tự doanh\nIV. Ký hợp đồng làm việc bán thời gian cho một công ty đầu tư chứng khoán\nCác việc chị P ĐƯỢC làm là:",
+  "o": [
+   "Chỉ II",
+   "II và III",
+   "I, II và IV",
+   "II, III và IV"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 2 Điều 98: người hành nghề không được đồng thời làm việc cho từ 02 công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán trở lên, nên I và IV sai (công ty đầu tư chứng khoán cũng nằm trong danh sách này). Điểm b khoản 2 Điều 98: không được mở, quản lý tài khoản giao dịch tại công ty chứng khoán nơi mình không làm việc, trừ khi công ty nơi mình làm việc không có nghiệp vụ môi giới. X có nghiệp vụ môi giới nên III sai (không có nghiệp vụ tự doanh không phải là ngoại lệ), còn II đúng. Khi mở tài khoản, chị P phải báo cáo UBCKNN trong 05 ngày làm việc (khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP).",
+  "basis": "Điểm a, b khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP",
+  "quote": "Mở, quản lý tài khoản giao dịch chứng khoán tại công ty chứng khoán nơi mình không làm việc, trừ trường hợp công ty chứng khoán nơi mình đang làm việc không có nghiệp vụ môi giới chứng khoán;",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-003",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Nhân viên môi giới B của công ty chứng khoán K, khi được giao nhận lệnh cho khách hàng C, đã tự đặt thêm lệnh mua cổ phiếu trên tài khoản của C mà C không yêu cầu, cũng không ủy thác. Giá cổ phiếu sau đó giảm mạnh, C bị thiệt hại. Xét các nhận định sau:\nI. K phải bồi thường thiệt hại cho C, vì thiệt hại do người của K gây ra trong khi thực hiện nhiệm vụ được giao\nII. Sau khi bồi thường, K có quyền yêu cầu B hoàn trả một khoản tiền theo quy định của pháp luật\nIII. Hành vi của B thuộc hành vi bị nghiêm cấm và là căn cứ thu hồi chứng chỉ hành nghề của B\nIV. Nếu bị thu hồi chứng chỉ hành nghề vì hành vi này, B được cấp lại sau khi thi đạt một kỳ thi sát hạch mới\nCác nhận định đúng là:",
+  "o": [
+   "I, II và III",
+   "I và III",
+   "II, III và IV",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "I, II đúng: Điều 597 Bộ luật Dân sự 2015, pháp nhân phải bồi thường thiệt hại do người của mình gây ra trong khi thực hiện nhiệm vụ được giao và có quyền yêu cầu người có lỗi hoàn trả; khoản 4 Điều 98 Luật Chứng khoán cũng quy định công ty chịu trách nhiệm về hoạt động nghiệp vụ của người hành nghề. III đúng: sử dụng tài khoản, tài sản của khách hàng khi không được khách hàng ủy thác là hành vi bị nghiêm cấm (khoản 5 Điều 12), và vi phạm Điều 12 là căn cứ thu hồi chứng chỉ hành nghề (điểm b khoản 3 Điều 97). IV sai: người bị thu hồi chứng chỉ vì vi phạm Điều 12 hoặc khoản 2 Điều 98 không được cấp lại (khoản 4 Điều 97).",
+  "basis": "Điều 597 Bộ luật Dân sự 2015; khoản 5 Điều 12, điểm b khoản 3 và khoản 4 Điều 97, khoản 4 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Pháp nhân phải bồi thường thiệt hại do người của mình gây ra trong khi thực hiện nhiệm vụ được pháp nhân giao; nếu pháp nhân đã bồi thường thiệt hại thì có quyền yêu cầu người có lỗi trong việc gây thiệt hại phải hoàn trả một khoản tiền theo quy định của pháp luật.",
+  "src": "Bo_luat_Dan_su_91_2015_QH13_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-004",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Chị Q có chứng chỉ hành nghề môi giới chứng khoán và chứng chỉ chuyên môn Chứng khoán phái sinh và thị trường chứng khoán phái sinh, làm việc tại công ty chứng khoán X (X có đủ các nghiệp vụ kinh doanh chứng khoán và được kinh doanh chứng khoán phái sinh). Theo Nghị định 155/2020/NĐ-CP, xét các nhận định sau:\nI. Chị Q được thực hiện nghiệp vụ môi giới chứng khoán và tư vấn đầu tư chứng khoán\nII. Chị Q được thực hiện môi giới chứng khoán phái sinh tại X\nIII. X được điều chị Q sang làm tự doanh chứng khoán vì chị đã có chứng chỉ hành nghề\nIV. Trong cùng một thời điểm, chị Q được làm việc đồng thời tại bộ phận môi giới và bộ phận tự doanh của X\nCác nhận định đúng là:",
+  "o": [
+   "I và II",
+   "I, II và III",
+   "Chỉ I",
+   "I, II và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: điểm a khoản 2 Điều 216, chứng chỉ hành nghề môi giới cho phép thực hiện môi giới và tư vấn đầu tư chứng khoán. II đúng: điểm đ khoản 2 Điều 216, người có một trong ba loại chứng chỉ hành nghề và có chứng chỉ chuyên môn chứng khoán phái sinh được thực hiện nghiệp vụ tương ứng với chứng chỉ đang nắm giữ liên quan đến chứng khoán phái sinh. III sai: tự doanh chỉ dành cho người có chứng chỉ hành nghề phân tích tài chính hoặc quản lý quỹ (điểm b, c khoản 2 Điều 216); công ty bố trí người hành nghề làm nghiệp vụ không phù hợp loại chứng chỉ còn bị phạt theo điểm b khoản 1 Điều 32 Nghị định 156/2020/NĐ-CP. IV sai: người có chứng chỉ hành nghề chỉ được làm việc tại 01 bộ phận nghiệp vụ kinh doanh chứng khoán trong một thời điểm (điểm e khoản 2 Điều 216).",
+  "basis": "Điểm a, b, c, đ, e khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP (khoản này không bị Nghị định 245/2025/NĐ-CP sửa đổi); điểm b khoản 1 Điều 32 Nghị định 156/2020/NĐ-CP",
+  "quote": "Người có 01 trong 03 loại chứng chỉ hành nghề chứng khoán theo quy định tại điểm a, b, c khoản này và có chứng chỉ chuyên môn chứng khoán phái sinh và thị trường chứng khoán phái sinh được thực hiện nghiệp vụ tương ứng với chứng chỉ đang nắm giữ liên quan đến chứng khoán phái sinh tại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-005",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Anh N vừa có kết quả thi sát hạch đạt nhưng Ủy ban Chứng khoán Nhà nước chưa ra quyết định cấp chứng chỉ hành nghề. Công ty chứng khoán K (nơi anh N đã ký hợp đồng lao động) muốn bố trí ngay anh N làm nhân viên nhận lệnh, kiểm soát lệnh giao dịch của khách hàng. Nhận định nào sau đây đúng?",
+  "o": [
+   "Chưa được, vì vị trí này phải do người hành nghề đảm nhận; K bố trí người chưa có chứng chỉ có thể bị phạt tiền",
+   "Được, vì kết quả thi đạt của anh N đã được công bố trên trang thông tin điện tử của UBCKNN",
+   "Được, nếu một người hành nghề khác của K ký kiểm soát toàn bộ các lệnh vào cuối ngày",
+   "Được trong 30 ngày, là thời hạn để UBCKNN ra quyết định cấp chứng chỉ hành nghề"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 89 Luật Chứng khoán: công ty chứng khoán phải bảo đảm nhân viên làm việc tại bộ phận nghiệp vụ có chứng chỉ hành nghề phù hợp; điểm c khoản 1 Điều 13 Thông tư 121/2020/TT-BTC: vị trí nhận lệnh, kiểm soát lệnh giao dịch của khách hàng phải do người hành nghề chứng khoán đảm nhận. Thi đạt chưa phải là đã được cấp chứng chỉ: UBCKNN ra quyết định cấp trong 30 ngày kể từ ngày thông báo kết quả thi (điểm a khoản 6 Điều 213 Nghị định 155/2020/NĐ-CP, sửa đổi bởi Nghị định 245/2025/NĐ-CP), và chứng chỉ chỉ có giá trị khi được công ty thông báo với UBCKNN (điểm d khoản 2 Điều 216). Việc người khác ký kiểm soát cuối ngày không thay thế được yêu cầu này. Bố trí người chưa có chứng chỉ vào vị trí bắt buộc phải có chứng chỉ bị phạt 100–150 triệu đồng đối với tổ chức (điểm a khoản 2 Điều 32 Nghị định 156/2020/NĐ-CP, tiêu đề khoản 2 sửa đổi bởi Nghị định 306/2025/NĐ-CP).",
+  "basis": "Khoản 2 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm c khoản 1 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm a khoản 6 Điều 213 (sửa đổi bởi Nghị định 245/2025/NĐ-CP), điểm d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP; điểm a khoản 2 Điều 32 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Bảo đảm nhân viên làm việc tại bộ phận nghiệp vụ phải có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ thực hiện.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-006",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Chị L có chứng chỉ hành nghề phân tích tài chính, làm chuyên viên tại công ty chứng khoán M; M chỉ được cấp phép nghiệp vụ tư vấn đầu tư chứng khoán, không có nghiệp vụ môi giới. Chị L muốn tự đầu tư cổ phiếu niêm yết. Theo Luật Chứng khoán và Nghị định 155/2020/NĐ-CP, nhận định nào sau đây đúng?",
+  "o": [
+   "Chị L được mở tài khoản giao dịch tại một công ty chứng khoán khác và phải báo cáo UBCKNN trong 05 ngày làm việc kể từ ngày mở",
+   "Chị L không được giao dịch cổ phiếu trong thời gian còn làm việc tại công ty M",
+   "Chị L được mở tài khoản tại công ty chứng khoán khác và không phải báo cáo vì không mở tại nơi làm việc",
+   "Chị L phải mở tài khoản giao dịch tại chính công ty M dù M không có nghiệp vụ môi giới"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 2 Điều 98 Luật Chứng khoán cấm người hành nghề mở, quản lý tài khoản giao dịch tại công ty chứng khoán nơi mình không làm việc, trừ trường hợp công ty nơi mình đang làm việc không có nghiệp vụ môi giới chứng khoán. M không có nghiệp vụ môi giới nên không mở được tài khoản giao dịch cho chị L; chị thuộc trường hợp ngoại lệ và được mở tài khoản tại công ty chứng khoán khác. Khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP: người được cấp chứng chỉ hành nghề phải báo cáo UBCKNN trong 05 ngày làm việc kể từ ngày mở tài khoản giao dịch chứng khoán, không phân biệt mở ở đâu.",
+  "basis": "Điểm b khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP",
+  "quote": "Người được cấp chứng chỉ hành nghề chứng khoán phải báo cáo Ủy ban Chứng khoán Nhà nước theo Mẫu số 86 Phụ lục ban hành kèm theo Nghị định này trong thời hạn 05 ngày làm việc kể từ ngày ký kết hợp đồng lao động, chấm dứt hợp đồng lao động với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh công ty chứng khoán, công ty quản lý quỹ nước ngoài tại Việt Nam hoặc mở tài khoản giao dịch chứng khoán.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-007",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Anh Z là nhân viên môi giới, nghỉ việc tại công ty chứng khoán A để chuyển sang công ty chứng khoán B. Trước khi nghỉ, anh sao chép danh sách khách hàng kèm số dư, danh mục nắm giữ của từng người tại A để chào mời họ chuyển sang B. Nhận định nào sau đây đúng?",
+  "o": [
+   "Vi phạm nghĩa vụ bảo mật: thông tin khách hàng chỉ được cung cấp khi khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền",
+   "Không vi phạm, vì các khách hàng này do chính anh Z tìm kiếm và phát triển",
+   "Không vi phạm nếu anh Z chỉ dùng danh sách để mời chào, không công bố số dư cho người khác",
+   "Không vi phạm nếu anh Z chỉ sử dụng danh sách sau khi đã chấm dứt hợp đồng lao động với A"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 91 Luật Chứng khoán: không được tiết lộ thông tin về khách hàng, trừ khi khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền; điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC cấm tiết lộ thông tin bí mật có được khi thực hiện giao dịch cho khách hàng. Việc khách hàng do ai phát triển, mục đích chỉ là mời chào hay nhân viên đã nghỉ việc đều không phải là ngoại lệ của các quy định này; đưa dữ liệu sang công ty B chính là tiết lộ cho bên thứ ba. Giáo trình xếp việc nhân viên làm lộ thông tin cho đối thủ cạnh tranh vào nhóm xung đột lợi ích giữa nhân viên và công ty chứng khoán.",
+  "basis": "Khoản 2 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); Chuyên đề Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán – giáo trình môn Môi giới (SRTC)",
+  "quote": "Không được tiết lộ thông tin về khách hàng, trừ trường hợp được khách hàng đồng ý hoặc theo yêu cầu của cơ quan có thẩm quyền.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-008",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Anh B là nhân viên môi giới (người hành nghề chứng khoán) tại công ty chứng khoán K, K có nghiệp vụ môi giới. Xét các nhận định sau về giao dịch chứng khoán cá nhân của anh B:\nI. Anh B được đặt lệnh cho mình trên tài khoản của một khách hàng thân thiết nếu khách hàng đồng ý và anh tự chịu lãi, lỗ\nII. Anh B được mở tài khoản giao dịch tại K và phải báo cáo UBCKNN trong 05 ngày làm việc kể từ ngày mở\nIII. Anh B được nhờ người thân đứng tên mở tài khoản tại công ty chứng khoán khác rồi tự quản lý tài khoản đó để giao dịch, tránh sự giám sát của K\nIV. Giao dịch cá nhân của anh B thuộc đối tượng giám sát của bộ phận kiểm soát nội bộ của K\nCác nhận định đúng là:",
+  "o": [
+   "II và IV",
+   "I, II và IV",
+   "II, III và IV",
+   "Chỉ IV"
+  ],
+  "a": 0,
+  "e": "I sai: điểm e khoản 4 Điều 13 Thông tư 121/2020/TT-BTC cấm sử dụng tên hoặc tài khoản của khách hàng để đăng ký, giao dịch chứng khoán; người hành nghề vi phạm bị xử phạt theo điểm a khoản 5 Điều 32 Nghị định 156/2020/NĐ-CP. II đúng: điểm b khoản 2 Điều 98 Luật Chứng khoán cho phép mở tài khoản tại chính công ty nơi mình làm việc; khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP yêu cầu báo cáo UBCKNN trong 05 ngày làm việc. III sai: điểm b khoản 2 Điều 98 cấm cả việc mở và quản lý tài khoản tại công ty chứng khoán nơi mình không làm việc; tài khoản đứng tên người thân nhưng do anh B quản lý vẫn là trường hợp bị cấm. IV đúng: điểm b khoản 2 Điều 12 Thông tư 121/2020/TT-BTC giao bộ phận kiểm soát nội bộ giám sát các hoạt động tiềm ẩn xung đột lợi ích, đặc biệt là giao dịch cá nhân của nhân viên công ty.",
+  "basis": "Điểm b khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP; điểm e khoản 4 Điều 13, điểm b khoản 2 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm a khoản 5 Điều 32 Nghị định 156/2020/NĐ-CP",
+  "quote": "Giám sát thực thi các quy định nội bộ, các hoạt động tiềm ẩn xung đột lợi ích trong nội bộ công ty, đặc biệt đối với các hoạt động kinh doanh của bản thân công ty và các giao dịch cá nhân của nhân viên công ty;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-009",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Công ty chứng khoán K dự kiến lập một phòng giao dịch mới để phục vụ khách hàng môi giới. Theo Nghị định 155/2020/NĐ-CP và Thông tư 121/2020/TT-BTC, xét các nhận định sau:\nI. Phòng giao dịch phải có tối thiểu 02 người hành nghề chứng khoán làm việc\nII. Phòng giao dịch được thực hiện tự doanh chứng khoán cho công ty nếu trưởng phòng có chứng chỉ hành nghề phân tích tài chính\nIII. Trụ sở phòng giao dịch phải nằm trong phạm vi tỉnh, thành phố trực thuộc Trung ương nơi K đặt trụ sở chính hoặc chi nhánh\nIV. K phải báo cáo UBCKNN bằng văn bản trong 03 ngày làm việc kể từ ngày phòng giao dịch khai trương hoạt động\nCác nhận định đúng là:",
+  "o": [
+   "I, III và IV",
+   "I, II và III",
+   "III và IV",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "Điều 191 Nghị định 155/2020/NĐ-CP: phòng giao dịch phải có tối thiểu 02 người hành nghề chứng khoán (khoản 2 – I đúng); trụ sở nằm trong địa bàn tỉnh, thành phố trực thuộc Trung ương nơi công ty đặt trụ sở chính hoặc chi nhánh (khoản 3 – III đúng); hoạt động chỉ gồm hỗ trợ các nghiệp vụ môi giới, tư vấn đầu tư và lưu ký chứng khoán cho trụ sở chính hoặc chi nhánh nơi phòng giao dịch phụ thuộc (khoản 4), nên II sai dù trưởng phòng có loại chứng chỉ nào. IV đúng: điểm b khoản 3 Điều 29 Thông tư 121/2020/TT-BTC, công ty báo cáo UBCKNN bằng văn bản trong 03 ngày làm việc kể từ ngày trụ sở chính, chi nhánh, phòng giao dịch khai trương hoạt động.",
+  "basis": "Khoản 2, 3, 4 Điều 191 Nghị định 155/2020/NĐ-CP (điều này không bị Nghị định 245/2025/NĐ-CP sửa đổi); điểm b khoản 3 Điều 29 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Hoạt động của phòng giao dịch chỉ bao gồm hoạt động hỗ trợ các nghiệp vụ môi giới chứng khoán, tư vấn đầu tư chứng khoán và lưu ký chứng khoán cho trụ sở chính hoặc chi nhánh nơi phòng giao dịch phụ thuộc.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-010",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Khách hàng cá nhân M muốn giao cho nhân viên môi giới N của công ty chứng khoán K (N có chứng chỉ hành nghề môi giới) toàn quyền quyết định mua, bán trên tài khoản giao dịch thông thường của M. Theo Thông tư 121/2020/TT-BTC, xét các nhận định sau:\nI. K và N không được đầu tư thay cho M, trừ trường hợp M sử dụng dịch vụ ủy thác quản lý tài khoản giao dịch theo quy định\nII. Nếu dùng dịch vụ ủy thác, M được ủy thác cho K quyết định toàn bộ giao dịch trên tài khoản mà không cần ghi rõ nội dung ủy thác\nIII. Chứng khoán được ủy thác mua, bán gồm cả cổ phiếu đăng ký giao dịch trên UPCoM\nIV. K phải chỉ định người hành nghề có chứng chỉ hành nghề phân tích tài chính hoặc quản lý quỹ quản lý tài khoản ủy thác, nên N không được giao việc này\nCác nhận định đúng là:",
+  "o": [
+   "I và IV",
+   "I, II và IV",
+   "I, III và IV",
+   "II và III"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 3 Điều 4, công ty và nhân viên không được đầu tư thay khách hàng, trừ ủy thác quản lý tài khoản giao dịch của nhà đầu tư cá nhân theo Điều 19. II sai: điểm c khoản 1 Điều 19, công ty không được nhận ủy thác quyết định toàn bộ giao dịch; khách hàng phải ghi rõ nội dung ủy thác theo khoản 2 Điều 19 (loại chứng khoán, khối lượng tối đa, giá trị tối đa mỗi lệnh, tổng giá trị tối đa mỗi ngày, phương thức và loại lệnh). III sai: điểm d khoản 1 Điều 19, chỉ được ủy thác mua, bán cổ phiếu, chứng chỉ quỹ niêm yết trên Sở giao dịch, không gồm chứng khoán đăng ký giao dịch trên UPCoM. IV đúng: điểm đ khoản 1 Điều 19, người quản lý tài khoản ủy thác phải có chứng chỉ hành nghề phân tích tài chính hoặc quản lý quỹ và được nêu rõ trong hợp đồng; chứng chỉ hành nghề môi giới không đáp ứng.",
+  "basis": "Khoản 3 Điều 4; điểm c, d, đ khoản 1 và khoản 2 Điều 19 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Công ty chứng khoán chỉ định người hành nghề chứng khoán có chứng chỉ hành nghề phân tích tài chính hoặc quản lý quỹ thực hiện quản lý tài khoản giao dịch ủy thác.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-011",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Chị A, nhân viên bộ phận tư vấn tài chính doanh nghiệp của công ty chứng khoán K, kể với đồng nghiệp là nhân viên môi giới D về thương vụ sáp nhập chưa công bố của công ty niêm yết Y; thông tin này có thể làm giá cổ phiếu Y tăng mạnh. Theo Luật Chứng khoán, xét các nhận định sau:\nI. D không được mua, bán cổ phiếu Y cho chính mình hoặc cho người khác trên cơ sở thông tin này\nII. D được khuyến nghị khách hàng mua cổ phiếu Y nếu không nói ra nguồn thông tin\nIII. Chị A đã thực hiện hành vi bị nghiêm cấm khi tiết lộ thông tin này cho D\nIV. Hành vi của D chỉ bị xử lý nếu khách hàng của D có lãi từ giao dịch\nCác nhận định đúng là:",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "Chỉ I",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "Thương vụ sáp nhập chưa công bố, có thể ảnh hưởng lớn đến giá cổ phiếu Y là thông tin nội bộ (khoản 44 Điều 4). Khoản 2 Điều 12 cấm: sử dụng thông tin nội bộ để mua, bán chứng khoán cho mình hoặc cho người khác (I đúng); tiết lộ, cung cấp thông tin nội bộ, kể cả cho đồng nghiệp cùng công ty (III đúng); tư vấn cho người khác mua, bán trên cơ sở thông tin nội bộ (II sai, giấu nguồn không làm thay đổi bản chất). IV sai: hành vi bị cấm không phụ thuộc vào kết quả lãi, lỗ; khoản thu trái pháp luật (nếu có) chỉ dùng để xác định mức phạt tối đa (khoản 3 Điều 132). Đây là lý do công ty chứng khoán phải có cơ chế giám sát, ngăn ngừa xung đột lợi ích trong nội bộ, ngăn thông tin giữa bộ phận tư vấn tài chính và bộ phận môi giới (khoản 1 Điều 89).",
+  "basis": "Khoản 44 Điều 4, khoản 2 Điều 12, khoản 1 Điều 89, khoản 3 Điều 132 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Sử dụng thông tin nội bộ để mua, bán chứng khoán cho chính mình hoặc cho người khác; tiết lộ, cung cấp thông tin nội bộ hoặc tư vấn cho người khác mua, bán chứng khoán trên cơ sở thông tin nội bộ.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-012",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Nhân viên môi giới E của công ty chứng khoán K nhận lệnh bán khối lượng rất lớn cổ phiếu Y của một khách hàng tổ chức; lệnh này có thể làm giá Y giảm mạnh. Trước khi nhập lệnh, E báo cho đồng nghiệp ở bộ phận tự doanh để bộ phận này bán trước số cổ phiếu Y mà công ty đang nắm giữ. Nhận định nào sau đây đúng?",
+  "o": [
+   "Vi phạm: E tiết lộ nội dung lệnh của khách hàng, và công ty không được bán trước cùng loại chứng khoán cho chính mình",
+   "Không vi phạm, vì thông tin chỉ được chuyển giữa các bộ phận trong cùng một công ty",
+   "Chỉ vi phạm nếu bộ phận tự doanh bán ở mức giá thấp hơn giá đặt bán của khách hàng",
+   "Không vi phạm nếu lệnh của khách hàng vẫn được khớp đủ khối lượng trong ngày"
+  ],
+  "a": 0,
+  "e": "Điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC: công ty thực hiện môi giới không được tiết lộ nội dung đặt lệnh của khách hàng, trừ để công bố thông tin hoặc theo yêu cầu thanh tra, kiểm tra; chuyển thông tin sang bộ phận tự doanh không thuộc ngoại lệ. Khoản 6 Điều 22: khi lệnh của khách hàng có thể ảnh hưởng lớn tới giá, công ty không được mua, bán trước cùng loại chứng khoán đó cho chính mình hoặc tiết lộ cho bên thứ ba. Khoản 4 Điều 22 và khoản 5 Điều 89 Luật Chứng khoán còn yêu cầu ưu tiên lệnh của khách hàng trước lệnh của công ty. Mức giá bán hay kết quả khớp lệnh của khách hàng không làm hành vi trở nên hợp pháp.",
+  "basis": "Điểm đ khoản 4 Điều 13; khoản 4, 6 Điều 22 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 5 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Trong trường hợp lệnh mua, bán chứng khoán của khách hàng có thể ảnh hưởng lớn tới giá của loại chứng khoán đó, công ty chứng khoán không được mua, bán trước cùng loại chứng khoán đó cho chính mình hoặc tiết lộ thông tin cho bên thứ ba mua, bán chứng khoán đó.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-013",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, xét các cách bố trí nhân sự sau tại công ty chứng khoán K:\nI. Nhân viên bộ phận kiểm toán nội bộ được kiêm nhiệm tư vấn đầu tư cho khách hàng vào cuối tuần\nII. Trưởng bộ phận kiểm soát nội bộ là anh ruột của Giám đốc một chi nhánh của K\nIII. Trưởng phòng môi giới của chi nhánh đồng thời phụ trách bộ phận quản trị rủi ro của chi nhánh\nIV. Nhân viên kiểm soát tuân thủ không kiêm nhiệm công việc nào khác trong công ty\nCách bố trí phù hợp quy định là:",
+  "o": [
+   "Chỉ IV",
+   "II và IV",
+   "III và IV",
+   "I, II và IV"
+  ],
+  "a": 0,
+  "e": "I sai: điểm a khoản 3 Điều 9, cán bộ kiểm toán nội bộ không được kiêm nhiệm công việc tại các bộ phận nghiệp vụ như môi giới, tự doanh, phân tích, tư vấn đầu tư, bảo lãnh phát hành, quản trị rủi ro. II sai: điểm c khoản 4 Điều 12, nhân sự bộ phận kiểm soát nội bộ không được là người có liên quan của Giám đốc chi nhánh; anh ruột là người có liên quan theo điểm d khoản 46 Điều 4 Luật Chứng khoán. III sai: điểm d khoản 1 Điều 11, bộ phận tác nghiệp và bộ phận quản trị rủi ro phải tách biệt, độc lập; người phụ trách bộ phận tác nghiệp không đồng thời phụ trách bộ phận quản trị rủi ro. IV đúng: điểm đ khoản 4 Điều 12, nhân sự kiểm soát nội bộ không kiêm nhiệm các công việc khác trong công ty.",
+  "basis": "Điểm a khoản 3 Điều 9; điểm d khoản 1 Điều 11; điểm c, đ khoản 4 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm d khoản 46 Điều 4 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "cán bộ làm công tác kiểm toán nội bộ không được đảm nhận các công việc thuộc đối tượng của kiểm toán nội bộ, không được kiêm nhiệm công việc tại các bộ phận nghiệp vụ như môi giới, tự doanh, phân tích, tư vấn đầu tư, bảo lãnh phát hành, quản trị rủi ro",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-014",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Bộ phận kiểm soát nội bộ của công ty chứng khoán K yêu cầu nhân viên môi giới D cung cấp hồ sơ, giải trình về một số việc. Theo Thông tư 121/2020/TT-BTC, xét các nội dung sau:\nI. Các giao dịch chứng khoán cá nhân của D\nII. Việc D thực hiện quy tắc đạo đức nghề nghiệp của công ty\nIII. Việc D tuân thủ quy định về phòng, chống rửa tiền khi mở tài khoản cho khách hàng\nIV. Việc D tuân thủ quy trình nghiệp vụ môi giới của công ty\nCác nội dung thuộc phạm vi kiểm soát của bộ phận kiểm soát nội bộ là:",
+  "o": [
+   "I, II, III và IV",
+   "II, III và IV",
+   "I, II và IV",
+   "II và IV"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 12: bộ phận kiểm soát nội bộ trực thuộc Ban Tổng giám đốc (Ban Giám đốc) kiểm tra, giám sát việc tuân thủ pháp luật, quy chế, quy trình nghiệp vụ của các bộ phận và của người hành nghề chứng khoán trong công ty (điểm a – IV); giám sát các hoạt động tiềm ẩn xung đột lợi ích, đặc biệt là giao dịch cá nhân của nhân viên (điểm b – I); kiểm tra nội dung và giám sát việc thực hiện các quy tắc đạo đức nghề nghiệp (điểm c – II); kiểm soát việc tuân thủ pháp luật về phòng, chống rửa tiền (điểm g – III). Cả bốn nội dung đều thuộc phạm vi kiểm soát; nhân viên không thể viện lý do giao dịch cá nhân là việc riêng để từ chối.",
+  "basis": "Khoản 1, điểm a, b, c, g khoản 2 Điều 12 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Kiểm tra, giám sát việc tuân thủ các quy định pháp luật, điều lệ công ty, quyết định của Đại hội đồng cổ đông, quyết định của Hội đồng quản trị, các quy chế, quy trình nghiệp vụ, quy trình quản trị rủi ro của công ty, của các bộ phận có liên quan và của người hành nghề chứng khoán trong công ty;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-015",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo cách phân nhóm xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán của giáo trình, xét các cặp “tình huống – nhóm xung đột” sau:\nI. Nhân viên nói xấu đồng nghiệp, chia thưởng không đúng trong nhóm – xung đột giữa các nhân viên trong công ty chứng khoán\nII. Công ty mượn tiền, chứng khoán của khách hàng – xung đột giữa công ty chứng khoán và thị trường\nIII. Nhân viên che giấu với công ty thông tin về bản thân hoặc về khách hàng – xung đột giữa nhân viên và công ty chứng khoán\nIV. Công ty cạnh tranh không lành mạnh, vi phạm quy định của cơ quan quản lý – xung đột giữa công ty chứng khoán và thị trường\nCác cặp xếp đúng là:",
+  "o": [
+   "I, III và IV",
+   "I, II và III",
+   "II và IV",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "Giáo trình chia bốn nhóm xung đột. Giữa các nhân viên trong công ty: ưu tiên việc cá nhân, tranh giành, chèo kéo khách hàng, nói xấu đồng nghiệp, chia thưởng sai… (I đúng). Giữa nhân viên và công ty: công ty ép chỉ tiêu, ép bán kèm sản phẩm; nhân viên làm cộng tác viên cho công ty khác, che giấu thông tin về cá nhân, khách hàng, làm lộ thông tin cho đối thủ… (III đúng). Giữa công ty và khách hàng: không đối xử bình đẳng, vi phạm nguyên tắc đầu tư phù hợp, ép vay ký quỹ, mượn tiền và chứng khoán của khách hàng… Giữa công ty và thị trường: cạnh tranh không lành mạnh, vi phạm quy định của cơ quan quản lý, thực hiện giao dịch bị cấm, che giấu hành vi rửa tiền… (IV đúng). II sai vì mượn tiền, chứng khoán của khách hàng thuộc nhóm xung đột giữa công ty và khách hàng.",
+  "basis": "Chuyên đề Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán – giáo trình môn Môi giới (SRTC)",
+  "quote": "",
+  "src": "",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-016",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Khách hàng P đang được nhân viên môi giới Q phục vụ. Đồng nghiệp R của Q chủ động liên hệ P, hứa trích lại cho P một phần hoa hồng của R nếu P chuyển sang để R quản lý tài khoản. Theo giáo trình, nhận định nào sau đây đúng?",
+  "o": [
+   "R chèo kéo khách hàng của đồng nghiệp (xung đột giữa các nhân viên) và chia hoa hồng cho khách hàng trái quy định (xung đột với công ty)",
+   "Đây là cạnh tranh lành mạnh giữa các nhân viên, vì khách hàng được lợi về chi phí giao dịch",
+   "Đây là việc riêng giữa R và Q, không liên quan đến đạo đức nghề nghiệp",
+   "R được làm nếu thông báo cho Q sau khi P đã đồng ý chuyển sang"
+  ],
+  "a": 0,
+  "e": "Giáo trình xếp việc tranh giành, chèo kéo khách hàng của nhau vào nhóm xung đột lợi ích giữa các nhân viên trong công ty chứng khoán, và việc nhân viên chia thưởng với khách hàng trái quy định vào nhóm xung đột giữa nhân viên và công ty. Lợi ích trước mắt về phí không biến hành vi này thành cạnh tranh lành mạnh, và thông báo sau cho đồng nghiệp cũng không khắc phục được. Cách làm phù hợp là tuân thủ quy định nội bộ của công ty về quản lý khách hàng và chính sách phí chung, giữ nguyên tắc đối xử công bằng và tôn trọng đồng nghiệp.",
+  "basis": "Chuyên đề Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán – giáo trình môn Môi giới (SRTC)",
+  "quote": "",
+  "src": "",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-017",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, xét các yêu cầu tách biệt sau trong tổ chức hoạt động của công ty chứng khoán:\nI. Bộ phận tác nghiệp và bộ phận quản trị rủi ro được tổ chức tách biệt, độc lập với nhau\nII. Có bộ phận giám sát độc lập giám sát việc người hành nghề quản lý, giao dịch trên tài khoản ủy thác của khách hàng\nIII. Hệ thống giao dịch chứng khoán trực tuyến tách biệt với các hệ thống thông tin điện tử khác của công ty\nIV. Khi bảo lãnh phát hành, công ty mở tài khoản riêng biệt tại ngân hàng thương mại để nhận tiền đặt mua chứng khoán của nhà đầu tư\nCác yêu cầu là quy định bắt buộc gồm:",
+  "o": [
+   "I, II, III và IV",
+   "I, II và III",
+   "I và IV",
+   "II, III và IV"
+  ],
+  "a": 0,
+  "e": "I: điểm d khoản 1 Điều 11. II: điểm i khoản 6 Điều 19 (bộ phận giám sát độc lập bảo đảm giao dịch trên tài khoản ủy thác phù hợp với hợp đồng ủy thác và mục tiêu đầu tư của khách hàng). III: điểm d khoản 1 Điều 20. IV: khoản 3 Điều 23. Cả bốn đều là yêu cầu bắt buộc; cùng với việc tách biệt tài sản của từng khách hàng và giữa tài sản của khách hàng với tài sản của công ty (khoản 4 Điều 4), các yêu cầu này tạo thành những “bức tường” giữa các nghiệp vụ nhằm hạn chế xung đột lợi ích.",
+  "basis": "Điểm d khoản 1 Điều 11; điểm i khoản 6 Điều 19; điểm d khoản 1 Điều 20; khoản 3 Điều 23; khoản 4 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Thiết lập bộ phận giám sát độc lập giám sát việc quản lý, giao dịch chứng khoán trên tài khoản giao dịch ủy thác của người hành nghề chứng khoán nhằm đảm bảo việc giao dịch của tài khoản này phù hợp với các thỏa thuận trong hợp đồng ủy thác và mục tiêu đầu tư của khách hàng;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-018",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Qua kiểm tra, Ủy ban Chứng khoán Nhà nước phát hiện công ty chứng khoán K không giám sát, ngăn ngừa xung đột lợi ích trong nội bộ công ty: bộ phận tư vấn tài chính doanh nghiệp và bộ phận môi giới dùng chung dữ liệu, trao đổi tự do về các thương vụ chưa công bố. Theo Nghị định 156/2020/NĐ-CP (đã sửa đổi, bổ sung), mức phạt tiền đối với K về hành vi này là:",
+  "o": [
+   "Từ 70 triệu đồng đến 100 triệu đồng",
+   "Từ 50 triệu đồng đến 70 triệu đồng",
+   "Từ 100 triệu đồng đến 150 triệu đồng",
+   "Từ 150 triệu đồng đến 200 triệu đồng"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 89 Luật Chứng khoán buộc công ty chứng khoán thiết lập hệ thống kiểm soát nội bộ, quản trị rủi ro và giám sát, ngăn ngừa xung đột lợi ích trong nội bộ công ty. Điểm đ khoản 2 Điều 26 Nghị định 156/2020/NĐ-CP phạt từ 70 đến 100 triệu đồng hành vi không giám sát, ngăn ngừa xung đột lợi ích trong nội bộ công ty và trong giao dịch với người có liên quan, giữa các khách hàng hoặc giữa công ty, người hành nghề và khách hàng (Nghị định 128/2021 và 306/2025 không sửa tiêu đề khoản 2 và điểm này). Mức phạt tại Chương II là mức áp dụng cho tổ chức (điểm c khoản 3 Điều 5, sửa đổi bởi Nghị định 128/2021/NĐ-CP). Nhân viên nào dùng thông tin chưa công bố để giao dịch còn bị xử lý riêng về sử dụng thông tin nội bộ.",
+  "basis": "Khoản 1 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm đ khoản 2 Điều 26, điểm c khoản 3 Điều 5 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP)",
+  "quote": "không giám sát, ngăn ngừa xung đột lợi ích trong nội bộ công ty và trong giao dịch với người có liên quan, giữa các khách hàng hoặc giữa công ty chứng khoán, chi nhánh công ty chứng khoán nước ngoài tại Việt Nam, người hành nghề chứng khoán và khách hàng",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-019",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Luật Chứng khoán, người hành nghề chứng khoán bị thu hồi chứng chỉ hành nghề trong những trường hợp nào sau đây?\nI. Cho người khác mượn chứng chỉ hành nghề chứng khoán (chưa đến mức truy cứu trách nhiệm hình sự)\nII. Đồng thời làm việc cho hai công ty chứng khoán\nIII. Thực hiện hành vi vượt quá phạm vi ủy quyền của công ty chứng khoán nơi mình làm việc\nIV. Sử dụng tài khoản, tài sản của khách hàng khi không được khách hàng ủy thác\nCác trường hợp đúng là:",
+  "o": [
+   "II, III và IV",
+   "I, II, III và IV",
+   "I, II và IV",
+   "II và IV"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 97: chứng chỉ hành nghề bị thu hồi khi người được cấp không còn đáp ứng điều kiện cấp, vi phạm Điều 12 hoặc khoản 2 Điều 98, hoặc không hành nghề chứng khoán 03 năm liên tục. II và III vi phạm điểm a, c khoản 2 Điều 98; IV là hành vi bị nghiêm cấm tại khoản 5 Điều 12; ba trường hợp này còn không được cấp lại chứng chỉ (khoản 4 Điều 97). I sai: cho mượn chứng chỉ hành nghề không thuộc các căn cứ thu hồi tại khoản 3 Điều 97; hành vi này bị xử phạt theo điểm a khoản 4 Điều 32 Nghị định 156/2020/NĐ-CP (cá nhân bị phạt 100–150 triệu đồng, bằng 1/2 khung 200–300 triệu đồng của tổ chức sau khi Nghị định 306/2025/NĐ-CP sửa đổi), tước quyền sử dụng chứng chỉ có thời hạn 01–03 tháng (điểm a khoản 7) và buộc nộp lại số lợi bất hợp pháp nếu cho thuê (điểm a khoản 8).",
+  "basis": "Khoản 5 Điều 12; khoản 3, 4 Điều 97; điểm a, c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm a khoản 4, khoản 7, khoản 8 Điều 32 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP)",
+  "quote": "Cá nhân được cấp chứng chỉ hành nghề chứng khoán bị thu hồi chứng chỉ hành nghề chứng khoán trong các trường hợp sau đây:",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-020",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán và Nghị định 155/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 245/2025/NĐ-CP), xét các nhận định sau về thu hồi, cấp lại chứng chỉ hành nghề chứng khoán:\nI. Người bị thu hồi chứng chỉ vì không hành nghề chứng khoán 03 năm liên tục được đề nghị cấp lại khi đáp ứng điều kiện cấp tương ứng với loại chứng chỉ\nII. Người bị thu hồi chứng chỉ vì cho người khác mượn tài khoản để giao dịch dẫn đến thao túng giá chứng khoán không được cấp lại\nIII. Trường hợp chứng chỉ cấp bằng bản giấy, người bị thu hồi phải nộp lại cho UBCKNN trong 30 ngày kể từ ngày UBCKNN có quyết định thu hồi và đăng tải thông tin trên trang thông tin điện tử\nIV. Trường hợp chứng chỉ bị mất, UBCKNN ra quyết định cấp lại trong 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ\nCác nhận định đúng là:",
+  "o": [
+   "I, II, III và IV",
+   "I, II và III",
+   "II, III và IV",
+   "I và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: điểm a khoản 1 Điều 214 Nghị định 155 (sửa đổi bởi khoản 74 Điều 1 Nghị định 245/2025/NĐ-CP), chứng chỉ bị thu hồi theo điểm a, c khoản 3 Điều 97 Luật Chứng khoán được cấp lại cho cá nhân đáp ứng điều kiện tại khoản 1, 2, 3 Điều 213 tương ứng loại chứng chỉ. II đúng: cho người khác mượn tài khoản để giao dịch dẫn đến thao túng giá là hành vi bị nghiêm cấm (khoản 6 Điều 12); bị thu hồi theo điểm b khoản 3 Điều 97 thì không được cấp lại (khoản 4 Điều 97). III đúng: khoản 2 Điều 215 (sửa đổi bởi khoản 75 Điều 1 Nghị định 245/2025/NĐ-CP). IV đúng: điểm b khoản 3 Điều 214 (sửa đổi bởi Nghị định 245/2025/NĐ-CP), áp dụng cho trường hợp mất, hỏng hoặc thay đổi thông tin nhân thân.",
+  "basis": "Khoản 6 Điều 12, khoản 3, 4 Điều 97 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm a khoản 1, điểm b khoản 3 Điều 214 và khoản 2 Điều 215 Nghị định 155/2020/NĐ-CP (sửa đổi bởi khoản 74, 75 Điều 1 Nghị định 245/2025/NĐ-CP)",
+  "quote": "trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ủy ban Chứng khoán Nhà nước ra quyết định cấp lại chứng chỉ hành nghề chứng khoán (bản giấy hoặc bản điện tử) và thông báo nộp lệ phí cho người đề nghị",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-021",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Đoàn kiểm tra của Ủy ban Chứng khoán Nhà nước yêu cầu công ty chứng khoán K và nhân viên môi giới L cung cấp tài liệu, giải trình về giao dịch trên một số tài khoản khách hàng do L quản lý. Theo Luật Chứng khoán, xét các nhận định sau:\nI. K và L có trách nhiệm cung cấp thông tin, tài liệu, dữ liệu, giải trình và đến làm việc theo yêu cầu\nII. Yêu cầu này phải được Chủ tịch UBCKNN phê duyệt và thể hiện bằng văn bản, nêu rõ mục đích, căn cứ, nội dung, phạm vi yêu cầu\nIII. K được từ chối cung cấp hồ sơ giao dịch của khách hàng với lý do phải bảo mật thông tin khách hàng\nIV. K được từ chối nếu có căn cứ cho rằng thông tin được yêu cầu không liên quan đến đối tượng kiểm tra, nhưng phải thông báo bằng văn bản và nêu rõ lý do\nCác nhận định đúng là:",
+  "o": [
+   "I, II và IV",
+   "I, II và III",
+   "I và II",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 1 Điều 131 và điểm a khoản 1 Điều 130. II đúng: khoản 2 Điều 130. IV đúng: khoản 5 Điều 131 cho phép từ chối khi có căn cứ cho rằng yêu cầu trái Điều 130 hoặc thông tin không liên quan đến đối tượng thanh tra, kiểm tra, đối tượng có dấu hiệu vi phạm, nhưng phải thông báo bằng văn bản và nêu rõ lý do. III sai: nghĩa vụ bảo mật thông tin khách hàng có ngoại lệ là theo yêu cầu của cơ quan có thẩm quyền (khoản 2 Điều 91 Luật Chứng khoán; điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC cho phép cung cấp theo yêu cầu thanh tra, kiểm tra).",
+  "basis": "Khoản 1, 2 Điều 130; khoản 1, 5 Điều 131; khoản 2 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Việc yêu cầu cơ quan, tổ chức, cá nhân cung cấp thông tin, tài liệu, dữ liệu, giải trình, đến làm việc theo quy định tại khoản 1 Điều này phải được Chủ tịch Ủy ban Chứng khoán Nhà nước phê duyệt và được thực hiện bằng văn bản, nêu rõ mục đích, căn cứ, nội dung, phạm vi yêu cầu.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-022",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Nhân viên môi giới L (người hành nghề chứng khoán) từ chối cung cấp tài liệu theo yêu cầu của đoàn kiểm tra Ủy ban Chứng khoán Nhà nước. Theo Nghị định 156/2020/NĐ-CP (đã sửa đổi, bổ sung), L có thể bị xử phạt như thế nào?",
+  "o": [
+   "Phạt tiền từ 25 triệu đến 50 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 01 đến 03 tháng",
+   "Phạt tiền từ 50 triệu đến 100 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 01 đến 03 tháng",
+   "Phạt tiền từ 25 triệu đến 50 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 06 đến 12 tháng",
+   "Phạt tiền từ 35 triệu đến 75 triệu đồng, không áp dụng hình thức xử phạt bổ sung"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 1 Điều 46 Nghị định 156/2020/NĐ-CP: từ chối cung cấp thông tin, tài liệu, dữ liệu theo yêu cầu của đoàn thanh tra, kiểm tra bị phạt 50–100 triệu đồng. Đây là mức áp dụng cho tổ chức; cá nhân vi phạm bị phạt bằng 1/2, tức 25–50 triệu đồng (điểm c khoản 3 Điều 5, sửa đổi bởi Nghị định 128/2021/NĐ-CP). Điểm b khoản 3 Điều 46: người hành nghề vi phạm khoản 1, 2 còn bị tước quyền sử dụng chứng chỉ hành nghề 01–03 tháng. Mức 35–75 triệu đồng là 1/2 khung của khoản 2 (che giấu, sửa chữa chứng từ, tài liệu khi đang bị thanh tra, kiểm tra). Nghị định 306/2025/NĐ-CP không sửa Điều 46.",
+  "basis": "Điểm a khoản 1, điểm b khoản 3 Điều 46; điểm c khoản 3 Điều 5 Nghị định 156/2020/NĐ-CP (Điều 5 sửa đổi bởi Nghị định 128/2021/NĐ-CP); khoản 1 Điều 131 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Từ chối cung cấp thông tin, tài liệu, dữ liệu điện tử hoặc cung cấp thông tin, tài liệu, dữ liệu điện tử không đúng thời hạn, không đầy đủ, chính xác theo yêu cầu của đoàn thanh tra, kiểm tra hoặc người có thẩm quyền;",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-023",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Nghị định 155/2020/NĐ-CP và Thông tư 121/2020/TT-BTC, xét các nhận định sau về nghĩa vụ báo cáo, thông báo của công ty chứng khoán với Ủy ban Chứng khoán Nhà nước:\nI. Khi ký hợp đồng lao động với một người có chứng chỉ hành nghề, công ty thông báo UBCKNN trong 05 ngày làm việc kể từ ngày ký\nII. Khi vay, đầu tư vượt quá hạn mức quy định, công ty báo cáo UBCKNN bằng văn bản trong 03 ngày làm việc\nIII. Mỗi khi có khách hàng mới mở tài khoản giao dịch, công ty báo cáo UBCKNN trong 24 giờ\nIV. Báo cáo năm về tình hình sử dụng người hành nghề được gửi UBCKNN trước ngày 31 tháng 3 của năm sau\nCác nhận định đúng là:",
+  "o": [
+   "Chỉ II",
+   "I và II",
+   "II và IV",
+   "I, II và IV"
+  ],
+  "a": 0,
+  "e": "I sai: điểm c khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP, công ty thông báo trong 02 ngày làm việc; 05 ngày làm việc là thời hạn báo cáo của chính người hành nghề (khoản 3 Điều 216). II đúng: điểm a khoản 3 Điều 29 Thông tư 121/2020/TT-BTC. III sai: không có nghĩa vụ báo cáo UBCKNN từng tài khoản mới; thông tin mở, đóng tài khoản lưu ký do thành viên lưu ký cập nhật hằng ngày cho Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (điểm đ khoản 1 Điều 18 Thông tư 119/2020/TT-BTC). IV sai: điểm d khoản 5 Điều 216 (sửa đổi bởi khoản 76 Điều 1 Nghị định 245/2025/NĐ-CP), báo cáo trước ngày 20 tháng 01 hằng năm, dưới hình thức văn bản điện tử trên hệ thống cơ sở dữ liệu của UBCKNN.",
+  "basis": "Khoản 3, điểm c, d khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP (điểm d khoản 5 sửa đổi bởi Nghị định 245/2025/NĐ-CP); điểm a khoản 3 Điều 29 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm đ khoản 1 Điều 18 Thông tư 119/2020/TT-BTC (VBHN 45/VBHN-BTC/2025)",
+  "quote": "Trước ngày 20 tháng 01 hàng năm, tổ chức sử dụng người hành nghề chứng khoán phải báo cáo Ủy ban Chứng khoán Nhà nước về tình hình sử dụng người hành nghề tại công ty của năm trước liền kề theo Mẫu số 87 Phụ lục ban hành kèm theo Nghị định này.",
+  "src": "ND_245_2025_ND-CP_Cong_bao_so_1403-1408_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-024",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Xét các nhận định sau về việc báo cáo vi phạm phát hiện tại công ty chứng khoán (công ty có Ban kiểm soát):\nI. Ban kiểm soát phát hiện thành viên Ban Tổng giám đốc vi phạm pháp luật thì phải báo cáo bằng văn bản cho UBCKNN trong 07 ngày làm việc kể từ ngày phát hiện\nII. Công ty phát hiện người hành nghề vi phạm pháp luật chứng khoán thì thông báo UBCKNN trong 05 ngày làm việc, kèm biên bản phát hiện vi phạm (nếu có)\nIII. Nhân viên môi giới phát hiện giao dịch đáng ngờ liên quan đến rửa tiền thì công ty báo cáo giao dịch đáng ngờ cho UBCKNN\nIV. Nhân viên kiểm toán nội bộ không được tiết lộ thông tin nhận được khi không có ủy quyền hợp lệ, trừ khi có nghĩa vụ phải tiết lộ theo pháp luật và quy định nội bộ\nCác nhận định đúng là:",
+  "o": [
+   "I và IV",
+   "I, II và IV",
+   "II và III",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: điểm d khoản 1 Điều 9 Thông tư 121/2020/TT-BTC. II sai: điểm c khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP, thời hạn là 02 ngày làm việc kể từ ngày phát hiện người hành nghề vi phạm. III sai: đối tượng báo cáo gửi báo cáo giao dịch đáng ngờ cho Ngân hàng Nhà nước Việt Nam (Điều 26 Luật Phòng, chống rửa tiền 2022), không gửi UBCKNN. IV đúng: điểm d khoản 3 Điều 9 Thông tư 121/2020/TT-BTC (nguyên tắc bảo mật của kiểm toán nội bộ).",
+  "basis": "Điểm d khoản 1, điểm d khoản 3 Điều 9 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm c khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP; khoản 1 Điều 26 Luật Phòng, chống rửa tiền 2022",
+  "quote": "Đối với các vi phạm pháp luật, Ban kiểm soát phải báo cáo bằng văn bản cho Ủy ban Chứng khoán Nhà nước trong thời hạn 07 ngày làm việc kể từ ngày phát hiện vi phạm.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-025",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Nghị định 156/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP), xét các nhận định sau về mức phạt tiền đối với công ty chứng khoán (tổ chức) trong quản lý người hành nghề:\nI. Bố trí người đang trong thời gian bị tước quyền sử dụng chứng chỉ hành nghề nhận lệnh của khách hàng: phạt từ 100 triệu đến 150 triệu đồng\nII. Không báo cáo theo thời hạn khi thay đổi người hành nghề: phạt từ 30 triệu đến 50 triệu đồng\nIII. Không giám sát người hành nghề bảo đảm tuân thủ quy định pháp luật về chứng khoán: phạt từ 100 triệu đến 150 triệu đồng\nIV. Bố trí nhân viên, người hành nghề kiêm nhiệm công việc trong trường hợp không được kiêm nhiệm: phạt từ 30 triệu đến 50 triệu đồng\nCác nhận định đúng là:",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "III và IV",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "Khoản 12 Điều 1 Nghị định 306/2025/NĐ-CP nâng khung khoản 1 Điều 32 lên 70–100 triệu đồng và khoản 2 lên 100–150 triệu đồng, đồng thời bổ sung điểm c khoản 2 (không giám sát người hành nghề bảo đảm tuân thủ pháp luật). I đúng (điểm a khoản 2). III đúng (điểm c khoản 2). II và IV sai: hai hành vi này thuộc điểm a và điểm c khoản 1, nay bị phạt 70–100 triệu đồng; mức 30–50 triệu đồng là khung cũ trước Nghị định 306/2025/NĐ-CP. Nghĩa vụ giám sát người hành nghề của công ty quy định tại điểm b khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP.",
+  "basis": "Điểm a, c khoản 1; điểm a, c khoản 2 Điều 32 Nghị định 156/2020/NĐ-CP (tiêu đề khoản 1, 2 và điểm c khoản 2 sửa đổi, bổ sung bởi khoản 12 Điều 1 Nghị định 306/2025/NĐ-CP); điểm b khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP",
+  "quote": "Không giám sát người hành nghề chứng khoán bảo đảm tuân thủ các quy định của pháp luật về chứng khoán.",
+  "src": "ND_306_2025_ND-CP_Cong_bao_so_1651-1652_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-026",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Nghị định 156/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP), người hành nghề chứng khoán thực hiện hành vi nào sau đây thì bị áp dụng hình thức xử phạt bổ sung tước quyền sử dụng chứng chỉ hành nghề có thời hạn từ 06 tháng đến 12 tháng?\nI. Cho người khác mượn chứng chỉ hành nghề chứng khoán\nII. Sử dụng tên hoặc tài khoản của khách hàng để đăng ký, giao dịch chứng khoán\nIII. Môi giới cho khách hàng này vay tiền của khách hàng khác\nIV. Sử dụng tiền trên tài khoản của khách hàng khi không được khách hàng ủy thác\nCác hành vi đúng là:",
+  "o": [
+   "II và III",
+   "II, III và IV",
+   "I, II và III",
+   "Chỉ IV"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 7 Điều 32 (sửa đổi bởi điểm e khoản 12 Điều 1 Nghị định 306/2025/NĐ-CP): tước chứng chỉ hành nghề 06–12 tháng đối với hành vi tại khoản 5 và điểm b khoản 6. II thuộc điểm a khoản 5; III thuộc điểm c khoản 5 (môi giới giao dịch vay, mượn tài sản giữa các khách hàng), nên đúng. I sai: cho mượn chứng chỉ hành nghề (điểm a khoản 4) bị tước 01–03 tháng (điểm a khoản 7). IV sai: hành vi tại điểm a khoản 6 bị phạt 400–500 triệu đồng (cá nhân 1/2) và buộc hoàn trả tiền, chứng khoán cho khách hàng, nhưng từ khi Nghị định 306/2025/NĐ-CP có hiệu lực không còn bị tước chứng chỉ theo điểm b khoản 7; tuy vậy đây là hành vi bị nghiêm cấm (khoản 5 Điều 12 Luật Chứng khoán) nên vẫn là căn cứ thu hồi chứng chỉ hành nghề.",
+  "basis": "Điểm a khoản 4, điểm a, c khoản 5, khoản 6, khoản 7 Điều 32 Nghị định 156/2020/NĐ-CP (khoản 7 sửa đổi bởi Nghị định 128/2021/NĐ-CP; điểm b khoản 7 sửa đổi bởi Nghị định 306/2025/NĐ-CP); khoản 5 Điều 12, điểm b khoản 3 Điều 97 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Tước quyền sử dụng chứng chỉ hành nghề chứng khoán có thời hạn từ 06 tháng đến 12 tháng đối với hành vi vi phạm quy định tại khoản 5 và điểm b khoản 6 Điều này.",
+  "src": "ND_306_2025_ND-CP_Cong_bao_so_1651-1652_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-027",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Luật Chứng khoán và Thông tư 135/2025/TT-BTC, xét các nhận định sau về tập huấn kiến thức chuyên môn của người hành nghề chứng khoán:\nI. Nội dung tập huấn gồm pháp luật về chứng khoán và thị trường chứng khoán, hệ thống giao dịch, loại chứng khoán mới\nII. Trung tâm Nghiên cứu khoa học và Đào tạo chứng khoán thuộc UBCKNN chủ trì, phối hợp với Sở giao dịch chứng khoán Việt Nam, Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam và các công ty con tổ chức tập huấn\nIII. Người hành nghề phải học trực tiếp tại lớp, không được đăng ký học trực tuyến\nIV. Trước ngày 31 tháng 01 hằng năm, UBCKNN công khai danh sách người hành nghề không hoàn thành yêu cầu tập huấn của năm trước\nCác nhận định đúng là:",
+  "o": [
+   "I, II và IV",
+   "I, II và III",
+   "I và IV",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 3 Điều 98 Luật Chứng khoán và khoản 1 Điều 9 Thông tư 135/2025/TT-BTC (UBCKNN ban hành khung nội dung tập huấn trước ngày 31/12 hằng năm). II đúng: khoản 1 Điều 10. III sai: khoản 2 Điều 10, người hành nghề đăng ký lớp tập huấn trực tiếp hoặc trực tuyến. IV đúng: Điều 11. Thông tư 135/2025/TT-BTC có hiệu lực từ 09/02/2026, thay thế Thông tư 197/2015/TT-BTC; Chương IV về tập huấn triển khai từ 01/01/2027, thời lượng tối thiểu 08 giờ/năm (khoản 3 Điều 10, khoản 3 Điều 12).",
+  "basis": "Khoản 3 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 1 Điều 9, khoản 1, 2, 3 Điều 10, Điều 11, khoản 3 Điều 12 Thông tư 135/2025/TT-BTC",
+  "quote": "Before January 31 of each year, the SSC shall publicly disclose the list of securities practitioners who failed to fulfill the professional knowledge training requirements of the previous year",
+  "src": "TT_135_2025_TT-BTC_English_SSC.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-028",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Nghị định 156/2020/NĐ-CP (đã sửa đổi, bổ sung), xét các nhận định sau về hành vi cản trở thanh tra, kiểm tra, yêu cầu cung cấp thông tin của Ủy ban Chứng khoán Nhà nước:\nI. Công ty chứng khoán từ chối cung cấp tài liệu cho đoàn kiểm tra, ngoài phạt tiền còn có thể bị đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán có thời hạn từ 01 đến 03 tháng\nII. Che giấu, sửa chữa chứng từ, tài liệu trong khi đang bị kiểm tra bị phạt cùng khung với hành vi cung cấp tài liệu không đúng thời hạn\nIII. Mức phạt tiền tại Điều 46 áp dụng cho cá nhân; tổ chức thực hiện cùng hành vi bị phạt gấp đôi\nIV. Hành vi cản trở kiểm tra chỉ bị xử phạt khi kết luận kiểm tra xác định công ty có vi phạm khác\nCác nhận định đúng là:",
+  "o": [
+   "Chỉ I",
+   "I và II",
+   "I và III",
+   "I, II và III"
+  ],
+  "a": 0,
+  "e": "I đúng: điểm a khoản 3 Điều 46. II sai: cung cấp tài liệu không đúng thời hạn thuộc khoản 1 (50–100 triệu đồng); che giấu, sửa chữa chứng từ, tài liệu, sổ sách, dữ liệu điện tử khi đang bị thanh tra, kiểm tra thuộc khoản 2 (70–150 triệu đồng) và còn bị tịch thu tang vật (điểm c khoản 3). III sai: điểm c khoản 3 Điều 5 (sửa đổi bởi Nghị định 128/2021/NĐ-CP) quy định ngược lại: mức phạt tại Chương II áp dụng cho tổ chức, cá nhân vi phạm như tổ chức bị phạt bằng 1/2. IV sai: cản trở thanh tra, kiểm tra là hành vi vi phạm độc lập tại Điều 46, không phụ thuộc kết quả kiểm tra.",
+  "basis": "Khoản 1, 2, 3 Điều 46; điểm c khoản 3 Điều 5 Nghị định 156/2020/NĐ-CP (Điều 5 sửa đổi bởi Nghị định 128/2021/NĐ-CP; Điều 46 không bị Nghị định 306/2025/NĐ-CP sửa đổi)",
+  "quote": "Che giấu, sửa chữa chứng từ, tài liệu, sổ sách, dữ liệu điện tử hoặc làm thay đổi tang vật trong khi đang bị thanh tra, kiểm tra;",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-029",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Nhân viên môi giới Q của công ty chứng khoán K nhận được các yêu cầu cung cấp thông tin về tài khoản của khách hàng R. Theo Luật Chứng khoán và Thông tư 121/2020/TT-BTC, xét các trường hợp sau:\nI. Đoàn thanh tra của UBCKNN yêu cầu bằng văn bản trong cuộc thanh tra\nII. Vợ của R gọi điện hỏi số dư và danh mục của R, R không đồng ý cho biết\nIII. R đồng ý bằng văn bản cho K gửi sao kê tài khoản cho ngân hàng nơi R vay vốn\nIV. Một công ty chứng khoán khác đề nghị K chia sẻ danh sách khách hàng giao dịch lớn để phối hợp chào bán sản phẩm\nCác trường hợp K ĐƯỢC cung cấp thông tin là:",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "Chỉ I",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 91 Luật Chứng khoán: công ty chứng khoán không được tiết lộ thông tin về khách hàng, trừ khi được khách hàng đồng ý (III) hoặc theo yêu cầu của cơ quan có thẩm quyền (I). Điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC cũng chỉ cho phép tiết lộ nội dung đặt lệnh, thông tin bí mật của khách hàng để công bố thông tin hoặc theo yêu cầu thanh tra, kiểm tra. Quan hệ vợ chồng (II) hay mục đích hợp tác kinh doanh (IV) không phải là ngoại lệ; công ty tiết lộ thông tin khách hàng trái quy định bị phạt 100–150 triệu đồng (điểm d khoản 3 Điều 26 Nghị định 156/2020/NĐ-CP).",
+  "basis": "Khoản 2 Điều 91 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm đ khoản 4 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm d khoản 3 Điều 26 Nghị định 156/2020/NĐ-CP",
+  "quote": "Tiết lộ các nội dung đặt lệnh giao dịch của khách hàng hoặc thông tin bí mật khác có được khi thực hiện giao dịch cho khách hàng mà không phải để công bố thông tin hoặc theo yêu cầu thanh tra, kiểm tra theo quy định của pháp luật;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-030",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Bà H, 72 tuổi, ít dùng công nghệ, đề nghị nhân viên môi giới K giữ hộ mật khẩu giao dịch trực tuyến để “thấy mã nào tốt thì đặt giúp”, đồng thời nhờ K nhận tiền mặt nộp hộ vào tài khoản. Theo Thông tư 121/2020/TT-BTC, xét các nhận định sau:\nI. K không được giữ mật khẩu để tự chọn mã và đặt lệnh, vì như vậy là quyết định đầu tư thay khách hàng trên tài khoản giao dịch thông thường\nII. K có thể hướng dẫn bà H đặt lệnh tại quầy hoặc qua điện thoại; công ty xác thực khách hàng, ghi nhận và lưu giữ bằng chứng đặt lệnh\nIII. Khi cung cấp giao dịch trực tuyến, hợp đồng hoặc phụ lục hợp đồng mở tài khoản phải công bố các rủi ro có thể xảy ra và quy định trách nhiệm bảo mật thông tin giao dịch trực tuyến của khách hàng và công ty\nIV. K được nhận tiền mặt của bà H để nộp hộ nếu lập giấy biên nhận có chữ ký của bà H\nCác nhận định đúng là:",
+  "o": [
+   "I, II và III",
+   "I và II",
+   "I, II, III và IV",
+   "II, III và IV"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 3, điểm a khoản 6 Điều 4; người hành nghề đầu tư thay khách hàng (ngoài trường hợp ủy thác) còn bị phạt theo điểm b khoản 5 Điều 32 Nghị định 156/2020/NĐ-CP. II đúng: khoản 1, 3 Điều 16 (nhận lệnh tại quầy, qua điện thoại; xác thực khách hàng, ghi nhận và lưu giữ bằng chứng đặt lệnh, xác nhận trước khi nhập lệnh). III đúng: khoản 2 Điều 20. IV sai: khoản 2 Điều 17, công ty chứng khoán không được trực tiếp nhận và chi trả tiền mặt để giao dịch chứng khoán của khách hàng mà phải thực hiện qua ngân hàng thương mại; giấy biên nhận không thay đổi điều này.",
+  "basis": "Khoản 3, điểm a khoản 6 Điều 4; khoản 1, 3 Điều 16; khoản 2 Điều 17; khoản 2 Điều 20 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm b khoản 5 Điều 32 Nghị định 156/2020/NĐ-CP",
+  "quote": "Khi cung cấp dịch vụ giao dịch chứng khoán trực tuyến cho khách hàng, công ty chứng khoán phải ký hợp đồng hoặc phụ lục kèm theo hợp đồng mở tài khoản cho khách hàng, bao gồm các nội dung sau:",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-031",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Khách hàng U khiếu nại rằng nhân viên môi giới V của công ty chứng khoán K đã nhập sai giá lệnh bán mà U đặt qua điện thoại. Xét các nhận định sau:\nI. K phải có bộ phận chuyên trách thông tin liên lạc với khách hàng và giải quyết thắc mắc, khiếu nại của khách hàng\nII. Bằng chứng đặt lệnh được K ghi nhận, lưu giữ tại thời điểm nhận lệnh là căn cứ để đối chiếu nội dung khiếu nại\nIII. Tranh chấp giữa U và K có thể được giải quyết thông qua thương lượng, hòa giải hoặc yêu cầu Trọng tài, Tòa án giải quyết theo quy định của pháp luật\nIV. Công ty chứng khoán không thiết lập bộ phận chuyên trách giải quyết khiếu nại của khách hàng có thể bị phạt tiền\nCác nhận định đúng là:",
+  "o": [
+   "I, II, III và IV",
+   "I, II và III",
+   "I và II",
+   "II, III và IV"
+  ],
+  "a": 0,
+  "e": "I: khoản 11 Điều 4, khoản 6 Điều 14 Thông tư 121/2020/TT-BTC. II: điểm b khoản 3 Điều 16 (xác thực khách hàng, ghi nhận đầy đủ thông tin tại thời điểm nhận lệnh, lưu giữ bằng chứng để tra cứu khi cần) và khoản 4 Điều 16 (ghi nhận thời gian nhận lệnh). III: khoản 1 Điều 133 Luật Chứng khoán. IV: điểm g khoản 1 Điều 26 Nghị định 156/2020/NĐ-CP (bổ sung bởi điểm a khoản 10 Điều 1 Nghị định 306/2025/NĐ-CP), phạt 50–70 triệu đồng. Nếu lỗi nhập lệnh do nhân viên gây ra khi thực hiện nhiệm vụ, công ty phải bồi thường cho khách hàng và có quyền yêu cầu nhân viên có lỗi hoàn trả (Điều 597 Bộ luật Dân sự 2015).",
+  "basis": "Khoản 11 Điều 4, khoản 6 Điều 14, điểm b khoản 3 và khoản 4 Điều 16 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 1 Điều 133 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm g khoản 1 Điều 26 Nghị định 156/2020/NĐ-CP (bổ sung bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Không thiết lập bộ phận chuyên trách chịu trách nhiệm thông tin liên lạc với khách hàng và giải quyết các thắc mắc, khiếu nại của khách hàng.",
+  "src": "ND_306_2025_ND-CP_Cong_bao_so_1651-1652_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-032",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, xét các nhận định sau về việc mở tài khoản giao dịch chứng khoán cho khách hàng tại công ty chứng khoán:\nI. Công ty có nghĩa vụ giải thích nội dung hợp đồng mở tài khoản và các thủ tục có liên quan khi giao dịch cho khách hàng\nII. Việc tìm hiểu khả năng tài chính, khả năng chịu đựng rủi ro và kỳ vọng lợi nhuận chỉ bắt buộc với khách hàng mở tài khoản giao dịch ký quỹ\nIII. Để rút ngắn thời gian, nhân viên được để trống một số mục trên hợp đồng rồi tự điền sau theo trao đổi miệng với khách hàng\nIV. Vị trí tư vấn, giải thích hợp đồng và thực hiện thủ tục mở tài khoản phải do người hành nghề chứng khoán đảm nhận\nCác nhận định đúng là:",
+  "o": [
+   "I và IV",
+   "I, II và IV",
+   "I, III và IV",
+   "Chỉ IV"
+  ],
+  "a": 0,
+  "e": "I đúng, II sai: khoản 2 Điều 15, công ty có nghĩa vụ giải thích hợp đồng, thủ tục và tìm hiểu khả năng tài chính, khả năng chịu đựng rủi ro, kỳ vọng lợi nhuận của khách hàng khi mở tài khoản giao dịch, không chỉ với tài khoản ký quỹ. III sai: khoản 4 Điều 15, nhà đầu tư phải điền đầy đủ các thông tin trên hợp đồng mở tài khoản; khoản 1 Điều 15 (sửa đổi bởi Thông tư 08/2026/TT-BTC) quy định khách hàng chịu trách nhiệm cung cấp đầy đủ, chính xác thông tin nhận biết khách hàng. IV đúng: điểm a khoản 1 Điều 13.",
+  "basis": "Khoản 1 (sửa đổi bởi Thông tư 08/2026/TT-BTC), khoản 2, khoản 4 Điều 15; điểm a khoản 1 Điều 13 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026)",
+  "quote": "Công ty chứng khoán có nghĩa vụ giải thích nội dung hợp đồng mở tài khoản giao dịch và các thủ tục có liên quan khi thực hiện giao dịch chứng khoán cho khách hàng, tìm hiểu khả năng tài chính, khả năng chịu đựng rủi ro và kỳ vọng lợi nhuận thu được của khách hàng.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-033",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Lúc 9 giờ 15, nhân viên môi giới W nhận lệnh mua cổ phiếu Z của một khách hàng; nguồn cung Z ở mức giá này đang rất ít. W cũng định mua Z cho tài khoản cá nhân mở tại chính công ty. Cách xử lý phù hợp với quy định và chuẩn mực đạo đức nghề nghiệp là:",
+  "o": [
+   "Nhập lệnh của khách hàng trước; giao dịch cá nhân của W theo quy định nội bộ và chịu sự giám sát của bộ phận kiểm soát nội bộ",
+   "Nhập lệnh của W trước, vì W đã có ý định mua trước khi khách hàng gọi điện",
+   "Gộp lệnh của khách hàng và lệnh của W thành một lệnh để được khớp nhanh hơn",
+   "Đặt lệnh cá nhân trước bằng tài khoản của người thân để không bị coi là tranh lệnh với khách hàng"
+  ],
+  "a": 0,
+  "e": "Chuẩn mực đạo đức nghề nghiệp trong giáo trình yêu cầu hành động trung thực, công bằng, đặt lợi ích của khách hàng lên hàng đầu. Luật Chứng khoán (khoản 5 Điều 89) và Thông tư 121/2020/TT-BTC (khoản 4 Điều 22) buộc công ty ưu tiên lệnh của khách hàng trước lệnh của công ty; theo cùng tinh thần, nhân viên không được đặt giao dịch cá nhân lên trước lệnh khách hàng đã nhận. Lệnh của khách hàng phải được thực hiện nhanh chóng, chính xác (khoản 5 Điều 16); giao dịch cá nhân của nhân viên do bộ phận kiểm soát nội bộ giám sát (điểm b khoản 2 Điều 12). Gộp lệnh làm sai thông tin lệnh của từng khách hàng (khoản 4 Điều 16); đổi sang tài khoản người thân không thay đổi bản chất là đặt lợi ích cá nhân lên trước khách hàng.",
+  "basis": "Khoản 5 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 4, 5 Điều 16, điểm b khoản 2 Điều 12, khoản 4 Điều 22 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); Chuyên đề Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán – giáo trình môn Môi giới (SRTC)",
+  "quote": "Ưu tiên thực hiện lệnh của khách hàng trước lệnh của công ty chứng khoán.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-034",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Kiến thức và kỹ năng cần thiết của người môi giới chứng khoán và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Bà X, khách hàng của công ty chứng khoán K, muốn con trai là anh Y thay mình đặt lệnh và nhận tiền bán chứng khoán trên tài khoản của bà. Theo Thông tư 121/2020/TT-BTC, xét các nhận định sau:\nI. Vì anh Y là con đẻ, tức người có liên quan của bà X, nhân viên môi giới được nhận lệnh của anh Y mà không cần giấy tờ ủy quyền\nII. Nhân viên môi giới chỉ được nhận lệnh của anh Y khi có văn bản ủy quyền của bà X\nIII. Công ty chỉ được thanh toán tiền bán chứng khoán cho anh Y nếu có văn bản ủy quyền của bà X\nIV. Bà X có thể ủy quyền cho chính nhân viên môi giới tự quyết định mua, bán trên tài khoản giao dịch thông thường của bà\nCác nhận định đúng là:",
+  "o": [
+   "II và III",
+   "I, II và III",
+   "II, III và IV",
+   "Chỉ II"
+  ],
+  "a": 0,
+  "e": "Điểm d khoản 4 Điều 13 (sửa đổi bởi Thông tư 08/2026/TT-BTC): công ty không được nhận lệnh giao dịch với người không đứng tên tài khoản mà không có ủy quyền bằng văn bản của người đứng tên tài khoản (trừ nhà đầu tư nước ngoài dùng số hiệu tài khoản lưu ký qua tổ chức kinh doanh chứng khoán nước ngoài đại diện), và không được thanh toán giao dịch với người không đứng tên tài khoản mà không có ủy quyền bằng văn bản. Vì vậy II, III đúng; quan hệ gia đình hay “người có liên quan” không thay được văn bản ủy quyền (I sai). Thanh toán cho người không đứng tên tài khoản khi không có ủy quyền còn bị phạt theo điểm c khoản 3 Điều 26 Nghị định 156/2020/NĐ-CP. IV sai: công ty, nhân viên không được quyết định đầu tư thay khách hàng, trừ ủy thác quản lý tài khoản theo Điều 19 (khoản 3, điểm a khoản 6 Điều 4).",
+  "basis": "Điểm d khoản 4 Điều 13 (sửa đổi bởi khoản 2 Điều 9 Thông tư 08/2026/TT-BTC); khoản 3, điểm a khoản 6 Điều 4 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm c khoản 3 Điều 26 Nghị định 156/2020/NĐ-CP",
+  "quote": "thanh toán giao dịch với người không phải là người đứng tên tài khoản giao dịch mà không có ủy quyền của người đứng tên tài khoản bằng văn bản;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-035",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Theo Nghị định 156/2020/NĐ-CP (đã sửa đổi, bổ sung), hành vi nào sau đây của công ty chứng khoán bị phạt tiền từ 400 triệu đến 500 triệu đồng?\nI. Cho mượn tiền, chứng khoán trên tài khoản của khách hàng\nII. Sử dụng chứng khoán của khách hàng để cầm cố\nIII. Trực tiếp nhận và chi trả tiền giao dịch chứng khoán của khách hàng\nIV. Lạm dụng, chiếm dụng chứng khoán, tiền thuộc sở hữu của khách hàng\nCác hành vi đúng là:",
+  "o": [
+   "I, II và IV",
+   "I, II, III và IV",
+   "I và IV",
+   "II, III và IV"
+  ],
+  "a": 0,
+  "e": "Khoản 6 Điều 26: phạt 400–500 triệu đồng đối với lạm dụng, chiếm dụng hoặc tạm giữ chứng khoán, tiền của khách hàng theo hình thức lưu ký dưới tên công ty (điểm a), cho mượn tiền, chứng khoán trên tài khoản của khách hàng (điểm b), sử dụng chứng khoán của khách hàng để cầm cố (điểm c); công ty còn bị đình chỉ nghiệp vụ môi giới 01–03 tháng (điểm b khoản 7, sửa đổi bởi Nghị định 306/2025/NĐ-CP) và buộc hoàn trả trong tối đa 60 ngày (điểm a khoản 8). III sai: trực tiếp nhận, chi trả tiền giao dịch của khách hàng thuộc điểm b khoản 5, khung 150–200 triệu đồng. Các quy định này bảo đảm nguyên tắc tách biệt, không xâm phạm tài sản của khách hàng (khoản 3 Điều 89 Luật Chứng khoán; khoản 4 Điều 4, Điều 17 Thông tư 121/2020/TT-BTC).",
+  "basis": "Điểm b khoản 5, khoản 6, điểm b khoản 7, điểm a khoản 8 Điều 26 Nghị định 156/2020/NĐ-CP (khoản 7, 8 sửa đổi bởi Nghị định 306/2025/NĐ-CP); khoản 3 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Đình chỉ hoạt động nghiệp vụ môi giới chứng khoán có thời hạn từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại khoản 6 Điều này.",
+  "src": "ND_306_2025_ND-CP_Cong_bao_so_1651-1652_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-036",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xây dựng mạng lưới khách hàng và chăm sóc khách hàng",
+  "level": 2,
+  "q": "Trong quá trình chăm sóc khách hàng sau khi mở tài khoản, xét các nhận định sau theo Luật Chứng khoán và Thông tư 121/2020/TT-BTC:\nI. Công ty chứng khoán có nghĩa vụ cập nhật các thông tin thay đổi của khách hàng khi khách hàng có yêu cầu\nII. Công ty chứng khoán phải thông báo kịp thời, đầy đủ cho khách hàng về những quyền lợi phát sinh liên quan đến chứng khoán của khách hàng\nIII. Công ty chứng khoán phải cung cấp thông tin về số dư, số phát sinh tiền và chứng khoán khi khách hàng yêu cầu (trừ trường hợp khách hàng mở tài khoản lưu ký tại thành viên lưu ký không phải là thành viên giao dịch)\nIV. Khi khách hàng từ chối cung cấp thông tin về tình hình tài chính, công ty vẫn phải bảo đảm khuyến nghị phù hợp với tình hình tài chính của khách hàng, nếu không sẽ bị xử phạt\nCác nhận định đúng là:",
+  "o": [
+   "I, II và III",
+   "I, II, III và IV",
+   "II và III",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "I: khoản 2 Điều 14 (sửa đổi bởi Thông tư 08/2026/TT-BTC). II: điểm c khoản 1 Điều 18. III: khoản 4 Điều 14 (sửa đổi bởi Thông tư 08/2026/TT-BTC). IV sai: khoản 6 Điều 89 Luật Chứng khoán loại trừ trường hợp khách hàng không cung cấp thông tin hoặc cung cấp không đầy đủ, chính xác; điểm d khoản 1 Điều 26 Nghị định 156/2020/NĐ-CP chỉ phạt việc không thu thập, tìm hiểu, cập nhật đầy đủ thông tin về khách hàng, trừ trường hợp khách hàng không cung cấp đầy đủ thông tin.",
+  "basis": "Khoản 2, 4 Điều 14 (sửa đổi bởi Thông tư 08/2026/TT-BTC), điểm c khoản 1 Điều 18 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); khoản 6 Điều 89 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm d khoản 1 Điều 26 Nghị định 156/2020/NĐ-CP",
+  "quote": "Công ty chứng khoán có trách nhiệm thông báo kịp thời, đầy đủ cho khách hàng về những quyền lợi phát sinh liên quan đến chứng khoán của khách hàng;",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-037",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Nhân viên môi giới S (người hành nghề chứng khoán) cho khách hàng đặt lệnh bán cổ phiếu mà khách hàng chưa sở hữu trên tài khoản, trong trường hợp pháp luật không cho phép (chưa đến mức truy cứu trách nhiệm hình sự). Theo Nghị định 156/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 128/2021/NĐ-CP và Nghị định 306/2025/NĐ-CP), S có thể bị xử phạt:",
+  "o": [
+   "Phạt tiền từ 200 triệu đến 250 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 06 đến 12 tháng",
+   "Phạt tiền từ 400 triệu đến 500 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 06 đến 12 tháng",
+   "Phạt tiền từ 200 triệu đến 250 triệu đồng, không bị tước quyền sử dụng chứng chỉ hành nghề",
+   "Phạt tiền từ 150 triệu đến 200 triệu đồng và tước quyền sử dụng chứng chỉ hành nghề từ 01 đến 03 tháng"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 6 Điều 32: thực hiện việc bán hoặc cho khách hàng bán chứng khoán khi không sở hữu chứng khoán, hoặc cho khách hàng vay chứng khoán, trong trường hợp không được phép bị phạt 400–500 triệu đồng. Đây là mức áp dụng cho tổ chức; cá nhân bị phạt bằng 1/2, tức 200–250 triệu đồng (điểm c khoản 3 Điều 5, sửa đổi bởi Nghị định 128/2021/NĐ-CP). Điểm b khoản 7 (sửa đổi bởi Nghị định 306/2025/NĐ-CP) vẫn tước chứng chỉ hành nghề 06–12 tháng đối với điểm b khoản 6. Cần phân biệt với điểm a khoản 6 (sử dụng tài khoản, tài sản của khách hàng khi không được ủy thác): sau Nghị định 306/2025/NĐ-CP hành vi này không còn bị tước chứng chỉ.",
+  "basis": "Điểm b khoản 6, điểm b khoản 7 Điều 32 (điểm b khoản 7 sửa đổi bởi Nghị định 306/2025/NĐ-CP); điểm c khoản 3 Điều 5 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 128/2021/NĐ-CP)",
+  "quote": "Thực hiện việc bán hoặc cho khách hàng bán chứng khoán khi không sở hữu chứng khoán hoặc cho khách hàng vay chứng khoán trong trường hợp không được phép thực hiện.",
+  "src": "ND_156_2020_ND-CP_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-038",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Anh V, người hành nghề tại công ty chứng khoán K, lần đầu bị xử phạt vi phạm hành chính do sử dụng thông tin nội bộ để mua cổ phiếu. Căn cứ quyết định xử phạt, Ủy ban Chứng khoán Nhà nước áp dụng biện pháp cấm anh V thực hiện hoạt động kinh doanh, cung cấp dịch vụ về chứng khoán có thời hạn. Theo Nghị định 155/2020/NĐ-CP, xét các nhận định sau:\nI. Thời hạn cấm đối với anh V là từ 03 năm đến tối đa 05 năm\nII. Trong vòng 24 giờ kể từ khi nhận được quyết định, K phải công bố quyết định này trên trang thông tin điện tử của mình\nIII. Trong thời gian bị cấm, anh V vẫn được tiếp tục làm nhân viên nhận lệnh tại K nếu K đồng ý\nIV. Quyết định áp dụng biện pháp cấm do Tổng giám đốc Sở giao dịch chứng khoán Việt Nam ban hành\nCác nhận định đúng là:",
+  "o": [
+   "Chỉ II",
+   "I và II",
+   "II và III",
+   "I, II và IV"
+  ],
+  "a": 0,
+  "e": "I sai: khoản 5 Điều 306, bị xử phạt hành chính do thực hiện hành vi bị nghiêm cấm tại Điều 12 Luật Chứng khoán thì bị cấm có thời hạn từ 02 năm đến tối đa 03 năm; mức 03–05 năm áp dụng khi tái phạm, vi phạm từ 02 lần trở lên hoặc bị truy cứu trách nhiệm hình sự. II đúng: khoản 3 Điều 307, công ty chứng khoán nơi cá nhân bị áp dụng là người hành nghề phải công bố quyết định trên trang thông tin điện tử của mình trong 24 giờ. III sai: khoản 4 Điều 307, người bị cấm phải dừng ngay các hoạt động bị cấm; ngoài ra vi phạm Điều 12 là căn cứ thu hồi chứng chỉ hành nghề và không được cấp lại (khoản 3, 4 Điều 97 Luật Chứng khoán). IV sai: khoản 1, 2 Điều 307, biện pháp do Chủ tịch UBCKNN quyết định.",
+  "basis": "Khoản 5 Điều 306; khoản 1, 2, 3, 4 Điều 307 Nghị định 155/2020/NĐ-CP (Điều 306 và các khoản này không bị Nghị định 245/2025/NĐ-CP sửa đổi); khoản 2 Điều 12, khoản 3, 4 Điều 97 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Trong vòng 24 giờ kể từ khi nhận được quyết định, tổ chức niêm yết, tổ chức đăng ký giao dịch, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán nơi có cá nhân bị áp dụng là người nội bộ hoặc người hành nghề chứng khoán phải công bố trên trang thông tin điện tử của mình quyết định này.",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-039",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Ngày 05/11/2026, công ty chứng khoán K (công ty cổ phần) nhận được quyết định của Ủy ban Chứng khoán Nhà nước xử phạt vi phạm hành chính đối với một người hành nghề chứng khoán của K. Theo Thông tư 96/2020/TT-BTC, K phải:",
+  "o": [
+   "Công bố thông tin bất thường trong thời hạn 24 giờ kể từ khi nhận được quyết định",
+   "Không phải công bố, vì quyết định xử phạt người hành nghề là thông tin cá nhân của người đó",
+   "Chỉ nêu sự việc trong báo cáo thường niên năm 2026 của công ty",
+   "Công bố trong 72 giờ, và chỉ khi người hành nghề bị tước quyền sử dụng chứng chỉ hành nghề"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 1 Điều 23 Thông tư 96/2020/TT-BTC: công ty chứng khoán là công ty cổ phần phải công bố thông tin bất thường trong 24 giờ khi nhận được quyết định của UBCKNN xử phạt vi phạm hành chính đối với công ty, chi nhánh hoặc người hành nghề chứng khoán của công ty, chi nhánh. Điểm b khoản 1 Điều 23 áp dụng tương tự khi nhận quyết định khởi tố, tạm giam, truy cứu trách nhiệm hình sự liên quan đến người hành nghề của công ty. Nội dung công bố phải nêu rõ sự kiện, nguyên nhân và giải pháp khắc phục (nếu có) (khoản 3 Điều 23).",
+  "basis": "Điểm a, b khoản 1 và khoản 3 Điều 23 Thông tư 96/2020/TT-BTC",
+  "quote": "Khi nhận được quyết định của Ủy ban Chứng khoán Nhà nước về việc xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán đối với công ty, chi nhánh, người hành nghề chứng khoán của công ty, chi nhánh;",
+  "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-040",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 95/2020/TT-BTC (VBHN 13/VBHN-BTC/2026), trong công tác giám sát giao dịch, xét các nhận định sau về trách nhiệm của công ty chứng khoán là thành viên giao dịch:\nI. Đưa ra cảnh báo đối với khách hàng khi giao dịch của khách hàng thuộc các trường hợp trong chỉ tiêu báo cáo giám sát giao dịch áp dụng cho thành viên giao dịch do Sở giao dịch chứng khoán Việt Nam ban hành\nII. Khi phát hiện giao dịch có dấu hiệu vi phạm quy định về giao dịch chứng khoán, chỉ báo cáo Sở giao dịch chứng khoán; Sở tự quyết định có chuyển UBCKNN hay không\nIII. Phối hợp với UBCKNN trong việc mời nhà đầu tư đến làm việc với đoàn thanh tra, kiểm tra liên quan đến giao dịch bất thường\nIV. Chịu trách nhiệm về tính chính xác, trung thực của thông tin, báo cáo giám sát cung cấp cho UBCKNN, Sở giao dịch chứng khoán và Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam\nCác nhận định đúng là:",
+  "o": [
+   "I, III và IV",
+   "I, II và III",
+   "III và IV",
+   "I, II, III và IV"
+  ],
+  "a": 0,
+  "e": "Điều 23 Thông tư 95/2020/TT-BTC (hợp nhất với Thông tư 138/2025/TT-BTC): thành viên giao dịch đưa ra cảnh báo đối với khách hàng (I); phối hợp với UBCKNN mời nhà đầu tư đến làm việc với đoàn thanh tra, kiểm tra (III); chịu trách nhiệm về tính chính xác, trung thực của thông tin, báo cáo giám sát (IV). II sai: khi phát hiện giao dịch có dấu hiệu vi phạm, thành viên giao dịch báo cáo Sở giao dịch chứng khoán Việt Nam và công ty con, đồng thời báo cáo UBCKNN. Công ty không giám sát giao dịch, không báo cáo khi phát hiện dấu hiệu vi phạm bị phạt 300–400 triệu đồng (khoản 5b Điều 26 Nghị định 156/2020/NĐ-CP, bổ sung bởi Nghị định 306/2025/NĐ-CP).",
+  "basis": "Điều 23 Thông tư 95/2020/TT-BTC (VBHN 13/VBHN-BTC/2026, hợp nhất Thông tư 138/2025/TT-BTC); khoản 5b Điều 26 Nghị định 156/2020/NĐ-CP (bổ sung bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Trường hợp phát hiện giao dịch có dấu hiệu vi phạm các quy định về giao dịch chứng khoán, thành viên giao dịch có trách nhiệm báo cáo Sở giao dịch chứng khoán Việt Nam và công ty con, đồng thời báo cáo Ủy ban Chứng khoán Nhà nước.",
+  "src": "VBHN_13_VBHN-BTC_2026_TT95_138_giam_sat_giao_dich_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-041",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 119/2020/TT-BTC (VBHN 45/VBHN-BTC/2025), xét các nhận định sau về trách nhiệm của công ty chứng khoán (thành viên lưu ký) trong quan hệ với khách hàng và Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam (VSDC):\nI. Cập nhật hằng ngày thông tin mở, đóng tài khoản lưu ký chứng khoán của khách hàng cho VSDC\nII. Nếu không có thỏa thuận về thời hạn, gửi sao kê tài khoản lưu ký cho khách hàng sau 05 ngày làm việc kể từ ngày khách hàng yêu cầu\nIII. Đối chiếu số dư tài khoản lưu ký của từng khách hàng với số liệu sở hữu chứng khoán của khách hàng do VSDC cung cấp\nIV. Khách hàng phát hiện sai sót về thông tin tài khoản lưu ký chỉ cần thông báo cho công ty trong kỳ đối chiếu cuối năm\nCác nhận định đúng là:",
+  "o": [
+   "I và III",
+   "I, II và III",
+   "III và IV",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "Điểm đ khoản 1 Điều 18: thành viên lưu ký cập nhật hằng ngày thông tin mở, đóng tài khoản lưu ký của khách hàng cho VSDC (I) và đối chiếu số dư tài khoản lưu ký của từng khách hàng với số liệu sở hữu do VSDC cung cấp (III). II sai: khoản 2 Điều 18, nếu không có thỏa thuận thì gửi sao kê sau 01 ngày làm việc kể từ ngày khách hàng yêu cầu. IV sai: khoản 3 Điều 18, khách hàng có nghĩa vụ thông báo ngay cho thành viên lưu ký khi có thay đổi hay sai sót về thông tin tài khoản lưu ký. Chứng khoán lưu ký của khách hàng là tài sản của khách hàng, được quản lý tách biệt với tài sản của thành viên lưu ký (điểm a, b khoản 1 Điều 18).",
+  "basis": "Điểm a, b, đ khoản 1, khoản 2, khoản 3 Điều 18 Thông tư 119/2020/TT-BTC (VBHN 45/VBHN-BTC/2025)",
+  "quote": "Theo yêu cầu của khách hàng, thành viên lưu ký phải gửi cho từng khách hàng bản sao kê tài khoản lưu ký chứng khoán trong thời hạn đã thỏa thuận với khách hàng; trường hợp không có thỏa thuận về thời hạn, thành viên lưu ký phải gửi cho khách hàng bản sao kê tài khoản lưu ký chứng khoán sau 01 ngày làm việc kể từ ngày khách hàng yêu cầu.",
+  "src": "TT_119_2020_TT-BTC_hop_nhat_VBHN_45_VBHN-BTC_2025.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-042",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 135/2025/TT-BTC, khi Ủy ban Chứng khoán Nhà nước triển khai chứng chỉ hành nghề chứng khoán điện tử, xét các nhận định sau:\nI. Tổ chức sử dụng người hành nghề có trách nhiệm cập nhật lên hệ thống của UBCKNN các thay đổi phát sinh khi ký kết, chấm dứt hợp đồng lao động với người có chứng chỉ hành nghề\nII. Người có chứng chỉ chỉ được công nhận đang hành nghề khi hệ thống quản lý người hành nghề của UBCKNN xác nhận trạng thái “người hành nghề chứng khoán”\nIII. Khách hàng có thể tra cứu tình trạng hành nghề của nhân viên môi giới trên hệ thống của UBCKNN\nIV. Quá thời hạn chuyển đổi mà chưa chuyển chứng chỉ bản giấy sang bản điện tử thì chứng chỉ bản giấy vẫn được ghi nhận trạng thái hành nghề cho đến khi bị thu hồi\nCác nhận định đúng là:",
+  "o": [
+   "I, II và III",
+   "I, II, III và IV",
+   "II và III",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "I: khoản 3 Điều 6 (người hành nghề cũng phải tự cập nhật thay đổi về lịch sử hành nghề – khoản 2 Điều 6; các bên bảo đảm thông tin chính xác, đầy đủ, trung thực – khoản 4 Điều 6). II: khoản 4 Điều 5. III: khoản 2 Điều 7 (tổ chức, cá nhân được tra cứu tình trạng hành nghề của người hành nghề). IV sai: khoản 3 Điều 5, quá thời hạn 01 năm kể từ ngày UBCKNN ban hành hướng dẫn chuyển đổi mà chưa chuyển đổi thì không được ghi nhận trạng thái “người hành nghề chứng khoán”. Thông tư 135/2025/TT-BTC có hiệu lực từ 09/02/2026, thay thế Thông tư 197/2015/TT-BTC.",
+  "basis": "Khoản 3, 4 Điều 5; khoản 2, 3, 4 Điều 6; khoản 2 Điều 7 Thông tư 135/2025/TT-BTC",
+  "quote": "A securities practicing certificate holder shall only be recognized as practicing securities when the information technology system for the management of securities practitioners confirms their status as a \"securities practitioner\".",
+  "src": "TT_135_2025_TT-BTC_English_SSC.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-043",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Xung đột lợi ích và giải quyết xung đột lợi ích trong hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Chị G là nhân viên môi giới tại công ty chứng khoán K. Em ruột của chị G là Giám đốc tài chính của công ty niêm yết Y; trong bữa cơm gia đình, người em kể kết quả kinh doanh quý của Y (chưa công bố) giảm rất mạnh. Theo Luật Chứng khoán, xét các nhận định sau:\nI. Kết quả kinh doanh chưa công bố này là thông tin nội bộ nếu khi công bố có thể ảnh hưởng lớn đến giá cổ phiếu Y\nII. Em của chị G là người nội bộ của Y\nIII. Chị G là người có liên quan của người nội bộ Y\nIV. Nếu chị G khuyên khách hàng bán cổ phiếu Y dựa trên thông tin này, chị vi phạm dù bản thân không giao dịch\nCác nhận định đúng là:",
+  "o": [
+   "I, II, III và IV",
+   "I, II và III",
+   "I, II và IV",
+   "II và III"
+  ],
+  "a": 0,
+  "e": "I: khoản 44 Điều 4 (thông tin liên quan đến tổ chức niêm yết chưa được công bố mà nếu công bố có thể ảnh hưởng lớn đến giá chứng khoán). II: điểm a khoản 45 Điều 4, Giám đốc tài chính là người nội bộ của doanh nghiệp. III: điểm d khoản 46 Điều 4, anh, chị, em ruột là người có liên quan. IV: khoản 2 Điều 12 cấm cả việc tư vấn cho người khác mua, bán chứng khoán trên cơ sở thông tin nội bộ, kể cả khi người tư vấn không tự giao dịch. Người em cũng vi phạm khi tiết lộ thông tin nội bộ.",
+  "basis": "Khoản 44, điểm a khoản 45, điểm d khoản 46 Điều 4; khoản 2 Điều 12 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
+  "quote": "Thông tin nội bộ là thông tin liên quan đến công ty đại chúng, tổ chức niêm yết, tổ chức đăng ký giao dịch, quỹ đại chúng, công ty đầu tư chứng khoán đại chúng chưa được công bố mà nếu được công bố có thể ảnh hưởng lớn đến giá chứng khoán của tổ chức này.",
+  "src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-044",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Quản lý Nhà nước đối với hoạt động môi giới và tư vấn đầu tư chứng khoán",
+  "level": 3,
+  "q": "Anh K có chứng chỉ hành nghề môi giới, nghỉ việc tại công ty chứng khoán A để làm việc cho công ty chứng khoán B (cả A và B đều có nghiệp vụ môi giới). Anh K đang có tài khoản giao dịch chứng khoán mở tại A. Xét các nhận định sau:\nI. Anh K phải báo cáo UBCKNN trong 05 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động với A và kể từ ngày ký hợp đồng lao động với B\nII. Chỉ B phải thông báo UBCKNN về việc tuyển dụng anh K; A không phải thông báo vì anh K đã tự báo cáo\nIII. Anh K được tiếp tục giữ và giao dịch trên tài khoản mở tại A sau khi đã làm việc cho B\nIV. Khi đã triển khai chứng chỉ hành nghề điện tử, anh K có trách nhiệm cập nhật các thay đổi về lịch sử hành nghề của mình trên hệ thống của UBCKNN\nCác nhận định đúng là:",
+  "o": [
+   "I và IV",
+   "I, II và IV",
+   "I, III và IV",
+   "Chỉ I"
+  ],
+  "a": 0,
+  "e": "I đúng: khoản 3 Điều 216 Nghị định 155/2020/NĐ-CP. II sai: điểm c khoản 5 Điều 216, tổ chức sử dụng người hành nghề thông báo UBCKNN trong 02 ngày làm việc kể từ ngày ký kết hoặc chấm dứt hợp đồng lao động, nên cả A (kèm quyết định chấm dứt hợp đồng) và B (kèm hợp đồng, quyết định tuyển dụng) đều phải thông báo; nghĩa vụ của người hành nghề và của công ty độc lập với nhau. III sai: điểm b khoản 2 Điều 98 Luật Chứng khoán, người hành nghề không được mở, quản lý tài khoản tại công ty chứng khoán nơi mình không làm việc khi công ty nơi mình làm việc có nghiệp vụ môi giới. IV đúng: khoản 2 Điều 6 Thông tư 135/2025/TT-BTC.",
+  "basis": "Khoản 3, điểm c khoản 5 Điều 216 Nghị định 155/2020/NĐ-CP; điểm b khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); khoản 2 Điều 6 Thông tư 135/2025/TT-BTC",
+  "quote": "Trong thời hạn 02 ngày làm việc kể từ ngày ký kết hợp đồng lao động, chấm dứt hợp đồng lao động với người có chứng chỉ hành nghề chứng khoán hoặc phát hiện người hành nghề chứng khoán vi phạm quy định của pháp luật chứng khoán và thị trường chứng khoán, tổ chức sử dụng người hành nghề chứng khoán thông báo Ủy ban Chứng khoán Nhà nước về tình hình sử dụng người hành nghề theo Mẫu số 87 Phụ lục ban hành kèm theo Nghị định này",
+  "src": "ND_155_2020_ND-CP_Cong_bao_so_45-56_2021.txt",
+  "as_of": "2026-11"
+ },
+ {
+  "id": "C17-045",
+  "part": "CM",
+  "subject": "MG",
+  "topic": "Tổng quan về môi giới và tư vấn đầu tư chứng khoán",
+  "level": 2,
+  "q": "Theo Thông tư 121/2020/TT-BTC, xét các nhận định sau về quản lý tiền giao dịch chứng khoán của khách hàng trong quan hệ giữa công ty chứng khoán, khách hàng, ngân hàng thương mại và Ủy ban Chứng khoán Nhà nước:\nI. Công ty bắt buộc xây dựng phương thức để khách hàng mở tài khoản trực tiếp tại ngân hàng thương mại do công ty lựa chọn; phương thức tài khoản chuyên dụng của công ty là phương thức bổ sung để khách hàng lựa chọn\nII. Danh sách ngân hàng thương mại được lựa chọn phải được công bố trên trang thông tin điện tử và tại các chi nhánh, phòng giao dịch của công ty\nIII. Khi thiếu vốn tạm thời, công ty được dùng tiền trên tài khoản chuyên dụng để thanh toán chi phí hoạt động nếu hoàn trả trong ngày\nIV. Chậm nhất 03 ngày làm việc kể từ ngày ký hợp đồng với ngân hàng thương mại về quản lý tiền của khách hàng, công ty phải báo cáo UBCKNN kèm bản sao hợp lệ hợp đồng\nCác nhận định đúng là:",
+  "o": [
+   "I, II và IV",
+   "I, II, III và IV",
+   "II và IV",
+   "I, III và IV"
+  ],
+  "a": 0,
+  "e": "I: khoản 4 Điều 17 (công ty phải xây dựng hệ thống theo phương thức tại điểm a, có thể bổ sung phương thức tại điểm b). II: khoản 5 Điều 17. IV: khoản 6 Điều 17. III sai: tài khoản chuyên dụng phải mở riêng biệt, tách bạch và chỉ phục vụ giao dịch của khách hàng (điểm b khoản 4); công ty không được lạm dụng tiền của khách hàng dưới mọi hình thức (khoản 3). Nghị định 306/2025/NĐ-CP bổ sung vào điểm a khoản 5 Điều 26 Nghị định 156/2020/NĐ-CP hành vi không xây dựng hệ thống quản lý tách bạch tiền theo phương thức khách hàng mở tài khoản trực tiếp tại ngân hàng (phạt 150–200 triệu đồng, buộc xây dựng trong 03 tháng).",
+  "basis": "Khoản 3, 4, 5, 6 Điều 17 Thông tư 121/2020/TT-BTC (VBHN 09/VBHN-BTC/2026); điểm a khoản 5, điểm b khoản 8 Điều 26 Nghị định 156/2020/NĐ-CP (sửa đổi bởi Nghị định 306/2025/NĐ-CP)",
+  "quote": "Công ty chứng khoán phải xây dựng hệ thống quản lý tách bạch tiền của khách hàng theo phương thức nêu tại Điểm a Khoản này.",
+  "src": "VBHN_09_VBHN-BTC_2026_TT121_68_08_hop_nhat.txt",
+  "as_of": "2026-11"
+ }
+]
