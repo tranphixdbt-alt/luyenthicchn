@@ -86,6 +86,7 @@ page("on-thi", "Đề thi thử CCHN chứng khoán theo từng môn, có đáp 
 today = date.today().isoformat()
 (dist / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     + "".join(f"<url><loc>{SITE}/{u + '/' if u else ''}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+(dist / "google08caf10d2d0d89c8.html").write_text("google-site-verification: google08caf10d2d0d89c8.html", encoding="utf-8")   # xác minh Google Search Console (tệp HTML)
 (dist / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 assert all((dist / u / "index.html").exists() for u in urls if u), "thiếu trang tĩnh"
 print("trang tĩnh:", len(urls) - 1, "+ sitemap.xml, robots.txt")
