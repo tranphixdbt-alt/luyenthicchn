@@ -1,0 +1,24 @@
+# BT-INVEST – Luyện thi chứng chỉ hành nghề chứng khoán (CCHN) Việt Nam
+
+> Trang luyện thi miễn phí, không cần tài khoản, cho kỳ thi sát hạch chứng chỉ hành nghề chứng khoán của Ủy ban Chứng khoán Nhà nước (môi giới, phân tích tài chính, quản lý quỹ) và các môn chứng chỉ chuyên môn của SRTC. 965 câu hỏi trắc nghiệm 8 môn, mỗi câu có đáp án, giải thích và căn cứ pháp lý theo văn bản hiện hành (cập nhật 11/2026).
+
+Tính năng: thi thử tính giờ theo cấu trúc từng chứng chỉ (phần Pháp luật và phần Chuyên môn, đạt từ 60% mỗi phần), thi thử từng môn chuyên môn, ôn theo chủ đề, ôn lặp lại câu sai, thẻ ghi nhớ số liệu, máy tính công thức, thư viện văn bản luật. Không phải trang chính thức của UBCKNN.
+
+## Trang chính
+- [Ứng dụng luyện thi](https://luyenthicchn-dist.vercel.app/): thi thử, ôn luyện, ngân hàng câu hỏi
+- [Hỏi đáp thi CCHN 2026](https://luyenthicchn-dist.vercel.app/hoi-dap-thi-cchn/): điều kiện cấp, môn phải học, cấu trúc đề, điểm đạt, thi lại, lệ phí, lịch thi
+- [Đề mẫu theo môn](https://luyenthicchn-dist.vercel.app/on-thi/): 30 câu mẫu có đáp án cho mỗi môn
+
+## Đề mẫu từng môn
+- [Môn Pháp luật về chứng khoán và thị trường chứng khoán](https://luyenthicchn-dist.vercel.app/on-thi/mon-phap-luat/)
+- [Môn Môi giới và tư vấn đầu tư chứng khoán](https://luyenthicchn-dist.vercel.app/on-thi/mon-moi-gioi/)
+- [Môn Những vấn đề cơ bản về chứng khoán và thị trường chứng khoán](https://luyenthicchn-dist.vercel.app/on-thi/mon-co-ban/)
+- [Môn Phân tích và đầu tư chứng khoán](https://luyenthicchn-dist.vercel.app/on-thi/mon-phan-tich-dau-tu/)
+- [Môn Phân tích báo cáo tài chính doanh nghiệp](https://luyenthicchn-dist.vercel.app/on-thi/mon-phan-tich-bao-cao-tai-chinh/)
+- [Môn Tư vấn tài chính và bảo lãnh phát hành chứng khoán](https://luyenthicchn-dist.vercel.app/on-thi/mon-tu-van-tai-chinh-bao-lanh/)
+- [Môn Quản lý quỹ và tài sản](https://luyenthicchn-dist.vercel.app/on-thi/mon-quan-ly-quy/)
+- [Môn Chứng khoán phái sinh và thị trường chứng khoán phái sinh](https://luyenthicchn-dist.vercel.app/on-thi/mon-phai-sinh/)
+
+## Ôn nhanh
+- [20 câu môn Pháp luật chứng khoán dễ ra và dễ sai nhất khi thi CCHN, có đáp án và giải thích](https://luyenthicchn-dist.vercel.app/on-tap/20-cau-luat-de-sai/)
+- [Môn Môi giới chứng khoán: các cụm câu hỏi dễ nhớ khi ôn thi CCHN (nhân sự tối thiểu, ký quỹ, nhà đầu tư nước ngoài)](https://luyenthicchn-dist.vercel.app/on-tap/moi-gioi-cum-cau-hoi/)
