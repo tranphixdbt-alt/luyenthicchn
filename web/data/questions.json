@@ -573,7 +573,7 @@
 "Công bố thông tin trong thời hạn 24 giờ kể từ thời điểm lệnh mua cổ phiếu X được khớp"
 ],
 "a": 0,
-"e": "Tỷ lệ sở hữu tăng từ 2.300.000/50.000.000 = 4,6% lên 2.600.000/50.000.000 = 5,2%: A trở thành cổ đông lớn (từ 5% trở lên). Theo khoản 1 Điều 31 TT 96/2020, A phải công bố thông tin và báo cáo trong 05 ngày làm việc kể từ ngày hoàn tất giao dịch. Nghĩa vụ công bố trước giao dịch áp dụng cho người nội bộ và người có liên quan.",
+"e": "Tỷ lệ sở hữu tăng từ 2.300.000/50.000.000 = 4,6% lên 2.600.000/50.000.000 = 5,2%: A trở thành cổ đông lớn (từ 5% trở lên). Theo khoản 1 Điều 31 TT 96/2020, A phải báo cáo và công bố thông tin trong 05 ngày làm việc kể từ ngày trở thành cổ đông lớn; khoản 3 tính thời điểm này từ ngày hoàn tất giao dịch. Công bố trước khi giao dịch là nghĩa vụ của người nội bộ và người có liên quan (Điều 33); cổ đông sáng lập trong thời gian bị hạn chế chuyển nhượng thì báo cáo trước giao dịch (Điều 32). A không thuộc các trường hợp này.",
 "basis": "Khoản 18 Điều 4, khoản 1 Điều 127 Luật Chứng khoán 2019; khoản 1, 3 Điều 31 Thông tư 96/2020/TT-BTC",
 "quote": "",
 "src": "TT_96_2020_TT-BTC_Cong_bao.txt",
@@ -11273,10 +11273,10 @@
 "Vi phạm, vì người hành nghề chỉ được hành nghề với tư cách đại diện cho công ty nơi mình làm việc"
 ],
 "a": 3,
-"e": "Khoản 1 Điều 98: người được cấp chứng chỉ hành nghề chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán; điểm c khoản 2 cấm vượt quá phạm vi ủy quyền của công ty. Theo điểm a, d khoản 2 Điều 216 NĐ 155/2020, chứng chỉ môi giới cho phép môi giới và tư vấn đầu tư nhưng chỉ có giá trị khi người được cấp làm việc tại công ty và hành nghề nhân danh công ty; việc nộp thuế không thay đổi bản chất vi phạm.",
-"basis": "Khoản 1, điểm c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); điểm a, d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP",
-"quote": "Người được cấp chứng chỉ hành nghề chứng khoán chỉ được hành nghề chứng khoán với tư cách đại diện cho công ty chứng khoán hoặc công ty quản lý quỹ đầu tư chứng khoán",
-"src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+"e": "Khoản 1 Điều 98: người được cấp chứng chỉ hành nghề chỉ được hành nghề với tư cách đại diện cho công ty chứng khoán, công ty quản lý quỹ, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán; điểm c khoản 2 cấm vượt quá phạm vi ủy quyền của công ty nơi mình làm việc. Theo điểm a, d khoản 2 Điều 216 NĐ 155/2020, chứng chỉ môi giới cho phép môi giới và tư vấn đầu tư, nhưng chỉ có giá trị sử dụng khi người được cấp làm việc tại một công ty và được công ty đó thông báo với UBCKNN. Nộp thuế không thay đổi bản chất vi phạm.",
+"basis": "Khoản 1, điểm c khoản 2 Điều 98 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026); điểm a, d khoản 2 Điều 216 Nghị định 155/2020/NĐ-CP (khoản này không bị Nghị định 245/2025/NĐ-CP sửa đổi)",
+"quote": "Người được cấp chứng chỉ hành nghề chứng khoán chỉ được hành nghề chứng khoán với tư cách đại diện cho công ty chứng khoán hoặc công ty quản lý quỹ đầu tư chứng khoán hoặc chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam hoặc công ty đầu tư chứng khoán.",
+"src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
 "as_of": "2026-11"
 },
 {
@@ -11293,10 +11293,10 @@
 "Chỉ được phép nếu D chờ đến sau ngày Q công bố báo cáo tài chính quý tới mới khuyến nghị"
 ],
 "a": 0,
-"e": "Khoản 44 Điều 4: thông tin nội bộ là thông tin liên quan đến tổ chức chưa được công bố mà nếu công bố có thể ảnh hưởng lớn đến giá. D không nhận thông tin chưa công bố nào từ Q hay người nội bộ; kết luận là sản phẩm phân tích của D dựa trên các mảnh thông tin công khai và quan sát hợp pháp, nên được sử dụng để khuyến nghị (cách tiếp cận “ghép mảnh thông tin” trong giáo trình đạo đức nghề nghiệp). Không có quy định buộc xin ý kiến tổ chức phát hành hay chờ báo cáo tài chính.",
-"basis": "Khoản 44 Điều 4 Luật Chứng khoán 2019 (VBHN 24/VBHN-VPQH); Giáo trình Cơ bản về chứng khoán (UBCKNN/SRTC) – sử dụng thông tin trong phân tích, phân biệt với thông tin nội bộ",
+"e": "Khoản 44 Điều 4: thông tin nội bộ là thông tin liên quan đến tổ chức chưa được công bố mà nếu công bố có thể ảnh hưởng lớn đến giá. D không nhận thông tin chưa công bố nào từ Q hay người nội bộ; kết luận là sản phẩm phân tích của D, ghép từ thông tin công khai và quan sát hợp pháp, nên được dùng để khuyến nghị. Không có quy định buộc xin ý kiến tổ chức phát hành hay chờ báo cáo tài chính.",
+"basis": "Khoản 44 Điều 4 Luật Chứng khoán 2019 (VBHN 102/VBHN-VPQH/2026)",
 "quote": "Thông tin nội bộ là thông tin liên quan đến công ty đại chúng, tổ chức niêm yết, tổ chức đăng ký giao dịch, quỹ đại chúng, công ty đầu tư chứng khoán đại chúng chưa được công bố mà nếu được công bố có thể ảnh hưởng lớn đến giá chứng khoán của tổ chức này.",
-"src": "VBHN_24_VBHN-VPQH_2025_Luat_Chung_khoan_hop_nhat_Cong_bao.txt",
+"src": "VBHN_102_VBHN-VPQH_2026_Luat_Chung_khoan_hop_nhat.txt",
 "as_of": "2026-11"
 },
 {
