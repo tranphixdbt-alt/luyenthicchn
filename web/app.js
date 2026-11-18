@@ -67,6 +67,26 @@ const AUTH_KEY = 'btinvest_auth';
 let AUTH = null, lastSync = 0;
 try { AUTH = JSON.parse(localStorage.getItem(AUTH_KEY)); } catch { /* không có bộ nhớ */ }
 const setAuth = a => { AUTH = a; try { a ? localStorage.setItem(AUTH_KEY, JSON.stringify(a)) : localStorage.removeItem(AUTH_KEY); } catch { /* bỏ qua */ } };
+// Đổi tên miền (11/2026): tiến độ lưu theo tên miền, nên trang cũ gói tiến độ vào địa chỉ rồi chuyển sang trang mới; trang mới nhận lại
+// (chỉ khi đến từ đúng trang cũ, máy mới chưa có tiến độ/tài khoản thì mới nhận, không ghi đè).
+const OLD_ORIGIN = 'https://luyenthicchn-dist.vercel.app', NEW_ORIGIN = 'https://luyenthicchn.btinvest.vn';
+if (location.origin === OLD_ORIGIN) {
+  let pack = '';
+  try { pack = encodeURIComponent(JSON.stringify({ S, AUTH, vid: localStorage.getItem('btinvest_vid'), r: location.hash })); } catch { /* không đọc được bộ nhớ: chuyển không kèm dữ liệu */ }
+  if (pack.length < 1.5e6) return location.replace(NEW_ORIGIN + '/' + location.search + (pack ? '#chuyen=' + pack : location.hash));
+}
+if (location.hash.startsWith('#chuyen=')) {
+  let p = null;
+  try { p = JSON.parse(decodeURIComponent(location.hash.slice(8))); } catch { /* dữ liệu hỏng: bỏ qua */ }
+  if (p && document.referrer.startsWith(OLD_ORIGIN)) {
+    try {
+      if (!Object.keys(S.q).length && p.S && p.S.v === 1) { S = { ...blank(), ...p.S, prefs: { ...blank().prefs, ...(p.S.prefs || {}) } }; localStorage.setItem(KEY, JSON.stringify(S)); }
+      if (!AUTH && p.AUTH) setAuth(p.AUTH);
+      if (p.vid && !localStorage.getItem('btinvest_vid')) localStorage.setItem('btinvest_vid', p.vid);
+    } catch { /* không có bộ nhớ */ }
+  }
+  history.replaceState(null, '', location.pathname + location.search + (p && /^#[\w-]*$/.test(p.r || '') ? p.r : ''));
+}
 const syncData = () => ({ q: S.q, star: S.star, hist: S.hist, cards: S.cards, prefs: S.prefs });
 function adopt(d) {   // nhận bản đã gộp từ máy chủ; ghi thẳng localStorage để không kích hoạt đồng bộ lần nữa
   if (!d) return;

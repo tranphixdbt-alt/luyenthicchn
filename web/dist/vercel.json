@@ -1,0 +1,15 @@
+{
+ "redirects": [
+  {
+   "source": "/:p(on-thi|on-tap|hoi-dap-thi-cchn|sitemap.xml|robots.txt|llms.txt)/:rest*",
+   "has": [
+    {
+     "type": "host",
+     "value": "luyenthicchn-dist.vercel.app"
+    }
+   ],
+   "destination": "https://luyenthicchn.btinvest.vn/:p/:rest*",
+   "permanent": true
+  }
+ ]
+}

@@ -44,7 +44,7 @@ Cấu trúc: câu mở gây tò mò (3 giây đầu) → sai lầm 5 tới sai l
 
 ## Cảnh 6 – Kêu gọi hành động (105–120 giây)
 - **Lời đọc:** "Bạn mắc mấy sai lầm? Bình luận số ở dưới. Muốn hiểu chứng khoán cho đúng, hoặc đang ôn thi chứng chỉ hành nghề chứng khoán, vào BT-INVEST làm thử gần 1.000 câu có đáp án, miễn phí."
-- **Chữ trên màn hình:** btinvest.vn (khi chưa có tên miền thì dùng luyenthicchn-dist.vercel.app/?src=video) · Hotline/Zalo 0942 037 820
+- **Chữ trên màn hình:** luyenthicchn.btinvest.vn/?src=video · Hotline/Zalo 0942 037 820
 - **Hình ảnh:** quay màn hình trang web, cảnh làm bài thi thử và xem giải thích.
 
 ---

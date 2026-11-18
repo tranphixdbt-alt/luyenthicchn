@@ -14,4 +14,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://luyenthicchn-dist.vercel.app/sitemap.xml
+Sitemap: https://luyenthicchn.btinvest.vn/sitemap.xml

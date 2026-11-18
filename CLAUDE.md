@@ -1,6 +1,6 @@
 # BT-INVEST – trang luyện thi CCHN chứng khoán
 
-Trang: https://luyenthicchn-dist.vercel.app (Vercel tự triển khai `web/dist` khi đẩy lên `main`). Trả lời người dùng bằng tiếng Việt.
+Trang: https://luyenthicchn.btinvest.vn (tên miền cũ luyenthicchn-dist.vercel.app chuyển tiếp sang; Vercel tự triển khai `web/dist` khi đẩy lên `main`). Trả lời người dùng bằng tiếng Việt.
 
 ## Khi người dùng gửi tài liệu (Word, PDF, slide, bộ câu hỏi…): tự làm đủ quy trình, không cần hỏi lại
 

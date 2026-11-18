@@ -4,7 +4,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 dist = root / "dist"; dist.mkdir(exist_ok=True)
-SITE = os.environ.get("SITE_URL", "https://luyenthicchn-dist.vercel.app").rstrip("/")   # dùng cho ảnh xem trước khi chia sẻ link
+SITE = os.environ.get("SITE_URL", "https://luyenthicchn.btinvest.vn").rstrip("/")   # dùng cho ảnh xem trước khi chia sẻ link
 frag = (root / "index.html").read_text(encoding="utf-8")
 app = (root / "app.js").read_text(encoding="utf-8")
 head, body = frag.split("</style>", 1)
@@ -142,5 +142,8 @@ Tính năng: thi thử tính giờ theo cấu trúc từng chứng chỉ (phần
 
 ## Đề mẫu từng môn
 """ + "".join(f"- [Môn {n}]({SITE}/on-thi/{s}/)\n" for s, n in SUBJ.values()) + "\n## Ôn nhanh\n" + "".join(f"- [{d}]({SITE}/on-tap/{s}/)\n" for s, _, d in NOTES), encoding="utf-8")
+# tên miền cũ: chuyển hẳn (308) các trang tĩnh sang tên miền mới để Google chuyển thứ hạng; trang chính "/" tự chuyển bằng app.js (cần mang theo tiến độ trong trình duyệt)
+(dist / "vercel.json").write_text(json.dumps({"redirects": [{"source": "/:p(on-thi|on-tap|hoi-dap-thi-cchn|sitemap.xml|robots.txt|llms.txt)/:rest*", "has": [{"type": "host", "value": "luyenthicchn-dist.vercel.app"}],
+    "destination": f"{SITE}/:p/:rest*", "permanent": True}]}, indent=1), encoding="utf-8")
 assert all((dist / u / "index.html").exists() for u in urls if u), "thiếu trang tĩnh"
 print("trang tĩnh:", len(urls) - 1, "+ sitemap.xml, robots.txt")
